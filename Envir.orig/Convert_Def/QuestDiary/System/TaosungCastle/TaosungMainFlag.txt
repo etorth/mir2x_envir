@@ -1,0 +1,45 @@
+[Convert]
+Msg0 = '<$GUILD>' 行会占领了沙漠土城。
+Msg1 = 从现在开始3分钟内不能抢夺旗帜。
+Msg2 = 夺旗准备中： □□□□□□□□□□ 0%。
+Msg3 = 夺旗准备中： ■□□□□□□□□□ 10%。
+Msg4 = 夺旗准备中： ■■□□□□□□□□ 20%。
+Msg5 = 夺旗准备中： ■■■□□□□□□□ 30%。
+Msg6 = 夺旗准备中： ■■■■□□□□□□ 40%。
+Msg7 = 夺旗准备中： ■■■■■□□□□□ 50%。
+Msg8 = 夺旗准备中： ■■■■■■□□□□ 60%。
+Msg9 = 夺旗准备中： ■■■■■■■□□□ 70%。
+Msg10 = 夺旗准备中： ■■■■■■■■□□ 80%。
+Msg11 = 夺旗准备中： ■■■■■■■■■□ 90%。
+Msg12 = 夺旗准备中： ■■■■■■■■■■ 100%。
+Msg13 = 从现在开始可以抢夺旗帜了。
+
+[@Convert_TaosungMainFlag_0]
+{
+_{FCOLOR/10}沙漠土城城主{FCOLOR/12}\ \
+_{FCOLOR/1}<$CS_TAOSUNG_OWNER>{FCOLOR/12}的旗帜\
+}
+
+[@Convert_TaosungMainFlag_1]
+{
+_{FCOLOR/10}沙漠土城城主{FCOLOR/12}\ \
+_{FCOLOR/1}'<$CS_TAOSUNG_OWNER>'{FCOLOR/12}的旗帜\ \
+
+}
+
+[@Convert_TaosungMainFlag_2]
+{
+_目前不能夺取沙漠土城旗帜。\ \
+}
+
+[@Convert_TaosungMainFlag_3]
+{
+_{FCOLOR/10}沙漠土城城主{FCOLOR/12}\ \
+_{FCOLOR/1}'<$CS_TAOSUNG_OWNER>'{FCOLOR/12}的旗帜\ \
+
+}
+
+[@Convert_TaosungMainFlag_4]
+{
+沙漠土城旗帜已经属于你们。\ \
+}

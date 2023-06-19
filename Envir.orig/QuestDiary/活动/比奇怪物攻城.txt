@@ -1,0 +1,248 @@
+;;=网游私服基地商业版本 http://www.NFmir.com=
+[@比奇攻城_1]
+{
+#ACT
+lineMsg [Grobal] "〖注意〗比奇城怪物攻城即将开始，10分钟后怪物将对比奇城发起攻击！！！" 
+Eventmsg Grobal "〖注意〗比奇城怪物攻城即将开始，10分钟后怪物将对比奇城发起攻击！！！" 10004 
+Delaygoto [Grobal] 30 @speak111 
+break 
+
+[@speak111] 
+#ACT 
+Eventmsg Grobal "志愿加入比奇城护城的勇士们还不快赶回来，来晚了******！！！" 10004 
+lineMsg [Grobal] "志愿加入比奇城护城的勇士们还不快赶回来，来晚了******！！！"
+Delaygoto [Grobal] 30 @speak211 
+
+[@speak211] 
+#ACT 
+Eventmsg Grobal "据探子消息，这次怪物总共来了三批，他们将分三次进比奇城！！！" 10004 
+lineMsg [Grobal] "据探子消息，这次怪物总共来了三批，他们将分三次进比奇城！！！"
+Delaygoto [Grobal] 120 @speak311
+
+[@speak311] 
+#ACT 
+Eventmsg Grobal "过去3分钟了，比奇城护城勇士来了多少了！！！" 10004 
+lineMsg [Grobal] "过去3分钟了，比奇城护城勇士来了多少了！！！"
+Delaygoto [Grobal] 120 @speak411 
+
+[@speak411] 
+#ACT 
+Eventmsg Grobal "过去5分钟了，勇士们抓紧布置比奇城防御工事啊！！！" 10004 
+lineMsg [Grobal]   "过去5分钟了，勇士们抓紧布置比奇城防御工事啊！！！"
+Delaygoto [Grobal] 180 @speak5111 
+
+[@speak5111] 
+#ACT 
+Eventmsg Grobal "再过2分钟了，怪物就到比奇城了，大家各就各位！！！" 10004 
+lineMsg [Grobal]   "再过2分钟了，怪物就到比奇城了，大家各就各位！！！"
+Delaygoto [Grobal] 120 @Next11111 
+
+[@Next11111] 
+#ACT 
+MongenP "0,403,345,20" 蜈蚣 15
+MongenP "0,403,345,20" 大老鼠 15
+MongenP "0,403,345,20" 地牢女神1 15
+MongenP "0,403,345,20" 毒蜘蛛 15
+MongenP "0,403,345,20" 火焰沃玛 15
+MongenP "0,403,345,20" 僵尸4 15
+MongenP "0,403,345,20" 骷髅弓箭手 15
+MongenP "0,403,345,20" 蚂蚁战士 15
+MongenP "0,403,345,20" 潘夜风魔 15
+
+MongenP "0,496,439,20" 蜈蚣 15
+MongenP "0,496,439,20" 大老鼠 15
+MongenP "0,496,439,20" 地牢女神2 15
+MongenP "0,496,439,20" 毒蜘蛛 15
+MongenP "0,496,439,20" 火焰沃玛 15
+MongenP "0,496,439,20" 僵尸2 15
+MongenP "0,496,439,20" 骷髅弓箭手 15
+MongenP "0,496,439,20" 蚂蚁战士 15
+MongenP "0,496,439,20" 潘夜风魔 15
+
+ApplyMonMission "0,403,345,120" "蜈蚣" "0,454,398"
+ApplyMonMission "0,403,345,120" "大老鼠" "0,454,398"
+ApplyMonMission "0,403,345,120" "地牢女神1" "0,454,398"
+ApplyMonMission "0,403,345,120" "毒蜘蛛" "0,454,398"
+ApplyMonMission "0,403,345,120" "火焰沃玛" "0,454,398"
+ApplyMonMission "0,403,345,120" "僵尸4" "0,454,398"
+ApplyMonMission "0,403,345,120" "骷髅弓箭手" "0,454,398"
+ApplyMonMission "0,403,345,120" "蚂蚁战士" "0,454,398"
+ApplyMonMission "0,403,345,120" "潘夜风魔" "0,454,398"
+
+ApplyMonMission "0,496,439,120" "蜈蚣" "0,454,398"
+ApplyMonMission "0,496,439,120" "大老鼠" "0,454,398"
+ApplyMonMission "0,496,439,120" "地牢女神2" "0,454,398"
+ApplyMonMission "0,496,439,120" "毒蜘蛛" "0,454,398"
+ApplyMonMission "0,496,439,120" "火焰沃玛" "0,454,398"
+ApplyMonMission "0,496,439,120" "僵尸2" "0,454,398"
+ApplyMonMission "0,496,439,120" "骷髅弓箭手" "0,454,398"
+ApplyMonMission "0,496,439,120" "蚂蚁战士" "0,454,398"
+ApplyMonMission "0,496,439,120" "潘夜风魔" "0,454,398"
+
+Eventmsg Grobal "第一波攻城怪物向比奇城发起了攻击，大家小心应付！！！" 10005
+lineMsg [Grobal]   "第一波攻城怪物向比奇城发起了攻击，大家小心应付！！！"
+Delaygoto [Grobal] 150 @biqiguaiwu111
+
+
+[@biqiguaiwu111]
+#ACT
+Eventmsg Grobal "攻城怪物太厉害，比奇护城勇士尸横遍地，需要紧急支援！！！" 10005
+lineMsg [Grobal]   "攻城怪物太厉害，比奇护城勇士尸横遍地，需要紧急支援！！！！"
+Delaygoto [Grobal] 150 @Next22211 
+
+
+
+[@Next22211]
+#ACT
+Delaygoto [Grobal] 10 @Nextbiqi
+ClearItemMap "0,432,378, 45"  *
+
+[@Nextbiqi]
+#ACT 
+MongenP "0,403,345,20" 八脚首领 1
+MongenP "0,403,345,20" 大法老 1
+MongenP "0,403,345,20" 疯狂魔神盗 1
+MongenP "0,403,345,20" 骨鬼将 1
+MongenP "0,403,345,20" 护法天 1
+MongenP "0,403,345,20" 骷髅精灵 1
+MongenP "0,403,345,20" 蚂蚁将军 1
+MongenP "0,403,345,20" 诺玛突击队长 1
+MongenP "0,403,345,20" 潘夜鬼将 1
+MongenP "0,403,345,20" 尸王 1
+MongenP "0,403,345,20" 沃玛护卫 1
+MongenP "0,403,345,20" 邪恶钳虫 1
+MongenP "0,403,345,20" 震天首将 1
+
+MongenP "0,492,431,20" 八脚首领 1
+MongenP "0,492,431,20" 大法老 1
+MongenP "0,492,431,20" 疯狂魔神盗 1
+MongenP "0,492,431,20" 骨鬼将 1
+MongenP "0,492,431,20" 护法天 1
+MongenP "0,492,431,20" 骷髅精灵 1
+MongenP "0,492,431,20" 蚂蚁将军 1
+MongenP "0,492,431,20" 诺玛突击队长 1
+MongenP "0,492,431,20" 潘夜鬼将 1
+MongenP "0,492,431,20" 尸王 1
+MongenP "0,492,431,20" 沃玛护卫 1
+MongenP "0,492,431,20" 邪恶钳虫 1
+MongenP "0,492,431,20" 震天首将 1
+
+MongenP "0,492,431,20" 爆毒神魔 6
+MongenP "0,492,431,20" 海神将领 6
+MongenP "0,492,431,20" 红衣法师 10
+MongenP "0,492,431,20" 潘夜右护卫 15
+MongenP "0,492,431,20" 祖玛卫士 15
+MongenP "0,492,431,20" 触角神魔 10
+MongenP "0,492,431,20" 诺玛司令 10
+MongenP "0,492,431,20" 潘夜冰魔 16
+MongenP "0,492,431,20" 沙漠鱼魔 16
+MongenP "0,492,431,20" 沃玛勇士 16
+
+MongenP "0,403,345,20" 爆毒神魔 6
+MongenP "0,403,345,20" 海神将领 6
+MongenP "0,403,345,20" 红衣法师 10
+MongenP "0,403,345,20" 潘夜右护卫 16
+MongenP "0,403,345,20" 祖玛卫士 16
+MongenP "0,403,345,20" 触角神魔 10
+MongenP "0,403,345,20" 诺玛司令 10
+MongenP "0,403,345,20" 潘夜冰魔 16
+MongenP "0,403,345,20" 沙漠鱼魔 16
+MongenP "0,403,345,20" 沃玛勇士 16
+
+ApplyMonMission "0,403,345,120" "爆毒神魔" "0,454,398"
+ApplyMonMission "0,403,345,120" "海神将领" "0,454,398"
+ApplyMonMission "0,403,345,120" "红衣法师" "0,454,398"
+ApplyMonMission "0,403,345,120" "潘夜右护卫" "0,454,398"
+ApplyMonMission "0,403,345,120" "祖玛卫士" "0,454,398"
+ApplyMonMission "0,403,345,120" "触角神魔" "0,454,398"
+ApplyMonMission "0,403,345,120" "诺玛司令" "0,454,398"
+ApplyMonMission "0,403,345,120" "潘夜冰魔" "0,454,398"
+ApplyMonMission "0,403,345,120" "沙漠鱼魔" "0,454,398"
+ApplyMonMission "0,403,345,120" "沃玛勇士" "0,454,398"
+
+ApplyMonMission "0,403,345,120" "八脚首领" "0,454,398"
+ApplyMonMission "0,403,345,120" "大法老" "0,454,398"
+ApplyMonMission "0,403,345,120" "疯狂魔神盗" "0,454,398"
+ApplyMonMission "0,403,345,120" "骨鬼将" "0,454,398"
+ApplyMonMission "0,403,345,120" "护法天" "0,454,398"
+ApplyMonMission "0,403,345,120" "骷髅精灵" "0,454,398"
+ApplyMonMission "0,403,345,120" "蚂蚁将军" "0,454,398"
+ApplyMonMission "0,403,345,120" "玛突击队长" "0,454,398"
+ApplyMonMission "0,403,345,120" "潘夜鬼将" "0,454,398"
+ApplyMonMission "0,403,345,120" "尸王" "0,454,398"
+ApplyMonMission "0,403,345,120" "沃玛护卫" "0,454,398"
+ApplyMonMission "0,403,345,120" "邪恶钳虫" "0,454,398"
+ApplyMonMission "0,403,345,120" "震天首将" "0,454,398"
+
+	ApplyMonMission "0,492,431,9999" "八脚首领" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "大法老" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "疯狂魔神盗" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "骨鬼将" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "护法天" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "骷髅精灵" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "蚂蚁将军" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "诺玛突击队长" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "潘夜鬼将" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "尸王" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "沃玛护卫" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "邪恶钳虫" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "震天首将" "0,454,398"
+
+	ApplyMonMission "0,492,431,9999" "爆毒神魔" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "海神将领" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "红衣法师" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "潘夜右护卫" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "祖玛卫士" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "触角神魔" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "诺玛司令" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "潘夜冰魔" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "沙漠鱼魔" "0,454,398"
+	ApplyMonMission "0,492,431,9999" "沃玛勇士" "0,454,398"
+Eventmsg Grobal "第二波攻城怪物向比奇城发起了攻击，大家顶住啊！！！" 10004
+lineMsg [Grobal]  "第二波攻城怪物向比奇城发起了攻击，大家顶住啊！！！" 
+Delaygoto [Grobal] 180 @biqiguaiwu222
+
+
+[@biqiguaiwu222]
+#ACT
+Eventmsg Grobal "攻城怪物太多了，比奇护城勇士尸横遍地，需要紧急支援！！！" 10005
+lineMsg [Grobal]   "攻城怪物太多了，比奇护城勇士尸横遍地，需要紧急支援！！！！"
+Delaygoto [Grobal] 180 @Next311q
+
+
+[@Next311q] 
+#ACT
+Delaygoto [Grobal] 20 @Next333300
+ClearItemMap "0,432,378, 45"  *
+
+[@Next333300]
+#ACT 
+MongenP "0,405,428,20" 震天魔神 1
+MongenP "0,405,428,20" 潘夜牛魔王 1
+MongenP "0,405,428,20" 骷髅教主 1
+MongenP "0,405,428,20" 沃玛教主 1
+MongenP "0,405,428,20" 霸王教主 1
+MongenP "0,405,428,20" 诺玛突击队长 1
+MongenP "0,405,428,20" 霸王守卫 1
+MongenP "0,405,428,20" 诺玛教主 1
+MongenP "0,405,428,20" 祖玛教主 1
+
+	ApplyMonMission "0,405,428,9999" "震天魔神" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "潘夜牛魔王" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "骷髅教主" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "沃玛教主" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "霸王教主" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "诺玛突击队长" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "霸王守卫" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "诺玛教主" "0,454,398"
+	ApplyMonMission "0,405,428,9999" "祖玛教主" "0,454,398"
+Eventmsg Grobal "最后一波敌人向比奇城发起了疯狂的总攻，坚持啊。。现在还不知道怪物有没有援兵。。。。。。" 10004 
+lineMsg [Grobal]   "最后一波敌人向比奇城发起了疯狂的总攻，坚持啊。。现在还不知道怪物有没有援兵。。。。。。" 
+Delaygoto [Grobal] 1800 @完毕了
+
+[@完毕了]
+#ACT
+Eventmsg Grobal "经过了英雄们的努力！比奇城又恢复了昔日的平静" 10004 
+lineMsg [Grobal]   "经过了英雄们的努力！比奇城又恢复了昔日的平静" 
+}
+;;=网游私服基地商业版本 http://www.NFmir.com=

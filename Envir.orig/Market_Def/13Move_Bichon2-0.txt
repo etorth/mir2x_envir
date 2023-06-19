@@ -1,0 +1,4 @@
+;;13Move_Bichon2-0.txt
+[@main]
+#CALL [teleport\BiChonTele.txt] @Bichon_Teleport_East
+

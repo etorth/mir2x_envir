@@ -1,0 +1,34 @@
+[Convert]
+
+[@Convert_StoneNpcbox1_0]
+{
+(好像有结界，有种碰它不行的感觉这到底是什么感觉呢?) \ \
+
+
+
+}
+
+[@Convert_StoneNpcbox1_1]
+{
+(好像有结界，等一会儿再试试吧。) \ \
+
+}
+
+[@Convert_StoneNpcbox1_2]
+{
+(好像在我头中回荡的这个声音是...) \ \
+}
+
+[@Convert_StoneNpcbox1_3]
+{
+还是先听祭祀长说什么吧... \ \
+<关  闭/@Exit>
+
+}
+
+[@Convert_StoneNpcbox1_4]
+{
+这回进入影魅之刃的房间做你要做的吧...\ \
+<回村庄。/@StoneNpcbox1_Talk_5>
+
+}

@@ -1,0 +1,14 @@
+;;GEvent_01.txt
+[0]
+Open =
+[00]
+Open =
+
+[01]
+Open =
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;
+[OneDay]
+Eventgen =
+

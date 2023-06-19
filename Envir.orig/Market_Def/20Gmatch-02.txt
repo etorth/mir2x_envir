@@ -1,0 +1,3 @@
+;;20Gmatch-02.txt
+[@main]
+#CALL [\Event\Guild\Gmatch.txt] @GmatchMain

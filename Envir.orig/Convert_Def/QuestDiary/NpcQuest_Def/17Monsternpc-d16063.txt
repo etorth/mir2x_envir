@@ -1,0 +1,10 @@
+[Convert]
+
+[@Convert_17Monsternpc-d16063_0]
+{
+来这儿做什么？……出去……再待在这儿就不放过你。\ \
+<到村子去。/@MonsterNpc1_Talk0_1>
+<关 闭/@Exit>
+
+
+}

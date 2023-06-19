@@ -1,0 +1,4 @@
+;;20HorseRace_Flag-3.txt
+[@main]
+#SAY
+	#INCLUDE [..\Convert_Def\Market_Def\20HorseRace_Flag-3.txt] @NPC_Main

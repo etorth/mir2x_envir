@@ -1,0 +1,142 @@
+;;²»ÒªÉ¾µô´ËÐÐ
+[@Samak_CastleMaster_Login]
+{
+#IF
+#ACT
+Mov A0 %USERMAP
+
+#IF
+Equal A0 "D1901"
+#ACT
+goto @Samak_CastleMasterCheck
+break
+
+#IF
+Equal A0 "D1902"
+#ACT
+goto @Samak_CastleMasterCheck
+break
+
+#IF
+Equal A0 "D1903"
+#ACT
+Delaygoto [Local] 60 @Samak_CastleMaster_Login
+break
+
+#ELSEACT
+Delaygoto [Local] 60 @Samak_CastleMaster_Login
+
+[@Samak_CastleMasterCheck]
+#IF
+IsAdmin
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Login.txt] [Convert] [Msg0]
+sysmsg %A7
+
+#IF
+IsAdmin
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Login.txt] [Convert] [Msg1]
+sysmsg %A7
+
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+Mov A8 %A9
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A8 "FLD_SAMAKGUILD,FLD_SAMAKGUILDMASTER,FLD_SAMAKCONDITION,FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_Login_Read]
+
+[@Samak_Login_Read()]
+#IF
+#ACT
+Mov A0 %ARG(1)
+Mov A1 %ARG(2)
+Mov A2 %ARG(3)
+Mov D1 %ARG(4)
+Mov D2 %ARG(5)
+
+#IF
+Equal A0 %GUILDNAME
+Equal A1 %USERNAME
+Equal A2 "Ready"
+Equal D1 4
+Equal D2 1
+#ACT
+goto @Samak_NumasInvasion
+break
+
+#IF
+Equal A0 %GUILDNAME
+Equal A1 %USERNAME
+Equal A2 "Ready"
+Small D1 4
+#ACT
+Delaygoto [Local] 60 @Samak_CastleMaster_Login
+break
+
+#IF
+Equal A0 %GUILDNAME
+Equal A1 %USERNAME
+Equal A2 "Ready"
+Equal D1 4
+!Equal D2 1
+#ACT
+break
+
+#ELSEACT
+break
+
+[@Samak_NumasInvasion]
+#IF
+#ACT
+Mov A0 %USERMAP
+Mov A1 %USERX
+Mov A2 %USERY
+
+FormatStr "%s,%s,%s,10" %A0 %A1 %A2
+Mov A5 %A9
+goto @Samak_NumasInvasion_Gen
+
+[@Samak_NumasInvasion_Gen]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Login.txt] [Convert] [Msg2]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Local] 240 @Samak_CastleMaster_Login
+Movr D0 5
+
+#IF
+Equal D0 0
+#ACT
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂêÆï±ø 3
+break
+
+#IF
+Equal D0 1
+#ACT
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂêË¾Áî 3
+break
+
+#IF
+Equal D0 2
+#ACT
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂê×°¼×±ø 3
+break
+
+#IF
+Equal D0 3
+#ACT
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂêÆï±ø 3
+break
+
+#ELSEACT
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂê¸«±ø 3
+
+
+}
+;;²»ÒªÉ¾µô´ËÐÐ

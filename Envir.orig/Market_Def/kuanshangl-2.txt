@@ -1,0 +1,3 @@
+;;;;;;;;;;;;;;;;;;;
+[@main]
+#CALL [CastleWar\Õ¼Áì¿óÉ½.txt] @SnakeVallyWar

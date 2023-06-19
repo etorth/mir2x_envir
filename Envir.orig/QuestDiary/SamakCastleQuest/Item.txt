@@ -1,0 +1,28 @@
+;;不要删掉此行
+[@Samak_Item_Main]
+{
+#ACT
+SetItemEvent 3 18 @Samak_Item_Check
+
+[@Samak_Item_Check]
+#IF
+IsGuildMaster
+#ACT
+goto @Samak_Item_Master
+break
+
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Item.txt] @Convert_Item_0
+
+[@Samak_Item_Master]
+#IF
+#ACT
+Mov A0 %USERMAP
+Mov A1 %USERX
+Mov A2 %USERY
+FormatStr "%s,%s,%s,10" %A0 %A1 %A2
+MakeHealZone %A9 10 50 [GUILD]
+
+}
+;;不要删掉此行

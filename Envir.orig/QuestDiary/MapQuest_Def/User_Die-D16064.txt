@@ -1,0 +1,15 @@
+;;不要删掉此行
+
+[@Main]
+#IF
+check [207] 1
+checkitem 寂幻之刃 1
+#ACT
+goto @MadoHaveDie1_1_0
+break
+#ELSEACT
+break
+
+[@MadoHaveDie1_1_0]
+#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveDie1_1
+;;不要删掉此行

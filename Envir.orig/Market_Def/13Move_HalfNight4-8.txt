@@ -1,0 +1,3 @@
+;;13Move_HalfNight4-8.txt
+[@main]
+#CALL [\\teleport\VanyaTele.txt] @HalfNight_Cave

@@ -1,0 +1,13 @@
+;;不要删掉此行
+[@main]
+#ACT
+goto @zahahonQuest_open
+break
+
+
+[@zahahonQuest_open]
+#CALL [NpcQuest_Def\17Zaha_Numa-41.txt] @NPCQuest_Check
+
+[@everythingreward]
+#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

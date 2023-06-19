@@ -1,0 +1,13 @@
+;;不要删掉此行
+[@main]
+#ACT
+goto @NumaMidBoss2_open
+break
+
+
+[@NumaMidBoss2_open]
+#CALL [NpcQuest_Def\17NumaMidBoss2-npcroom1.txt] @NPCQuest_Check
+
+[@everythingreward]
+#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

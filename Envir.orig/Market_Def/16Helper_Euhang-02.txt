@@ -1,0 +1,10 @@
+;;16Helper_Euhang-02.txt
+[@main]
+#IF
+#SAY
+	#INCLUDE [..\Convert_Def\Market_def\16Helper_Euhang-02.txt] @NPC_Main
+
+[@main_1]
+#IF
+#SAY
+	#INCLUDE [..\Convert_Def\Market_def\16Helper_Euhang-02.txt] @NPC_Main_1

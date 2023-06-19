@@ -1,0 +1,203 @@
+;;不要删掉此行
+[@TotalRewardSystem]
+{
+#ACT
+Mov A8 ""
+FormatStr "FLD_NAME='%s' and FLD_COND1=%s and " %A0 %D0
+Mov A8 %A9
+FormatStr "FLD_COND2=%s and FLD_COND3=%s" %D1 %D2
+AddStr A8 %A9
+ReadValueSql "TBL_MainQuestReward" %A8 "FLD_REWORD1NAME,FLD_REWORD1AMOUNT,FLD_REWORD2NAME,FLD_REWORD2AMOUNT" [@TotalRewardSystem_Setting_Pre]
+
+[@TotalRewardSystem_Setting_Pre()]
+#ACT
+Mov A3 %ARG(1)
+Mov D3 %ARG(2)
+Mov A4 %ARG(3)
+Mov D4 %ARG(4)
+Mov A8 ""
+FormatStr "FLD_NAME='%s' and FLD_COND1=%s and " %A0 %D0bb
+Mov A8 %A9
+FormatStr "FLD_COND2=%s and FLD_COND3=%s" %D1 %D2
+AddStr A8 %A9
+ReadValueSql "TBL_MainQuestReward" %A8 "FLD_REWORD3NAME,FLD_REWORD3AMOUNT,FLD_REWORDFAME" [@TotalRewardSystem_Setting]
+
+
+[@TotalRewardSystem_Setting()]
+#ACT
+Mov A5 %ARG(1)
+Mov D5 %ARG(2)
+Mov D6 %ARG(3)
+#IF
+!Equal D6 0
+Checkfame
+#ACT
+inc P9 %D6
+SetFame %P9
+LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg0]
+SysMsg %A7
+LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg1]
+SysMsg %A7
+
+#IF
+ISADMIN
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg2]
+sysmsg %A7
+
+#IF
+#ACT
+goto @TotalRewardSystem_Setting_1Step
+
+
+[@TotalRewardSystem_Setting_1Step]
+#IF
+Equal A3 "NULL"
+#ACT
+break
+
+#IF
+Equal A3 "ExpMap"
+#ACT
+GiveExpMap %USERMAP %D3
+goto @TotalRewardSystem_Setting_2Step
+break
+
+#IF
+Equal A3 "Exp"
+#ACT
+GiveExp %USERNAME %D3
+goto @TotalRewardSystem_Setting_2Step
+break
+
+#IF
+Equal A3 "Money"
+#ACT
+Give 金币 %D3
+goto @TotalRewardSystem_Setting_2Step
+break
+
+#IF
+!Equal A3 "Exp"
+!Equal A3 "ExpMap"
+!Equal A3 "Money"
+Large D3 10000
+#ACT
+Dec D3 10000
+monrecall %A3 %D3 0
+goto @TotalRewardSystem_Setting_2Step
+break
+
+
+#IF
+ISADMIN
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg3]
+sysmsg %A7
+
+#IF
+#ACT
+Give %A3 %D3
+goto @TotalRewardSystem_Setting_2Step
+break
+
+
+[@TotalRewardSystem_Setting_2Step]
+#IF
+Equal A4 "NULL"
+#ACT
+break
+
+#IF
+Equal A4 "Exp"
+#ACT
+GiveExp %USERNAME %D4
+goto @TotalRewardSystem_Setting_3Step
+break
+
+#IF
+Equal A4 "ExpMap"
+#ACT
+GiveExpMap %USERMAP %D4
+goto @TotalRewardSystem_Setting_3Step
+break
+
+#IF
+Equal A4 "Money"
+#ACT
+Give 金币 %D4
+goto @TotalRewardSystem_Setting_3Step
+break
+
+#IF
+!Equal A4 "Exp"
+!Equal A4 "ExpMap"
+!Equal A4 "Money"
+Large D4 10000
+#ACT
+Dec D4 10000
+monrecall %A4 %D4 0
+goto @TotalRewardSystem_Setting_3Step
+break
+
+#IF
+ISADMIN
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg4]
+sysmsg %A7
+
+#IF
+#ACT
+Give %A4 %D4
+goto @TotalRewardSystem_Setting_3Step
+break
+
+
+[@TotalRewardSystem_Setting_3Step]
+#IF
+Equal A5 "NULL"
+#ACT
+break
+
+#IF
+Equal A5 "Exp"
+#ACT
+GiveExp %USERNAME %D5
+break
+
+#IF
+Equal A5 "ExpMap"
+#ACT
+GiveExpMap %USERMAP %D5
+break
+
+#IF
+Equal A5 "Money"
+#ACT
+Give 金币 %D5
+break
+
+#IF
+!Equal A5 "Exp"
+!Equal A5 "Money"
+!Equal A5 "ExpMap"
+Large D5 10000
+#ACT
+Dec D5 10000
+monrecall %A5 %D5 0
+break
+
+
+#IF
+ISADMIN
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg5]
+sysmsg %A7
+
+#IF
+#ACT
+Give %A5 %D5
+break
+
+}
+;;不要删掉此行

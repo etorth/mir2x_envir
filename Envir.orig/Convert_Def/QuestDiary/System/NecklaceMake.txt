@@ -1,0 +1,120 @@
+[Convert]
+
+[@Convert_NecklaceMake_0]
+{
+真棒！终于凑齐了魔石的碎片。你想制造什么样的项链？我只收你材料费200万。\\
+<血花落照/@madomake_Accessory_A>\
+<黑天暗云/@madomake_Accessory_B>\
+<九宫云雾/@madomake_Accessory_C>\
+<万里碧海/@madomake_Accessory_D>
+
+}
+
+[@Convert_NecklaceMake_1]
+{
+<准备制造血花落照，你决定好了吗？/@madomake_Accessory_A_1>
+}
+
+[@Convert_NecklaceMake_2]
+{
+你还没准备齐全呢。需要{FCOLOR/10}血花落照（血）、血花落照（花）、血花落照（落）、血花落照（照）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+
+}
+
+[@Convert_NecklaceMake_3]
+{
+用我们诺玛族的秘方，帮你修复项链。\
+做好了……这可是珍宝啊。\ \
+<关 闭/@Exit>
+}
+
+[@Convert_NecklaceMake_4]
+{
+你还没准备齐全呢。需要{FCOLOR/10}血花落照（血）、血花落照（花）、血花落照（落）、血花落照（照）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+
+
+
+
+}
+
+[@Convert_NecklaceMake_5]
+{
+<准备制造黑天暗云，你决定好了吗？/@madomake_Accessory_B_1>
+}
+
+[@Convert_NecklaceMake_6]
+{
+你还没准备齐全呢。需要{FCOLOR/10}黑天暗云（黑）、黑天暗云（天）、黑天暗云（暗）、黑天暗云（云）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+
+}
+
+[@Convert_NecklaceMake_7]
+{
+用我们诺玛族的秘方，帮你修复项链。\
+做好了……这可是珍宝啊。\ \
+<关 闭/@Exit>
+}
+
+[@Convert_NecklaceMake_8]
+{
+你还没准备齐全呢。需要{FCOLOR/10}黑天暗云（黑）、黑天暗云（天）、黑天暗云（暗）、黑天暗云（云）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+
+
+}
+
+[@Convert_NecklaceMake_9]
+{
+<准备制造九宫云雾，你决定好了吗？/@madomake_Accessory_C_1>
+}
+
+[@Convert_NecklaceMake_10]
+{
+你还没准备齐全呢。需要{FCOLOR/10}九宫云雾（九）、九宫云雾（宫）、九宫云雾（云）、九宫云雾（雾）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+
+}
+
+[@Convert_NecklaceMake_11]
+{
+用我们诺玛族的秘方，帮你修复项链。\
+做好了……这可是珍宝啊。\ \
+<关 闭/@Exit>
+}
+
+[@Convert_NecklaceMake_12]
+{
+你还没准备齐全呢。需要{FCOLOR/10}九宫云雾（九）、九宫云雾（宫）、九宫云雾（云）、九宫云雾（雾）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+
+
+
+}
+
+[@Convert_NecklaceMake_13]
+{
+<准备制造万里碧海，你决定好了吗？/@madomake_Accessory_D_1>
+}
+
+[@Convert_NecklaceMake_14]
+{
+你还没准备齐全呢。需要{FCOLOR/10}万里碧海（万）、万里碧海（里）、万里碧海（碧）、万里碧海（海）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+
+}
+
+[@Convert_NecklaceMake_15]
+{
+用我们诺玛族的秘方，帮你修复项链。\
+做好了……这可是珍宝啊。\ \
+<关 闭/@Exit>
+}
+
+[@Convert_NecklaceMake_16]
+{
+你还没准备齐全呢。需要{FCOLOR/10}万里碧海（万）、万里碧海（里）、万里碧海（碧）、万里碧海（海）{FCOLOR/12}各一个和200万的材料费。\ \
+<关 闭/@Exit>
+}

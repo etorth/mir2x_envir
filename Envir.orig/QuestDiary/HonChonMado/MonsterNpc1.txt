@@ -1,0 +1,414 @@
+;;不要删掉此行
+[@MonsterNpc1_Talk]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk1
+break
+#ELSEACT
+goto @MonsterNpc1_Talk0
+break
+
+
+[@MonsterNpc1_Talk1]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MonsterNpc1_Talk1_0]
+
+[@MonsterNpc1_Talk1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 12
+Equal D2 0
+Equal D3 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk2_13
+break
+
+
+#IF
+Equal D1 12
+Equal D2 0
+Equal D3 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk2_12
+break
+
+#IF
+Equal D1 11
+Equal D2 10
+Equal D3 1
+Checkitemw 寂幻之刃 1
+!checkmonmap D16063 毁灭之印大师 1
+#ACT
+goto @MonsterNpc1_Talk2_7
+break
+
+#IF
+Equal D1 11
+Equal D2 10
+Equal D3 1
+Checkitemw 寂幻之刃 1
+checkmonmap D16063 毁灭之印大师 1
+#ACT
+goto @MonsterNpc1_Talk2_6
+break
+
+#IF
+Equal D1 11
+Equal D2 9
+Equal D3 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk2_2
+break
+
+#IF
+Equal D1 11
+Equal D2 8
+Equal D3 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk2_10
+break
+
+#IF
+Equal D1 11
+Equal D2 8
+Equal D3 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk2_1
+break
+
+#IF
+Equal D1 10
+Equal D2 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk1_10
+break
+
+#IF
+Equal D1 9
+Equal D2 8
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk1_3_2
+break
+
+#IF
+Equal D1 9
+Equal D2 7
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MonsterNpc1_Talk1_4
+break
+
+
+#IF
+Equal D1 9
+Equal D2 6
+Checkitemw 寂幻之刃 1
+Checkitem 大族长角笛 1
+#ACT
+goto @MonsterNpc1_Talk1_1
+break
+
+
+
+#IF
+#ACT
+goto @MonsterNpc1_Talk0
+break
+
+[@MonsterNpc1_Talk0]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_0
+
+[@MonsterNpc1_Talk0_1]
+#ACT
+mapmove 4 456 77
+
+[@MonsterNpc1_Talk1_1]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_1
+
+[@MonsterNpc1_Talk1_2]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_2
+
+[@MonsterNpc1_Talk1_3]
+#IF
+Checkitem 神秘之印 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_3
+
+#ACT
+break
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_4
+
+#ELSEACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=9"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
+
+[@MonsterNpc1_Talk1_3_1]
+#IF
+checkitem 神秘之印 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_5
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=9"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_6
+
+#ELSEACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=9"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
+
+
+
+[@MonsterNpc1_Talk1_4]
+#IF
+checkitem 大族长角笛 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_7
+
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_8
+
+[@MonsterNpc1_Talk1_4_1]
+#IF
+checkitem 大族长角笛 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_9
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=0"
+take 大族长角笛 1
+GiveExp %USERNAME 50000
+DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
+break
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_10
+
+[@MonsterNpc1_Talk1_4_1]
+#IF
+checkitem 大族长角笛 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_11
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=1"
+take 大族长角笛 1
+GiveExp %USERNAME 50000
+DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
+break
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_12
+
+[@MonsterNpc1_Talk1_10]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_13
+
+[@MonsterNpc1_Talk1_3_2]
+#IF
+checkitem 大族长角笛 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_14
+
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_15
+
+[@MonsterNpc1_Talk1_3_3]
+#IF
+checkitem 大族长角笛 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_16
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=0"
+take 大族长角笛 1
+GiveExp %USERNAME 50000
+DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
+break
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_17
+
+#ELSEACT
+break
+
+
+[@MonsterNpc1_Talk1_3_4]
+#IF
+checkitem 大族长角笛 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_18
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=1"
+take 大族长角笛 1
+GiveExp %USERNAME 50000
+DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
+break
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_19
+
+#ELSEACT
+break
+
+[@MonsterNpc1_4_Event]
+#ACT
+mapmove 4 456 77
+
+
+[@MonsterNpc1_Talk2_1]
+#IF
+Checkitem 心石 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_20
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=11"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=9"
+take 心石 1
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_21
+
+[@MonsterNpc1_Talk2_2]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_22
+
+[@MonsterNpc1_Talk2_3]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_23
+
+[@MonsterNpc1_Talk2_4]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_24
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=11"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=10"
+DelayGoto [Grobal] 5 @MonsterNpc1_5_Event
+break
+
+[@MonsterNpc1_Talk2_5]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_25
+
+[@MonsterNpc1_5_Event]
+#ACT
+Mongenp "D16063,33,44,10" 诺玛司令 5
+ApplyMonEx "D16063,33,44,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+
+[@MonsterNpc1_Talk2_6]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_26
+
+[@MonsterNpc1_Talk2_7]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_27
+
+[@MonsterNpc1_Talk2_8]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_28
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
+give 大族长角笛 1
+give 心石 1
+
+[@MonsterNpc1_Talk2_9]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_29
+
+[@MonsterNpc1_Talk2_10]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
+give 大族长角笛 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_30
+
+[@MonsterNpc1_Talk2_12]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_31
+
+[@MonsterNpc1_Talk2_13]
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_32
+
+[@MonsterNpc1_Talk2_11]
+#ACT
+mapmove 41 149 84
+}
+;;不要删掉此行

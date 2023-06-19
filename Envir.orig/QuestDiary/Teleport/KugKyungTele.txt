@@ -1,0 +1,42 @@
+;;KugKyungTele.txt
+[@Kygkyung_Teleport_North]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\KugKyungTele.txt] @KugKyungTele_1
+
+#ELSEACT
+mapmove 81 125 274
+
+[@TelePortRootin()]
+#CALL [Teleport\MoveRootin.txt] @TelePortMove
+}
+
+[@Kygkyung_Teleport_West]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\KugKyungTele.txt] @KugKyungTele_2
+
+#ELSEACT
+mapmove 81 125 274
+
+[@TelePortRootin()]
+#CALL [Teleport\MoveRootin.txt] @TelePortMove
+}
+
+[@Kygkyung_Teleport_East]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\KugKyungTele.txt] @KugKyungTele_3
+
+#ELSEACT
+mapmove 81 125 274
+
+[@TelePortRootin()]
+#CALL [Teleport\MoveRootin.txt] @TelePortMove
+}

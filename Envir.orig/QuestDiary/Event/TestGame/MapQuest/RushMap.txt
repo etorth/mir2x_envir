@@ -1,0 +1,8 @@
+;;RushMap.txt
+[@RushMap]
+#IF
+checkhum 1_001 30
+#ACT
+enter_fail
+#ELSEACT
+enter_ok

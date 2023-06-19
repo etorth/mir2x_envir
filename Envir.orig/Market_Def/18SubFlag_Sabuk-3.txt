@@ -1,0 +1,8 @@
+;;18SubFlag_Sabuk-3.txt
+[@main]
+#CALL [\CastleWar\Flag.txt] @Defence_SubFlag
+
+[@_Startup]
+#ACT
+PasteFlag SABUK
+

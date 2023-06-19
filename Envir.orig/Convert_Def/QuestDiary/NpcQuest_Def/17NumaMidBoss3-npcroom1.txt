@@ -1,0 +1,8 @@
+[Convert]
+
+[@Convert_17NumaMidBoss3-npcroom1_0]
+{
+不要高兴得太早，今天你只是运气好而已……下次再碰到你，你就死定了。 \ \
+<关 闭/@exit>
+
+}

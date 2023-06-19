@@ -1,0 +1,139 @@
+;;不要删掉此行
+[@honchonmadoRoom_1]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @Madoroom_ok
+break
+
+
+#IF
+DAYOFWEEK MON
+HOUR 23 23
+#ACT
+goto @main_Day_ok
+break
+
+
+
+#IF
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_0
+
+#ACT
+Enter_fail
+
+[@main_Day_ok]
+#IF
+Checkhum D1606 1
+#ACT
+break
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_1
+
+#ELSEACT
+goto @main_Day_ok1
+break
+
+
+[@main_Day_ok1]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@main_Day_ok_0]
+
+[@main_Day_ok_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 7
+Equal D2 1
+Equal D3 1
+#ACT
+goto @main_Day_ok_1
+break
+
+#IF
+Equal D1 6
+Equal D2 3
+Equal D3 1
+#ACT
+goto @main_Day_ok_1
+break
+
+
+#IF
+Equal D1 6
+Equal D2 3
+Equal D3 0
+#ACT
+goto @main_Day_ok_1
+break
+
+#IF
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_2
+
+#ACT
+Enter_fail
+
+[@main_Day_ok_1]
+#IF
+Checkitem 毁灭之印 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_3
+
+#ACT
+Enter_fail
+#ELSEACT
+Enter_fail
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_4
+
+[@main_Day_ok_2]
+#ACT
+GroupMove "D16062,37,48" %USERNAME
+
+[@main_Day_ok_3]
+#ACT
+MAPMOVE D16062 37 48
+
+
+
+
+[@Madoroom_ok]
+#IF
+Checkitemw 寂幻之刃 1
+!checkhum D1606 1
+
+#SAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_5
+
+#ACT
+Enter_fail
+#ELSEACT
+Enter_fail
+
+#ELSESAY
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_6
+
+[@Madoroom_ok_2]
+#ACT
+GroupMove "D1606,37,48" %USERNAME
+
+[@Madoroom_ok_3]
+#IF
+#ACT
+MAPMOVE D1606 37 48
+
+}
+;;不要删掉此行

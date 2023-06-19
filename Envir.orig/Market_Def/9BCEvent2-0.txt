@@ -1,0 +1,3 @@
+;;9BCEvent2-0.txt
+[@main]
+#CALL [\附加功能\礼品发放.txt] @point720

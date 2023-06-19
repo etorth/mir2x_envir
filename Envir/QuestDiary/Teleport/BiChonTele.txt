@@ -10,7 +10,7 @@
 mapmove 81 125 274
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }
 
 [@Bichon_Teleport_East]
@@ -25,7 +25,7 @@ mapmove 81 125 274
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }
 
 [@Bichon_Teleport_North]
@@ -40,7 +40,7 @@ mapmove 81 125 274
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }
 
 [@Bichon_Teleport_West]
@@ -55,5 +55,5 @@ mapmove 81 125 274
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }

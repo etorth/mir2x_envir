@@ -21,5 +21,5 @@ mapmove 8 288 242
 
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ÀÌµ¿ ·çÆ¾
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; ÀÌµ¿ ·çÆ¾
 }

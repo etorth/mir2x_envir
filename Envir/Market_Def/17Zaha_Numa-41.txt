@@ -6,8 +6,8 @@ break
 
 
 [@zahahonQuest_open]
-#CALL [NpcQuest_Def\17Zaha_Numa-41.txt] @NPCQuest_Check
+#CALL [QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @NPCQuest_Check
 
 [@everythingreward]
-#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
 ;;不要删掉此行

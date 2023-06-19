@@ -55,7 +55,7 @@ goto @main_0_0
 
 
 [@Quest_1]
-#CALL [\NQ_BASE\younghon.txt] @ST_HON_YORYUNG_1
+#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_YORYUNG_1
 
 [@Quest_2]
-#CALL [\NQ_BASE\younghon.txt] @ST_HON_YORYUNG_2
+#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_YORYUNG_2

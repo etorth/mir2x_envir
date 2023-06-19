@@ -54,19 +54,19 @@ break
 	#INCLUDe [..\Convert_Def\Market_Def\14Quest_ZombieCave-D404_002.txt] @NPC_Main_Else
 
 [@NQuest02_1]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_SEOJUN1
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_SEOJUN1
 
 [@NQuest02_2]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_SEOJUN2
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_SEOJUN2
 
 [@NQuest02_3]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_SEOJUN3
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_SEOJUN3
 
 [@NQuest02_4]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_SEOJUN4
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_SEOJUN4
 
 [@NQuest02_5]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_SEOJUN5
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_SEOJUN5
 
 [@NQuest02_6]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_SEOJUN6
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_SEOJUN6

@@ -26,6 +26,6 @@ break
 #INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Monsternpc-d16063.txt] @Convert_17Monsternpc-d16063_0
 
 [@MonsternpcQuest_start1]
-#CALL [HonChonMado\MonsterNpc1.txt] @MonsterNpc1_Talk
+#CALL [QuestDiary/HonChonMado/MonsterNpc1.txt] @MonsterNpc1_Talk
 }
 ;;不要删掉此行

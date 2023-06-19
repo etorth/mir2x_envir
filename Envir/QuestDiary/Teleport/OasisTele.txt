@@ -10,5 +10,5 @@
 mapmove 81 125 274                                    ;; 빨갱이 이동
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; 이동 루틴
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; 이동 루틴
 }

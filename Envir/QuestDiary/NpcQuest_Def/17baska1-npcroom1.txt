@@ -67,10 +67,10 @@ goto @NoQuest_Say
 break
 
 [@baska1Quest_start1_A]
-#CALL [HonChondo\MadoNpcBaska.txt] @MadoTimeQuestBaska_A
+#CALL [QuestDiary/HonChondo/MadoNpcBaska.txt] @MadoTimeQuestBaska_A
 
 
 [@baska1Quest_start1_AA]
-#CALL [HonChondo\MadoNpcBaska.txt] @MadoTimeQuestsundaynpcA
+#CALL [QuestDiary/HonChondo/MadoNpcBaska.txt] @MadoTimeQuestsundaynpcA
 }
 ;;不要删掉此行

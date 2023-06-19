@@ -27,5 +27,5 @@ break
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }

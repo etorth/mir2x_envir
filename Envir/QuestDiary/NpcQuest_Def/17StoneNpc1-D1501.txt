@@ -26,6 +26,6 @@ break
 #INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17StoneNpc1-D1501.txt] @Convert_17StoneNpc1-D1501_0
 
 [@NumaStone1Quest_start1]
-#CALL [HonChonMado\StoneNpc1.txt] @NumaStone1_Talk
+#CALL [QuestDiary/HonChonMado/StoneNpc1.txt] @NumaStone1_Talk
 }
 ;;不要删掉此行

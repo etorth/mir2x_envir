@@ -42,36 +42,36 @@ Cleardelaygoto
 ;----------------------------------------------------------
 
 [@RushEvent1]
-;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert71
+;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert71
 [@RushEvent6]
-;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert76
+;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert76
 
 ;----------------------------------------------------------
 ;; Sau VS Umyun
 ;----------------------------------------------------------
 
 [@StoryEvent1]
-;;#CALL [\Event\Story\Story1.txt] @StartEvent
+;;#CALL [QuestDiary/Event/Story/Story1.txt] @StartEvent
 
 ;----------------------------------------------------------
 ;; Umyungwiwang Risk
 ;----------------------------------------------------------
 
 [@StoryEvent2]
-;;#CALL [\Event\Story\Story2.txt] @Wooma
+;;#CALL [QuestDiary/Event/Story/Story2.txt] @Wooma
 
 ;----------------------------------------------------------
 ;; Pachunhwang Rebirth
 ;----------------------------------------------------------
 
 [@pachon01]
-#CALL [\Event\Story\pachon01.txt] @pachon01_1
+#CALL [QuestDiary/Event/Story/pachon01.txt] @pachon01_1
 
 ;----------------------------------------------------------
 ;; 릴레이 이벤트 시작
 ;----------------------------------------------------------
 [@GEvent_start_oneDay]
-#CALL [Event\Event_Game01\GEvent_Msg01.txt] @GEventgrobal_Msg01
+#CALL [QuestDiary/Event/Event_Game01/GEvent_Msg01.txt] @GEventgrobal_Msg01
 
 
 [@GEvent_End_11]

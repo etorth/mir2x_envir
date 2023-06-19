@@ -78,7 +78,7 @@ break
 Goto @Event_wait3
 
 [@Event_wait3]
-#CALL [\\Event\SnowBattle\SnowBattle.txt] @SBMain
+#CALL [QuestDiary/Event/SnowBattle/SnowBattle.txt] @SBMain
 
 goto @main_Control
 }

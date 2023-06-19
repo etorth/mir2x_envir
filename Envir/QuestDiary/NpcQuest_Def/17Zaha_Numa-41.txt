@@ -41,7 +41,7 @@ Mov D0 1
 #INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_4
 
 ;[@CALL_Npc_TodayQuest]
-;#CALL [TodayQuest\QT_NPCSetting.txt] @NPCSetDairyQuest
+;#CALL [QuestDiary/TodayQuest/QT_NPCSetting.txt] @NPCSetDairyQuest
 
 
 [@MadoTimeQuestfridayjaha]
@@ -135,27 +135,27 @@ break
 #INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_6
 
 ;[@031select]
-;#CALL [\\Judgement\Story\031\031NPC.txt] @031_NPC
+;#CALL [QuestDiary/Judgement/Story/031/031NPC.txt] @031_NPC
 
 [;@007select]
-;#CALL [\\Judgement\Story\007\NPC007.txt] @007_NPC
+;#CALL [QuestDiary/Judgement/Story/007/NPC007.txt] @007_NPC
 
 ;[@1318select]
-;#CALL [\\Judgement\Story\1318\NPC019.txt] @019_NPC
+;#CALL [QuestDiary/Judgement/Story/1318/NPC019.txt] @019_NPC
 
 ;[@1418select]
-;#CALL [\\Judgement\Story\1418\NPC021.txt] @021_NPC
+;#CALL [QuestDiary/Judgement/Story/1418/NPC021.txt] @021_NPC
 
 
 [@MadoTimeQuestfridayjaha1]
-#CALL [HonChondo\MadoNpcJaha.txt] @MadoQuestjahafriday
+#CALL [QuestDiary/HonChondo/MadoNpcJaha.txt] @MadoQuestjahafriday
 
 
 [@MadoTimeQuestfridayjaha2]
-#CALL [HonChondo\MadoNpcJaha.txt] @MadoQuestjahafriday2
+#CALL [QuestDiary/HonChondo/MadoNpcJaha.txt] @MadoQuestjahafriday2
 
 
 [@mainzaha_Talk1]
-#CALL [HonChonMado\MadoHaveJaha.txt] @MadoHaveJaha_Talk
+#CALL [QuestDiary/HonChonMado/MadoHaveJaha.txt] @MadoHaveJaha_Talk
 }
 ;;不要删掉此行

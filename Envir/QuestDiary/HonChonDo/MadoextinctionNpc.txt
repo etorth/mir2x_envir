@@ -165,10 +165,10 @@ close
 break
 
 [@extinctionEventMsg_A]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @extinctionEventMsg_A_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @extinctionEventMsg_A_1
 
 [@extinctionEventMonGen_A]
-#CALL [HonChonDo\extinctionMongen.txt] @extinctionEventMonGen_A_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @extinctionEventMonGen_A_1
 
 
 [@MadosundayextinctionEvent_A]
@@ -185,13 +185,13 @@ close
 break
 
 [@extinctionEventUserface_A]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@extinctionEventMsg2_A]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @extinctionEventMsg2_A_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @extinctionEventMsg2_A_1
 
 [@extinctionEventMonGen2_A]
-#CALL [HonChonDo\extinctionMongen.txt] @extinctionEventMonGen2_A_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @extinctionEventMonGen2_A_1
 
 [@MadosundayextinctionEvent_A_1]
 
@@ -243,13 +243,13 @@ close
 break
 
 [@extinctionEventUserface_B]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@extinctionEventMsg_B]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @extinctionEventMsg_B_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @extinctionEventMsg_B_1
 
 [@extinctionEventMonGen_B]
-#CALL [HonChonDo\extinctionMongen.txt] @extinctionEventMonGen_B_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @extinctionEventMonGen_B_1
 
 
 [@MadosundayextinctionEvent_B]
@@ -314,10 +314,10 @@ goto @extinctionEventUserface_B_8
 break
 
 [@extinctionEventUserface_B_8]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@MadosundayextinctionEvent_B_8]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadosundayextinctionEvent2_B_8
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadosundayextinctionEvent2_B_8
 
 [@MadosundayextinctionEvent_B_B]
 

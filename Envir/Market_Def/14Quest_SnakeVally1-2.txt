@@ -52,13 +52,13 @@ setopen [1] 1
 goto @NQuest_1_1
 
 [@NQuest_1_1]
-#CALL [\NQ_BASE\bamgol.txt] @BAMGOL_START
+#CALL [QuestDiary/NQ_BASE/bamgol.txt] @BAMGOL_START
 
 [@NQuest_2]
-#CALL [\NQ_BASE\bamgol.txt] @BAMGOL_NOPA
+#CALL [QuestDiary/NQ_BASE/bamgol.txt] @BAMGOL_NOPA
 
 [@NQuest_3]
-#CALL [\NQ_BASE\bamgol.txt] @GIVE_GALL
+#CALL [QuestDiary/NQ_BASE/bamgol.txt] @GIVE_GALL
 
 [@TQuest]
 #IF
@@ -87,11 +87,11 @@ break
 goto @TQuest463_1
 
 [@TQuest463_1]
-#CALL [\QT_TODAY\4thClass.txt] @463_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @463_START
 
 
 [@TQuest463_2]
-#CALL [\QT_TODAY\4thClass.txt] @463_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @463_CHECK1
 
 [@TQuest1_6]
 #SAY

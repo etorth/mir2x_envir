@@ -9,7 +9,7 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_M1
+#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_M1
 
 
 [@main_root]
@@ -79,10 +79,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-;;#CALL [\QT_TODAY\4thClass.txt] @452_START
+;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @452_START
 
 [@TQuest1_2]
-;;#CALL [\QT_TODAY\4thClass.txt] @452_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @452_CHECK1
 
 ;--------------
 

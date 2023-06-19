@@ -27,10 +27,10 @@ break
 	#INCLUDE [../Convert_def/Market_Def/14Quest_WoomaPalace-D023_001.txt] @NPC_Main_Else
 
 [@NQuest_1]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_UDO1
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_UDO1
 
 [@NQuest_2]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_UDO2
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_UDO2
 
 [@NQuest_3]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_UDO3
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_UDO3

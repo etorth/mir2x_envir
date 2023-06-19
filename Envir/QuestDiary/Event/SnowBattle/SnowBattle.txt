@@ -74,7 +74,7 @@ delaygoto [grobal] 12 @SBevent_Loop
 
 [@MapSpell]
 ;----------------------맵스펠 무한루프 불러오는부분
-#CALL [\\Event\SnowBattle\MapSpell.txt] @MapSpellMasic
+#CALL [QuestDiary/Event/SnowBattle/MapSpell.txt] @MapSpellMasic
 
 
 ;---------------------시간제한 루프 시작부분
@@ -110,7 +110,7 @@ goto @Hum_Check_Mir
 break
 
 [@SuddenDeathSpell]
-#CALL [\\Event\SnowBattle\MapSpell.txt] @SuddenDeathSpell_1
+#CALL [QuestDiary/Event/SnowBattle/MapSpell.txt] @SuddenDeathSpell_1
 
 [@Hum_Check_Mir]
 ;---------------각팀의 남은 인원수를 체크하여 저장함

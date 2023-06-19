@@ -84,7 +84,7 @@ goto @pre_repair_0
 
 
 [@pre_repair_mutebo_1]
-#CALL [\MU_warrior\mute.txt] @mugong_mute_explan_armor
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mute_explan_armor
 
 ;-----------------------
 
@@ -137,10 +137,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\1stClass.txt] @106_START
+#CALL [QuestDiary/QT_TODAY/1stClass.txt] @106_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\1stClass.txt] @106_CHECK1
+#CALL [QuestDiary/QT_TODAY/1stClass.txt] @106_CHECK1
 
 ;--------------
 
@@ -169,10 +169,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @518_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @518_START
 
 [@TQuest2_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @518_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @518_CHECK1
 
 ;------------------------
 
@@ -195,10 +195,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @519_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @519_START
 
 [@TQuest3_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @519_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @519_CHECK1
 
 ;--------------
 [@TQuest4_0]
@@ -220,9 +220,9 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @552_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @552_START
 
 [@TQuest4_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @552_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @552_CHECK1
 
 ;-------------------------------------------------------------------------------

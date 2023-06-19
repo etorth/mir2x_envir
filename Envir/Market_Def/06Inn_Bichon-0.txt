@@ -90,10 +90,10 @@ goto @main_0_0
 ;----------------------------------------------------------
 
 [@StgPassword]
-#CALL [\PassWord\PassWord.txt] @Manage_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Manage_PassWord
 
 [@PreGetback]
-#CALL [\PassWord\PassWord.txt] @Input_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Input_PassWord
 
 [@storage]
 #SAY
@@ -115,13 +115,13 @@ setopen [1] 1
 goto @NQuest01_1_1
 
 [@NQuest01_1_1]
-#CALL [\NQ_BASE\Mujun.txt] @MUJUN_START
+#CALL [QuestDiary/NQ_BASE/Mujun.txt] @MUJUN_START
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\Mujun.txt] @MUJUN_YUKWAN_1
+#CALL [QuestDiary/NQ_BASE/Mujun.txt] @MUJUN_YUKWAN_1
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\Mujun.txt] @MUJUN_COMPLETE
+#CALL [QuestDiary/NQ_BASE/Mujun.txt] @MUJUN_COMPLETE
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -171,10 +171,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\3rdClass.txt] @330_START
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @330_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\3rdClass.txt] @330_CHECK1
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @330_CHECK1
 
 ;--------------
 
@@ -203,10 +203,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\4thClass.txt] @405_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @405_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\4thClass.txt] @405_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @405_CHECK1
 
 ;-------------------------------------
 
@@ -229,9 +229,9 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [\QT_TODAY\4thClass.txt] @440_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @440_START
 
 [@TQuest3_2]
-#CALL [\QT_TODAY\4thClass.txt] @440_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @440_CHECK1
 
 ;-------------------------------------

@@ -15,7 +15,7 @@ mongenp "5,211,96,0" 木栅栏1 1
 Delaygoto [Grobal] 30 @TosungCastle_NumaMsg
 
 [@TosungCastle_NumaMsg]
-#CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastleWar_NumaMsg
+#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastleWar_NumaMsg
 }
 
 [@CastleWarStart_TAOSUNG]
@@ -52,7 +52,7 @@ UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='R
 Delaygoto [Grobal] 30 @TosungCastle_Numa
 
 [@TosungCastle_Numa]
-#CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastleWar_Numa
+#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastleWar_Numa
 }
 
 [@CastleWarFinish_TAOSUNG]
@@ -93,6 +93,6 @@ UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='C
 Delaygoto [Grobal] 10 @TosungCastle_Numa_Finished
 
 [@TosungCastle_Numa_Finished]
-#CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastleWar_Numa_Finished
+#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastleWar_Numa_Finished
 }
 ;;不要删掉此行

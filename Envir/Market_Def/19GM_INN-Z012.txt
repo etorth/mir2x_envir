@@ -38,26 +38,26 @@ IsAdmin
 ;----------------------------------------------------------
 
 [@RushEvent3]
-;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert73
+;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert73
 [@RushEvent8]
-;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert78
+;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert78
 
 ;----------------------------------------------------------
 ; Mongchon MidBoss Rush Event
 ;----------------------------------------------------------
 
 [@Rush]
-;;#CALL [\Event\MonRush\Rush2.txt] @Rushevent
+;;#CALL [QuestDiary/Event/MonRush/Rush2.txt] @Rushevent
 
 ;----------------------------------------------------------
 ; Love Story Event
 ;----------------------------------------------------------
 [@Love]
-;;#CALL [\Event\Story\Story3.txt] @LoveStory1
+;;#CALL [QuestDiary/Event/Story/Story3.txt] @LoveStory1
 
 ;----------------------------------------------------------
 ;; MonRush Event
 ;----------------------------------------------------------
 [@GEvent_start_0]
-#CALL [Event\Event_Game01\GEventRush0.txt] @GEventRush0_main
+#CALL [QuestDiary/Event/Event_Game01/GEventRush0.txt] @GEventRush0_main
 

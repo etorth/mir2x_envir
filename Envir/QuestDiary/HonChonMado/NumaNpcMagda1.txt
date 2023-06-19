@@ -131,9 +131,9 @@ break
 #INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_8
 
 [@NumaMagda1_Event_1]
-#CALL [HonChonMado\QuestMadoEvent.txt] @Magda1_Event_2
+#CALL [QuestDiary/HonChonMado/QuestMadoEvent.txt] @Magda1_Event_2
 
 [@NumaMagda1_Event_Face]
-#CALL [HonChondo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChondo/extinctionQuestEvent.txt] @madojobcheckEvent
 }
 ;;不要删掉此行

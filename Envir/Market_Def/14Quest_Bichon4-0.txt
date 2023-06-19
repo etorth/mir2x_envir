@@ -40,7 +40,7 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon4-0.txt] @NPC_Main_1
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\bichun.txt] @INVITE_GUARD2
+#CALL [QuestDiary/NQ_BASE/bichun.txt] @INVITE_GUARD2
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\bichun.txt] @REPLAY_GUARD2
+#CALL [QuestDiary/NQ_BASE/bichun.txt] @REPLAY_GUARD2

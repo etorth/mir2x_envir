@@ -429,13 +429,13 @@ break
 goto @NQuest_2
 
 [@NQuest_3]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_CQ_COMPLETE
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_CQ_COMPLETE
 
 [@NQuest_4]
-#CALL [\NQ_BASE\wizardbase.txt] @Sulsa_CQ_COMPLETE
+#CALL [QuestDiary/NQ_BASE/wizardbase.txt] @Sulsa_CQ_COMPLETE
 
 [@NQuest_5]
-#CALL [\NQ_BASE\taoistbase.txt] @Dosa_CQ_COMPLETE
+#CALL [QuestDiary/NQ_BASE/taoistbase.txt] @Dosa_CQ_COMPLETE
 
 
 [@NQuest_6]
@@ -445,13 +445,13 @@ setopen [1] 1
 goto @NQuest_6_1
 
 [@NQuest_6_1]
-#CALL [\NQ_BASE\wang.txt] @WANG_START
+#CALL [QuestDiary/NQ_BASE/wang.txt] @WANG_START
 
 [@NQuest_7]
-#CALL [\NQ_BASE\wang.txt] @INVITE_2MAN
+#CALL [QuestDiary/NQ_BASE/wang.txt] @INVITE_2MAN
 
 [@NQuest_8]
-#CALL [\NQ_BASE\wang.txt] @WANG_COMPLETE
+#CALL [QuestDiary/NQ_BASE/wang.txt] @WANG_COMPLETE
 
 [@NQuest_10]
 #IF
@@ -478,7 +478,7 @@ check [165] 1
 goto @NQuest_8
 
 [@NQuest_10_2]
-#CALL [\NQ_BASE\wang.txt] @WANG_H_COMPLETE
+#CALL [QuestDiary/NQ_BASE/wang.txt] @WANG_H_COMPLETE
 
 [@NQuest_11]
 #IF
@@ -487,37 +487,37 @@ setopen [1] 1
 goto @NQuest_11_1
 
 [@NQuest_11_1]
-#CALL [\NQ_BASE\younghon.txt] @ST_HON_START
+#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_START
 
 [@NQuest_12]
-#CALL [\NQ_BASE\younghon.txt] @ST_HON_WANG_1
+#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_WANG_1
 
 [@NQuest_13]
-#CALL [\NQ_BASE\younghon.txt] @ST_HON_WANG_2
+#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_WANG_2
 
 [@NQuest_21]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG1
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG1
 
 [@NQuest_22]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG2
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG2
 
 [@NQuest_23]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG3
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG3
 
 [@NQuest_24]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG4
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG4
 
 [@NQuest_25]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG5
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG5
 
 [@NQuest_26]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG6
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG6
 
 [@NQuest_27]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG7
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG7
 
 [@NQuest_28]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_WANG8
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_WANG8
 
 [@npc_base]
 #IF
@@ -613,7 +613,7 @@ goto @TQUEST1_6
 goto @TQuest577_1
 
 [@TQuest577_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @577_CHECK2
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @577_CHECK2
 
 [@TQuest1_0]
 #IF
@@ -632,10 +632,10 @@ break
 goto @TQuest1_1
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\4thClass.txt] @451_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @451_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\4thClass.txt] @451_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @451_CHECK1
 
 [@TQuest1_6]
 #SAY

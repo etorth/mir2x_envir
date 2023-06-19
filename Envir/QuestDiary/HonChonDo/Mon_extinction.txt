@@ -44,11 +44,11 @@ break
 break
 
 [@madojobcheckstep0_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep0_1_1]
 
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep0_1
 }
 
 
@@ -94,10 +94,10 @@ break
 break
 
 [@madojobcheckstep0_2]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep0_2_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_2
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep0_2
 }
 
 
@@ -145,10 +145,10 @@ break
 break
 
 [@madojobcheckstep0_3]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep0_3_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_3
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep0_3
 }
 
 
@@ -196,10 +196,10 @@ break
 break
 
 [@madojobcheckstep0_4]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep0_4_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_4
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep0_4
 }
 
 
@@ -494,10 +494,10 @@ break
 break
 
 [@madojobcheckstep3_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep3_1_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep3_1
 }
 
 [@mainstep3_2]
@@ -525,10 +525,10 @@ break
 break
 
 [@madojobcheckstep3_2]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep3_2_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_2
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep3_2
 }
 
 [@mainstep3_3]
@@ -556,10 +556,10 @@ break
 break
 
 [@madojobcheckstep3_3]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep3_3_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_3
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep3_3
 }
 
 [@mainstep3_4]
@@ -587,10 +587,10 @@ break
 break
 
 [@madojobcheckstep3_4]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@honchondostep3_4_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_4
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep3_4
 
 }
 
@@ -739,7 +739,7 @@ break
 break
 
 [@honchondostep5_1]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @mainstep5_2
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainstep5_2
 }
 
 

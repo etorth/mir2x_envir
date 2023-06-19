@@ -13,7 +13,7 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [\NQ_BASE\BackGround\SnakeVally.txt] @BackLog_BG_M1
+#CALL [QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @BackLog_BG_M1
 
 [@main_root]
 #IF
@@ -116,10 +116,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\4thClass.txt] @415_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @415_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\4thClass.txt] @415_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @415_CHECK1
 
 ;--------------
 
@@ -148,10 +148,10 @@ goto @TQuest467_1
 ;--------------
 
 [@TQuest467_1]
-#CALL [\QT_TODAY\4thClass.txt] @467_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @467_START
 
 [@TQuest467_2]
-#CALL [\QT_TODAY\4thClass.txt] @467_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @467_CHECK1
 
 ;-------------------------------
 
@@ -174,10 +174,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @541_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @541_START
 
 [@TQuest2_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @541_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @541_CHECK1
 
 ;-------------------------------
 
@@ -200,9 +200,9 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @542_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @542_START
 
 [@TQuest3_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @542_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @542_CHECK1
 
 ;-------------------------------

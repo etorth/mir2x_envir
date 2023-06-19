@@ -8,4 +8,4 @@ checkpkpoint 2
 goto @main_0
 
 [@main_0]
-#CALL [\MU_taoist\massheal.txt] @mugong_massheal_illtown
+#CALL [QuestDiary/MU_taoist/massheal.txt] @mugong_massheal_illtown

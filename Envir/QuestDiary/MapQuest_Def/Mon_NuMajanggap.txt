@@ -15,5 +15,5 @@ goto @main_Except
 break
 
 [@TodayQuest_TQCase1]
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NuMajanggap
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_NuMajanggap
 ;;不要删掉此行

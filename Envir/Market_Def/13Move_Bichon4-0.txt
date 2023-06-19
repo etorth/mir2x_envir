@@ -1,3 +1,3 @@
 ;;13Move_Bichon4-0.txt
 [@main]
-#CALL [teleport\BiChonTele.txt] @Bichon_Teleport_West
+#CALL [QuestDiary/teleport/BiChonTele.txt] @Bichon_Teleport_West

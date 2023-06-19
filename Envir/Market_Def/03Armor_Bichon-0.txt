@@ -13,7 +13,7 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_M1
+#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_M1
 
 
 [@main_root]
@@ -180,16 +180,16 @@ goto @main_0_0
 
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\wang.txt] @GO_WANG_IBBUN
+#CALL [QuestDiary/NQ_BASE/wang.txt] @GO_WANG_IBBUN
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\wang.txt] @INVITE_IBBUN
+#CALL [QuestDiary/NQ_BASE/wang.txt] @INVITE_IBBUN
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\wang.txt] @GIVE_CHOGONG
+#CALL [QuestDiary/NQ_BASE/wang.txt] @GIVE_CHOGONG
 
 [@NQuest01_4]
-#CALL [\NQ_BASE\wang.txt] @JOIN_IBBUN
+#CALL [QuestDiary/NQ_BASE/wang.txt] @JOIN_IBBUN
 
 [@NQuest02_1]
 #IF
@@ -199,13 +199,13 @@ goto @NQuest02_1_1
 
 
 [@NQuest02_1_1]
-#CALL [\NQ_BASE\kyunggap.txt] @Guyonggap_start
+#CALL [QuestDiary/NQ_BASE/kyunggap.txt] @Guyonggap_start
 
 [@NQuest02_2]
-#CALL [\NQ_BASE\kyunggap.txt] @give_iron
+#CALL [QuestDiary/NQ_BASE/kyunggap.txt] @give_iron
 
 [@NQuest02_3]
-#CALL [\NQ_BASE\kyunggap.txt] @Guyonggap_complete
+#CALL [QuestDiary/NQ_BASE/kyunggap.txt] @Guyonggap_complete
 
 [@pre_repair]
 #IF
@@ -241,7 +241,7 @@ goto @pre_repair_0
 
 
 [@pre_repair_mutebo_1]
-#CALL [\MU_warrior\mute.txt] @mugong_mute_explan_armor
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mute_explan_armor
 
 ;-----------------------
 
@@ -284,10 +284,10 @@ break
 goto @TQuest1_1
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\4thClass.txt] @436_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @436_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\4thClass.txt] @436_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @436_CHECK1
 
 [@TQuest1_6]
 #SAY
@@ -310,10 +310,10 @@ break
 goto @TQuest2_1
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\3rdClass.txt] @326_START
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @326_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\3rdClass.txt] @326_CHECK1
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @326_CHECK1
 
 [@TQuest3_0]
 #IF
@@ -332,7 +332,7 @@ break
 goto @TQuest3_1
 
 [@TQuest3_1]
-#CALL [\QT_TODAY\2ndClass.txt] @207_START
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @207_START
 
 [@TQuest3_2]
-#CALL [\QT_TODAY\2ndClass.txt] @207_CHECK1
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @207_CHECK1

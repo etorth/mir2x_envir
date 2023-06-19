@@ -70,7 +70,7 @@ goto @chung_main_0_0
 #ACT
 goto @heal_begin
 [@heal_begin]
-#CALL [\MU_taoist\heal.txt] @mugong_heal
+#CALL [QuestDiary/MU_taoist/heal.txt] @mugong_heal
 
 [@ilgang_test_start]
 #IF
@@ -84,10 +84,10 @@ break
 goto @ilgang_begin
 
 [@ilgang_begin]
-#CALL [\MU_taoist\ilgang.txt] @mugong_ilgang
+#CALL [QuestDiary/MU_taoist/ilgang.txt] @mugong_ilgang
 
 [@ilgang_complete]
-#CALL [\MU_taoist\ilgang.txt] @mugong_ilgang_complete
+#CALL [QuestDiary/MU_taoist/ilgang.txt] @mugong_ilgang_complete
 
 [@poison_test_start]
 #IF
@@ -101,10 +101,10 @@ break
 goto @poison_begin
 
 [@poison_begin]
-#CALL [\MU_taoist\amyen.txt] @mugong_poison
+#CALL [QuestDiary/MU_taoist/amyen.txt] @mugong_poison
 
 [@poison_complete]
-#CALL [\MU_taoist\amyen.txt] @mugong_poison_complete
+#CALL [QuestDiary/MU_taoist/amyen.txt] @mugong_poison_complete
 
 [@recallskel_test_start]
 #IF
@@ -118,10 +118,10 @@ break
 goto @recallskel_begin
 
 [@recallskel_begin]
-#CALL [\MU_taoist\soulSkel.txt] @mugong_recallskel
+#CALL [QuestDiary/MU_taoist/soulSkel.txt] @mugong_recallskel
 
 [@recallskel_complete]
-#CALL [\MU_taoist\soulSkel.txt] @mugong_recallskel_complete
+#CALL [QuestDiary/MU_taoist/soulSkel.txt] @mugong_recallskel_complete
 
 [@hiding_test_start]
 #IF
@@ -134,10 +134,10 @@ break
 #ACT
 goto @hiding_begin
 [@hiding_begin]
-#CALL [\MU_taoist\hiden.txt] @mugong_hiding
+#CALL [QuestDiary/MU_taoist/hiden.txt] @mugong_hiding
 
 [@hiding_complete]
-#CALL [\Mu_taoist\hiden.txt] @mugong_hiding_complete
+#CALL [QuestDiary/Mu_taoist/hiden.txt] @mugong_hiding_complete
 
 [@masshiding_test_start]
 #IF
@@ -151,10 +151,10 @@ break
 goto @masshiding_begin
 
 [@masshiding_begin]
-#CALL [\MU_taoist\masshiden.txt] @mugong_masshiding
+#CALL [QuestDiary/MU_taoist/masshiden.txt] @mugong_masshiding
 
 [@masshiding_complete]
-#CALL [\MU_taoist\masshiden.txt] @mugong_masshiding_complete
+#CALL [QuestDiary/MU_taoist/masshiden.txt] @mugong_masshiding_complete
 
 [@hangma_test_start]
 #IF
@@ -168,10 +168,10 @@ break
 goto @hangma_begin
 
 [@hangma_begin]
-#CALL [\MU_taoist\hangma.txt] @mugong_hangma
+#CALL [QuestDiary/MU_taoist/hangma.txt] @mugong_hangma
 
 [@hangma_ring]
-#CALL [\MU_taoist\hangma.txt] @mugong_hangma_getring
+#CALL [QuestDiary/MU_taoist/hangma.txt] @mugong_hangma_getring
 
 [@Upac_test_start]
 #IF
@@ -185,10 +185,10 @@ break
 goto @Upac_begin
 
 [@Upac_begin]
-#CALL [\MU_taoist\deaji.txt] @mugong_Upac
+#CALL [QuestDiary/MU_taoist/deaji.txt] @mugong_Upac
 
 [@Upac_test]
-#CALL [\Mu_taoist\deaji.txt] @mugong_Upac_test
+#CALL [QuestDiary/Mu_taoist/deaji.txt] @mugong_Upac_test
 
 
 [@TQuest]
@@ -226,10 +226,10 @@ break
 goto @TQuest594_1
 
 [@TQuest594_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @594_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @594_START
 
 [@TQuest594_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @594_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @594_CHECK1
 
 [@TQuest1_0]
 #IF
@@ -254,7 +254,7 @@ break
 goto @TQuest1_6
 
 [@TQuest1_1]
-;;#CALL [\QT_TODAY\4thClass.txt] @452_CHECK2
+;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @452_CHECK2
 
 [@TQuest1_6]
 #SAY

@@ -101,34 +101,34 @@ break
 
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\oma.txt] @SEARCH_GADEUNG1_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_GADEUNG1_UNBAL
 
 [@NQuest01_4]
-#CALL [\NQ_BASE\oma.txt] @SEARCH_GADEUNG2_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_GADEUNG2_UNBAL
 
 [@NQuest01_5]
-#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON1_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON1_UNBAL
 
 [@NQuest01_6]
-#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON2_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON2_UNBAL
 
 [@NQuest01_7]
-#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON3_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON3_UNBAL
 
 [@NQuest01_8]
-#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON4_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON4_UNBAL
 
 [@NQuest01_9]
-#CALL [\NQ_BASE\oma.txt] @HELP_BULSA1_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_BULSA1_UNBAL
 
 [@NQuest01_10]
-#CALL [\NQ_BASE\oma.txt] @RETURN_BICHUN1_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @RETURN_BICHUN1_UNBAL
 
 [@NQuest01_11]
-#CALL [\NQ_BASE\oma.txt] @RETURN_BICHUN2_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @RETURN_BICHUN2_UNBAL
 
 [@NQuest01_12]
-#CALL [\NQ_BASE\oma.txt] @HELP_BULSA2_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_BULSA2_UNBAL
 
 [@NQuest01_13]
-#CALL [\NQ_BASE\oma.txt] @HELP_BULSA3_UNBAL
+#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_BULSA3_UNBAL

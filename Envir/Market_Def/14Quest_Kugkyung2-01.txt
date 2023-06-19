@@ -80,22 +80,22 @@ goto @main_0_0
 
 
 [@NQuest_2]
-#CALL [\NQ_BASE\oma.txt] @JAYOUN_START
+#CALL [QuestDiary/NQ_BASE/oma.txt] @JAYOUN_START
 
 [@NQuest_3]
-#CALL [\NQ_BASE\oma.txt] @SEARCH_UNBAL_JISUN
+#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_UNBAL_JISUN
 
 [@NQuest_4]
-#CALL [\NQ_BASE\oma.txt] @SEARCH_GADEUNG_JISUN
+#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_GADEUNG_JISUN
 
 [@NQuest_5]
-#CALL [\NQ_BASE\oma.txt] @MEET_GADEUNG_JISUN
+#CALL [QuestDiary/NQ_BASE/oma.txt] @MEET_GADEUNG_JISUN
 
 [@NQuest_6]
-#CALL [\NQ_BASE\oma.txt] @RETURN_UNBAL_JISUN
+#CALL [QuestDiary/NQ_BASE/oma.txt] @RETURN_UNBAL_JISUN
 
 [@NQuest_7]
-#CALL [\NQ_BASE\oma.txt] @JAYOUN_COMPLETE
+#CALL [QuestDiary/NQ_BASE/oma.txt] @JAYOUN_COMPLETE
 
 [@NQuest_8]
-#CALL [\NQ_BASE\oma.txt] @JAYOUN_COMPLETE1
+#CALL [QuestDiary/NQ_BASE/oma.txt] @JAYOUN_COMPLETE1

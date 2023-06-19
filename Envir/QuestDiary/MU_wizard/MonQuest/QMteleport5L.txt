@@ -28,7 +28,7 @@ goto @move_next_5to0L
 break
 
 [@move_next_5to0L]
-#CALL [\MU_wizard\teleport.txt] @MapQuest_move_5to0L
+#CALL [QuestDiary/MU_wizard/teleport.txt] @MapQuest_move_5to0L
 
 [@move_next_check1]
-#CALL [\MU_wizard\teleport.txt] @MapQuest_fly_check1
+#CALL [QuestDiary/MU_wizard/teleport.txt] @MapQuest_fly_check1

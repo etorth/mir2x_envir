@@ -18,40 +18,40 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/14Doctor_Kugkyung-01.txt] @NPC_C_NQuest
 
 [@JIYUK_2]
-#CALL [\NQ_HELP\area\wang.txt] @WANG
+#CALL [QuestDiary/NQ_HELP/area/wang.txt] @WANG
 
 [@JIYUK_3]
-#CALL [\NQ_HELP\area\bichun.txt] @BICHUN
+#CALL [QuestDiary/NQ_HELP/area/bichun.txt] @BICHUN
 
 [@JIYUK_4]
-#CALL [\NQ_HELP\area\yaksa.txt] @YAKSA
+#CALL [QuestDiary/NQ_HELP/area/yaksa.txt] @YAKSA
 
 [@JIYUK_5]
-#CALL [\NQ_HELP\area\kyunggap.txt] @KYUNGGAP
+#CALL [QuestDiary/NQ_HELP/area/kyunggap.txt] @KYUNGGAP
 
 [@JIYUK_6]
-#CALL [\NQ_HELP\area\oma.txt] @OMA
+#CALL [QuestDiary/NQ_HELP/area/oma.txt] @OMA
 
 [@JIYUK_7]
-#CALL [\NQ_HELP\area\younghon.txt] @STOLEN
+#CALL [QuestDiary/NQ_HELP/area/younghon.txt] @STOLEN
 
 [@JIYUK_8]
-#CALL [\NQ_HELP\area\bamgol.txt] @SNAKE
+#CALL [QuestDiary/NQ_HELP/area/bamgol.txt] @SNAKE
 
 [@JIYUK_9]
-#CALL [\NQ_HELP\area\tarak.txt] @TARAK
+#CALL [QuestDiary/NQ_HELP/area/tarak.txt] @TARAK
 
 [@JIYUK_10]
-#CALL [\NQ_HELP\area\umyun.txt] @UMYUN
+#CALL [QuestDiary/NQ_HELP/area/umyun.txt] @UMYUN
 
 [@JIYUK_11]
-#CALL [\NQ_HELP\area\mujun.txt] @MUJUNCS
+#CALL [QuestDiary/NQ_HELP/area/mujun.txt] @MUJUNCS
 
 [@JIYUK_12]
-#CALL [\NQ_HELP\area\pariche.txt] @PARICHE
+#CALL [QuestDiary/NQ_HELP/area/pariche.txt] @PARICHE
 
 [@JIYUK_13]
-#CALL [\NQ_HELP\area\dolumi.txt] @SUKMO
+#CALL [QuestDiary/NQ_HELP/area/dolumi.txt] @SUKMO
 
 [@C_TQuest]
 #IF
@@ -96,4 +96,4 @@ goto @C_TQuest_3
 
 
 [@C_TQuest_3]
-#CALL [\QT_TODAY\SetDaily.txt] @set_Tquest
+#CALL [QuestDiary/QT_TODAY/SetDaily.txt] @set_Tquest

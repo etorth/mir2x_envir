@@ -16,8 +16,8 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-;#CALL [\NQ_BASE\BackGround\SnakeVally.txt] @BackLog_BG_M2
-#CALL [\NQ_BASE\BackGround\SnakeVally.txt] @BackLog_BG_M1
+;#CALL [QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @BackLog_BG_M2
+#CALL [QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @BackLog_BG_M1
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -150,16 +150,16 @@ goto @main_0_0
 ;;------------------------------------------------------------------------------
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\yaksa.txt] @BUY_TOOTH
+#CALL [QuestDiary/NQ_BASE/yaksa.txt] @BUY_TOOTH
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\yaksa.txt] @RETURN_BICHUN_TOOTH
+#CALL [QuestDiary/NQ_BASE/yaksa.txt] @RETURN_BICHUN_TOOTH
 
 [@NQuest02_1]
-#CALL [\NQ_BASE\bamgol.txt] @HELP_POISON
+#CALL [QuestDiary/NQ_BASE/bamgol.txt] @HELP_POISON
 
 [@NQuest02_2]
-#CALL [\NQ_BASE\bamgol.txt] @SEARCH_GALL
+#CALL [QuestDiary/NQ_BASE/bamgol.txt] @SEARCH_GALL
 
 
 ;;------------------------------------------------------------------------------
@@ -210,10 +210,10 @@ goto @TQuest496_1
 ;--------------
 
 [@TQuest496_1]
-#CALL [\QT_TODAY\4thClass.txt] @496_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @496_START
 
 [@TQuest496_2]
-#CALL [\QT_TODAY\4thClass.txt] @496_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @496_CHECK1
 
 ;------------------------
 
@@ -236,10 +236,10 @@ goto @TQuest466_1
 ;--------------
 
 [@TQuest466_1]
-#CALL [\QT_TODAY\4thClass.txt] @466_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @466_START
 
 [@TQuest466_2]
-#CALL [\QT_TODAY\4thClass.txt] @466_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @466_CHECK1
 
 ;------------------------
 
@@ -262,10 +262,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\4thClass.txt] @408_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @408_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\4thClass.txt] @408_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @408_CHECK1
 
 ;--------------
 

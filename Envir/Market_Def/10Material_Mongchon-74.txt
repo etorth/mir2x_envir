@@ -29,10 +29,10 @@ goto @main_0_0
 
 
 ;;[@Event1115]
-;;#CALL [\Event\02_11_15_Event.txt] @change_event
+;;#CALL [QuestDiary/Event/02_11_15_Event.txt] @change_event
 
 ;;[@Event1105]
-;;#CALL [\Event\02_11_05_Event.txt] @Event_main
+;;#CALL [QuestDiary/Event/02_11_05_Event.txt] @Event_main
 
 [@TQuest]
 #IF
@@ -64,7 +64,7 @@ break
 goto @TQuest459_1
 
 [@TQuest459_1]
-#CALL [\QT_TODAY\4thClass.txt] @459_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @459_START
 
 [@TQuest459_2]
-#CALL [\QT_TODAY\4thClass.txt] @459_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @459_CHECK1

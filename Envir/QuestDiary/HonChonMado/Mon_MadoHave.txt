@@ -874,7 +874,7 @@ break
 
 
 [@MadoHaveEvent5_3]
-#CALL [HonChondo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChondo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@MadoHaveStep5_3]
 

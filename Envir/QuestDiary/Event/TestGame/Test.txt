@@ -133,11 +133,11 @@ goto @RushCase5
 break
 
 [@RushCase1]
-#CALL [\\Event\TestGame\Test_Case1.txt] @RushTest_Game1
+#CALL [QuestDiary/Event/TestGame/Test_Case1.txt] @RushTest_Game1
 [@RushCase2]
-#CALL [\\Event\TestGame\Test_Case2.txt] @RushTest_Game2
+#CALL [QuestDiary/Event/TestGame/Test_Case2.txt] @RushTest_Game2
 [@RushCase4]
-#CALL [\\Event\TestGame\Test_Case4.txt] @RushTest_Game4
+#CALL [QuestDiary/Event/TestGame/Test_Case4.txt] @RushTest_Game4
 [@RushCase5]
-#CALL [\\Event\TestGame\Test_Case5.txt] @RushTest_Game5
+#CALL [QuestDiary/Event/TestGame/Test_Case5.txt] @RushTest_Game5
 }

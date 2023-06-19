@@ -19,16 +19,16 @@ checkweaponlevel 10
 GetBackUpgItem
 
 [@Refine_Help_Cmd]
-#CALL [\Refine\Help.txt] @Refine_Help
+#CALL [QuestDiary/Refine/Help.txt] @Refine_Help
 
 [@Change_Atom_Cmd]
-#CALL [\Refine\ChangeAtom.txt] @ChangeAtom
+#CALL [QuestDiary/Refine/ChangeAtom.txt] @ChangeAtom
 
 [@RefineName_Cmd]
-#CALL [\Refine\RefineName.txt] @RefineName
+#CALL [QuestDiary/Refine/RefineName.txt] @RefineName
 
 [@Refine_Cmd]
-#CALL [\Refine\Refine.txt] @Refine
+#CALL [QuestDiary/Refine/Refine.txt] @Refine
 
 [~@upgradenow_ok]
 #SAY

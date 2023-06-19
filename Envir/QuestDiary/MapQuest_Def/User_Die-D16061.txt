@@ -10,5 +10,5 @@ break
 break
 
 [@honchondostep_use_0]
-#CALL [HonChonDo\Mon_extinction.txt] @honchondostep_user
+#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @honchondostep_user
 ;;不要删掉此行

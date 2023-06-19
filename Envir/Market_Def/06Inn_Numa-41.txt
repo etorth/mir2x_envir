@@ -26,10 +26,10 @@ goto @main_0_0
 ;----------------------------------------------------------
 
 [@StgPassword]
-#CALL [\PassWord\PassWord.txt] @Manage_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Manage_PassWord
 
 [@PreGetback]
-#CALL [\PassWord\PassWord.txt] @Input_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Input_PassWord
 
 [@storage]
 #SAY

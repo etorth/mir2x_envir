@@ -9,4 +9,4 @@
 	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfTemple-D1110.txt] @NPC_Main
 
 [@Special_Repair()]
-#CALL [\Repair\TotalRepair.txt] @SRepairItem
+#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem

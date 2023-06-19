@@ -76,10 +76,10 @@ goto @TQuest481_1
 ;--------------
 
 [@TQuest481_1]
-#CALL [\QT_TODAY\4thClass.txt] @481_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @481_START
 
 [@TQuest481_2]
-#CALL [\QT_TODAY\4thClass.txt] @481_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @481_CHECK1
 
 ;--------------
 

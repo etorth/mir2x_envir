@@ -61,16 +61,16 @@ setopen [1] 1
 goto @NQuest01_1_1
 
 [@NQuest01_1_1]
-#CALL [\NQ_BASE\dolumi.txt] @SOKMO_START
+#CALL [QuestDiary/NQ_BASE/dolumi.txt] @SOKMO_START
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\dolumi.txt] @SOKMO_SOKMO_1
+#CALL [QuestDiary/NQ_BASE/dolumi.txt] @SOKMO_SOKMO_1
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\dolumi.txt] @SOKMO_SOKMO_2
+#CALL [QuestDiary/NQ_BASE/dolumi.txt] @SOKMO_SOKMO_2
 
 [@NQuest01_4]
-#CALL [\NQ_BASE\dolumi.txt] @SOKMO_SOKMO_3
+#CALL [QuestDiary/NQ_BASE/dolumi.txt] @SOKMO_SOKMO_3
 
 [@NQuest01_5]
-#CALL [\NQ_BASE\dolumi.txt] @SOKMO_COMPLETE
+#CALL [QuestDiary/NQ_BASE/dolumi.txt] @SOKMO_COMPLETE

@@ -57,13 +57,13 @@ break
 goto @mutebo_begin
 
 [@mutebo_begin]
-#CALL [\MU_warrior\mute.txt] @mugong_mutebo
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo
 
 [@mutebo_retry]
-#CALL [\MU_warrior\mute.txt] @mugon_mutebo_retry
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugon_mutebo_retry
 
 [@mutebo_test_complete_receive]
-#CALL [\MU_warrior\mute.txt] @mugong_mutebo_test_complete_receive
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo_test_complete_receive
 
 
 ;;-----------------------------

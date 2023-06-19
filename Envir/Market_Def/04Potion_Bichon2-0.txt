@@ -14,8 +14,8 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-;#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_WM1
-#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_M1
+;#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_WM1
+#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_M1
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------

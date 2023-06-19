@@ -152,16 +152,16 @@ setopen [1] 1
 goto @NQuest01_1_1
 
 [@NQuest01_1_1]
-#CALL [\NQ_BASE\bichun.txt] @BICHUN_START
+#CALL [QuestDiary/NQ_BASE/bichun.txt] @BICHUN_START
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\bichun.txt] @GO_GYUNGBI
+#CALL [QuestDiary/NQ_BASE/bichun.txt] @GO_GYUNGBI
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\bichun.txt] @BICHUN_TEST1
+#CALL [QuestDiary/NQ_BASE/bichun.txt] @BICHUN_TEST1
 
 [@NQuest01_4]
-#CALL [\NQ_BASE\bichun.txt] @BICHUN_TEST2
+#CALL [QuestDiary/NQ_BASE/bichun.txt] @BICHUN_TEST2
 
 [@TQuest]
 #IF
@@ -202,10 +202,10 @@ break
 goto @TQuest469_1
 
 [@TQuest469_1]
-#CALL [\QT_TODAY\4thClass.txt] @469_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @469_START
 
 [@TQuest469_2]
-#CALL [\QT_TODAY\4thClass.txt] @469_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @469_CHECK1
 
 [@TQuest1_0]
 #IF
@@ -224,10 +224,10 @@ break
 goto @TQuest1_1
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\3rdClass.txt] @329_START
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @329_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\3rdClass.txt] @329_CHECK1
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @329_CHECK1
 
 [@TQuest1_6]
 #SAY
@@ -250,7 +250,7 @@ break
 goto @TQuest2_1
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\4thClass.txt] @439_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @439_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\4thClass.txt] @439_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @439_CHECK1

@@ -46,13 +46,13 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/14Quest_SkeletonCave-E002.txt] @NPC_Main_0
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\oma.txt] @GADEUNG1
+#CALL [QuestDiary/NQ_BASE/oma.txt] @GADEUNG1
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\oma.txt] @MEET_GADEUNG
+#CALL [QuestDiary/NQ_BASE/oma.txt] @MEET_GADEUNG
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\oma.txt] @GADEUNG2
+#CALL [QuestDiary/NQ_BASE/oma.txt] @GADEUNG2
 
 [@NQuest01_4]
-#CALL [\NQ_BASE\oma.txt] @GADEUNG3
+#CALL [QuestDiary/NQ_BASE/oma.txt] @GADEUNG3

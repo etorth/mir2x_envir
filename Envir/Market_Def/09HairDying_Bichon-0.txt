@@ -28,7 +28,7 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_changeHairColor
 
 [@HairColor()]
-#CALL [\Hair\Dying.txt] @Color
+#CALL [QuestDiary/Hair/Dying.txt] @Color
 
 ;-------------------------------------------------------------------------------
 
@@ -41,7 +41,7 @@ gender  man
 	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_changeHairShape_WoMan
 
 [@HairShape()]
-#CALL [\Hair\Dying.txt] @Shape
+#CALL [QuestDiary/Hair/Dying.txt] @Shape
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -84,10 +84,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\3rdClass.txt] @308_START
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @308_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\3rdClass.txt] @308_CHECK1
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @308_CHECK1
 
 ;--------------
 

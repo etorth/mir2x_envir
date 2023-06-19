@@ -58,7 +58,7 @@ return false
 break
 
 [@MadoItemQuestMain_ok_Call]
-#CALL [HonChonMado\QuestMadoEvent.txt] @ItemQuest_Man
+#CALL [QuestDiary/HonChonMado/QuestMadoEvent.txt] @ItemQuest_Man
 
 
 }

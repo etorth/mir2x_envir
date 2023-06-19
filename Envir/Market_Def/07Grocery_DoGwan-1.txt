@@ -73,7 +73,7 @@ goto @TQuest563_1
 ;--------------
 
 [@TQuest563_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @563_CHECK2
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @563_CHECK2
 
 ;--------------
 
@@ -96,10 +96,10 @@ goto @TQuest562_1
 ;--------------
 
 [@TQuest562_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @562_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @562_START
 
 [@TQuest562_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @562_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @562_CHECK1
 
 ;--------------
 

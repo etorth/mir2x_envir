@@ -31,11 +31,11 @@ break
 break
 
 [@Samak_Mon13]
-#CALL [SamakCastleQuest\Monster.txt] @Samak_Mon13_0
+#CALL [QuestDiary/SamakCastleQuest/Monster.txt] @Samak_Mon13_0
 
 [@TodayQuest_TQCase1]
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NuMadolguk
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_NuMadolguk
 
 [@Taosung_Mon]
-#CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastle_VillageAttack_Numa
+#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastle_VillageAttack_Numa
 ;;不要删掉此行

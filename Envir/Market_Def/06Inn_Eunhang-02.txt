@@ -24,10 +24,10 @@ goto @main_0_0
 ;----------------------------------------------------------
 
 [@StgPassword]
-#CALL [\PassWord\PassWord.txt] @Manage_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Manage_PassWord
 
 [@PreGetback]
-#CALL [\PassWord\PassWord.txt] @Input_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Input_PassWord
 
 [@storage]
 #SAY
@@ -108,10 +108,10 @@ goto @TQuest588_1
 ;--------------
 
 [@TQuest588_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @588_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @588_START
 
 [@TQuest588_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @588_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @588_CHECK1
 
 
 ;--------------
@@ -135,10 +135,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\4thClass.txt] @430_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @430_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\4thClass.txt] @430_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @430_CHECK1
 
 ;--------------
 
@@ -167,10 +167,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\4thClass.txt] @448_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @448_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\4thClass.txt] @448_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @448_CHECK1
 
 
 
@@ -195,10 +195,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @510_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @510_START
 
 [@TQuest3_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @510_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @510_CHECK1
 
 
 ;----------------------------------
@@ -222,10 +222,10 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @528_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @528_START
 
 [@TQuest4_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @528_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @528_CHECK1
 
 ;----------------------------------
 
@@ -255,6 +255,6 @@ break
 ;--------------
 
 [@TQuest5_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @558_CHECK2
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @558_CHECK2
 
 ;----------------------------------------

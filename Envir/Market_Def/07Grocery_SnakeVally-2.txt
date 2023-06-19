@@ -14,7 +14,7 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [\NQ_BASE\BackGround\SnakeVally.txt] @BackLog_BG_M1
+#CALL [QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @BackLog_BG_M1
 
 [@main_root]
 #IF
@@ -75,10 +75,10 @@ goto @TQuest464_1
 ;--------------
 
 [@TQuest464_1]
-;;#CALL [\QT_TODAY\4thClass.txt] @464_START
+;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @464_START
 
 [@TQuest464_2]
-;;#CALL [\QT_TODAY\4thClass.txt] @464_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @464_CHECK1
 
 
 [@TQuest1_0]
@@ -100,10 +100,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\4thClass.txt] @409_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @409_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\4thClass.txt] @409_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @409_CHECK1
 
 ;--------------
 

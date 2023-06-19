@@ -1,3 +1,3 @@
 ;;09Lucky_Encore-9.txt
 [@main]
-#CALL [\Lucky\PkPoint.txt] @PkCount
+#CALL [QuestDiary/Lucky/PkPoint.txt] @PkCount

@@ -26,6 +26,6 @@ break
 #INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17NumaMagda1-D16064.txt] @Convert_17NumaMagda1-D16064_0
 
 [@NumaMagda1Quest_start1]
-#CALL [HonChonMado\NumaNpcMagda1.txt] @NumaMagda1_Talk
+#CALL [QuestDiary/HonChonMado/NumaNpcMagda1.txt] @NumaMagda1_Talk
 }
 ;;不要删掉此行

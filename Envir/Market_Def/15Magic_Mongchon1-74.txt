@@ -19,25 +19,25 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/15Magic_Mongchon1-74.txt] @NPC_Main_1
 
 [@Go_Mu_Warrior_Noatom_wesu]
-#CALL [\MU_Total_Sell\Warrior\wesu.txt] @Mu_Warrior_Noatom_wesu
+#CALL [QuestDiary/MU_Total_Sell/Warrior/wesu.txt] @Mu_Warrior_Noatom_wesu
 
 [@Go_Mu_Warrior_Noatom_wedo]
-#CALL [\MU_Total_Sell\Warrior\wedo.txt] @Mu_Warrior_Noatom_wedo
+#CALL [QuestDiary/MU_Total_Sell/Warrior/wedo.txt] @Mu_Warrior_Noatom_wedo
 
 [@Go_Mu_Warrior_Noatom_asword]
-#CALL [\MU_Total_Sell\Warrior\asword.txt] @Mu_Warrior_Noatom_asword
+#CALL [QuestDiary/MU_Total_Sell/Warrior/asword.txt] @Mu_Warrior_Noatom_asword
 
 [@Go_Mu_Warrior_Noatom_banwel]
-#CALL [\MU_Total_Sell\Warrior\banwel.txt] @Mu_Warrior_Noatom_banwel
+#CALL [QuestDiary/MU_Total_Sell/Warrior/banwel.txt] @Mu_Warrior_Noatom_banwel
 
 [@Go_Mu_Warrior_Noatom_mute]
-#CALL [\MU_Total_Sell\Warrior\mute.txt] @Mu_Warrior_Noatom_mute
+#CALL [QuestDiary/MU_Total_Sell/Warrior/mute.txt] @Mu_Warrior_Noatom_mute
 
 [@Go_Mu_Warrior_Noatom_maeng]
-#CALL [\MU_Total_Sell\Warrior\maeng.txt] @Mu_Warrior_Noatom_maeng
+#CALL [QuestDiary/MU_Total_Sell/Warrior/maeng.txt] @Mu_Warrior_Noatom_maeng
 
 [@Go_Mu_Warrior_Noatom_fire]
-#CALL [\MU_Total_Sell\Warrior\fire.txt] @Mu_Warrior_Noatom_fire
+#CALL [QuestDiary/MU_Total_Sell/Warrior/fire.txt] @Mu_Warrior_Noatom_fire
 
 [@Go_Mu_Warrior_Noatom_double]
-#CALL [\MU_Total_Sell\Warrior\double.txt] @Mu_Warrior_Noatom_double
+#CALL [QuestDiary/MU_Total_Sell/Warrior/double.txt] @Mu_Warrior_Noatom_double

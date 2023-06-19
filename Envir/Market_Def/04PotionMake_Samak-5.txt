@@ -35,10 +35,10 @@ goto @main_0_0
 ;----------------------------------------------------------
 
 [@Makeitem]
-#CALL [\Make_Item\Menu.txt] @make_item_main
+#CALL [QuestDiary/Make_Item/Menu.txt] @make_item_main
 
 [@HelpMakeitem]
-#CALL [\Make_Item\Menu.txt] @Help_makeitem_main
+#CALL [QuestDiary/Make_Item/Menu.txt] @Help_makeitem_main
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------

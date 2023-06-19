@@ -169,12 +169,12 @@ goto @MadofridayEventjobA
 break
 
 [@MadofridayEventjobA]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 [@MadofridayEventA]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadofridayEventA_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadofridayEventA_1
 
 [@MadofridayMongenA]
-#CALL [HonChonDo\extinctionMongen.txt] @MadofridayMongenA_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadofridayMongenA_1
 
 
 
@@ -360,13 +360,13 @@ goto @MadofridayEventjobB
 break
 
 [@MadofridayEventjobB]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@MadofridayEventB]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadofridayEventB_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadofridayEventB_1
 
 [@MadofridayMongenB]
-#CALL [HonChonDo\extinctionMongen.txt] @MadofridayMongenB_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadofridayMongenB_1
 
 
 
@@ -553,13 +553,13 @@ goto @MadofridayEventjobC
 break
 
 [@MadofridayEventjobC]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@MadofridayEventC]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadofridayEventC_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadofridayEventC_1
 
 [@MadofridayMongenC]
-#CALL [HonChonDo\extinctionMongen.txt] @MadofridayMongenC_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadofridayMongenC_1
 
 
 
@@ -743,13 +743,13 @@ goto @MadofridayEventjobD
 break
 
 [@MadofridayEventD]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@MadofridayEventD]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadofridayEventD_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadofridayEventD_1
 
 [@MadofridayMongenD]
-#CALL [HonChonDo\extinctionMongen.txt] @MadofridayMongenD_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadofridayMongenD_1
 
 
 
@@ -1018,10 +1018,10 @@ close
 break
 
 [@MadosundayEventcallnpcA]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadosundayEventcallnpcA_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadosundayEventcallnpcA_1
 
 [@MadosundayMonGencallnpcA]
-#CALL [HonChonDo\extinctionMongen.txt] @MadosundayMonGencallnpcA_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadosundayMonGencallnpcA_1
 
 
 
@@ -1369,10 +1369,10 @@ close
 break
 
 [@MadosundayEventcallnpcB]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadosundayEventcallnpcB_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadosundayEventcallnpcB_1
 
 [@MadosundayMonGencallnpcB]
-#CALL [HonChonDo\extinctionMongen.txt] @MadosundayMonGencallnpcB_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadosundayMonGencallnpcB_1
 
 
 
@@ -1703,10 +1703,10 @@ close
 break
 
 [@MadosundayEventcallnpcC]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadosundayEventcallnpcC_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadosundayEventcallnpcC_1
 
 [@MadosundayMonGencallnpcC]
-#CALL [HonChonDo\extinctionMongen.txt] @MadosundayMonGencallnpcC_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadosundayMonGencallnpcC_1
 
 
 
@@ -2038,10 +2038,10 @@ close
 break
 
 [@MadosundayEventcallnpcD]
-#CALL [HonChonDo\extinctionQuestEvent.txt] @MadosundayEventcallnpcD_1
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadosundayEventcallnpcD_1
 
 [@MadosundayMonGencallnpcD]
-#CALL [HonChonDo\extinctionMongen.txt] @MadosundayMonGencallnpcD_1
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @MadosundayMonGencallnpcD_1
 
 
 

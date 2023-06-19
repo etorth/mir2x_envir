@@ -31,5 +31,5 @@ IsAdmin
 ;; MonRush Event
 ;----------------------------------------------------------
 [@GEvent_start_00]
-#CALL [Event\Event_Game01\GEventRush00.txt] @GEventRush00_main
+#CALL [QuestDiary/Event/Event_Game01/GEventRush00.txt] @GEventRush00_main
 

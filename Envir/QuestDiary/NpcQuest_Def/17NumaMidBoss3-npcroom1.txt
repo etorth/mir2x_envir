@@ -25,6 +25,6 @@ break
 #INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17NumaMidBoss3-npcroom1.txt] @Convert_17NumaMidBoss3-npcroom1_0
 
 [@NumaMidBoss3_start1]
-#CALL [HonChondo\MadoNumaNpc.txt] @MadoTimeQuestNumaNpc_C
+#CALL [QuestDiary/HonChondo/MadoNumaNpc.txt] @MadoTimeQuestNumaNpc_C
 }
 ;;不要删掉此行

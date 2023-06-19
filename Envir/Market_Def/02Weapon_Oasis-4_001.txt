@@ -83,7 +83,7 @@ goto @main_0_0
 ;;------------------------------------------------------------------------------
 
 [@Special_Repair()]
-#CALL [\Repair\TotalRepair.txt] @SRepairItem
+#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY
@@ -122,13 +122,13 @@ goto @main_0_0
 ;;------------------------------------------------------------------------------
 
 [@mutedo_test]
-#CALL [\MU_warrior\mute.txt] @mugong_mutebo_test
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo_test
 
 [@mutedo_test_complete]
-#CALL [\MU_warrior\mute.txt] @mugong_mutebo_test_complete
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo_test_complete
 
 [@mutedo_test_complete_retry]
-#CALL [\MU_warrior\mute.txt] @mugong_mutebo_test_complete_retry
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo_test_complete_retry
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -184,10 +184,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\2ndClass.txt] @210_START
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @210_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\2ndClass.txt] @210_CHECK1
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @210_CHECK1
 
 ;--------------
 
@@ -216,10 +216,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\2ndClass.txt] @227_START
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @227_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\2ndClass.txt] @227_CHECK1
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @227_CHECK1
 
 ;------------------------
 
@@ -242,10 +242,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [\QT_TODAY\3rdClass.txt] @337_START
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @337_START
 
 [@TQuest3_2]
-#CALL [\QT_TODAY\3rdClass.txt] @337_CHECK1
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @337_CHECK1
 
 ;-------------------------------
 
@@ -275,6 +275,6 @@ break
 ;--------------
 
 [@TQuest4_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @550_CHECK2
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @550_CHECK2
 
 ;---------------------------

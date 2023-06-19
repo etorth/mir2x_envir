@@ -84,7 +84,7 @@ goto @main_0_0
 ;----------------------------------------------------------
 
 [@Special_Repair()]
-#CALL [\Repair\TotalRepair.txt] @SRepairItem
+#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY
@@ -158,15 +158,15 @@ goto @pre_repair_0
 ;-----------------------
 
 [@pre_repair_mutebo_1]
-#CALL [\MU_warrior\mute.txt] @mugong_mute_explan_mugi
+#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mute_explan_mugi
 
 ;;------------------------------------------------------
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_TAKE_GOGIGUK
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_TAKE_GOGIGUK
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_RETURN_KIM
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_RETURN_KIM
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -221,10 +221,10 @@ goto @TQuest595_1
 ;--------------
 
 [@TQuest595_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @595_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @595_START
 
 [@TQuest595_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @595_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @595_CHECK1
 
 
 ;------------------------
@@ -247,10 +247,10 @@ goto @TQuest577_1
 ;--------------
 
 [@TQuest577_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @577_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @577_START
 
 [@TQuest577_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @577_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @577_CHECK1
 
 ;------------------------
 
@@ -278,7 +278,7 @@ goto @TQuest576_1
 ;--------------
 
 [@TQuest576_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @576_CHECK2
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @576_CHECK2
 
 ;--------------
 
@@ -302,10 +302,10 @@ goto @TQuest572_1
 ;--------------
 
 [@TQuest572_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @572_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @572_START
 
 [@TQuest572_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @572_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @572_CHECK1
 
 
 ;------------------------

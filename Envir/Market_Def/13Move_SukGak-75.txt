@@ -1,4 +1,4 @@
 ;;13Move_SukGak-75.txt
 [@main]
-#CALL [teleport\SukGakTele.txt] @SukGak_Teleport
+#CALL [QuestDiary/teleport/SukGakTele.txt] @SukGak_Teleport
 

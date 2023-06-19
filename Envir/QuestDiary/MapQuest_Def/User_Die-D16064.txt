@@ -11,5 +11,5 @@ break
 break
 
 [@MadoHaveDie1_1_0]
-#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveDie1_1
+#CALL [QuestDiary/HonChonMaDo/Mon_MadoHave.txt] @MadoHaveDie1_1
 ;;不要删掉此行

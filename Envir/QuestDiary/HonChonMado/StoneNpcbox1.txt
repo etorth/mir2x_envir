@@ -82,7 +82,7 @@ break
 #INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_3
 
 [@StoneNpcbox1_Event_1]
-#CALL [HonChonMado\QuestMadoEvent.txt] @Npcbox1_Event_1
+#CALL [QuestDiary/HonChonMado/QuestMadoEvent.txt] @Npcbox1_Event_1
 
 [@StoneNpcbox1_Talk_4]
 

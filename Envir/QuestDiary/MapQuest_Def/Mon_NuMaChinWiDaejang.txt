@@ -93,8 +93,8 @@ break
 break
 
 [@TodayQuest_TQCase1]
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NumaDaeJang
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_NumaDaeJang
 
 [@MadoHaveStep0_0]
-#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep1_1
+#CALL [QuestDiary/HonChonMaDo/Mon_MadoHave.txt] @MadoHaveStep1_1
 ;;²»ÒªÉ¾µô´ËÐÐ

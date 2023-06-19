@@ -30,6 +30,6 @@ mapmove 41 148 84
 
 
 [@HonChondo_ok]
-#CALL [HonChondo\HonChondoNpc.txt] @HonChondo_Questnpc
+#CALL [QuestDiary/HonChondo/HonChondoNpc.txt] @HonChondo_Questnpc
 }
 ;;不要删掉此行

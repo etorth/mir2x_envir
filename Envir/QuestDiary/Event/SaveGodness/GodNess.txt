@@ -70,6 +70,6 @@ begin
 ;; User Control 부분
 ;;------------------------------------------------------------------------------------------------------------
    [@UserInputSaveGodNess]
-   #CALL [Event\SaveGodNess\UserSaveGodNess.txt] @UserPlay
+   #CALL [QuestDiary/Event/SaveGodNess/UserSaveGodNess.txt] @UserPlay
 end
 }

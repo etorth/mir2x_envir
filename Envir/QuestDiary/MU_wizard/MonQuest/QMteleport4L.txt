@@ -19,4 +19,4 @@ goto @move_next_4to5L
 break
 
 [@move_next_4to5L]
-#CALL [\MU_wizard\teleport.txt] @MapQuest_move_4to5L
+#CALL [QuestDiary/MU_wizard/teleport.txt] @MapQuest_move_4to5L

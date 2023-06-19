@@ -12,20 +12,20 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/10ChestnutMarket_Bichon-0.txt] @NPC_Main
 
 [@check1]
-;;#CALL [\Event\Chestnut\Event1.txt] @EventChar
+;;#CALL [QuestDiary/Event/Chestnut/Event1.txt] @EventChar
 
 [@color0]
-;;#CALL [\Event\Chestnut\Event2.txt] @EventColor
+;;#CALL [QuestDiary/Event/Chestnut/Event2.txt] @EventColor
 
 [@gold1_cmd]
-#CALL [\Event\Chestnut\Event3.txt] @gold1
+#CALL [QuestDiary/Event/Chestnut/Event3.txt] @gold1
 
 [@silver1_cmd]
-#CALL [\Event\Chestnut\Event3.txt] @silver1
+#CALL [QuestDiary/Event/Chestnut/Event3.txt] @silver1
 
 [@copper1_cmd]
-#CALL [\Event\Chestnut\Event3.txt] @copper1
+#CALL [QuestDiary/Event/Chestnut/Event3.txt] @copper1
 
 [@brown1_cmd]
-#CALL [\Event\Chestnut\Event3.txt] @brown1
+#CALL [QuestDiary/Event/Chestnut/Event3.txt] @brown1
 

@@ -99,7 +99,7 @@ break
 break
 
 [@tuesdayHonQuestMonGen]
-#CALL [HonChonDo\extinctionMongen.txt] @tuesdayMonGen
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @tuesdayMonGen
 
 
 [@wednesdayHonQuest]
@@ -191,7 +191,7 @@ goto @wednesdayHonQuestMonGen
 break
 
 [@wednesdayHonQuestMonGen]
-#CALL [HonChonDo\extinctionMongen.txt] @wednesdayMonGen
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @wednesdayMonGen
 
 
 
@@ -256,13 +256,13 @@ break
 break
 
 [@wednesdayHonQuestMonClear]
-#CALL [HonChonDo\extinctionMongen.txt] @wednesdayMonClear
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @wednesdayMonClear
 
 [@thursdayHonQuestMonGen]
-#CALL [HonChonDo\extinctionMongen.txt] @thursdayMonGen
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @thursdayMonGen
 
 [@thursdayHonQuestMonDie]
-#CALL [HonChonDo\extinctionMongen.txt] @thursdayMonClear
+#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @thursdayMonClear
 
 
 

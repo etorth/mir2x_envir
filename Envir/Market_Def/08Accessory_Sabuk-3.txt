@@ -38,7 +38,7 @@ Delaygoto [Grobal] 20 @_Startup
 Delaygoto [Grobal] 60 @_Startup
 
 [@CastleWarOn]
-#CALL [\CastleWar\Speak.txt] @CastleWarSpeak
+#CALL [QuestDiary/CastleWar/Speak.txt] @CastleWarSpeak
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------

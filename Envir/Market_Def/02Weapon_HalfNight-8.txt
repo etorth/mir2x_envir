@@ -78,7 +78,7 @@ goto @HNTL_03
 	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_Main_0_0
 
 [@Special_Repair()]
-#CALL [\Repair\TotalRepair.txt] @SRepairItem
+#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY

@@ -440,7 +440,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -468,7 +468,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -506,7 +506,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -534,7 +534,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -562,7 +562,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -600,7 +600,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -638,7 +638,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -676,7 +676,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -714,7 +714,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -762,7 +762,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -800,7 +800,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -838,7 +838,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -866,7 +866,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -924,7 +924,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -962,7 +962,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1010,7 +1010,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1068,7 +1068,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1106,7 +1106,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1134,7 +1134,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1164,7 +1164,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1204,7 +1204,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1232,7 +1232,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1272,7 +1272,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1300,7 +1300,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1330,7 +1330,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1358,7 +1358,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1396,7 +1396,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1464,7 +1464,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1522,7 +1522,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1580,7 +1580,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1618,7 +1618,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1646,7 +1646,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1690,7 +1690,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1730,7 +1730,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1758,7 +1758,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1786,7 +1786,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1824,7 +1824,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1856,7 +1856,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1884,7 +1884,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1912,7 +1912,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1940,7 +1940,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -1968,7 +1968,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2018,7 +2018,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2044,7 +2044,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2072,7 +2072,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2108,7 +2108,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2146,7 +2146,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2174,7 +2174,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2202,7 +2202,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2230,7 +2230,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2258,7 +2258,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2286,7 +2286,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2314,7 +2314,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2380,7 +2380,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2420,7 +2420,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2484,7 +2484,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2522,7 +2522,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2550,7 +2550,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2578,7 +2578,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2606,7 +2606,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2634,7 +2634,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2662,7 +2662,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2690,7 +2690,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2718,7 +2718,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2770,7 +2770,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2798,7 +2798,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2850,7 +2850,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2890,7 +2890,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2942,7 +2942,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -2982,7 +2982,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3022,7 +3022,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3062,7 +3062,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3102,7 +3102,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3142,7 +3142,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3194,7 +3194,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3234,7 +3234,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3274,7 +3274,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3302,7 +3302,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3342,7 +3342,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3370,7 +3370,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3410,7 +3410,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3438,7 +3438,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3466,7 +3466,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3542,7 +3542,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3570,7 +3570,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3622,7 +3622,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3650,7 +3650,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3678,7 +3678,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3706,7 +3706,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3746,7 +3746,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3774,7 +3774,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3838,7 +3838,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3866,7 +3866,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3918,7 +3918,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 
@@ -3946,7 +3946,7 @@ goto @main_Except
 
 [@CALL_TodayQuest_Monster_Total]
 
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
 ;;不要删掉此行

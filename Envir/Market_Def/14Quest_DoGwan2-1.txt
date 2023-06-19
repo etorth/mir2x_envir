@@ -60,22 +60,22 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/14Quest_DoGwan2-1.txt] @NPC_Main_1
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\tarak.txt] @HELP_SEOJON1_HYUN
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @HELP_SEOJON1_HYUN
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_HYUN1
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_HYUN1
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_HYUN2
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_HYUN2
 
 [@NQuest01_4]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_HYUN3
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_HYUN3
 
 [@NQuest01_5]
-#CALL [\NQ_BASE\tarak.txt] @SEARCH_BONE1
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @SEARCH_BONE1
 
 [@NQuest01_6]
-#CALL [\NQ_BASE\tarak.txt] @TAKE_BONE1
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TAKE_BONE1
 
 [@NQuest01_7]
-#CALL [\NQ_BASE\tarak.txt] @TARAK_HYUN4
+#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_HYUN4

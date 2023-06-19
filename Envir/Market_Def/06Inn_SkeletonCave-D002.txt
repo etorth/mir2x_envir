@@ -23,10 +23,10 @@ goto @main_0_0
 ;----------------------------------------------------------
 
 [@StgPassword]
-#CALL [\PassWord\PassWord.txt] @Manage_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Manage_PassWord
 
 [@PreGetback]
-#CALL [\PassWord\PassWord.txt] @Input_PassWord
+#CALL [QuestDiary/PassWord/PassWord.txt] @Input_PassWord
 
 [@storage]
 #SAY
@@ -77,10 +77,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\2ndClass.txt] @209_START
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @209_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\2ndClass.txt] @209_CHECK1
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @209_CHECK1
 
 ;--------------
 

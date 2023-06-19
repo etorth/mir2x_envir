@@ -55,11 +55,11 @@
 
 ;; ¸ó½ºÅÍ Á¨ ÄÁÆ®·Ñ ÇÏ´Â ºÎºĞ
 [@GenMonkeys]
-#CALL [Event\Island\Zen.txt] @Add_GetMonkeys
+#CALL [QuestDiary/Event/Island/Zen.txt] @Add_GetMonkeys
 
 ;; º¸¹°¼¶ ¹æÀÇ »óÈ²À» È®ÀÎ ÇÏ´Â ºÎºĞ
 [@CheckFinishCondition]
-#CALL [Event\Island\Condition.txt] @Add_CheckFinishCondition
+#CALL [QuestDiary/Event/Island/Condition.txt] @Add_CheckFinishCondition
 }
 
 ;; ¿î¿µÀÚ Á¤Áö ÀÌº¥Æ® ¸í·É¾î

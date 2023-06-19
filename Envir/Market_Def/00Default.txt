@@ -6,38 +6,38 @@ goto @Default_Setting_Sabuk
 goto @Defult_SafeZone_Setting
 
 [@Defult_SafeZone_Setting]
-#CALL [\System\SafeZone.txt] @SafeZone
+#CALL [QuestDiary/System/SafeZone.txt] @SafeZone
 
 
 ;; Sabuk Castle Weather Control
 [@Weather_Control_Sabuk]
-#CALL [\System\Weather.txt] @Weather
+#CALL [QuestDiary/System/Weather.txt] @Weather
 
 ;; Sabuk Castle Base Setting
 [@Default_Setting_Sabuk]
-#CALL [\System\DefaultSabuk.txt] @SabukDefult
+#CALL [QuestDiary/System/DefaultSabuk.txt] @SabukDefult
 
 ;; Work at Sabuk Battle 2Hours Ago
 [@_War_Ready_Sabuk]
-#CALL [\System\CastleWar.txt] @CastleWarReady
+#CALL [QuestDiary/System/CastleWar.txt] @CastleWarReady
 
 ;; Work at Sabuk Battle Start
 [@_War_Start_Sabuk]
-#CALL [\System\CastleWar.txt] @CastleWarStart
+#CALL [QuestDiary/System/CastleWar.txt] @CastleWarStart
 
 ;; Work at Sabuk Battle Finish
 [@_War_Finish_Sabuk]
-#CALL [\System\CastleWar.txt] @CastleWarFinish
+#CALL [QuestDiary/System/CastleWar.txt] @CastleWarFinish
 
 ;; Work at Flag Data Changed
 [@_CastleOwnerChanged_Sabuk]
-#CALL [\System\Flag.txt] @ChangeFlag
+#CALL [QuestDiary/System/Flag.txt] @ChangeFlag
 
 [@_CastleFlagChanged_Sabuk]
-#CALL [\System\Flag.txt] @ChangeFlag
+#CALL [QuestDiary/System/Flag.txt] @ChangeFlag
 
 [@_USERLOGINTELL]
-#CALL [\附加功能\上线提示.txt] @上线提示
+#CALL [QuestDiary/附加功能/上线提示.txt] @上线提示
 
 [@_UserLogin]
 

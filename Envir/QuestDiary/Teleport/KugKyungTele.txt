@@ -10,7 +10,7 @@
 mapmove 81 125 274
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }
 
 [@Kygkyung_Teleport_West]
@@ -24,7 +24,7 @@ mapmove 81 125 274
 mapmove 81 125 274
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }
 
 [@Kygkyung_Teleport_East]
@@ -38,5 +38,5 @@ mapmove 81 125 274
 mapmove 81 125 274
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
 }

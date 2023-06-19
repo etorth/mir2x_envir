@@ -65,7 +65,7 @@ ChangeUserName @ChangeUserNameResult
 
 ;-------------------------------------------------------------------------------
 [@monkill]
-#CALL [\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt] @É³³Ç»î¶¯
+#CALL [QuestDiary/CastleWar/É³°Í¿Ë¹ÖÎï¹¥³Ç.txt] @É³³Ç»î¶¯
 
 [@gold_rain]
 #ACT

@@ -29,8 +29,8 @@ break
 
 
 [@MadoHaveStep5_0]
-#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep5_1
+#CALL [QuestDiary/HonChonMaDo/Mon_MadoHave.txt] @MadoHaveStep5_1
 
 [@MadoHaveStep4_0]
-#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep4_1
+#CALL [QuestDiary/HonChonMaDo/Mon_MadoHave.txt] @MadoHaveStep4_1
 ;;不要删掉此行

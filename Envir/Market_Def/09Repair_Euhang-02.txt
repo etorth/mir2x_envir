@@ -8,4 +8,4 @@
 
 
 [@SRepairFunc()]
-#CALL [\Repair\TotalRepair.txt] @SRepairItem
+#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem

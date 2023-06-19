@@ -83,21 +83,21 @@ break
 <关 闭/@Exit>
 
 [@madomake_Accessory]
-#CALL [System\NecklaceMake.txt] @NecklaceMake
+#CALL [QuestDiary/System/NecklaceMake.txt] @NecklaceMake
 
 
 [@MadoTimeQuest]
-#CALL [HonChondo\MadoNpcSahaka.txt] @MadoTimeQuestMainNpc
+#CALL [QuestDiary/HonChondo/MadoNpcSahaka.txt] @MadoTimeQuestMainNpc
 
 
 [@MadoQuest]
-#CALL [HonChonMado\SahakaNpc.txt] @SahakaNpcNpc_Call
+#CALL [QuestDiary/HonChonMado/SahakaNpc.txt] @SahakaNpcNpc_Call
 
 
 
 [@MadoTimeQueststart]
-#CALL [HonChondo\HonMainControl.txt] @Honchonmadocontrol
+#CALL [QuestDiary/HonChondo/HonMainControl.txt] @Honchonmadocontrol
 
 [@everythingreward]
-#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
 ;;不要删掉此行

@@ -42,13 +42,13 @@ Cleardelaygoto
 ;----------------------------------------------------------
 
 [@RushEvent2]
-;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert72
+;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert72
 [@RushEvent7]
-;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert77
+;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert77
 
 ;----------------------------------------------------------
 ;; 릴레이 이벤트 이벤트
 ;----------------------------------------------------------
 [@GEvent_start_01]
-#CALL [Event\Event_Game01\GEventRush1.txt] @GEventRush1_main
+#CALL [QuestDiary/Event/Event_Game01/GEventRush1.txt] @GEventRush1_main
 

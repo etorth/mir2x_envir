@@ -90,16 +90,16 @@ goto @NQuest01_1_1
 setopen [1] 1
 goto @NQuest01_1_1
 [@NQuest01_1_1]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_MQ_START
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_MQ_START
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_GO_BUCHER
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_GO_BUCHER
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_CQ_START1
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_CQ_START1
 
 [@NQuest01_7]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_GO_WANG
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_GO_WANG
 
 [@NQuest01_8]
 #SAY

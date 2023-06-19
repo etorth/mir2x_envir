@@ -51,13 +51,13 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung3-01.txt] @NPC_Main_1
 
 [@NQuest01_1]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUYUK1
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUYUK1
 
 [@NQuest01_2]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUYUK2
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUYUK2
 
 [@NQuest01_3]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUYUK3
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUYUK3
 
 [@NQuest01_4]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUYUK4
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUYUK4

@@ -6,8 +6,8 @@ break
 
 
 [@NumaMidBoss1_open]
-#CALL [NpcQuest_Def\17NumaMidBoss1-npcroom1.txt] @NPCQuest_Check
+#CALL [QuestDiary/NpcQuest_Def/17NumaMidBoss1-npcroom1.txt] @NPCQuest_Check
 
 [@everythingreward]
-#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
 ;;不要删掉此行

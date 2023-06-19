@@ -20,7 +20,7 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/02Weapon_Encore-9.txt] @NPC_Main_0_0
 
 [@Special_Repair()]
-#CALL [\Repair\TotalRepair.txt] @SRepairItem
+#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY

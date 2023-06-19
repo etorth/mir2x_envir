@@ -33,7 +33,7 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Main
 
 [@rustaccessory]
-#CALL [\Make_Item\AtomItem.txt] @rustaccessory_Main
+#CALL [QuestDiary/Make_Item/AtomItem.txt] @rustaccessory_Main
 
 ;----------------------------------------------------------
 

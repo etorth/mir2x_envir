@@ -99,16 +99,16 @@ goto @main_0_0
 	#INCLUDE [Convert_Def/Market_Def/01Meet_Kugkyung-01.txt] @NPC_MeatHelp
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_DQ_START
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_DQ_START
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_GO_DUKSU
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_GO_DUKSU
 
 [@NQuest01_3]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_SEARCH_GOGI
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_SEARCH_GOGI
 
 [@NQuest01_4]
-#CALL [\NQ_BASE\warriorbase.txt] @Junsa_MQ_COMPLETE
+#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_MQ_COMPLETE
 
 [@TQuest]
 #IF
@@ -147,10 +147,10 @@ goto @TQuest596_1
 ;--------------
 
 [@TQuest596_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @596_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @596_START
 
 [@TQuest596_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @596_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @596_CHECK1
 
 ;------------------------
 
@@ -173,10 +173,10 @@ goto @TQuest578_1
 ;--------------
 
 [@TQuest578_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @578_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @578_START
 
 [@TQuest578_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @578_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @578_CHECK1
 
 ;--------------
 [@TQuest1_6]

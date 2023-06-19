@@ -29,7 +29,7 @@ goto @main_0_0
 
 
 ;;[@Event1115]
-;;#CALL [\Event\02_11_15_Event.txt] @change_event
+;;#CALL [QuestDiary/Event/02_11_15_Event.txt] @change_event
 
 ;;[@Event1105]
-;;#CALL [\Event\02_11_05_Event.txt] @Event_main
+;;#CALL [QuestDiary/Event/02_11_05_Event.txt] @Event_main

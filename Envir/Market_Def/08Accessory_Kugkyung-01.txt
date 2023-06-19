@@ -107,7 +107,7 @@ goto @TQuest574_1
 ;--------------
 
 [@TQuest574_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @574_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @574_START
 
 ;--------------
 [@TQuest1_6]

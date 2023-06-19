@@ -17,8 +17,8 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-;#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_WM1
-#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_M1
+;#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_WM1
+#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_M1
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -118,10 +118,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\2ndClass.txt] @208_START
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @208_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\2ndClass.txt] @208_CHECK1
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @208_CHECK1
 
 ;--------------
 
@@ -151,10 +151,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\3rdClass.txt] @322_START
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @322_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\3rdClass.txt] @322_CHECK1
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @322_CHECK1
 
 ;------------------------------------
 
@@ -177,9 +177,9 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [\QT_TODAY\4thClass.txt] @432_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @432_START
 
 [@TQuest3_2]
-#CALL [\QT_TODAY\4thClass.txt] @432_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @432_CHECK1
 
 ;------------------------------------

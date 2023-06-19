@@ -139,10 +139,10 @@ goto @TQuest587_1
 ;--------------
 
 [@TQuest587_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @587_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @587_START
 
 [@TQuest587_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @587_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @587_CHECK1
 
 ;------------------------
 
@@ -165,10 +165,10 @@ goto @TQuest583_1
 ;--------------
 
 [@TQuest583_1]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @583_START
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @583_START
 
 [@TQuest583_2]
-;;;;#CALL [\QT_TODAY\5thClass.txt] @583_CHECK1
+;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @583_CHECK1
 
 
 ;------------------------
@@ -192,10 +192,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\4thClass.txt] @425_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @425_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\4thClass.txt] @425_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @425_CHECK1
 
 ;--------------
 
@@ -224,10 +224,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\4thClass.txt] @446_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @446_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\4thClass.txt] @446_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @446_CHECK1
 
 ;--------------------------------
 
@@ -250,10 +250,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @505_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @505_START
 
 [@TQuest3_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @505_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @505_CHECK1
 
 
 ;----------------------------------
@@ -277,9 +277,9 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-;;#CALL [\QT_TODAY\5thClass.txt] @526_START
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @526_START
 
 [@TQuest4_2]
-;;#CALL [\QT_TODAY\5thClass.txt] @526_CHECK1
+;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @526_CHECK1
 
 ;----------------------------------

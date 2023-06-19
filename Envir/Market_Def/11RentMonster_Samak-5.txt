@@ -8,4 +8,4 @@ checkpkpoint 2
 goto @main_0_0
 
 [@main_0_0]
-#CALL [\Taming\RentMob.txt] @Event_taming
+#CALL [QuestDiary/Taming/RentMob.txt] @Event_taming

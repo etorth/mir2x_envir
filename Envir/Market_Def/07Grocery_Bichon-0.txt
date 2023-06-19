@@ -18,7 +18,7 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_M1
+#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_M1
 
 
 ;;------------------------------------------------------------------------------
@@ -709,27 +709,27 @@ goto @main_1_0
 ;;------------------------------------------------------------------------------
 
 [@NQuest01_1]
-#CALL [\NQ_BASE\wang.txt] @INVITE_JABSANG
+#CALL [QuestDiary/NQ_BASE/wang.txt] @INVITE_JABSANG
 
 [@NQuest01_2]
-#CALL [\NQ_BASE\wang.txt] @JOIN_JABSANG
+#CALL [QuestDiary/NQ_BASE/wang.txt] @JOIN_JABSANG
 
 
 [@NQuest02_1]
-#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_1
+#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_1
 
 [@NQuest02_2]
-#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_2
+#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_2
 
 [@NQuest02_3]
-#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_3
+#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_3
 
 [@NQuest02_4]
-#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_4
+#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_4
 
 
 [@NQuest03]
-#CALL [\MU_taoist\masshiden.txt] @mugong_masshiding_pre
+#CALL [QuestDiary/MU_taoist/masshiden.txt] @mugong_masshiding_pre
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -800,7 +800,7 @@ goto @TQuest464_1
 ;--------------
 
 [@TQuest464_1]
-;;#CALL [\QT_TODAY\4thClass.txt] @464_CHECK2
+;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @464_CHECK2
 
 ;--------------
 
@@ -823,10 +823,10 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [\QT_TODAY\2ndClass.txt] @238_START
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @238_START
 
 [@TQuest1_2]
-#CALL [\QT_TODAY\2ndClass.txt] @238_CHECK1
+#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @238_CHECK1
 
 ;--------------
 
@@ -855,10 +855,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [\QT_TODAY\3rdClass.txt] @323_START
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @323_START
 
 [@TQuest2_2]
-#CALL [\QT_TODAY\3rdClass.txt] @323_CHECK1
+#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @323_CHECK1
 
 ;-------------------------------------
 
@@ -881,10 +881,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [\QT_TODAY\4thClass.txt] @406_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @406_START
 
 [@TQuest3_2]
-#CALL [\QT_TODAY\4thClass.txt] @406_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @406_CHECK1
 
 ;-------------------------------------
 
@@ -907,10 +907,10 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-#CALL [\QT_TODAY\4thClass.txt] @433_START
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @433_START
 
 [@TQuest4_2]
-#CALL [\QT_TODAY\4thClass.txt] @433_CHECK1
+#CALL [QuestDiary/QT_TODAY/4thClass.txt] @433_CHECK1
 
 
 ;-------------------------------------

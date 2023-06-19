@@ -7,22 +7,22 @@
 ;------------------------------
 
 [@make_item_main_Potion]
-#CALL [\Make_Item\Siyak.txt] @make_Potion_main
+#CALL [QuestDiary/Make_Item/Siyak.txt] @make_Potion_main
 
 ;------------------------------
 
 [@make_item_main_Drug]
-#CALL [\Make_Item\Dok.txt] @make_Drug_main
+#CALL [QuestDiary/Make_Item/Dok.txt] @make_Drug_main
 
 ;------------------------------
 
 [@make_item_main_charm]
-#CALL [\Make_Item\Bujuk.txt] @make_Charm_main
+#CALL [QuestDiary/Make_Item/Bujuk.txt] @make_Charm_main
 
 ;------------------------------
 
 [@make_item_main_general]
-#CALL [\Make_Item\Japhwa.txt] @make_General_main
+#CALL [QuestDiary/Make_Item/Japhwa.txt] @make_General_main
 }
 
 

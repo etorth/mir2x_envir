@@ -49,5 +49,5 @@ goto @main_0_0
 
 
 [@Ghltod]
-#CALL [Event\PotionEvent\PEvent.txt] @Event_Ghltod
+#CALL [QuestDiary/Event/PotionEvent/PEvent.txt] @Event_Ghltod
 ;-------------------------------------------------------------------------------

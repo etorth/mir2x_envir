@@ -140,49 +140,49 @@ goto @NQuest01_0
 	#INCLUDE [Convert_Def/Market_Def/14Quest_DoGwan-1_009.txt] @NPC_Main_1
 
 [@NQuest01_0]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG0
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG0
 
 [@NQuest01_1]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG1
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG1
 
 [@NQuest01_2]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG2
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG2
 
 [@NQuest01_3]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG3
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG3
 
 [@NQuest01_4]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG4
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG4
 
 [@NQuest01_5]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG5
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG5
 
 [@NQuest01_6]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG6
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG6
 
 [@NQuest01_7]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG7
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG7
 
 [@NQuest01_8]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG8
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG8
 
 [@NQuest01_9]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG9
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG9
 
 [@NQuest01_10]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG10
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG10
 
 [@NQuest01_11]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG11
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG11
 
 [@NQuest01_12]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG12
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG12
 
 [@NQuest01_13]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG13
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG13
 
 [@NQuest01_14]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG14
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG14
 
 [@NQuest01_15]
-#CALL [\NQ_EXTRA\umyun.txt] @UMKING_MUMYUNG15
+#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_MUMYUNG15

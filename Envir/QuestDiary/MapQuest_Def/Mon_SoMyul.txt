@@ -50,17 +50,17 @@ break
 
 
 [@mainstep1_1_0]
-#CALL [HonChonDo\Mon_extinction.txt] @mainstep1_1
+#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep1_1
 
 [@mainstep1_2_0]
-#CALL [HonChonDo\Mon_extinction.txt] @mainstep1_2
+#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep1_2
 
 [@mainstep1_3_0]
-#CALL [HonChonDo\Mon_extinction.txt] @mainstep1_3
+#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep1_3
 
 [@mainstep1_4_0]
-#CALL [HonChonDo\Mon_extinction.txt] @mainstep1_4
+#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep1_4
 
 [@mainstep6_0]
-#CALL [HonChonDo\Mon_extinction.txt] @mainstep6
+#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep6
 ;;不要删掉此行

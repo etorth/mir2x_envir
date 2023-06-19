@@ -88,8 +88,8 @@ goto @MadoHaveStep0
 break
 
 [@TodayQuest_TQCase1]
-#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NumaSaRyung
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_NumaSaRyung
 
 [@MadoHaveStep0]
-#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep_1
+#CALL [QuestDiary/HonChonMaDo/Mon_MadoHave.txt] @MadoHaveStep_1
 ;;不要删掉此行

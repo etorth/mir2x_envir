@@ -13,7 +13,7 @@
 linemsg  "z010,z011,z012,z014" "%A0"
 break
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Event\Event_Game01\GEventRush1.txt] @NPC_AlreadyStart
+	#INCLUDE [../Convert_Def/QuestDiary/Event/Event_Game01/GEventRush1.txt] @NPC_AlreadyStart
 #ELSEACT
 	LoadValue A0 "Convert_Def\QuestDiary\Event\Event_Game01\GEventRush1_MSG.txt" [LineMSG] [MSG02]
 linemsg "z010,z011,z012,z014" "%A0"
@@ -21,7 +21,7 @@ linemsg "z010,z011,z012,z014" "%A0"
 Delaygoto [Grobal] 60 @GEvent_01_Rush_1ST
 break
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Event\Event_Game01\GEventRush1.txt] @NPC_ready
+	#INCLUDE [../Convert_Def/QuestDiary/Event/Event_Game01/GEventRush1.txt] @NPC_ready
 
 [@GEvent_01_Rush_1ST]
 

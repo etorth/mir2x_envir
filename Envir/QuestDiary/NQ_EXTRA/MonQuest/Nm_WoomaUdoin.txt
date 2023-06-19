@@ -27,7 +27,7 @@ goto @udoin1
 [@udoin1]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\MonQuest\Nm_WoomaUdoin.txt] @Nm_WoomaUdoin_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MonQuest/Nm_WoomaUdoin.txt] @Nm_WoomaUdoin_1
 
 #ACT
 give Áé»êÃ÷Öé 1

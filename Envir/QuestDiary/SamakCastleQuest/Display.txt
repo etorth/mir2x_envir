@@ -4,7 +4,7 @@
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_0
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_0
 
 [@@InPutGuildName]
 #IF
@@ -42,13 +42,13 @@ break
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_1
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_1
 
 [@ImportNewQuestGuild]
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_2
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_2
 
 [@@ImportNewQuestGuildName]
 #IF
@@ -60,7 +60,7 @@ goto @ImportNewQuestGuildMaster
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_3
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_3
 
 [@@ImportNewQuestGuildMaster_1]
 #IF
@@ -82,13 +82,13 @@ Mov A3 %ARG(1)
 Equal A0 %A3
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_4
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_4
 
 #IF
 Equal A3 ""
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_5
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_5
 
 [@ImportNewQuestGuild_SQL]
 #IF
@@ -103,7 +103,7 @@ WriteValueSQL "TBL_SamakCastleQuest" %A6 %A9
 Equal A2 "Complete"
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_6
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_6
 
 #ACT
 break
@@ -111,13 +111,13 @@ break
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_7
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_7
 
 [@Amendment_GuildMaster]
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_8
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_8
 
 [@@Input_Amendment_GuildMaster]
 #IF
@@ -134,13 +134,13 @@ FormatStr "FLD_SAMAKGUILDMASTER='%s'" %A7
 UpdateValueSQL "TBL_SamakCastleQuest" %A6 %A9
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_9
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_9
 
 [@Amendment_QuestLevel]
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_10
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_10
 
 [@@Input_Amendment_QuestLevel]
 #IF
@@ -152,7 +152,7 @@ goto @Amendment_QuestLevel_1
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_11
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_11
 
 [@@Input_Amendment_QuestLevel_1]
 #IF
@@ -169,13 +169,13 @@ FormatStr "FLD_SAMAKSTATUS='%s',FLD_SAMAKSTATUSRDY='%s'" %D2 %D3
 UpdateValueSQL "TBL_SamakCastleQuest" %A6 %A9
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_12
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_12
 
 [@Amendment_Complete]
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_13
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_13
 
 [@Amendment_Complete_Confirm]
 #IF
@@ -186,13 +186,13 @@ FormatStr "FLD_SAMAKCONDITION='%s'" "Complete"
 UpdateValueSQL "TBL_SamakCastleQuest" %A6 %A9
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_14
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_14
 
 [@Review_SamakQuest]
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_15
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_15
 
 }
 ;;不要删掉此行

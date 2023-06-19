@@ -1452,7 +1452,7 @@ Delaygoto [Grobal] 12 @MadosundayextinctionEvent2_B_10
 [@MadosundayextinctionEvent2_B_10]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] @Convert_extinctionQuestEvent_0
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] @Convert_extinctionQuestEvent_0
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME

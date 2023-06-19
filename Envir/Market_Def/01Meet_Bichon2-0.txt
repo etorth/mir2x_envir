@@ -17,7 +17,7 @@ goto @main_Call_BG
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Bichon2-0.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/01Meet_Bichon2-0.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
@@ -25,11 +25,11 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Bichon2-0.txt] @NPC_Main_0_0
+	#INCLUDE [../Convert_Def/Market_Def/01Meet_Bichon2-0.txt] @NPC_Main_0_0
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Bichon2-0.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/01Meet_Bichon2-0.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -49,7 +49,7 @@ goto @TQuest1_0
 break
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Bichon2-0.txt] @NPC_TQuest
+	#INCLUDE [../Convert_Def/Market_Def/01Meet_Bichon2-0.txt] @NPC_TQuest
 
 [@TQuest487_0]
 #IF
@@ -97,4 +97,4 @@ goto @TQuest1_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Bichon2-0.txt] @NPC_TQuest_1
+	#INCLUDE [../Convert_Def/Market_Def/01Meet_Bichon2-0.txt] @NPC_TQuest_1

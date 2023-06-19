@@ -18,7 +18,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_0
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_0
 
 #ELSEACT
 break
@@ -42,7 +42,7 @@ Mov D1 %ARG(5)
 IsOnCastleWar TAOSUNG
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_1
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_1
 
 #IF
 Equal A0 ""
@@ -63,7 +63,7 @@ Equal A2 "Complete"
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_2
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_2
 
 #IF
 Equal A0 %GUILDNAME
@@ -266,7 +266,7 @@ break
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_3
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_3
 
 [@SAMAK_NPC1_1_1]
 #IF
@@ -280,7 +280,7 @@ AddStr A7 %A9
 WriteValueSQL "TBL_SAMAKCASTLEQUEST" %A8 "FLD_SAMAKGUILD,FLD_SAMAKGUILDMASTER,FLD_SAMAKCONDITION,FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" %A7
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_4
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_4
 
 [@SAMAK_NPC1_1_2]
 #IF
@@ -325,7 +325,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_5
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_5
 
 [@SAMAK_NPC1_2]
 #IF
@@ -336,7 +336,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_6
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_6
 
 [@SAMAK_NPC1_2_EventMSG]
 #IF
@@ -365,11 +365,11 @@ Delaygoto [Grobal] 7 @SAMAK_NPC1_2_1
 checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_7
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_7
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_8
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_8
 
 [@SAMAK_NPC1_2_QuestStart]
 #IF
@@ -380,7 +380,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='2',FLD_SAMAKSTATUSRD
 
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_9
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_9
 
 [@Samak_NPC1_2_QuestTimeOut]
 #IF
@@ -416,7 +416,7 @@ Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_10
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_10
 
 [@SAMAK_NPC1_3_EventMSG]
 #IF
@@ -550,7 +550,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_11
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_11
 
 [@Samak_NPC1_3_TimeOut]
 #IF
@@ -589,7 +589,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_12
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_12
 
 [@Samak_NPC1_4_GuildMaster]
 #IF
@@ -607,11 +607,11 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='2',FLD_SAMAKSTATUSRD
 Delaygoto [Local] 7 @Samak_NPC1_4_EventMSG
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_13
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_13
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_14
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_14
 
 [@Samak_NPC1_4_EventMSG]
 #IF
@@ -668,7 +668,7 @@ Delaygoto [Grobal] 30 @Samak_NPC1_4_MapSpell
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_15
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_15
 
 [@Samak_NPC1_4_TimeOut]
 #IF
@@ -711,7 +711,7 @@ IsCastleGuild TAOSUNG
 !IsGuildMaster
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_16
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_16
 
 #ACT
 break
@@ -725,7 +725,7 @@ checkitemw 头子证件 1
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_17
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_17
 
 #IF
 IsCastleGuild TAOSUNG
@@ -736,7 +736,7 @@ checkitem 森罗片 1
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_18
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_18
 
 #IF
 IsCastleGuild TAOSUNG
@@ -752,7 +752,7 @@ MonClear DQ1902_004
 MonClear DQ1902_005
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_19
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_19
 
 #ELSEACT
 break
@@ -902,7 +902,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_20
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_20
 
 [@SAMAK_NPC1_5_Complete]
 #IF
@@ -910,7 +910,7 @@ IsCastleGuild TAOSUNG
 !IsGuildMaster
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_21
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_21
 
 #ACT
 break
@@ -928,7 +928,7 @@ Checkitem 简易钥匙 3
 !checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_22
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_22
 
 #ACT
 break
@@ -981,14 +981,14 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_23
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_23
 
 [@Samak_NPC1_6_Check]
 #IF
 !checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_24
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_24
 
 #IF
 checkitem 森罗片 2
@@ -1003,7 +1003,7 @@ Delaygoto [Grobal] 10 @Samak_NPC1_6_EventMSG
 checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_25
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_25
 
 [@Samak_NPC1_6_EventMSG]
 #IF
@@ -1037,7 +1037,7 @@ Checkitemw 头子证件 1
 !checkitem 森罗片 3
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_26
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_26
 
 #ACT
 break
@@ -1047,7 +1047,7 @@ IsGuildMaster
 !Checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_27
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_27
 
 #ACT
 break
@@ -1056,7 +1056,7 @@ break
 !IsGuildMaster
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_28
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_28
 
 #ACT
 break
@@ -1090,7 +1090,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRD
 !IsGuildMaster
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_29
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_29
 
 #ACT
 break
@@ -1100,7 +1100,7 @@ IsGuildMaster
 !checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_30
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_30
 
 #ACT
 break
@@ -1218,7 +1218,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='5',FLD_SAMAKSTATUSRD
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_31
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_31
 
 }
 
@@ -1270,7 +1270,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_32
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_32
 
 [@SAMAK_NPC2_1_MoveRootin]
 #IF
@@ -1330,7 +1330,7 @@ Equal A0 %GUILDNAME
 Equal A2 "Ready"
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_33
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_33
 
 #IF
 Equal A0 %GUILDNAME
@@ -1429,7 +1429,7 @@ Delaygoto [Grobal] 7 @Samak_NPC3_Num1_EventMSG
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_34
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_34
 
 [@Samak_NPC3_Num1_EventMSG]
 #IF
@@ -1480,7 +1480,7 @@ break
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_35
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_35
 
 [@Samak_NPC3_3_PuzzleSet]
 
@@ -1497,73 +1497,73 @@ Movr D0 10
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_36
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_36
 
 #IF
 Equal D1 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_37
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_37
 
 #IF
 Equal D0 0
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_38
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_38
 
 #IF
 Equal D0 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_39
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_39
 
 #IF
 Equal D0 2
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_40
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_40
 
 #IF
 Equal D0 3
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_41
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_41
 
 #IF
 Equal D0 4
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_42
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_42
 
 #IF
 Equal D0 5
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_43
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_43
 
 #IF
 Equal D0 6
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_44
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_44
 
 #IF
 Equal D0 7
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_45
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_45
 
 #IF
 Equal D0 8
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_46
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_46
 
 #IF
 Equal D0 9
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_47
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_47
 
 [@Samak_NPC3_PuzzleN()]
 
@@ -1601,7 +1601,7 @@ MonClear DQ1903_002
 Delaygoto [Grobal] 3 @Samak_NPC3_3_PuzzleResult_1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_48
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_48
 
 #ELSEACT
 Mul D2 D3
@@ -1609,7 +1609,7 @@ MongenP "DQ1903_002,40,40,30" 地牢女神1 %P9
 Delaygoto [Grobal] 3 @Samak_NPC3_3_PuzzleFail
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_49
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_49
 
 [@Samak_NPC3_3_PuzzleFail]
 #IF
@@ -1928,7 +1928,7 @@ break
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_50
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_50
 
 [@Samak_NPC5_1]
 #IF
@@ -1963,7 +1963,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 !checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_51
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_51
 
 #IF
 checkitemw 头子证件 1
@@ -2070,20 +2070,20 @@ Equal D1 3
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_52
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_52
 
 [@Samak_NPC6_1]
 #IF
 checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_53
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_53
 
 #ELSEACT
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_54
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_54
 
 [@Samak_NPC6_Puzzle]
 #IF
@@ -2212,7 +2212,7 @@ goto @Samak_NPC6_2_MapSpell
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_55
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_55
 
 [@Samak_NPC6_Puzzle_N()]
 #IF
@@ -2672,7 +2672,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='5',FLD_SAMAKSTATUSRD
 Delaygoto [Grobal] 10 @Samak_NPC6_2
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_56
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_56
 
 [@Samak_NPC6_2]
 #IF
@@ -2743,26 +2743,26 @@ Equal D1 5
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_57
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_57
 
 #ELSEACT
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_58
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_58
 
 [@Samak_NPC7_1]
 #IF
 Checkitemw 头子证件 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_59
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_59
 
 #ELSEACT
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_60
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_60
 
 [@Samak_NPC7_1_1]
 #IF
@@ -2779,7 +2779,7 @@ Mov D8 0
 Mov D9 0
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_61
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_61
 
 [@Samak_NPC7_Puzzle]
 
@@ -2812,7 +2812,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_62
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_62
 
 [@Samak_NPC7_Puzzle_N()]
 #IF
@@ -2854,7 +2854,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_63
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_63
 
 #ELSEACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg91]
@@ -2870,7 +2870,7 @@ Mapting DQ1902 5 252 103
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_64
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_64
 
 #ACT
 Delaygoto [Grobal] 7 @Samak_NPC7_Puzzle_Finish_1
@@ -2914,7 +2914,7 @@ break
 !IsGuildMaster
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_65
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_65
 
 #ACT
 break
@@ -2933,7 +2933,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_66
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_66
 
 [@Samak_NPC8_EventMSG]
 #If

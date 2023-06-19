@@ -6,11 +6,11 @@ IsCastleGuild [TAOSUNG]
 IsGuildMaster
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_0
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_0
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_1
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_1
 
 [@@DrawTax]
 #IF
@@ -23,7 +23,7 @@ goto @DrawTax
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_2
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_2
 
 [@DrawTax]
 #IF
@@ -31,11 +31,11 @@ large D2 %D1
 or small d2 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_3
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_3
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_4
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_4
 
 #ELSEACT
 mov P9 1
@@ -65,7 +65,7 @@ break
 IsOnCastleWar [TAOSUNG]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_5
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_5
 
 #ACT
 break
@@ -74,7 +74,7 @@ break
 !IsGuildMaster
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_6
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_6
 
 #ACT
 break
@@ -83,7 +83,7 @@ break
 IsCastleGuild [TAOSUNG]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_7
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_7
 
 #ACT
 break
@@ -92,7 +92,7 @@ break
 IsCastleGuild [SABUK]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_8
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_8
 
 #ACT
 break
@@ -101,7 +101,7 @@ break
 !checkitem 遗址雕像 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_9
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_9
 
 #ACT
 break
@@ -113,11 +113,11 @@ ProposeCastleWar [TAOSUNG]
 take 遗址雕像 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_10
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_10
 
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_11
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_11
 
 [@Propse_CastleWar_Pagunsung]
 #ACT
@@ -125,17 +125,17 @@ ProposeCastleWar [TAOSUNG]
 UpdateValueSql "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_PAGUNSUNGGUILD='NULL'"
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_12
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_12
 
 [@requestcastlewar]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_13
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_13
 
 [@view_warschedule]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_14
+#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungManager.txt] @Convert_TaosungManager_14
 
 }
 ;;不要删掉此行

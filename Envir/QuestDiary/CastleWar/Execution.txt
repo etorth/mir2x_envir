@@ -2,18 +2,18 @@
 [@Castle_Execution]
 {
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_1
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_1
 
 
 #IF
 IsAdmin
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_2
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_2
 
 
 [@admin_menu]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_3
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_3
 
 
 [@@*Admin_passwd]
@@ -29,35 +29,35 @@ equal A0  %PASSWD(1)
 ;;equal A0  %PASSWD(9)
 
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_4
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_4
 
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_5
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_5
 
 
 [@Bichon_Day]
 #ACT
 ChangeMapAttr  "0" "DAY"
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_6
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_6
 
 
 [@Bichon_Dark]
 #ACT
 ChangeMapAttr  "0" "DARK"
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_7
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_7
 
 
 [@UserChangeFlag]
 #IF
 IsGuildMaster
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_8
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_8
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_9
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_9
 
 
 [@UserChangeFlag_next]
@@ -68,7 +68,7 @@ SendCmd "0,478,367,1" ÐÐ»áÆì @TestUserFlag
 #IF
 HasGuild
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_10
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_10
 
 #ACT
 break
@@ -76,7 +76,7 @@ break
 #IF
 !checkgold 1000000
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_11
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_11
 
 #ACT
 break
@@ -88,12 +88,12 @@ checkgold 1000000
 EnableCmd @@buildguild
 break
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_12
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_12
 
 
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_13
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_13
 
 
 [@@buildguild]
@@ -105,17 +105,17 @@ take ½ð±Ò 1000000
 take ÎÖÂêºÅ½Ç 1
 BuildGuild @MakeGuildOK
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_14
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_14
 
 
 [@MakeGuildOK]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_15
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_15
 
 
 [@MakeGuildOK~]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_16
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_16
 
 #ACT
 give ÎÖÂêºÅ½Ç 1
@@ -123,14 +123,14 @@ give ½ð±Ò 1000000
 
 [@buildguildexp]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_17
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_17
 
 
 ;-------------------------------------------------------------------------------
 
 [@guildwar]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_18
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_18
 
 
 [@ComfirmGuildWar]
@@ -140,10 +140,10 @@ checkgold 30000
 take ½ð±Ò 30000
 EnableCmd @@guildwar
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_19
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_19
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_20
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_20
 
 [@@GuildWar]
 #ACT
@@ -151,38 +151,38 @@ GuildWar @GuildMakeWarOK
 
 [@GuildMakeWarOK]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_21
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_21
 
 
 [@GuildMakeWarOK~]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_22
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_22
 
 #ACT
 give ½ð±Ò 30000
 
 [@guildwarexp]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_23
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_23
 
 
 [@guildwar2]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_24
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_24
 
 
 [@warrule]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_25
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_25
 
 
 [@propose]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_26
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_26
 
 
 [@donate]
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_27
+	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Execution.txt] @Execution_27
 
 }

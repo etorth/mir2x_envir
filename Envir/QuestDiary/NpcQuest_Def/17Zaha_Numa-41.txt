@@ -5,7 +5,7 @@
 Mov D0 0
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_0
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_0
 
 #IF
 Check [205] 1
@@ -14,7 +14,7 @@ Check [405] 0
 Mov D0 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_1
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_1
 
 #IF
 Check [207] 1
@@ -24,7 +24,7 @@ Checkitemw 寂幻之刃 1
 Mov D0 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_2
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_2
 
 #IF
 Check [209] 1
@@ -33,12 +33,12 @@ Check [409] 0
 Mov D0 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_3
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_3
 
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_4
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_4
 
 ;[@CALL_Npc_TodayQuest]
 ;#CALL [TodayQuest\QT_NPCSetting.txt] @NPCSetDairyQuest
@@ -82,7 +82,7 @@ break
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_5
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_5
 
 [@Zaha_Selection]
 #ACT
@@ -132,7 +132,7 @@ break
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_6
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_6
 
 ;[@031select]
 ;#CALL [\\Judgement\Story\031\031NPC.txt] @031_NPC

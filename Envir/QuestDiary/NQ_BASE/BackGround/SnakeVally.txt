@@ -30,7 +30,7 @@ checklevel 16
 #ACT
 set [214] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\BackGround\SnakeVally.txt] @SnakeVally_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @SnakeVally_1
 
 #ELSEACT
 goto @main_root

@@ -4,10 +4,10 @@
 #IF
 checkitem 气霖证书 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_1
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_2
 
 
 [@JEMABOOK_EUNSIL1_1]
@@ -15,7 +15,7 @@ checkitem 气霖证书 1
 #ACT
 set [256] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_3
 
 }
 
@@ -23,7 +23,7 @@ set [256] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_4
 
 }
 
@@ -31,7 +31,7 @@ set [256] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_5
 
 }
 
@@ -50,17 +50,17 @@ checkitem 玉指环 1
 #ACT
 goto @JEMABOOK_HWONGGR_2_2
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_6
 
 
 [@JEMABOOK_HWONGGR_2_2]
 #IF
 gender man
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_7
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_8
 
 
 [@JEMABOOK_HWONGGR_2_3]
@@ -68,7 +68,7 @@ gender man
 check [258] 0
 check [257] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_9
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_9
 
 
 [@JEMABOOK_HWONGGR_2_4]
@@ -80,7 +80,7 @@ goto @JEMABOOK_HWONGGR_2_5
 #ELSEACT
 mov d9 1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_10
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_10
 
 
 [@JEMABOOK_HWONGGR_2_5]
@@ -92,7 +92,7 @@ mov d9 0
 reset [254] 3
 set [258] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_11
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_11
 
 #ELSEACT
 give 制魔宝玉 1
@@ -100,7 +100,7 @@ mov d9 0
 reset [254] 3
 set [258] 1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_12
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_12
 
 
 [@JEMABOOK_HWONGGR_2_6]
@@ -112,7 +112,7 @@ goto @JEMABOOK_HWONGGR_2_7
 #ELSEACT
 mov d9 1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_13
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_13
 
 
 [@JEMABOOK_HWONGGR_2_7]
@@ -124,7 +124,7 @@ mov d9 0
 reset [254] 3
 set [258] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_14
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_14
 
 #ELSEACT
 give 制魔宝玉 1
@@ -132,7 +132,7 @@ mov d9 0
 reset [254] 3
 set [258] 1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_15
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_15
 
 }
 
@@ -141,10 +141,10 @@ set [258] 1
 #IF
 checkitem 气霖证书 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_16
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_16
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_17
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_17
 
 
 [@JEMABOOK_SOBAKHWA_1_1]
@@ -152,17 +152,17 @@ checkitem 气霖证书 1
 check [257] 0
 check [256] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_18
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_18
 
 
 [@JEMABOOK_SOBAKHWA_1_2]
 #IF
 gender man
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_19
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_19
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_20
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_20
 
 
 [@JEMABOOK_SOBAKHWA_1_3_1]
@@ -175,7 +175,7 @@ give 玉指环 1
 mov d9 0
 set [257] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_21
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_21
 
 
 [@JEMABOOK_SOBAKHWA_1_3_2]
@@ -188,7 +188,7 @@ give 玉指环 1
 mov d9 0
 set [257] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_22
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_22
 
 }
 
@@ -196,6 +196,6 @@ set [257] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_23
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/jema.txt] @jema_23
 
 }

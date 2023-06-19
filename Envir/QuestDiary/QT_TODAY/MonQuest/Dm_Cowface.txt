@@ -73,7 +73,7 @@ inc S0 1
 [@umyungwi_T449_5]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T449_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T449_Say
 
 #ACT
 set [308] 1

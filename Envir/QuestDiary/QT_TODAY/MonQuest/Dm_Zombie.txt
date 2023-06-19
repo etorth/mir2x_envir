@@ -85,7 +85,7 @@ set [308] 1
 give 꼇价므庫 1
 mov s0 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T482_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T482_Say
 
 ;              일종의 변수 초기화
 ;-----------------------------------------------------

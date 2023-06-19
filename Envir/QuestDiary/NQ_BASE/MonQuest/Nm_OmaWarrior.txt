@@ -18,7 +18,7 @@ goto @yongsa1
 check [186] 1
 checkitem ½ÇµÑ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_OmaWarrior.txt] @Nm_OmaWarrior_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_OmaWarrior.txt] @Nm_OmaWarrior_1
 
 #ACT
 set [188] 1
@@ -29,4 +29,4 @@ give °ë¿é²»ËÀÅÆ 1
 give ½ð±Ò 5000
 mapmove d001 303 70
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_OmaWarrior.txt] @Nm_OmaWarrior_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_OmaWarrior.txt] @Nm_OmaWarrior_2

@@ -31,7 +31,7 @@ goto @bub2
 #IF
 large S1 3
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_Bubgi.txt] @Nm_Bubgi_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_Bubgi.txt] @Nm_Bubgi_1
 
 #ACT
 give É®ÂÂ½©Ê¬¹Ç 1

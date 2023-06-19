@@ -59,7 +59,7 @@ checkitem 石人心核 299
 give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T119_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T119_Say
 
 #ELSEACT
 give 石人心核 1
@@ -101,7 +101,7 @@ checkitem 石人心核 17
 give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T219_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T219_Say
 
 #ELSEACT
 goto @sukjangin_T219_2
@@ -149,7 +149,7 @@ checkitem 石人心核 19
 give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T216_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T216_Say
 
 #ELSEACT
 goto @sukjangin_T216_2
@@ -197,7 +197,7 @@ checkitem 石人心核 24
 give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T212_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T212_Say
 
 #ELSEACT
 goto @sukjangin_T212_2
@@ -246,7 +246,7 @@ checkitem 石人心核 14
 give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T205_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T205_Say
 
 #ELSEACT
 goto @sukjangin_T205_2

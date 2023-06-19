@@ -12,7 +12,7 @@ goto @main_1
 check [314] 1
 check [315] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\SinGiSun\MonQuest\Nm_SinGikyung.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/MonQuest/Nm_SinGikyung.txt] @NPC_Main
 #ACT
 Delaygoto [local] 10 @main_2
 

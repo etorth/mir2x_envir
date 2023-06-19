@@ -49,7 +49,7 @@ checkitem 幻影蜘蛛线 29
 give 幻影蜘蛛线 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T226_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T226_Say
 
 #ELSEACT
 goto @pokanspider_T226_2

@@ -51,7 +51,7 @@ check [223] 1
 goto @NQuest02_1
 break
 #ELSESAY
-	#INCLUDE [..\Convert_def\Market_Def\14Quest_ZombieCave-E402_001.txt] @NPC_Main_Else
+	#INCLUDE [../Convert_def/Market_Def/14Quest_ZombieCave-E402_001.txt] @NPC_Main_Else
 
 [@NQuest02_1]
 #CALL [\NQ_BASE\tarak.txt] @TARAK_SEOJUN1

@@ -8,7 +8,7 @@
 #IF
 check [248] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_1
 
 #ACT
 enter_fail
@@ -17,7 +17,7 @@ break
 #IF
 check [247] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_2
 
 #ACT
 enter_fail
@@ -26,7 +26,7 @@ break
 #IF
 check [229] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_3
 
 #ACT
 enter_fail
@@ -35,7 +35,7 @@ break
 #IF
 check [228] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_4
 
 #ACT
 enter_fail
@@ -44,7 +44,7 @@ break
 #IF
 check [227] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_5
 
 #ACT
 enter_fail
@@ -57,7 +57,7 @@ break
 #IF
 check [225] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_6
 
 #ACT
 enter_fail
@@ -80,7 +80,7 @@ check [223] 1
 goto @enterh_yk
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_7
 
 #ELSEACT
 enter_fail
@@ -91,7 +91,7 @@ enter_fail
 #IF
 checkhum E402_001 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomConnSujun.txt] @Na_RoomConnSujun_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomConnSujun.txt] @Na_RoomConnSujun_8
 
 #ACT
 enter_fail

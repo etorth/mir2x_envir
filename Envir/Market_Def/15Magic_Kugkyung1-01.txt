@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_def\Market_def\15Magic_Kugkyung1-01.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_def/Market_def/15Magic_Kugkyung1-01.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -21,19 +21,19 @@ goto @yong_other_class
 #IF
 checkjob wizard
 #SAY
-	#INCLUDE [..\Convert_def\Market_def\15Magic_Kugkyung1-01.txt] @NPC_Wizard
+	#INCLUDE [../Convert_def/Market_def/15Magic_Kugkyung1-01.txt] @NPC_Wizard
 #ELSESAY
-	#INCLUDE [..\Convert_def\Market_def\15Magic_Kugkyung1-01.txt] @NPC_Taoist
+	#INCLUDE [../Convert_def/Market_def/15Magic_Kugkyung1-01.txt] @NPC_Taoist
 
 [@yong_main]
 #IF
 #SAY
-	#INCLUDE [..\Convert_def\Market_def\15Magic_Kugkyung1-01.txt] @NPC_Main
+	#INCLUDE [../Convert_def/Market_def/15Magic_Kugkyung1-01.txt] @NPC_Main
 
 [@yong_mugong_main]
 #IF
 #SAY
-	#INCLUDE [..\Convert_def\Market_def\15Magic_Kugkyung1-01.txt] @NPC_Main_Mugong
+	#INCLUDE [../Convert_def/Market_def/15Magic_Kugkyung1-01.txt] @NPC_Main_Mugong
 
 
 [@wesu_test_start]
@@ -96,7 +96,7 @@ goto @TQuest572_0
 break
 ;
 #ELSESAY
-	#INCLUDE [..\Convert_def\Market_def\15Magic_Kugkyung1-01.txt] @NPC_TQuest
+	#INCLUDE [../Convert_def/Market_def/15Magic_Kugkyung1-01.txt] @NPC_TQuest
 
 [@TQuest572_0]
 #IF
@@ -124,4 +124,4 @@ goto @TQuest572_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [..\Convert_def\Market_def\15Magic_Kugkyung1-01.txt] @NPC_TQuest_1
+	#INCLUDE [../Convert_def/Market_def/15Magic_Kugkyung1-01.txt] @NPC_TQuest_1

@@ -42,5 +42,5 @@ break
 set [308] 1
 give ÷¼÷Ã¾«Áé¹Ç 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T495_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T495_Say
 

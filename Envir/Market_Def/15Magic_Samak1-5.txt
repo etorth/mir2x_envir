@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\15Magic_Samak1-5.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/15Magic_Samak1-5.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -11,12 +11,12 @@ goto @main_0_0
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\15Magic_Samak1-5.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/Market_Def/15Magic_Samak1-5.txt] @NPC_Main
 
 [@main_0_1]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\15Magic_Samak1-5.txt] @NPC_Main_1
+	#INCLUDE [../Convert_Def/Market_Def/15Magic_Samak1-5.txt] @NPC_Main_1
 
 [@Go_Mu_Warrior_Noatom_wesu]
 #CALL [\MU_Total_Sell\Warrior\wesu.txt] @Mu_Warrior_Noatom_wesu

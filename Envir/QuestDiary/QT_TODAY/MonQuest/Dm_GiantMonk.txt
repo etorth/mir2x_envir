@@ -49,7 +49,7 @@ checkitem 血巨人心脏 299
 give 血巨人心脏 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T118_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T118_Say
 
 #ELSEACT
 goto @chiljumbaksa_T118_1_1

@@ -5,14 +5,14 @@
 Mov D0 0
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska1-npcroom1.txt] @Convert_17baska1-npcroom1_0
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17baska1-npcroom1.txt] @Convert_17baska1-npcroom1_0
 
 #IF
 check [205] 1
 check [405] 0
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska1-npcroom1.txt] @Convert_17baska1-npcroom1_1
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17baska1-npcroom1.txt] @Convert_17baska1-npcroom1_1
 
 #ACT
 Mov D0 1
@@ -27,7 +27,7 @@ break
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska1-npcroom1.txt] @Convert_17baska1-npcroom1_2
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17baska1-npcroom1.txt] @Convert_17baska1-npcroom1_2
 
 [@baska1Quest_start1]
 #IF

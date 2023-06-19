@@ -20,7 +20,7 @@ break
 check [309] 1
 check [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T418_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T418_Say
 #ACT
 break
 

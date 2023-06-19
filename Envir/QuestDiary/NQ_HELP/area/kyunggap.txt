@@ -19,42 +19,42 @@ check [168] 1
 #ACT
 goto @KYUNGGAP_0_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_1
 
 [@KYUNGGAP_0_1]
 #IF
 checklevel 11
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_2
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_3
 
 [@KYUNGGAP_1]
 #IF
 check [160] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_4
 
 [@mine_bc_tip]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_5
 
 [@mine_bg_tip]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_6
 
 [@get_iron_tip]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_7
 
 [@KYUNGGAP_2]
 #IF
 check [160] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\kyunggap.txt] @kyunggap_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/kyunggap.txt] @kyunggap_8
 
 }

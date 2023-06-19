@@ -9,7 +9,7 @@
 #IF
 check [199] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomGadung.txt] @Na_RoomGadung_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomGadung.txt] @Na_RoomGadung_1
 
 #ACT
 enter_fail
@@ -18,7 +18,7 @@ break
 #IF
 check [196] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomGadung.txt] @Na_RoomGadung_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomGadung.txt] @Na_RoomGadung_2
 
 #ACT
 enter_fail
@@ -27,7 +27,7 @@ break
 #IF
 check [190] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomGadung.txt] @Na_RoomGadung_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomGadung.txt] @Na_RoomGadung_3
 
 #ACT
 enter_fail
@@ -40,7 +40,7 @@ enter_ok
 break
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomGadung.txt] @Na_RoomGadung_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomGadung.txt] @Na_RoomGadung_4
 
 #ELSEACT
 enter_fail

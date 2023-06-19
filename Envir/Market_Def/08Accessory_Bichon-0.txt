@@ -32,7 +32,7 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root_0_0
 
@@ -229,50 +229,50 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_0
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_0
 
 ;-----------------------------
 
 [@main_0_1]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_1
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_1
 
 ;-----------------------------
 
 [@main_0_2]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_2
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_2
 
 ;-----------------------------
 
 [@main_0_3]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_3
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_3
 
 ;-----------------------------
 
 [@main_0_4]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_4
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_4
 
 ;-----------------------------
 
 [@main_0_5]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_5
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_5
 
 ;-----------------------------
 ;-----------------------------
 
 [@main_0_6]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_6
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_6
 
 ;-----------------------------
 
 [@main_0_7]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_7
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_7
 
 ;-----------------------------
 ;-----------------------------
@@ -280,31 +280,31 @@ goto @main_0_0
 
 [@main_0_8]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_8
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_8
 
 ;-----------------------------
 
 [@main_0_9]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_9
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_9
 
 ;-----------------------------
 
 [@main_0_10]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_10
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_10
 
 ;-----------------------------
 
 [@main_0_11]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_11
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_11
 
 ;-----------------------------
 
 [@main_0_12]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_12
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_12
 
 ;-----------------------------
 ;-----------------------------
@@ -312,49 +312,49 @@ goto @main_0_0
 
 [@main_0_13]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_13
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_13
 
 ;-----------------------------
 
 [@main_0_14]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_14
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_14
 
 ;-----------------------------
 
 [@main_0_15]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_15
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_15
 
 ;-----------------------------
 
 [@main_0_16]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_16
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_16
 
 ;-----------------------------
 
 [@main_0_17]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_17
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Main_0_17
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Buy
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Repair
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Repair_Complete
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -447,7 +447,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_TQuest
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -505,7 +505,7 @@ goto @TQuest1_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_TQuest_1
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Bichon-0.txt] @NPC_TQuest_1
 
 ;-------------------------------
 

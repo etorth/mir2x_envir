@@ -14,7 +14,7 @@ return false
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] @Convert_QuestMadoEvent_0
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] @Convert_QuestMadoEvent_0
 
 [@ItemQuest_Man_1]
 #ACT

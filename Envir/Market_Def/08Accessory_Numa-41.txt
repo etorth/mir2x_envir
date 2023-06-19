@@ -17,7 +17,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -30,7 +30,7 @@ goto @main_0_0
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Main
 
 [@rustaccessory]
 #CALL [\Make_Item\AtomItem.txt] @rustaccessory_Main
@@ -39,22 +39,22 @@ goto @main_0_0
 
 [@buy]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Buy
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_RePair
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_RePair
 
 [~@repair]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_RePair_Complete
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_RePair_Complete
 
 [Goods]
-	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Goods
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Goods
 
 
 

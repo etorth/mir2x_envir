@@ -10,7 +10,7 @@ begin
       #IF
          !CheckNameList "..\Flag_Def\Event\SaveGodNessName.txt"
       #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\UserSaveGodNess.txt] @UserSaveGodNess_1
+	#INCLUDE [../Convert_Def/QuestDiary/Event/SaveGodness/UserSaveGodNess.txt] @UserSaveGodNess_1
          <$USERNAME>女神已经给邪恶的首领囚禁在黑暗的深处，她需要你们营救，把她救出，幸运将陪伴在您身边 \ \
          <请您填写您队伍里所有成员的角色名称./@CombineSaveGodnessEvent> \
    end

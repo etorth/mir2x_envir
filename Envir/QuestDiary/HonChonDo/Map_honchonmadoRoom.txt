@@ -20,7 +20,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_0
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_0
 
 #ACT
 Enter_fail
@@ -32,7 +32,7 @@ Checkhum D1606 1
 break
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_1
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_1
 
 #ELSEACT
 goto @main_Day_ok1
@@ -79,7 +79,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_2
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_2
 
 #ACT
 Enter_fail
@@ -89,7 +89,7 @@ Enter_fail
 Checkitem 毁灭之印 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_3
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_3
 
 #ACT
 Enter_fail
@@ -97,7 +97,7 @@ Enter_fail
 Enter_fail
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_4
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_4
 
 [@main_Day_ok_2]
 #ACT
@@ -116,7 +116,7 @@ Checkitemw 寂幻之刃 1
 !checkhum D1606 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_5
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_5
 
 #ACT
 Enter_fail
@@ -124,7 +124,7 @@ Enter_fail
 Enter_fail
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_6
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_6
 
 [@Madoroom_ok_2]
 #ACT

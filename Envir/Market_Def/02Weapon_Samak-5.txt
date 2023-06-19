@@ -9,7 +9,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
@@ -17,26 +17,26 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Main_0_0
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Main_0_0
 
 [@Special_Repair()]
 #CALL [\Repair\TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Buy
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Repair
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Repair_Complete
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Repair_Complete
 
 [@remove_sword]
 #IF
@@ -44,7 +44,7 @@ checkitemw ¹¥É±Ìú½£ 1
 #ACT
 takew ¹¥É±Ìú½£ 1
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Remove_sword
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Remove_sword
 
 #ELSEACT
 goto @remove_sword_1
@@ -57,10 +57,10 @@ checkitemw ìÍ»ð½£ 1
 takew ¹¥É±Ìú½£ 1
 takew ìÍ»ð½£ 1
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Remove_sword_1
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Remove_sword_1
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Samak-5.txt] @NPC_Remove_sword_Else
+	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Samak-5.txt] @NPC_Remove_sword_Else
 
 [Goods]
 ;ItemName      Volume     Hour

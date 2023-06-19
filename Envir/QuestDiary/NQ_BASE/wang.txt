@@ -14,10 +14,10 @@ check [164] 1
 check [132] 0
 checklevel 9
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_1
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_2
 
 
 [@WANG_START_1]
@@ -27,7 +27,7 @@ check [132] 0
 #ACT
 set [133] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_3
 
 
 [@WANG_START_2]
@@ -35,7 +35,7 @@ set [133] 1
 check [164] 1
 check [132] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_4
 
 
 [@WANG_START_3]
@@ -43,7 +43,7 @@ check [132] 0
 check [164] 1
 check [132] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_5
 
 
 [@WANG_START_6_1]
@@ -54,7 +54,7 @@ check [132] 0
 set [133] 0
 set [132] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_6
 
 
 [@WANG_START_6_2]
@@ -66,7 +66,7 @@ give ½ð±Ò 3000
 set [133] 0
 set [132] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_7
 
 }
 
@@ -74,7 +74,7 @@ set [132] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_8
 
 }
 
@@ -98,7 +98,7 @@ goto @WANG_COMPLETE_1
 check [168] 0
 check [166] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_9
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_9
 
 #ELSEACT
 goto @WANG_COMPLETE_1_1
@@ -108,10 +108,10 @@ goto @WANG_COMPLETE_1_1
 check [168] 0
 check [167] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_10
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_10
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_11
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_11
 
 
 [@WANG_COMPLETE_2]
@@ -119,7 +119,7 @@ check [167] 1
 check [168] 0
 check [166] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_12
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_12
 
 #ELSEACT
 goto @WANG_COMPLETE_3
@@ -129,10 +129,10 @@ goto @WANG_COMPLETE_3
 check [168] 0
 check [167] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_13
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_13
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_14
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_14
 
 
 [@WANG_COMPLETE_5]
@@ -143,7 +143,7 @@ give ½ð±Ò 5000
 reset [132] 19
 set [168] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_15
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_15
 
 }
 
@@ -161,7 +161,7 @@ check [155] 1
 #ACT
 goto @WANG_H_COMPLETE_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_16
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_16
 
 
 [@WANG_H_COMPLETE_1]
@@ -172,7 +172,7 @@ check [157] 1
 #ACT
 goto @WANG_H_COMPLETE_2
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_17
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_17
 
 
 [@WANG_H_COMPLETE_2]
@@ -183,7 +183,7 @@ check [159] 1
 #ACT
 goto @WANG_H_COMPLETE_3
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_18
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_18
 
 
 [@WANG_H_COMPLETE_3]
@@ -198,7 +198,7 @@ give ½ð±Ò 25000
 reset [152] 7
 set [169] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_19
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_19
 
 }
 
@@ -231,7 +231,7 @@ check [167] 1
 #ACT
 goto @BICHUN_SANGGE1_3
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_20
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_20
 
 
 [@BICHUN_SANGGE1_2]
@@ -240,7 +240,7 @@ check [169] 0
 check [168] 0
 check [166] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_21
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_21
 
 #ELSEACT
 goto @BICHUN_SANGGE1_2_1
@@ -251,7 +251,7 @@ check [169] 0
 check [168] 0
 check [167] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_22
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_22
 
 
 [@BICHUN_SANGGE1_3]
@@ -262,7 +262,7 @@ check [152] 0
 #ACT
 set [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_23
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_23
 
 }
 
@@ -270,7 +270,7 @@ set [152] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_24
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_24
 
 }
 
@@ -294,7 +294,7 @@ goto @INVITE_JABSANG_1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_25
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_25
 
 
 [@INVITE_JABSANG_2]
@@ -302,7 +302,7 @@ check [152] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_26
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_26
 
 
 [@INVITE_JABSANG_3]
@@ -310,7 +310,7 @@ check [152] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_27
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_27
 
 
 [@INVITE_JABSANG_4]
@@ -318,7 +318,7 @@ check [152] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_28
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_28
 
 
 [@INVITE_JABSANG_5]
@@ -326,7 +326,7 @@ check [152] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_29
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_29
 
 
 [@INVITE_JABSANG_6]
@@ -338,7 +338,7 @@ goto @INVITE_JABSANG_6_1
 #ELSEACT
 set [154] 1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_30
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_30
 
 
 [@INVITE_JABSANG_6_1]
@@ -349,7 +349,7 @@ check [152] 1
 reset [153] 1
 set [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_31
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_31
 
 
 [@INVITE_JABSANG_7]
@@ -363,7 +363,7 @@ goto @INVITE_JABSANG_7_1
 #ELSEACT
 set [154] 1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_32
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_32
 
 
 [@INVITE_JABSANG_7_1]
@@ -374,7 +374,7 @@ check [152] 1
 reset [153] 1
 set [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_33
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_33
 
 
 [@INVITE_JABSANG_8]
@@ -384,7 +384,7 @@ check [152] 1
 #ACT
 set [154] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_34
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_34
 
 
 [@INVITE_JABSANG_9]
@@ -392,7 +392,7 @@ set [154] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_35
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_35
 
 
 [@INVITE_JABSANG_10]
@@ -400,7 +400,7 @@ check [152] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_36
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_36
 
 
 [@INVITE_JABSANG_11]
@@ -414,7 +414,7 @@ goto @INVITE_JABSANG_11_1
 #ELSEACT
 set [154] 1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_37
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_37
 
 
 [@INVITE_JABSANG_11_1]
@@ -425,7 +425,7 @@ check [152] 1
 reset [153] 1
 set [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_38
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_38
 
 
 [@INVITE_JABSANG_12]
@@ -435,7 +435,7 @@ check [152] 1
 #ACT
 set [154] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_39
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_39
 
 
 [@INVITE_JABSANG_13]
@@ -445,7 +445,7 @@ check [152] 1
 #ACT
 set [153] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_40
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_40
 
 
 [@INVITE_JABSANG_14]
@@ -457,7 +457,7 @@ checkitem ÉÕ¾Æ 1
 take ÉÕ¾Æ 1
 goto @INVITE_JABSANG_15
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_41
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_41
 
 
 [@INVITE_JABSANG_15]
@@ -465,7 +465,7 @@ goto @INVITE_JABSANG_15
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_42
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_42
 
 
 [@INVITE_JABSANG_16]
@@ -473,7 +473,7 @@ check [152] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_43
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_43
 
 
 [@INVITE_JABSANG_17]
@@ -481,7 +481,7 @@ check [152] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_44
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_44
 
 
 [@INVITE_JABSANG_18]
@@ -492,7 +492,7 @@ check [152] 1
 reset [153] 1
 set [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_45
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_45
 
 
 [@INVITE_JABSANG_23]
@@ -502,7 +502,7 @@ check [152] 1
 #ACT
 set [538] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_46
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_46
 
 
 [@INVITE_JABSANG_24]
@@ -510,7 +510,7 @@ set [538] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_47
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_47
 
 
 [@INVITE_JABSANG_25]
@@ -522,7 +522,7 @@ checkgold 30000
 take ½ð±Ò 20000
 goto @INVITE_JABSANG_25_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_48
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_48
 
 
 [@INVITE_JABSANG_25_1]
@@ -533,7 +533,7 @@ check [152] 1
 reset [153] 1
 set [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_49
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_49
 
 }
 
@@ -541,7 +541,7 @@ set [155] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_50
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_50
 
 }
 
@@ -551,7 +551,7 @@ set [155] 1
 check [155] 0
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_51
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_51
 
 }
 
@@ -560,10 +560,10 @@ check [152] 1
 #IF
 check [152] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_52
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_52
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_53
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_53
 
 }
 
@@ -577,7 +577,7 @@ goto @INVITE_EUNSIL2_1
 check [156] 0
 check [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_54
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_54
 
 
 [@INVITE_EUNSIL2_2]
@@ -585,7 +585,7 @@ check [155] 1
 check [156] 0
 check [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_55
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_55
 
 
 [@INVITE_EUNSIL2_3]
@@ -595,7 +595,7 @@ check [155] 1
 #ACT
 set [156] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_56
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_56
 
 }
 
@@ -611,7 +611,7 @@ goto @SHOW_BULSA_1_0
 #IF
 checkitem ½ÇµÑ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_57
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_57
 
 #ACT
 break
@@ -619,7 +619,7 @@ break
 #IF
 checkitem ²»ËÀÅÆ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_58
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_58
 
 #ACT
 break
@@ -627,7 +627,7 @@ break
 #IF
 checkitem Áé»ê»¤ÎÀ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_59
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_59
 
 #ACT
 break
@@ -635,7 +635,7 @@ break
 #IF
 checkitem »ÙÃð»¤Éí·û 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_60
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_60
 
 #ACT
 break
@@ -643,7 +643,7 @@ break
 #IF
 checkitem ÎÖÂê½ðÅÆ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_61
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_61
 
 #ACT
 break
@@ -651,7 +651,7 @@ break
 #IF
 checkitem µØÓüÉñÖÓ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_62
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_62
 
 #ACT
 break
@@ -659,10 +659,10 @@ break
 #IF
 checkitem Áé»êÃ÷Öé 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_63
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_63
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_64
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_64
 
 
 
@@ -673,7 +673,7 @@ check [156] 1
 #ACT
 set [157] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_65
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_65
 
 }
 
@@ -681,7 +681,7 @@ set [157] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_66
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_66
 
 }
 
@@ -690,10 +690,10 @@ set [157] 1
 #IF
 checklevel 11
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_67
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_67
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_68
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_68
 
 }
 
@@ -707,7 +707,7 @@ goto @INVITE_IBBUN_0
 check [158] 0
 check [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_69
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_69
 
 
 [@INVITE_IBBUN_3]
@@ -715,14 +715,14 @@ check [155] 1
 check [158] 0
 check [155] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_70
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_70
 
 
 [@INVITE_IBBUN_4]
 #IF
 check [158] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_71
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_71
 
 
 [@INVITE_IBBUN_5]
@@ -732,7 +732,7 @@ check [155] 1
 #ACT
 set [158] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_72
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_72
 
 }
 
@@ -746,7 +746,7 @@ checkitem »Ø³Ç¾í 6
 take »Ø³Ç¾í 6
 goto @GIVE_CHOGONG_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_73
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_73
 
 
 [@GIVE_CHOGONG_1]
@@ -756,7 +756,7 @@ check [158] 1
 #ACT
 set [159] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_74
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_74
 
 }
 
@@ -764,6 +764,6 @@ set [159] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_75
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wang.txt] @wang_75
 
 }

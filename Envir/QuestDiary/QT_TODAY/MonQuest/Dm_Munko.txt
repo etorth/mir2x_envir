@@ -81,7 +81,7 @@ give Õ¶Âíµ¶ 1
 set [308] 1
 mov s0 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T480_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T480_Say
 
 ;-----------------------------------------------------
 [@mungko_T545]
@@ -146,6 +146,6 @@ give ¹ÅÊ«ÃØÊé 1
 set [308] 1
 mov S0 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T545_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T545_Say
 
 ;-----------------------------------------------------

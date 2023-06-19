@@ -2,7 +2,7 @@
 [@make_Drug_main]
 {
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_1
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_1
 
 
 ;------------------------
@@ -18,7 +18,7 @@ take 毒蜘蛛牙齿 2
 take 食人树叶 6
 goto @Make_Drug_GDrug_3
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_2
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_2
 
 
 [@Make_Drug_GDrug_3]
@@ -26,7 +26,7 @@ goto @Make_Drug_GDrug_3
 #ACT
 give 灰色药粉（小） 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_3
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_3
 
 
 ;------------------------
@@ -43,7 +43,7 @@ take 食人树叶 6
 mov d0 0
 goto @Make_Drug_GDrugM_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_4
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_4
 
 
 [@Make_Drug_GDrugM_1]
@@ -61,7 +61,7 @@ goto @Make_Drug_GDrugM_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_5
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_5
 
 
 [@Make_Drug_GDrugM_3]
@@ -70,7 +70,7 @@ mov d0 0
 give 灰色药粉（中） 1
 mov d0 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_6
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_6
 
 
 
@@ -87,7 +87,7 @@ take 蝎子的尾巴 2
 take 食人树叶 2
 goto @Make_Drug_YDrug_3
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_7
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_7
 
 
 [@Make_Drug_YDrug_3]
@@ -95,7 +95,7 @@ goto @Make_Drug_YDrug_3
 #ACT
 give 黄色药粉（小） 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_8
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_8
 
 
 ;------------------------
@@ -112,7 +112,7 @@ take 食人树叶 6
 mov d0 0
 goto @Make_Drug_YDrugM_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_9
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_9
 
 
 [@Make_Drug_YDrugM_1]
@@ -130,7 +130,7 @@ goto @Make_Drug_YDrugM_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_10
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_10
 
 
 [@Make_Drug_YDrugM_3]
@@ -139,7 +139,7 @@ mov d0 0
 give 黄色药粉（中） 1
 mov d0 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_11
+	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_11
 
 
 ;------------------------

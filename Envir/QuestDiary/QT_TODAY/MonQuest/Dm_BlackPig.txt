@@ -55,7 +55,7 @@ checkitem ºÚÒ°ÖíÑÀ³Ý 99
 give ºÚÒ°ÖíÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T206_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T206_Say
 
 #ELSEACT
 goto @hkdon_T206_2
@@ -103,7 +103,7 @@ checkitem ºÚÒ°ÖíÑÀ³Ý 19
 give ºÚÒ°ÖíÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T204_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T204_Say
 
 #ELSEACT
 goto @hkdon_T204_2

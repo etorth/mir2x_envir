@@ -23,7 +23,7 @@ break
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17StoneNpc5-D1505.txt] @Convert_17StoneNpc5-D1505_0
+#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17StoneNpc5-D1505.txt] @Convert_17StoneNpc5-D1505_0
 
 [@NumaStone3Quest_start1]
 #CALL [HonChonMado\StoneNpc5.txt] @NumaStone5_Talk

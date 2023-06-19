@@ -49,7 +49,7 @@ checkitem »¨É«Ö©Öë¶¾Ò© 9
 give »¨É«Ö©Öë¶¾Ò© 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T336_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T336_Say
 
 #ELSEACT
 goto @hwagabju_T336_2

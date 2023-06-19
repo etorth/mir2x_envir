@@ -81,7 +81,7 @@ give 릭苛훙뱁裂잠 1
 set [308] 1
 mov s0 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T485_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T485_Say
 
 ;              일종의 변수 초기화
 ;-----------------------------------------------------

@@ -14,18 +14,18 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_DoGwan-1.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/10Material_DoGwan-1.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_DoGwan-1.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/Market_Def/10Material_DoGwan-1.txt] @NPC_Main
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_DoGwan-1.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/10Material_DoGwan-1.txt] @NPC_Sell
 
 
 ;;[@Event1115]
@@ -48,7 +48,7 @@ goto @TQuest568_0
 break
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_DoGwan-1.txt] @NPC_TQuest
+	#INCLUDE [../Convert_Def/Market_Def/10Material_DoGwan-1.txt] @NPC_TQuest
 
 [@TQuest479_0]
 #IF
@@ -96,4 +96,4 @@ goto @TQuest568_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_DoGwan-1.txt] @NPC_TQuest_1
+	#INCLUDE [../Convert_Def/Market_Def/10Material_DoGwan-1.txt] @NPC_TQuest_1

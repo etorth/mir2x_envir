@@ -49,7 +49,7 @@ checkitem 劳动蚂蚁卵 2
 give 劳动蚂蚁卵 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T448_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T448_Say
 
 #ELSEACT
 goto @workant_T448_2

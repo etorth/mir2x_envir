@@ -27,11 +27,11 @@ goto @main_1
 [@main_1]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SinGiSun-D90221.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/Market_Def/04Potion_SinGiSun-D90221.txt] @NPC_Main
 
 [@Buy]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SinGiSun-D90221.txt] @NPC_Buy
+	#INCLUDE [../Convert_Def/Market_Def/04Potion_SinGiSun-D90221.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour

@@ -50,7 +50,7 @@ inc S1 1
 [@cowfur9]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_Cow.txt] @Nm_Cow_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_Cow.txt] @Nm_Cow_1
 
 #ACT
 give ţë 1

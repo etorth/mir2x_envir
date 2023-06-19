@@ -66,7 +66,7 @@ inc s2 1
 [@oma9]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_Oma.txt] @Nm_Oma_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_Oma.txt] @Nm_Oma_1
 
 #ACT
 give ÍõÌú½³µÄÌú´¸ 1

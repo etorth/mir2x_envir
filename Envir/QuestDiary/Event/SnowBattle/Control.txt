@@ -28,13 +28,13 @@ DelayGoto [Grobal] 3 @Event_wait
 break
 
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\19SB_GM-z010.txt] @NPC_Event_Start
+	#INCLUDE [../Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Start
 
 #ELSEACT
 Break
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\Market_Def\19SB_GM-z010.txt] @NPC_Event_Fail
+	#INCLUDE [../Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Fail
 
 [@Event_wait]
 #IF
@@ -69,7 +69,7 @@ loadValue P1 "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [start]
 #IF
 Equal P1 0
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\19SB_GM-z010.txt] @NPC_Event_Fail_1
+	#INCLUDE [../Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Fail_1
 
 #ACT
 break

@@ -76,7 +76,7 @@ inc S0 1
 [@numa_T235_6]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T235_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say
 
 #ACT
 set [308] 1
@@ -119,7 +119,7 @@ checkitem 诺玛法老珍珠 4
 give 诺玛法老珍珠 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T338_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T338_Say
 
 #ELSEACT
 goto @numabubro_T338_2

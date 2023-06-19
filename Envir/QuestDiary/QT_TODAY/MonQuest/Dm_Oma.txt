@@ -51,7 +51,7 @@ checkitem °ëÊÞÀû³Ý 9
 set [308] 1
 give °ëÊÞÀû³Ý 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T417_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T417_Say
 
 #ELSEACT
 goto @Oma_T417_2
@@ -99,7 +99,7 @@ checkitem °ëÊÞÀû³Ý 9
 give °ëÊÞÀû³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T440_Say_1
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T440_Say_1
 
 #ELSEACT
 goto @oma_T440_2

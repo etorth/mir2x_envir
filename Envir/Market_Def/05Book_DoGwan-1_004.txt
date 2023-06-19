@@ -14,7 +14,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -25,31 +25,31 @@ goto @main_0
 
 [@main_0]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_Main
 
 [@buy]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_Buy
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_Sell
 
 [@helpbooks]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_HelpBooks
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_HelpBooks
 
 [@help_31]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_Help_31
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_Help_31
 
 [@help_32]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_Help_32
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_Help_32
 
 [@help_33]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_Help_33
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_Help_33
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -110,7 +110,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_TQuest
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -217,7 +217,7 @@ goto @TQuest1_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\05Book_DoGwan-1_004.txt] @NPC_TQuest_1
+	#INCLUDE [../Convert_Def/Market_Def/05Book_DoGwan-1_004.txt] @NPC_TQuest_1
 
 ;---------------------------
 

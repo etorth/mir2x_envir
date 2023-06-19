@@ -4,7 +4,7 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_1
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_1
 
 #ELSEACT
 mapmove 81 125 274                                    ;; 빨갱이 이동
@@ -20,7 +20,7 @@ break
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_2
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_2
 
 #ELSEACT
 mapmove 81 125 274                                    ;; 빨갱이 이동
@@ -29,7 +29,7 @@ break
 #IF
 !IsOnCastleWar Sabuk                                  ;; 공성풀 중이 아닐때
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_3
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_3
 
 #ACT
 break
@@ -37,14 +37,14 @@ break
 #IF
 !IsOnReadyCastleWar Sabuk                             ;; 공성준비중이 아닐떄
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_4
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_4
 
 #ACT
 break
 
 #IF
 #SAY                                                  ;; 그외의 조건일떄는
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_5
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_5
 
 
 [@TelePortRootin()]

@@ -12,25 +12,25 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Mongchon-74.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/07Grocery_Mongchon-74.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Mongchon-74.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/Market_Def/07Grocery_Mongchon-74.txt] @NPC_Main
 
 [@buy]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Mongchon-74.txt] @NPC_Buy
+	#INCLUDE [../Convert_Def/Market_Def/07Grocery_Mongchon-74.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Mongchon-74.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/07Grocery_Mongchon-74.txt] @NPC_Sell
 
 [Goods]
-	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Mongchon-74.txt] @NPC_Goods
+	#INCLUDE [../Convert_Def/Market_Def/07Grocery_Mongchon-74.txt] @NPC_Goods
 
 [@TQuest]
 #IF
@@ -52,7 +52,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Mongchon-74.txt] @NPC_TQuest
+	#INCLUDE [../Convert_Def/Market_Def/07Grocery_Mongchon-74.txt] @NPC_TQuest
 ;------------------------
 
 [@TQuest498_0]
@@ -113,7 +113,7 @@ goto @TQuest1_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Mongchon-74.txt] @NPC_TQuest_1
+	#INCLUDE [../Convert_Def/Market_Def/07Grocery_Mongchon-74.txt] @NPC_TQuest_1
 
 ;------------------------
 

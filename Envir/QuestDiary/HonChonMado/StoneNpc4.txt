@@ -98,22 +98,22 @@ break
 [@NumaStone4_Talk0]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_0
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_0
 
 [@NumaStone4_Talk0_1]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_1
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_1
 
 [@NumaStone4_Talk1_1]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_2
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_2
 
 [@NumaStone4_Talk1_2]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_3
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_3
 
 [@NumaStone4_Talk1_3]
 #IF
@@ -126,7 +126,7 @@ Checkitem 受胎石 1
 Checkitem 安息石 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_4
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_4
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -136,12 +136,12 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_5
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_5
 
 [@NumaStone4_Talk1_4]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_6
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_6
 
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
@@ -150,19 +150,19 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=3"
 [@NumaStone4_Talk1_5]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_7
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_7
 
 [@NumaStone4_Talk2_1]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_8
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_8
 
 [@NumaStone4_Talk2_2]
 #IF
 checkitem 机关零件 5
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_9
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_9
 
 #ACT
 take 机关零件 5
@@ -172,12 +172,12 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=9"
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_10
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_10
 
 [@NumaStone4_Talk2_3]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_11
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_11
 
 [@NumaStone4_Talk2_4]
 #IF
@@ -190,7 +190,7 @@ Checkitem 受胎石 1
 Checkitem 安息石 1
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_12
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_12
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -206,17 +206,17 @@ take 安息石 1
 break
 
 #ELSESAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_13
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_13
 
 [@NumaStone4_Talk2_5]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_14
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_14
 
 [@NumaStone4_Talk2_6]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_15
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_15
 
 #ACT
 set [208] 1
@@ -229,7 +229,7 @@ Linemsg "Grobal" %A7
 [@NumaStone4_Talk2_7]
 
 #SAY
-#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_16
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_16
 
 }
 ;;不要删掉此行

@@ -24,7 +24,7 @@ check [289] 1
 goto @NQuest_1
 break
 #ELSESAY
-	#INCLUDE [..\Convert_def\Market_Def\14Quest_WoomaPalace-D023_001.txt] @NPC_Main_Else
+	#INCLUDE [../Convert_def/Market_Def/14Quest_WoomaPalace-D023_001.txt] @NPC_Main_Else
 
 [@NQuest_1]
 #CALL [\NQ_EXTRA\umyun.txt] @UMKING_UDO1

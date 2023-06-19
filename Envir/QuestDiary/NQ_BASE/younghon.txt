@@ -11,10 +11,10 @@ check [199] 1
 check [201] 0
 checklevel 16
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_1
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_2
 
 
 [@ST_HON_START_1]
@@ -22,7 +22,7 @@ checklevel 16
 check [199] 1
 check [201] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_3
 
 
 [@ST_HON_START_2]
@@ -30,7 +30,7 @@ check [201] 0
 check [199] 1
 check [201] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_4
 
 
 [@ST_HON_START_3]
@@ -40,7 +40,7 @@ check [201] 0
 #ACT
 set [201] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_5
 
 }
 
@@ -48,7 +48,7 @@ set [201] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_6
 
 }
 
@@ -56,7 +56,7 @@ set [201] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_7
 
 }
 
@@ -71,7 +71,7 @@ goto @ST_HON_SOPAL_1_0
 check [202] 0
 check [201] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_8
 
 
 [@ST_HON_SOPAL_1_1]
@@ -79,7 +79,7 @@ check [201] 1
 check [202] 0
 check [201] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_9
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_9
 
 
 [@ST_HON_SOPAL_1_2]
@@ -87,7 +87,7 @@ check [201] 1
 check [202] 0
 check [201] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_10
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_10
 
 
 [@ST_HON_SOPAL_1_3]
@@ -95,7 +95,7 @@ check [201] 1
 check [202] 0
 check [201] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_11
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_11
 
 
 [@ST_HON_SOPAL_1_4]
@@ -105,7 +105,7 @@ check [201] 1
 #ACT
 set [202] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_12
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_12
 
 }
 
@@ -113,7 +113,7 @@ set [202] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_13
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_13
 
 }
 
@@ -137,10 +137,10 @@ goto @ST_HON_SOPAL_3_1
 #IF
 checkitem Áé»ê»¤ÎÀ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_14
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_14
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_15
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_15
 
 
 [@ST_HON_SOPAL_3_2]
@@ -156,7 +156,7 @@ goto @ST_HON_SOPAL_3_3
 check [212] 0
 check [210] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_16
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_16
 
 
 [@ST_HON_SOPAL_3_4]
@@ -168,7 +168,7 @@ give Å£Èâ 5
 give ½ð±Ò 10000
 set [212] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_17
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_17
 
 }
 
@@ -176,7 +176,7 @@ set [212] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_18
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_18
 
 }
 
@@ -184,7 +184,7 @@ set [212] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_19
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_19
 
 }
 
@@ -199,7 +199,7 @@ goto @ST_HON_YORYUNG_2_0
 check [213] 0
 check [212] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_20
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_20
 
 
 [@ST_HON_YORYUNG_2_1]
@@ -207,7 +207,7 @@ check [212] 1
 check [213] 0
 check [212] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_21
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_21
 
 
 [@ST_HON_YORYUNG_2_2]
@@ -215,7 +215,7 @@ check [212] 1
 check [213] 0
 check [212] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_22
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_22
 
 
 [@ST_HON_YORYUNG_2_3]
@@ -223,7 +223,7 @@ check [212] 1
 check [213] 0
 check [212] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_23
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_23
 
 
 [@ST_HON_YORYUNG_2_4]
@@ -231,7 +231,7 @@ check [212] 1
 check [213] 0
 check [212] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_24
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_24
 
 
 [@ST_HON_YORYUNG_2_5]
@@ -242,7 +242,7 @@ check [212] 1
 reset [200] 12
 set [213] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_25
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_25
 
 }
 
@@ -257,7 +257,7 @@ goto @ST_HON_WIHUN_1_0
 check [203] 0
 check [201] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_26
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_26
 
 
 [@ST_HON_WIHUN_1_1]
@@ -267,7 +267,7 @@ check [201] 1
 #ACT
 set [203] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_27
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_27
 
 }
 
@@ -275,7 +275,7 @@ set [203] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_28
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_28
 
 }
 
@@ -283,7 +283,7 @@ set [203] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_29
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_29
 
 }
 
@@ -291,7 +291,7 @@ set [203] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_30
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_30
 
 }
 
@@ -306,7 +306,7 @@ goto @ST_HON_UKJE_2_0
 check [204] 0
 check [202] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_31
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_31
 
 
 [@ST_HON_UKJE_2_1]
@@ -314,7 +314,7 @@ check [202] 1
 check [204] 0
 check [202] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_32
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_32
 
 
 [@ST_HON_UKJE_2_2]
@@ -322,7 +322,7 @@ check [202] 1
 check [204] 0
 check [202] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_33
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_33
 
 
 [@ST_HON_UKJE_2_3]
@@ -330,7 +330,7 @@ check [202] 1
 check [204] 0
 check [202] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_34
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_34
 
 
 [@ST_HON_UKJE_2_4]
@@ -340,7 +340,7 @@ check [202] 1
 #ACT
 set [204] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_35
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_35
 
 }
 
@@ -348,7 +348,7 @@ set [204] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_36
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_36
 
 }
 
@@ -369,10 +369,10 @@ goto @ST_HON_UKJE_4_1
 #IF
 checkitem Áé»ê»¤ÎÀ 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_37
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_37
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_38
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_38
 
 
 [@ST_HON_UKJE_4_2]
@@ -382,7 +382,7 @@ check [209] 1
 #ACT
 set [210] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_39
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_39
 
 }
 
@@ -390,7 +390,7 @@ set [210] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_40
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_40
 
 }
 
@@ -405,7 +405,7 @@ goto @ST_HON_HWANGJUNG_1_0
 check [205] 0
 check [204] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_41
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_41
 
 
 [@ST_HON_HWANGJUNG_1_1]
@@ -413,7 +413,7 @@ check [204] 1
 check [205] 0
 check [204] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_42
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_42
 
 
 [@ST_HON_HWANGJUNG_1_2]
@@ -423,7 +423,7 @@ check [204] 1
 #ACT
 set [205] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_43
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_43
 
 }
 
@@ -431,7 +431,7 @@ set [205] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_44
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_44
 
 }
 
@@ -446,7 +446,7 @@ goto @ST_HON_HWANGJUNG_3_0
 check [207] 0
 check [206] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_45
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_45
 
 
 [@ST_HON_HWANGJUNG_3_1]
@@ -456,7 +456,7 @@ check [206] 1
 #ACT
 set [207] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_46
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_46
 
 }
 
@@ -464,7 +464,7 @@ set [207] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_47
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_47
 
 }
 
@@ -472,7 +472,7 @@ set [207] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_48
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_48
 
 }
 
@@ -500,7 +500,7 @@ goto @ST_HON_KWANRI_1_1
 check [209] 0
 check [207] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_49
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_49
 
 
 [@ST_HON_KWANRI_1_2]
@@ -510,7 +510,7 @@ check [207] 1
 #ACT
 set [209] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_50
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_50
 
 }
 
@@ -518,7 +518,7 @@ set [209] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_51
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_51
 
 }
 
@@ -533,7 +533,7 @@ goto @ST_HON_SEOJUN_1_0
 check [206] 0
 check [205] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_52
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_52
 
 
 [@ST_HON_SEOJUN_1_1]
@@ -541,7 +541,7 @@ check [205] 1
 check [206] 0
 check [205] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_53
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_53
 
 
 [@ST_HON_SEOJUN_1_2]
@@ -549,7 +549,7 @@ check [205] 1
 check [206] 0
 check [205] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_54
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_54
 
 
 [@ST_HON_SEOJUN_1_3]
@@ -557,7 +557,7 @@ check [205] 1
 check [206] 0
 check [205] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_55
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_55
 
 
 [@ST_HON_SEOJUN_1_4]
@@ -565,7 +565,7 @@ check [205] 1
 check [206] 0
 check [205] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_56
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_56
 
 
 [@ST_HON_SEOJUN_1_5]
@@ -576,7 +576,7 @@ check [205] 1
 set [205] 0
 set [206] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_57
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_57
 
 }
 
@@ -584,6 +584,6 @@ set [206] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_58
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/younghon.txt] @younghon_58
 
 }

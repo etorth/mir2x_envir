@@ -19,7 +19,7 @@ goto @Sulsa_MQ_START_1
 check [102] 0
 checklevel 4
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_1
 
 #ELSEACT
 goto @Sulsa_MQ_START_2
@@ -28,28 +28,28 @@ goto @Sulsa_MQ_START_2
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_2
 
 
 [@Sulsa_MQ_START_3_1]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_3
 
 
 [@Sulsa_MQ_START_3_2]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_4
 
 
 [@Sulsa_MQ_START_3_3]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_5
 
 
 [@Sulsa_MQ_START_4]
@@ -58,49 +58,49 @@ check [102] 0
 #ACT
 set [102] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_6
 
 
 [@Sulsa_MQ_START_6]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_7
 
 
 [@Sulsa_MQ_START_7_1]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_8
 
 
 [@Sulsa_MQ_START_7_2]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_9
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_9
 
 
 [@Sulsa_MQ_START_7_3]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_10
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_10
 
 
 [@Sulsa_MQ_START_8]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_11
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_11
 
 
 [@Sulsa_MQ_START_9]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_12
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_12
 
 
 [@Sulsa_MQ_START_10]
@@ -112,7 +112,7 @@ give »ðÇòÊõ 1
 reset [102] 28
 set [131] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_13
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_13
 
 }
 
@@ -120,7 +120,7 @@ set [131] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_14
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_14
 
 }
 
@@ -135,7 +135,7 @@ goto @Sulsa_CQ_START1_0
 check [105] 1
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_15
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_15
 
 
 [@Sulsa_CQ_START1_3]
@@ -146,7 +146,7 @@ checklevel 6
 #ACT
 goto @Sulsa_CQ_START1_4
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_16
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_16
 
 
 [@Sulsa_CQ_START1_4]
@@ -154,7 +154,7 @@ goto @Sulsa_CQ_START1_4
 check [105] 1
 check [131] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_17
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_17
 
 
 [@Sulsa_CQ_START1_5]
@@ -167,7 +167,7 @@ give »ðÇòÊõ 1
 reset [102] 28
 set [131] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_18
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_18
 
 }
 
@@ -175,7 +175,7 @@ set [131] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_19
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_19
 
 }
 
@@ -189,7 +189,7 @@ goto @Sulsa_DQ_START_1
 check [102] 1
 check [103] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_20
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_20
 
 
 [@Sulsa_DQ_START_2]
@@ -200,7 +200,7 @@ check [103] 0
 give ÈâÌÀ 1
 set [103] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_21
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_21
 
 }
 
@@ -208,7 +208,7 @@ set [103] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_22
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_22
 
 }
 
@@ -222,7 +222,7 @@ goto @Sulsa_SEARCH_GOGI_1
 check [163] 1
 check [104] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_23
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_23
 
 
 [@Sulsa_SEARCH_GOGI_2_1]
@@ -232,7 +232,7 @@ check [104] 0
 #ACT
 set [104] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_24
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_24
 
 
 [@Sulsa_SEARCH_GOGI_2_2]
@@ -242,7 +242,7 @@ check [104] 0
 #ACT
 set [104] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_25
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_25
 
 }
 
@@ -257,7 +257,7 @@ check [104] 1
 check [105] 0
 check [106] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_26
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_26
 
 
 [@Sulsa_MQ_COMPLETE_4]
@@ -268,10 +268,10 @@ takecheckitem
 give ½ð±Ò 1000
 set [105] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_27
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_27
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_28
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_28
 
 }
 
@@ -287,7 +287,7 @@ checkitem ÈâÌÀ 1
 #ACT
 goto @Sulsa_TAKE_GOGIGUK_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_29
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_29
 
 
 [@Sulsa_TAKE_GOGIGUK_1]
@@ -300,7 +300,7 @@ give Ø°Ê× 1
 set [103] 0
 set [163] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_30
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_30
 
 }
 
@@ -308,7 +308,7 @@ set [163] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_31
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_31
 
 }
 
@@ -318,7 +318,7 @@ set [163] 1
 check [131] 1
 check [164] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_32
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_32
 
 
 [@Sulsa_CQ_COMPLETE_0]
@@ -330,7 +330,7 @@ give ½ð±Ò 1000
 give ÇàÍ­Í·¿ø 1
 goto @Sulsa_CQ_COMPLETE_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_33
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_33
 
 
 [@Sulsa_CQ_COMPLETE_1]
@@ -341,18 +341,18 @@ check [164] 0
 reset [102] 29
 set [164] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_34
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_34
 
 
 [@Sulsa_CQ_COMPLETE_2]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_35
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_35
 
 
 [@Sulsa_CQ_COMPLETE_3]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_36
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/wizardbase.txt] @wizardbase_36
 
 }

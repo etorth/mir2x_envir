@@ -4,7 +4,7 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\MongChonTele.txt] @MongChonTele_1
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/MongChonTele.txt] @MongChonTele_1
 
 #ELSEACT
 mapmove 81 125 274                                    ;; 빨갱이 이동
@@ -18,7 +18,7 @@ mapmove 81 125 274                                    ;; 빨갱이 이동
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\MongChonTele.txt] @MongChonTele_2
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/MongChonTele.txt] @MongChonTele_2
 
 #ELSEACT
 mapmove 81 125 274                                    ;; 빨갱이 이동

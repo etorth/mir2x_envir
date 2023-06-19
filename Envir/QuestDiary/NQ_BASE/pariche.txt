@@ -4,14 +4,14 @@
 #IF
 checklevel 5
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_1
 
 
 [@PARICHE_START_0]
 #IF
 check [266] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_2
 
 
 [@PARICHE_START_1]
@@ -20,7 +20,7 @@ check [266] 0
 #ACT
 set [266] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_3
 
 }
 
@@ -28,7 +28,7 @@ set [266] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_4
 
 }
 
@@ -36,7 +36,7 @@ set [266] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_5
 
 }
 
@@ -47,7 +47,7 @@ checkitem ²ÔÓ¬ÅÄ 1
 #ACT
 goto @PARICHE_COMPLETE_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_6
 
 
 [@PARICHE_COMPLETE_1]
@@ -62,7 +62,7 @@ mov S2 0
 reset [266] 4
 set [271] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_7
 
 }
 
@@ -72,7 +72,7 @@ set [271] 1
 check [267] 0
 check [266] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_8
 
 
 [@PARICHE_JABSANG_1_1]
@@ -84,7 +84,7 @@ mov S1 0
 mov S2 0
 set [267] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_9
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_9
 
 }
 
@@ -92,7 +92,7 @@ set [267] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_10
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_10
 
 }
 
@@ -103,7 +103,7 @@ checkitem Å£Ã« 1
 #ACT
 goto @PARICHE_JABSANG_3_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_11
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_11
 
 
 [@PARICHE_JABSANG_3_1]
@@ -112,7 +112,7 @@ checkitem Öñ¹÷ 1
 #ACT
 goto @PARICHE_JABSANG_3_2
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_12
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_12
 
 
 [@PARICHE_JABSANG_3_2]
@@ -125,7 +125,7 @@ take Öñ¹÷ 1
 give ²ÔÓ¬ÅÄ 1
 set [270] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_13
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_13
 
 }
 
@@ -133,6 +133,6 @@ set [270] 1
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_14
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/pariche.txt] @pariche_14
 
 }

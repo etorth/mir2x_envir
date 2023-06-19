@@ -56,7 +56,7 @@ Equal S0 50
 #ACT
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T407_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T407_Say
 
 #ELSEACT
 inc s0 1
@@ -97,7 +97,7 @@ checkitem ºìÉßÑª 19
 give ºìÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T328_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T328_Say
 
 #ELSEACT
 goto @redsnake_T328_2
@@ -169,7 +169,7 @@ inc S0 1
 [@redsnake_T536_5]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T536_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T536_Say
 
 #ACT
 set [308] 1
@@ -240,7 +240,7 @@ inc S0 1
 [@redsnake_T541_5]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T541_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T541_Say
 
 #ACT
 set [308] 1

@@ -152,7 +152,7 @@ Equal A3 "NULL"
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_0
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_0
 
 
 
@@ -178,7 +178,7 @@ Equal A6 "END"
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_1
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_1
 
 
 
@@ -200,7 +200,7 @@ break
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_2
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_2
 
 
 
@@ -238,7 +238,7 @@ Equal A3 "NULL"
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_3
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_3
 
 
 
@@ -264,7 +264,7 @@ Equal A6 "END"
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_4
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_4
 
 
 
@@ -286,7 +286,7 @@ break
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_5
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_5
 
 
 
@@ -324,7 +324,7 @@ Equal A5 "END"
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_6
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_6
 
 
 
@@ -346,7 +346,7 @@ break
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_7
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_7
 
 
 
@@ -380,7 +380,7 @@ break
 
 #SAY
 
-#INCLUDE [..\Convert_Def\QuestDiary\TodayQuest\QT_TotalMonster.txt] @Convert_QT_TotalMonster_8
+#INCLUDE [../Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_8
 
 
 

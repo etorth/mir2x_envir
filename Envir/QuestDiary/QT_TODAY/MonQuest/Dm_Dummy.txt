@@ -91,7 +91,7 @@ inc S0 1
 [@puppet_T407_5]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T407_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T407_Say
 
 #ACT
 set [308] 1
@@ -135,7 +135,7 @@ checkitem 稻草人木剑 9
 give 稻草人木剑 1
 set [309] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T440_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T440_Say
 
 #ELSEACT
 goto @puppet_T440_1_1
@@ -206,7 +206,7 @@ inc S0 1
 [@puppet_T450_5]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T450_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T450_Say
 
 #ACT
 set [308] 1
@@ -250,7 +250,7 @@ checkitem 无名油 2
 give 无名油 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T532_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T532_Say
 
 #ELSEACT
 goto @puppet_T532_1_1

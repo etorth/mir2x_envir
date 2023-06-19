@@ -49,7 +49,7 @@ checkitem É³Ä®ÓãÄ§ÑÀ³Ý 19
 give É³Ä®ÓãÄ§ÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T339_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T339_Say
 
 #ELSEACT
 goto @sandfish_T339_2

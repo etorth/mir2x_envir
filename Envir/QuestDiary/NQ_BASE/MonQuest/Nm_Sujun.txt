@@ -22,7 +22,7 @@ goto @sujun1
 [@sujun1]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_Sujun.txt] @Nm_Sujun_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_Sujun.txt] @Nm_Sujun_1
 
 #ACT
 set [245] 1

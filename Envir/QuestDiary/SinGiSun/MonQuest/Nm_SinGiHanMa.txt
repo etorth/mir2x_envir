@@ -6,6 +6,6 @@ check [318] 0
 set [318] 1
 give าลบก 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\SinGiSun\MonQuest\Nm_SinGiHanMa.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/MonQuest/Nm_SinGiHanMa.txt] @NPC_Main
 #ELSEACT
 break

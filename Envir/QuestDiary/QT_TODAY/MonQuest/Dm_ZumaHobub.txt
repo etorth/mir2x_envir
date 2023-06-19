@@ -84,7 +84,7 @@ inc S0 1
 [@jumasinjang_T231_5]
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T231_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T231_Say
 
 #ACT
 set [308] 1
@@ -130,7 +130,7 @@ checkitem ×æÂêÎÀÊ¿µñÏñ 19
 give ×æÂêÎÀÊ¿µñÏñ 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T228_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T228_Say
 
 #ELSEACT
 goto @jumahobub_T228_1_1
@@ -179,7 +179,7 @@ checkitem ×æÂêÎÀÊ¿µñÏñ 299
 give ×æÂêÎÀÊ¿µñÏñ 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T117_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T117_Say
 
 #ELSEACT
 goto @jumahobub_T117_1_1

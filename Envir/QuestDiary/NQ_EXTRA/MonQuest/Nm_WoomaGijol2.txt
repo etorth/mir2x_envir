@@ -56,7 +56,7 @@ inc s2 1
 #IF
 checkmonmap D023_001 3
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\MonQuest\Nm_WoomaGijol2.txt] @Nm_WoomaGijol2_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MonQuest/Nm_WoomaGijol2.txt] @Nm_WoomaGijol2_1
 
 #ELSEACT
 mov s2 0

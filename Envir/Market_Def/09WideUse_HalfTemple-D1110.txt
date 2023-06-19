@@ -16,11 +16,11 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [..\convert_Def\Market_Def\09WideUse_HalfTemple-D1110.txt] @NPC_Main
+	#INCLUDE [../convert_Def/Market_Def/09WideUse_HalfTemple-D1110.txt] @NPC_Main
 
 [@buy]
 #SAY
-	#INCLUDE [..\convert_Def\Market_Def\09WideUse_HalfTemple-D1110.txt] @NPC_Buy
+	#INCLUDE [../convert_Def/Market_Def/09WideUse_HalfTemple-D1110.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour

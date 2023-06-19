@@ -12,15 +12,15 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_Numa-41.txt] @NPC_RedPlayer
+	#INCLUDE [../Convert_Def/Market_Def/10Material_Numa-41.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_Numa-41.txt] @NPC_Main
+	#INCLUDE [../Convert_Def/Market_Def/10Material_Numa-41.txt] @NPC_Main
 
 [@sell]
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\10Material_Numa-41.txt] @NPC_Sell
+	#INCLUDE [../Convert_Def/Market_Def/10Material_Numa-41.txt] @NPC_Sell

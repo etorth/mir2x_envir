@@ -4,7 +4,7 @@
 #IF
 IsOnCastleWar Sabuk                    ;; 공성풀 중인지 체크 하는 부분
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_1
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SabukTele.txt] @SabukTele_1
 
 #ACT
 break
@@ -12,7 +12,7 @@ break
 #IF
 IsOnReadyCastleWar Sabuk               ;; 공성 대기시간인지 체크 하는 부분
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_2
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SabukTele.txt] @SabukTele_2
 
 #ACT
 break
@@ -20,7 +20,7 @@ break
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_3
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SabukTele.txt] @SabukTele_3
 
 #ELSEACT
 mapmove 81 125 274                                    ;; 빨갱이 이동

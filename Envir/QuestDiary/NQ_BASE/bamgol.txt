@@ -11,10 +11,10 @@ check [215] 0
 check [213] 1
 checklevel 16
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_1
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_1
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_2
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_2
 
 
 [@BAMGOL_START_1]
@@ -22,7 +22,7 @@ checklevel 16
 check [215] 0
 check [213] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_3
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_3
 
 
 [@BAMGOL_START_2_1]
@@ -32,7 +32,7 @@ check [215] 0
 #ACT
 set [215] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_4
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_4
 
 
 [@BAMGOL_START_2_2]
@@ -40,7 +40,7 @@ set [215] 1
 check [213] 1
 check [215] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_5
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_5
 
 }
 
@@ -48,7 +48,7 @@ check [215] 0
 {
 #IF
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_6
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_6
 
 }
 
@@ -71,7 +71,7 @@ checkitem 千年毒蛇胆汁 1
 #ACT
 goto @GIVE_GALL_1
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_7
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_7
 
 
 [@GIVE_GALL_1]
@@ -86,7 +86,7 @@ goto @GIVE_GALL_2
 check [217] 1
 check [219] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_8
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_8
 
 
 [@GIVE_GALL_3]
@@ -98,7 +98,7 @@ give 波纹手镯 1
 reset [214] 4
 set [219] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_9
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_9
 
 }
 
@@ -113,7 +113,7 @@ goto @HELP_POISON_0
 check [215] 1
 check [216] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_10
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_10
 
 
 [@HELP_POISON_1]
@@ -121,7 +121,7 @@ check [216] 0
 check [215] 1
 check [216] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_11
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_11
 
 
 [@HELP_POISON_2]
@@ -129,7 +129,7 @@ check [216] 0
 check [215] 1
 check [216] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_12
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_12
 
 
 [@HELP_POISON_3]
@@ -137,7 +137,7 @@ check [216] 0
 check [215] 1
 check [216] 0
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_13
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_13
 
 
 [@HELP_POISON_4]
@@ -147,7 +147,7 @@ check [216] 0
 #ACT
 set [216] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_14
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_14
 
 }
 
@@ -156,9 +156,9 @@ set [216] 1
 #IF
 checkitem 千年毒蛇胆汁 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_15
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_15
 
 #ELSESAY
-	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_16
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/bamgol.txt] @bamgol_16
 
 }

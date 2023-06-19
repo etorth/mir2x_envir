@@ -101,7 +101,7 @@ checkitem Ç§Äê¶¾ÉßÑÀ³Ý 9
 give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T488_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T488_Say
 #ELSEACT
 movr s0 2
 goto @Chun_T488_2
@@ -147,7 +147,7 @@ checkitem Ç§Äê¶¾Éßµ¨Ö­ 11
 give Ç§Äê¶¾Éßµ¨Ö­ 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T322_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T322_Say
 
 #ELSEACT
 goto @chunyundoksa_T322_2
@@ -196,7 +196,7 @@ checkitem Ç§Äê¶¾ÉßÑÀ³Ý 14
 give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T323_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T323_Say
 
 #ELSEACT
 goto @chunyundoksa_T323_2
@@ -244,7 +244,7 @@ checkitem Ç§Äê¶¾ÉßÑª 2
 give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T412_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T412_Say
 
 #ELSEACT
 goto @chunyundoksa_T412_2
@@ -292,7 +292,7 @@ checkitem Ç§Äê¶¾ÉßÑª 2
 give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T430_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T430_Say
 
 #ELSEACT
 goto @chunyundoksa_T430_2
@@ -340,7 +340,7 @@ random 3
 give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T431_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T431_Say
 
 ;-----------------------------------------------------
 
@@ -381,7 +381,7 @@ checkitem Ç§Äê¶¾ÉßÑÀ³Ý 2
 give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T433_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T433_Say
 
 #ELSEACT
 goto @chunyundoksa_T433_2
@@ -430,7 +430,7 @@ checkitem Ç§Äê¶¾ÉßÑª 2
 give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T438_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T438_Say
 
 #ELSEACT
 goto @chunyundoksa_T438_2
@@ -450,7 +450,7 @@ checkitem Ç§Äê¶¾ÉßÑÀ³Ý 2
 give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [309] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T438_Say_1
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T438_Say_1
 
 #ELSEACT
 goto @chunyundoksa_T438_4
@@ -500,7 +500,7 @@ random 3
 give Ç§Äê¶¾Éßµ¨Ö­ 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T442_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T442_Say
 
 
 ;-----------------------------------------------------
@@ -541,6 +541,6 @@ break
 give Ç§Äê¶¾Éßµ¨Ö­ 1
 set [308] 1
 #SAY
-	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T522_Say
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T522_Say
 
 ;-----------------------------------------------------

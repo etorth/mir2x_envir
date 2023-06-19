@@ -18,7 +18,7 @@ Mov D1 %ARG(3)
 Equal A8 ""
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_0
 
 #ACT
 break
@@ -27,7 +27,7 @@ break
 Equal D0 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_1
 
 #ACT
 break
@@ -36,7 +36,7 @@ break
 Equal D0 2
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_2
 
 #ACT
 break
@@ -46,7 +46,7 @@ Large D0 2
 Small D0 7
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_3
 
 #ACT
 break
@@ -55,7 +55,7 @@ break
 Equal D0 7
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_4
 
 #ACT
 break
@@ -64,7 +64,7 @@ break
 Equal D0 8
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_5
 
 #ACT
 break
@@ -74,7 +74,7 @@ Large D0 8
 Small D0 12
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_6
 
 #ACT
 break
@@ -84,7 +84,7 @@ Equal D0 12
 Small D1 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_7
 
 #ACT
 break
@@ -95,7 +95,7 @@ Large D1 1
 Small D1 4
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_8
 
 #ACT
 break
@@ -104,7 +104,7 @@ break
 Equal D0 13
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_9
 
 #ACT
 break
@@ -114,7 +114,7 @@ Large D0 13
 
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/HelperHonChonMaDoBook.txt] @Convert_HelperHonChonMaDoBook_10
 
 #ACT
 break

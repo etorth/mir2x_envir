@@ -4,7 +4,7 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/DoKwanTele.txt] @DoKwanTele_1
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/DoKwanTele.txt] @DoKwanTele_1
 
 #ELSEACT
 mapmove 81 125 274
@@ -13,7 +13,7 @@ break
 #IF
 !IsOnCastleWar Sabuk
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/DoKwanTele.txt] @DoKwanTele_2
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/DoKwanTele.txt] @DoKwanTele_2
 
 #ACT
 break
@@ -21,7 +21,7 @@ break
 #IF
 !IsOnReadyCastleWar Sabuk
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/DoKwanTele.txt] @DoKwanTele_3
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/DoKwanTele.txt] @DoKwanTele_3
 
 #ACT
 break

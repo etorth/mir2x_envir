@@ -3,7 +3,7 @@
 {
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/Sell/ConsignmentMarket.txt] @Convert_ConsignmentMarket_0
+#INCLUDE [Convert_Def/QuestDiary/Sell/ConsignmentMarket.txt] @Convert_ConsignmentMarket_0
 
 [@buyfromusermarket()]
 #ACT

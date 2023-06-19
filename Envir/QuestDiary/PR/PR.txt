@@ -3,7 +3,7 @@
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/PR/PR.txt] @NPC_Say
+	#INCLUDE [Convert_Def/QuestDiary/PR/PR.txt] @NPC_Say
 
 [@_Startup]
 #IF

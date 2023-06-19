@@ -19,13 +19,13 @@
 linemsg "%A0"
 break
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Event_Game01/GEvent_Msg01.txt] @NPC_NotReady
+	#INCLUDE [Convert_Def/QuestDiary/Event/Event_Game01/GEvent_Msg01.txt] @NPC_NotReady
 
 [@Msg01_go]
 #ACT
 SaveValue "Flag_Def\Event\Event_Game\GEvent_01.txt" [OneDay] [Eventgen] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Event_Game01/GEvent_Msg01.txt] @NPC_Start_Rush
+	#INCLUDE [Convert_Def/QuestDiary/Event/Event_Game01/GEvent_Msg01.txt] @NPC_Start_Rush
 
 
 }

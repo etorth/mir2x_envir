@@ -16,7 +16,7 @@ begin
 	#ACT
 		goto @Monkey_CheckMap
 	#ELSESAY
-	   #INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_1
+	   #INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_1
 
 [@Monkey_CheckMap]
 	begin
@@ -25,7 +25,7 @@ begin
 		#ACT
 		   goto @Monkey_CheckMap_1
 		#ELSESAY
-		   #INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_2
+		   #INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_2
 	end
 
 [@Monkey_CheckMap_1]
@@ -36,9 +36,9 @@ begin
 			checkitem Éú´æÓÎÏ·³¡µØµØÍ¼3 1
 			checkitem Éú´æÓÎÏ·³¡µØµØÍ¼4 1
 		#SAY
-			#INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_3
+			#INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_3
 		#ELSESAY
-			#INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_4
+			#INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_4
 	end
 
 [@Start_Island]
@@ -68,7 +68,7 @@ begin
 			take Éú´æÓÎÏ·³¡µØµØÍ¼4 1
 			goto @UserSettingStartIsland
 		#ELSESAY
-			#INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_5
+			#INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_5
 	end
 
 [@UserSettingStartIsland]
@@ -101,14 +101,14 @@ begin
 		#IF
 			!Equal N1{EVENT}  1
 		#SAY
-			#INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_6
+			#INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_6
 		#ACT
 			break
 
 		#IF
 			Equal  N3{OPEN}  0
 		#SAY
-			#INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_7
+			#INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_7
 		#ACT
 			break
 
@@ -121,7 +121,7 @@ begin
 			LineMsg  "01,Island02" %A0
 			Map   Island02
 		#ELSESAY
-   		#INCLUDE [../Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_8
+   		#INCLUDE [Convert_Def/QuestDiary/Event/Island/Treasure.txt] @Event_Island_Treasure_Say_8
 	end
 end
 }

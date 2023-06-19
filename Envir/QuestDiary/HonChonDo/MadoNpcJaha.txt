@@ -203,22 +203,22 @@ break
 [@MadoTimeQuestjahafriday_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_0
 
 [@MadoTimeQuestjahafriday_9_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_1
 
 [@MadoTimeQuestjahafriday_9_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_2
 
 [@MadoTimeQuestjahafriday_9_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_3
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -228,32 +228,32 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestjahafriday_9_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_4
 
 [@MadoTimeQuestjahafriday_9_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_5
 
 [@MadoTimeQuestjahafriday_9_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_6
 
 [@MadoTimeQuestjahafriday1_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_7
 
 [@MadoTimeQuestjahafridayno_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_8
 
 [@MadoTimeQuestjahafriday1_9_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_9
 
 [@MadoTimeQuestjahafriday1_9_2]
 #ACT
@@ -305,7 +305,7 @@ break
 [@MadoTimeQuestjahafriday1_930]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_10
 
 [@MadoTimeQuestjahafriday1_931]
 #IF
@@ -317,7 +317,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=1"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_11
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_11
 
 [@MadoTimeQuestjahafriday1_932]
 #IF
@@ -329,7 +329,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=2"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_12
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_12
 
 [@MadoTimeQuestjahafriday1_933]
 #IF
@@ -341,7 +341,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=3"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_13
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_13
 
 [@MadoTimeQuestjahafriday1_934]
 #IF
@@ -353,27 +353,27 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=4"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_14
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_14
 
 [@MadoTimeQuestjahafriday1_9_2_A]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_15
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_15
 
 [@MadoTimeQuestjahafriday1_9_2_B]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_16
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_16
 
 [@MadoTimeQuestjahafriday1_9_2_C]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_17
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_17
 
 [@MadoTimeQuestjahafriday1_9_2_D]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_18
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_18
 
 }
 
@@ -509,12 +509,12 @@ goto @MadoTimeQuestjahafriday_11_5
 [@MadoTimeQuestjahafriday_11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_19
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_19
 
 [@MadoTimeQuestjahafriday_11_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_20
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_20
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -527,7 +527,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestjahafriday_11_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_21
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_21
 
 [@MadoTimeQuestjahafriday_11_3]
 #ACT
@@ -552,7 +552,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOPATTERN=2"
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_22
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_22
 
 [@MadoTimeQuestjahafriday_11_4]
 #ACT
@@ -604,7 +604,7 @@ break
 [@MadoTimeQuestjahafriday_11_4_0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_23
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_23
 
 [@MadoTimeQuestjahafriday_11_4_1]
 #ACT
@@ -615,7 +615,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=1"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_24
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_24
 
 [@MadoTimeQuestjahafriday_11_4_2]
 #ACT
@@ -626,7 +626,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=2"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_25
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_25
 
 [@MadoTimeQuestjahafriday_11_4_3]
 #ACT
@@ -637,7 +637,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=3"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_26
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_26
 
 [@MadoTimeQuestjahafriday_11_4_4]
 #ACT
@@ -648,32 +648,32 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=4"
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_27
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_27
 
 [@MadoTimeQuestjahafriday_11_A]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_28
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_28
 
 [@MadoTimeQuestjahafriday_11_B]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_29
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_29
 
 [@MadoTimeQuestjahafriday_11_C]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_30
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_30
 
 [@MadoTimeQuestjahafriday_11_D]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_31
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_31
 
 [@MadoTimeQuestjahafriday_11_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_32
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_32
 
 }
 ;;不要删掉此行

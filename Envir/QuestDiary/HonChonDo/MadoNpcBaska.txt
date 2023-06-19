@@ -108,55 +108,55 @@ break
 [@MadoTimeQuestnpcallfriday_9A_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_0
 
 [@MadoTimeQuestnpcallfriday_9A]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_1
 
 [@MadoTimeQuestnpcallfriday_9_A]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_2
 
 [@MadoTimeQuestnpcallfridayA]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_3
 
 #ACT
 
 [@MadoTimeQuestnpcallfridayA_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_4
 
 [@MadoTimeQuestnpcallfridayA_9_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_5
 
 [@MadoTimeQuestnpcallfridayA_9_3]
 #IF
 checkitem 尸骨项链 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_6
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_7
 
 [@MadoTimeQuestnpcallfridayA_9_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_8
 
 [@MadoTimeQuestnpcallfridayA_9_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_9
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -183,7 +183,7 @@ break
 [@MadoTimeQuestnpcallfridayA_9_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_10
 
 }
 
@@ -299,55 +299,55 @@ break
 [@MadoTimeQuestnpcallfriday_9B_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_11
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_11
 
 [@MadoTimeQuestnpcallfriday_9B]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_12
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_12
 
 [@MadoTimeQuestnpcallfriday_9_B]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_13
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_13
 
 [@MadoTimeQuestnpcallfridayB]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_14
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_14
 
 #ACT
 
 [@MadoTimeQuestnpcallfridayB_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_15
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_15
 
 [@MadoTimeQuestnpcallfridayB_9_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_16
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_16
 
 [@MadoTimeQuestnpcallfridayB_9_3]
 #IF
 checkitem 尸骨项链 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_17
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_17
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_18
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_18
 
 [@MadoTimeQuestnpcallfridayB_9_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_19
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_19
 
 [@MadoTimeQuestnpcallfridayB_9_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_20
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_20
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -378,7 +378,7 @@ break
 [@MadoTimeQuestnpcallfridayB_9_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_21
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_21
 
 }
 
@@ -492,55 +492,55 @@ break
 [@MadoTimeQuestnpcallfriday_9C_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_22
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_22
 
 [@MadoTimeQuestnpcallfriday_9C]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_23
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_23
 
 [@MadoTimeQuestnpcallfriday_9_C]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_24
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_24
 
 [@MadoTimeQuestnpcallfridayC]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_25
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_25
 
 #ACT
 
 [@MadoTimeQuestnpcallfridayC_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_26
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_26
 
 [@MadoTimeQuestnpcallfridayC_9_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_27
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_27
 
 [@MadoTimeQuestnpcallfridayC_9_3]
 #IF
 checkitem 尸骨项链 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_28
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_28
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_29
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_29
 
 [@MadoTimeQuestnpcallfridayC_9_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_30
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_30
 
 [@MadoTimeQuestnpcallfridayC_9_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_31
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_31
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -571,7 +571,7 @@ break
 [@MadoTimeQuestnpcallfridayC_9_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_32
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_32
 
 }
 
@@ -682,55 +682,55 @@ break
 [@MadoTimeQuestnpcallfriday_9D_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_33
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_33
 
 [@MadoTimeQuestnpcallfriday_9D]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_34
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_34
 
 [@MadoTimeQuestnpcallfriday_9_D]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_35
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_35
 
 [@MadoTimeQuestnpcallfridayD]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_36
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_36
 
 #ACT
 
 [@MadoTimeQuestnpcallfridayD_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_37
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_37
 
 [@MadoTimeQuestnpcallfridayD_9_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_38
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_38
 
 [@MadoTimeQuestnpcallfridayD_9_3]
 #IF
 checkitem 尸骨项链 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_39
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_39
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_40
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_40
 
 [@MadoTimeQuestnpcallfridayD_9_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_41
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_41
 
 [@MadoTimeQuestnpcallfridayD_9_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_42
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_42
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -760,7 +760,7 @@ break
 [@MadoTimeQuestnpcallfridayD_9_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_43
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_43
 
 }
 
@@ -965,17 +965,17 @@ break
 [@MadoTimeQuestsundaynpcA11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_44
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_44
 
 [@MadoTimeQuestsundaynpcA_11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_45
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_45
 
 [@MadoTimeQuestsundaynpcA_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_46
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_46
 
 [@MadoTimeQuestsundaynpcA_11]
 #ACT
@@ -997,12 +997,12 @@ break
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_47
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_47
 
 [@MadoTimeQuestsundaynpcA_11_0_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_48
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_48
 
 [@MadoTimeQuestsundaynpcA_11_1]
 #ACT
@@ -1032,37 +1032,37 @@ break
 [@MadoTimeQuestsundaynpcA_11_2_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_49
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_49
 
 [@MadoTimeQuestsundaynpcA_11_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_50
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_50
 
 [@MadoTimeQuestsundaynpcA_11_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_51
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_51
 
 [@MadoTimeQuestsundaynpcA_11_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_52
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_52
 
 [@MadoTimeQuestsundaynpcA_11_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_53
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_53
 
 [@MadoTimeQuestsundaynpcA_11_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_54
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_54
 
 [@MadoTimeQuestsundaynpcA_11_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_55
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_55
 
 [@MadoTimeQuestsundaynpcA_11_8]
 #ACT
@@ -1087,22 +1087,22 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOPATTERN=2"
 
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_56
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_56
 
 [@MadoTimeQuestsundaynpcA_11_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_57
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_57
 
 [@MadoTimeQuestsundaynpcA_11_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_58
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_58
 
 [@MadoTimeQuestsundaynpcA_11_11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_59
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_59
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -1118,7 +1118,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestsundaynpcA_11_12]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_60
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_60
 
 #ACT
 Movenpc "D1604,226,201,诺玛大法老1" npcroom1 10 7
@@ -1316,17 +1316,17 @@ break
 [@MadoTimeQuestsundaynpcB11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_61
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_61
 
 [@MadoTimeQuestsundaynpcB_11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_62
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_62
 
 [@MadoTimeQuestsundaynpcB_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_63
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_63
 
 [@MadoTimeQuestsundaynpcB_11]
 #ACT
@@ -1348,12 +1348,12 @@ break
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_64
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_64
 
 [@MadoTimeQuestsundaynpcB_11_0_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_65
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_65
 
 [@MadoTimeQuestsundaynpcB_11_1]
 #ACT
@@ -1383,57 +1383,57 @@ break
 [@MadoTimeQuestsundaynpcB_11_2_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_66
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_66
 
 [@MadoTimeQuestsundaynpcB_11_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_67
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_67
 
 [@MadoTimeQuestsundaynpcB_11_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_68
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_68
 
 [@MadoTimeQuestsundaynpcB_11_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_69
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_69
 
 [@MadoTimeQuestsundaynpcB_11_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_70
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_70
 
 [@MadoTimeQuestsundaynpcB_11_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_71
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_71
 
 [@MadoTimeQuestsundaynpcB_11_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_72
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_72
 
 [@MadoTimeQuestsundaynpcB_11_8]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_73
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_73
 
 [@MadoTimeQuestsundaynpcB_11_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_74
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_74
 
 [@MadoTimeQuestsundaynpcB_11_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_75
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_75
 
 [@MadoTimeQuestsundaynpcB_11_11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_76
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_76
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -1449,7 +1449,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestsundaynpcB_11_12]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_77
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_77
 
 #ACT
 Movenpc "D1604,389,198,诺玛大法老2" npcroom1 10 8
@@ -1650,17 +1650,17 @@ break
 [@MadoTimeQuestsundaynpcC11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_78
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_78
 
 [@MadoTimeQuestsundaynpcC_11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_79
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_79
 
 [@MadoTimeQuestsundaynpcC_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_80
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_80
 
 [@MadoTimeQuestsundaynpcC_11]
 #ACT
@@ -1682,12 +1682,12 @@ break
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_81
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_81
 
 [@MadoTimeQuestsundaynpcC_11_0_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_82
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_82
 
 [@MadoTimeQuestsundaynpcC_11_1]
 #ACT
@@ -1717,57 +1717,57 @@ break
 [@MadoTimeQuestsundaynpcC_11_2_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_83
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_83
 
 [@MadoTimeQuestsundaynpcC_11_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_84
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_84
 
 [@MadoTimeQuestsundaynpcC_11_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_85
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_85
 
 [@MadoTimeQuestsundaynpcC_11_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_86
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_86
 
 [@MadoTimeQuestsundaynpcC_11_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_87
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_87
 
 [@MadoTimeQuestsundaynpcC_11_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_88
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_88
 
 [@MadoTimeQuestsundaynpcC_11_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_89
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_89
 
 [@MadoTimeQuestsundaynpcC_11_8]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_90
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_90
 
 [@MadoTimeQuestsundaynpcC_11_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_91
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_91
 
 [@MadoTimeQuestsundaynpcC_11_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_92
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_92
 
 [@MadoTimeQuestsundaynpcC_11_11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_93
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_93
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -1783,7 +1783,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestsundaynpcC_11_12]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_94
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_94
 
 #ACT
 Movenpc "D1604,204,212,诺玛大法老3" npcroom1 10 9
@@ -1985,17 +1985,17 @@ break
 [@MadoTimeQuestsundaynpcD11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_95
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_95
 
 [@MadoTimeQuestsundaynpcD_11no]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_96
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_96
 
 [@MadoTimeQuestsundaynpcD_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_97
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_97
 
 [@MadoTimeQuestsundaynpcD_11]
 #ACT
@@ -2017,12 +2017,12 @@ break
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_98
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_98
 
 [@MadoTimeQuestsundaynpcD_11_0_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_99
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_99
 
 [@MadoTimeQuestsundaynpcD_11_1]
 #ACT
@@ -2053,57 +2053,57 @@ break
 [@MadoTimeQuestsundaynpcD_11_2_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_100
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_100
 
 [@MadoTimeQuestsundaynpcD_11_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_101
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_101
 
 [@MadoTimeQuestsundaynpcD_11_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_102
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_102
 
 [@MadoTimeQuestsundaynpcD_11_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_103
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_103
 
 [@MadoTimeQuestsundaynpcD_11_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_104
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_104
 
 [@MadoTimeQuestsundaynpcD_11_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_105
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_105
 
 [@MadoTimeQuestsundaynpcD_11_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_106
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_106
 
 [@MadoTimeQuestsundaynpcD_11_8]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_107
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_107
 
 [@MadoTimeQuestsundaynpcD_11_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_108
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_108
 
 [@MadoTimeQuestsundaynpcD_11_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_109
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_109
 
 [@MadoTimeQuestsundaynpcD_11_11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_110
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_110
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -2119,7 +2119,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestsundaynpcD_11_12]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_111
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcBaska.txt] @Convert_MadoNpcBaska_111
 
 }
 

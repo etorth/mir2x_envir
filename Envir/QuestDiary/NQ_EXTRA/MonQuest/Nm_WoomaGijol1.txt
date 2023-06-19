@@ -76,7 +76,7 @@ inc S1 1
 [@umgzol1_9]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MonQuest/Nm_WoomaGijol1.txt] @Nm_WoomaGijol1_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MonQuest/Nm_WoomaGijol1.txt] @Nm_WoomaGijol1_1
 
 #ACT
 set [278] 1

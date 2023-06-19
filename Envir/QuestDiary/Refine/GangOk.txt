@@ -3,7 +3,7 @@
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Main
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Main
 
 [@RefineGangOk_Check]
 #IF
@@ -11,7 +11,7 @@
 #ACT
 goto @RefineGangOk_Check_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail_1
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail_1
 
 [@RefineGangOk_Check_1]
 #IF
@@ -19,7 +19,7 @@ checkgold 100000
 #ACT
 goto @RefineGangOk_Check_2
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail_2
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail_2
 
 [@RefineGangOk_Check_2]
 #IF
@@ -30,9 +30,9 @@ take ¸ÖÓñ¿óÊ¯ 10
 take ½ð±Ò 100000
 give ¸ÖÓñÊ¯ 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Complete
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail
 
 }
 

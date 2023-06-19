@@ -19,7 +19,7 @@ goto @Junsa_MQ_START_1
 check [102] 0
 checklevel 4
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_1
 
 #ELSEACT
 goto @Junsa_MQ_START_2
@@ -28,31 +28,31 @@ goto @Junsa_MQ_START_2
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_2
 
 
 [@Junsa_MQ_START_3_1]
 #IF
 gender man
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_3
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_3
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_4
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_4
 
 
 [@Junsa_MQ_START_3_2]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_5
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_5
 
 
 [@Junsa_MQ_START_3_3]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_6
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_6
 
 
 [@Junsa_MQ_START_4]
@@ -61,52 +61,52 @@ check [102] 0
 #ACT
 set [102] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_7
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_7
 
 
 [@Junsa_MQ_START_6]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_8
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_8
 
 
 [@Junsa_MQ_START_7_1]
 #IF
 gender man
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_9
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_9
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_10
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_10
 
 
 [@Junsa_MQ_START_7_2]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_11
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_11
 
 
 [@Junsa_MQ_START_7_3]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_12
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_12
 
 
 [@Junsa_MQ_START_8]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_13
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_13
 
 
 [@Junsa_MQ_START_9]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_14
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_14
 
 
 [@Junsa_MQ_START_10]
@@ -118,7 +118,7 @@ give »ù±¾½£Êõ 1
 reset [102] 28
 set [131] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_15
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_15
 
 }
 
@@ -126,7 +126,7 @@ set [131] 1
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_16
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_16
 
 }
 
@@ -140,7 +140,7 @@ goto @Junsa_CQ_START1_0
 check [105] 1
 check [131] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_17
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_17
 
 
 [@Junsa_CQ_START1_3]
@@ -151,7 +151,7 @@ checklevel 6
 #ACT
 goto @Junsa_CQ_START1_4
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_18
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_18
 
 
 [@Junsa_CQ_START1_4]
@@ -159,7 +159,7 @@ goto @Junsa_CQ_START1_4
 check [105] 1
 check [131] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_19
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_19
 
 
 [@Junsa_CQ_START1_5]
@@ -172,7 +172,7 @@ give »ù±¾½£Êõ 1
 reset [102] 28
 set [131] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_20
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_20
 
 }
 
@@ -180,7 +180,7 @@ set [131] 1
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_21
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_21
 
 }
 
@@ -194,7 +194,7 @@ goto @Junsa_DQ_START_1
 check [102] 1
 check [103] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_22
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_22
 
 
 [@Junsa_DQ_START_2]
@@ -205,7 +205,7 @@ check [103] 0
 give ÈâÌÀ 1
 set [103] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_23
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_23
 
 }
 
@@ -213,7 +213,7 @@ set [103] 1
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_24
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_24
 
 }
 
@@ -228,7 +228,7 @@ goto @Junsa_SEARCH_GOGI_1
 check [163] 1
 check [104] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_25
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_25
 
 
 [@Junsa_SEARCH_GOGI_2_1]
@@ -238,7 +238,7 @@ check [104] 0
 #ACT
 set [104] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_26
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_26
 
 
 [@Junsa_SEARCH_GOGI_2_2]
@@ -248,7 +248,7 @@ check [104] 0
 #ACT
 set [104] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_27
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_27
 
 }
 
@@ -263,7 +263,7 @@ check [104] 1
 check [105] 0
 check [106] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_28
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_28
 
 
 [@Junsa_MQ_COMPLETE_4]
@@ -274,10 +274,10 @@ take Å£Èâ 1
 give ½ð±Ò 1000
 set [105] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_29
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_29
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_30
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_30
 
 }
 
@@ -293,7 +293,7 @@ checkitem ÈâÌÀ 1
 #ACT
 goto @Junsa_TAKE_GOGIGUK_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_31
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_31
 
 
 [@Junsa_TAKE_GOGIGUK_1]
@@ -306,7 +306,7 @@ give Ø°Ê× 1
 set [103] 0
 set [163] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_32
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_32
 
 }
 
@@ -314,7 +314,7 @@ set [163] 1
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_33
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_33
 
 }
 
@@ -324,7 +324,7 @@ set [163] 1
 check [131] 1
 check [164] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_34
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_34
 
 
 [@Junsa_CQ_COMPLETE_0]
@@ -336,7 +336,7 @@ give ½ð±Ò 1000
 give ÇàÍ­Í·¿ø 1
 goto @Junsa_CQ_COMPLETE_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_35
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_35
 
 
 [@Junsa_CQ_COMPLETE_1]
@@ -347,18 +347,18 @@ check [164] 0
 reset [102] 29
 set [164] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_36
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_36
 
 
 [@Junsa_CQ_COMPLETE_2]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_37
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_37
 
 
 [@Junsa_CQ_COMPLETE_3]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_38
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/warriorbase.txt] @warriorbase_38
 
 }

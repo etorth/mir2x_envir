@@ -46,7 +46,7 @@ break
 [@goul_T417_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T417_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T417_Say
 
 #ACT
 give Ê¬Íõ°×¹Ç 1

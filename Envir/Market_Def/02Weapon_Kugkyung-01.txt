@@ -24,7 +24,7 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_root_1
@@ -67,19 +67,19 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Main_0_0
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Main_0_0
 
 ;------------------------------
 
 [@main_0_1]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Main_0_1
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Main_0_1
 
 ;------------------------------
 
 [@main_0_2]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Main_0_2
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Main_0_2
 
 ;----------------------------------------------------------
 
@@ -88,19 +88,19 @@ goto @main_0_0
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Sell
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Repair
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Repair_Complete
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -134,7 +134,7 @@ goto @pre_repair_mutebo
 [@pre_repair_0]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Pre_Repair
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_Pre_Repair
 
 ;--------
 
@@ -199,7 +199,7 @@ goto @TQuest572_0
 break
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_TQuest
 ;------------------------
 
 [@TQuest595_0]
@@ -311,6 +311,6 @@ goto @TQuest572_1
 ;------------------------
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Kugkyung-01.txt] @NPC_TQuest_1
 
 ;------------------------

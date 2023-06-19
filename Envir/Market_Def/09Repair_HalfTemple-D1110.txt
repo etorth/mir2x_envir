@@ -22,15 +22,15 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/09Repair_HalfTemple-D1110.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/09Repair_HalfTemple-D1110.txt] @NPC_Main
 
 [@repair]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/09Repair_HalfTemple-D1110.txt] @NPC_Repair
+	#INCLUDE [Convert_Def/Market_Def/09Repair_HalfTemple-D1110.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/09Repair_HalfTemple-D1110.txt] @NPC_Repair_Complete
+	#INCLUDE [Convert_Def/Market_Def/09Repair_HalfTemple-D1110.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour

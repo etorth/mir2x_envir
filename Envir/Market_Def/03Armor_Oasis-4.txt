@@ -10,7 +10,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
@@ -18,23 +18,23 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Main_0_0
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Main_0_0
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Sell
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Repair
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Repair_Complete
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -54,7 +54,7 @@ goto @TQuest495_0
 break
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -86,5 +86,5 @@ goto @TQuest495_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/03Armor_Oasis-4.txt] @NPC_TQuest_1
 ;-------------------------------------------------------------------------------

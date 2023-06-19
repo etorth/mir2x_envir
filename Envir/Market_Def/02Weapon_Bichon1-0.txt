@@ -16,14 +16,14 @@ goto @main_Call_BG
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Main_0_0
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Main_0_0
 
 [@Special_Repair()]
 #CALL [\Repair\TotalRepair.txt] @SRepairItem
@@ -35,7 +35,7 @@ checkitemw ¹¥É±Ìú½£ 1
 #ACT
 takew ¹¥É±Ìú½£ 1
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Remove_Sword
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Remove_Sword
 
 #ELSEACT
 goto @remove_sword_1
@@ -48,10 +48,10 @@ checkitemw ìÍ»ð½£ 1
 takew ¹¥É±Ìú½£ 1
 takew ìÍ»ð½£ 1
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Remove_Sword_1
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Remove_Sword_1
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Remove_Sword_Else
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_Remove_Sword_Else
 
 
 [@TQuest]
@@ -86,7 +86,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_TQuest
 
 [@TQuest486_0]
 #IF
@@ -138,7 +138,7 @@ goto @TQuest1_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/02Weapon_Bichon1-0.txt] @NPC_TQuest_1
 
 [@TQuest2_0]
 #IF

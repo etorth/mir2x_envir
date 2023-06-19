@@ -26,7 +26,7 @@ goto @main_Call_BG
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -37,17 +37,17 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_Main_0_0
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_Main_0_0
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_Sell
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Bichon2-0.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour

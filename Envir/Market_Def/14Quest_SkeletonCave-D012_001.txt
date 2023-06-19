@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -84,19 +84,19 @@ check [175] 1
 goto @NQuest01_3
 break
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_0
+	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_0
 
 [@main_0_1]
 #SAY
-	#INCLUDE [../Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_1
+	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_1
 
 [@main_0_2]
 #SAY
-	#INCLUDE [../Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_2
+	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_2
 
 [@main_0_3]
 #SAY
-	#INCLUDE [../Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_3
+	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-D012_001.txt] @NPC_Main_3
 
 [@NQuest01_3]
 #CALL [\NQ_BASE\oma.txt] @SEARCH_GADEUNG1_UNBAL

@@ -10,7 +10,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root_1
 
@@ -66,31 +66,31 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_0
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_0
 
 [@main_0_1]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_1
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_1
 
 [@main_0_2]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_2
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_2
 
 [@main_0_3]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_3
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_3
 
 [@main_0_4]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_4
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Main_0_4
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Sell
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -155,7 +155,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_TQuest
 
 [@TQuest569_0]
 #IF
@@ -210,7 +210,7 @@ goto @TQuest1_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Wooma-1.txt] @NPC_TQuest_1
 
 [@TQuest2_0]
 #IF

@@ -24,7 +24,7 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -36,17 +36,17 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_Main_0_0
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_Main_0_0
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_Sell
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -108,7 +108,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_TQuest
 ;------------------------
 
 [@TQuest597_0]
@@ -192,7 +192,7 @@ break
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Kugkyung-01.txt] @NPC_TQuest_1
 
 ;------------------------
 

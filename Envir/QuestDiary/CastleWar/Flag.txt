@@ -2,7 +2,7 @@
 [@Defence_SubFlag]
 {
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_1
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_1
 
 }
 
@@ -15,7 +15,7 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 205 158 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_2
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_2
 
 #ACT
 break
@@ -27,7 +27,7 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 206 158 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_3
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_3
 
 #ACT
 break
@@ -39,7 +39,7 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 205 158 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_4
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_4
 
 #ACT
 break
@@ -51,14 +51,14 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 205 158 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_5
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_5
 
 #ACT
 break
 
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_6
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_6
 
 
 [@castlewarmenu_Attack]
@@ -126,7 +126,7 @@ movr   D2  16
 movr   D3  16
 goto @ChangeFlagNum
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_7
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_7
 
 
 [@ChangeFlagNum]
@@ -156,13 +156,13 @@ dec    D0
 TestFlag  %D0  %D1  %D2  %D3
 inc    D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_8
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_8
 
 
 
 [@ThanksColor]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_9
+	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_9
 
 #ACT
 dec D0

@@ -94,41 +94,41 @@ break
 #IF
 Checkitem Á¬»·Ã÷Öé 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_3
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_3
 
 #ELSEACT
 goto @Sin_Boss_Input_2_0
 
 [@Sin_Boss_Input_1_0]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_0
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_0
 
 [@Sin_Boss_Input_1_1]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_1
 
 [@Sin_Boss_Input_1_2]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_2
 
 [@Sin_Boss_Input_1_3]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_3
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_3
 
 [@Sin_Boss_Input_1_4]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_4
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_1_4
 
 [@Sin_Boss_Input_2_0]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_2_0
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SIn_Boss_Input_2_0
 
 [@gain_SinGiItem]
 #IF
 checkitem °ÔÍõ½ÌÖ÷µñÏñ 1
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SingiSun.txt] @NPC_Gain_SinGiItem_Noitem
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SingiSun.txt] @NPC_Gain_SinGiItem_Noitem
 #ELSEACT
 break
 
@@ -144,7 +144,7 @@ LoadValue A0 "GM_Def\SinGiSun\Reward.txt" [pachun] [Give]
 give %A0 1
 
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SingiSun.txt] @NPC_Gain_SinGiItem
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SingiSun.txt] @NPC_Gain_SinGiItem
 
 #ELSEACT
 take °ÔÍõ½ÌÖ÷µñÏñ 46
@@ -152,7 +152,7 @@ LoadValue A0 "GM_Def\SinGiSun\Reward.txt" [pachun] [Give]
 give %A0 1
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SingiSun.txt] @NPC_Gain_SinGiItem
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SingiSun.txt] @NPC_Gain_SinGiItem
 
 [@gain_SinGiItem_AddReward]
 #IF
@@ -201,18 +201,18 @@ check [318] 0
 check [319] 0
 checkitem Ä§ÁéÅÆ 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest
 
 [@SinQuest_Spritstest_0]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_0
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_0
 
 [@SinQuest_Spritstest_1]
 #IF
 checkhum D90323 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_1
 
 #ELSEACT
 set [314] 1
@@ -232,13 +232,13 @@ mapmove D90323 16 11
 check [314] 1
 check [315] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Retry
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Retry
 
 [@SinQuest_Spritstest_retry1]
 #IF
 checkhum D90323 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Retry1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Retry1
 
 #ELSEACT
 monclear D90323
@@ -255,7 +255,7 @@ mapmove D90323 16 11
 
 [@SinQuest_Spritstest_Check]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Check
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Check
 
 [@SinGiSun_Spritstest_Check2]
 #IF
@@ -263,13 +263,13 @@ check [314] 0
 check [315] 1
 checkitem Ä§ÁéÅÆ 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Check2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Check2
 
 #ACT
 take Ä§ÁéÅÆ 1
 give º½º£ÈÕÖ¾ 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Check2_Noitem
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spritstest_Check2_Noitem
 ;;;¹ø¿ª ÇÊ¿ä ºÎºÐ---------------------------------------------
 
 
@@ -292,7 +292,7 @@ check [317] 0
 #ACT
 set [317] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_SeeAgain
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_SeeAgain
 
 ;;------------------------------------------------------------------------------
 ;; [318]  yugol
@@ -313,7 +313,7 @@ give %A0 1
 #ELSEACT
 goto @SinQuest_End_2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_End
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_End
 
 [@SinQuest_End_2]
 #IF
@@ -327,13 +327,13 @@ LoadValue A0 "GM_Def\SinGiSun\Reward.txt" [giveAccessory] [wizardAccessory]
 give %A0 1
 set [319] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_End_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_End_2
 #ELSEACT
 LoadValue A0 "GM_Def\SinGiSun\Reward.txt" [giveAccessory] [taoistAccessory]
 set [319] 1
 give %A0 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_End_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_End_2
 }
 
 
@@ -356,7 +356,7 @@ goto @main_0_1
 #ACT
 set [312] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_WakeUp_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_WakeUp_Check1_1
 }
 
 ;;------------------------------------------------------------------------------
@@ -377,7 +377,7 @@ goto @main_0_1
 #ACT
 set [312] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_WakeUp_Check2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_WakeUp_Check2
 }
 
 ;;------------------------------------------------------------------------------
@@ -390,67 +390,67 @@ set [312] 1
 #IF
 check [312] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Start
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Start
 
 [@SinQuest_0_2]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_2
 
 [@SinQuest_0_3]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_3
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_3
 
 [@SinQuest_0_4]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_4
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_4
 
 [@SinQuest_0_5]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_5
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_5
 
 [@SinQuest_0_6]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_6
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_6
 
 [@SinQuest_0_7]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_7
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_7
 
 [@SinQuest_0_8]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_8
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_8
 
 [@SinQuest_0_9]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_9
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_9
 
 [@SinQuest_0_10]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_10
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_0_10
 
 [@SinQuest_1_0]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_0
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_0
 
 [@SinQuest_1_1]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_1
 
 [@SinQuest_1_2]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_2
 
 [@SinQuest_1_3]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_3
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_3
 
 [@SinQuest_9_0]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_9_0
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_9_0
 
 [@SinQuest_1_4]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_4
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_4
 
 [@SinQuest_1_5]
 #IF
@@ -461,7 +461,7 @@ give Ä§ÁéÅÆ 1
 set [313] 1
 goto @SinQuest_1_6
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_5
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_1_5
 
 [@SinQuest_1_6]   ;;; Áß±¹¿ë Ãß°¡ ¾ÆÀÌÅÛ Áö±Þ
 #IF
@@ -496,7 +496,7 @@ break
 [@SinQuest_Spritstest_Check1]
 {
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spiritstest_Check1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Spiritstest_Check1
 ;;----------------------------------------------------------
 
 
@@ -513,20 +513,20 @@ mapmove d903 55 55
 [@SinQuest_diary_2]
 {
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_2
 
 [@SinQuest_diary_0_1]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_0_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_0_1
 
 [@SinQuest_diary_0_2]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_0_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_0_2
 
 [@SinQuest_diary_0_3]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_0_3
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Diary_0_3
 #ACT
 goto @SQ_SemiReward_1
 
@@ -577,7 +577,7 @@ LoadValue A0 "GM_Def\SinGiSun\Reward.txt" [sinQuest] [Give]
 give %A0 1
 take ÒÅº¡ 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Ending_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Ending_2
 }
 ;;------------------------------------------------------------------------------
 ;; [321] Singisun Secret Quest
@@ -588,17 +588,17 @@ take ÒÅº¡ 1
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Secret_I
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Secret_I
 
 [@SinQuest_Secret_I_0]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Secret_I_0
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SinQuest_Secret_I_0
 
 [@SQS_Buy]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy
 
 [@SQS_Buy_1]
 #IF
@@ -609,7 +609,7 @@ LoadValue P1 "GM_Def\SinGiSun\Reward.txt" [sinQuest] [warriorPotionNumber]
 give %A0 %P1
 set [321] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_1
 
 #ELSEACT
 goto @SQS_Buy_1_1
@@ -623,7 +623,7 @@ LoadValue P1 "GM_Def\SinGiSun\Reward.txt" [sinQuest] [wizardPotionNumber]
 give %A0 %P1
 set [321] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_1_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_1_1
 
 #ELSEACT
 LoadValue A0 "GM_Def\SinGiSun\Reward.txt" [sinQuest] [taoistPotion]
@@ -633,7 +633,7 @@ give %A0 %P1
 give %A1 %P1
 set [321] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_1_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_1_2
 
 [@SQS_Teleport]
 #IF
@@ -653,7 +653,7 @@ give %A0 %P2
 #ELSEACT
 goto @SQS_Buy_2_1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_2
 
 [@SQS_Buy_2_1]
 #IF
@@ -664,7 +664,7 @@ LoadValue A0 "GM_Def\SinGiSun\Reward.txt" [sinQuest] [wizardPotion2]
 LoadValue P2 "GM_Def\SinGiSun\Reward.txt" [sinQuest] [wizardPotionNumber2]
 give %A0 %P2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_2_1
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_2_1
 #ELSEACT
 set [321] 1
 LoadValue A0 "GM_Def\Reward.txt" [sinQuest] [taoistPotion2]
@@ -673,5 +673,5 @@ LoadValue P2 "GM_Def\Reward.txt" [sinQuest] [taoistPotionNumber2]
 give %A0 %P2
 give %A1 %P2
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_2_2
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/SinGiSun.txt] @NPC_SQS_Buy_2_2
 }

@@ -29,7 +29,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_0
 
 #ELSEACT
 break
@@ -64,7 +64,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_1
 
 #ELSEACT
 break
@@ -72,12 +72,12 @@ break
 [@MadoTimeQuestfridayhyun_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_2
 
 [@MadoTimeQuestfridayhyun_9_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_3
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -91,11 +91,11 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 checkgold 30000
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_4
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_5
 
 [@MadoTimeQuestfridayhyun_9_4]
 #IF
@@ -104,43 +104,43 @@ checkgold 30000
 take 金币 30000
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_6
 
 #ELSEACT
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_7
 
 [@MadoTimeQuestfridayhyun_9_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_8
 
 [@MadoTimeQuestfridayhyun_9_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_9
 
 [@MadoTimeQuestfridayhyun_9_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_10
 
 [@MadoTimeQuestfridayhyun_9_8]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_11
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_11
 
 [@MadoTimeQuestfridayhyun_9_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_12
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_12
 
 [@MadoTimeQuestfridayhyun_9_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_13
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_13
 
 #ACT
 Give 击退护身符 1
@@ -151,7 +151,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestfridayhyun_9_11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_14
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcHyun.txt] @Convert_MadoNpcHyun_14
 
 }
 ;;不要删掉此行

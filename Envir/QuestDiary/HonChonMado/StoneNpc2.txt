@@ -76,22 +76,22 @@ break
 [@NumaStone2_Talk0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_0
 
 [@NumaStone2_Talk11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_1
 
 [@NumaStone2_Talk1_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_2
 
 [@NumaStone2_Talk1_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_3
 
 [@NumaStone2_Talk1_3]
 #IF
@@ -100,7 +100,7 @@ checkitem 青空石 1
 checkitem 大地石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_4
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -112,17 +112,17 @@ take 大地石 1
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_5
 
 [@NumaStone2_Talk1_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_6
 
 [@NumaStone2_Talk1_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_7
 
 #ACT
 set [208] 1
@@ -135,7 +135,7 @@ Linemsg "Grobal" %A7
 [@NumaStone2_Talk1_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc2.txt] @Convert_StoneNpc2_8
 
 }
 ;;不要删掉此行

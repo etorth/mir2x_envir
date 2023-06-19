@@ -87,12 +87,12 @@ break
 [@NumaMagda_Talk0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_0
 
 [@NumaMagda_Talk_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_1
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -102,17 +102,17 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 [@NumaMagda_Talk_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_2
 
 [@NumaMagda_Talk_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_3
 
 [@NumaMagda_Talk_3_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_4
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -122,27 +122,27 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=1"
 [@NumaMagda_Talk_3_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_5
 
 [@NumaMagda_Talk_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_6
 
 [@NumaMagda_Talk_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_7
 
 [@NumaMagda_Talk_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_8
 
 [@NumaMagda_Talk_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_9
 
 #ACT
 set [208] 1
@@ -153,17 +153,17 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
 [@NumaMagda_Talk_8]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_10
 
 [@NumaMagda_Talk_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_11
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_11
 
 [@NumaMagda_Talk_1_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_12
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_12
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -173,12 +173,12 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 [@NumaMagda_Talk_1_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_13
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_13
 
 [@NumaMagda_Talk_1_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_14
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda.txt] @Convert_NumaNpcMagda_14
 
 }
 ;;不要删掉此行

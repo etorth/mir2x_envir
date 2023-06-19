@@ -59,28 +59,28 @@ check [199] 1
 #ACT
 goto @STOLEN_0_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_1
 
 [@STOLEN_0_1]
 #IF
 checklevel 16
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_2
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_3
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_3
 
 [@STOLEN_1]
 #IF
 check [201] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_4
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_4
 
 [@STOLEN_2]
 #IF
 check [202] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_5
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_5
 
 [@STOLEN_4]
 #IF
@@ -91,46 +91,46 @@ goto @STOLEN_4_1
 #IF
 check [203] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_6
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_6
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_7
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_7
 
 [@STOLEN_5]
 #IF
 check [205] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_8
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_8
 
 [@STOLEN_6]
 #IF
 check [206] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_9
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_9
 
 [@STOLEN_7]
 #IF
 check [207] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_10
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_10
 
 [@STOLEN_8]
 #IF
 check [209] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_11
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_11
 
 [@STOLEN_9]
 #IF
 check [210] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_12
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_12
 
 [@STOLEN_10]
 #IF
 check [212] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_13
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_13
 
 [@STOLEN_11]
 #IF
@@ -141,7 +141,7 @@ goto @STOLEN_11_1
 #IF
 check [248] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_14
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_14
 
 #ELSEACT
 goto @STOLEN_11_2
@@ -149,9 +149,9 @@ goto @STOLEN_11_2
 #IF
 check [221] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_15
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_15
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_16
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/younghon.txt] @younghon_16
 
 }

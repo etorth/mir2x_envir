@@ -7,7 +7,7 @@
       loadvalue A2   "GM_Def\QuestDiary\System\RoseSystem.txt" [RoseSystem] [GiveItemName]
       loadvalue D4   "GM_Def\QuestDiary\System\RoseSystem.txt" [RoseSystem] [GiveItemmNum]
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_1
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_1
 
 [@DB_Connect]
    #IF
@@ -40,7 +40,7 @@
       UpdateValueSql "TBL_RELATPOINT" %A0 "FLD_OK=0"
       break
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_2
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_2
 
    #IF
       !Equal    A8   ""
@@ -50,7 +50,7 @@
       UpdateValueSql "TBL_RELATPOINT" %A0 "FLD_OK=0"
       break
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_2_except1
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_2_except1
 
    #IF
       !Equal    A8   ""
@@ -59,7 +59,7 @@
       UpdateValueSql "TBL_RELATPOINT" %A0 "FLD_OK=0"
       break
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_2_except2
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_2_except2
 
    #IF
       !Equal    D1   %D0
@@ -70,7 +70,7 @@
    #IF
       !Equal    D2   0
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_3
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_3
    #ACT
       break
 
@@ -86,14 +86,14 @@
       goto @ResultCheck
       break
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_4
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_4
    #ELSEACT
       UpdateValueSql "TBL_RELATPOINT" %A0 "FLD_OK=1"
       mov       D3   0
       goto @ResultCheck
       break
    #ELSESAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_5
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_5
 
 [@ResultCheck]
    #ACT
@@ -117,7 +117,7 @@
       give      %A2  %D4
       break
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_6
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_6
 
    #IF
       Equal   D2     3
@@ -126,7 +126,7 @@
       UpdateValueSql "TBL_RELATPOINT" %A9 "FLD_OK=0"
       break
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_6_except
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_6_except
 
    #IF
       Large   D3     5
@@ -135,7 +135,7 @@
       UpdateValueSql "TBL_RELATPOINT" %A9 "FLD_OK=0"
       break
    #SAY
-      #INCLUDE [../Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_7
+      #INCLUDE [Convert_Def/QuestDiary/System/RoseSystem.txt] @RoseSystem_Say_7
       break
 
    #IF

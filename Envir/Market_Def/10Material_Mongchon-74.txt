@@ -14,18 +14,18 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_Main
 
 [@sell]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_Sell
+	#INCLUDE [Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_Sell
 
 
 ;;[@Event1115]
@@ -46,7 +46,7 @@ goto @TQuest1_6
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/10Material_Mongchon-74.txt] @NPC_TQuest_1
 [@TQuest_459]
 #IF
 check [310] 1

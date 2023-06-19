@@ -228,7 +228,7 @@ set [208] 0
 give 青空石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_0
 
 #ELSEACT
 break
@@ -247,7 +247,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
 give 青空石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_1
 
 #ELSEACT
 break
@@ -266,7 +266,7 @@ set [208] 0
 give 大地石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_2
 
 #ELSEACT
 break
@@ -284,7 +284,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
 give 青空石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_3
 
 #ELSEACT
 break
@@ -302,7 +302,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
 give 大地石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_4
 
 #ELSEACT
 break
@@ -319,7 +319,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=3"
 give 太阳石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_5
 
 #ELSEACT
 break
@@ -338,7 +338,7 @@ set [208] 0
 give 月光石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_6
 
 #ELSEACT
 break
@@ -355,7 +355,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
 give 月光石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_7
 
 #ELSEACT
 break
@@ -373,7 +373,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
 give 安息石 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_8
 
 #ELSEACT
 break
@@ -395,7 +395,7 @@ DelayGoto [Grobal] 5 @MadoHaveStep_4_Event
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_9
 
 #ELSEACT
 break
@@ -403,7 +403,7 @@ break
 [@MadoHaveStep_4_Event]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_10
 
 [@MadoHaveStep_4_7_Ok]
 #ACT
@@ -432,7 +432,7 @@ give 受胎石 1
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_11
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_11
 
 #ELSEACT
 break
@@ -451,7 +451,7 @@ give 活石 1
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_12
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_12
 
 #ELSEACT
 break
@@ -473,7 +473,7 @@ DelayGoto [Grobal] 5 @MadoHaveStep_5_Event
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_13
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_13
 
 #ELSEACT
 break
@@ -482,7 +482,7 @@ break
 [@MadoHaveStep_5_Event]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_14
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_14
 
 [@MadoHaveStep_5_9_Ok]
 #ACT
@@ -604,7 +604,7 @@ set [208] 0
 give 机关零件 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_15
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_15
 
 #ELSEACT
 break
@@ -623,7 +623,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
 give 机关零件 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_16
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_16
 
 #ELSEACT
 break
@@ -642,7 +642,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
 give 机关零件 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_17
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_17
 
 #ELSEACT
 break
@@ -661,7 +661,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
 give 机关零件 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_18
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_18
 
 #ELSEACT
 break
@@ -680,7 +680,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
 give 机关零件 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_19
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_19
 
 #ELSEACT
 break
@@ -700,7 +700,7 @@ set [208] 0
 give 机关零件 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_20
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_20
 
 #ELSEACT
 break

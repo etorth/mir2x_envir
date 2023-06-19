@@ -4,7 +4,7 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/SukGakTele.txt] @SukGakTele_1
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/SukGakTele.txt] @SukGakTele_1
 
 #ELSEACT
 mapmove 81 125 274                                    ;; 빨갱이 이동

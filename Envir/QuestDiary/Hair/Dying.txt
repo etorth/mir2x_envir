@@ -8,7 +8,7 @@ mov  P0  %ARG(1)
 equal P0 1
 checkgold 5000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_1
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_1
 
 #ACT
 take 金币 5000
@@ -19,7 +19,7 @@ break
 equal P0 2
 checkgold 5000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_2
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_2
 
 #ACT
 take 金币 5000
@@ -30,7 +30,7 @@ break
 equal P0 3
 checkgold 5000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_3
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_3
 
 #ACT
 take 金币 5000
@@ -40,23 +40,23 @@ break
 #IF
 equal P0 4
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_4
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_4
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_5
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_5
 
 
 [@randcolor]
 #IF
 checkgold 10000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_6
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_6
 
 #ACT
 take 金币 10000
 hairrndcol
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_7
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_7
 
 }
 
@@ -69,7 +69,7 @@ mov  P0  %ARG(1)
 equal P0 0
 checkgold 10000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_8
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_8
 
 #ACT
 take 金币 10000
@@ -80,7 +80,7 @@ break
 equal P0 1
 checkgold 10000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_9
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_9
 
 #ACT
 take 金币 10000
@@ -91,7 +91,7 @@ break
 equal P0 2
 checkgold 10000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_10
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_10
 
 #ACT
 take 金币 10000
@@ -102,7 +102,7 @@ break
 equal P0 3
 checkgold 10000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_11
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_11
 
 #ACT
 take 金币 10000
@@ -113,7 +113,7 @@ break
 equal P0 4
 checkgold 10000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_12
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_12
 
 #ACT
 take 金币 10000
@@ -124,12 +124,12 @@ break
 equal P0 5
 checkgold 10000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_13
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_13
 
 #ACT
 take 金币 10000
 hairstyle 5
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_14
+	#INCLUDE [Convert_Def/QuestDiary/Hair/Dying.txt] @Dying_14
 
 }

@@ -8,10 +8,10 @@
 #IF
 IsAdmin                                         ;; 운영자 일 경우만
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Admin_Event_Main
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Admin_Event_Main
 
 #ELSESAY                                        ;; 사용자가 클릭 했을 경우
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @user_Event_Main
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @user_Event_Main
 
 [@OX_Quiz_Initial]
 #ACT
@@ -52,7 +52,7 @@ Mov                N1{TIME}             20      ;; 시간 부분 초기화
 Mov                N2{COUNT}            1       ;; 문제 카운트 초기화
 Delaygoto [Grobal] 300 @OX_Quiz_CloseGate                ;; 5분 동안 문은 열어둠
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Admin_EvStart_Fail
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Admin_EvStart_Fail
 
 [@OX_Quiz_CloseGate]
 #ACT
@@ -73,10 +73,10 @@ LoadValue P2 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start]
 Equal               P1                  0                                  ;; 문제를 낼수 있는 타임
 Equal               P2                  1                                  ;; 이벤트가 시작이어야만 가능
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Answer
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Answer
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Answer_Fail
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Answer_Fail
 
 [@Close_Syntex]
 #ACT
@@ -120,7 +120,7 @@ SendCmd  "oxmapO, 51, 47, 5"  이벤트도우미  Show  ;; NPC나타남
 SendCmd  "oxmapX, 73, 70, 5"  이벤트도우미  Show  ;; NPC나타남
 SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; 문제의 답을 입력 할수 있게 함
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_OX
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_OX
 
 
 ;----------------------------------------------- 이벤트 종료 루틴
@@ -142,14 +142,14 @@ LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; 이
 #IF
 Equal          P1                1   ;; 이벤트가 종료 되었는지 확인 하는 부분
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Gift
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Gift
 
 #ACT
 give 축복의기름 1                    ;; 상품 지급
 give 강력화기름 1
 Map   0                              ;; 상품을 받으면 팅김
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_Move
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_Move
 
 [@OX_Quiz_MoveX]
 #ACT
@@ -160,7 +160,7 @@ Equal          P1                0   ;; 이동 불가능
 #ACT
 Map            oxmapX                ;; 이동 시킴
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Move_Fail
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Move_Fail
 
 }
 ;-------------------------------------------------------------------------------
@@ -172,13 +172,13 @@ LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; 이
 #IF
 Equal          P1                1   ;; 이벤트가 종료 되었는지 체크 하는 부분
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Gift
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Gift
 #ACT
 give 축복의기름 1                    ;; 상품 지급
 give 강력화기름 1
 Map   0                              ;; 상품을 받으면 팅김
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_Move_1
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_Move_1
 
 
 [@OX_Quiz_MoveO]
@@ -190,7 +190,7 @@ Equal     P2       0                                                        ;; �
 #ACT
 Map       oxmapO                     ;; 이동 시킴
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Move_Fail
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Move_Fail
 }
 ;-------------------------------------------------------------------------------
 [@OX_Quiz_Input]
@@ -199,7 +199,7 @@ Map       oxmapO                     ;; 이동 시킴
 checkhum "oxmapO"  100
 checkhum "oxmapX"  100
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Join_Fail
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Join_Fail
 
 #ACT
 break
@@ -213,7 +213,7 @@ Equal      P1      1
 #ACT
 goto @Quiz_Move
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @OX_Event_Not_Start
+	#INCLUDE [Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @OX_Event_Not_Start
 
 [@Quiz_Move]
 #IF

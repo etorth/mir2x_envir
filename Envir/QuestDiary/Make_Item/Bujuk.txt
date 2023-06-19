@@ -2,7 +2,7 @@
 [@make_Charm_main]
 {
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_1
 
 
 ;------------------------
@@ -17,7 +17,7 @@ take ¼¦Ñª 3
 mov d0 0
 goto @Make_Charm_BCharm_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_2
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_2
 
 
 [@Make_Charm_BCharm_1]
@@ -35,7 +35,7 @@ goto @Make_Charm_BCharm_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_3
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_3
 
 
 [@Make_Charm_BCharm_3]
@@ -44,7 +44,7 @@ mov d0 0
 give »¤Éí·û£¨Ð¡£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_4
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_4
 
 
 ;------------------------
@@ -59,7 +59,7 @@ take ¼¦Ñª 5
 mov d0 0
 goto @Make_Charm_HCharm_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_5
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_5
 
 
 [@Make_Charm_HCharm_1]
@@ -77,7 +77,7 @@ goto @Make_Charm_HCharm_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_6
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_6
 
 
 [@Make_Charm_HCharm_3]
@@ -86,7 +86,7 @@ mov d0 0
 give ÉñÊ¥»¤Éí·û£¨Ð¡£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_7
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_7
 
 
 ;------------------------
@@ -103,7 +103,7 @@ take ¼¦Ñª 4
 mov d0 0
 goto @Make_Charm_FCharm_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_8
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_8
 
 
 [@Make_Charm_FCharm_1]
@@ -121,7 +121,7 @@ goto @Make_Charm_FCharm_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_9
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_9
 
 
 [@Make_Charm_FCharm_3]
@@ -130,7 +130,7 @@ mov d0 0
 give »¤Éí·û£¨»ð£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_10
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_10
 
 
 ;------------------------
@@ -146,7 +146,7 @@ take ¼¦Ñª 4
 take ¶¾Ö©ÖëÑÀ³Ý 2
 mov d0 0 goto @Make_Charm_ICharm_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_11
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_11
 
 
 [@Make_Charm_ICharm_1]
@@ -164,7 +164,7 @@ goto @Make_Charm_ICharm_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_12
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_12
 
 
 [@Make_Charm_ICharm_3]
@@ -173,7 +173,7 @@ mov d0 0
 give »¤Éí·û£¨±ù£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_13
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_13
 
 
 ;------------------------
@@ -190,7 +190,7 @@ take ¼¦Ñª 4
 mov d0 0
 goto @Make_Charm_LCharm_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_14
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_14
 
 
 [@Make_Charm_LCharm_1]
@@ -208,7 +208,7 @@ goto @Make_Charm_LCharm_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_15
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_15
 
 
 [@Make_Charm_LCharm_3]
@@ -217,7 +217,7 @@ mov d0 0
 give »¤Éí·û£¨À×£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_16
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_16
 
 
 ;------------------------
@@ -234,7 +234,7 @@ take ¼¦Ñª 4
 mov d0 0
 goto @Make_Charm_WCharm_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_17
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_17
 
 
 [@Make_Charm_WCharm_1]
@@ -252,7 +252,7 @@ goto @Make_Charm_WCharm_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_18
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_18
 
 
 [@Make_Charm_WCharm_3]
@@ -261,7 +261,7 @@ mov d0 0
 give »¤Éí·û£¨·ç£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_19
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_19
 
 
 ;------------------------
@@ -280,7 +280,7 @@ take ¼¦Ñª 2
 mov d0 0
 goto @Make_Charm_RCharm_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_20
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_20
 
 
 [@Make_Charm_RCharm_1]
@@ -298,7 +298,7 @@ goto @Make_Charm_RCharm_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_21
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_21
 
 
 [@Make_Charm_RCharm_3]
@@ -307,7 +307,7 @@ mov d0 0
 give Áé»ê»¤Éí·û£¨Ð¡£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_22
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_22
 
 
 ;------------------------
@@ -326,7 +326,7 @@ take ¼¦Ñª 6
 mov d0 0
 goto @Make_Charm_RCharmM_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_23
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_23
 
 
 [@Make_Charm_RCharmM_1]
@@ -344,7 +344,7 @@ goto @Make_Charm_RCharmM_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_24
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_24
 
 
 [@Make_Charm_RCharmM_3]
@@ -353,7 +353,7 @@ mov d0 0
 give Áé»ê»¤Éí·û£¨ÖÐ£© 1
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_25
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_25
 
 
 ;------------------------

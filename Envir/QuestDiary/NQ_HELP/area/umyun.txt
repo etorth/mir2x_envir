@@ -4,9 +4,9 @@
 #IF
 checklevel 20
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/umyun.txt] @umyun_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/umyun.txt] @umyun_1
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/umyun.txt] @umyun_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/umyun.txt] @umyun_2
 
 }

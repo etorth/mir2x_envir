@@ -19,7 +19,7 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/06Inn_Samak-5.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/06Inn_Samak-5.txt] @NPC_Main
 
 
 ;----------------------------------------------------------
@@ -32,11 +32,11 @@ goto @main_0_0
 
 [@storage]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/06Inn_Samak-5.txt] @NPC_Storage
+	#INCLUDE [Convert_Def/Market_Def/06Inn_Samak-5.txt] @NPC_Storage
 
 [@getback]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/06Inn_Samak-5.txt] @NPC_Getback
+	#INCLUDE [Convert_Def/Market_Def/06Inn_Samak-5.txt] @NPC_Getback
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------

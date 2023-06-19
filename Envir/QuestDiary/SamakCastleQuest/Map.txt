@@ -79,7 +79,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_0
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_0
 
 #IF
 Equal D1 2
@@ -89,7 +89,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_1
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_1
 
 #IF
 Equal D1 2
@@ -99,7 +99,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_2
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_2
 
 #IF
 Equal D1 2
@@ -109,7 +109,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_3
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_3
 
 #IF
 Equal D1 2
@@ -119,7 +119,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_4
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_4
 
 #IF
 Equal D1 2
@@ -129,7 +129,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_5
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_5
 
 #IF
 Equal D1 2
@@ -139,7 +139,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_6
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_6
 
 #IF
 Equal D1 2
@@ -149,7 +149,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_7
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_7
 
 #ELSEACT
 Enter_Ok
@@ -229,7 +229,7 @@ Equal D2 5
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_8
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_8
 
 #IF
 Equal D1 3
@@ -238,7 +238,7 @@ Equal D2 6
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_9
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_9
 
 #IF
 Equal D1 3
@@ -247,7 +247,7 @@ Equal D2 7
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_10
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_10
 
 #IF
 Equal D1 3
@@ -256,7 +256,7 @@ Equal D2 8
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_11
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_11
 
 #IF
 Equal D1 3
@@ -265,7 +265,7 @@ Equal D2 9
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_12
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_12
 
 #IF
 Equal D1 3
@@ -274,7 +274,7 @@ Equal D2 10
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_13
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_13
 
 #ELSEACT
 Enter_Fail
@@ -480,7 +480,7 @@ Equal D1 5
 Equal D2 5
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_14
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_14
 
 #IF
 Equal D1 5
@@ -781,7 +781,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_15
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_15
 
 #IF
 Equal D1 3
@@ -790,7 +790,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_16
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_16
 
 #IF
 Equal D1 4
@@ -799,7 +799,7 @@ Equal D2 1
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_17
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_17
 
 #IF
 Equal D1 4
@@ -808,7 +808,7 @@ Equal D2 2
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_18
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_18
 
 #IF
 Equal D1 4
@@ -817,7 +817,7 @@ Equal D2 4
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_19
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_19
 
 #IF
 Equal D1 4
@@ -826,7 +826,7 @@ Equal D2 14
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_20
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_20
 
 #ELSEACT
 Enter_Ok
@@ -1130,11 +1130,11 @@ Equal D2 8
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_21
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_21
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_22
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_22
 
 #ELSEACT
 Enter_Fail
@@ -1166,7 +1166,7 @@ Enter_Fail
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_23
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_23
 
 }
 
@@ -1211,7 +1211,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_24
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_24
 
 [@Samak_MapDQ1902_001_MasterMsg]
 #IF
@@ -1244,7 +1244,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_25
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_25
 
 #IF
 Equal A1 "Ready"
@@ -1275,7 +1275,7 @@ Equal D1 4
 Equal D2 15
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_26
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_26
 
 #ACT
 break
@@ -1295,7 +1295,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_27
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_27
 
 [@Samak_MapDQ1903_001_EventMSG]
 #IF

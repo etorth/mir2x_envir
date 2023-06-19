@@ -58,7 +58,7 @@ checkitem »ğÑæÎÖÂêºÅ½Ç 9
 give »ğÑæÎÖÂêºÅ½Ç 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T490_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T490_Say
 #ELSEACT
 movr s0 3
 goto @Hwa_T490_2
@@ -105,7 +105,7 @@ checkitem »ğÑæÎÖÂêºÅ½Ç 2
 give »ğÑæÎÖÂêºÅ½Ç 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T307_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T307_Say
 
 #ELSEACT
 goto @hyumyungwi_T307_2
@@ -153,7 +153,7 @@ checkitem »ğÑæÎÖÂêºÅ½Ç 29
 give »ğÑæÎÖÂêºÅ½Ç 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T302_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T302_Say
 
 #ELSEACT
 goto @hyumyungwi_T302_2

@@ -89,24 +89,24 @@ break
 [@MadoHaveJaha_Talk0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_0
 
 [@MadoHaveJaha_Talk1_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_1
 
 [@MadoHaveJaha_Talk1_No]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_2
 
 [@MadoHaveJaha_Talk1_2]
 #IF
 checkitem 无名书 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_3
 
 #ACT
 Take 无名书 1
@@ -117,50 +117,50 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_4
 
 [@MadoHaveJaha_Talk1_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_5
 
 [@MadoHaveJaha_Talk1_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_6
 
 [@MadoHaveJaha_Talk1_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_7
 
 [@MadoHaveJaha_Talk1_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_8
 
 [@MadoHaveJaha_Talk1_8]
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_9
 
 #IF
 Equal D3 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_10
 
 #IF
 Equal D3 0
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_11
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_11
 
 [@MadoHaveJaha_Talk1_8_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_12
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_12
 
 #ACT
 set [208] 1
@@ -172,12 +172,12 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 [@MadoHaveJaha_Talk_1_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_13
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_13
 
 [@MadoHaveJaha_Talk1_8_0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_14
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_14
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -187,12 +187,12 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
 [@MadoHaveJaha_Talk1_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_15
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_15
 
 [@MadoHaveJaha_Talk1_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_16
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_16
 
 #ACT
 set [208] 1
@@ -205,17 +205,17 @@ give 神秘之印 1
 [@MadoHaveJaha_Talk1_11]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_17
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_17
 
 [@MadoHaveJaha_Talk1_12]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_18
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_18
 
 [@MadoHaveJaha_Talk2_10_0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_19
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_19
 
 #ACT
 set [208] 1
@@ -227,7 +227,7 @@ giveexp %USERNAME 50000
 [@MadoHaveJaha_Talk2_10_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_20
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoHaveJaha.txt] @Convert_MadoHaveJaha_20
 
 }
 ;;不要删掉此行

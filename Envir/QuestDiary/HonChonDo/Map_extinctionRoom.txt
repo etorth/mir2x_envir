@@ -18,7 +18,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_0
 
 #ACT
 Enter_fail
@@ -79,7 +79,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_1
 
 #ACT
 Enter_fail
@@ -91,13 +91,13 @@ checkhum D16061 1
 Enter_fail
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_2
 
 #ELSEACT
 Enter_fail
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_extinctionRoom.txt] @Convert_Map_extinctionRoom_3
 
 [@extinctionRoom_Check_2]
 #ACT

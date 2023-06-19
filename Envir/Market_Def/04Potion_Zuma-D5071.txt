@@ -20,13 +20,13 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Zuma-D5071.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Zuma-D5071.txt] @NPC_Main
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_Zuma-D5071.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_Def/04Potion_Zuma-D5071.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour

@@ -3,26 +3,26 @@
 {
 begin
 	#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_1
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_1
 
 
 	[@gold100]
 	begin
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_2
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_2
 
 	end
 
 	[@gold500]
    begin
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_3
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_3
 
 	end
 	[@gold1000]
 	begin
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_4
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_4
 
    end
 	[@Change5Set]
@@ -30,10 +30,10 @@ begin
 		#IF
 			checkitem 金条 5
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_5
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_5
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_6
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_6
 
 	end
 
@@ -47,10 +47,10 @@ begin
 			take 金币 12000
 			give 金条包 1
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_7
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_7
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_8
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_8
 
 	end
 
@@ -59,10 +59,10 @@ begin
 		#IF
 			checkitem 金条包 1
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_9
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_9
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_10
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_10
 
 	end
 
@@ -77,10 +77,10 @@ begin
 			take 金币 12000
 			give 金条 5
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_11
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_11
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_12
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_12
 
 	end
 
@@ -89,10 +89,10 @@ begin
 		#IF
 			checkitem 金条包 2
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_13
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_13
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_14
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_14
 
 	end
 
@@ -106,10 +106,10 @@ begin
 			take 金币 10000
 			give 金盒 1
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_15
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_15
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_16
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_16
 
 	end
 
@@ -118,10 +118,10 @@ begin
 		#IF
 			checkitem 金盒 1
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_17
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_17
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_18
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_18
 
 	end
 
@@ -136,10 +136,10 @@ begin
 			take 金币 10000
 			give 金条包 2
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_19
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_19
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_20
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_20
 
 	end
 
@@ -148,10 +148,10 @@ begin
 		#IF
 			checkgold 1000000
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_21
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_21
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_22
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_22
 
 	end
 
@@ -164,10 +164,10 @@ begin
 			take 金币 1002000
 			give 金条 1
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_23
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_23
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_24
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_24
 
 	end
 
@@ -176,10 +176,10 @@ begin
 		#IF
 			checkitem 金条 1
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_25
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_25
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_26
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_26
 
 	end
 
@@ -192,10 +192,10 @@ begin
 			take 金条 1
 			give 金币 998000
 		#SAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_27
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_27
 
 		#ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_28
+	#INCLUDE [Convert_Def/QuestDiary/ChangeMoney/ChangeMoney.txt] @ChangeMoney_28
 
 	end
 end

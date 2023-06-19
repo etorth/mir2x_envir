@@ -4,10 +4,10 @@
 #IF
 CheckBonus
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_1
+	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_1
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_2
+	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_2
 
 
 [@ChangeType()]
@@ -16,7 +16,7 @@ CheckBonus
 #ACT
 TakeBonus %ARG(1)
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_3
+	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_3
 
 #ELSEACT
 break
@@ -25,7 +25,7 @@ break
 #IF
 Equal P0  0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_4
+	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_4
 
 #ACT
 close

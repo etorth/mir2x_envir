@@ -23,7 +23,7 @@
 #IF
   !Equal N1{EVENT}  1
 #SAY
-   #INCLUDE [../Convert_Def/QuestDiary/Event/Island/Gmstart.txt] @Event_Island_Gmstart_Say_1
+   #INCLUDE [Convert_Def/QuestDiary/Event/Island/Gmstart.txt] @Event_Island_Gmstart_Say_1
 #ACT
 	mov  N1{EVENT}    1                                    ; º¸¹°¼¶ ÀÌº¥Æ® ½ÃÀÛ
 	mov  N2{TIME}     0                                    ; º¸¹°¼¶ ½Ã°£À» ÃÊ±âÈ­ ÇÔ
@@ -33,7 +33,7 @@
 	mov  N9{DropGold} 0                                    ; º¸¹°¼¶ Áß°£ µ· ¼¼ÆÃ
    goto @GMSettingStartIsland
 #ELSESAY
-   #INCLUDE [../Convert_Def/QuestDiary/Event/Island/Gmstart.txt] @Event_Island_Gmstart_Say_2
+   #INCLUDE [Convert_Def/QuestDiary/Event/Island/Gmstart.txt] @Event_Island_Gmstart_Say_2
 
 [@GMSettingStartIsland]
 #IF
@@ -67,7 +67,7 @@
 {
 begin
 	#SAY
-      #INCLUDE [../Convert_Def/QuestDiary/Event/Island/Gmstart.txt] @Event_Island_Gmstart_Say_3
+      #INCLUDE [Convert_Def/QuestDiary/Event/Island/Gmstart.txt] @Event_Island_Gmstart_Say_3
 end
 
 [@FinishConFirm]

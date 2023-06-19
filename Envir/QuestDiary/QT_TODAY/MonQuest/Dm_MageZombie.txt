@@ -32,7 +32,7 @@ break
 check [309] 1
 check [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T418_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T418_Say
 #ACT
 break
 
@@ -94,7 +94,7 @@ checkitem À×µç½©Ê¬¹Ç 9
 give À×µç½©Ê¬¹Ç 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T318_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T318_Say
 
 #ELSEACT
 goto @jusulgwi_T318_2

@@ -19,7 +19,7 @@ goto @tusa1
 check [193] 1
 checkitem 半块不死牌 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_SkelTusa.txt] @Nm_SkelTusa_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_SkelTusa.txt] @Nm_SkelTusa_1
 
 #ACT
 set [195] 1
@@ -32,4 +32,4 @@ give 金币 7000
 mapmove d002 256 286
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_SkelTusa.txt] @Nm_SkelTusa_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_SkelTusa.txt] @Nm_SkelTusa_2

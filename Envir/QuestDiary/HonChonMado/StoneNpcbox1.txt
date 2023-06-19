@@ -57,17 +57,17 @@ break
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_0
 
 [@StoneNpcbox1_Talk_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_1
 
 [@StoneNpcbox1_Talk_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_2
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -79,7 +79,7 @@ break
 [@StoneNpcbox1_Talk_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_3
 
 [@StoneNpcbox1_Event_1]
 #CALL [HonChonMado\QuestMadoEvent.txt] @Npcbox1_Event_1
@@ -87,7 +87,7 @@ break
 [@StoneNpcbox1_Talk_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_4
 
 [@StoneNpcbox1_Talk_5]
 #ACT

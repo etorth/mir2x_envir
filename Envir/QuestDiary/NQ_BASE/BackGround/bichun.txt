@@ -111,7 +111,7 @@ goto @BackLog_BC_M1_1
 #IF
 checkitem ÆøÁØÖ¤Êé 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_1
 
 #ELSEACT
 goto @BackLog_BC_M1_1
@@ -119,7 +119,7 @@ goto @BackLog_BC_M1_1
 #IF
 check [255] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_2
 
 [@BackLog_BC_M1_B0_4]
 #IF
@@ -128,21 +128,21 @@ set [254] 1
 set [255] 1
 setopen [1] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_3
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_3
 
 [@BackLog_BC_M1_B1]
 #IF
 #ACT
 set [261] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_4
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_4
 
 [@BackLog_BC_M1_B2]
 #IF
 #ACT
 set [135] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_5
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_5
 
 [@BackLog_BC_M1_B3]
 #IF
@@ -150,7 +150,7 @@ checklevel 11
 #ACT
 set [171] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_6
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_6
 
 #ELSEACT
 goto @BackLog_BC_M1_2
@@ -160,7 +160,7 @@ checklevel 16
 #ACT
 set [200] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_7
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_7
 
 #ELSEACT
 goto @BackLog_BC_M1_2
@@ -170,7 +170,7 @@ checklevel 16
 #ACT
 set [220] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_8
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/BackGround/bichun.txt] @bichun_8
 
 #ELSEACT
 goto @BackLog_BC_M1_2

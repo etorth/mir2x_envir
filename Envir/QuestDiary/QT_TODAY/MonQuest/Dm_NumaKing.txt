@@ -46,7 +46,7 @@ break
 
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T111B_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T111B_Say
 
 #ACT
 set [308] 1

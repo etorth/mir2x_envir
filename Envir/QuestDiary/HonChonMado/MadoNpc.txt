@@ -172,7 +172,7 @@ Equal D1 1
 Equal D2 0
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_0
 
 #ACT
 break
@@ -185,7 +185,7 @@ break
 [@MadoNpc_Call0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_1
 
 #ACT
 break
@@ -193,27 +193,27 @@ break
 [@madotouch]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_2
 
 [@madoread]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_3
 
 [@madoQuestHave]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_4
 
 [@madoQuestHave_No]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_5
 
 [@madoQuestHave_Yes]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_6
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -224,7 +224,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
 [@madoQuestHave_Yes_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_7
 
 [@move_City]
 #ACT
@@ -236,27 +236,27 @@ mapmove 4 174 139
 [@MadoNpc_Call_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_8
 
 [@MadoNpc_Call_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_9
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_9
 
 [@MadoNpc_Call_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_10
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_10
 
 [@MadoNpc_Call_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_11
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_11
 
 [@MadoNpc_Call_5]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_12
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_12
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -266,7 +266,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 [@MadoNpc_Call_10]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_13
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_13
 
 [@MadoNpc_Call5_1]
 #IF
@@ -278,7 +278,7 @@ checkitem 黑天暗云 1
 checkitem 大族长角笛 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_14
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_14
 
 [@MadoNpc_Call5_2]
 #ACT
@@ -295,12 +295,12 @@ close
 [@MadoNpc_Call5_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_15
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_15
 
 [@MadoNpc_Call5_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_16
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_16
 
 [@MadoNpc_Call5_5]
 #IF
@@ -312,11 +312,11 @@ checkitem 黑天暗云 1
 checkitem 大族长角笛 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_17
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_17
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_18
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_18
 
 [@MadoNpc_Call5_6]
 #IF
@@ -328,7 +328,7 @@ checkitem 黑天暗云 1
 checkitem 大族长角笛 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_19
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_19
 
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
@@ -340,7 +340,7 @@ take 大族长角笛 1
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_20
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_20
 
 [@MadoNpc_Call5_7]
 #IF
@@ -351,11 +351,11 @@ checkitem 血花落照 1
 checkitem 黑天暗云 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_21
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_21
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_22
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_22
 
 [@MadoNpc_Call5_7_1]
 #IF
@@ -366,7 +366,7 @@ checkitem 血花落照 1
 checkitem 黑天暗云 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_23
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_23
 
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
@@ -378,7 +378,7 @@ take 黑天暗云 1
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_24
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_24
 
 [@MadoNpc_Call5_8]
 #IF
@@ -388,11 +388,11 @@ checkitem 血花落照 1
 checkitem 万里碧海 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_25
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_25
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_26
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_26
 
 [@MadoNpc_Call5_8_1]
 #IF
@@ -402,7 +402,7 @@ checkitem 血花落照 1
 checkitem 万里碧海 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_27
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_27
 
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
@@ -414,7 +414,7 @@ take 万里碧海 1
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_28
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_28
 
 [@MadoNpc_Call5_9]
 #IF
@@ -423,11 +423,11 @@ checkitem 九宫云雾 1
 checkitem 血花落照 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_29
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_29
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_30
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_30
 
 [@MadoNpc_Call5_9_1]
 #IF
@@ -436,7 +436,7 @@ checkitem 九宫云雾 1
 checkitem 血花落照 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_31
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_31
 
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
@@ -448,7 +448,7 @@ take 九宫云雾 1
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_32
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_32
 
 [@MadoNpc_Call5_10]
 #IF
@@ -456,11 +456,11 @@ Checkitemw 寂幻之刃 1
 checkitem 血花落照 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_33
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_33
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_34
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_34
 
 [@MadoNpc_Call5_10_1]
 #IF
@@ -468,7 +468,7 @@ Checkitemw 寂幻之刃 1
 checkitem 血花落照 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_35
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_35
 
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
@@ -482,18 +482,18 @@ break
 break
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_36
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_36
 
 [@MadoNpc_Call5_11]
 #IF
 Checkitemw 寂幻之刃 1
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_37
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_37
 
 
 #ELSESAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_38
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_38
 
 [@MadoNpc_Call5_11_1]
 #ACT
@@ -502,7 +502,7 @@ Eventmsg "Grobal" %A7 2000
 Delaygoto [Grobal] 12 @MadoNpc_Call5_12
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_39
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] @Convert_MadoNpc_39
 
 [@MadoNpc_Call5_12]
 #ACT

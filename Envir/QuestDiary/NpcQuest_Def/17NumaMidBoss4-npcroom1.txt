@@ -10,7 +10,7 @@ check [205] 1
 check [405] 0
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17NumaMidBoss4-npcroom1.txt] @Convert_17NumaMidBoss4-npcroom1_0
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17NumaMidBoss4-npcroom1.txt] @Convert_17NumaMidBoss4-npcroom1_0
 
 #ACT
 Mov D0 1
@@ -25,7 +25,7 @@ break
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/NpcQuest_Def/17NumaMidBoss4-npcroom1.txt] @Convert_17NumaMidBoss4-npcroom1_1
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17NumaMidBoss4-npcroom1.txt] @Convert_17NumaMidBoss4-npcroom1_1
 
 [@NumaMidBoss4_start1]
 #CALL [HonChondo\MadoNumaNpc.txt] @MadoTimeQuestNumaNpc_D

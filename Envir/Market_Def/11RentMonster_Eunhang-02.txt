@@ -3,13 +3,13 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_Main
 
 [@Rent_Mob_0_1]
 #CALL [\Taming\RentMob.txt] @Event_taming
@@ -22,7 +22,7 @@ goto @TQuest590_0
 break
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_TQuest
 
 [@TQuest590_0]
 #IF
@@ -48,4 +48,4 @@ goto @TQuest590_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/11RentMonster_Eunhang-02.txt] @NPC_TQuest_1

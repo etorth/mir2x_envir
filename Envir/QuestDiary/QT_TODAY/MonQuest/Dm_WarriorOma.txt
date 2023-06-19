@@ -85,7 +85,7 @@ inc s0 1
 #IF
 check [308] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T451_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T451_Say
 #ACT
 set [308] 1
 #ELSEACT
@@ -97,7 +97,7 @@ goto @omajunsa_T451_4
 check [308] 1
 check [309] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T451_Say_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T451_Say_1
 #ACT
 set [309] 1
 mov s0 0

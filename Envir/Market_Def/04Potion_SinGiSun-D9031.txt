@@ -5,7 +5,7 @@
 
 [@main]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_SinGiSun-D9031.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/04Potion_SinGiSun-D9031.txt] @NPC_Main
 
 [@BuySpecialPotion]
 #CALL [\SpecialAbility\BuyPotion.txt] @BuyPotion
@@ -13,7 +13,7 @@
 
 [@Buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/04Potion_SinGiSun-D9031.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_Def/04Potion_SinGiSun-D9031.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour

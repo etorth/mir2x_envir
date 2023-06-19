@@ -4,7 +4,7 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_1
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_1
 
 #ELSEACT
 mapmove 81 125 274
@@ -18,7 +18,7 @@ mapmove 81 125 274
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_2
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_2
 
 #ELSEACT
 mapmove 81 125 274
@@ -33,7 +33,7 @@ break
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_3
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_3
 
 #ELSEACT
 mapmove 81 125 274
@@ -48,7 +48,7 @@ break
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_4
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_4
 
 #ELSEACT
 mapmove 81 125 274

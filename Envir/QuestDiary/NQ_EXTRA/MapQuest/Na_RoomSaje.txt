@@ -9,7 +9,7 @@
 #IF
 check [302] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_1
 
 #ACT
 enter_fail
@@ -18,7 +18,7 @@ break
 #IF
 check [301] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_2
 
 #ACT
 enter_fail
@@ -27,7 +27,7 @@ break
 #IF
 check [299] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_3
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_3
 
 #ACT
 enter_fail
@@ -36,7 +36,7 @@ break
 #IF
 check [297] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_4
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_4
 
 #ACT
 enter_fail
@@ -45,7 +45,7 @@ break
 #IF
 check [296] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_5
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_5
 
 #ACT
 enter_fail
@@ -64,7 +64,7 @@ break
 #IF
 check [293] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_6
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_6
 
 #ACT
 enter_fail
@@ -94,7 +94,7 @@ check [289] 1
 goto @enterh_umy
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_7
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_7
 
 
 ;-----------------------------------------------------
@@ -105,7 +105,7 @@ checkitem ÎÖÂê½ðÅÆ 1
 #ACT
 goto @enterh_umy_0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_8
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_8
 
 #ELSEACT
 enter_fail
@@ -114,7 +114,7 @@ enter_fail
 #IF
 checkhum D023_001 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_9
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_9
 
 #ACT
 enter_fail
@@ -126,7 +126,7 @@ goto @enterh_umy_1
 #IF
 checkhum D023_002 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_10
+	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MapQuest/Na_RoomSaje.txt] @Na_RoomSaje_10
 
 #ACT
 enter_fail

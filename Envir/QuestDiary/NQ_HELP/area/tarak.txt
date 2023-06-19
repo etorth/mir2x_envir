@@ -104,129 +104,129 @@ check [213] 1
 #ACT
 goto @TARAK_0_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_1
 
 [@TARAK_0_1]
 #IF
 checklevel 16
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_2
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_3
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_3
 
 [@TARAK_1]
 #IF
 check [221] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_4
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_4
 
 [@TARAK_2]
 #IF
 check [222] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_5
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_5
 
 [@TARAK_3]
 #IF
 check [223] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_6
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_6
 
 [@TARAK_4]
 #IF
 check [227] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_7
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_7
 
 [@TARAK_5]
 #IF
 check [228] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_8
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_8
 
 [@TARAK_6]
 #IF
 check [229] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_9
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_9
 
 [@TARAK_7]
 #IF
 check [233] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_10
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_10
 
 [@TARAK_8]
 #IF
 check [234] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_11
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_11
 
 [@TARAK_9]
 #IF
 check [235] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_12
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_12
 
 [@TARAK_10]
 #IF
 check [236] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_13
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_13
 
 [@TARAK_11]
 #IF
 check [247] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_14
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_14
 
 [@TARAK_12]
 #IF
 check [237] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_15
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_15
 
 [@TARAK_13]
 #IF
 check [238] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_16
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_16
 
 [@TARAK_14]
 #IF
 check [239] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_17
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_17
 
 [@TARAK_15]
 #IF
 check [240] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_18
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_18
 
 [@TARAK_16]
 #IF
 check [242] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_19
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_19
 
 [@TARAK_17]
 #IF
 check [244] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_20
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_20
 
 [@TARAK_18]
 #IF
 check [245] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_21
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_21
 
 [@TARAK_19]
 #IF
 check [248] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_22
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/tarak.txt] @tarak_22
 
 }

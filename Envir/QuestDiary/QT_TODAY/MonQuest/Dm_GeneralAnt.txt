@@ -59,7 +59,7 @@ Mov S0 0
 set [308] 1
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T494_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T494_Say
 #ELSEACT
 LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [494] [Reward_Race_90]
 LoadValue P0 "GM_Def\QT_TODAY\400Reward.txt" [494] [Reward_Amount_90]
@@ -68,5 +68,5 @@ Mov S0 0
 set [308] 1
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T494_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T494_Say
 ;

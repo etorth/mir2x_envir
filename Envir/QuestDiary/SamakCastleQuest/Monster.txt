@@ -29,7 +29,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUSRDY=3"
 Delaygoto [Local] 3 @Samak_Mon1_MapMove
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Monster.txt] @Convert_Monster_0
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Monster.txt] @Convert_Monster_0
 
 [@Samak_Mon1_MapMove]
 #IF

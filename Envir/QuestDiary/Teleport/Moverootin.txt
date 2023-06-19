@@ -15,7 +15,7 @@ CheckGold      %D0{FARE}                           ;; 요금확인
 #ACT
 Goto           @MoveRootin                         ;; 이동 위치를 확인하여 이동
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_1
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_1
 
 
 [@MoveRootin]
@@ -224,7 +224,7 @@ break
 #IF
 IsOnCastleWar Sabuk                                ;; 공성전 중일때는 이동 불가능
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_2
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_2
 
 #ACT
 break
@@ -232,7 +232,7 @@ break
 #IF
 IsOnReadyCastleWar Sabuk                           ;; 공성 준비 시간일때는 이동 불가능
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_3
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_3
 
 #ACT
 break

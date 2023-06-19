@@ -8,7 +8,7 @@
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_Def/Market_def/18ShooterMarket_Sabuk-3.txt] @NPC_Buy
+	#INCLUDE [Convert_Def/Market_def/18ShooterMarket_Sabuk-3.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour

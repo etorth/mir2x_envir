@@ -71,27 +71,27 @@ break
 [@NumaMagda1_Talk0]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_0
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_0
 
 [@NumaMagda1_Talk_1]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_1
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_1
 
 [@NumaMagda1_Talk_2]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_2
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_2
 
 [@NumaMagda1_Talk_3]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_3
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_3
 
 [@NumaMagda1_Talk_4]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_4
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_4
 
 [@NumaMagda1_Talk_5]
 #ACT
@@ -105,12 +105,12 @@ close
 [@NumaMagda1_Talk_6]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_5
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_5
 
 [@NumaMagda1_Talk_7]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_6
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_6
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -123,12 +123,12 @@ break
 [@NumaMagda1_Talk_8]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_7
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_7
 
 [@NumaMagda1_Talk_9]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_8
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/NumaNpcMagda1.txt] @Convert_NumaNpcMagda1_8
 
 [@NumaMagda1_Event_1]
 #CALL [HonChonMado\QuestMadoEvent.txt] @Magda1_Event_2

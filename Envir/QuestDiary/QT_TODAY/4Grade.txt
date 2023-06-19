@@ -8,12 +8,12 @@ goto @401_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Start_1
 
 [@401_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Start_1_1
 
 [@401_START_2]
 #IF
@@ -21,7 +21,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Start_2
 }
 [@401_CHECK1]
 {
@@ -29,11 +29,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Check1
 [@401_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Check1_1
 
 [@401_CHECK1_2]
 #IF
@@ -45,7 +45,7 @@ checkitem %A0 %D0
 #ACT
 goto @401_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Check1_2
 
 [@401_CHECK1_3]
 #IF
@@ -93,9 +93,9 @@ reset [307] 2
 set [310] 1
 ;
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_401_Complete
 }
 [@402_START]
 {
@@ -107,18 +107,18 @@ goto @402_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Start_1
 [@402_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Start_1_1
 [@402_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Start_2
 }
 [@402_CHECK1]
 {
@@ -126,12 +126,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Check1
 
 [@402_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Check1_1
 [@402_CHECK1_2]
 #IF
 #ACT
@@ -149,7 +149,7 @@ checkitem %A2 %D2
 #ACT
 goto @402_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Check1_2
 
 [@402_CHECK1_3]
 #IF
@@ -208,9 +208,9 @@ set [310] 1
 mov s0 0
 ;
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_402_Complete
 }
 [@403_START]
 {
@@ -222,12 +222,12 @@ goto @403_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Start_1
 
 [@403_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Start_1_1
 
 [@403_START_2]
 #IF
@@ -235,7 +235,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Start_2
 }
 [@403_CHECK1]
 {
@@ -243,12 +243,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Check1
 
 [@403_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Check1_1
 
 [@403_CHECK1_2]
 #IF
@@ -260,7 +260,7 @@ checkitem %A0 %D0
 #ACT
 goto @403_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Check1_2
 
 [@403_CHECK1_3]
 #IF
@@ -281,7 +281,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_403_Complete
 }
 [@404_START]
 {
@@ -293,12 +293,12 @@ goto @404_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Start_1
 
 [@404_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Start_1_1
 
 [@404_START_2]
 #IF
@@ -306,7 +306,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Start_2
 }
 
 [@404_CHECK1]
@@ -315,12 +315,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Check1
 
 [@404_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Check1_1
 
 [@404_CHECK1_2]
 #IF
@@ -335,7 +335,7 @@ checkitem %A1 %D1
 #ACT
 goto @404_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Check1_2
 
 [@404_CHECK1_3]
 #IF
@@ -360,7 +360,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_404_Complete
 }
 [@405_START]
 {
@@ -372,18 +372,18 @@ goto @405_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Start_1
 [@405_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Start_1_1
 [@405_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Start_2
 }
 [@405_CHECK1]
 {
@@ -391,11 +391,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Check1
 [@405_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Check1_1
 
 [@405_CHECK1_2]
 #IF
@@ -407,7 +407,7 @@ checkitem %A0 %D0
 #ACT
 goto @405_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_Check1_2
 
 [@405_CHECK1_3]
 #IF
@@ -428,7 +428,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_COMPLETE
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_405_COMPLETE
 }
 
 [@406_START]
@@ -442,12 +442,12 @@ goto @406_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Start_1
 
 [@406_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Start_1_1
 
 [@406_START_2]
 #IF
@@ -455,7 +455,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Start_2
 }
 
 [@406_CHECK1]
@@ -464,12 +464,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Check1
 
 [@406_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Check1_1
 
 [@406_CHECK1_2]
 #IF
@@ -477,7 +477,7 @@ check [308] 1
 #ACT
 goto @406_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Check1_2
 
 [@406_CHECK1_3]
 #IF
@@ -497,7 +497,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_406_Complete
 }
 
 [@407_START]
@@ -511,19 +511,19 @@ goto @407_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Start_1
 
 [@407_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Start_1_1
 [@407_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Start_2
 }
 [@407_CHECK1]
 {
@@ -531,12 +531,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Check1
 
 [@407_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Check1_1
 
 [@407_CHECK1_2]
 #IF
@@ -544,7 +544,7 @@ check [308] 1
 #ACT
 goto @407_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Check1_2
 
 [@407_CHECK1_3]
 #IF
@@ -561,7 +561,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_407_Complete
 }
 [@408_START]
 {
@@ -573,12 +573,12 @@ goto @408_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Start_1
 
 [@408_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Start_1_1
 
 [@408_START_2]
 #IF
@@ -586,7 +586,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Start_2
 }
 [@408_CHECK1]
 {
@@ -594,12 +594,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1
 
 [@408_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1_1
 
 [@408_CHECK1_2]
 #IF
@@ -613,7 +613,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @408_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1_2
 
 [@408_CHECK1_2_1]
 #IF
@@ -627,7 +627,7 @@ checkduraeva %A1 %D3
 #ACT
 goto @408_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Check1_2
 
 [@408_CHECK1_3]
 #IF
@@ -655,7 +655,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_408_Complete
 }
 [@409_START]
 {
@@ -667,18 +667,18 @@ goto @409_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Start_1
 [@409_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Start_1_1
 [@409_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Start_2
 }
 [@409_CHECK1]
 {
@@ -686,11 +686,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Check1
 [@409_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Check1_1
 
 [@409_CHECK1_2]
 #IF
@@ -704,7 +704,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @409_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Check1_2
 [@409_CHECK1_3]
 #IF
 #ACT
@@ -726,7 +726,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_409_Complete
 }
 [@410_START]
 {
@@ -738,18 +738,18 @@ goto @410_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Start_1
 [@410_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Start_1_1
 [@410_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Start_2
 }
 [@410_CHECK1]
 {
@@ -757,12 +757,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Check1
 
 [@410_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Check1_1
 
 [@410_CHECK1_2]
 #IF
@@ -776,7 +776,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @410_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Check1_2
 
 [@410_CHECK1_3]
 #IF
@@ -806,7 +806,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Complete
 #ELSEACT
 take %A0 %D0
 give %A6 %D6
@@ -814,7 +814,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_410_Complete
 }
 [@411_START]
 {
@@ -826,12 +826,12 @@ goto @411_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Start_1
 
 [@411_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Start_1_1
 
 [@411_START_2]
 #IF
@@ -839,7 +839,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Start_2
 }
 [@411_CHECK1]
 {
@@ -847,11 +847,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Check1
 [@411_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Check1_1
 [@411_CHECK1_2]
 #IF
 #ACT
@@ -862,7 +862,7 @@ checkitem %A0 %D0
 #ACT
 goto @411_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Check1_2
 
 [@411_CHECK1_3]
 #IF
@@ -883,7 +883,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_411_Complete
 }
 
 [@412_START]
@@ -897,19 +897,19 @@ goto @412_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Start_1
 
 [@412_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Start_1_1
 [@412_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Start_2
 }
 [@412_CHECK1]
 {
@@ -917,11 +917,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Check1
 [@412_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Check1_1
 [@412_CHECK1_2]
 #IF
 #ACT
@@ -932,7 +932,7 @@ checkitem %A0 %D0
 #ACT
 goto @412_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Check1_2
 [@412_CHECK1_3]
 #IF
 #ACT
@@ -955,7 +955,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_412_Complete
 }
 
 [@413_START]
@@ -968,18 +968,18 @@ goto @413_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Start_1
 [@413_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Start_1_1
 [@413_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Start_2
 }
 [@413_CHECK1]
 {
@@ -987,11 +987,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Check1
 [@413_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Check1_1
 [@413_CHECK1_2]
 #IF
 #ACT
@@ -1004,7 +1004,7 @@ checkdura %A0 %D1
 #ACT
 goto @413_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Check1_2
 [@413_CHECK1_3]
 #IF
 #ACT
@@ -1026,7 +1026,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_413_Complete
 }
 [@414_START]
 {
@@ -1038,12 +1038,12 @@ goto @414_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Start_1
 
 [@414_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Start_1_1
 
 [@414_START_2]
 #IF
@@ -1051,19 +1051,19 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Start_2
 [@414_CHECK1]
 {
 #IF
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Check1
 
 [@414_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Check1_1
 
 [@414_CHECK1_2]
 #IF
@@ -1071,7 +1071,7 @@ check [308] 1
 #ACT
 goto @414_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Check1_2
 [@414_CHECK1_3]
 #IF
 #ACT
@@ -1087,7 +1087,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_414_Complete
 }
 [@415_START]
 {
@@ -1099,14 +1099,14 @@ goto @415_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Start_1
 [@415_START_1_1]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Start_1_1
 [@415_START_2]
 #IF
 checkgold 5000
@@ -1115,7 +1115,7 @@ goto @415_CHECK2_1
 #ELSEACT
 set [307] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Start_2
 [@415_CHECK2_1]
 #IF
 check [310] 0
@@ -1157,9 +1157,9 @@ set [310] 1
 mov s0 0
 ;
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Complete
 }
 [@415_CHECK1]
 {
@@ -1167,11 +1167,11 @@ mov s0 0
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Check1
 [@415_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Check1_1
 [@415_CHECK1_2]
 #IF
 #ACT
@@ -1182,7 +1182,7 @@ checkgold %D0
 #ACT
 goto @415_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_415_Check1_2
 
 [@415_CHECK1_3]
 #IF
@@ -1203,18 +1203,18 @@ goto @416_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Start_1
 [@416_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Start_1_1
 [@416_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Start_2
 }
 [@416_CHECK1]
 {
@@ -1222,11 +1222,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Check1
 [@416_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Check1_1
 [@416_CHECK1_2]
 #IF
 #ACT
@@ -1237,7 +1237,7 @@ checkitem %A0 %D0
 #ACT
 goto @416_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Check1_2
 [@416_CHECK1_3]
 #IF
 check [310] 0
@@ -1287,9 +1287,9 @@ reset [307] 2
 mov s0 0
 ;
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_416_Complete
 
 [@417_START]
 {
@@ -1301,18 +1301,18 @@ goto @417_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Start_1
 [@417_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Start_1_1
 [@417_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Start_2
 }
 [@417_CHECK1]
 {
@@ -1320,11 +1320,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Check1
 [@417_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Check1_1
 [@417_CHECK1_2]
 #IF
 #ACT
@@ -1335,7 +1335,7 @@ checkitem %A0 %D0
 #ACT
 goto @417_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Check1_2
 
 [@417_CHECK1_3]
 #IF
@@ -1386,9 +1386,9 @@ set [310] 1
 mov s0 0
 ;
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_417_Complete
 }
 [@418_START]
 {
@@ -1400,18 +1400,18 @@ goto @418_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Start_1
 [@418_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Start_1_1
 [@418_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Start_2
 }
 [@418_CHECK1]
 {
@@ -1419,11 +1419,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Check1
 [@418_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Check1_1
 [@418_CHECK1_2]
 #IF
 #ACT
@@ -1436,7 +1436,7 @@ movr s0 100
 inc s0 1
 goto @418_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Check1_2
 
 [@418_CHECK1_3]
 #IF
@@ -1472,7 +1472,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Complete
 
 [@418_Reward_SEX]
 #IF
@@ -1512,9 +1512,9 @@ reset [307] 2
 set [310] 1
 
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_418_Complete
 
 }
 [@419_START]
@@ -1527,18 +1527,18 @@ goto @419_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Start_1
 [@419_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Start_1_1
 [@419_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Start_2
 }
 
 [@419_CHECK1]
@@ -1547,12 +1547,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Check1
 
 [@419_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Check1_1
 
 [@419_CHECK1_2]
 #IF
@@ -1567,7 +1567,7 @@ checkitem %A1 %D1
 #ACT
 goto @419_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Check1_2
 
 [@419_CHECK1_3]
 #IF
@@ -1595,7 +1595,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_419_Complete
 }
 
 [@420_START]
@@ -1608,18 +1608,18 @@ goto @420_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Start_1
 [@420_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Start_1_1
 [@420_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Start_2
 }
 [@420_CHECK1]
 {
@@ -1627,11 +1627,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Check1
 [@420_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Check1_1
 [@420_CHECK1_2]
 #IF
 #ACT
@@ -1645,7 +1645,7 @@ checkitem %A1 %D1
 #ACT
 goto @420_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Check1_2
 
 [@420_CHECK1_3]
 #IF
@@ -1673,7 +1673,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_420_Complete
 }
 [@421_START]
 {
@@ -1685,18 +1685,18 @@ goto @421_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Start_1
 [@421_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Start_1_1
 [@421_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Start_2
 }
 [@421_CHECK1]
 {
@@ -1704,11 +1704,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Check1
 [@421_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Check1_1
 [@421_CHECK1_2]
 #IF
 #ACT
@@ -1722,7 +1722,7 @@ checkitem %A1 %D1
 #ACT
 goto @421_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Check1_2
 [@421_CHECK1_3]
 #IF
 #ACT
@@ -1746,7 +1746,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_421_Complete
 }
 [@422_START]
 {
@@ -1758,18 +1758,18 @@ goto @422_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Start_1
 [@422_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Start_1_1
 [@422_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Start_2
 }
 [@422_CHECK1]
 {
@@ -1777,11 +1777,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Check1
 [@422_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Check1_1
 [@422_CHECK1_2]
 #IF
 #ACT
@@ -1795,7 +1795,7 @@ checkitem %A1 %D1
 #ACT
 goto @422_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Check1_2
 [@422_CHECK1_3]
 #IF
 #ACT
@@ -1819,7 +1819,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_422_Complete
 }
 
 [@423_START]
@@ -1832,18 +1832,18 @@ goto @423_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Start_1
 [@423_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Start_1_1
 [@423_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Start_2
 }
 [@423_CHECK1]
 {
@@ -1851,11 +1851,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Check1
 [@423_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Check1_1
 [@423_CHECK1_2]
 #IF
 #ACT
@@ -1869,7 +1869,7 @@ checkitem %A1 %D1
 #ACT
 goto @423_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Check1_2
 [@423_CHECK1_3]
 #IF
 #ACT
@@ -1893,7 +1893,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_423_Complete
 }
 [@424_START]
 {
@@ -1905,18 +1905,18 @@ goto @424_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Start_1
 [@424_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Start_1_1
 [@424_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Start_2
 }
 [@424_CHECK1]
 {
@@ -1924,11 +1924,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1
 [@424_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1_1
 [@424_CHECK1_2]
 #IF
 #ACT
@@ -1941,7 +1941,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @424_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1_2
 [@424_CHECK1_2_1]
 #IF
 #ACT
@@ -1954,7 +1954,7 @@ checkduraeva %A1 %D3
 #ACT
 goto @424_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Check1_2
 
 [@424_CHECK1_3]
 #IF
@@ -1986,7 +1986,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_424_Complete
 }
 [@425_START]
 {
@@ -1998,18 +1998,18 @@ goto @425_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Start_1
 [@425_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Start_1_1
 [@425_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Start_2
 }
 [@425_CHECK1]
 {
@@ -2017,11 +2017,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1
 [@425_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1_1
 [@425_CHECK1_2]
 #IF
 #ACT
@@ -2034,7 +2034,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @425_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1_2
 
 [@425_CHECK1_2_1]
 #IF
@@ -2048,7 +2048,7 @@ checkduraeva %A1 %D3
 #ACT
 goto @425_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Check1_2
 
 [@425_CHECK1_3]
 #IF
@@ -2080,7 +2080,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_425_Complete
 }
 [@426_START]
 {
@@ -2092,18 +2092,18 @@ goto @426_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Start_1
 [@426_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Start_1_1
 [@426_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Start_2
 }
 [@426_CHECK1]
 {
@@ -2111,11 +2111,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Check1
 [@426_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Check1_1
 [@426_CHECK1_2]
 #IF
 #ACT
@@ -2129,7 +2129,7 @@ checkitem %A1 %D1
 #ACT
 goto @426_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Check1_2
 [@426_CHECK1_3]
 #IF
 #ACT
@@ -2153,7 +2153,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_426_Complete
 }
 [@427_START]
 {
@@ -2165,18 +2165,18 @@ goto @427_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Start_1
 [@427_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Start_1_1
 [@427_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Start_2
 }
 [@427_CHECK1]
 {
@@ -2184,12 +2184,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1
 
 [@427_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1_1
 
 [@427_CHECK1_2]
 #IF
@@ -2204,7 +2204,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @427_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1_2
 [@427_CHECK1_2_1]
 #IF
 #ACT
@@ -2217,7 +2217,7 @@ checkduraeva %A1 %D3
 #ACT
 goto @427_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Check1_2
 
 [@427_CHECK1_3]
 #IF
@@ -2246,7 +2246,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_427_Complete
 }
 [@428_START]
 {
@@ -2258,18 +2258,18 @@ goto @428_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Start_1
 [@428_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Start_1_1
 [@428_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Start_2
 }
 [@428_CHECK1]
 {
@@ -2277,11 +2277,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Check1
 [@428_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Check1_1
 [@428_CHECK1_2]
 #IF
 #ACT
@@ -2292,7 +2292,7 @@ checkitem %A0 %D0
 #ACT
 goto @428_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Check1_2
 [@428_CHECK1_3]
 #IF
 check [310] 0
@@ -2340,9 +2340,9 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_428_Complete
 }
 [@429_START]
 {
@@ -2354,19 +2354,19 @@ goto @429_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Start_1
 
 [@429_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Start_1_1
 [@429_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Start_2
 }
 [@429_CHECK1]
 {
@@ -2374,11 +2374,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Check1
 [@429_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Check1_1
 [@429_CHECK1_2]
 #IF
 #ACT
@@ -2392,7 +2392,7 @@ checkitem %A1 %D1
 #ACT
 goto @429_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Check1_2
 [@429_CHECK1_3]
 #IF
 check [310] 0
@@ -2446,9 +2446,9 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_429_Complete
 }
 [@430_START]
 {
@@ -2460,18 +2460,18 @@ goto @430_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Start_1
 [@430_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Start_1_1
 [@430_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Start_2
 }
 [@430_CHECK1]
 {
@@ -2479,11 +2479,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Check1
 [@430_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Check1_1
 [@430_CHECK1_2]
 #IF
 #ACT
@@ -2494,7 +2494,7 @@ checkitem %A0 %D0
 #ACT
 goto @430_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Check1_2
 [@430_CHECK1_3]
 #IF
 #ACT
@@ -2514,7 +2514,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_430_Complete
 }
 [@431_START]
 {
@@ -2526,18 +2526,18 @@ goto @431_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Start_1
 [@431_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Start_1_1
 [@431_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Start_2
 }
 
 [@431_CHECK1]
@@ -2546,11 +2546,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Check1
 [@431_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Check1_1
 [@431_CHECK1_2]
 #IF
 #ACT
@@ -2564,7 +2564,7 @@ checkitem %A1 %D1
 #ACT
 goto @431_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Check1_2
 [@431_CHECK1_3]
 #IF
 #ACT
@@ -2588,7 +2588,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_431_Complete
 }
 
 [@432_START]
@@ -2602,19 +2602,19 @@ goto @432_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Start_1
 
 [@432_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Start_1_1
 [@432_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Start_2
 }
 [@432_CHECK1]
 {
@@ -2622,11 +2622,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Check1
 [@432_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Check1_1
 [@432_CHECK1_2]
 #IF
 #ACT
@@ -2640,7 +2640,7 @@ checkitem %A1 %D1
 #ACT
 goto @432_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Check1_2
 [@432_CHECK1_3]
 #IF
 #ACT
@@ -2664,7 +2664,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_432_Complete
 [@433_START]
 {
 #IF
@@ -2675,18 +2675,18 @@ goto @433_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Start_1
 [@433_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Start_1_1
 [@433_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Start_2
 }
 [@433_CHECK1]
 {
@@ -2694,12 +2694,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Check1
 [@433_CHECK1_1_1]
 #IF
 #SAY
 
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Check1_1
 [@433_CHECK1_2]
 #IF
 #ACT
@@ -2716,7 +2716,7 @@ checkitem %A1 %D1
 #ACT
 goto @433_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Check1_2
 
 [@433_CHECK1_3]
 #IF
@@ -2732,7 +2732,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_433_Complete
 }
 [@434_START]
 {
@@ -2745,18 +2745,18 @@ goto @434_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Start_1
 [@434_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Start_1_1
 [@434_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Start_2
 }
 [@434_CHECK1]
 {
@@ -2764,11 +2764,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1
 [@434_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1_1
 [@434_CHECK1_2]
 #IF
 #ACT
@@ -2781,7 +2781,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @434_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1_2
 [@434_CHECK1_2_1]
 #IF
 #ACT
@@ -2794,7 +2794,7 @@ checkduraeva %A1 %D3
 #ACT
 goto @434_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Check1_2
 [@434_CHECK1_3]
 #IF
 #ACT
@@ -2826,7 +2826,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_434_Complete
 }
 [@435_START]
 {
@@ -2838,18 +2838,18 @@ goto @435_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Start_1
 [@435_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Start_1_1
 [@435_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Start_2
 }
 [@435_CHECK1]
 {
@@ -2857,11 +2857,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1
 [@435_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1_1
 [@435_CHECK1_2]
 #IF
 #ACT
@@ -2874,7 +2874,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @435_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1_2
 [@435_CHECK1_2_1]
 #IF
 #ACT
@@ -2885,7 +2885,7 @@ checkitem %A1 %D2
 #ACT
 goto @435_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Check1_2
 [@435_CHECK1_3]
 #IF
 #ACT
@@ -2915,7 +2915,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_435_Complete
 }
 
 [@436_START]
@@ -2928,18 +2928,18 @@ goto @436_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Start_1
 [@436_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Start_1_1
 [@436_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Start_2
 }
 [@436_CHECK1]
 {
@@ -2947,11 +2947,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Check1
 [@436_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Check1_1
 [@436_CHECK1_2]
 #IF
 #ACT
@@ -2965,7 +2965,7 @@ checkitem %A1 %D1
 #ACT
 goto @436_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Check1_2
 [@436_CHECK1_3]
 #IF
 #ACT
@@ -2989,7 +2989,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_436_Complete
 }
 [@437_START]
 {
@@ -3001,18 +3001,18 @@ goto @437_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Start_1
 [@437_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Start_1_1
 [@437_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Start_1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Start_1_2
 }
 [@437_CHECK1]
 {
@@ -3020,11 +3020,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1
 [@437_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1_1
 [@437_CHECK1_2]
 #IF
 #ACT
@@ -3037,7 +3037,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @437_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1_2
 [@437_CHECK1_2_1]
 #IF
 #ACT
@@ -3050,7 +3050,7 @@ checkduraeva %A1 %D3
 #ACT
 goto @437_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Check1_2
 [@437_CHECK1_3]
 #IF
 #ACT
@@ -3081,7 +3081,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_437_Complete
 }
 [@438_START]
 {
@@ -3093,18 +3093,18 @@ goto @438_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Start_1
 [@438_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Start_1_1
 [@438_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Start_1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Start_1_2
 }
 [@438_CHECK1]
 {
@@ -3112,11 +3112,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Check1
 [@438_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Check1_1
 [@438_CHECK1_2]
 #IF
 #ACT
@@ -3130,7 +3130,7 @@ checkitem %A1 %D1
 #ACT
 goto @438_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Check1_2
 [@438_CHECK1_3]
 #IF
 #ACT
@@ -3154,7 +3154,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_438_Complete
 }
 [@439_START]
 {
@@ -3167,18 +3167,18 @@ goto @439_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Start_1
 [@439_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Start_1_1
 [@439_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Start_2
 }
 [@439_CHECK1]
 {
@@ -3186,11 +3186,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Check1
 [@439_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Check1_1
 
 [@439_CHECK1_2]
 #IF
@@ -3205,7 +3205,7 @@ checkitem %A1 %D1
 #ACT
 goto @439_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Check1_2
 
 [@439_CHECK1_3]
 #IF
@@ -3233,7 +3233,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_439_Complete
 }
 [@440_START]
 {
@@ -3245,18 +3245,18 @@ goto @440_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Start_1
 [@440_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Start_1_1
 [@440_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Start_2
 }
 [@440_CHECK1]
 {
@@ -3264,11 +3264,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Check1
 [@440_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Check1_1
 [@440_CHECK1_2]
 #IF
 #ACT
@@ -3282,7 +3282,7 @@ checkitem %A1 %D1
 #ACT
 goto @440_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Check1_2
 [@440_CHECK1_3]
 #IF
 #ACT
@@ -3310,7 +3310,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_440_Complete
 }
 [@441_START]
 {
@@ -3322,18 +3322,18 @@ goto @441_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Start_1
 [@441_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Start_1_1
 [@441_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Start_2
 }
 [@441_CHECK1]
 {
@@ -3341,11 +3341,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Check1
 [@441_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Check1_1
 [@441_CHECK1_2]
 #IF
 #ACT
@@ -3358,7 +3358,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @441_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Check1_2
 
 [@441_CHECK1_3]
 #IF
@@ -3381,7 +3381,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_441_Complete
 }
 [@442_START]
 {
@@ -3393,19 +3393,19 @@ goto @442_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Start_1
 
 [@442_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Start_1_1
 [@442_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Start_2
 }
 [@442_CHECK1]
 {
@@ -3413,12 +3413,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Check1
 
 [@442_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Check1_1
 
 [@442_CHECK1_2]
 #IF
@@ -3430,7 +3430,7 @@ checkitem %A0 %D0
 #ACT
 goto @442_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Check1_2
 
 [@442_CHECK1_3]
 #IF
@@ -3451,7 +3451,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_442_Complete
 }
 
 [@443_START]
@@ -3464,11 +3464,11 @@ goto @443_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Start_1
 [@443_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Start_1_1
 
 [@443_START_2]
 #IF
@@ -3476,7 +3476,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Start_2
 }
 [@443_CHECK1]
 {
@@ -3484,12 +3484,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Check1
 
 [@443_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Check1_1
 
 [@443_CHECK1_2]
 #IF
@@ -3497,7 +3497,7 @@ check [308] 1
 #ACT
 goto @443_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Check1_2
 
 [@443_CHECK1_3]
 #IF
@@ -3514,7 +3514,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_443_Complete
 }
 
 [@444_START]
@@ -3527,11 +3527,11 @@ goto @444_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Start_1
 [@444_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Start_1_1
 
 [@444_START_2]
 #IF
@@ -3539,7 +3539,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Start_2
 }
 [@444_CHECK1]
 {
@@ -3547,11 +3547,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Check1
 [@444_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Check1_1
 [@444_CHECK1_2]
 #IF
 #ACT
@@ -3562,7 +3562,7 @@ checkitem %A0 %D0
 #ACT
 goto @444_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Check1_2
 
 [@444_CHECK1_3]
 #IF
@@ -3586,7 +3586,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_444_Complete
 }
 [@445_START]
 {
@@ -3598,11 +3598,11 @@ goto @445_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Start_1
 [@445_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Start_1_1
 
 [@445_START_2]
 #IF
@@ -3615,7 +3615,7 @@ check [307] 0
 give %A0 %D0
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Start_2
 }
 [@445_CHECK1]
 {
@@ -3623,19 +3623,19 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check1
 
 [@445_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check1_1
 [@445_CHECK1_2]
 #IF
 check [308] 1
 #ACT
 goto @445_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check1_2
 
 [@445_CHECK1_3]
 #IF
@@ -3655,7 +3655,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Complete
 }
 
 ;	邊境鄉?尹老人部分
@@ -3665,7 +3665,7 @@ set [310] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check2
 
 [@445_CHECK2_1]
 #IF
@@ -3677,7 +3677,7 @@ checkitem %A0 %D0
 #ACT
 goto @445_CHECK2_2
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Check2_1
 [@445_CHECK2_2]
 #IF
 #ACT
@@ -3692,7 +3692,7 @@ checkitem %A0 %D0
 take %A0 %D0
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_445_Complete
 }
 [@446_START]
 {
@@ -3704,12 +3704,12 @@ goto @446_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Start_1
 
 [@446_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Start_1_1
 
 [@446_START_2]
 #IF
@@ -3717,7 +3717,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Start_2
 }
 [@446_CHECK1]
 {
@@ -3725,12 +3725,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Check1
 
 [@446_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Check1_1
 [@446_CHECK1_2]
 #IF
 #ACT
@@ -3741,7 +3741,7 @@ checkitem %A0 %D0
 #ACT
 goto @446_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Check1_2
 
 [@446_CHECK1_3]
 #IF
@@ -3765,7 +3765,7 @@ give %A6 %D6
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_446_Complete
 }
 [@447_START]
 {
@@ -3777,12 +3777,12 @@ goto @447_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Start_1
 
 [@447_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Start_1_1
 
 [@447_START_2]
 #IF
@@ -3795,7 +3795,7 @@ check [307] 0
 give %A0 %D0
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Start_2
 
 [@447_CHECK1]
 {
@@ -3803,12 +3803,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check1
 
 [@447_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check1_1
 
 [@447_CHECK1_2]
 #IF
@@ -3816,7 +3816,7 @@ check [308] 1
 #ACT
 goto @447_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check1_2
 
 [@447_CHECK1_3]
 #IF
@@ -3834,7 +3834,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Complete
 }
 
 ;	邊境鄉?部分
@@ -3844,7 +3844,7 @@ set [310] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check2
 
 [@447_CHECK2_1]
 #IF
@@ -3856,7 +3856,7 @@ checkitem %A0 %D0
 #ACT
 goto @447_CHECK2_2
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Check2_1
 
 [@447_CHECK2_2]
 #IF
@@ -3867,7 +3867,7 @@ check [307] 1
 take %A0 %D0
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_447_Complete
 }
 [@448_START]
 {
@@ -3879,19 +3879,19 @@ goto @448_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Start_1
 
 [@448_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Start_1_1
 [@448_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Start_2
 }
 [@448_CHECK1]
 {
@@ -3899,12 +3899,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Check1
 
 [@448_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Check1_1
 [@448_CHECK1_2]
 #IF
 #ACT
@@ -3915,7 +3915,7 @@ checkitem %A0 %D0
 #ACT
 goto @448_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Check1_2
 [@448_CHECK1_3]
 #IF
 #ACT
@@ -3935,7 +3935,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_448_Complete
 }
 
 [@449_START]
@@ -3948,18 +3948,18 @@ goto @449_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Start_1
 [@449_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Start_1_1
 [@449_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Start_2
 }
 [@449_CHECK1]
 {
@@ -3967,19 +3967,19 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Check1
 
 [@449_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Check1_1
 [@449_CHECK1_2]
 #IF
 check [308] 1
 #ACT
 goto @449_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Check1_2
 [@449_CHECK1_3]
 #IF
 #ACT
@@ -3999,14 +3999,14 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Complete
 #ELSEACT
 give %A6 %D6
 ;
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_449_Complete
 }
 [@450_START]
 {
@@ -4018,19 +4018,19 @@ goto @450_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Start_1
 
 [@450_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Start_1_1
 [@450_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Start_2
 }
 [@450_CHECK1]
 {
@@ -4038,11 +4038,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Check1
 [@450_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Check1_1
 [@450_CHECK1_2]
 #IF
 check [308] 1
@@ -4050,7 +4050,7 @@ check [309] 1
 #ACT
 goto @450_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Check1_2
 [@450_CHECK1_3]
 #IF
 #ACT
@@ -4067,7 +4067,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_450_Complete
 }
 [@451_START]
 {
@@ -4079,12 +4079,12 @@ goto @451_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Start_1
 
 [@451_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Start_1_1
 
 [@451_START_2]
 #IF
@@ -4092,7 +4092,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Start_2
 }
 [@451_CHECK1]
 {
@@ -4100,11 +4100,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Check1
 [@451_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Check1_1
 
 [@451_CHECK1_2]
 #IF
@@ -4114,7 +4114,7 @@ check [308] 1
 #ACT
 goto @451_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Check1_2
 [@451_CHECK1_3]
 #IF
 check [310] 0
@@ -4140,7 +4140,7 @@ give %A5 %D5
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Complete
 
 [@451_CHECK1_5]
 #IF
@@ -4161,7 +4161,7 @@ give %A7 %D7
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Complete_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_451_Complete_1
 }
 
 [@452_START]
@@ -4174,11 +4174,11 @@ goto @452_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Start_1
 [@452_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Start_1_1
 [@452_START_2]
 #IF
 #ACT
@@ -4190,7 +4190,7 @@ check [307] 0
 set [307] 1
 give %A0 %D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Start_2
 }
 [@452_CHECK1]
 {
@@ -4198,12 +4198,12 @@ give %A0 %D0
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1
 
 [@452_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1_1
 
 [@452_CHECK1_2]
 #IF
@@ -4213,7 +4213,7 @@ check [308] 1
 #ACT
 goto @452_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1_2
 
 [@452_CHECK1_3]
 #IF
@@ -4226,7 +4226,7 @@ movr s0 100
 inc s0 1
 goto @452_Reward
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1_3
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check1_3
 
 [@452_Reward]
 #IF
@@ -4260,7 +4260,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Complete
 #ELSEACT
 take %A1 %D1
 give %A7 %D7
@@ -4271,7 +4271,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Complete
 }
 [@452_CHECK2]
 {
@@ -4280,7 +4280,7 @@ check [310] 0
 check [307] 1
 check [308] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2
 [@452_CHECK2_1]
 #IF
 #ACT
@@ -4313,15 +4313,15 @@ take %A0 %D0
 give %A1 %D1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2_2
 [@452_CHECK2_3]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2_3
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2_3
 
 [@452_check2_4]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2_4
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_452_Check2_4
 
 }
 
@@ -4337,12 +4337,12 @@ goto @453_START_1
 check [310] 0
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Start_1
 
 [@453_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Start_1_1
 
 [@453_START_2]
 #IF
@@ -4350,7 +4350,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Start_2
 }
 [@453_CHECK1]
 {
@@ -4358,12 +4358,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Check1
 
 [@453_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Check1_1
 
 [@453_CHECK1_2]
 #IF
@@ -4377,7 +4377,7 @@ checkitem %A0 %D0
 #ACT
 goto @453_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Check1_2
 
 [@453_CHECK1_3]
 #IF
@@ -4401,7 +4401,7 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_453_Complete
 }
 [@454_START]
 {
@@ -4413,18 +4413,18 @@ goto @454_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Start_1
 [@454_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Start_1_1
 [@454_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Start_2
 }
 [@454_CHECK1]
 {
@@ -4432,11 +4432,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Check1
 [@454_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Check1_1
 [@454_CHECK1_2]
 #IF
 #ACT
@@ -4448,7 +4448,7 @@ checkitem %A0 %D0
 #ACT
 goto @454_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Check1_2
 
 [@454_CHECK1_3]
 #IF
@@ -4477,7 +4477,7 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_454_Complete
 }
 
 [@455_START]
@@ -4492,12 +4492,12 @@ goto @455_START_1
 check [310] 0
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Start_1
 
 [@455_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Start_1_1
 
 [@455_START_2]
 #IF
@@ -4505,7 +4505,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Start_2
 }
 [@455_CHECK1]
 {
@@ -4513,12 +4513,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Check1
 
 [@455_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Check1_1
 
 [@455_CHECK1_2]
 #IF
@@ -4534,7 +4534,7 @@ checkduraeva %A0 %D1
 #ACT
 goto @455_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Check1_2
 [@455_CHECK1_3]
 #IF
 #ACT
@@ -4559,7 +4559,7 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_455_Complete
 }
 [@456_START]
 {
@@ -4571,11 +4571,11 @@ goto @456_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Start_1
 [@456_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Start_1_1
 
 [@456_START_2]
 #IF
@@ -4583,7 +4583,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Start_2
 }
 [@456_CHECK1]
 {
@@ -4591,12 +4591,12 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Check1
 
 [@456_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Check1_1
 
 [@456_CHECK1_2]
 #IF
@@ -4611,7 +4611,7 @@ checkitem %A0 %D0
 #ACT
 goto @456_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Check1_2
 
 [@456_CHECK1_2_1]
 #IF
@@ -4814,7 +4814,7 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_456_Complete
 }
 [@457_START]
 {
@@ -4827,11 +4827,11 @@ goto @457_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Start_1
 [@457_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Start_1_1
 
 [@457_START_2]
 #IF
@@ -4844,7 +4844,7 @@ check [307] 0
 set [307] 1
 give %A0 %D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Start_2
 }
 [@457_CHECK1]
 {
@@ -4852,11 +4852,11 @@ give %A0 %D0
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check1
 [@457_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check1_1
 [@457_CHECK1_2]
 #IF
 check [310] 0
@@ -4866,7 +4866,7 @@ check [309] 1
 #ACT
 goto @457_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check1_2
 
 [@457_CHECK1_3]
 #IF
@@ -4887,9 +4887,9 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Complete
 }
 [@457_CHECK2]
 {
@@ -4899,7 +4899,7 @@ check [307] 1
 check [308] 0
 check [309] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2
 
 [@457_CHECK2_1]
 #IF
@@ -4912,23 +4912,23 @@ check [307] 1
 check [308] 0
 checkitem %A0 %D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_1_1
 [@457_CHECK2_2]
 #ACT
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_2
 
 [@457_CHECK2_3]
 #ACT
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_3
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_3
 [@457_check2_4]
 #ACT
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_4
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check2_4
 }
 [@457_CHECK3]
 {
@@ -4943,9 +4943,9 @@ check [308] 1
 check [309] 0
 checkitem %A0 %D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3_1
 [@457_CHECK3_1]
 #IF
 #ACT
@@ -4964,12 +4964,12 @@ set [309] 1
 take %A0 %D0
 take %A1 %D1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Complete_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Complete_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3_2
 [@457_CHECK3_2]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3_2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_457_Check3_2_1
 }
 [@458_START]
 {
@@ -4981,11 +4981,11 @@ goto @458_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Start_1
 [@458_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Start_1_1
 
 [@458_START_2]
 #IF
@@ -4998,7 +4998,7 @@ check [307] 0
 set [307] 1
 give %A0 %D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Start_2
 }
 [@458_CHECK1]
 {
@@ -5006,11 +5006,11 @@ give %A0 %D0
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check1
 [@458_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check1_1
 [@458_CHECK1_2]
 #IF
 check [310] 0
@@ -5019,7 +5019,7 @@ check [308] 1
 #ACT
 goto @458_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check1_2
 [@458_CHECK1_3]
 #IF
 #ACT
@@ -5038,9 +5038,9 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Complete
 }
 [@458_CHECK2]
 {
@@ -5049,7 +5049,7 @@ check [310] 0
 check [307] 1
 check [308] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2
 [@458_CHECK2_1]
 #IF
 #ACT
@@ -5064,12 +5064,12 @@ checkitem %A0 %D0
 take %A0 %D0
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2_1_1
 [@458_CHECK2_2]
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_458_Check2_2
 }
 [@459_START]
 {
@@ -5082,19 +5082,19 @@ goto @459_START_1
 check [310] 0
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Start_1
 
 [@459_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Start_1_1
 [@459_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Start_2
 }
 [@459_CHECK1]
 {
@@ -5102,11 +5102,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Check1
 [@459_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Check1_1
 [@459_CHECK1_2]
 #IF
 #ACT
@@ -5119,7 +5119,7 @@ checkitem %A0 %D0
 #ACT
 goto @459_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Check1_2
 [@459_CHECK1_3]
 #IF
 #ACT
@@ -5141,7 +5141,7 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_459_Complete
 }
 [@460_START]
 {
@@ -5154,18 +5154,18 @@ goto @460_START_1
 check [310] 0
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Start_1
 [@460_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Start_1_1
 [@460_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Start_2
 }
 [@460_CHECK1]
 {
@@ -5173,11 +5173,11 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Check1
 [@460_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Check1_1
 [@460_CHECK1_2]
 #IF
 #ACT
@@ -5190,7 +5190,7 @@ checkitem %A0 %D0
 #ACT
 goto @460_CHECK1_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Check1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Check1_2
 
 [@460_CHECK1_3]
 #IF
@@ -5217,7 +5217,7 @@ set [307] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_460_Complete
 }
 
 [@461_START]
@@ -5230,18 +5230,18 @@ goto @461_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Start_1
 [@461_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Start_1_1
 [@461_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Start_2
 [@461_CHECK1]
 #IF
 #ACT
@@ -5262,9 +5262,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_461_Check1_1
 }
 
 [@462_START]
@@ -5277,18 +5277,18 @@ goto @462_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Start_1
 [@462_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Start_1_1
 [@462_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Start_2
 
 [@462_CHECK1]
 #IF
@@ -5315,9 +5315,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_CHeck1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_462_CHeck1
 }
 [@463_START]
 {
@@ -5329,18 +5329,18 @@ goto @463_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Start_1
 [@463_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Start_1_1
 [@463_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Start_2
 [@463_CHECK1]
 #IF
 #ACT
@@ -5356,9 +5356,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_463_Check1
 }
 [@464_START]
 {
@@ -5370,18 +5370,18 @@ goto @464_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Start_1
 [@464_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Start_1_1
 [@464_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Start_2
 [@464_CHECK1]
 #IF
 #ACT
@@ -5402,9 +5402,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check1
 }
 [@464_CHECK2]
 {
@@ -5415,16 +5415,16 @@ goto @464_CHECK2_1
 [@464_CHECK2_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check2_1
 
 [@464_CHECK2_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check2_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check2_1_1
 [@464_CHECK2_1_2]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check2_1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Check2_1_2
 [@464_End1]
 #IF
 check [308] 1
@@ -5441,7 +5441,7 @@ break
 give %A0 %D0
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Complete_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Complete_1
 [@464_End2]
 #IF
 check [308] 1
@@ -5461,7 +5461,7 @@ give %A0 %D0
 give %A6 %D6
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Complete_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_464_Complete_2
 }
 [@465_START]
 {
@@ -5474,18 +5474,18 @@ goto @465_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Start_1
 [@465_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Start_1_1
 [@465_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Start_2
 [@465_CHECK1]
 #IF
 check [310] 1
@@ -5511,9 +5511,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_465_Check1
 }
 [@466_START]
 {
@@ -5525,18 +5525,18 @@ goto @466_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Start_1
 [@466_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Start_1_1
 [@466_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Start_2
 [@466_CHECK1]
 #IF
 #ACT
@@ -5560,9 +5560,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_466_Check1
 }
 
 [@467_START]
@@ -5575,12 +5575,12 @@ goto @467_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Start_1
 
 [@467_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Start_1_1
 
 [@467_START_2]
 #IF
@@ -5588,7 +5588,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Start_2
 
 [@467_CHECK1]
 #IF
@@ -5615,9 +5615,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_467_Check1
 
 [@468_START]
 {
@@ -5629,12 +5629,12 @@ goto @468_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Start_1
 
 [@468_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Start_1_1
 
 [@468_START_2]
 #IF
@@ -5642,7 +5642,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Start_2
 
 [@468_CHECK1]
 #IF
@@ -5667,9 +5667,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_468_Check1
 }
 
 [@469_START]
@@ -5682,19 +5682,19 @@ goto @469_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Start_1
 
 [@469_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Start_1_1
 [@469_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Start_2
 [@469_CHECK1]
 #IF
 #ACT
@@ -5710,9 +5710,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_469_Check1
 }
 [@470_START]
 {
@@ -5724,18 +5724,18 @@ goto @470_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Start_1
 [@470_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Start_1_1
 [@470_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Start_2
 [@470_CHECK1]
 #IF
 #ACT
@@ -5756,9 +5756,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_470_Check1
 }
 [@471_START]
 {
@@ -5770,18 +5770,18 @@ goto @471_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Start_1
 [@471_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Start_1_1
 [@471_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Start_2
 [@471_CHECK1]
 #IF
 #ACT
@@ -5797,17 +5797,17 @@ set [309] 0
 set [310] 1
 reset [307] 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Check1
 
 [@471_CHECK1_1]
 #IF
 gender man
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Check1_1_Man
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Check1_1_Man
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Check1_1_Woman
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_471_Check1_1_Woman
 }
 [@472_START]
 {
@@ -5819,11 +5819,11 @@ goto @472_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Start_1
 [@472_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Start_1_1
 [@472_START_2]
 #IF
 #ACT
@@ -5835,14 +5835,14 @@ check [307] 0
 set [307] 1
 give %A0 %D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Start_2
 [@472_CHECK1]
 #IF
 check [308] 1
 #ACT
 goto @472_CHECK1_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Check1
 [@472_CHECK1_1]
 #IF
 check [310] 1
@@ -5868,9 +5868,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_472_Check1_1
 }
 [@473_START]
 {
@@ -5882,18 +5882,18 @@ goto @473_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Start_1
 [@473_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Start_1_1
 [@473_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Start_2
 [@473_CHECK1]
 #IF
 #ACT
@@ -5917,10 +5917,10 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Complete
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_473_Check1
 }
 [@474_START]
 {
@@ -5932,18 +5932,18 @@ goto @474_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Start_1
 [@474_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Start_1_1
 [@474_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Start_2
 
 [@474_CHECK1]
 #IF
@@ -5955,7 +5955,7 @@ checkitem %A0 %D0
 #ACT
 goto @474_CHECK1_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Check1
 [@474_CHECK1_1]
 #IF
 check [310] 1
@@ -5995,9 +5995,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_474_Complete
 }
 [@475_START]
 {
@@ -6009,18 +6009,18 @@ goto @475_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Start_1
 [@475_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Start_1_1
 [@475_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Start_2
 [@475_CHECK1]
 #IF
 #ACT
@@ -6060,7 +6060,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Complete
 #ELSEACT
 take %A0 %D0
 give %A6 %D6
@@ -6070,7 +6070,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_475_Complete
 }
 [@476_START]
 {
@@ -6082,18 +6082,18 @@ goto @476_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Start_1
 [@476_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Start_1_1
 [@476_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Start_2
 [@476_CHECK1]
 #IF
 #ACT
@@ -6109,9 +6109,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Check1
 #ELSEACT
 goto @476_CHECK1_1
 
@@ -6119,9 +6119,9 @@ goto @476_CHECK1_1
 #IF
 check [309] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Complete_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Complete_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Check1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Check1_1
 }
 [@476_CHECK2]
 {
@@ -6144,9 +6144,9 @@ check [310] 0
 give %A5 %D5
 set [309] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Complete_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Complete_2
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_476_Check2
 }
 [@477_START]
 {
@@ -6158,18 +6158,18 @@ goto @477_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Start_1
 [@477_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Start_1_1
 [@477_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Start_2
 [@477_CHECK1]
 #IF
 #ACT
@@ -6180,7 +6180,7 @@ checkitem %A0 %D0
 #ACT
 goto @477_CHECK1_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Check1
 [@477_CHECK1_1]
 #IF
 check [310] 1
@@ -6209,7 +6209,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Complete
 #ELSEACT
 take %A0 %D0
 give %A6 %D6
@@ -6219,7 +6219,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_477_Complete
 }
 [@478_START]
 {
@@ -6232,11 +6232,11 @@ goto @478_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Start_1
 [@478_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Start_1_1
 
 [@478_START_2]
 #IF
@@ -6244,29 +6244,29 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Start_2
 
 [@478_CHECK_Rose]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Rose
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Rose
 [@478_CHECK_Flower1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Flower1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Flower1
 
 [@478_CHECK_Flower2]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Flower2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Flower2
 [@478_CHECK_SunFlower]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_sunFlower
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_sunFlower
 [@478_CHECK_end]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_478_Complete
 }
 [@479_START]
 {
@@ -6278,18 +6278,18 @@ goto @479_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Start_1
 [@479_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Start_1_1
 [@479_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Start_2
 [@479_CHECK1]
 #IF
 #ACT
@@ -6305,9 +6305,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_479_Check1
 }
 
 [@480_START]
@@ -6320,18 +6320,18 @@ goto @480_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Start_1
 [@480_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Start_1_1
 [@480_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Start_2
 [@480_CHECK1]
 #IF
 #ACT
@@ -6355,9 +6355,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_480_Check1
 }
 [@481_START]
 {
@@ -6369,18 +6369,18 @@ goto @481_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Start_1
 [@481_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Start_1_1
 [@481_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Start_2
 [@481_CHECK1]
 #IF
 check [310] 1
@@ -6409,9 +6409,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_481_Check1
 }
 [@482_START]
 {
@@ -6423,18 +6423,18 @@ goto @482_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Start_1
 [@482_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Start_1_1
 [@482_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Start_2
 [@482_CHECK1]
 #IF
 #ACT
@@ -6458,9 +6458,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_482_Check1
 }
 [@483_START]
 {
@@ -6472,11 +6472,11 @@ goto @483_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Start_1
 [@483_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Start_1_1
 
 [@483_START_2]
 #IF
@@ -6484,7 +6484,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Start_2
 }
 
 [@483_CHECK1]
@@ -6494,7 +6494,7 @@ check [308] 1
 #ACT
 goto @483_CHECK1_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Check1
 [@483_CHECK1_1]
 #IF
 #ACT
@@ -6515,7 +6515,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Complete
 #ELSEACT
 give %A7 %D7
 set [307] 0
@@ -6524,7 +6524,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_483_Complete
 }
 [@484_START]
 {
@@ -6536,18 +6536,18 @@ goto @484_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Start_1
 [@484_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Start_1_1
 [@484_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Start_2
 [@484_CHECK1]
 #IF
 check [310] 1
@@ -6576,9 +6576,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Check1
 }
 [@484_CHECK2]
 {
@@ -6602,7 +6602,7 @@ break
 give %A0 %D0
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Complete_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_484_Complete_1
 }
 [@485_START]
 {
@@ -6614,18 +6614,18 @@ goto @485_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Start_1
 [@485_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Start_1_1
 [@485_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Start_2
 [@485_CHECK1]
 #IF
 #ACT
@@ -6649,9 +6649,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_485_Check1
 }
 [@486_START]
 {
@@ -6663,11 +6663,11 @@ goto @486_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Start_1
 [@486_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Start_1_1
 [@486_START_2]
 #IF
 #ACT
@@ -6679,14 +6679,14 @@ check [307] 0
 set [307] 1
 give %A0 %D0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Start_2
 [@486_CHECK1]
 #IF
 check [308] 1
 #ACT
 goto @486_CHECK1_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check1
 [@486_CHECK1_1]
 #IF
 #ACT
@@ -6704,7 +6704,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Complete
 
 #ELSEACT
 give %A6 %D6
@@ -6714,7 +6714,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Complete
 }
 [@486_CHECK2]
 {
@@ -6740,10 +6740,10 @@ checkitem %A0 %D0
 take %A0 %D0
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2_1
 
 [@486_CHECK2_1_2]
 #IF
@@ -6756,9 +6756,9 @@ checkitem %A0 %D0
 take %A0 %D0
 set [309] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2_1_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2_1_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_486_Check2_1_2
 
 }
 
@@ -6773,11 +6773,11 @@ goto @487_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Start_1
 [@487_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Start_1_1
 
 [@487_START_2]
 #IF
@@ -6785,7 +6785,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Start_2
 [@487_CHECK1]
 #IF
 check [310] 1
@@ -6812,7 +6812,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_487_Check1
 
 [@488_START]
 {
@@ -6824,18 +6824,18 @@ goto @488_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Start_1
 [@488_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Start_1_1
 [@488_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Start_2
 [@488_CHECK1]
 #IF
 #ACT
@@ -6858,9 +6858,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_488_Check1
 }
 [@489_START]
 {
@@ -6872,14 +6872,14 @@ goto @489_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Start_1
 [@489_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Start_2
 [@489_CHECK1]
 #IF
 check [310] 1
@@ -6903,9 +6903,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_489_Check1
 
 [@490_START]
 {
@@ -6917,18 +6917,18 @@ goto @490_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Start_1
 [@490_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Start_1_1
 [@490_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Start_2
 [@490_CHECK1]
 #IF
 #ACT
@@ -6948,9 +6948,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_490_Check1
 }
 [@491_START]
 {
@@ -6962,11 +6962,11 @@ goto @491_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_491_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_491_Start_1
 [@491_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_491_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_491_Start_1_1
 [@491_START_2]
 #IF
 #ACT
@@ -6980,7 +6980,7 @@ set [307] 1
 take %A0 %D0
 give  30
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_491_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_491_Start_2
 }
 [@492_START]
 {
@@ -6992,7 +6992,7 @@ goto @492_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_492_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_492_Start_1
 [@492_START_2]
 #IF
 #ACT
@@ -7004,7 +7004,7 @@ check [307] 0
 set [307] 1
 give %A5 %D5
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_492_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_492_Start_2
 }
 [@493_START]
 {
@@ -7016,18 +7016,18 @@ goto @493_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Start_1
 [@493_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Start_1_1
 [@493_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Start_2
 [@493_CHECK1]
 #IF
 check [308] 1
@@ -7038,9 +7038,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check1
 }
 [@493_CHECK2]
 {
@@ -7060,11 +7060,11 @@ goto @493_CHECK2_1_1
 #ACT
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check2
 [@493_CHECK2_1_2]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check2_1
 [@493_CHECK2_2_1]
 #IF
 #ACT
@@ -7078,7 +7078,7 @@ take %A0 %D0
 set [310] 1
 goto @493_CHECK2_2_2
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check2_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Check2_2
 
 [@493_CHECK2_2_2]
 #IF
@@ -7101,12 +7101,12 @@ gender man
 give %A5 %D5
 set [309] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Complete
 #ELSEACT
 give %A6 %D6
 set [309] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_493_Complete
 }
 [@494_START]
 {
@@ -7118,19 +7118,19 @@ goto @494_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_494_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_494_Start_1
 
 [@494_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_494_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_494_Start_1_1
 [@494_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_494_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_494_Start_2
 }
 [@495_START]
 {
@@ -7142,18 +7142,18 @@ goto @495_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Start_1
 [@495_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Start_1_1
 [@495_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Start_2
 [@495_CHECK1]
 #IF
 #ACT
@@ -7166,7 +7166,7 @@ checkitem %A0 %D0
 take %A0 %D0
 goto @495_CHECK1_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_Check1
 
 [@495_CHECK1_1]
 #IF
@@ -7193,7 +7193,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_complete
 #ELSEACT
 take %A0 %D0
 give %A6 %D6
@@ -7204,7 +7204,7 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_495_complete
 }
 [@496_START]
 {
@@ -7216,18 +7216,18 @@ goto @496_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Start_1
 [@496_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Start_1_1
 [@496_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Start_2
 [@496_CHECK1]
 #IF
 #ACT
@@ -7253,9 +7253,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_496_Check1
 }
 [@497_START]
 {
@@ -7267,18 +7267,18 @@ goto @497_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Start_1
 [@497_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Start_1_1
 [@497_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Start_2
 [@497_CHECK1]
 #IF
 #ACT
@@ -7297,9 +7297,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_497_Check1
 }
 [@498_START]
 {
@@ -7311,11 +7311,11 @@ goto @498_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Start_1
 [@498_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Start_1_1
 [@498_START_2]
 #IF
 #ACT
@@ -7327,7 +7327,7 @@ check [307] 0
 give %A0 %D0
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Start_2
 [@498_CHECK1]
 #IF
 #ACT
@@ -7349,9 +7349,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Complete
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check1
 }
 [@498_CHECK2]
 {
@@ -7373,9 +7373,9 @@ check [308] 0
 take %A0 %D0
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check2_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check2_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check2_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check2_2
 }
 [@498_CHECK3]
 {
@@ -7397,9 +7397,9 @@ check [307] 1
 take %A0 %D0
 set [309] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check3_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check3_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check3_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_498_Check3_2
 }
 
 [@499_START]
@@ -7412,18 +7412,18 @@ goto @499_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Start_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Start_1
 [@499_START_1_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Start_1_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Start_1_1
 [@499_START_2]
 #IF
 check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Start_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Start_2
 [@499_CHECK1]
 #IF
 check [308] 1
@@ -7445,9 +7445,9 @@ set [309] 0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Complete
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Complete
 #ELSEACT
 take ?幣 5000
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Check1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4Grade.txt] @QT_499_Check1
 }

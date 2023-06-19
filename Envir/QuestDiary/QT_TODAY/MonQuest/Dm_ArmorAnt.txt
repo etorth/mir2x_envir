@@ -89,7 +89,7 @@ inc s0 1
 [@gapjugaemi_T454_5]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T454_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T454_Say
 #ACT
 set [308] 1
 give 원솖쯧碌쫓 1

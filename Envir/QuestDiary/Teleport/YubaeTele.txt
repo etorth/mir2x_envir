@@ -4,10 +4,10 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_1
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_1
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_2
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_2
 
 
 [@Special_Teleport]
@@ -17,7 +17,7 @@ checkitem ²Ø×ï¾ÝÖ¤ 1
 take ²Ø×ï¾ÝÖ¤ 1                  ;; Àº¾÷ÀÇÁõÇ¥¸¦ ÁöºÒ ÇÏ°í ÀÌµ¿ ÇÏ´Â Æ¯¼ö °æ¿ì
 mapmove 8 288 242
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_3
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_3
 
 
 [@TelePortRootin()]

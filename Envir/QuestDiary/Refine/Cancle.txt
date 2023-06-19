@@ -3,7 +3,7 @@
 {
 begin
 	#SAY
-	   #INCLUDE [../Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_1
+	   #INCLUDE [Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_1
 
 [@CancleRefine]
 	begin
@@ -13,7 +13,7 @@ begin
 		#IF
 		   !checkitem Ä§¾§Ê¯ 1
 		#SAY
-		   #INCLUDE [../Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_2
+		   #INCLUDE [Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_2
 		#ACT
 		   break
 
@@ -26,20 +26,20 @@ begin
 		#IF
 		   ESmall  P9  20
 		#SAY
-		   #INCLUDE [../Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_3
+		   #INCLUDE [Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_3
 		#ACT
 		   break
 
 		#IF
 		   ESmall  P9  30
 		#SAY
-		   #INCLUDE [../Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_4
+		   #INCLUDE [Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_4
 		#ACT
 		   break
 
 		#IF
 		#SAY
-		   #INCLUDE [../Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_5
+		   #INCLUDE [Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_5
 		#ACT
 		   break
 	end
@@ -49,7 +49,7 @@ begin
 	   #IF
          checkweaponlevel 1
       #ELSESAY
-         #INCLUDE [../Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_5_except
+         #INCLUDE [Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_5_except
       #ELSEACT
          break
 
@@ -63,7 +63,7 @@ begin
 			ResetRefineWeapon
 			close
 		#ELSESAY
-			#INCLUDE [../Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_6
+			#INCLUDE [Convert_Def/QuestDiary/Refine/Cancle.txt] @Cancle_Say_6
 	end
 end
 }

@@ -3,7 +3,7 @@
 {
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Main_Menu
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Main_Menu
 
 [@Make_AtomItem]
 #IF
@@ -11,7 +11,7 @@ checkgold 1000000
 #ACT
 goto @Check_OldItem
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NotEnoughGold
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NotEnoughGold
 
 [@Check_OldItem]
 #IF
@@ -68,12 +68,12 @@ checkitem 生锈世尊手镯 1
 goto @Make_AtomItem_1
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Make_AtomItem_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_MakeAtomItem_Menu
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_MakeAtomItem_Menu
 
 [@Atom_Fire]
 #IF
@@ -85,7 +85,7 @@ take 金币 1000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 #IF
 checkgold 1000000
@@ -96,7 +96,7 @@ take 金币 1000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 #IF
 checkgold 1000000
@@ -107,7 +107,7 @@ take 金币 1000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 #IF
 checkgold 1000000
@@ -118,7 +118,7 @@ take 金币 1000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 #IF
 checkgold 1000000
@@ -129,7 +129,7 @@ take 金币 1000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 #IF
 checkgold 1000000
@@ -140,7 +140,7 @@ take 金币 1000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 #IF
 checkgold 1000000
@@ -151,7 +151,7 @@ take 金币 1000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 #IF
 checkgold 1000000
@@ -162,7 +162,7 @@ take 金币 1000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 #IF
 checkgold 1000000
@@ -173,10 +173,10 @@ take 金币 1000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Atom_Ice]
 #IF
@@ -188,7 +188,7 @@ take 金币 1000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 #IF
 checkgold 1000000
@@ -199,7 +199,7 @@ take 金币 1000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 #IF
 checkgold 1000000
@@ -210,7 +210,7 @@ take 金币 1000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 #IF
 checkgold 1000000
@@ -221,7 +221,7 @@ take 金币 1000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 #IF
 checkgold 1000000
@@ -232,7 +232,7 @@ take 金币 1000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 #IF
 checkgold 1000000
@@ -243,7 +243,7 @@ take 金币 1000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 #IF
 checkgold 1000000
@@ -254,7 +254,7 @@ take 金币 1000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 #IF
 checkgold 1000000
@@ -265,7 +265,7 @@ take 金币 1000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 #IF
 checkgold 1000000
@@ -276,10 +276,10 @@ take 金币 1000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Atom_Light]
 #IF
@@ -291,7 +291,7 @@ take 金币 1000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -303,7 +303,7 @@ take 金币 1000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -315,7 +315,7 @@ take 金币 1000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -327,7 +327,7 @@ take 金币 1000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -339,7 +339,7 @@ take 金币 1000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -351,7 +351,7 @@ take 金币 1000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -363,7 +363,7 @@ take 金币 1000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -375,7 +375,7 @@ take 金币 1000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -387,11 +387,11 @@ take 金币 1000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Atom_Wind]
 #IF
@@ -403,7 +403,7 @@ take 金币 1000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -415,7 +415,7 @@ take 金币 1000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -427,7 +427,7 @@ take 金币 1000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -439,7 +439,7 @@ take 金币 1000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -451,7 +451,7 @@ take 金币 1000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -463,7 +463,7 @@ take 金币 1000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -475,7 +475,7 @@ take 金币 1000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -487,7 +487,7 @@ take 金币 1000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -499,11 +499,11 @@ take 金币 1000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Atom_Holy]
 #IF
@@ -515,7 +515,7 @@ take 金币 1000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -527,7 +527,7 @@ take 金币 1000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -539,7 +539,7 @@ take 金币 1000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -551,7 +551,7 @@ take 金币 1000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -563,7 +563,7 @@ take 金币 1000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -575,7 +575,7 @@ take 金币 1000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -587,7 +587,7 @@ take 金币 1000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -599,7 +599,7 @@ take 金币 1000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -611,11 +611,11 @@ take 金币 1000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Atom_Dark]
 #IF
@@ -627,7 +627,7 @@ take 金币 1000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -639,7 +639,7 @@ take 金币 1000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -651,7 +651,7 @@ take 金币 1000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -663,7 +663,7 @@ take 金币 1000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -675,7 +675,7 @@ take 金币 1000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -687,7 +687,7 @@ take 金币 1000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -699,7 +699,7 @@ take 金币 1000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -711,7 +711,7 @@ take 金币 1000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -727,7 +727,7 @@ _世尊手镯（暗黑）捞 咯扁 乐嚼聪促.\ \
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Atom_Phantom]
 #IF
@@ -739,7 +739,7 @@ take 金币 1000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -751,7 +751,7 @@ take 金币 1000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -763,7 +763,7 @@ take 金币 1000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -775,7 +775,7 @@ take 金币 1000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -787,7 +787,7 @@ take 金币 1000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -799,7 +799,7 @@ take 金币 1000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -811,7 +811,7 @@ take 金币 1000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -823,7 +823,7 @@ take 金币 1000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -835,11 +835,11 @@ take 金币 1000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial
 
 [@Change_ItemAtom]
 #IF
@@ -847,7 +847,7 @@ checkgold 4000000
 #ACT
 goto @Change_ItemAtom_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NotEnoughGold_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NotEnoughGold_1
 
 [@Change_ItemAtom_1]
 #IF
@@ -1229,7 +1229,7 @@ goto @Change_ItemAtom_2
 break
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Change_ItemAtom_2]
 #IF
@@ -1613,7 +1613,7 @@ break
 [@Change_ItemAtom_3]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_ChangeAtom_Menu
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_ChangeAtom_Menu
 
 [@Change_ItemAtom_Fire]
 #IF
@@ -1626,7 +1626,7 @@ take 金币 4000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 
 #IF
@@ -1639,7 +1639,7 @@ take 金币 4000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 
 #IF
@@ -1652,7 +1652,7 @@ take 金币 4000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 
 #IF
@@ -1665,7 +1665,7 @@ take 金币 4000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 
 #IF
@@ -1678,7 +1678,7 @@ take 金币 4000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 
 #IF
@@ -1691,7 +1691,7 @@ take 金币 4000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 
 #IF
@@ -1704,7 +1704,7 @@ take 金币 4000000
 give 师承戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_JungGun
 
 
 #IF
@@ -1717,7 +1717,7 @@ take 金币 4000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 
 #IF
@@ -1730,7 +1730,7 @@ take 金币 4000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 
 #IF
@@ -1743,7 +1743,7 @@ take 金币 4000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 
 #IF
@@ -1756,7 +1756,7 @@ take 金币 4000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 
 #IF
@@ -1769,7 +1769,7 @@ take 金币 4000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 
 #IF
@@ -1782,7 +1782,7 @@ take 金币 4000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 
 #IF
@@ -1795,7 +1795,7 @@ take 金币 4000000
 give 龙马戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_YongMa
 
 
 #IF
@@ -1808,7 +1808,7 @@ take 金币 4000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 
 #IF
@@ -1821,7 +1821,7 @@ take 金币 4000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 
 #IF
@@ -1834,7 +1834,7 @@ take 金币 4000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 
 #IF
@@ -1847,7 +1847,7 @@ take 金币 4000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 
 #IF
@@ -1860,7 +1860,7 @@ take 金币 4000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 
 #IF
@@ -1873,7 +1873,7 @@ take 金币 4000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 
 #IF
@@ -1886,7 +1886,7 @@ take 金币 4000000
 give 青云戒指（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_ChongMil
 
 
 #IF
@@ -1899,7 +1899,7 @@ take 金币 4000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 
 #IF
@@ -1912,7 +1912,7 @@ take 金币 4000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 
 #IF
@@ -1925,7 +1925,7 @@ take 金币 4000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 
 #IF
@@ -1938,7 +1938,7 @@ take 金币 4000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 
 #IF
@@ -1951,7 +1951,7 @@ take 金币 4000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 
 #IF
@@ -1964,7 +1964,7 @@ take 金币 4000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 
 #IF
@@ -1977,7 +1977,7 @@ take 金币 4000000
 give 破荒项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_PaHwang
 
 
 #IF
@@ -1990,7 +1990,7 @@ take 金币 4000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 
 #IF
@@ -2003,7 +2003,7 @@ take 金币 4000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 
 #IF
@@ -2016,7 +2016,7 @@ take 金币 4000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 
 #IF
@@ -2029,7 +2029,7 @@ take 金币 4000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 
 #IF
@@ -2042,7 +2042,7 @@ take 金币 4000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 
 #IF
@@ -2055,7 +2055,7 @@ take 金币 4000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 
 #IF
@@ -2068,7 +2068,7 @@ take 金币 4000000
 give 魔云项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_MaUn
 
 
 #IF
@@ -2081,7 +2081,7 @@ take 金币 4000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 
 #IF
@@ -2094,7 +2094,7 @@ take 金币 4000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 
 #IF
@@ -2107,7 +2107,7 @@ take 金币 4000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 
 #IF
@@ -2120,7 +2120,7 @@ take 金币 4000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 
 #IF
@@ -2133,7 +2133,7 @@ take 金币 4000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 
 #IF
@@ -2146,7 +2146,7 @@ take 金币 4000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 
 #IF
@@ -2159,7 +2159,7 @@ take 金币 4000000
 give 定心项链（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SuSin
 
 
 #IF
@@ -2172,7 +2172,7 @@ take 金币 4000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 
 #IF
@@ -2185,7 +2185,7 @@ take 金币 4000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 
 #IF
@@ -2198,7 +2198,7 @@ take 金币 4000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 
 #IF
@@ -2211,7 +2211,7 @@ take 金币 4000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 
 #IF
@@ -2224,7 +2224,7 @@ take 金币 4000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 
 #IF
@@ -2237,7 +2237,7 @@ take 金币 4000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 
 #IF
@@ -2250,7 +2250,7 @@ take 金币 4000000
 give 金棱手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_KumGak
 
 
 #IF
@@ -2263,7 +2263,7 @@ take 金币 4000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 
 #IF
@@ -2276,7 +2276,7 @@ take 金币 4000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 
 #IF
@@ -2289,7 +2289,7 @@ take 金币 4000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 
 #IF
@@ -2302,7 +2302,7 @@ take 金币 4000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 
 #IF
@@ -2315,7 +2315,7 @@ take 金币 4000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 
 #IF
@@ -2328,7 +2328,7 @@ take 金币 4000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 
 #IF
@@ -2341,7 +2341,7 @@ take 金币 4000000
 give 思过手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_GuiByub
 
 
 #IF
@@ -2354,7 +2354,7 @@ take 金币 4000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 
 #IF
@@ -2367,7 +2367,7 @@ take 金币 4000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 
 #IF
@@ -2380,7 +2380,7 @@ take 金币 4000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 
 #IF
@@ -2393,7 +2393,7 @@ take 金币 4000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 
 #IF
@@ -2406,7 +2406,7 @@ take 金币 4000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 
 #IF
@@ -2419,7 +2419,7 @@ take 金币 4000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 
 #IF
@@ -2432,11 +2432,11 @@ take 金币 4000000
 give 世尊手镯（火） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Fire_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Change_ItemAtom_Ice]
 #IF
@@ -2449,7 +2449,7 @@ take 金币 4000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 
 #IF
@@ -2462,7 +2462,7 @@ take 金币 4000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 
 #IF
@@ -2475,7 +2475,7 @@ take 金币 4000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 
 #IF
@@ -2488,7 +2488,7 @@ take 金币 4000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 
 #IF
@@ -2501,7 +2501,7 @@ take 金币 4000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 
 #IF
@@ -2514,7 +2514,7 @@ take 金币 4000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 
 #IF
@@ -2527,7 +2527,7 @@ take 金币 4000000
 give 师承戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_JungGun
 
 
 #IF
@@ -2540,7 +2540,7 @@ take 金币 4000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 
 #IF
@@ -2553,7 +2553,7 @@ take 金币 4000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 
 #IF
@@ -2566,7 +2566,7 @@ take 金币 4000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 
 #IF
@@ -2579,7 +2579,7 @@ take 金币 4000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 
 #IF
@@ -2592,7 +2592,7 @@ take 金币 4000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 
 #IF
@@ -2605,7 +2605,7 @@ take 金币 4000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 
 #IF
@@ -2618,7 +2618,7 @@ take 金币 4000000
 give 龙马戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_YongMa
 
 
 #IF
@@ -2631,7 +2631,7 @@ take 金币 4000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 
 #IF
@@ -2644,7 +2644,7 @@ take 金币 4000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 
 #IF
@@ -2657,7 +2657,7 @@ take 金币 4000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 
 #IF
@@ -2670,7 +2670,7 @@ take 金币 4000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 
 #IF
@@ -2683,7 +2683,7 @@ take 金币 4000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 
 #IF
@@ -2696,7 +2696,7 @@ take 金币 4000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 
 #IF
@@ -2709,7 +2709,7 @@ take 金币 4000000
 give 青云戒指（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_ChongMil
 
 
 #IF
@@ -2722,7 +2722,7 @@ take 金币 4000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 
 #IF
@@ -2735,7 +2735,7 @@ take 金币 4000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 
 #IF
@@ -2748,7 +2748,7 @@ take 金币 4000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 
 #IF
@@ -2761,7 +2761,7 @@ take 金币 4000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 
 #IF
@@ -2774,7 +2774,7 @@ take 金币 4000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 
 #IF
@@ -2787,7 +2787,7 @@ take 金币 4000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 
 #IF
@@ -2800,7 +2800,7 @@ take 金币 4000000
 give 破荒项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_PaHwang
 
 
 #IF
@@ -2813,7 +2813,7 @@ take 金币 4000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 
 #IF
@@ -2826,7 +2826,7 @@ take 金币 4000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 
 #IF
@@ -2839,7 +2839,7 @@ take 金币 4000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 
 #IF
@@ -2852,7 +2852,7 @@ take 金币 4000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 
 #IF
@@ -2865,7 +2865,7 @@ take 金币 4000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 
 #IF
@@ -2878,7 +2878,7 @@ take 金币 4000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 
 #IF
@@ -2891,7 +2891,7 @@ take 金币 4000000
 give 魔云项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_MaUn
 
 
 #IF
@@ -2904,7 +2904,7 @@ take 金币 4000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 
 #IF
@@ -2917,7 +2917,7 @@ take 金币 4000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 
 #IF
@@ -2930,7 +2930,7 @@ take 金币 4000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 
 #IF
@@ -2943,7 +2943,7 @@ take 金币 4000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 
 #IF
@@ -2956,7 +2956,7 @@ take 金币 4000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 
 #IF
@@ -2969,7 +2969,7 @@ take 金币 4000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 
 #IF
@@ -2982,7 +2982,7 @@ take 金币 4000000
 give 定心项链（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SuSin
 
 
 #IF
@@ -2995,7 +2995,7 @@ take 金币 4000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 
 #IF
@@ -3008,7 +3008,7 @@ take 金币 4000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 
 #IF
@@ -3021,7 +3021,7 @@ take 金币 4000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 
 #IF
@@ -3034,7 +3034,7 @@ take 金币 4000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 
 #IF
@@ -3047,7 +3047,7 @@ take 金币 4000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 
 #IF
@@ -3060,7 +3060,7 @@ take 金币 4000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 
 #IF
@@ -3073,7 +3073,7 @@ take 金币 4000000
 give 金棱手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_KumGak
 
 
 #IF
@@ -3086,7 +3086,7 @@ take 金币 4000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 
 #IF
@@ -3099,7 +3099,7 @@ take 金币 4000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 
 #IF
@@ -3112,7 +3112,7 @@ take 金币 4000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 
 #IF
@@ -3125,7 +3125,7 @@ take 金币 4000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 
 #IF
@@ -3138,7 +3138,7 @@ take 金币 4000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 
 #IF
@@ -3151,7 +3151,7 @@ take 金币 4000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 
 #IF
@@ -3164,7 +3164,7 @@ take 金币 4000000
 give 思过手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_GuiByub
 
 
 #IF
@@ -3177,7 +3177,7 @@ take 金币 4000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 
 #IF
@@ -3190,7 +3190,7 @@ take 金币 4000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 
 #IF
@@ -3203,7 +3203,7 @@ take 金币 4000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 
 #IF
@@ -3216,7 +3216,7 @@ take 金币 4000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 
 #IF
@@ -3229,7 +3229,7 @@ take 金币 4000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 
 #IF
@@ -3242,7 +3242,7 @@ take 金币 4000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 
 #IF
@@ -3255,11 +3255,11 @@ take 金币 4000000
 give 世尊手镯（冰） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Ice_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Change_ItemAtom_Light]
 #IF
@@ -3272,7 +3272,7 @@ take 金币 4000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -3285,7 +3285,7 @@ take 金币 4000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -3298,7 +3298,7 @@ take 金币 4000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -3311,7 +3311,7 @@ take 金币 4000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -3324,7 +3324,7 @@ take 金币 4000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -3337,7 +3337,7 @@ take 金币 4000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -3350,7 +3350,7 @@ take 金币 4000000
 give 师承戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_JungGun
 
 
 #IF
@@ -3363,7 +3363,7 @@ take 金币 4000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -3376,7 +3376,7 @@ take 金币 4000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -3389,7 +3389,7 @@ take 金币 4000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -3402,7 +3402,7 @@ take 金币 4000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -3415,7 +3415,7 @@ take 金币 4000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -3428,7 +3428,7 @@ take 金币 4000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -3441,7 +3441,7 @@ take 金币 4000000
 give 龙马戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_YongMa
 
 
 #IF
@@ -3454,7 +3454,7 @@ take 金币 4000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -3467,7 +3467,7 @@ take 金币 4000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -3480,7 +3480,7 @@ take 金币 4000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -3493,7 +3493,7 @@ take 金币 4000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -3506,7 +3506,7 @@ take 金币 4000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -3519,7 +3519,7 @@ take 金币 4000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -3532,7 +3532,7 @@ take 金币 4000000
 give 青云戒指（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_ChongMil
 
 
 #IF
@@ -3545,7 +3545,7 @@ take 金币 4000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -3558,7 +3558,7 @@ take 金币 4000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -3571,7 +3571,7 @@ take 金币 4000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -3584,7 +3584,7 @@ take 金币 4000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -3597,7 +3597,7 @@ take 金币 4000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -3610,7 +3610,7 @@ take 金币 4000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -3623,7 +3623,7 @@ take 金币 4000000
 give 破荒项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_PaHwang
 
 
 #IF
@@ -3636,7 +3636,7 @@ take 金币 4000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -3649,7 +3649,7 @@ take 金币 4000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -3662,7 +3662,7 @@ take 金币 4000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -3675,7 +3675,7 @@ take 金币 4000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -3688,7 +3688,7 @@ take 金币 4000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -3701,7 +3701,7 @@ take 金币 4000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -3714,7 +3714,7 @@ take 金币 4000000
 give 魔云项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_MaUn
 
 
 #IF
@@ -3727,7 +3727,7 @@ take 金币 4000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -3740,7 +3740,7 @@ take 金币 4000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -3753,7 +3753,7 @@ take 金币 4000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -3766,7 +3766,7 @@ take 金币 4000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -3779,7 +3779,7 @@ take 金币 4000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -3792,7 +3792,7 @@ take 金币 4000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -3805,7 +3805,7 @@ take 金币 4000000
 give 定心项链（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SuSin
 
 
 #IF
@@ -3818,7 +3818,7 @@ take 金币 4000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -3831,7 +3831,7 @@ take 金币 4000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -3844,7 +3844,7 @@ take 金币 4000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -3857,7 +3857,7 @@ take 金币 4000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -3870,7 +3870,7 @@ take 金币 4000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -3883,7 +3883,7 @@ take 金币 4000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -3896,7 +3896,7 @@ take 金币 4000000
 give 金棱手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_KumGak
 
 
 #IF
@@ -3909,7 +3909,7 @@ take 金币 4000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -3922,7 +3922,7 @@ take 金币 4000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -3935,7 +3935,7 @@ take 金币 4000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -3948,7 +3948,7 @@ take 金币 4000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -3961,7 +3961,7 @@ take 金币 4000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -3974,7 +3974,7 @@ take 金币 4000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -3987,7 +3987,7 @@ take 金币 4000000
 give 思过手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_GuiByub
 
 
 #IF
@@ -4000,7 +4000,7 @@ take 金币 4000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #IF
@@ -4013,7 +4013,7 @@ take 金币 4000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #IF
@@ -4026,7 +4026,7 @@ take 金币 4000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #IF
@@ -4039,7 +4039,7 @@ take 金币 4000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #IF
@@ -4052,7 +4052,7 @@ take 金币 4000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #IF
@@ -4065,7 +4065,7 @@ take 金币 4000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #IF
@@ -4078,11 +4078,11 @@ take 金币 4000000
 give 世尊手镯（雷） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Light_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Change_ItemAtom_Wind]
 #IF
@@ -4095,7 +4095,7 @@ take 金币 4000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -4108,7 +4108,7 @@ take 金币 4000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -4121,7 +4121,7 @@ take 金币 4000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -4134,7 +4134,7 @@ take 金币 4000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -4147,7 +4147,7 @@ take 金币 4000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -4160,7 +4160,7 @@ take 金币 4000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -4173,7 +4173,7 @@ take 金币 4000000
 give 师承戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_JungGun
 
 
 #IF
@@ -4186,7 +4186,7 @@ take 金币 4000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -4199,7 +4199,7 @@ take 金币 4000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -4212,7 +4212,7 @@ take 金币 4000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -4225,7 +4225,7 @@ take 金币 4000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -4238,7 +4238,7 @@ take 金币 4000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -4251,7 +4251,7 @@ take 金币 4000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -4264,7 +4264,7 @@ take 金币 4000000
 give 龙马戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_YongMa
 
 
 #IF
@@ -4277,7 +4277,7 @@ take 金币 4000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -4290,7 +4290,7 @@ take 金币 4000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -4303,7 +4303,7 @@ take 金币 4000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -4316,7 +4316,7 @@ take 金币 4000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -4329,7 +4329,7 @@ take 金币 4000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -4342,7 +4342,7 @@ take 金币 4000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -4355,7 +4355,7 @@ take 金币 4000000
 give 青云戒指（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_ChongMil
 
 
 #IF
@@ -4368,7 +4368,7 @@ take 金币 4000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -4381,7 +4381,7 @@ take 金币 4000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -4394,7 +4394,7 @@ take 金币 4000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -4407,7 +4407,7 @@ take 金币 4000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -4420,7 +4420,7 @@ take 金币 4000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -4433,7 +4433,7 @@ take 金币 4000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -4446,7 +4446,7 @@ take 金币 4000000
 give 破荒项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_PaHwang
 
 
 #IF
@@ -4459,7 +4459,7 @@ take 金币 4000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -4472,7 +4472,7 @@ take 金币 4000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -4485,7 +4485,7 @@ take 金币 4000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -4498,7 +4498,7 @@ take 金币 4000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -4511,7 +4511,7 @@ take 金币 4000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -4524,7 +4524,7 @@ take 金币 4000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -4537,7 +4537,7 @@ take 金币 4000000
 give 魔云项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_MaUn
 
 
 #IF
@@ -4550,7 +4550,7 @@ take 金币 4000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -4563,7 +4563,7 @@ take 金币 4000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -4576,7 +4576,7 @@ take 金币 4000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -4589,7 +4589,7 @@ take 金币 4000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -4602,7 +4602,7 @@ take 金币 4000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -4615,7 +4615,7 @@ take 金币 4000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -4628,7 +4628,7 @@ take 金币 4000000
 give 定心项链（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SuSin
 
 
 #IF
@@ -4641,7 +4641,7 @@ take 金币 4000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -4654,7 +4654,7 @@ take 金币 4000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -4667,7 +4667,7 @@ take 金币 4000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -4680,7 +4680,7 @@ take 金币 4000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -4693,7 +4693,7 @@ take 金币 4000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -4706,7 +4706,7 @@ take 金币 4000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -4719,7 +4719,7 @@ take 金币 4000000
 give 金棱手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_KumGak
 
 
 #IF
@@ -4732,7 +4732,7 @@ take 金币 4000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -4745,7 +4745,7 @@ take 金币 4000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -4758,7 +4758,7 @@ take 金币 4000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -4771,7 +4771,7 @@ take 金币 4000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -4784,7 +4784,7 @@ take 金币 4000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -4797,7 +4797,7 @@ take 金币 4000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -4810,7 +4810,7 @@ take 金币 4000000
 give 思过手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_GuiByub
 
 
 #IF
@@ -4823,7 +4823,7 @@ take 金币 4000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #IF
@@ -4836,7 +4836,7 @@ take 金币 4000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #IF
@@ -4849,7 +4849,7 @@ take 金币 4000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #IF
@@ -4862,7 +4862,7 @@ take 金币 4000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #IF
@@ -4875,7 +4875,7 @@ take 金币 4000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #IF
@@ -4888,7 +4888,7 @@ take 金币 4000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #IF
@@ -4901,11 +4901,11 @@ take 金币 4000000
 give 世尊手镯（风） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Wind_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Change_ItemAtom_Holy]
 #IF
@@ -4918,7 +4918,7 @@ take 金币 4000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -4931,7 +4931,7 @@ take 金币 4000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -4944,7 +4944,7 @@ take 金币 4000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -4957,7 +4957,7 @@ take 金币 4000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -4970,7 +4970,7 @@ take 金币 4000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -4983,7 +4983,7 @@ take 金币 4000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -4996,7 +4996,7 @@ take 金币 4000000
 give 师承戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_JungGun
 
 
 #IF
@@ -5009,7 +5009,7 @@ take 金币 4000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -5022,7 +5022,7 @@ take 金币 4000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -5035,7 +5035,7 @@ take 金币 4000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -5048,7 +5048,7 @@ take 金币 4000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -5061,7 +5061,7 @@ take 金币 4000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -5074,7 +5074,7 @@ take 金币 4000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -5087,7 +5087,7 @@ take 金币 4000000
 give 龙马戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_YongMa
 
 
 #IF
@@ -5100,7 +5100,7 @@ take 金币 4000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -5113,7 +5113,7 @@ take 金币 4000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -5126,7 +5126,7 @@ take 金币 4000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -5139,7 +5139,7 @@ take 金币 4000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -5152,7 +5152,7 @@ take 金币 4000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -5165,7 +5165,7 @@ take 金币 4000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -5178,7 +5178,7 @@ take 金币 4000000
 give 青云戒指（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_ChongMil
 
 
 #IF
@@ -5191,7 +5191,7 @@ take 金币 4000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -5204,7 +5204,7 @@ take 金币 4000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -5217,7 +5217,7 @@ take 金币 4000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -5230,7 +5230,7 @@ take 金币 4000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -5243,7 +5243,7 @@ take 金币 4000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -5256,7 +5256,7 @@ take 金币 4000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -5269,7 +5269,7 @@ take 金币 4000000
 give 破荒项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_PaHwang
 
 
 #IF
@@ -5282,7 +5282,7 @@ take 金币 4000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -5295,7 +5295,7 @@ take 金币 4000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -5308,7 +5308,7 @@ take 金币 4000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -5321,7 +5321,7 @@ take 金币 4000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -5334,7 +5334,7 @@ take 金币 4000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -5347,7 +5347,7 @@ take 金币 4000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -5360,7 +5360,7 @@ take 金币 4000000
 give 魔云项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_MaUn
 
 
 #IF
@@ -5373,7 +5373,7 @@ take 金币 4000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -5386,7 +5386,7 @@ take 金币 4000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -5399,7 +5399,7 @@ take 金币 4000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -5412,7 +5412,7 @@ take 金币 4000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -5425,7 +5425,7 @@ take 金币 4000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -5438,7 +5438,7 @@ take 金币 4000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -5451,7 +5451,7 @@ take 金币 4000000
 give 定心项链（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SuSin
 
 
 #IF
@@ -5464,7 +5464,7 @@ take 金币 4000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -5477,7 +5477,7 @@ take 金币 4000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -5490,7 +5490,7 @@ take 金币 4000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -5503,7 +5503,7 @@ take 金币 4000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -5516,7 +5516,7 @@ take 金币 4000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -5529,7 +5529,7 @@ take 金币 4000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -5542,7 +5542,7 @@ take 金币 4000000
 give 金棱手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_KumGak
 
 
 #IF
@@ -5555,7 +5555,7 @@ take 金币 4000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -5568,7 +5568,7 @@ take 金币 4000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -5581,7 +5581,7 @@ take 金币 4000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -5594,7 +5594,7 @@ take 金币 4000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -5607,7 +5607,7 @@ take 金币 4000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -5620,7 +5620,7 @@ take 金币 4000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -5633,7 +5633,7 @@ take 金币 4000000
 give 思过手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_GuiByub
 
 
 #IF
@@ -5646,7 +5646,7 @@ take 金币 4000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #IF
@@ -5659,7 +5659,7 @@ take 金币 4000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #IF
@@ -5672,7 +5672,7 @@ take 金币 4000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #IF
@@ -5685,7 +5685,7 @@ take 金币 4000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #IF
@@ -5698,7 +5698,7 @@ take 金币 4000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #IF
@@ -5711,7 +5711,7 @@ take 金币 4000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #IF
@@ -5724,11 +5724,11 @@ take 金币 4000000
 give 世尊手镯（神圣） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Holy_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Change_ItemAtom_Dark]
 #IF
@@ -5741,7 +5741,7 @@ take 金币 4000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -5754,7 +5754,7 @@ take 金币 4000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -5767,7 +5767,7 @@ take 金币 4000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -5780,7 +5780,7 @@ take 金币 4000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -5793,7 +5793,7 @@ take 金币 4000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -5806,7 +5806,7 @@ take 金币 4000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -5819,7 +5819,7 @@ take 金币 4000000
 give 师承戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_JungGun
 
 
 #IF
@@ -5832,7 +5832,7 @@ take 金币 4000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -5845,7 +5845,7 @@ take 金币 4000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -5858,7 +5858,7 @@ take 金币 4000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -5871,7 +5871,7 @@ take 金币 4000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -5884,7 +5884,7 @@ take 金币 4000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -5897,7 +5897,7 @@ take 金币 4000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -5910,7 +5910,7 @@ take 金币 4000000
 give 龙马戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_YongMa
 
 
 #IF
@@ -5923,7 +5923,7 @@ take 金币 4000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -5936,7 +5936,7 @@ take 金币 4000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -5949,7 +5949,7 @@ take 金币 4000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -5962,7 +5962,7 @@ take 金币 4000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -5975,7 +5975,7 @@ take 金币 4000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -5988,7 +5988,7 @@ take 金币 4000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -6001,7 +6001,7 @@ take 金币 4000000
 give 青云戒指（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_ChongMil
 
 
 #IF
@@ -6014,7 +6014,7 @@ take 金币 4000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -6027,7 +6027,7 @@ take 金币 4000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -6040,7 +6040,7 @@ take 金币 4000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -6053,7 +6053,7 @@ take 金币 4000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -6066,7 +6066,7 @@ take 金币 4000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -6079,7 +6079,7 @@ take 金币 4000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -6092,7 +6092,7 @@ take 金币 4000000
 give 破荒项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_PaHwang
 
 
 #IF
@@ -6105,7 +6105,7 @@ take 金币 4000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -6118,7 +6118,7 @@ take 金币 4000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -6131,7 +6131,7 @@ take 金币 4000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -6144,7 +6144,7 @@ take 金币 4000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -6157,7 +6157,7 @@ take 金币 4000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -6170,7 +6170,7 @@ take 金币 4000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -6183,7 +6183,7 @@ take 金币 4000000
 give 魔云项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_MaUn
 
 
 #IF
@@ -6196,7 +6196,7 @@ take 金币 4000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -6209,7 +6209,7 @@ take 金币 4000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -6222,7 +6222,7 @@ take 金币 4000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -6235,7 +6235,7 @@ take 金币 4000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -6248,7 +6248,7 @@ take 金币 4000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -6261,7 +6261,7 @@ take 金币 4000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -6274,7 +6274,7 @@ take 金币 4000000
 give 定心项链（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SuSin
 
 
 #IF
@@ -6287,7 +6287,7 @@ take 金币 4000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -6300,7 +6300,7 @@ take 金币 4000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -6313,7 +6313,7 @@ take 金币 4000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -6326,7 +6326,7 @@ take 金币 4000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -6339,7 +6339,7 @@ take 金币 4000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -6352,7 +6352,7 @@ take 金币 4000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -6365,7 +6365,7 @@ take 金币 4000000
 give 金棱手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_KumGak
 
 
 #IF
@@ -6378,7 +6378,7 @@ take 金币 4000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -6391,7 +6391,7 @@ take 金币 4000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -6404,7 +6404,7 @@ take 金币 4000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -6417,7 +6417,7 @@ take 金币 4000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -6430,7 +6430,7 @@ take 金币 4000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -6443,7 +6443,7 @@ take 金币 4000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -6456,7 +6456,7 @@ take 金币 4000000
 give 思过手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_GuiByub
 
 
 #IF
@@ -6469,7 +6469,7 @@ take 金币 4000000
 give 世尊手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
 
 
 #IF
@@ -6482,7 +6482,7 @@ take 金币 4000000
 give 世尊手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
 
 
 #IF
@@ -6495,7 +6495,7 @@ take 金币 4000000
 give 世尊手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
 
 
 #IF
@@ -6508,7 +6508,7 @@ take 金币 4000000
 give 世尊手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
 
 
 #IF
@@ -6521,7 +6521,7 @@ take 金币 4000000
 give 世尊手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
 
 
 #IF
@@ -6534,7 +6534,7 @@ take 金币 4000000
 give 世尊手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
 
 
 #IF
@@ -6547,11 +6547,11 @@ take 金币 4000000
 give 世尊手镯（暗黑） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Dark_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Change_ItemAtom_Phantom]
 #IF
@@ -6564,7 +6564,7 @@ take 金币 4000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -6577,7 +6577,7 @@ take 金币 4000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -6590,7 +6590,7 @@ take 金币 4000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -6603,7 +6603,7 @@ take 金币 4000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -6616,7 +6616,7 @@ take 金币 4000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -6629,7 +6629,7 @@ take 金币 4000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -6642,7 +6642,7 @@ take 金币 4000000
 give 师承戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_JungGun
 
 
 #IF
@@ -6655,7 +6655,7 @@ take 金币 4000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -6668,7 +6668,7 @@ take 金币 4000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -6681,7 +6681,7 @@ take 金币 4000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -6694,7 +6694,7 @@ take 金币 4000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -6707,7 +6707,7 @@ take 金币 4000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -6720,7 +6720,7 @@ take 金币 4000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -6733,7 +6733,7 @@ take 金币 4000000
 give 龙马戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_YongMa
 
 
 #IF
@@ -6746,7 +6746,7 @@ take 金币 4000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -6759,7 +6759,7 @@ take 金币 4000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -6772,7 +6772,7 @@ take 金币 4000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -6785,7 +6785,7 @@ take 金币 4000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -6798,7 +6798,7 @@ take 金币 4000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -6811,7 +6811,7 @@ take 金币 4000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -6824,7 +6824,7 @@ take 金币 4000000
 give 青云戒指（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_ChongMil
 
 
 #IF
@@ -6837,7 +6837,7 @@ take 金币 4000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -6850,7 +6850,7 @@ take 金币 4000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -6863,7 +6863,7 @@ take 金币 4000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -6876,7 +6876,7 @@ take 金币 4000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -6889,7 +6889,7 @@ take 金币 4000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -6902,7 +6902,7 @@ take 金币 4000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -6915,7 +6915,7 @@ take 金币 4000000
 give 破荒项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_PaHwang
 
 
 #IF
@@ -6928,7 +6928,7 @@ take 金币 4000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -6941,7 +6941,7 @@ take 金币 4000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -6954,7 +6954,7 @@ take 金币 4000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -6967,7 +6967,7 @@ take 金币 4000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -6980,7 +6980,7 @@ take 金币 4000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -6993,7 +6993,7 @@ take 金币 4000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -7006,7 +7006,7 @@ take 金币 4000000
 give 魔云项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_MaUn
 
 
 #IF
@@ -7019,7 +7019,7 @@ take 金币 4000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -7032,7 +7032,7 @@ take 金币 4000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -7045,7 +7045,7 @@ take 金币 4000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -7058,7 +7058,7 @@ take 金币 4000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -7071,7 +7071,7 @@ take 金币 4000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -7084,7 +7084,7 @@ take 金币 4000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -7097,7 +7097,7 @@ take 金币 4000000
 give 定心项链（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SuSin
 
 
 #IF
@@ -7110,7 +7110,7 @@ take 金币 4000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -7123,7 +7123,7 @@ take 金币 4000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -7136,7 +7136,7 @@ take 金币 4000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -7149,7 +7149,7 @@ take 金币 4000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -7162,7 +7162,7 @@ take 金币 4000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -7175,7 +7175,7 @@ take 金币 4000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -7188,7 +7188,7 @@ take 金币 4000000
 give 金棱手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_KumGak
 
 
 #IF
@@ -7201,7 +7201,7 @@ take 金币 4000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -7214,7 +7214,7 @@ take 金币 4000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -7227,7 +7227,7 @@ take 金币 4000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -7240,7 +7240,7 @@ take 金币 4000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -7253,7 +7253,7 @@ take 金币 4000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -7266,7 +7266,7 @@ take 金币 4000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -7279,7 +7279,7 @@ take 金币 4000000
 give 思过手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_GuiByub
 
 
 #IF
@@ -7292,7 +7292,7 @@ take 金币 4000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #IF
@@ -7305,7 +7305,7 @@ take 金币 4000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #IF
@@ -7318,7 +7318,7 @@ take 金币 4000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #IF
@@ -7331,7 +7331,7 @@ take 金币 4000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #IF
@@ -7344,7 +7344,7 @@ take 金币 4000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #IF
@@ -7357,7 +7357,7 @@ take 金币 4000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #IF
@@ -7370,16 +7370,16 @@ take 金币 4000000
 give 世尊手镯（幻影） 1
 break
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Phantom_SeiJon
 
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_NoMaterial_1
 
 [@Help_ItemAtom]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Help
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/AtomItem.txt] @AtomItem_Help
 
 }
 

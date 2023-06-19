@@ -8,10 +8,10 @@ set [799] 0
 #IF
 checklevel 33
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/MapQuest/Na_ExitSinGiSun.txt] @NPC_SinGiQuest
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/MapQuest/Na_ExitSinGiSun.txt] @NPC_SinGiQuest
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/SinGiSun/MapQuest/Na_ExitSinGiSun.txt] @NPC_ExitSinGi
+	#INCLUDE [Convert_Def/QuestDiary/SinGiSun/MapQuest/Na_ExitSinGiSun.txt] @NPC_ExitSinGi
 
 [@SinGiQuest_Start]
 #IF

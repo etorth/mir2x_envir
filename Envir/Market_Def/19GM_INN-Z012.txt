@@ -5,29 +5,29 @@
 [@main]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Main
 
 
 #IF
 IsAdmin
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Admin_Main
+	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Admin_Main
 
 ;----------------------------------------------------------
 
 [@storage]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Storage
+	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Storage
 
 [@getback]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_GetBack
+	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_GetBack
 
 ;----------------------------------------------------------
 
 [@admin_menu]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Admin_Menu
+	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z012.txt] @NPC_Admin_Menu
 
 ;----------------------------------------------------------
 ; Break Event

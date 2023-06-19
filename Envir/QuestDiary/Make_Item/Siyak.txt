@@ -2,7 +2,7 @@
 [@make_Potion_main]
 {
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_1
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_1
 
 
 ;------------------------
@@ -16,10 +16,10 @@ take ÉÕ¾Æ 1
 take ¶¾Éßµ¨Ö­ 6
 give Ã¼·ÂÈ¸º¹¾à(¼Ò) 10
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_2
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_2
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_3
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_3
 
 
 ;------------------------
@@ -34,7 +34,7 @@ take ÷¼÷Ã¹Ç 10
 mov d0 0
 goto @Make_Potion_HPPotionM_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_4
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_4
 
 
 [@Make_Potion_HPPotionM_1]
@@ -52,7 +52,7 @@ goto @Make_Potion_HPPotionM_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_5
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_5
 
 
 [@Make_Potion_HPPotionM_3]
@@ -61,7 +61,7 @@ mov d0 0
 give ½ð´´Ò©£¨ÖÐ£© 10
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_6
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_6
 
 
 ;------------------------
@@ -78,7 +78,7 @@ take ÑÀ³Ý 3
 mov d0 0
 goto @Make_Potion_HPPotionL_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_7
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_7
 
 
 [@Make_Potion_HPPotionL_1]
@@ -96,7 +96,7 @@ goto @Make_Potion_HPPotionL_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_8
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_8
 
 
 [@Make_Potion_HPPotionL_3]
@@ -105,7 +105,7 @@ mov d0 0
 give ½ð´´Ò©£¨´ó£© 10
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_9
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_9
 
 
 ;------------------------
@@ -124,7 +124,7 @@ take ÅËÒ¹Ö®Àá 4
 mov d0 0
 goto @Make_Potion_HPPotionXL_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_10
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_10
 
 
 [@Make_Potion_HPPotionXL_1]
@@ -142,7 +142,7 @@ goto @Make_Potion_HPPotionXL_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_11
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_11
 
 
 [@Make_Potion_HPPotionXL_3]
@@ -151,7 +151,7 @@ mov d0 0
 give ½ð´´Ò©£¨ÌØ£© 10
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_12
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_12
 
 
 ;--------------------------------------------------------
@@ -166,10 +166,10 @@ take ÷¼÷Ã¹Ç 3
 take ÉÕ¾Æ 1
 give Ä§·¨Ò©£¨Ð¡£© 10
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_13
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_13
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_14
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_14
 
 
 
@@ -186,7 +186,7 @@ take ÉÕ¾Æ 1
 mov d0 0
 goto @Make_Potion_MPPotionM_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_15
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_15
 
 
 [@Make_Potion_MPPotionM_1]
@@ -204,7 +204,7 @@ goto @Make_Potion_MPPotionM_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_16
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_16
 
 
 [@Make_Potion_MPPotionM_3]
@@ -213,7 +213,7 @@ mov d0 0
 give Ä§·¨Ò©£¨ÖÐ£© 10
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_17
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_17
 
 
 ;------------------------
@@ -230,7 +230,7 @@ take ÉÕ¾Æ 2
 mov d0 0
 goto @Make_Potion_MPPotionL_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_18
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_18
 
 
 [@Make_Potion_MPPotionL_1]
@@ -248,7 +248,7 @@ goto @Make_Potion_MPPotionL_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_19
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_19
 
 
 [@Make_Potion_MPPotionL_3]
@@ -257,7 +257,7 @@ mov d0 0
 give Ä§·¨Ò©£¨´ó£© 10
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_20
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_20
 
 
 ;------------------------
@@ -274,7 +274,7 @@ take ±¦Óñ 6
 mov d0 0
 goto @Make_Potion_MPPotionXL_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_21
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_21
 
 
 [@Make_Potion_MPPotionXL_1]
@@ -292,7 +292,7 @@ goto @Make_Potion_MPPotionXL_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_22
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_22
 
 
 [@Make_Potion_MPPotionXL_3]
@@ -301,7 +301,7 @@ mov d0 0
 give Ä§·¨Ò©£¨ÌØ£© 10
 mov d0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_23
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Siyak.txt] @Siyak_23
 
 
 ;------------------------

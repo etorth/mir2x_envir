@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
@@ -11,11 +11,11 @@ goto @main_0_0
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_Main
 
 [@C_NQuest]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_C_NQuest
+	#INCLUDE [Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_C_NQuest
 
 [@JIYUK_2]
 #CALL [\NQ_HELP\area\wang.txt] @WANG
@@ -57,7 +57,7 @@ goto @main_0_0
 #IF
 CheckDailyQuest 799
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_TQuest
 #ELSEACT
 goto @C_TQuest_0
 
@@ -67,7 +67,7 @@ StartDailyQuest
 #ACT
 goto @C_TQuest_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_TQuest_1
 
 [@C_TQuest_1]
 #IF
@@ -89,7 +89,7 @@ equal d1 1
 mov d1 0
 RandSetDailyQuest 799 799
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_TQuest_2
+	#INCLUDE [Convert_Def/Market_Def/14Doctor_Eunhang-02.txt] @NPC_TQuest_2
 #ELSEACT
 mov d1 0
 goto @C_TQuest_3

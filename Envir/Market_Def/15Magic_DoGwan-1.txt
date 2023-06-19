@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root_1
 
@@ -21,19 +21,19 @@ goto @daebi_other_class
 #IF
 checkjob warrior
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Warrior
+	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Warrior
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Wizard
+	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Wizard
 
 [@daebi_main]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main
+	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main
 
 [@daebi_mugong_main]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Mugong
+	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Mugong
 
 [@holycircle_test_start]
 #IF

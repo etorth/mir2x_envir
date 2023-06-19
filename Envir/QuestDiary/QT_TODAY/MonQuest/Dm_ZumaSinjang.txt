@@ -72,7 +72,7 @@ inc S0 1
 [@jumasinjang_T231_5]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T231_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T231_Say
 
 #ACT
 give ºì¶ð±¦Óñ 1

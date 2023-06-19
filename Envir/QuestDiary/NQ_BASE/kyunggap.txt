@@ -26,7 +26,7 @@ checklevel 11
 #ACT
 goto @Guyonggap_start_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_1
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_1
 
 
 [@Guyonggap_start_3]
@@ -51,7 +51,7 @@ check [160] 0
 check [168] 1
 check [152] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_2
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_2
 
 
 [@Guyonggap_start_5_1]
@@ -60,7 +60,7 @@ check [160] 0
 check [168] 1
 check [152] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_3
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_3
 
 
 [@Guyonggap_start_5_2]
@@ -69,7 +69,7 @@ check [160] 0
 check [168] 1
 check [152] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_4
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_4
 
 
 [@Guyonggap_start_6]
@@ -78,7 +78,7 @@ check [160] 0
 check [168] 1
 check [152] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_5
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_5
 
 
 [@Guyonggap_start_7]
@@ -89,7 +89,7 @@ check [152] 1
 #ACT
 set [161] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_6
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_6
 
 
 [@Guyonggap_start_8]
@@ -100,7 +100,7 @@ check [152] 1
 #ACT
 set [161] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_7
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_7
 
 
 [@Guyonggap_start_9]
@@ -109,7 +109,7 @@ check [160] 0
 check [168] 1
 check [152] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_8
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_8
 
 
 [@Guyonggap_start_10]
@@ -118,7 +118,7 @@ checklevel 11
 #ACT
 goto @Guyonggap_start_11
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_9
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_9
 
 
 [@Guyonggap_start_11]
@@ -142,7 +142,7 @@ goto @Guyonggap_start_12
 check [160] 0
 check [168] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_10
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_10
 
 
 [@Guyonggap_start_13_1]
@@ -150,7 +150,7 @@ check [168] 1
 check [160] 0
 check [168] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_11
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_11
 
 
 [@Guyonggap_start_13_2]
@@ -158,7 +158,7 @@ check [168] 1
 check [160] 0
 check [168] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_12
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_12
 
 
 [@Guyonggap_start_14]
@@ -166,7 +166,7 @@ check [168] 1
 check [160] 0
 check [168] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_13
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_13
 
 
 [@Guyonggap_start_15]
@@ -176,7 +176,7 @@ check [168] 1
 #ACT
 set [162] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_14
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_14
 
 
 [@Guyonggap_start_16]
@@ -186,7 +186,7 @@ check [168] 1
 #ACT
 set [162] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_15
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_15
 
 
 [@Guyonggap_start_17]
@@ -195,7 +195,7 @@ check [160] 0
 check [168] 1
 #ACT
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_16
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_16
 
 
 [@Guyonggap_start_18]
@@ -203,7 +203,7 @@ check [168] 1
 check [160] 0
 check [168] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_17
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_17
 
 [@Guyonggap_start_19_1]
 #IF
@@ -213,13 +213,13 @@ check [168] 1
 reset [161] 1
 set [160] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_18
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_18
 
 
 [@Guyonggap_start_20]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_19
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_19
 
 
 [@Guyonggap_start_19_2]
@@ -230,7 +230,7 @@ check [168] 1
 reset [161] 1
 set [160] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_20
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_20
 
 }
 
@@ -244,13 +244,13 @@ checkduraeva Ìú¿ó 13
 #ACT
 goto @give_iron_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_21
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_21
 
 
 [@give_iron_0]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_22
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_22
 
 
 [@give_iron_1]
@@ -270,7 +270,7 @@ take Ìú¿ó 5
 give ÄÍ¾ÃÇáÐÍ¿ø¼×£¨ÄÐ£© 1
 goto @give_iron_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_23
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_23
 
 
 [@give_iron_2_2]
@@ -282,7 +282,7 @@ take Ìú¿ó 5
 give ÄÍ¾ÃÇáÐÍ¿ø¼×£¨Å®£© 1
 goto @give_iron_3
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_24
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_24
 
 
 [@give_iron_3]
@@ -293,7 +293,7 @@ check [170] 0
 reset [160] 2
 SET [170] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_25
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_25
 
 }
 
@@ -304,12 +304,12 @@ check [152] 1
 #ACT
 goto @Guyonggap_complete_1
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_26
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_26
 
 
 [@Guyonggap_complete_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_27
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/kyunggap.txt] @kyunggap_27
 
 }

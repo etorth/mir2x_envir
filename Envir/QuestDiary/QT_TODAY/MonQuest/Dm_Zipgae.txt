@@ -80,7 +80,7 @@ inc s0 1
 #ACT
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T208_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T208_Say
 
 
 ;-----------------------------------------------------
@@ -125,7 +125,7 @@ checkitem Ç¯³æÆ¤ 4
 give Ç¯³æÆ¤ 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T461_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T461_Say
 
 #ELSEACT
 movr s0 3

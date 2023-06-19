@@ -77,7 +77,7 @@ set [308] 1
 give ÎÖÂêÓÂÊ¿ºÅ½Ç 1
 mov s0 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T456_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T456_Say
 #ELSEACT
 give ÎÖÂêÓÂÊ¿ºÅ½Ç 1
 mov s0 1
@@ -92,7 +92,7 @@ checkitem ÎÖÂêÓÂÊ¿ºÅ½Ç 10
 SET [309] 1
 mov s0 0
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T456_Say_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T456_Say_1
 
 ;		º¯¼ö ÃÊ±âÈ­
 ;----------------------------------------------------------

@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_RedPlayer
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -201,32 +201,32 @@ goto @main_Q2
 [@main_0_1]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_1
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_1
 
 [@main_0_2]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_2
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_2
 
 [@main_0_3]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_3
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_3
 
 [@main_0_4]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_4
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_4
 
 [@main_0_5]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_5
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_5
 
 [@main_0_6]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_6
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Main_6
 
 [@main_Q1]
 ;
@@ -551,27 +551,27 @@ goto @npc_base_0
 
 [@npc_base_0]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_0
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_0
 
 [@npc_base_1]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_1
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_1
 
 [@npc_base_2]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_2
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_2
 
 [@npc_base_3]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_3
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_3
 
 [@npc_base_4]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_4
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_4
 
 [@npc_base_5]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_5
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_Base_5
 
 [@TQuest]
 #IF
@@ -587,7 +587,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_TQuest
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_TQuest
 
 [@TQuest577_0]
 #IF
@@ -639,4 +639,4 @@ goto @TQuest1_1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_TQuest_1
+	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon1-0.txt] @NPC_TQuest_1

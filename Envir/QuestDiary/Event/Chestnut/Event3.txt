@@ -4,7 +4,7 @@
 #IF
 !checkitem 金色栗子 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_1
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_1
 
 #ELSEACT
 goto @gold2
@@ -16,10 +16,10 @@ checkitem 金色栗子 1
 take 金色栗子 1
 give 金币 5000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_2
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_2
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_3
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_3
 
 }
 
@@ -28,7 +28,7 @@ give 金币 5000
 #IF
 !checkitem 银色栗子 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_4
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_4
 
 #ELSEACT
 goto @silver2
@@ -40,10 +40,10 @@ checkitem 银色栗子 1
 take 银色栗子 1
 give 金币 2000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_5
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_5
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_6
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_6
 
 }
 
@@ -52,7 +52,7 @@ give 金币 2000
 #IF
 !checkitem 铜色栗子 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_7
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_7
 
 #ELSEACT
 goto @copper2
@@ -64,10 +64,10 @@ checkitem 铜色栗子 1
 take 铜色栗子 1
 give 金币 1000
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_8
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_8
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_9
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_9
 
 }
 
@@ -76,7 +76,7 @@ give 金币 1000
 #IF
 !checkitem 褐色栗子 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_10
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_10
 
 #ELSEACT
 goto @brown2
@@ -88,9 +88,9 @@ checkitem 褐色栗子 1
 take 褐色栗子 1
 give 金币 500
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_11
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_11
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_12
+	#INCLUDE [Convert_Def/QuestDiary/Event/Chestnut/Event3.txt] @Event3_12
 
 }

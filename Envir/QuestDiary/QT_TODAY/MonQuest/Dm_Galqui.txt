@@ -73,7 +73,7 @@ inc S0 1
 [@galkwii_T534_5]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T534_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T534_Say
 
 #ACT
 give Éß¹ÈÀÏÈËÊÖïí 1

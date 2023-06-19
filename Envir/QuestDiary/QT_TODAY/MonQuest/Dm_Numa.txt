@@ -55,7 +55,7 @@ checkitem 诺玛药水 9
 give 诺玛药水 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T340_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T340_Say
 
 #ELSEACT
 goto @numa_T340_2
@@ -76,7 +76,7 @@ give 诺玛药水 1
 [@numa_T235_5_2]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say_1
 
 #ACT
 inc S0 1
@@ -86,7 +86,7 @@ inc S0 1
 [@numa_T235_6]
 #IF
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say_2
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say_2
 
 #ACT
 set [308] 1
@@ -131,7 +131,7 @@ checkitem 诺玛药水 39
 give 诺玛药水 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T230_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T230_Say
 
 #ELSEACT
 goto @numa_T230_2

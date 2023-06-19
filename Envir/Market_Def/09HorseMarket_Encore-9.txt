@@ -41,7 +41,7 @@ checkhorse 1
 !CheckRiding
 !CheckGold 99749999
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/09HorseMarket_Encore-9.txt] @NPC_SellHorse
+	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Encore-9.txt] @NPC_SellHorse
 #ACT
 give 金币 250000
 KillHorse
@@ -52,11 +52,11 @@ checkhorse 2
 !CheckRiding
 !CheckGold 89999999
 #SAY
-	#INCLUDE [../Convert_Def/Market_Def/09HorseMarket_Encore-9.txt] @NPC_SellHorse
+	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Encore-9.txt] @NPC_SellHorse
 #ACT
 give 金币 10000000
 KillHorse
 break
 
 #ELSESAY
-	#INCLUDE [../Convert_Def/Market_Def/09HorseMarket_Encore-9.txt] @NPC_SellHorse_Fail
+	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Encore-9.txt] @NPC_SellHorse_Fail

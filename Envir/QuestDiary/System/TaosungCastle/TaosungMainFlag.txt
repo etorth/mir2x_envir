@@ -4,7 +4,7 @@
 {
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_0
+#INCLUDE [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_0
 
 }
 
@@ -34,7 +34,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_1
+#INCLUDE [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_1
 
 [@Defence_MainFlag_CheckTAOSUNG()]
 #IF
@@ -96,7 +96,7 @@ IsGuildMaster
 !IsCastleGuild [TAOSUNG]
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_2
+#INCLUDE [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_2
 
 #ACT
 break
@@ -104,13 +104,13 @@ break
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_3
+#INCLUDE [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_3
 
 [@RecusiveTimeRootin_TAOSUNG]
 #IF
 
 #SAY
-#INCLUDE [../Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_4
+#INCLUDE [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] @Convert_TaosungMainFlag_4
 
 #ACT
 CAPTURECASTLEFLAG [TAOSUNG]

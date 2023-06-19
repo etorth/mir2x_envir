@@ -75,7 +75,7 @@ break
 give Æßµã°×Éßµ¨Ö­ 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T466_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T466_Say
 
 
 
@@ -113,7 +113,7 @@ break
 give Æßµã°×ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T468_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T468_Say
 
 
 
@@ -151,7 +151,7 @@ break
 give Æßµã°×ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T496_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T496_Say
 
 
 
@@ -188,7 +188,7 @@ break
 #ACT
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T463_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T463_Say
 
 ;-----------------------------------------------------
 [@chiljumbaksa_T233]
@@ -236,7 +236,7 @@ random 3
 give Æßµã°×ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T233_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T233_Say
 
 ;-----------
 
@@ -256,7 +256,7 @@ random 3
 give Æßµã°×ÉßÑÀ³Ý 1
 set [309] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T233_Say_1
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T233_Say_1
 
 ;-----------------------------------------------------
 
@@ -298,7 +298,7 @@ checkitem Æßµã°×ÉßÑÀ³Ý 49
 give Æßµã°×ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
-	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T116_Say
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T116_Say
 
 #ELSEACT
 goto @chiljumbaksa_T116_2

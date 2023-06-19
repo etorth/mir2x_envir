@@ -19,82 +19,82 @@ goto @main_0_0
 
 
 [@Go_Mu_Wizard_fire_bolt]
-#CALL [QuestDiary/MU_Total_sell/Wizard/fireBolt.txt] @Mu_Wizard_fire_bolt
+#CALL [QuestDiary/MU_Total_Sell/Wizard/fireBolt.txt] @Mu_Wizard_fire_bolt
 
 [@Go_Mu_Wizard_light_bolt]
-#CALL [QuestDiary/MU_Total_sell/Wizard/lightBolt.txt] @Mu_Wizard_light_bolt
+#CALL [QuestDiary/MU_Total_Sell/Wizard/lightBolt.txt] @Mu_Wizard_light_bolt
 
 [@Go_Mu_Wizard_wind_jangpung]
-#CALL [QuestDiary/MU_Total_sell/Wizard/windBolt.txt] @Mu_Wizard_wind_jangpung
+#CALL [QuestDiary/MU_Total_Sell/Wizard/windBolt.txt] @Mu_Wizard_wind_jangpung
 
 [@Go_Mu_Wizard_ice_bolt]
-#CALL [QuestDiary/MU_Total_sell/Wizard/iceBolt.txt] @Mu_Wizard_ice_bolt
+#CALL [QuestDiary/MU_Total_Sell/Wizard/iceBolt.txt] @Mu_Wizard_ice_bolt
 
 [@Go_Mu_Wizard_fire_strom]
-#CALL [QuestDiary/MU_Total_sell/Wizard/fireStorm.txt] @Mu_Wizard_fire_storm
+#CALL [QuestDiary/MU_Total_Sell/Wizard/fireStorm.txt] @Mu_Wizard_fire_storm
 
 [@Go_Mu_Wizard_light_shock]
-#CALL [QuestDiary/MU_Total_sell/Wizard/lightShock.txt] @Mu_Wizard_light_shock
+#CALL [QuestDiary/MU_Total_Sell/Wizard/lightShock.txt] @Mu_Wizard_light_shock
 
 [@Go_Mu_Wizard_fire_line]
-#CALL [QuestDiary/MU_Total_sell/Wizard/fireLine.txt] @Mu_Wizard_fire_line
+#CALL [QuestDiary/MU_Total_Sell/Wizard/fireLine.txt] @Mu_Wizard_fire_line
 
 [@Go_Mu_Wizard_light_recall]
-#CALL [QuestDiary/MU_Total_sell/Wizard/lightRecall.txt] @Mu_Wizard_light_recall
+#CALL [QuestDiary/MU_Total_Sell/Wizard/lightRecall.txt] @Mu_Wizard_light_recall
 
 [@Go_Mu_Wizard_wind_kyoukpung]
-#CALL [QuestDiary/MU_Total_sell/Wizard/kyoukpung.txt] @Mu_Wizard_wind_kyoukpung
+#CALL [QuestDiary/MU_Total_Sell/Wizard/kyoukpung.txt] @Mu_Wizard_wind_kyoukpung
 
 [@Go_Mu_Wizard_fire_Upbolt]
-#CALL [QuestDiary/MU_Total_sell/Wizard/fireUpbolt.txt] @Mu_Wizard_fire_Upbolt
+#CALL [QuestDiary/MU_Total_Sell/Wizard/fireUpbolt.txt] @Mu_Wizard_fire_Upbolt
 
 [@Go_Mu_Wizard_ETC_teleport]
-#CALL [QuestDiary/MU_Total_sell/Wizard/teleport.txt] @Mu_Wizard_ETC_teleport
+#CALL [QuestDiary/MU_Total_Sell/Wizard/teleport.txt] @Mu_Wizard_ETC_teleport
 
 [@Go_Mu_Wizard_ice_Upbolt]
-#CALL [QuestDiary/MU_Total_sell/Wizard/iceUpbolt.txt] @Mu_Wizard_ice_Upbolt
+#CALL [QuestDiary/MU_Total_Sell/Wizard/iceUpbolt.txt] @Mu_Wizard_ice_Upbolt
 
 [@Go_Mu_Wizard_fire_pokyel]
-#CALL [QuestDiary/MU_Total_sell/Wizard/pokyel.txt] @Mu_Wizard_fire_pokyel
+#CALL [QuestDiary/MU_Total_Sell/Wizard/pokyel.txt] @Mu_Wizard_fire_pokyel
 
 [@Go_Mu_Wizard_wind_pungjin]
-#CALL [QuestDiary/MU_Total_sell/Wizard/windLine.txt] @Mu_Wizard_wind_pungjin
+#CALL [QuestDiary/MU_Total_Sell/Wizard/windLine.txt] @Mu_Wizard_wind_pungjin
 
 [@Go_Mu_Wizard_fire_jiyem]
-#CALL [QuestDiary/MU_Total_sell/Wizard/jiyem.txt] @Mu_Wizard_fire_jiyem
+#CALL [QuestDiary/MU_Total_Sell/Wizard/jiyem.txt] @Mu_Wizard_fire_jiyem
 
 [@Go_Mu_Wizard_fire_shild]
-#CALL [QuestDiary/MU_Total_sell/Wizard/fireShild.txt] @Mu_Wizard_fire_shild
+#CALL [QuestDiary/MU_Total_Sell/Wizard/fireShild.txt] @Mu_Wizard_fire_shild
 
 [@Go_Mu_Wizard_light_line]
-#CALL [QuestDiary/MU_Total_sell/Wizard/lightLine.txt] @Mu_Wizard_light_line
+#CALL [QuestDiary/MU_Total_Sell/Wizard/lightLine.txt] @Mu_Wizard_light_line
 
 [@Go_Mu_Wizard_light_storm]
-#CALL [QuestDiary/MU_Total_sell/Wizard/lightStorm.txt] @Mu_Wizard_light_storm
+#CALL [QuestDiary/MU_Total_Sell/Wizard/lightStorm.txt] @Mu_Wizard_light_storm
 
 [@Go_Mu_Wizard_ETC_saja]
-#CALL [QuestDiary/MU_Total_sell/Wizard/saja.txt] @Mu_Wizard_ETC_saja
+#CALL [QuestDiary/MU_Total_Sell/Wizard/saja.txt] @Mu_Wizard_ETC_saja
 
 [@Go_Mu_Wizard_ice_strom]
-#CALL [QuestDiary/MU_Total_sell/Wizard/iceStrom.txt] @Mu_Wizard_ice_strom
+#CALL [QuestDiary/MU_Total_Sell/Wizard/iceStrom.txt] @Mu_Wizard_ice_strom
 
 [@Go_Mu_Wizard_ehyung]
-#CALL [QuestDiary/MU_Total_sell/Wizard/ehyung.txt] @Mu_Wizard_ehyung
+#CALL [QuestDiary/MU_Total_Sell/Wizard/ehyung.txt] @Mu_Wizard_ehyung
 
 [@Go_Mu_Wizard_bingsa]
-#CALL [QuestDiary/MU_Total_sell/Wizard/iceLine.txt] @Mu_Wizard_bingsa
+#CALL [QuestDiary/MU_Total_Sell/Wizard/iceLine.txt] @Mu_Wizard_bingsa
 
 [@Go_Mu_Wizard_yongsun]
-#CALL [QuestDiary/MU_Total_sell/Wizard/yongsun.txt] @Mu_Wizard_yongsun
+#CALL [QuestDiary/MU_Total_Sell/Wizard/yongsun.txt] @Mu_Wizard_yongsun
 
 [@Go_Mu_Wizard_fire_pobing]
-#CALL [QuestDiary/MU_Total_sell/Wizard/pobing.txt] @Mu_Wizard_fire_pobing
+#CALL [QuestDiary/MU_Total_Sell/Wizard/pobing.txt] @Mu_Wizard_fire_pobing
 
 [@Go_Mu_Wizard_light_nushen]
-#CALL [QuestDiary/MU_Total_sell/Wizard/nushen.txt] @Mu_Wizard_light_nushen
+#CALL [QuestDiary/MU_Total_Sell/Wizard/nushen.txt] @Mu_Wizard_light_nushen
 
 [@Go_Mu_Wizard_fire_yantian]
-#CALL [QuestDiary/MU_Total_sell/Wizard/yantian.txt] @Mu_Wizard_fire_yantian
+#CALL [QuestDiary/MU_Total_Sell/Wizard/yantian.txt] @Mu_Wizard_fire_yantian
 
 [@Go_Mu_Wizard_ningxue]
-#CALL [QuestDiary/MU_Total_sell/Wizard/ningxue.txt] @Mu_Wizard_ningxue
+#CALL [QuestDiary/MU_Total_Sell/Wizard/ningxue.txt] @Mu_Wizard_ningxue

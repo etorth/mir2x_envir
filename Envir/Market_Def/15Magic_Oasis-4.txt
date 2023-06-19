@@ -35,74 +35,74 @@ goto @main_0_0
 
 
 [@Go_Mu_Wizard_fire_pokyel]
-#CALL [QuestDiary/MU_Total_sell/Wizard/pokyel.txt] @Mu_Wizard_fire_pokyel
+#CALL [QuestDiary/MU_Total_Sell/Wizard/pokyel.txt] @Mu_Wizard_fire_pokyel
 
 [@Go_Mu_Wizard_wind_pungjin]
-#CALL [QuestDiary/MU_Total_sell/Wizard/windLine.txt] @Mu_Wizard_wind_pungjin
+#CALL [QuestDiary/MU_Total_Sell/Wizard/windLine.txt] @Mu_Wizard_wind_pungjin
 
 [@Go_Mu_Wizard_fire_jiyem]
-#CALL [QuestDiary/MU_Total_sell/Wizard/jiyem.txt] @Mu_Wizard_fire_jiyem
+#CALL [QuestDiary/MU_Total_Sell/Wizard/jiyem.txt] @Mu_Wizard_fire_jiyem
 
 [@Go_Mu_Wizard_fire_shild]
-#CALL [QuestDiary/MU_Total_sell/Wizard/fireShild.txt] @Mu_Wizard_fire_shild
+#CALL [QuestDiary/MU_Total_Sell/Wizard/fireShild.txt] @Mu_Wizard_fire_shild
 
 [@Go_Mu_Wizard_light_line]
-#CALL [QuestDiary/MU_Total_sell/Wizard/lightLine.txt] @Mu_Wizard_light_line
+#CALL [QuestDiary/MU_Total_Sell/Wizard/lightLine.txt] @Mu_Wizard_light_line
 
 [@Go_Mu_Wizard_light_storm]
-#CALL [QuestDiary/MU_Total_sell/Wizard/lightStorm.txt] @Mu_Wizard_light_storm
+#CALL [QuestDiary/MU_Total_Sell/Wizard/lightStorm.txt] @Mu_Wizard_light_storm
 
 [@Go_Mu_Wizard_ETC_saja]
-#CALL [QuestDiary/MU_Total_sell/Wizard/saja.txt] @Mu_Wizard_ETC_saja
+#CALL [QuestDiary/MU_Total_Sell/Wizard/saja.txt] @Mu_Wizard_ETC_saja
 
 [@Go_Mu_Wizard_ice_strom]
-#CALL [QuestDiary/MU_Total_sell/Wizard/iceStrom.txt] @Mu_Wizard_ice_strom
+#CALL [QuestDiary/MU_Total_Sell/Wizard/iceStrom.txt] @Mu_Wizard_ice_strom
 
 [@Go_Mu_Wizard_ehyung]
-#CALL [QuestDiary/MU_Total_sell/Wizard/ehyung.txt] @Mu_Wizard_ehyung
+#CALL [QuestDiary/MU_Total_Sell/Wizard/ehyung.txt] @Mu_Wizard_ehyung
 
 [@Go_Mu_Wizard_bingsa]
-#CALL [QuestDiary/MU_Total_sell/Wizard/iceLine.txt] @Mu_Wizard_bingsa
+#CALL [QuestDiary/MU_Total_Sell/Wizard/iceLine.txt] @Mu_Wizard_bingsa
 
 [@Go_Mu_Wizard_yongsun]
-#CALL [QuestDiary/MU_Total_sell/Wizard/yongsun.txt] @Mu_Wizard_yongsun
+#CALL [QuestDiary/MU_Total_Sell/Wizard/yongsun.txt] @Mu_Wizard_yongsun
 
 
 [@Go_Mu_Taoist_dark_hangma]
-#CALL [QuestDiary/MU_Total_sell/Taoist/hangma.txt] @Mu_Taoist_dark_hangma
+#CALL [QuestDiary/MU_Total_Sell/Taoist/hangma.txt] @Mu_Taoist_dark_hangma
 
 [@Go_Mu_Taoist_dark_masshiden]
-#CALL [QuestDiary/MU_Total_sell/Taoist/masshiden.txt] @Mu_Taoist_dark_masshiden
+#CALL [QuestDiary/MU_Total_Sell/Taoist/masshiden.txt] @Mu_Taoist_dark_masshiden
 
 [@Go_Mu_Taoist_dark_deaji]
-#CALL [QuestDiary/MU_Total_sell/Taoist/deaji.txt] @Mu_Taoist_dark_deaji
+#CALL [QuestDiary/MU_Total_Sell/Taoist/deaji.txt] @Mu_Taoist_dark_deaji
 
 [@Go_Mu_Taoist_dark_holy]
-#CALL [QuestDiary/MU_Total_sell/Taoist/holy.txt] @Mu_Taoist_dark_holy
+#CALL [QuestDiary/MU_Total_Sell/Taoist/holy.txt] @Mu_Taoist_dark_holy
 
 [@Go_Mu_Taoist_holy_Upmoon]
-#CALL [QuestDiary/MU_Total_sell/Taoist/Upmoon.txt] @Mu_Taoist_holy_Upmoon
+#CALL [QuestDiary/MU_Total_Sell/Taoist/Upmoon.txt] @Mu_Taoist_holy_Upmoon
 
 [@Go_Mu_Taoist_dark_musang]
-#CALL [QuestDiary/MU_Total_sell/Taoist/musang.txt] @Mu_Taoist_dark_musang
+#CALL [QuestDiary/MU_Total_Sell/Taoist/musang.txt] @Mu_Taoist_dark_musang
 
 [@Go_Mu_Taoist_holy_massheal]
-#CALL [QuestDiary/MU_Total_sell/Taoist/massheal.txt] @Mu_Taoist_holy_massheal
+#CALL [QuestDiary/MU_Total_Sell/Taoist/massheal.txt] @Mu_Taoist_holy_massheal
 
 [@Go_Mu_Taoist_dark_kangma]
-#CALL [QuestDiary/MU_Total_sell/Taoist/kangma.txt] @Mu_Taoist_dark_kangma
+#CALL [QuestDiary/MU_Total_Sell/Taoist/kangma.txt] @Mu_Taoist_dark_kangma
 
 [@Go_Mu_Taoist_soul_sinsu]
-#CALL [QuestDiary/MU_Total_sell/Taoist/sinsu.txt] @Mu_Taoist_soul_sinsu
+#CALL [QuestDiary/MU_Total_Sell/Taoist/sinsu.txt] @Mu_Taoist_soul_sinsu
 
 [@Go_Mu_Taoist_jinsoul_skel]
-#CALL [QuestDiary/MU_Total_sell/Taoist/jinsoulSkel.txt] @Mu_Taoist_jinsoul_skel
+#CALL [QuestDiary/MU_Total_Sell/Taoist/jinsoulSkel.txt] @Mu_Taoist_jinsoul_skel
 
 [@Go_Mu_Taoist_mengho]
-#CALL [QuestDiary/MU_Total_sell/Taoist/mengho.txt] @Mu_Taoist_mengho
+#CALL [QuestDiary/MU_Total_Sell/Taoist/mengho.txt] @Mu_Taoist_mengho
 
 [@Go_Mu_Taoist_soseng]
-#CALL [QuestDiary/MU_Total_sell/Taoist/soseng.txt] @Mu_Taoist_soseng
+#CALL [QuestDiary/MU_Total_Sell/Taoist/soseng.txt] @Mu_Taoist_soseng
 
 
 [@TQuest]

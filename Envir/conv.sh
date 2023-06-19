@@ -20,5 +20,7 @@ do
             fi
         fi
     fi
+
     mv ${lnk}.utf8 ${lnk}
+    /usr/bin/dos2unix ${lnk}
 done

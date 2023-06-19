@@ -50,9 +50,9 @@ break
 
 [@numa_T340_1]
 #IF
-checkitem 诺玛药水 9
+checkitem 璇虹帥鑽按 9
 #ACT
-give 诺玛药水 1
+give 璇虹帥鑽按 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T340_Say
@@ -64,7 +64,7 @@ goto @numa_T340_2
 #IF
 random 3
 #ACT
-give 诺玛药水 1
+give 璇虹帥鑽按 1
 ;-----------------------------------------------------
 
 
@@ -126,9 +126,9 @@ break
 
 [@numa_T230_1]
 #IF
-checkitem 诺玛药水 39
+checkitem 璇虹帥鑽按 39
 #ACT
-give 诺玛药水 1
+give 璇虹帥鑽按 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T230_Say
@@ -140,5 +140,5 @@ goto @numa_T230_2
 #IF
 random 3
 #ACT
-give 诺玛药水 1
+give 璇虹帥鑽按 1
 ;-----------------------------------------------------

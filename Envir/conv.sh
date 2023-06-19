@@ -7,17 +7,16 @@ do
 
     # echo ${lnk} : ${enc}
 
-    iconv -f ${enc} -t utf-8 ${lnk} > ${lnk}.utf8
+    iconv -f ${enc} -t utf-8 ${lnk} > ${lnk}.utf8 2>/dev/null
     if [ $? -ne 0 ]
     then
         echo "Failed: iconv -f ${enc} -t utf-8 ${lnk}"
         if [ ${enc} == "GB2312" ]
         then
-            echo "Try GB18030: iconv -f GB18030 -t utf-8 ${lnk}"
-            iconv -f GB18030 -t utf-8 ${lnk} > ${lnk}.utf8
+            iconv -f GB18030 -t utf-8 ${lnk} > ${lnk}.utf8 2>/dev/null
             if [ $? -ne 0 ]
             then
-                echo "Failed again and skip: iconv -f GB18030 -t utf-8 ${lnk}"
+                echo "Failed: iconv -f GB18030 -t utf-8 ${lnk}"
                 continue
             fi
         fi

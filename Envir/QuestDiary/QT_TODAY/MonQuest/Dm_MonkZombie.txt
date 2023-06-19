@@ -41,7 +41,7 @@ break
 
 [@T418_MonQuest_1]
 #IF
-checkitem ɮ�½�ʬ�� 1
+checkitem É®ÂÂ½©Ê¬¹Ç 1
 #ACT
-give ɮ�½�ʬ�� 1
+give É®ÂÂ½©Ê¬¹Ç 1
 set [308] 1

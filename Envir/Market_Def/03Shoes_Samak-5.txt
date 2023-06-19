@@ -37,6 +37,6 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-��Ь		100         1
-Ƥѥ	        100         1
+²ÝÐ¬		100         1
+Æ¤Ñ¥	        100         1
 

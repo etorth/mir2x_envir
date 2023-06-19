@@ -25,6 +25,6 @@ goto @MapQuest_ilgang_mon2_1
 Param1 1_012
 Param2 9
 Param3 12
-MonGen °ëÊÞÈË61  2  1
+MonGen åŠå…½äºº61  2  1
 #SAY
-(ÕâÃ´´óµÄÊÂÇé¡£°ëÊÞÈËÃ»ÓÐÁË£¬»¹ÒªÔÙ³öÏÖµÄ...)
+(è¿™ä¹ˆå¤§çš„äº‹æƒ…ã€‚åŠå…½äººæ²¡æœ‰äº†ï¼Œè¿˜è¦å†å‡ºçŽ°çš„...)

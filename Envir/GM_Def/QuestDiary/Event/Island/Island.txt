@@ -1,18 +1,18 @@
 ;;Island.txt
 [Reward]
-Material=金币
+Material=閲戝竵
 Amount=1000000
 
 [Cost]
-Material=金币
+Material=閲戝竵
 Amount=50000
 
 [Map]
-Material1=生存游戏地图1
+Material1=鐢熷瓨娓告垙鍦板浘1
 Amount1=1
-Material2=生存游戏地图2
+Material2=鐢熷瓨娓告垙鍦板浘2
 Amount2=1
-Material3=生存游戏地图3
+Material3=鐢熷瓨娓告垙鍦板浘3
 Amount3=1
-Material4=生存游戏地图4
+Material4=鐢熷瓨娓告垙鍦板浘4
 Amount4=1

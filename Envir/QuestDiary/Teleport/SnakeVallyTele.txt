@@ -7,11 +7,11 @@
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_1
 
 #ELSEACT
-mapmove 81 125 274                                    ;; »¡°»ÀÌ ÀÌµ¿
+mapmove 81 125 274                                    ;; ë¹¨ê°±ì´ ì´ë™
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ÀÌµ¿ ·çÆ¾
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ì´ë™ ë£¨í‹´
 }
 
 ;-------------------------------------------------------------------------------
@@ -23,11 +23,11 @@ break
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_2
 
 #ELSEACT
-mapmove 81 125 274                                    ;; »¡°»ÀÌ ÀÌµ¿
+mapmove 81 125 274                                    ;; ë¹¨ê°±ì´ ì´ë™
 break
 
 #IF
-!IsOnCastleWar Sabuk                                  ;; °ø¼ºÇ® ÁßÀÌ ¾Æ´Ò¶§
+!IsOnCastleWar Sabuk                                  ;; ê³µì„±í’€ ì¤‘ì´ ì•„ë‹ë•Œ
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_3
 
@@ -35,7 +35,7 @@ break
 break
 
 #IF
-!IsOnReadyCastleWar Sabuk                             ;; °ø¼ºÁØºñÁßÀÌ ¾Æ´Ò‹š
+!IsOnReadyCastleWar Sabuk                             ;; ê³µì„±ì¤€ë¹„ì¤‘ì´ ì•„ë‹ë–„
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_4
 
@@ -43,10 +43,10 @@ break
 break
 
 #IF
-#SAY                                                  ;; ±×¿ÜÀÇ Á¶°ÇÀÏ‹š´Â
+#SAY                                                  ;; ê·¸ì™¸ì˜ ì¡°ê±´ì¼ë–„ëŠ”
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_5
 
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ÀÌµ¿ ·çÆ¾
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ì´ë™ ë£¨í‹´
 }

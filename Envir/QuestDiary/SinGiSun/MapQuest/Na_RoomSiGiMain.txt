@@ -1,9 +1,9 @@
 ;;Na_RoomSiGiMain.txt
 [@main]
 #IF
-checkitem 连环明珠 1
+checkitem 杩炵幆鏄庣彔 1
 #ACT
-take 连环明珠 1
+take 杩炵幆鏄庣彔 1
 enter_ok
 #ELSEACT
 enter_fail

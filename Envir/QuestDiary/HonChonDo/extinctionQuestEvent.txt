@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;Â²Â»Ã’ÂªÃ‰Â¾ÂµÃ´Â´Ã‹ÃÃ
 [@mainMsgstep0_1]
 {
 #ACT
@@ -307,13 +307,13 @@ Eventmsg "D16034" %A7 183
 {
 #ACT
 monclear "D16031" ???
-monclear "D16031" »ÙÃğÖ®Ó¡´óÊ¦
+monclear "D16031" Â»Ã™ÃƒÃ°Ã–Â®Ã“Â¡Â´Ã³ÃŠÂ¦
 monclear "D16032" ???
-monclear "D16032" »ÙÃğÖ®Ó¡´óÊ¦
+monclear "D16032" Â»Ã™ÃƒÃ°Ã–Â®Ã“Â¡Â´Ã³ÃŠÂ¦
 monclear "D16033" ???
-monclear "D16033" »ÙÃğÖ®Ó¡´óÊ¦
+monclear "D16033" Â»Ã™ÃƒÃ°Ã–Â®Ã“Â¡Â´Ã³ÃŠÂ¦
 monclear "D16034" ???
-monclear "D16034" »ÙÃğÖ®Ó¡´óÊ¦
+monclear "D16034" Â»Ã™ÃƒÃ°Ã–Â®Ã“Â¡Â´Ã³ÃŠÂ¦
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg48]
 Eventmsg "D16031" %A7 2000
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg49]
@@ -835,7 +835,7 @@ Delaygoto [Grobal] 12 @MadofridayEventA_4
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg133]
 Eventmsg "D16031" %A7 14
-Movenpc "D16031,61,354,ÅµÂê´ó·¨ÀÏ1" npcroom1 10 7
+Movenpc "D16031,61,354,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã1" npcroom1 10 7
 Delaygoto [Grobal] 12 @MadofridayEventA_5
 
 [@MadofridayEventA_5]
@@ -846,7 +846,7 @@ Delaygoto [Grobal] 2400 @MadofridayEventA_6
 
 [@MadofridayEventA_6]
 #IF
-Checkmonmap D16034 1 °¢Áú¹Ö
+Checkmonmap D16034 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 goto @MadofridayEventA_7
 break
@@ -855,8 +855,8 @@ break
 
 [@MadofridayEventA_7]
 #ACT
-monclear D16031 °¢Áú¹Ö
-monclear D16031 ÅµÂê¸«±ø¶Ó
+monclear D16031 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16031 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg135]
 Eventmsg "D16031" %A7 183
 
@@ -887,7 +887,7 @@ Delaygoto [Grobal] 12 @MadofridayEventB_4
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg139]
 Eventmsg "D16032" %A7 14
-Movenpc "D16032,374,371,ÅµÂê´ó·¨ÀÏ2" npcroom1 10 8
+Movenpc "D16032,374,371,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã2" npcroom1 10 8
 Delaygoto [Grobal] 12 @MadofridayEventB_5
 
 [@MadofridayEventB_5]
@@ -898,7 +898,7 @@ Delaygoto [Grobal] 2400 @MadofridayEventB_6
 
 [@MadofridayEventB_6]
 #IF
-Checkmonmap D16032 1 °¢Áú¹Ö
+Checkmonmap D16032 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 goto @MadofridayEventB_7
 break
@@ -907,8 +907,8 @@ break
 
 [@MadofridayEventB_7]
 #ACT
-monclear D16032 °¢Áú¹Ö
-monclear D16032 ÅµÂê¸«±ø¶Ó
+monclear D16032 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16032 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg141]
 Eventmsg "D16032" %A7 183
 
@@ -939,7 +939,7 @@ Delaygoto [Grobal] 12 @MadofridayEventC_4
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg145]
 Eventmsg "D16033" %A7 14
-Movenpc "D16033,369,46,ÅµÂê´ó·¨ÀÏ3" npcroom1 10 9
+Movenpc "D16033,369,46,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã3" npcroom1 10 9
 Delaygoto [Grobal] 12 @MadofridayEventC_5
 
 [@MadofridayEventC_5]
@@ -950,7 +950,7 @@ Delaygoto [Grobal] 2400 @MadofridayEventC_6
 
 [@MadofridayEventC_6]
 #IF
-Checkmonmap D16033 1 °¢Áú¹Ö
+Checkmonmap D16033 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 goto @MadofridayEventC_7
 break
@@ -959,8 +959,8 @@ break
 
 [@MadofridayEventC_7]
 #ACT
-monclear D16033 °¢Áú¹Ö
-monclear D16033 ÅµÂê¸«±ø¶Ó
+monclear D16033 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16033 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg147]
 Eventmsg "D16033" %A7 183
 
@@ -992,7 +992,7 @@ Delaygoto [Grobal] 12 @MadofridayEventD_4
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg151]
 Eventmsg "D16034" %A7 14
-Movenpc "D16034,30,30,ÅµÂê´ó·¨ÀÏ4" npcroom1 10 10
+Movenpc "D16034,30,30,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã4" npcroom1 10 10
 Delaygoto [Grobal] 12 @MadofridayEventD_5
 
 [@MadofridayEventD_5]
@@ -1003,7 +1003,7 @@ Delaygoto [Grobal] 2400 @MadofridayEventD_6
 
 [@MadofridayEventD_6]
 #IF
-Checkmonmap D16034 1 °¢Áú¹Ö
+Checkmonmap D16034 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 goto @MadofridayEventD_7
 break
@@ -1012,8 +1012,8 @@ break
 
 [@MadofridayEventD_7]
 #ACT
-monclear D16034 °¢Áú¹Ö
-monclear D16034 ÅµÂê¸«±ø¶Ó
+monclear D16034 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16034 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg153]
 Eventmsg "D16034" %A7 183
 
@@ -1041,7 +1041,7 @@ Delaygoto [Grobal] 1800 @MadosundayEventcallnpcA_4
 
 [@MadosundayEventcallnpcA_4]
 #IF
-Checkmonmap D1604 1 °¢Áú¹Ö
+Checkmonmap D1604 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 
 goto @MadosundayEventcallnpcA_5
@@ -1053,8 +1053,8 @@ break
 
 [@MadosundayEventcallnpcA_5]
 #ACT
-MonClear D1604 °¢Áú¹Ö
-MonClear D1604 ÅµÂê¸«±ø
+MonClear D1604 Â°Â¢ÃÃºÂ¹Ã–
+MonClear D1604 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg157]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcA_6
@@ -1067,7 +1067,7 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
-Movenpc "D1604,226,201,ÅµÂê´ó·¨ÀÏ" npcroom1 10 7
+Movenpc "D1604,226,201,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã" npcroom1 10 7
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcA_7
 
 [@MadosundayEventcallnpcA_7]
@@ -1100,7 +1100,7 @@ Delaygoto [Grobal] 1800 @MadosundayEventcallnpcB_4
 
 [@MadosundayEventcallnpcB_4]
 #IF
-Checkmonmap D1604 1 °¢Áú¹Ö
+Checkmonmap D1604 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 goto @MadosundayEventcallnpcB_5
 break
@@ -1111,8 +1111,8 @@ break
 
 [@MadosundayEventcallnpcB_5]
 #ACT
-MonClear D1604 °¢Áú¹Ö
-MonClear D1604 ÅµÂê¸«±ø
+MonClear D1604 Â°Â¢ÃÃºÂ¹Ã–
+MonClear D1604 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg163]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcB_6
@@ -1125,7 +1125,7 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
-Movenpc "D1604,389,198,ÅµÂê´ó·¨ÀÏ" npcroom1 10 8
+Movenpc "D1604,389,198,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã" npcroom1 10 8
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcB_7
 
 [@MadosundayEventcallnpcB_7]
@@ -1157,7 +1157,7 @@ Delaygoto [Grobal] 1800 @MadosundayEventcallnpcC_4
 
 [@MadosundayEventcallnpcC_4]
 #IF
-Checkmonmap D1604 1 °¢Áú¹Ö
+Checkmonmap D1604 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 goto @MadosundayEventcallnpcC_5
 break
@@ -1168,8 +1168,8 @@ break
 
 [@MadosundayEventcallnpcC_5]
 #ACT
-MonClear D1604 °¢Áú¹Ö
-MonClear D1604 ÅµÂê¸«±ø
+MonClear D1604 Â°Â¢ÃÃºÂ¹Ã–
+MonClear D1604 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg169]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcC_6
@@ -1182,7 +1182,7 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
-Movenpc "D1604,204,212,ÅµÂê´ó·¨ÀÏ" npcroom1 10 9
+Movenpc "D1604,204,212,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã" npcroom1 10 9
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcC_7
 
 [@MadosundayEventcallnpcC_7]
@@ -1215,7 +1215,7 @@ Delaygoto [Grobal] 1800 @MadosundayEventcallnpcD_4
 
 [@MadosundayEventcallnpcD_4]
 #IF
-Checkmonmap D1604 1 °¢Áú¹Ö
+Checkmonmap D1604 1 Â°Â¢ÃÃºÂ¹Ã–
 #ACT
 goto @MadosundayEventcallnpcD_5
 break
@@ -1226,8 +1226,8 @@ break
 
 [@MadosundayEventcallnpcD_5]
 #ACT
-MonClear D1604 °¢Áú¹Ö
-MonClear D1604 ÅµÂê¸«±ø
+MonClear D1604 Â°Â¢ÃÃºÂ¹Ã–
+MonClear D1604 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg175]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcD_6
@@ -1240,7 +1240,7 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
-Movenpc "D1604,200,386,ÅµÂê´ó·¨ÀÏ" npcroom1 10 10
+Movenpc "D1604,200,386,Ã…ÂµÃ‚ÃªÂ´Ã³Â·Â¨Ã€Ã" npcroom1 10 10
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcD_7
 
 [@MadosundayEventcallnpcD_7]
@@ -1518,4 +1518,4 @@ break
 
 
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;Â²Â»Ã’ÂªÃ‰Â¾ÂµÃ´Â´Ã‹ÃÃ

@@ -31,9 +31,9 @@ goto @main_0_0
 
 [@remove_sword]
 #IF
-checkitemw ¹¥É±Ìú½£ 1
+checkitemw Â¹Â¥Ã‰Â±ÃŒÃºÂ½Â£ 1
 #ACT
-takew ¹¥É±Ìú½£ 1
+takew Â¹Â¥Ã‰Â±ÃŒÃºÂ½Â£ 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Bichon1-0.txt] @NPC_Remove_Sword
 
@@ -43,10 +43,10 @@ goto @remove_sword_1
 
 [@remove_sword_1]
 #IF
-checkitemw ìÍ»ğ½£ 1
+checkitemw Ã¬ÃÂ»Ã°Â½Â£ 1
 #ACT
-takew ¹¥É±Ìú½£ 1
-takew ìÍ»ğ½£ 1
+takew Â¹Â¥Ã‰Â±ÃŒÃºÂ½Â£ 1
+takew Ã¬ÃÂ»Ã°Â½Â£ 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Bichon1-0.txt] @NPC_Remove_Sword_1
 

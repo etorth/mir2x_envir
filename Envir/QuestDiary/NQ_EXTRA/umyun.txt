@@ -65,9 +65,9 @@ goto @UMKING_MUMYUNG2_0
 
 [@UMKING_MUMYUNG2_0]
 #IF
-checkitem ÎŞÃûÈÕÖ¾ 1
+checkitem ÃÃÃƒÃ»ÃˆÃ•Ã–Â¾ 1
 #ACT
-take ÎŞÃûÈÕÖ¾ 1
+take ÃÃÃƒÃ»ÃˆÃ•Ã–Â¾ 1
 set [279] 1
 goto @UMKING_MUMYUNG2_1
 #ELSESAY
@@ -224,7 +224,7 @@ set [283] 1
 [@UMKING_MUMYUNG7]
 {
 #IF
-checkitem µØÓüÉñÖÓ 1
+checkitem ÂµÃ˜Ã“Ã¼Ã‰Ã±Ã–Ã“ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_26
 
@@ -240,7 +240,7 @@ checkitem µØÓüÉñÖÓ 1
 goto @UMKING_MUMYUNG8_0
 [@UMKING_MUMYUNG8_0]
 #IF
-checkitem ÎÖÂê½ğÅÆ 1
+checkitem ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_28
 
@@ -283,7 +283,7 @@ goto @UMKING_MUMYUNG10_0
 
 [@UMKING_MUMYUNG10_0]
 #IF
-checkitem Áé»êÃ÷Öé 1
+checkitem ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_33
 
@@ -377,12 +377,12 @@ check [297] 1
 
 [@UMKING_MUMYUNG13_1]
 #IF
-checkitem Áé»êÃ÷Öé 1
-checkitem ÎÖÂêÉñÌú´¸ 1
+checkitem ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
+checkitem ÃÃ–Ã‚ÃªÃ‰Ã±ÃŒÃºÂ´Â¸ 1
 #ACT
-take ÎÖÂê½ğÅÆ 1
-take Áé»êÃ÷Öé 1
-take ÎÖÂêÉñÌú´¸ 1
+take ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
+take ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
+take ÃÃ–Ã‚ÃªÃ‰Ã±ÃŒÃºÂ´Â¸ 1
 set [298] 1
 goto @UMKING_MUMYUNG13_2
 #ELSESAY
@@ -437,7 +437,7 @@ set [299] 1
 #IF
 checkjob warrior
 #ACT
-give ĞŞÂŞ 1
+give ÃÃÃ‚Ã 1
 goto @UMKING_MUMYUNG13_8
 #ELSEACT
 goto @UMKING_MUMYUNG13_7_1
@@ -446,10 +446,10 @@ goto @UMKING_MUMYUNG13_7_1
 #IF
 checkjob wizard
 #ACT
-give ÙÈÔÂ 1
+give Ã™ÃˆÃ”Ã‚ 1
 goto @UMKING_MUMYUNG13_8
 #ELSEACT
-give ½µÄ§ 1
+give Â½ÂµÃ„Â§ 1
 goto @UMKING_MUMYUNG13_8
 
 [@UMKING_MUMYUNG13_8]
@@ -491,7 +491,7 @@ goto @UMKING_MUMYUNG15_0
 #IF
 checkjob warrior
 #ACT
-give ÎÖÂêĞŞÂŞ 1
+give ÃÃ–Ã‚ÃªÃÃÃ‚Ã 1
 goto @UMKING_MUMYUNG15_3
 #ELSEACT
 goto @UMKING_MUMYUNG15_2
@@ -500,10 +500,10 @@ goto @UMKING_MUMYUNG15_2
 #IF
 checkjob wizard
 #ACT
-give ÎÖÂêÙÈÔÂ 1
+give ÃÃ–Ã‚ÃªÃ™ÃˆÃ”Ã‚ 1
 goto @UMKING_MUMYUNG15_3
 #ELSEACT
-give ÎÖÂê½µÄ§ 1
+give ÃÃ–Ã‚ÃªÂ½ÂµÃ„Â§ 1
 goto @UMKING_MUMYUNG15_3
 
 [@UMKING_MUMYUNG15_3]
@@ -533,7 +533,7 @@ goto @UMKING_UDO1_1
 
 [@UMKING_UDO1_1]
 #IF
-checkitem Áé»êÃ÷Öé 1
+checkitem ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_54
 
@@ -559,7 +559,7 @@ check [289] 1
 
 [@UMKING_UDO1_4]
 #IF
-checkitem Áé»êÃ÷Öé 1
+checkitem ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
 #ACT
 takecheckitem
 goto @UMKING_UDO1_5
@@ -576,7 +576,7 @@ monclear D023_001
 param1 D023_001
 param2 19
 param3 17
-mongen ÎÖÂêÕ½½«61 5 3
+mongen ÃÃ–Ã‚ÃªÃ•Â½Â½Â«61 5 3
 goto @UMKING_UDO1_5_4
 
 [@UMKING_UDO1_5_4]
@@ -589,7 +589,7 @@ set [293] 1
 param1 D023_001
 param2 14
 param3 20
-mongen »ğÑæÎÖÂê61 5 3
+mongen Â»Ã°Ã‘Ã¦ÃÃ–Ã‚Ãª61 5 3
 goto @UMKING_UDO1_5_5
 
 [@UMKING_UDO1_5_5]
@@ -614,7 +614,7 @@ monclear D023_001
 param1 D023_001
 param2 19
 param3 17
-mongen ÎÖÂêÕ½½«61 5 3
+mongen ÃÃ–Ã‚ÃªÃ•Â½Â½Â«61 5 3
 goto @UMKING_UDO1_7_4
 
 [@UMKING_UDO1_7_4]
@@ -626,7 +626,7 @@ set [293] 1
 param1 D023_001
 param2 14
 param3 20
-mongen »ğÑæÎÖÂê61 5 3
+mongen Â»Ã°Ã‘Ã¦ÃÃ–Ã‚Ãª61 5 3
 goto @UMKING_UDO1_7_5
 
 [@UMKING_UDO1_7_5]
@@ -680,7 +680,7 @@ set [296] 1
 param1 D023_002
 param2 14
 param3 20
-mongen Å£ÀÏµÀ 1 3
+mongen Ã…Â£Ã€ÃÂµÃ€ 1 3
 map D023_002
 
 [@UMKING_UDO3_4]
@@ -705,7 +705,7 @@ set [296] 1
 param1 D023_002
 param2 14
 param3 20
-mongen Å£ÀÏµÀ 1 3
+mongen Ã…Â£Ã€ÃÂµÃ€ 1 3
 map D023_002
 }
 
@@ -753,7 +753,7 @@ check [274] 1
 
 [@UMKING_WANG1_1]
 #IF
-checkitem ÎÖÂê½ğÅÆ 1
+checkitem ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_69
 
@@ -793,28 +793,28 @@ goto @UMKING_WANG1_4_1
 
 [@UMKING_WANG1_4_1]
 #IF
-checkitem ÎÖÂê½ğÅÆ 1
+checkitem ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #ACT
-take ÎÖÂê½ğÅÆ 1
-give ½ğ±Ò 50000
+take ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
+give Â½Ã°Â±Ã’ 50000
 set [275] 1
 goto @UMKING_WANG1_5_1
 
 [@UMKING_WANG1_4_2]
 #IF
-checkitem ÎÖÂê½ğÅÆ 1
+checkitem ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #ACT
-take ÎÖÂê½ğÅÆ 1
-give ½ğ±Ò 100000
+take ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
+give Â½Ã°Â±Ã’ 100000
 set [275] 1
 goto @UMKING_WANG1_5_2
 
 [@UMKING_WANG1_4_3]
 #IF
-checkitem ÎÖÂê½ğÅÆ 1
+checkitem ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #ACT
-take ÎÖÂê½ğÅÆ 1
-give ½ğ±Ò 200000
+take ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
+give Â½Ã°Â±Ã’ 200000
 set [275] 1
 goto @UMKING_WANG1_5_3
 
@@ -1021,10 +1021,10 @@ check [284] 1
 
 [@UMKING_MUYUK3_1]
 #IF
-checkitem µØÓüÉñÖÓ 1
+checkitem ÂµÃ˜Ã“Ã¼Ã‰Ã±Ã–Ã“ 1
 #ACT
 takecheckitem
-give ÎÖÂê½ğÅÆ 1
+give ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 goto @UMKING_MUYUK3_2
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_93

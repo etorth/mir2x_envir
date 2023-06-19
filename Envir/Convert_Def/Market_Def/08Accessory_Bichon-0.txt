@@ -1,249 +1,249 @@
 ;;08Accessory_Bichon-0.txt
 [@NPC_RedPlayer]
 {
-�Һ����޻���˵��\ \
- <����/@exit>
+我和你无话可说。\ \
+ <结束/@exit>
 }
 
 [@NPC_Main_0_0]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_1]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<Ȱ˵/@NQuest01_1>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<劝说/@NQuest01_1>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_2]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<Ȱ˵/@NQuest01_2>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<劝说/@NQuest01_2>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_3]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<Ȱ˵/@NQuest01_3>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<劝说/@NQuest01_3>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_4]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<չʾ/@NQuest01_4>{FCOLOR/10}�������ն�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<展示/@NQuest01_4>{FCOLOR/10}新鲜玩艺儿{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_5]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-≮��/@NQuest01_5>�����̻�\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<谈论/@NQuest01_5>比奇商会\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_6]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<չʾ/@NQuest02_1>{FCOLOR/10}����֤��{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<展示/@NQuest02_1>{FCOLOR/10}气霖证书{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_7]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-≮��/@NQuest02_2>{FCOLOR/10}Ů��{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<谈论/@NQuest02_2>{FCOLOR/10}女人{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_8]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<չʾ/@NQuest02_1>{FCOLOR/10}����֤��{FCOLOR/12}\
-<Ȱ˵/@NQuest01_1>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<展示/@NQuest02_1>{FCOLOR/10}气霖证书{FCOLOR/12}\
+<劝说/@NQuest01_1>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_9]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<չʾ/@NQuest02_1>{FCOLOR/10}����֤��{FCOLOR/12}\
-<Ȱ˵/@NQuest01_2>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<展示/@NQuest02_1>{FCOLOR/10}气霖证书{FCOLOR/12}\
+<劝说/@NQuest01_2>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_10]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<չʾ/@NQuest02_1>{FCOLOR/10}����֤��{FCOLOR/12}\
-<Ȱ˵/@NQuest01_3>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<展示/@NQuest02_1>{FCOLOR/10}气霖证书{FCOLOR/12}\
+<劝说/@NQuest01_3>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_11]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<չʾ/@NQuest02_1>{FCOLOR/10}����֤��{FCOLOR/12}\
-<չʾ/@NQuest01_4>{FCOLOR/10}�������ն�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<展示/@NQuest02_1>{FCOLOR/10}气霖证书{FCOLOR/12}\
+<展示/@NQuest01_4>{FCOLOR/10}新鲜玩艺儿{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_12]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<չʾ/@NQuest02_1>{FCOLOR/10}����֤��{FCOLOR/12}\
-≮��/@NQuest01_5>�����̻�\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<展示/@NQuest02_1>{FCOLOR/10}气霖证书{FCOLOR/12}\
+<谈论/@NQuest01_5>比奇商会\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_13]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-≮��/@NQuest02_2>{FCOLOR/10}Ů��{FCOLOR/12}\
-<Ȱ˵/@NQuest01_1>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<谈论/@NQuest02_2>{FCOLOR/10}女人{FCOLOR/12}\
+<劝说/@NQuest01_1>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_14]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-≮��/@NQuest02_2>{FCOLOR/10}Ů��{FCOLOR/12}\
-<Ȱ˵/@NQuest01_2>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<谈论/@NQuest02_2>{FCOLOR/10}女人{FCOLOR/12}\
+<劝说/@NQuest01_2>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_15]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-≮��/@NQuest02_2>{FCOLOR/10}Ů��{FCOLOR/12}\
-<Ȱ˵/@NQuest01_3>����{FCOLOR/10}�����̻�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<谈论/@NQuest02_2>{FCOLOR/10}女人{FCOLOR/12}\
+<劝说/@NQuest01_3>加入{FCOLOR/10}比奇商会{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_16]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-≮��/@NQuest02_2>{FCOLOR/10}Ů��{FCOLOR/12}\
-<չʾ/@NQuest01_4>{FCOLOR/10}�������ն�{FCOLOR/12}\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<谈论/@NQuest02_2>{FCOLOR/10}女人{FCOLOR/12}\
+<展示/@NQuest01_4>{FCOLOR/10}新鲜玩艺儿{FCOLOR/12}\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Main_0_17]
 {
-��ӭ���٣�����Ҫʲô��\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-≮��/@NQuest02_2>{FCOLOR/10}Ů��{FCOLOR/12}\
-≮��/@NQuest01_5>�����̻�\
- <�Խ��յ���������˽�/@TQuest>\
- <����/@exit>
+欢迎光临，你需要什么？\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<谈论/@NQuest02_2>{FCOLOR/10}女人{FCOLOR/12}\
+<谈论/@NQuest01_5>比奇商会\
+ <对今日的任务进行了解/@TQuest>\
+ <结束/@exit>
 }
 
 [@NPC_Buy]
 {
-��������Ʒ?\ \
-<ǰһ��/@main>
+你想买饰品?\ \
+<前一步/@main>
 }
 
 [@NPC_Sell]
 {
-���������Ʒ?\ \
-<ǰһ��/@main>
+你想出售饰品?\ \
+<前一步/@main>
 }
 
 [@NPC_Repair]
 {
-����������Ʒ?\ \
-<ǰһ��/@main>
+你想修理饰品?\ \
+<前一步/@main>
 }
 
 [@NPC_Repair_Complete]
 {
-�޺��ˡ�\ \
-<ǰһ��/@main>
+修好了。\ \
+<前一步/@main>
 }
 
 [@NPC_TQuest]
 {
-����û����ɰ������ˡ�\ \
- <����/@exit>
+今天没事情可拜托你了。\ \
+ <结束/@exit>
 }
 
 [@NPC_TQuest_1]
 {
-���첻������������������ˡ�\ \
- <����/@exit>
+今天不再有事情拜托你来做了。\ \
+ <结束/@exit>
 }

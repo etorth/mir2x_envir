@@ -84,7 +84,7 @@ goto @main_0_0
 [Goods]
 #SAY
 ;ItemName      Volume     Hour
-�ʾ�    10000           1
+²Ê¾í    10000           1
 
 
 [@NQuest01_1]

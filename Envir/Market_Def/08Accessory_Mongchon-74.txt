@@ -56,23 +56,23 @@ goto @main_0_0
 [Goods]
 ;ItemName      Volume     Hour
 ;; Warrior Ring
-÷¼÷Ã½äÖ¸        100        1
-;; Warrior Bracelet 
-Ğ¡ÊÖïí          100        1
-;; Warrior Necklace 
-À¶ôä´äÏîÁ´      100        1
+éª·é«…æˆ’æŒ‡        100        1
+;; Warrior Bracelet
+å°æ‰‹é•¯          100        1
+;; Warrior Necklace
+è“ç¿¡ç¿ é¡¹é“¾      100        1
 ;; Taoist Ring
-ÕäÖé½äÖ¸        100        1
-;; Taoist Bracelet 
-µÀÊ¿ÊÖïí        100        1
-;; Taoist Necklace 
-;;·ï»ËÃ÷Öé        100        1
+çç æˆ’æŒ‡        100        1
+;; Taoist Bracelet
+é“å£«æ‰‹é•¯        100        1
+;; Taoist Necklace
+;;å‡¤å‡°æ˜ç         100        1
 ;; Wizard Ring
-ÉßÑÛ½äÖ¸        100        1
-;; Wizard Bracelet 
-ºÚÌ´ÊÖïí        100        1
-;; Wizard Necklace 
-;;ÎåÉ«ÏîÁ´        100        1
+è›‡çœ¼æˆ’æŒ‡        100        1
+;; Wizard Bracelet
+é»‘æª€æ‰‹é•¯        100        1
+;; Wizard Necklace
+;;äº”è‰²é¡¹é“¾        100        1
 
 
 ;;------------------------------------------------------------------------------

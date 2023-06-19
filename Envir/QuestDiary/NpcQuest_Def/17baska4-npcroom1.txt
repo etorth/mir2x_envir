@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@NPCQuest_Check]
 {
 #ACT
@@ -70,4 +70,4 @@ break
 [@baska1Quest_start1_DD]
 #CALL [HonChondo\MadoNpcBaska.txt] @MadoTimeQuestsundaynpcD
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

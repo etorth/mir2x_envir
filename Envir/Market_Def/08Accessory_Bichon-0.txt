@@ -230,20 +230,20 @@ goto @main_0_0
 [@main_0_0]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_0
- 
+
 ;-----------------------------
 
 [@main_0_1]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_1
 
-;----------------------------- 
+;-----------------------------
 
 [@main_0_2]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_2
- 
-;----------------------------- 
+
+;-----------------------------
 
 [@main_0_3]
 #SAY
@@ -254,7 +254,7 @@ goto @main_0_0
 [@main_0_4]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_4
- 
+
 ;-----------------------------
 
 [@main_0_5]
@@ -273,7 +273,7 @@ goto @main_0_0
 [@main_0_7]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_7
- 
+
 ;-----------------------------
 ;-----------------------------
 ;-----------------------------
@@ -282,13 +282,13 @@ goto @main_0_0
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_8
 
-;----------------------------- 
+;-----------------------------
 
 [@main_0_9]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_9
- 
-;----------------------------- 
+
+;-----------------------------
 
 [@main_0_10]
 #SAY
@@ -313,14 +313,14 @@ goto @main_0_0
 [@main_0_13]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_13
- 
-;----------------------------- 
+
+;-----------------------------
 
 [@main_0_14]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_14
- 
-;----------------------------- 
+
+;-----------------------------
 
 [@main_0_15]
 #SAY
@@ -331,7 +331,7 @@ goto @main_0_0
 [@main_0_16]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Bichon-0.txt] @NPC_Main_0_16
- 
+
 ;-----------------------------
 
 [@main_0_17]
@@ -359,22 +359,22 @@ goto @main_0_0
 [Goods]
 ;ItemName      Volume     Hour
 ;; Common Ring
-Ö¸»·            100        1
-Å£½Ç½äÖ¸        100        1
-À¶É«Ë®¾§½äÖ¸    100        1
-;; Common Bracelet 
-ÌúÊÖïí          100        1
-Ğ¡ÊÖïí          100        1
-ÒøÊÖïí          100        1
-¸ÖÊÖïí          100        1
-´óÊÖïí          100        1
-;; Common Necklace 
-½ğÏîÁ´          100        1
-´«Í³ÏîÁ´        100        1
-µÆÁıÏîÁ´        100        1
-°×É«»¢³İÏîÁ´    100        1
-;; Common Gauntlet 
-Æ¤ÖÆÊÖÌ×        100        1
+æŒ‡ç¯            100        1
+ç‰›è§’æˆ’æŒ‡        100        1
+è“è‰²æ°´æ™¶æˆ’æŒ‡    100        1
+;; Common Bracelet
+é“æ‰‹é•¯          100        1
+å°æ‰‹é•¯          100        1
+é“¶æ‰‹é•¯          100        1
+é’¢æ‰‹é•¯          100        1
+å¤§æ‰‹é•¯          100        1
+;; Common Necklace
+é‡‘é¡¹é“¾          100        1
+ä¼ ç»Ÿé¡¹é“¾        100        1
+ç¯ç¬¼é¡¹é“¾        100        1
+ç™½è‰²è™é½¿é¡¹é“¾    100        1
+;; Common Gauntlet
+çš®åˆ¶æ‰‹å¥—        100        1
 
 
 ;;------------------------------------------------------------------------------
@@ -607,8 +607,8 @@ goto @TQuest5_1
 break
 ;
 #ELSESAY
-½ñÌìÃ»ÊÂÇé¿É°İÍĞÄãÁË¡£\ \
- <½áÊø/@exit>
+ä»Šå¤©æ²¡äº‹æƒ…å¯æ‹œæ‰˜ä½ äº†ã€‚\ \
+ <ç»“æŸ/@exit>
 
 ;--------------
 

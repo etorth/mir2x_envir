@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@NPCQuest_Check]
 {
 #ACT
@@ -32,4 +32,4 @@ mapmove 41 148 84
 [@HonChondo_ok]
 #CALL [HonChondo\HonChondoNpc.txt] @HonChondo_Questnpc
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

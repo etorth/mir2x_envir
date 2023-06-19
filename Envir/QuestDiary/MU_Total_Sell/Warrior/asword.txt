@@ -5,47 +5,47 @@
 #ACT
 goto @Mu_Warrior_Noatom_asword_next_1
 #ELSESAY
-ʩ���ѻ�ô�ɱ�����ؼ���\ \
-<����/@exit>
+施主已获得刺杀剑术秘籍。\ \
+<结束/@exit>
 [@Mu_Warrior_Noatom_asword_next_1]
 #IF
 #SAY
-�����ҽ����ɱ��������Ҫ֧��1900��ң���ѧ����ô�������书�����Ǯ�㲻��ʲô��\ \
-<�����ؼ���/@Mu_Warrior_Noatom_asword_next_2>\
-<�ر�/@Mu_Warrior_Noatom_asword_next_5>
+想让我教你刺杀剑术，需要支付1900金币，能学到这么厉害的武功，这点钱算不得什么。\ \
+<教我秘籍吧/@Mu_Warrior_Noatom_asword_next_2>\
+<关闭/@Mu_Warrior_Noatom_asword_next_5>
 [@Mu_Warrior_Noatom_asword_next_2]
 #IF
-checkitem ��ɱ���� 1
+checkitem 刺杀剑术 1
 #ACT
 goto @Mu_Warrior_Noatom_asword_next_3
 #ELSESAY
-�ȴ���ħ���飬��δ��ȷ��ʩ�����㹻������ô�ɱ�����ؼ�֮ǰ�����ǲ��̵ܽġ�\
-<����/@exit>
+先带来魔法书，在未能确认施主有足够能力获得刺杀剑术秘籍之前，我是不能教的。\
+<结束/@exit>
 [@Mu_Warrior_Noatom_asword_next_3]
 #IF
 checkgold 1900
-checkitem ��ɱ���� 1
+checkitem 刺杀剑术 1
 #ACT
-take ��ɱ���� 1
-take ��� 1900
+take 刺杀剑术 1
+take 金币 1900
 goto @Mu_Warrior_Noatom_asword_next_4
 #ELSESAY
-��������ѧħ����Ҫ��֧�����á�\ \
-<����/@exit>
+从我这里学魔法需要先支付费用。\ \
+<结束/@exit>
 [@Mu_Warrior_Noatom_asword_next_4]
 #IF
 random 20
 #SAY
-��̫�ź��ˣ�ʩ��������ħ�����Ѿ��¾ɲ�����ʵ���޷�����������ȥ������ħ����ɡ�\
-<����/@exit>
+真太遗憾了，施主带来的魔法书已经陈旧不堪，实在无法看懂，请再去找其他魔法书吧。\
+<结束/@exit>
 #ELSESAY
-ħ�����ؼ��Ѿ�д���ˣ�����������ʱ��Ҫ����ĵط�����Ҫ���ݣ��������ο�����ʿ��ħ�����ǰ������˵�����ħ�����ú������书��һ���������޹����ա�\
-<����/@exit>
+魔法书秘籍已经写好了，上面有修炼时需要留意的地方和重要内容，可以作参考。道士的魔法大都是帮助他人的善意魔法，好好修炼武功，一定保护好无辜百姓。\
+<结束/@exit>
 #ELSEACT
-give ��ɱ�������ؼ��� 1
+give 刺杀剑术（秘籍） 1
 [@Mu_Warrior_Noatom_asword_next_5]
 #IF
 #SAY
-�о����书˵�������ڳ�͢���٣��ú������ɡ�\ \
-<����/@exit>
+有绝高武功说不定能在朝廷做官，好好修炼吧。\ \
+<结束/@exit>
 }

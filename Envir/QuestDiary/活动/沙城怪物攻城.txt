@@ -1,248 +1,248 @@
-;;=ÍøÓÎË½·þ»ùµØÉÌÒµ°æ±¾ http://www.NFmir.com=
-[@É³¹¥³Ç_1]
+;;=ç½‘æ¸¸ç§æœåŸºåœ°å•†ä¸šç‰ˆæœ¬ http://www.NFmir.com=
+[@æ²™æ”»åŸŽ_1]
 {
 #ACT
-lineMsg [Grobal] "¡¼×¢Òâ¡½É³³Ç¹ÖÎï¹¥³Ç¼´½«¿ªÊ¼£¬10·ÖÖÓºó¹ÖÎï½«¶ÔÉ³³Ç·¢Æð¹¥»÷£¡£¡£¡" 
-Eventmsg Grobal "¡¼×¢Òâ¡½É³³Ç¹ÖÎï¹¥³Ç¼´½«¿ªÊ¼£¬10·ÖÖÓºó¹ÖÎï½«¶ÔÉ³³Ç·¢Æð¹¥»÷£¡£¡£¡" 10004 
-Delaygoto [Grobal] 30 @É³¹¥³Ç_11 
-break 
+lineMsg [Grobal] "ã€–æ³¨æ„ã€—æ²™åŸŽæ€ªç‰©æ”»åŸŽå³å°†å¼€å§‹ï¼Œ10åˆ†é’ŸåŽæ€ªç‰©å°†å¯¹æ²™åŸŽå‘èµ·æ”»å‡»ï¼ï¼ï¼"
+Eventmsg Grobal "ã€–æ³¨æ„ã€—æ²™åŸŽæ€ªç‰©æ”»åŸŽå³å°†å¼€å§‹ï¼Œ10åˆ†é’ŸåŽæ€ªç‰©å°†å¯¹æ²™åŸŽå‘èµ·æ”»å‡»ï¼ï¼ï¼" 10004
+Delaygoto [Grobal] 30 @æ²™æ”»åŸŽ_11
+break
 
-[@É³¹¥³Ç_11] 
-#ACT 
-Eventmsg Grobal "Ö¾Ô¸¼ÓÈëÉ³³Ç»¤³ÇµÄÓÂÊ¿ÃÇ»¹²»¿ì¸Ï»ØÀ´£¬À´ÍíÁË******£¡£¡£¡" 10004 
-lineMsg [Grobal] "Ö¾Ô¸¼ÓÈëÉ³³Ç»¤³ÇµÄÓÂÊ¿ÃÇ»¹²»¿ì¸Ï»ØÀ´£¬À´ÍíÁË******£¡£¡£¡"
-Delaygoto [Grobal] 30 @É³¹¥³Ç_12
-
-[@É³¹¥³Ç_12] 
-#ACT 
-Eventmsg Grobal "¾ÝÌ½×ÓÏûÏ¢£¬Õâ´Î¹ÖÎï×Ü¹²À´ÁËÈýÅú£¬ËûÃÇ½«·ÖÈý´Î½øÉ³³Ç£¡£¡£¡" 10004 
-lineMsg [Grobal] "¾ÝÌ½×ÓÏûÏ¢£¬Õâ´Î¹ÖÎï×Ü¹²À´ÁËÈýÅú£¬ËûÃÇ½«·ÖÈý´Î½øÉ³³Ç£¡£¡£¡"
-Delaygoto [Grobal] 120 @É³¹¥³Ç_13
-
-[@É³¹¥³Ç_13] 
-#ACT 
-Eventmsg Grobal "¹ýÈ¥3·ÖÖÓÁË£¬É³³Ç»¤³ÇÓÂÊ¿À´ÁË¶àÉÙÁË£¡£¡£¡" 10004 
-lineMsg [Grobal] "¹ýÈ¥3·ÖÖÓÁË£¬É³³Ç»¤³ÇÓÂÊ¿À´ÁË¶àÉÙÁË£¡£¡£¡"
-Delaygoto [Grobal] 120 @É³¹¥³Ç_14 
-
-[@É³¹¥³Ç_14] 
-#ACT 
-Eventmsg Grobal "¹ýÈ¥5·ÖÖÓÁË£¬ÓÂÊ¿ÃÇ×¥½ô²¼ÖÃÉ³³Ç·ÀÓù¹¤ÊÂ°¡£¡£¡£¡" 10004 
-lineMsg [Grobal]   "¹ýÈ¥5·ÖÖÓÁË£¬ÓÂÊ¿ÃÇ×¥½ô²¼ÖÃÉ³³Ç·ÀÓù¹¤ÊÂ°¡£¡£¡£¡"
-Delaygoto [Grobal] 180 @É³¹¥³Ç_15 
-
-[@É³¹¥³Ç_15] 
-#ACT 
-Eventmsg Grobal "ÔÙ¹ý2·ÖÖÓÁË£¬¹ÖÎï¾Íµ½É³³ÇÁË£¬´ó¼Ò¸÷¾Í¸÷Î»£¡£¡£¡" 10004 
-lineMsg [Grobal]   "ÔÙ¹ý2·ÖÖÓÁË£¬¹ÖÎï¾Íµ½É³³ÇÁË£¬´ó¼Ò¸÷¾Í¸÷Î»£¡£¡£¡"
-Delaygoto [Grobal] 120 @É³¹¥³Ç_16
-
-[@É³¹¥³Ç_16] 
-#ACT 
-MongenP "3,265,89,20" òÚò¼ 15
-MongenP "3,265,89,20" ´óÀÏÊó 15
-MongenP "3,265,89,20" µØÀÎÅ®Éñ1 15
-MongenP "3,265,89,20" ¶¾Ö©Öë 15
-MongenP "3,265,89,20" »ðÑæÎÖÂê 15
-MongenP "3,265,89,20" ½©Ê¬4 15
-MongenP "3,265,89,20" ÷¼÷Ã¹­¼ýÊÖ 15
-MongenP "3,265,89,20" ÂìÒÏÕ½Ê¿ 15
-MongenP "3,265,89,20" ÅËÒ¹·çÄ§ 15
-
-MongenP "3,166,164,20" òÚò¼ 15
-MongenP "3,166,164,20" ´óÀÏÊó 15
-MongenP "3,166,164,20" µØÀÎÅ®Éñ2 15
-MongenP "3,166,164,20" ¶¾Ö©Öë 15
-MongenP "3,166,164,20" »ðÑæÎÖÂê 15
-MongenP "3,166,164,20" ½©Ê¬2 15
-MongenP "3,166,164,20" ÷¼÷Ã¹­¼ýÊÖ 15
-MongenP "3,166,164,20" ÂìÒÏÕ½Ê¿ 15
-MongenP "3,166,164,20" ÅËÒ¹·çÄ§ 15
-
-ApplyMonMission "3,265,89,120" "òÚò¼" "3,215,418"
-ApplyMonMission "3,265,89,120" "´óÀÏÊó" "3,215,418"
-ApplyMonMission "3,265,89,120" "µØÀÎÅ®Éñ1" "3,215,418"
-ApplyMonMission "3,265,89,120" "¶¾Ö©Öë" "3,215,418"
-ApplyMonMission "3,265,89,120" "»ðÑæÎÖÂê" "3,215,418"
-ApplyMonMission "3,265,89,120" "½©Ê¬4" "3,215,418"
-ApplyMonMission "3,265,89,120" "÷¼÷Ã¹­¼ýÊÖ" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÂìÒÏÕ½Ê¿" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÅËÒ¹·çÄ§" "3,215,418"
-
-ApplyMonMission "3,166,164,120" "òÚò¼" "3,215,418"
-ApplyMonMission "3,166,164,120" "´óÀÏÊó" "3,215,418"
-ApplyMonMission "3,166,164,120" "µØÀÎÅ®Éñ2" "3,215,418"
-ApplyMonMission "3,166,164,120" "¶¾Ö©Öë" "3,215,418"
-ApplyMonMission "3,166,164,120" "»ðÑæÎÖÂê" "3,215,418"
-ApplyMonMission "3,166,164,120" "½©Ê¬2" "3,215,418"
-ApplyMonMission "3,166,164,120" "÷¼÷Ã¹­¼ýÊÖ" "3,215,418"
-ApplyMonMission "3,166,164,120" "ÂìÒÏÕ½Ê¿" "3,215,418"
-ApplyMonMission "3,166,164,120" "ÅËÒ¹·çÄ§" "3,215,418"
-
-Eventmsg Grobal "µÚÒ»²¨¹¥³Ç¹ÖÎïÏòÉ³³Ç·¢ÆðÁË¹¥»÷£¬´ó¼ÒÐ¡ÐÄÓ¦¸¶£¡£¡£¡" 10005
-lineMsg [Grobal]   "µÚÒ»²¨¹¥³Ç¹ÖÎïÏòÉ³³Ç·¢ÆðÁË¹¥»÷£¬´ó¼ÒÐ¡ÐÄÓ¦¸¶£¡£¡£¡"
-Delaygoto [Grobal] 150 @É³¹¥³Ç_17
-
-
-[@É³¹¥³Ç_17]
+[@æ²™æ”»åŸŽ_11]
 #ACT
-Eventmsg Grobal "¹¥³Ç¹ÖÎïÌ«À÷º¦£¬É³»¤³ÇÓÂÊ¿Ê¬ºá±éµØ£¬ÐèÒª½ô¼±Ö§Ô®£¡£¡£¡" 10005
-lineMsg [Grobal]   "¹¥³Ç¹ÖÎïÌ«À÷º¦£¬É³»¤³ÇÓÂÊ¿Ê¬ºá±éµØ£¬ÐèÒª½ô¼±Ö§Ô®£¡£¡£¡£¡"
-Delaygoto [Grobal] 150 @É³¹¥³Ç_18
+Eventmsg Grobal "å¿—æ„¿åŠ å…¥æ²™åŸŽæŠ¤åŸŽçš„å‹‡å£«ä»¬è¿˜ä¸å¿«èµ¶å›žæ¥ï¼Œæ¥æ™šäº†******ï¼ï¼ï¼" 10004
+lineMsg [Grobal] "å¿—æ„¿åŠ å…¥æ²™åŸŽæŠ¤åŸŽçš„å‹‡å£«ä»¬è¿˜ä¸å¿«èµ¶å›žæ¥ï¼Œæ¥æ™šäº†******ï¼ï¼ï¼"
+Delaygoto [Grobal] 30 @æ²™æ”»åŸŽ_12
 
-
-
-[@É³¹¥³Ç_18]
+[@æ²™æ”»åŸŽ_12]
 #ACT
-Delaygoto [Grobal] 10 @É³¹¥³Ç_19
+Eventmsg Grobal "æ®æŽ¢å­æ¶ˆæ¯ï¼Œè¿™æ¬¡æ€ªç‰©æ€»å…±æ¥äº†ä¸‰æ‰¹ï¼Œä»–ä»¬å°†åˆ†ä¸‰æ¬¡è¿›æ²™åŸŽï¼ï¼ï¼" 10004
+lineMsg [Grobal] "æ®æŽ¢å­æ¶ˆæ¯ï¼Œè¿™æ¬¡æ€ªç‰©æ€»å…±æ¥äº†ä¸‰æ‰¹ï¼Œä»–ä»¬å°†åˆ†ä¸‰æ¬¡è¿›æ²™åŸŽï¼ï¼ï¼"
+Delaygoto [Grobal] 120 @æ²™æ”»åŸŽ_13
+
+[@æ²™æ”»åŸŽ_13]
+#ACT
+Eventmsg Grobal "è¿‡åŽ»3åˆ†é’Ÿäº†ï¼Œæ²™åŸŽæŠ¤åŸŽå‹‡å£«æ¥äº†å¤šå°‘äº†ï¼ï¼ï¼" 10004
+lineMsg [Grobal] "è¿‡åŽ»3åˆ†é’Ÿäº†ï¼Œæ²™åŸŽæŠ¤åŸŽå‹‡å£«æ¥äº†å¤šå°‘äº†ï¼ï¼ï¼"
+Delaygoto [Grobal] 120 @æ²™æ”»åŸŽ_14
+
+[@æ²™æ”»åŸŽ_14]
+#ACT
+Eventmsg Grobal "è¿‡åŽ»5åˆ†é’Ÿäº†ï¼Œå‹‡å£«ä»¬æŠ“ç´§å¸ƒç½®æ²™åŸŽé˜²å¾¡å·¥äº‹å•Šï¼ï¼ï¼" 10004
+lineMsg [Grobal]   "è¿‡åŽ»5åˆ†é’Ÿäº†ï¼Œå‹‡å£«ä»¬æŠ“ç´§å¸ƒç½®æ²™åŸŽé˜²å¾¡å·¥äº‹å•Šï¼ï¼ï¼"
+Delaygoto [Grobal] 180 @æ²™æ”»åŸŽ_15
+
+[@æ²™æ”»åŸŽ_15]
+#ACT
+Eventmsg Grobal "å†è¿‡2åˆ†é’Ÿäº†ï¼Œæ€ªç‰©å°±åˆ°æ²™åŸŽäº†ï¼Œå¤§å®¶å„å°±å„ä½ï¼ï¼ï¼" 10004
+lineMsg [Grobal]   "å†è¿‡2åˆ†é’Ÿäº†ï¼Œæ€ªç‰©å°±åˆ°æ²™åŸŽäº†ï¼Œå¤§å®¶å„å°±å„ä½ï¼ï¼ï¼"
+Delaygoto [Grobal] 120 @æ²™æ”»åŸŽ_16
+
+[@æ²™æ”»åŸŽ_16]
+#ACT
+MongenP "3,265,89,20" èœˆèš£ 15
+MongenP "3,265,89,20" å¤§è€é¼  15
+MongenP "3,265,89,20" åœ°ç‰¢å¥³ç¥ž1 15
+MongenP "3,265,89,20" æ¯’èœ˜è›› 15
+MongenP "3,265,89,20" ç«ç„°æ²ƒçŽ› 15
+MongenP "3,265,89,20" åƒµå°¸4 15
+MongenP "3,265,89,20" éª·é«…å¼“ç®­æ‰‹ 15
+MongenP "3,265,89,20" èš‚èšæˆ˜å£« 15
+MongenP "3,265,89,20" æ½˜å¤œé£Žé­” 15
+
+MongenP "3,166,164,20" èœˆèš£ 15
+MongenP "3,166,164,20" å¤§è€é¼  15
+MongenP "3,166,164,20" åœ°ç‰¢å¥³ç¥ž2 15
+MongenP "3,166,164,20" æ¯’èœ˜è›› 15
+MongenP "3,166,164,20" ç«ç„°æ²ƒçŽ› 15
+MongenP "3,166,164,20" åƒµå°¸2 15
+MongenP "3,166,164,20" éª·é«…å¼“ç®­æ‰‹ 15
+MongenP "3,166,164,20" èš‚èšæˆ˜å£« 15
+MongenP "3,166,164,20" æ½˜å¤œé£Žé­” 15
+
+ApplyMonMission "3,265,89,120" "èœˆèš£" "3,215,418"
+ApplyMonMission "3,265,89,120" "å¤§è€é¼ " "3,215,418"
+ApplyMonMission "3,265,89,120" "åœ°ç‰¢å¥³ç¥ž1" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ¯’èœ˜è››" "3,215,418"
+ApplyMonMission "3,265,89,120" "ç«ç„°æ²ƒçŽ›" "3,215,418"
+ApplyMonMission "3,265,89,120" "åƒµå°¸4" "3,215,418"
+ApplyMonMission "3,265,89,120" "éª·é«…å¼“ç®­æ‰‹" "3,215,418"
+ApplyMonMission "3,265,89,120" "èš‚èšæˆ˜å£«" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ½˜å¤œé£Žé­”" "3,215,418"
+
+ApplyMonMission "3,166,164,120" "èœˆèš£" "3,215,418"
+ApplyMonMission "3,166,164,120" "å¤§è€é¼ " "3,215,418"
+ApplyMonMission "3,166,164,120" "åœ°ç‰¢å¥³ç¥ž2" "3,215,418"
+ApplyMonMission "3,166,164,120" "æ¯’èœ˜è››" "3,215,418"
+ApplyMonMission "3,166,164,120" "ç«ç„°æ²ƒçŽ›" "3,215,418"
+ApplyMonMission "3,166,164,120" "åƒµå°¸2" "3,215,418"
+ApplyMonMission "3,166,164,120" "éª·é«…å¼“ç®­æ‰‹" "3,215,418"
+ApplyMonMission "3,166,164,120" "èš‚èšæˆ˜å£«" "3,215,418"
+ApplyMonMission "3,166,164,120" "æ½˜å¤œé£Žé­”" "3,215,418"
+
+Eventmsg Grobal "ç¬¬ä¸€æ³¢æ”»åŸŽæ€ªç‰©å‘æ²™åŸŽå‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶å°å¿ƒåº”ä»˜ï¼ï¼ï¼" 10005
+lineMsg [Grobal]   "ç¬¬ä¸€æ³¢æ”»åŸŽæ€ªç‰©å‘æ²™åŸŽå‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶å°å¿ƒåº”ä»˜ï¼ï¼ï¼"
+Delaygoto [Grobal] 150 @æ²™æ”»åŸŽ_17
+
+
+[@æ²™æ”»åŸŽ_17]
+#ACT
+Eventmsg Grobal "æ”»åŸŽæ€ªç‰©å¤ªåŽ‰å®³ï¼Œæ²™æŠ¤åŸŽå‹‡å£«å°¸æ¨ªéåœ°ï¼Œéœ€è¦ç´§æ€¥æ”¯æ´ï¼ï¼ï¼" 10005
+lineMsg [Grobal]   "æ”»åŸŽæ€ªç‰©å¤ªåŽ‰å®³ï¼Œæ²™æŠ¤åŸŽå‹‡å£«å°¸æ¨ªéåœ°ï¼Œéœ€è¦ç´§æ€¥æ”¯æ´ï¼ï¼ï¼ï¼"
+Delaygoto [Grobal] 150 @æ²™æ”»åŸŽ_18
+
+
+
+[@æ²™æ”»åŸŽ_18]
+#ACT
+Delaygoto [Grobal] 10 @æ²™æ”»åŸŽ_19
 ClearItemMap "3,215,418, 45"  *
 
-[@É³¹¥³Ç_19]
-#ACT 
-MongenP "3,265,89,20" °Ë½ÅÊ×Áì 1
-MongenP "3,265,89,20" ´ó·¨ÀÏ 1
-MongenP "3,265,89,20" ·è¿ñÄ§ÉñµÁ 1
-MongenP "3,265,89,20" ¹Ç¹í½« 1
-MongenP "3,265,89,20" »¤·¨Ìì 1
-MongenP "3,265,89,20" ÷¼÷Ã¾«Áé 1
-MongenP "3,265,89,20" ÂìÒÏ½«¾ü 1
-MongenP "3,265,89,20" ÅµÂêÍ»»÷¶Ó³¤ 1
-MongenP "3,265,89,20" ÅËÒ¹¹í½« 1
-MongenP "3,265,89,20" Ê¬Íõ 1
-MongenP "3,265,89,20" ÎÖÂê»¤ÎÀ 1
-MongenP "3,265,89,20" Ð°¶ñÇ¯³æ 1
-MongenP "3,265,89,20" ÕðÌìÊ×½« 1
-
-MongenP "3,265,212,20" °Ë½ÅÊ×Áì 1
-MongenP "3,265,212,20" ´ó·¨ÀÏ 1
-MongenP "3,265,212,20" ·è¿ñÄ§ÉñµÁ 1
-MongenP "3,265,212,20" ¹Ç¹í½« 1
-MongenP "3,265,212,20" »¤·¨Ìì 1
-MongenP "3,265,212,20" ÷¼÷Ã¾«Áé 1
-MongenP "3,265,212,20" ÂìÒÏ½«¾ü 1
-MongenP "3,265,212,20" ÅµÂêÍ»»÷¶Ó³¤ 1
-MongenP "3,265,212,20" ÅËÒ¹¹í½« 1
-MongenP "3,265,212,20" Ê¬Íõ 1
-MongenP "3,265,212,20" ÎÖÂê»¤ÎÀ 1
-MongenP "3,265,212,20" Ð°¶ñÇ¯³æ 1
-MongenP "3,265,212,20" ÕðÌìÊ×½« 1
-
-MongenP "3,265,212,20" ±¬¶¾ÉñÄ§ 6
-MongenP "3,265,212,20" º£Éñ½«Áì 6
-MongenP "3,265,212,20" ºìÒÂ·¨Ê¦ 10
-MongenP "3,265,212,20" ÅËÒ¹ÓÒ»¤ÎÀ 15
-MongenP "3,265,212,20" ×æÂêÎÀÊ¿ 15
-MongenP "3,265,212,20" ÅµÂêË¾Áî 10
-MongenP "3,265,212,20" ÅµÂêÆï±ø 10
-MongenP "3,265,212,20" ÅËÒ¹±ùÄ§ 16
-MongenP "3,265,212,20" É³Ä®ÓãÄ§ 16
-MongenP "3,265,212,20" ÎÖÂêÓÂÊ¿ 16
-
-MongenP "3,265,89,20" ±¬¶¾ÉñÄ§ 6
-MongenP "3,265,89,20" º£Éñ½«Áì 6
-MongenP "3,265,89,20" ºìÒÂ·¨Ê¦ 10
-MongenP "3,265,89,20" ÅËÒ¹ÓÒ»¤ÎÀ 16
-MongenP "3,265,89,20" ×æÂêÎÀÊ¿ 16
-MongenP "3,265,89,20" ºìÒÂ·¨Ê¦ 10
-MongenP "3,265,89,20" ÅµÂêÆï±ø 10
-MongenP "3,265,89,20" ÅËÒ¹±ùÄ§ 16
-MongenP "3,265,89,20" É³Ä®ÓãÄ§ 16
-MongenP "3,265,89,20" ÎÖÂêÓÂÊ¿ 16
-
-ApplyMonMission "3,265,89,120" "±¬¶¾ÉñÄ§" "3,215,418"
-ApplyMonMission "3,265,89,120" "º£Éñ½«Áì" "3,215,418"
-ApplyMonMission "3,265,89,120" "ºìÒÂ·¨Ê¦" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÅËÒ¹ÓÒ»¤ÎÀ" "3,215,418"
-ApplyMonMission "3,265,89,120" "×æÂêÎÀÊ¿" "3,215,418"
-ApplyMonMission "3,265,89,120" "ºìÒÂ·¨Ê¦" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÅµÂêÆï±ø" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÅËÒ¹±ùÄ§" "3,215,418"
-ApplyMonMission "3,265,89,120" "É³Ä®ÓãÄ§" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÎÖÂêÓÂÊ¿" "3,215,418"
-
-ApplyMonMission "3,265,89,120" "°Ë½ÅÊ×Áì" "3,215,418"
-ApplyMonMission "3,265,89,120" "´ó·¨ÀÏ" "3,215,418"
-ApplyMonMission "3,265,89,120" "·è¿ñÄ§ÉñµÁ" "3,215,418"
-ApplyMonMission "3,265,89,120" "¹Ç¹í½«" "3,215,418"
-ApplyMonMission "3,265,89,120" "»¤·¨Ìì" "3,215,418"
-ApplyMonMission "3,265,89,120" "÷¼÷Ã¾«Áé" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÂìÒÏ½«¾ü" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÂêÍ»»÷¶Ó³¤" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÅËÒ¹¹í½«" "3,215,418"
-ApplyMonMission "3,265,89,120" "Ê¬Íõ" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÎÖÂê»¤ÎÀ" "3,215,418"
-ApplyMonMission "3,265,89,120" "Ð°¶ñÇ¯³æ" "3,215,418"
-ApplyMonMission "3,265,89,120" "ÕðÌìÊ×½«" "3,215,418"
-
-	ApplyMonMission "3,265,212,9999" "°Ë½ÅÊ×Áì" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "´ó·¨ÀÏ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "·è¿ñÄ§ÉñµÁ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "¹Ç¹í½«" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "»¤·¨Ìì" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "÷¼÷Ã¾«Áé" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÂìÒÏ½«¾ü" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅµÂêÍ»»÷¶Ó³¤" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅËÒ¹¹í½«" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "Ê¬Íõ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÎÖÂê»¤ÎÀ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "Ð°¶ñÇ¯³æ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÕðÌìÊ×½«" "3,215,418"
-
-	ApplyMonMission "3,265,212,9999" "±¬¶¾ÉñÄ§" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "º£Éñ½«Áì" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ºìÒÂ·¨Ê¦" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅËÒ¹ÓÒ»¤ÎÀ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "×æÂêÎÀÊ¿" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ºìÒÂ·¨Ê¦" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅµÂêÆï±ø" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅËÒ¹±ùÄ§" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "É³Ä®ÓãÄ§" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÎÖÂêÓÂÊ¿" "3,215,418"
-Eventmsg Grobal "µÚ¶þ²¨¹¥³Ç¹ÖÎïÏòÉ³³Ç·¢ÆðÁË¹¥»÷£¬´ó¼Ò¶¥×¡°¡£¡£¡£¡" 10004
-lineMsg [Grobal]  "µÚ¶þ²¨¹¥³Ç¹ÖÎïÏòÉ³³Ç·¢ÆðÁË¹¥»÷£¬´ó¼Ò¶¥×¡°¡£¡£¡£¡" 
-Delaygoto [Grobal] 180 @É³¹¥³Ç_20
-
-
-[@É³¹¥³Ç_20]
+[@æ²™æ”»åŸŽ_19]
 #ACT
-Eventmsg Grobal "¹¥³Ç¹ÖÎïÌ«¶àÁË£¬É³»¤³ÇÓÂÊ¿Ê¬ºá±éµØ£¬ÐèÒª½ô¼±Ö§Ô®£¡£¡£¡" 10005
-lineMsg [Grobal]   "¹¥³Ç¹ÖÎïÌ«¶àÁË£¬É³»¤³ÇÓÂÊ¿Ê¬ºá±éµØ£¬ÐèÒª½ô¼±Ö§Ô®£¡£¡£¡£¡"
-Delaygoto [Grobal] 180 @É³¹¥³Ç_21
+MongenP "3,265,89,20" å…«è„šé¦–é¢† 1
+MongenP "3,265,89,20" å¤§æ³•è€ 1
+MongenP "3,265,89,20" ç–¯ç‹‚é­”ç¥žç›— 1
+MongenP "3,265,89,20" éª¨é¬¼å°† 1
+MongenP "3,265,89,20" æŠ¤æ³•å¤© 1
+MongenP "3,265,89,20" éª·é«…ç²¾çµ 1
+MongenP "3,265,89,20" èš‚èšå°†å†› 1
+MongenP "3,265,89,20" è¯ºçŽ›çªå‡»é˜Ÿé•¿ 1
+MongenP "3,265,89,20" æ½˜å¤œé¬¼å°† 1
+MongenP "3,265,89,20" å°¸çŽ‹ 1
+MongenP "3,265,89,20" æ²ƒçŽ›æŠ¤å« 1
+MongenP "3,265,89,20" é‚ªæ¶é’³è™« 1
+MongenP "3,265,89,20" éœ‡å¤©é¦–å°† 1
+
+MongenP "3,265,212,20" å…«è„šé¦–é¢† 1
+MongenP "3,265,212,20" å¤§æ³•è€ 1
+MongenP "3,265,212,20" ç–¯ç‹‚é­”ç¥žç›— 1
+MongenP "3,265,212,20" éª¨é¬¼å°† 1
+MongenP "3,265,212,20" æŠ¤æ³•å¤© 1
+MongenP "3,265,212,20" éª·é«…ç²¾çµ 1
+MongenP "3,265,212,20" èš‚èšå°†å†› 1
+MongenP "3,265,212,20" è¯ºçŽ›çªå‡»é˜Ÿé•¿ 1
+MongenP "3,265,212,20" æ½˜å¤œé¬¼å°† 1
+MongenP "3,265,212,20" å°¸çŽ‹ 1
+MongenP "3,265,212,20" æ²ƒçŽ›æŠ¤å« 1
+MongenP "3,265,212,20" é‚ªæ¶é’³è™« 1
+MongenP "3,265,212,20" éœ‡å¤©é¦–å°† 1
+
+MongenP "3,265,212,20" çˆ†æ¯’ç¥žé­” 6
+MongenP "3,265,212,20" æµ·ç¥žå°†é¢† 6
+MongenP "3,265,212,20" çº¢è¡£æ³•å¸ˆ 10
+MongenP "3,265,212,20" æ½˜å¤œå³æŠ¤å« 15
+MongenP "3,265,212,20" ç¥–çŽ›å«å£« 15
+MongenP "3,265,212,20" è¯ºçŽ›å¸ä»¤ 10
+MongenP "3,265,212,20" è¯ºçŽ›éª‘å…µ 10
+MongenP "3,265,212,20" æ½˜å¤œå†°é­” 16
+MongenP "3,265,212,20" æ²™æ¼ é±¼é­” 16
+MongenP "3,265,212,20" æ²ƒçŽ›å‹‡å£« 16
+
+MongenP "3,265,89,20" çˆ†æ¯’ç¥žé­” 6
+MongenP "3,265,89,20" æµ·ç¥žå°†é¢† 6
+MongenP "3,265,89,20" çº¢è¡£æ³•å¸ˆ 10
+MongenP "3,265,89,20" æ½˜å¤œå³æŠ¤å« 16
+MongenP "3,265,89,20" ç¥–çŽ›å«å£« 16
+MongenP "3,265,89,20" çº¢è¡£æ³•å¸ˆ 10
+MongenP "3,265,89,20" è¯ºçŽ›éª‘å…µ 10
+MongenP "3,265,89,20" æ½˜å¤œå†°é­” 16
+MongenP "3,265,89,20" æ²™æ¼ é±¼é­” 16
+MongenP "3,265,89,20" æ²ƒçŽ›å‹‡å£« 16
+
+ApplyMonMission "3,265,89,120" "çˆ†æ¯’ç¥žé­”" "3,215,418"
+ApplyMonMission "3,265,89,120" "æµ·ç¥žå°†é¢†" "3,215,418"
+ApplyMonMission "3,265,89,120" "çº¢è¡£æ³•å¸ˆ" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ½˜å¤œå³æŠ¤å«" "3,215,418"
+ApplyMonMission "3,265,89,120" "ç¥–çŽ›å«å£«" "3,215,418"
+ApplyMonMission "3,265,89,120" "çº¢è¡£æ³•å¸ˆ" "3,215,418"
+ApplyMonMission "3,265,89,120" "è¯ºçŽ›éª‘å…µ" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ½˜å¤œå†°é­”" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ²™æ¼ é±¼é­”" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ²ƒçŽ›å‹‡å£«" "3,215,418"
+
+ApplyMonMission "3,265,89,120" "å…«è„šé¦–é¢†" "3,215,418"
+ApplyMonMission "3,265,89,120" "å¤§æ³•è€" "3,215,418"
+ApplyMonMission "3,265,89,120" "ç–¯ç‹‚é­”ç¥žç›—" "3,215,418"
+ApplyMonMission "3,265,89,120" "éª¨é¬¼å°†" "3,215,418"
+ApplyMonMission "3,265,89,120" "æŠ¤æ³•å¤©" "3,215,418"
+ApplyMonMission "3,265,89,120" "éª·é«…ç²¾çµ" "3,215,418"
+ApplyMonMission "3,265,89,120" "èš‚èšå°†å†›" "3,215,418"
+ApplyMonMission "3,265,89,120" "çŽ›çªå‡»é˜Ÿé•¿" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ½˜å¤œé¬¼å°†" "3,215,418"
+ApplyMonMission "3,265,89,120" "å°¸çŽ‹" "3,215,418"
+ApplyMonMission "3,265,89,120" "æ²ƒçŽ›æŠ¤å«" "3,215,418"
+ApplyMonMission "3,265,89,120" "é‚ªæ¶é’³è™«" "3,215,418"
+ApplyMonMission "3,265,89,120" "éœ‡å¤©é¦–å°†" "3,215,418"
+
+	ApplyMonMission "3,265,212,9999" "å…«è„šé¦–é¢†" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "å¤§æ³•è€" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "ç–¯ç‹‚é­”ç¥žç›—" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "éª¨é¬¼å°†" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æŠ¤æ³•å¤©" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "éª·é«…ç²¾çµ" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "èš‚èšå°†å†›" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "è¯ºçŽ›çªå‡»é˜Ÿé•¿" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ½˜å¤œé¬¼å°†" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "å°¸çŽ‹" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ²ƒçŽ›æŠ¤å«" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "é‚ªæ¶é’³è™«" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "éœ‡å¤©é¦–å°†" "3,215,418"
+
+	ApplyMonMission "3,265,212,9999" "çˆ†æ¯’ç¥žé­”" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æµ·ç¥žå°†é¢†" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "çº¢è¡£æ³•å¸ˆ" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ½˜å¤œå³æŠ¤å«" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "ç¥–çŽ›å«å£«" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "çº¢è¡£æ³•å¸ˆ" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "è¯ºçŽ›éª‘å…µ" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ½˜å¤œå†°é­”" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ²™æ¼ é±¼é­”" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ²ƒçŽ›å‹‡å£«" "3,215,418"
+Eventmsg Grobal "ç¬¬äºŒæ³¢æ”»åŸŽæ€ªç‰©å‘æ²™åŸŽå‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶é¡¶ä½å•Šï¼ï¼ï¼" 10004
+lineMsg [Grobal]  "ç¬¬äºŒæ³¢æ”»åŸŽæ€ªç‰©å‘æ²™åŸŽå‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶é¡¶ä½å•Šï¼ï¼ï¼"
+Delaygoto [Grobal] 180 @æ²™æ”»åŸŽ_20
 
 
-[@É³¹¥³Ç_21] 
+[@æ²™æ”»åŸŽ_20]
 #ACT
-Delaygoto [Grobal] 20 @É³¹¥³Ç_22
+Eventmsg Grobal "æ”»åŸŽæ€ªç‰©å¤ªå¤šäº†ï¼Œæ²™æŠ¤åŸŽå‹‡å£«å°¸æ¨ªéåœ°ï¼Œéœ€è¦ç´§æ€¥æ”¯æ´ï¼ï¼ï¼" 10005
+lineMsg [Grobal]   "æ”»åŸŽæ€ªç‰©å¤ªå¤šäº†ï¼Œæ²™æŠ¤åŸŽå‹‡å£«å°¸æ¨ªéåœ°ï¼Œéœ€è¦ç´§æ€¥æ”¯æ´ï¼ï¼ï¼ï¼"
+Delaygoto [Grobal] 180 @æ²™æ”»åŸŽ_21
+
+
+[@æ²™æ”»åŸŽ_21]
+#ACT
+Delaygoto [Grobal] 20 @æ²™æ”»åŸŽ_22
 ClearItemMap "3,215,418, 45"  *
 
-[@É³¹¥³Ç_22]
-#ACT 
-MongenP "3,265,212,20" ÕðÌìÄ§Éñ 1
-MongenP "3,265,212,20" ÅËÒ¹Å£Ä§Íõ 1
-MongenP "3,265,212,20" ÅµÂêÍ»»÷¶Ó³¤ 10
-MongenP "3,265,212,20" ÷¼÷Ã½ÌÖ÷ 1
-MongenP "3,265,212,20" °ÔÍõ½ÌÖ÷ 1
-MongenP "3,265,212,20" ÎÖÂê½ÌÖ÷ 1
-MongenP "3,265,212,20" °ÔÍõÊØÎÀ 10
-MongenP "3,265,212,20" ÅµÂê½ÌÖ÷ 1
-MongenP "3,265,212,20" ×æÂê½ÌÖ÷ 1
-
-	ApplyMonMission "3,265,212,9999" "ÕðÌìÄ§Éñ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅËÒ¹Å£Ä§Íõ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅµÂêÍ»»÷¶Ó³¤" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "÷¼÷Ã½ÌÖ÷" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "°ÔÍõ½ÌÖ÷" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÎÖÂê½ÌÖ÷" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "°ÔÍõÊØÎÀ" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "ÅµÂê½ÌÖ÷" "3,215,418"
-	ApplyMonMission "3,265,212,9999" "×æÂê½ÌÖ÷" "3,215,418"
-Eventmsg Grobal "×îºóÒ»²¨µÐÈËÏòÉ³³Ç·¢ÆðÁË·è¿ñµÄ×Ü¹¥£¬¼á³Ö°¡¡£¡£ÏÖÔÚ»¹²»ÖªµÀ¹ÖÎïÓÐÃ»ÓÐÔ®±ø¡£¡£¡£¡£¡£¡£" 10004 
-lineMsg [Grobal]   "×îºóÒ»²¨µÐÈËÏòÉ³³Ç·¢ÆðÁË·è¿ñµÄ×Ü¹¥£¬¼á³Ö°¡¡£¡£ÏÖÔÚ»¹²»ÖªµÀ¹ÖÎïÓÐÃ»ÓÐÔ®±ø¡£¡£¡£¡£¡£¡£" 
-Delaygoto [Grobal] 1800 @É³¹¥³Ç_23
-
-[@É³¹¥³Ç_23]
+[@æ²™æ”»åŸŽ_22]
 #ACT
-Eventmsg Grobal "¾­¹ýÁËÓ¢ÐÛÃÇµÄÅ¬Á¦£¡É³³ÇÓÖ»Ö¸´ÁËÎôÈÕµÄÆ½¾²" 10004 
-lineMsg [Grobal]   "¾­¹ýÁËÓ¢ÐÛÃÇµÄÅ¬Á¦£¡É³³ÇÓÖ»Ö¸´ÁËÎôÈÕµÄÆ½¾²" 
+MongenP "3,265,212,20" éœ‡å¤©é­”ç¥ž 1
+MongenP "3,265,212,20" æ½˜å¤œç‰›é­”çŽ‹ 1
+MongenP "3,265,212,20" è¯ºçŽ›çªå‡»é˜Ÿé•¿ 10
+MongenP "3,265,212,20" éª·é«…æ•™ä¸» 1
+MongenP "3,265,212,20" éœ¸çŽ‹æ•™ä¸» 1
+MongenP "3,265,212,20" æ²ƒçŽ›æ•™ä¸» 1
+MongenP "3,265,212,20" éœ¸çŽ‹å®ˆå« 10
+MongenP "3,265,212,20" è¯ºçŽ›æ•™ä¸» 1
+MongenP "3,265,212,20" ç¥–çŽ›æ•™ä¸» 1
+
+	ApplyMonMission "3,265,212,9999" "éœ‡å¤©é­”ç¥ž" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ½˜å¤œç‰›é­”çŽ‹" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "è¯ºçŽ›çªå‡»é˜Ÿé•¿" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "éª·é«…æ•™ä¸»" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "éœ¸çŽ‹æ•™ä¸»" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "æ²ƒçŽ›æ•™ä¸»" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "éœ¸çŽ‹å®ˆå«" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "è¯ºçŽ›æ•™ä¸»" "3,215,418"
+	ApplyMonMission "3,265,212,9999" "ç¥–çŽ›æ•™ä¸»" "3,215,418"
+Eventmsg Grobal "æœ€åŽä¸€æ³¢æ•Œäººå‘æ²™åŸŽå‘èµ·äº†ç–¯ç‹‚çš„æ€»æ”»ï¼ŒåšæŒå•Šã€‚ã€‚çŽ°åœ¨è¿˜ä¸çŸ¥é“æ€ªç‰©æœ‰æ²¡æœ‰æ´å…µã€‚ã€‚ã€‚ã€‚ã€‚ã€‚" 10004
+lineMsg [Grobal]   "æœ€åŽä¸€æ³¢æ•Œäººå‘æ²™åŸŽå‘èµ·äº†ç–¯ç‹‚çš„æ€»æ”»ï¼ŒåšæŒå•Šã€‚ã€‚çŽ°åœ¨è¿˜ä¸çŸ¥é“æ€ªç‰©æœ‰æ²¡æœ‰æ´å…µã€‚ã€‚ã€‚ã€‚ã€‚ã€‚"
+Delaygoto [Grobal] 1800 @æ²™æ”»åŸŽ_23
+
+[@æ²™æ”»åŸŽ_23]
+#ACT
+Eventmsg Grobal "ç»è¿‡äº†è‹±é›„ä»¬çš„åŠªåŠ›ï¼æ²™åŸŽåˆæ¢å¤äº†æ˜”æ—¥çš„å¹³é™" 10004
+lineMsg [Grobal]   "ç»è¿‡äº†è‹±é›„ä»¬çš„åŠªåŠ›ï¼æ²™åŸŽåˆæ¢å¤äº†æ˜”æ—¥çš„å¹³é™"
 }
-;;=ÍøÓÎË½·þ»ùµØÉÌÒµ°æ±¾ http://www.NFmir.com=
+;;=ç½‘æ¸¸ç§æœåŸºåœ°å•†ä¸šç‰ˆæœ¬ http://www.NFmir.com=

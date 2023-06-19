@@ -34,7 +34,7 @@ Check [405] 0
 Mov D0 1
 
 #SAY
-<¹ØÓÚ×ÏÏ¼ÉñÅ®µÄ¾İÖ¤½øĞĞ¶Ô»°¡£/@MadoQuestfridayhyun> \
+<å…³äºç´«éœç¥å¥³çš„æ®è¯è¿›è¡Œå¯¹è¯ã€‚/@MadoQuestfridayhyun> \
 
 #ELSEACT
 goto @main_0
@@ -57,7 +57,7 @@ goto @SinQuest_diary
 #IF
 check [315] 1
 check [316] 0
-checkitem º½º£ÈÕÖ¾ 1
+checkitem èˆªæµ·æ—¥å¿— 1
 #ACT
 goto @SinQuest_diary_1
 break
@@ -72,7 +72,7 @@ goto @SinQuest_ending
 #IF
 check [319] 1
 check [320] 0
-checkitem ÒÅº¡ 1
+checkitem é—éª¸ 1
 #ACT
 goto @SinQuest_Ending_1
 break
@@ -112,23 +112,23 @@ goto @main_0_0
 [Goods]
 ;ItemName      Volume     Hour
 ;; Warrior Ring
-÷¼÷Ã½äÖ¸        100        1
-;; Warrior Bracelet 
-Ğ¡ÊÖïí          100        1
-;; Warrior Necklace 
-À¶ôä´äÏîÁ´      100        1
+éª·é«…æˆ’æŒ‡        100        1
+;; Warrior Bracelet
+å°æ‰‹é•¯          100        1
+;; Warrior Necklace
+è“ç¿¡ç¿ é¡¹é“¾      100        1
 ;; Taoist Ring
-ÕäÖé½äÖ¸        100        1
-;; Taoist Bracelet 
-µÀÊ¿ÊÖïí        100        1
-;; Taoist Necklace 
-;;·ï»ËÃ÷Öé        100        1
+çç æˆ’æŒ‡        100        1
+;; Taoist Bracelet
+é“å£«æ‰‹é•¯        100        1
+;; Taoist Necklace
+;;å‡¤å‡°æ˜ç         100        1
 ;; Wizard Ring
-ÉßÑÛ½äÖ¸        100        1
-;; Wizard Bracelet 
-ºÚÌ´ÊÖïí        100        1
-;; Wizard Necklace 
-;;ÎåÉ«ÏîÁ´        100        1
+è›‡çœ¼æˆ’æŒ‡        100        1
+;; Wizard Bracelet
+é»‘æª€æ‰‹é•¯        100        1
+;; Wizard Necklace
+;;äº”è‰²é¡¹é“¾        100        1
 
 
 ;;------------------------------------------------------------------------------

@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# failed files
+# Convert_Def/Market_Def/14Quest_SkeletonCave-DM002.txt
+# Convert_Def/Market_Def/14Quest_ZombieCave-D404_002.txt
+# Convert_Def/Market_Def/14Quest_ZombieCave-D404_002.txt
+# Convert_Def/Market_Def/14Quest_ZombieCave-E402_001.txt
+# Convert_Def/QuestDiary/Event/SnowBattle/Monquest/SnowMan.txt
+# MonItems/毒蜘蛛61.txt
+# QuestDiary/QT_TODAY/MonQuest/Dm_Numa.txt
+
+
 for f in `find . -name "*.txt"`
 do
     lnk=`realpath $f`

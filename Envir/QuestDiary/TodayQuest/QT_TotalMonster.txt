@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 
 [@TodayQuest_Monster_Total]
 
@@ -3949,4 +3949,4 @@ goto @main_Except
 #CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_Total
 
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

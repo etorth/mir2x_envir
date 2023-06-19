@@ -15,7 +15,7 @@
 
 
 #ELSEACT
-	LoadValue A0 "Convert_Def\QuestDiary\Event\Event_Game01\GEvent_Msg01_MSG.txt" [LineMSG] [MSG01] 
+	LoadValue A0 "Convert_Def\QuestDiary\Event\Event_Game01\GEvent_Msg01_MSG.txt" [LineMSG] [MSG01]
 linemsg "%A0"
 break
 #ELSESAY

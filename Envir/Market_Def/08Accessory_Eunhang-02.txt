@@ -34,7 +34,7 @@ goto @main_0_0
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_Main
 
-;---------------------------------------------------------- 
+;----------------------------------------------------------
 
 [@buy]
 #SAY
@@ -55,16 +55,16 @@ goto @main_0_0
 [Goods]
 ;ItemName      Volume     Hour
 ;; Wizard Ring
-六绝星环        100        1
-玄铁指环        100        1
-蛇眼戒指        100        1
-;; Wizard Bracelet 
-黑檀手镯        100        1
-;; Wizard Necklace 
-黑檀项链        100        1
-;;白金项链        100        1
-琥珀项链        100        1
-;;五色项链        100        1
+鍏粷鏄熺幆        100        1
+鐜勯搧鎸囩幆        100        1
+铔囩溂鎴掓寚        100        1
+;; Wizard Bracelet
+榛戞獉鎵嬮暞        100        1
+;; Wizard Necklace
+榛戞獉椤归摼        100        1
+;;鐧介噾椤归摼        100        1
+鐞ョ弨椤归摼        100        1
+;;浜旇壊椤归摼        100        1
 
 
 

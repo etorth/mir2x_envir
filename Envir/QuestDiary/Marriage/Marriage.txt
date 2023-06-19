@@ -2,18 +2,18 @@
 [@Marrage]
 {
 begin
-	#Define N0{START}          N0   ;0:¾øÀ½, 1:½ÃÀÛ
+	#Define N0{START}          N0   ;0:ç»æ¾œ, 1:çŸ«ç´¯
 	#Define N1{WEDDING}        N1
 	#Define N3{TIME}           N3
 	#Define N4{TRY}            N4
 	#Define N5{WAITINGTIMEOUT} N5
-	#Define N6{MAN}            N6   ;1:³²ÀÚ ½ÅÃ»ÇÔ
-	#Define N7{GIRL}           N7   ;1:¿©ÀÚ ½ÅÃ»ÇÔ
-	
-	#Define B1{MANNAME}        B1   ;½Å¶ûÀÌ¸§
-	#Define B2{GIRLNAME}       B2   ;½ÅºÎÀÌ¸§
-	#Define B3{INPUTGIRLNAME}  B3   ;½Å¶ûÀÌ ÀÔ·ÂÇÑ ½ÅºÎÀÌ¸§
-	
+	#Define N6{MAN}            N6   ;1:å·¢ç£Š è„šæ²¡çªƒ
+	#Define N7{GIRL}           N7   ;1:å’¯ç£Š è„šæ²¡çªƒ
+
+	#Define B1{MANNAME}        B1   ;è„šå°”ææŠš
+	#Define B2{GIRLNAME}       B2   ;è„šä½•ææŠš
+	#Define B3{INPUTGIRLNAME}  B3   ;è„šå°”æ æ¶ä»¿èŒ„ è„šä½•ææŠš
+
 	#IF
 		Equal   N0{START}   1
 	#SAY
@@ -22,13 +22,13 @@ begin
 	#ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Marriage\Marriage.txt] @Marriage_2
 
-	
+
 	#IF
 		Equal   B1{MANNAME}     %USERNAME
 	#SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Marriage\Marriage.txt] @Marriage_3
 
-	
+
 	#IF
 		IsAdmin
 	#SAY
@@ -48,9 +48,9 @@ end
 		#IF
 			checkgold 200000
 		#ACT
-			take ½ğ±Ò 200000
+			take é‡‘å¸ 200000
 			CancelMarriageRing
-			SysMsg "ÒÑÉ¥Ê§ÁË½á»é½äÖ¸µÄ¹¦ÄÜ"
+			SysMsg "å·²ä¸§å¤±äº†ç»“å©šæˆ’æŒ‡çš„åŠŸèƒ½"
 			close
 		#ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Marriage\Marriage.txt] @Marriage_6
@@ -67,7 +67,7 @@ end
 	[@PreCancelWedding]
 	begin
 		#ACT
-			SysMsg "ÄúÒÑ¾­È¡ÏûÁË½á»éÉêÇë¡£"
+			SysMsg "æ‚¨å·²ç»å–æ¶ˆäº†ç»“å©šç”³è¯·ã€‚"
 			goto @CancelWedding
 	end
 ;--------------------------------------------------------------------
@@ -89,7 +89,7 @@ end
 			ClearDelayGoto
 	end
 ;--------------------------------------------------------------------
-	[@wantGetMarried]       ;°áÈ¥ÇÏ·Á´Â »ç¶÷(³²/¿©) Å¬¸¯
+	[@wantGetMarried]       ;æ¬å»çªå¦¨ç»° è¤æ©(å·¢/å’¯) åŠªè…
 	begin
 		#IF
 			!CheckLevel 22
@@ -98,7 +98,7 @@ end
 
 		#ACT
 			break
-		
+
 		#IF
 			CheckMarriage
 		#SAY
@@ -106,7 +106,7 @@ end
 
 		#ACT
 			break
-		
+
 		#IF
 			Gender [man]
 		#ACT
@@ -115,7 +115,7 @@ end
 			goto @wantGetMarried_woman
    end
 ;---------------------------------------------------------
-;;°áÈ¥ÇÏ·Á´Â ³²ÀÚ
+;;æ¬å»çªå¦¨ç»° å·¢ç£Š
 	[@wantGetMarried_man]
 	begin
 		#IF
@@ -128,11 +128,11 @@ end
 
 	end
 ;---------------------------------------------------------
-;;½ÅºÎÀÇ ÀÌ¸§À» ÀÔ·Â ÇÔ.
+;;è„šä½•ç‹¼ ææŠšé˜‘ æ¶ä»¿ çªƒ.
 	[@@InputMarried_Woman]
 	begin
 		#IF
-			Mov     B5  %INPUTSTR     ;B5 ÀÓ½Ãº¯¼ö
+			Mov     B5  %INPUTSTR     ;B5 çƒ™çŸ«å‡½è
 			!Equal  B5  ""
 		#SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Marriage\Marriage.txt] @Marriage_11
@@ -148,7 +148,7 @@ end
 
 		#ACT
 			break
-		
+
 		#IF
 			!Equal   B1{MANNAME} ""
 		#SAY
@@ -156,7 +156,7 @@ end
 
 		#ACT
 			break
-		
+
 		#IF
 			!Equal   B3{INPUTGIRLNAME} ""
 		#SAY
@@ -164,319 +164,319 @@ end
 
 		#ACT
 			break
-		
+
 		#IF
 			!CheckGold   500000
 		#ACT
-			SysMsg  "½á»é·ÑÓÃ²»¹»¡£"
+			SysMsg  "ç»“å©šè´¹ç”¨ä¸å¤Ÿã€‚"
 			close
 			break
-		
+
 		#IF
 		#ACT
-			mov     N1{WEDDING}         1           ;°áÈ¥ ÁøÇà ´Ü°è
-			mov     B1{MANNAME}         %USERNAME   ;½ÅºÎÀÌ¸§Àº B2
+			mov     N1{WEDDING}         1           ;æ¬å» æŸ³é’ çªœæ‹Œ
+			mov     B1{MANNAME}         %USERNAME   ;è„šä½•ææŠšç¯® B2
 			mov     B3{INPUTGIRLNAME}   %INPUTSTR
-			mov     N6{MAN}             1           ;½Å¶û ½ÅÃ» ³¡
-			mov     N5{WAITINGTIMEOUT}  0           ;½ÅÃ»ÇÏ°í ÀÏÁ¤ ½Ã°£ÀÌ Áö³ª¸é Ãë¼ÒµÊ
+			mov     N6{MAN}             1           ;è„šå°” è„šæ²¡ åœº
+			mov     N5{WAITINGTIMEOUT}  0           ;è„šæ²¡çªç»Š è€æ²¥ çŸ«åŸƒæ ç˜¤å”±æ ç§’å®¶å‡³
 			Delaygoto [local] 5 @startWeddingloop
-			SysMsg  "ÒÑÍê³É½á»éÉêÇë£¬µÈĞÂÄïÒ²À´ÉêÇë½á»é£¬¾Í»á½áËã½á»é·ÑÓÃ¡£"
+			SysMsg  "å·²å®Œæˆç»“å©šç”³è¯·ï¼Œç­‰æ–°å¨˜ä¹Ÿæ¥ç”³è¯·ç»“å©šï¼Œå°±ä¼šç»“ç®—ç»“å©šè´¹ç”¨ã€‚"
 			close
 	end
 ;-----------------------------------------------------------
-;°áÈ¥ÇÏ·Á´Â ¿©ÀÚ
+;æ¬å»çªå¦¨ç»° å’¯ç£Š
 	[@wantGetMarried_woman]
 	begin
-		#IF                                             ;³²ÀÚ°¡ ¸ÕÁö ½ÅÃ»ÇÏ°í ±â´Ù·Á¾ß ÇÔ
+		#IF                                             ;å·¢ç£Šå•Š åˆšç˜¤ è„šæ²¡çªç»Š æ‰ä¿ƒå¦¨å…· çªƒ
 			equal   N6{MAN}             1
 			equal   B3{INPUTGIRLNAME}   %USERNAME
 		#ELSEACT
-			SysMsg  "ĞÂÀÉÉĞÎ´ÉêÇë½á»é¡£"
+			SysMsg  "æ–°éƒå°šæœªç”³è¯·ç»“å©šã€‚"
 			close
 			break
-		
+
 		#IF
 			CheckGold 500000
 		#ACT
-			Take    ½ğ±Ò          500000
-			mov     N7{GIRL}            1                   ;¿©ÀÚ ÁØºñ³¡
-			mov     B2{GIRLNAME}        %USERNAME           ;½ÅºÎ ÀÌ¸§ ÀÔ·Â
-			SysMsg  "ÒÑÍê³É½á»éÉêÇë¡£"
+			Take    é‡‘å¸          500000
+			mov     N7{GIRL}            1                   ;å’¯ç£Š éœ–åšåœº
+			mov     B2{GIRLNAME}        %USERNAME           ;è„šä½• ææŠš æ¶ä»¿
+			SysMsg  "å·²å®Œæˆç»“å©šç”³è¯·ã€‚"
 			close
 		#ELSEACT
-			SysMsg  "½á»é·ÑÓÃ²»¹»¡£"
+			SysMsg  "ç»“å©šè´¹ç”¨ä¸å¤Ÿã€‚"
 			close
 	end
 	;------------------------------------------------------------
-	[@startWeddingloop]     ;³²ÀÚÂÊ¿¡¼­ µ¼
+	[@startWeddingloop]     ;å·¢ç£Šç‡ä¿Šè¾‘ å¯¼
 	begin
 		#IF
 			Equal   N0{START}   1
 		#ACT
 			break
-		
+
 		#IF
 			Inc     N5{WAITINGTIMEOUT}      1
 			Large   N5{WAITINGTIMEOUT}      10   ;360
 		#ACT
-			SysMsg  "ÒÑÍê³É½á»éÉêÇë£¬µÈĞÂÄïÒ²À´ÉêÇë½á»é£¬¾Í»á½áËã½á»é·ÑÓÃ¡£"
+			SysMsg  "å·²å®Œæˆç»“å©šç”³è¯·ï¼Œç­‰æ–°å¨˜ä¹Ÿæ¥ç”³è¯·ç»“å©šï¼Œå°±ä¼šç»“ç®—ç»“å©šè´¹ç”¨ã€‚"
 			goto @CancelWedding
 			break
-		
+
 		#IF
 			Equal   N6{MAN}     1
 			Equal   N7{GIRL}    1
 		#ELSEACT
-			SysMsg  "ÕıÔÚµÈºòĞÂÄïÉêÇë½á»é¡£"
+			SysMsg  "æ­£åœ¨ç­‰å€™æ–°å¨˜ç”³è¯·ç»“å©šã€‚"
 			Delaygoto [local] 5 @startWeddingloop
 			break
-		
+
 		#IF
 			!CheckGold   500000
 		#ACT
-			SysMsg  "½á»é·ÑÓÃ²»¹»¡£"
+			SysMsg  "ç»“å©šè´¹ç”¨ä¸å¤Ÿã€‚"
 			Delaygoto [local] 5 @startWeddingloop
 			break
-		
+
 		#IF
 		#ACT
-			Take    ½ğ±Ò          500000
-			Mov     N0{START}   1               ;°áÈ¥½Ä ½ÃÀÛÇßÀ½.
-			Mov     N3{TIME}    0               ;°áÈ¥½Ä Å¸ÀÓ¾Æ¿ô º¯¼ö
-			EventMsg  "0" "ÂíÉÏ¾Í»á¾ÙĞĞĞÂÀÉ <$OUTPUT(B1)>ÏÈÉúºÍĞÂÄï<$OUTPUT(B2)>Å®Ê¿µÄ»éÀñ¡£"
-			SysMsg    "»éÀñÏà¹Ø×¼±¸ÒÑ×öºÃ¡£"
-			Delaygoto [local] 10  @weddingCeremony      ;°áÈ¥½ÄÀÌ Å¸ÀÓ¾Æ¿ôµÇ¾ú´ÂÁö °Ë»ç.
+			Take    é‡‘å¸          500000
+			Mov     N0{START}   1               ;æ¬å»ä¾¥ çŸ«ç´¯æ²æ¾œ.
+			Mov     N3{TIME}    0               ;æ¬å»ä¾¥ é¸¥çƒ™é…’çœ¶ å‡½è
+			EventMsg  "0" "é©¬ä¸Šå°±ä¼šä¸¾è¡Œæ–°éƒ <$OUTPUT(B1)>å…ˆç”Ÿå’Œæ–°å¨˜<$OUTPUT(B2)>å¥³å£«çš„å©šç¤¼ã€‚"
+			SysMsg    "å©šç¤¼ç›¸å…³å‡†å¤‡å·²åšå¥½ã€‚"
+			Delaygoto [local] 10  @weddingCeremony      ;æ¬å»ä¾¥æ é¸¥çƒ™é…’çœ¶ç™»èŒç»°ç˜¤ å…«è¤.
 			close
 	end
-	
+
 ;--------------------------------------------------------------
-;°áÈ¥½Ä ÁøÇà.
-	
+;æ¬å»ä¾¥ æŸ³é’.
+
 	[@weddingCeremony]
 	begin
 		#IF
-			Equal N1{WEDDING} 0  ;°áÈ¥½ÄÀÌ Ãë¼ÒµÊ
+			Equal N1{WEDDING} 0  ;æ¬å»ä¾¥æ ç§’å®¶å‡³
 		#ACT
 			break
-		
+
 		#IF
 			Inc    N3{TIME} 1
 			Large  N3{TIME} 360
 		#ACT
-			EventMsg  "0"  "Ô¤Ô¼µÄ»éÀñÊ±¼äÒÑµ½¡£"
-			break  ;°áÈ¥½Ä Å¸ÀÓ ¾Æ¿ô.
-		
+			EventMsg  "0"  "é¢„çº¦çš„å©šç¤¼æ—¶é—´å·²åˆ°ã€‚"
+			break  ;æ¬å»ä¾¥ é¸¥çƒ™ é…’çœ¶.
+
 		#IF
 			Equal  N1{WEDDING}   1
 		#ACT
-			EventMsg   "0"  "ÏÖÔÚ¿ªÊ¼¾ÙĞĞĞÂÀÉ <$OUTPUT(B1)>ÏÈÉúºÍĞÂÄï<$OUTPUT(B2)>Å®Ê¿µÄ»éÀñ¡£"
+			EventMsg   "0"  "ç°åœ¨å¼€å§‹ä¸¾è¡Œæ–°éƒ <$OUTPUT(B1)>å…ˆç”Ÿå’Œæ–°å¨˜<$OUTPUT(B2)>å¥³å£«çš„å©šç¤¼ã€‚"
 			Mov  N1{WEDDING}  2
 			Delaygoto [local]   10  @weddingCeremony
 			break
-		
+
 		#IF
 			Equal  N1{WEDDING}  2
 		#ACT
-			EventMsg  "0"  "ĞÂÀÉ <$OUTPUT(B1)> ·¢ÊÄ»áÔÚÈËÉú·ç·çÓêÓêµÄÂÃÍ¾ÖĞÓÀÔ¶°®ĞÂÄï<$OUTPUT(B2)>Âğ£¿ ÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´¼ò¶Ì»Ø´ğ¡£ "
-			Mov  N4{TRY}    5      ;5¹øÀÇ ±âÈ¸¸¦ ÁÜ.
+			EventMsg  "0"  "æ–°éƒ <$OUTPUT(B1)> å‘èª“ä¼šåœ¨äººç”Ÿé£é£é›¨é›¨çš„æ—…é€”ä¸­æ°¸è¿œçˆ±æ–°å¨˜<$OUTPUT(B2)>å—ï¼Ÿ è¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥ç®€çŸ­å›ç­”ã€‚ "
+			Mov  N4{TRY}    5      ;5é”…ç‹¼ æ‰é›€ç”« æ·‹.
 			CaptureSaying   %B1  @ListenSayYes_man
 			Mov   N1{WEDDING}  3
 			Delaygoto [local]   10  @weddingCeremony
 			break
-		
+
 		#IF
 			Equal N1{WEDDING}  3
 		#ACT
-			EventMsg  "0"  "ĞÂÀÉÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´»Ø´ğ¡£"
+			EventMsg  "0"  "æ–°éƒè¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥å›ç­”ã€‚"
 			Delaygoto [local]   10  @weddingCeremony
 			break
-		
+
 		#IF
 			Equal  N1{WEDDING}  4
 		#ACT
-			Eventmsg   "0"  "ĞÂÄï <$OUTPUT(B2)>·¢ÊÄ»áÔÚÈËÉú·ç·çÓêÓêµÄÂÃÍ¾ÖĞÓÀÔ¶°®ĞÂÀÉ <$OUTPUT(B1)> Âğ£¿ÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´¼ò¶Ì»Ø´ğ¡£"
-			Mov  N4{TRY}    5      ;5¹øÀÇ ±âÈ¸¸¦ ÁÜ.
+			Eventmsg   "0"  "æ–°å¨˜ <$OUTPUT(B2)>å‘èª“ä¼šåœ¨äººç”Ÿé£é£é›¨é›¨çš„æ—…é€”ä¸­æ°¸è¿œçˆ±æ–°éƒ <$OUTPUT(B1)> å—ï¼Ÿè¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥ç®€çŸ­å›ç­”ã€‚"
+			Mov  N4{TRY}    5      ;5é”…ç‹¼ æ‰é›€ç”« æ·‹.
 			CaptureSaying  %B2  @ListenSayYes_woman
 			Mov  N1{WEDDING}  5
 			Delaygoto [local]   10  @weddingCeremony
 			break
-		
+
 		#IF
 			Equal N1{WEDDING}  5
 		#ACT
-			EventMsg  "0"  "ĞÂÄïÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´»Ø´ğ¡£"
+			EventMsg  "0"  "æ–°å¨˜è¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥å›ç­”ã€‚"
 			Delaygoto [local]   10  @weddingCeremony
 			break
-		
+
 		#IF
 			Equal  N1{WEDDING}  6
 		#ACT
-			Eventmsg "0" "ÏÖÔÚĞÂÀÉĞÂÄï½»»»×÷Îª½á»éĞÅÎïµÄ½äÖ¸¡£Çë½»»»½äÖ¸¡£"
+			Eventmsg "0" "ç°åœ¨æ–°éƒæ–°å¨˜äº¤æ¢ä½œä¸ºç»“å©šä¿¡ç‰©çš„æˆ’æŒ‡ã€‚è¯·äº¤æ¢æˆ’æŒ‡ã€‚"
 			GetMarried  %B1  %B2
 			mov   N1{WEDDING}  7
 			Delaygoto [local]   10  @weddingCeremony
 			break
-		
-;°áÈ¥ÇÑ »ç¶÷ÀÇ SpouseNameÀÌ ¼³Á¤µÇ°í, ¿Ş¼Õ¿¡ °áÈ¥¹İÁö°¡ ¾ø´Â °æ¿ì¿¡´Â ¹è¿ìÀÚ¿¡°Ô¼­ 
-;¹ŞÀº ¹İÁö°¡ ÀÚµ¿À¸·Î °áÈ¥ ¹İÁö°¡ µÈ´Ù. °áÈ¥¹İÁö´Â ¹«Á¶°Ç ¿Ş¼Õ¿¡ ²¸Áø´Ù.
-		
+
+;æ¬å»èŒ„ è¤æ©ç‹¼ SpouseNameæ æ±²æ²¥ç™»ç»Š, å“­é¢Šä¿Š æ¬å»é¦†ç˜¤å•Š ç»ç»° ç‰ˆå¿«ä¿Šç»° ç¡…å¿«ç£Šä¿Šéœ¸è¾‘
+;ç½ç¯® é¦†ç˜¤å•Š ç£Šæ‚¼æ è‚º æ¬å» é¦†ç˜¤å•Š ç­‰ä¿ƒ. æ¬å»é¦†ç˜¤ç»° å…¬ç‚¼æ‰’ å“­é¢Šä¿Š å“ºæŸ³ä¿ƒ.
+
 		#IF
 			Equal N1{WEDDING} 7
 			CheckMarriageRing  %B1
 			CheckMarriageRing  %B2
 		#ACT
-			EventMsg  "0" "ÖÁ´Ë£¬ĞÂÀÉ <$OUTPUT(B1)>ÏÈÉúºÍĞÂÄï <$OUTPUT(B2)> Å®Ê¿µÄ»éÀñ½áÊø¡£×£¶şÎ»°×Í·ÙÉÀÏ£¬ÓÀÔ¶ĞÒ¸££¡"
+			EventMsg  "0" "è‡³æ­¤ï¼Œæ–°éƒ <$OUTPUT(B1)>å…ˆç”Ÿå’Œæ–°å¨˜ <$OUTPUT(B2)> å¥³å£«çš„å©šç¤¼ç»“æŸã€‚ç¥äºŒä½ç™½å¤´å•è€ï¼Œæ°¸è¿œå¹¸ç¦ï¼"
 			goto @cancelWedding
 			Break
-		
+
 		#IF
 		#ACT
 			Delaygoto [local]   10  @weddingCeremony
 	end
-	
+
 	[@GetFace]
 	begin
 		#IF
 			CheckJob  Warrior
 		#ACT
 			mov  P1 0
-		
+
 		#IF
 			CheckJob  Wizard
 		#ACT
 			mov p1 1
-		
+
 		#IF
 			CheckJob  Taoist
 		#ACT
 			mov p1 2
-		
+
 		#IF
 		#ACT
-			mul p1 2 ;³²ÀÚ´Â Â¦¼ö, ¿©ÀÚ´Â È¦¼ö
+			mul p1 2 ;å·¢ç£Šç»° å¨„è, å’¯ç£Šç»° åœˆè
 			mov p1 p9
-	
+
 		#IF
 			gender woman
 		#ACT
 			inc p1
-		
+
 		#IF
 		#ACT
-			inc p1 20000  ;»ç¶÷¾ó±¼Àº 20000¹ø ÀÌ»óÀÓ
+			inc p1 20000  ;è¤æ©å€”å¥”ç¯® 20000é”… ææƒ‘çƒ™
 		#SAY
 			<$OUTPUT(p1)>
 	end
 ;-----------------------------------------------------------
-;³²ÀÚ°¡ ÇÏ´Â ¸»À» Ç¥½ÃÇÏ°í °Ë»çÇÔ.
+;å·¢ç£Šå•Š çªç»° å¯Œé˜‘ é’çŸ«çªç»Š å…«è¤çªƒ.
 	[@ListenSayYes_man]
 	begin
 		#IF
-			Equal N1{WEDDING}  0  ;°áÈ¥ÀÌ Ãë¼ÒµÇ¸é.
+			Equal N1{WEDDING}  0  ;æ¬å»æ ç§’å®¶ç™»æ.
 		#ACT
 			CaptureSaying ""
 			break
-		
+
 		#IF
 		#ACT
 			mov  B9 %INPUTSTR
 			mov  P1 %@GetFace
 			EventMsg "0"  "<$OUTPUT(B9)>" %P1
-		
+
 		#IF
 			Equal  N1{WEDDING}  3
-			Equal  B9  "ÊÇ"
+			Equal  B9  "æ˜¯"
 		#ACT
 			Mov  B9  ""
-			EventMsg  "0"  "ĞÂÀÉ <$OUTPUT(B1)> ÏÈÉúÒÑ»Ø´ğ¡°ÊÇ¡±¡£"
+			EventMsg  "0"  "æ–°éƒ <$OUTPUT(B1)> å…ˆç”Ÿå·²å›ç­”â€œæ˜¯â€ã€‚"
 			Mov  N1{WEDDING}  4
-			CaptureSaying  ""  ;Ãë¼ÒÇÔ.
+			CaptureSaying  ""  ;ç§’å®¶çªƒ.
 			break
-		
+
 		#IF
 			Equal  N1{WEDDING}  3
-			Equal  B9  "²»ÊÇ"
+			Equal  B9  "ä¸æ˜¯"
 		#ACT
 			Mov  B9  ""
-			EventMsg  "0"  "ĞÂÀÉ <$OUTPUT(B1)> ÏÈÉú»Ø´ğ¡°²»ÊÇ¡±"
-			EventMsg  "0"  "Õâ³¡»éÊÂÊÓÎªÎŞĞ§¡£"
-			goto @cancelWedding  ;°áÈ¥ Ãë¼Ò
-			CaptureSaying  ""  ;Ãë¼ÒÇÔ.
+			EventMsg  "0"  "æ–°éƒ <$OUTPUT(B1)> å…ˆç”Ÿå›ç­”â€œä¸æ˜¯â€"
+			EventMsg  "0"  "è¿™åœºå©šäº‹è§†ä¸ºæ— æ•ˆã€‚"
+			goto @cancelWedding  ;æ¬å» ç§’å®¶
+			CaptureSaying  ""  ;ç§’å®¶çªƒ.
 			Break
-		
+
 		#IF
 			Equal  N1{WEDDING} 3
 			!Equal  B9  ""
 		#ACT
-			EventMsg  "0" "ĞÂÀÉÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´»Ø´ğ¡£"
-		
+			EventMsg  "0" "æ–°éƒè¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥å›ç­”ã€‚"
+
 		#IF
 			Large N4{TRY}   0
 		#ACT
-			SysMsg "Ö»Ê£ÏÂ<$OUTPUT(N4)>´ÎµÄ»ú»á¡£ÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´»Ø´ğ¡£"
+			SysMsg "åªå‰©ä¸‹<$OUTPUT(N4)>æ¬¡çš„æœºä¼šã€‚è¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥å›ç­”ã€‚"
 		#ELSEACT
-			EventMsg  "0"  "»éÀñÒÑÈ¡Ïû¡£"
+			EventMsg  "0"  "å©šç¤¼å·²å–æ¶ˆã€‚"
 			goto @cancelWedding
-			CaptureSaying  ""  ;Ãë¼ÒÇÔ.
+			CaptureSaying  ""  ;ç§’å®¶çªƒ.
 			Break
-		
+
 		#IF
 		#ACT
 			Dec   N4{TRY}   1
-	end	
+	end
 ;-----------------------------------------------------------
-;¿©°¡ ÇÏ´Â ¸»À» Ç¥½ÃÇÏ°í °Ë»çÇÔ.
+;å’¯å•Š çªç»° å¯Œé˜‘ é’çŸ«çªç»Š å…«è¤çªƒ.
 	[@ListenSayYes_woman]
 	begin
 		#IF
-			Equal N1{WEDDING}  0  ;°áÈ¥ÀÌ Ãë¼ÒµÇ¸é.
+			Equal N1{WEDDING}  0  ;æ¬å»æ ç§’å®¶ç™»æ.
 		#ACT
 			CaptureSaying ""
 			break
-		
+
 		#IF
 		#ACT
 			mov  B9 %INPUTSTR
 			mov  P1 %@GetFace
 			EventMsg "0"  "<$OUTPUT(B9)>" %P1
-		
+
 		#IF
 			Equal  N1{WEDDING}  5
-			Equal  B9  "ÊÇ"
+			Equal  B9  "æ˜¯"
 		#ACT
 			Mov  B9  ""
-			EventMsg  "0"  "ĞÂÄï <$OUTPUT(B2)> Å®Ê¿ÒÑ»Ø´ğ¡°ÊÇ¡±¡£"
+			EventMsg  "0"  "æ–°å¨˜ <$OUTPUT(B2)> å¥³å£«å·²å›ç­”â€œæ˜¯â€ã€‚"
 			Mov  N1{WEDDING}  6
-			CaptureSaying  ""  ;Ãë¼ÒÇÔ.
+			CaptureSaying  ""  ;ç§’å®¶çªƒ.
 			break
-		
+
 		#IF
 			Equal  N1{WEDDING}  5
-			Equal  B9  "²»ÊÇ"
+			Equal  B9  "ä¸æ˜¯"
 		#ACT
 			Mov  B9  ""
-			EventMsg  "0"  "ĞÂÄï <$OUTPUT(B2)>Å®Ê¿»Ø´ğ¡°²»ÊÇ¡±¡£"
-			EventMsg  "0"  "Õâ³¡»éÊÂÊÓÎªÎŞĞ§¡£"
-			CaptureSaying  ""  ;Ãë¼ÒÇÔ.
-			goto @cancelWedding  ;°áÈ¥ Ãë¼Ò
+			EventMsg  "0"  "æ–°å¨˜ <$OUTPUT(B2)>å¥³å£«å›ç­”â€œä¸æ˜¯â€ã€‚"
+			EventMsg  "0"  "è¿™åœºå©šäº‹è§†ä¸ºæ— æ•ˆã€‚"
+			CaptureSaying  ""  ;ç§’å®¶çªƒ.
+			goto @cancelWedding  ;æ¬å» ç§’å®¶
 			Break
-		
+
 		#IF
 			Equal  N1{WEDDING} 5
 			!Equal  B9  ""
 		#ACT
-			EventMsg  "0" "ĞÂÄïÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´»Ø´ğ¡£"
-		
+			EventMsg  "0" "æ–°å¨˜è¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥å›ç­”ã€‚"
+
 		#IF
 			Large N4{TRY}   0
 		#ACT
-			SysMsg "<Ö»Ê£ÏÂ$OUTPUT(N4)>´ÎµÄ»ú»á¡£ÇëÓÃ¡°ÊÇ/²»ÊÇ¡±À´»Ø´ğ¡£"
+			SysMsg "<åªå‰©ä¸‹$OUTPUT(N4)>æ¬¡çš„æœºä¼šã€‚è¯·ç”¨â€œæ˜¯/ä¸æ˜¯â€æ¥å›ç­”ã€‚"
 		#ELSEACT
-			EventMsg  "0"  "»éÀñÒÑÈ¡Ïû¡£"
+			EventMsg  "0"  "å©šç¤¼å·²å–æ¶ˆã€‚"
 			goto @cancelWedding
-			CaptureSaying  ""  ;Ãë¼ÒÇÔ.
+			CaptureSaying  ""  ;ç§’å®¶çªƒ.
 			Break
-		
+
 		#IF
 		#ACT
 			Dec   N4{TRY}   1
@@ -489,12 +489,12 @@ end
 		#SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Marriage\Marriage.txt] @Marriage_15
 
-		
+
 		[@divorcenow]
 		#IF
 			checkgold 5000000
 		#ACT
-			take ½ğ±Ò 5000000
+			take é‡‘å¸ 5000000
 			Divorce
 			close
 	end

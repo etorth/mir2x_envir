@@ -29,5 +29,5 @@ goto @siwang1
 set [234] 1
 set [231] 0
 set [232] 0
-give ½ð±Ò 9000
+give Â½Ã°Â±Ã’ 9000
 mapmove d404 52 130

@@ -57,7 +57,7 @@ goto @main_0_0
 [@main_0_0]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\04PotionMake_Bichon1-0.txt] @NPC_Main_0_0
- 
+
 [@main_0_1]
 #IF
 check [147] 1
@@ -85,7 +85,7 @@ goto @main_0_1_1
 [@main_0_4]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\04PotionMake_Bichon1-0.txt] @NPC_Main_0_4
- 
+
 [@NQuest01_1]
 #IF
 #ACT

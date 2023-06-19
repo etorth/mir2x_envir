@@ -43,7 +43,7 @@ set [266] 1
 [@PARICHE_COMPLETE]
 {
 #IF
-checkitem ��Ӭ�� 1
+checkitem ²ÔÓ¬ÅÄ 1
 #ACT
 goto @PARICHE_COMPLETE_1
 #ELSESAY
@@ -55,8 +55,8 @@ goto @PARICHE_COMPLETE_1
 check [270] 1
 check [271] 0
 #ACT
-take ��Ӭ�� 1
-give ������ 1
+take ²ÔÓ¬ÅÄ 1
+give ²õÒíµ¶ 1
 mov S1 0
 mov S2 0
 reset [266] 4
@@ -99,7 +99,7 @@ set [267] 1
 [@PARICHE_JABSANG_3]
 {
 #IF
-checkitem ţë 1
+checkitem Å£Ã« 1
 #ACT
 goto @PARICHE_JABSANG_3_1
 #ELSESAY
@@ -108,7 +108,7 @@ goto @PARICHE_JABSANG_3_1
 
 [@PARICHE_JABSANG_3_1]
 #IF
-checkitem ��� 1
+checkitem Öñ¹÷ 1
 #ACT
 goto @PARICHE_JABSANG_3_2
 #ELSESAY
@@ -117,12 +117,12 @@ goto @PARICHE_JABSANG_3_2
 
 [@PARICHE_JABSANG_3_2]
 #IF
-checkitem ţë 1
-checkitem ��� 1
+checkitem Å£Ã« 1
+checkitem Öñ¹÷ 1
 #ACT
-take ţë 1
-take ��� 1
-give ��Ӭ�� 1
+take Å£Ã« 1
+take Öñ¹÷ 1
+give ²ÔÓ¬ÅÄ 1
 set [270] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\pariche.txt] @pariche_13

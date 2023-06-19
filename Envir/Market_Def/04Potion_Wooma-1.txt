@@ -10,7 +10,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Wooma-1.txt] @NPC_RedPlayer	
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Wooma-1.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root_1
 
@@ -20,7 +20,7 @@ check [199] 1
 #ACT
 goto @main_0_0
 break
-;             
+;
 #IF
 check [197] 1
 #ACT
@@ -31,7 +31,7 @@ check [195] 1
 #ACT
 goto @main_0_0
 break
-;             
+;
 #IF
 check [185] 1
 #ACT
@@ -67,15 +67,15 @@ goto @main_0_0
 [@main_0_0]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Wooma-1.txt] @NPC_Main_0_0
- 
+
 [@main_0_1]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Wooma-1.txt] @NPC_Main_0_1
- 
+
 [@main_0_2]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Wooma-1.txt] @NPC_Main_0_2
- 
+
 [@main_0_3]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Wooma-1.txt] @NPC_Main_0_3
@@ -94,10 +94,10 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-Ω¥¥“©£®–°£©    500        1
-ƒß∑®“©£®–°£©    500        1
-¿Ø÷Ú            100        1
-µÿ¿ŒÃ”Õ—æÌ      100        1
+ÈáëÂàõËçØÔºàÂ∞èÔºâ    500        1
+È≠îÊ≥ïËçØÔºàÂ∞èÔºâ    500        1
+Ëú°ÁÉõ            100        1
+Âú∞Áâ¢ÈÄÉËÑ±Âç∑      100        1
 
 [@NQuest01_1]
 #CALL [\NQ_BASE\oma.txt] @OMAYONG_START

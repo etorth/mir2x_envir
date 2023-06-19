@@ -102,7 +102,7 @@ set [263] 1
 [@SOKMO_COMPLETE]
 {
 #IF
-checkitem Í¯×ÓÏñ 1
+checkitem ÃÂ¯Ã—Ã“ÃÃ± 1
 #ACT
 goto @SOKMO_COMPLETE_1
 #ELSESAY
@@ -114,8 +114,8 @@ goto @SOKMO_COMPLETE_1
 check [265] 0
 check [264] 1
 #ACT
-take Í¯×ÓÏñ 1
-give ½ğ±Ò 3000
+take ÃÂ¯Ã—Ã“ÃÃ± 1
+give Â½Ã°Â±Ã’ 3000
 reset [259] 5
 set [265] 1
 #SAY
@@ -200,10 +200,10 @@ check [263] 1
 
 [@SOKMO_WONSENG_3_4]
 #IF
-checkitem ÖÆÄ§±¦Óñ 1
+checkitem Ã–Ã†Ã„Â§Â±Â¦Ã“Ã± 1
 #ACT
-take ÖÆÄ§±¦Óñ 1
-give Í¯×ÓÏñ 1
+take Ã–Ã†Ã„Â§Â±Â¦Ã“Ã± 1
+give ÃÂ¯Ã—Ã“ÃÃ± 1
 set [264] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\dolumi.txt] @dolumi_24
@@ -215,8 +215,8 @@ goto @SOKMO_WONSENG_3_4_1
 #IF
 checkgold 3000
 #ACT
-take ½ğ±Ò 3000
-give Í¯×ÓÏñ 1
+take Â½Ã°Â±Ã’ 3000
+give ÃÂ¯Ã—Ã“ÃÃ± 1
 set [264] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\dolumi.txt] @dolumi_25

@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 
 
 [@MadoTimeQuestBaska_A]
@@ -139,7 +139,7 @@ break
 
 [@MadoTimeQuestnpcallfridayA_9_3]
 #IF
-checkitem Ê¬¹ÇÏîÁ´ 1
+checkitem å°¸éª¨é¡¹é“¾ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcBaska.txt] @Convert_MadoNpcBaska_6
@@ -330,7 +330,7 @@ break
 
 [@MadoTimeQuestnpcallfridayB_9_3]
 #IF
-checkitem Ê¬¹ÇÏîÁ´ 1
+checkitem å°¸éª¨é¡¹é“¾ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcBaska.txt] @Convert_MadoNpcBaska_17
@@ -523,7 +523,7 @@ break
 
 [@MadoTimeQuestnpcallfridayC_9_3]
 #IF
-checkitem Ê¬¹ÇÏîÁ´ 1
+checkitem å°¸éª¨é¡¹é“¾ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcBaska.txt] @Convert_MadoNpcBaska_28
@@ -713,7 +713,7 @@ break
 
 [@MadoTimeQuestnpcallfridayD_9_3]
 #IF
-checkitem Ê¬¹ÇÏîÁ´ 1
+checkitem å°¸éª¨é¡¹é“¾ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcBaska.txt] @Convert_MadoNpcBaska_39
@@ -1121,7 +1121,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcBaska.txt] @Convert_MadoNpcBaska_60
 
 #ACT
-Movenpc "D1604,226,201,ÅµÂê´ó·¨ÀÏ1" npcroom1 10 7
+Movenpc "D1604,226,201,è¯ºç›å¤§æ³•è€1" npcroom1 10 7
 }
 
 [@MadoTimeQuestsundaynpcB]
@@ -1452,7 +1452,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcBaska.txt] @Convert_MadoNpcBaska_77
 
 #ACT
-Movenpc "D1604,389,198,ÅµÂê´ó·¨ÀÏ2" npcroom1 10 8
+Movenpc "D1604,389,198,è¯ºç›å¤§æ³•è€2" npcroom1 10 8
 }
 
 [@MadoTimeQuestsundaynpcC]
@@ -1786,7 +1786,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcBaska.txt] @Convert_MadoNpcBaska_94
 
 #ACT
-Movenpc "D1604,204,212,ÅµÂê´ó·¨ÀÏ3" npcroom1 10 9
+Movenpc "D1604,204,212,è¯ºç›å¤§æ³•è€3" npcroom1 10 9
 }
 
 
@@ -2179,4 +2179,4 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 
 
 
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

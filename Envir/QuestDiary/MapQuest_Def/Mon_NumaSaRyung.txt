@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 
 [@Main]
 #IF
@@ -6,7 +6,7 @@ Check [209] 1
 Check [210] 1
 Check [409] 0
 #ACT
-Mov A8 "ÅµÂêË¾Áî"
+Mov A8 "è¯ºç›å¸ä»¤"
 goto @TodayQuest_TQCase1
 #ELSEACT
 goto @main_Except
@@ -19,7 +19,7 @@ Mov A0 %USERMAP
 Equal A0 "D1601"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -28,7 +28,7 @@ break
 Equal A0 "D1602"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -37,7 +37,7 @@ break
 Equal A0 "D16031"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -46,7 +46,7 @@ break
 Equal A0 "D16032"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -55,7 +55,7 @@ break
 Equal A0 "D16033"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -64,7 +64,7 @@ break
 Equal A0 "D16034"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -73,7 +73,7 @@ break
 Equal A0 "D1604"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -82,7 +82,7 @@ break
 Equal A0 "D1605"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoHaveStep0
 break
@@ -92,4 +92,4 @@ break
 
 [@MadoHaveStep0]
 #CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep_1
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

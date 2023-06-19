@@ -11,10 +11,10 @@ goto @main_0
 #IF
 checkjob wizard
 #ACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @wha_main
 #ELSEACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @wha_other_class
 
 [@wha_other_class]

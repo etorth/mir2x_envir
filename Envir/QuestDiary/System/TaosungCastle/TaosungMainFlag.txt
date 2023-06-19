@@ -1,4 +1,4 @@
-;;��Ҫɾ������
+;;²»ÒªÉ¾µô´ËÐÐ
 
 [@Defence_SubFlag_TAOSUNG]
 {
@@ -116,14 +116,14 @@ break
 CAPTURECASTLEFLAG [TAOSUNG]
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Confuse'"
 mov D0 0
-SENDCMD "5, 0, 0, 1000" ��ɳĮ������á� "@_Startup"
+SENDCMD "5, 0, 0, 1000" ¡ºÉ³Ä®ÍÁ³ÇÆìŽÃ¡» "@_Startup"
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg0]
 linemsg "5" %A7
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg1]
 linemsg "5" %A7
-ApplyMonEX "5,267,145,5" ľդ��2 [Humanside]
-ApplyMonEX "5,201,159,5" ľդ��4 [Humanside]
-ApplyMonEX "5,211,96,5" ľդ��1 [Humanside]
+ApplyMonEX "5,267,145,5" Ä¾Õ¤À¸2 [Humanside]
+ApplyMonEX "5,201,159,5" Ä¾Õ¤À¸4 [Humanside]
+ApplyMonEX "5,211,96,5" Ä¾Õ¤À¸1 [Humanside]
 goto @Tosung_Human_BarriCade
 goto @RecusiveTimeRootin_next_TAOSUNG
 
@@ -231,25 +231,25 @@ mov A1 %ARG(1)
 #IF
 Equal A1 "Numa"
 #ACT
-monclear "5" "ľդ��8"
-MonClear "5" ŵ��8
-MonClear "5" ŵ��9
-MonClear "5" ŵ�꽫ʿ8
-MonClear "5" ŵ�꽫ʿ9
-MonClear "5" ŵ�귨��8
-MonClear "5" ŵ�귨��9
-MonGenP "5,247,105,0" ľդ��7 1
-MonGenP "5,248,105,0" ľդ��7 1
-MonGenP "5,249,105,0" ľդ��7 1
-MonGenP "5,247,106,0" ľդ��7 1
-MonGenP "5,249,106,0" ľդ��7 1
-MonGenP "5,247,107,0" ľդ��7 1
-MonGenP "5,248,107,0" ľդ��7 1
-MonGenP "5,249,107,0" ľդ��7 1
-ApplyMonEX "5,248,106,5" ľդ��7 [Humanside]
+monclear "5" "Ä¾Õ¤À¸8"
+MonClear "5" ÅµÂê8
+MonClear "5" ÅµÂê9
+MonClear "5" ÅµÂê½«Ê¿8
+MonClear "5" ÅµÂê½«Ê¿9
+MonClear "5" ÅµÂê·¨ÀÏ8
+MonClear "5" ÅµÂê·¨ÀÏ9
+MonGenP "5,247,105,0" Ä¾Õ¤À¸7 1
+MonGenP "5,248,105,0" Ä¾Õ¤À¸7 1
+MonGenP "5,249,105,0" Ä¾Õ¤À¸7 1
+MonGenP "5,247,106,0" Ä¾Õ¤À¸7 1
+MonGenP "5,249,106,0" Ä¾Õ¤À¸7 1
+MonGenP "5,247,107,0" Ä¾Õ¤À¸7 1
+MonGenP "5,248,107,0" Ä¾Õ¤À¸7 1
+MonGenP "5,249,107,0" Ä¾Õ¤À¸7 1
+ApplyMonEX "5,248,106,5" Ä¾Õ¤À¸7 [Humanside]
 UpdateValueSql "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER='HUMAN'"
 #ELSEACT
 break
 
 }
-;;��Ҫɾ������
+;;²»ÒªÉ¾µô´ËÐÐ

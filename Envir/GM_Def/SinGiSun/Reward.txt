@@ -2,50 +2,50 @@
 
 [pachun]
 ;;;;---------
-give = Ä§ÁîÊÖïí
-WarriorGive1 = Ğı·çÁ÷ĞÇµ¶
-WarriorGive2 = ºÚÆ¤Ñ¥×Ó
-WizardGive1 = ·É»êÄ§ÈĞ
-WizardGive2 = ºÚÆ¤Ñ¥×Ó
-TaoistGive1 = ·âÄ§½£
-TaoistGive2 = ºÚÆ¤Ñ¥×Ó
+give = é­”ä»¤æ‰‹é•¯
+WarriorGive1 = æ—‹é£æµæ˜Ÿåˆ€
+WarriorGive2 = é»‘çš®é´å­
+WizardGive1 = é£é­‚é­”åˆƒ
+WizardGive2 = é»‘çš®é´å­
+TaoistGive1 = å°é­”å‰‘
+TaoistGive2 = é»‘çš®é´å­
 
 [sinQuest]
 ;;;;-------
-give = Á¬»·Ã÷Öé
+give = è¿ç¯æ˜ç 
 
 ;;;;-------
-warriorPotion = ½ğ´´Ò©£¨ÌØ£©
+warriorPotion = é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰
 warriorPotionNumber = 30
-wizardPotion = Ä§·¨Ò©£¨ÌØ£© 
+wizardPotion = é­”æ³•è¯ï¼ˆç‰¹ï¼‰
 wizardPotionNumber = 30
-taoistPotion = ½ğ´´Ò©£¨ÌØ£©
-taoistPotion1 = Ä§·¨Ò©£¨ÌØ£©
+taoistPotion = é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰
+taoistPotion1 = é­”æ³•è¯ï¼ˆç‰¹ï¼‰
 taoistPotionNumber = 15
 ;;;---------
-warriorPotion2 = ½ğ´´Ò©£¨ÌØ£©
+warriorPotion2 = é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰
 warriorPotionNumber2 = 20
-wizardPotion2 = Ä§·¨Ò©£¨ÌØ£©
+wizardPotion2 = é­”æ³•è¯ï¼ˆç‰¹ï¼‰
 wizardPotionNumber2 = 20
-taoistPotion2 = ½ğ´´Ò©£¨ÌØ£©
-taoistPotion3 = Ä§·¨Ò©£¨ÌØ£© 
+taoistPotion2 = é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰
+taoistPotion3 = é­”æ³•è¯ï¼ˆç‰¹ï¼‰
 taoistPotionNumber2 = 10
 
 [giveweapon]
 ;;------------
-Warriorweapon = µÛÍõ½äÖ¸
-Wizardweapon = À×Éñ½äÖ¸
-Taoistweapon = ÈóÉñ½äÖ¸
+Warriorweapon = å¸ç‹æˆ’æŒ‡
+Wizardweapon = é›·ç¥æˆ’æŒ‡
+Taoistweapon = æ¶¦ç¥æˆ’æŒ‡
 
 
 [giveAccessory]
 ;;;;-------
-warriorAccessory = ×··çÏîÁ´
-wizardAccessory = ×·»êÏîÁ´
-taoistAccessory = Ä§ÁîÏîÁ´
+warriorAccessory = è¿½é£é¡¹é“¾
+wizardAccessory = è¿½é­‚é¡¹é“¾
+taoistAccessory = é­”ä»¤é¡¹é“¾
 
 [BasicGive]
 ;;;;-------
-warriorAccessory = Á¶Óü
-wizardAccessory = ÑªÒû
-taoistAccessory = ÎŞÃûµ¶
+warriorAccessory = ç‚¼ç‹±
+wizardAccessory = è¡€é¥®
+taoistAccessory = æ— ååˆ€

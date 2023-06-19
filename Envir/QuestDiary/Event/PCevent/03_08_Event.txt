@@ -2,26 +2,26 @@
 [@point200]
 {
 #SAY
-�����﷢��200��㿨����Ʒ����Ʒ�嵥�ǡ�ף����1ƿ��������ˮ����1ƿ����Ȼ��ˮ����1ƿ��������ˮ����1ƿ�������ˮ����1ƿ����Ϊ�˱�֤����õ���Ʒ����������ϣ��뱣֤�������� {FCOLOR/10}5��ռ�{FCOLOR/12}��ͬʱ {FCOLOR/10}���������еĸ����⣬������37������������Ʒ��{FCOLOR/12}������Ѿ�ȷ�ϣ���㡰��һ������ȡ��\\
-<��һ��/@check_200>\
-<ȡ��/@exit>
+我这里发放200点点卡的礼品。礼品清单是“祝福油1瓶、攻击神水（大）1瓶、自然神水（大）1瓶、疾风神水（大）1瓶、灵魂神水（大）1瓶”。为了保证您获得的礼品不会掉到地上，请保证您身上有 {FCOLOR/10}5格空间{FCOLOR/12}，同时 {FCOLOR/10}除了您现有的负重外，还能拿37以上重量的物品。{FCOLOR/12}如果您已经确认，请点“下一步”领取。\\
+<下一步/@check_200>\
+<取消/@exit>
 
 [@check_200]
 #IF
 checknamelist "\event\point200.txt"
 #ACT
-give ף���� 1
-give ������ˮ���� 1
-give ��Ȼ��ˮ���� 1
-give ������ˮ���� 1
-give �����ˮ���� 1
+give 祝福油 1
+give 攻击神水（大） 1
+give 自然神水（大） 1
+give 疾风神水（大） 1
+give 灵魂神水（大） 1
 delnamelist "\event\point200.txt"
 #SAY
-��ϲ�����������һ����Ʒ��ף����Ϸ��죡�����������Ʒ���죬���ٴκ���˵����\
-<ȡ��/@exit>
+恭喜您，您获得了一份礼品！祝您游戏愉快！如果您还有礼品可领，请再次和我说话。\
+<取消/@exit>
 #ELSESAY
-��Ǹ����Ŀǰ������ȡ��Ʒ�������ȡ�ʸ�ķ�ʽ������Ĺٷ���վ http://www.mir3.com.cn��\\
-<ȡ��/@exit>
+抱歉，您目前不能领取礼品，获得领取资格的方式，请查阅官方网站 http://www.mir3.com.cn。\\
+<取消/@exit>
 }
 
 
@@ -29,34 +29,34 @@ delnamelist "\event\point200.txt"
 [@point720]
 {
 #SAY
-�����﷢��720��㿨����Ʒ����Ʒ�嵥�ǡ�ף����3ƿ��������ˮ���أ�2ƿ����Ȼ��ˮ���أ�2ƿ��������ˮ���أ�2ƿ�������ˮ���أ�2ƿ����Ϊ�˱�֤����õ���Ʒ����������ϣ��뱣֤��������{FCOLOR/10}5��ռ�{FCOLOR/12}��ͬʱ{FCOLOR/10}���������еĸ����⣬������115������������Ʒ��{FCOLOR/12} \
-�������{FCOLOR/1}��ʦ{FCOLOR/12}����Ҫ{FCOLOR/10}18��{FCOLOR/12}���ϣ�����{FCOLOR/11}ȫ�������κζ���{FCOLOR/12}��\
-�������{FCOLOR/1}��ʿ{FCOLOR/12}����Ҫ{FCOLOR/10}17��{FCOLOR/12}���ϣ�����{FCOLOR/11}ȫ�������κζ���{FCOLOR/12}��\
-�������{FCOLOR/1}սʿ{FCOLOR/12}����Ҫ{FCOLOR/10}14��{FCOLOR/12}���ϣ�����{FCOLOR/11}ȫ�������κζ�����{FCOLOR/12}\
-������Ѿ�ȷ�ϣ���㡰��һ������ȡ��\
-<��һ��/@point720_1>\
-<ȡ��/@exit>
+我这里发放720点点卡的礼品。礼品清单是“祝福油3瓶、攻击神水（特）2瓶、自然神水（特）2瓶、疾风神水（特）2瓶、灵魂神水（特）2瓶”。为了保证您获得的礼品不会掉到地上，请保证您身上有{FCOLOR/10}5格空间{FCOLOR/12}，同时{FCOLOR/10}除了您现有的负重外，还能拿115以上重量的物品。{FCOLOR/12} \
+如果您是{FCOLOR/1}法师{FCOLOR/12}，需要{FCOLOR/10}18级{FCOLOR/12}以上，并且{FCOLOR/11}全身不带任何东西{FCOLOR/12}；\
+如果您是{FCOLOR/1}道士{FCOLOR/12}，需要{FCOLOR/10}17级{FCOLOR/12}以上，并且{FCOLOR/11}全身不带任何东西{FCOLOR/12}；\
+如果您是{FCOLOR/1}战士{FCOLOR/12}，需要{FCOLOR/10}14级{FCOLOR/12}以上，并且{FCOLOR/11}全身不带任何东西。{FCOLOR/12}\
+如果您已经确认，请点“下一步”领取。\
+<下一步/@point720_1>\
+<取消/@exit>
 
 [@point720_1]
 #SAY
-��ȷ��������������Щ��Ʒ��\ \
-<ȷ��/@check_720>\
-<ȡ��/@exit>
+您确认您可以拿下这些礼品吗？\ \
+<确认/@check_720>\
+<取消/@exit>
 
 [@check_720]
 #IF
 checknamelist "\event\point720.txt"
 #ACT
-give ף���� 3
-give ������ˮ���أ� 2
-give ��Ȼ��ˮ���أ� 2
-give ������ˮ���أ� 2
-give �����ˮ���أ� 2
+give 祝福油 3
+give 攻击神水（特） 2
+give 自然神水（特） 2
+give 疾风神水（特） 2
+give 灵魂神水（特） 2
 delnamelist "\event\point720.txt"
 #SAY
-��ϲ�����������һ����Ʒ��ף����Ϸ��죡�����������Ʒ���죬���ٴκ���˵����
-<ȡ��/@exit>
+恭喜您，您获得了一份礼品！祝您游戏愉快！如果您还有礼品可领，请再次和我说话。
+<取消/@exit>
 #ELSESAY
-��Ǹ����Ŀǰ������ȡ��Ʒ�������ȡ�ʸ�ķ�ʽ������Ĺٷ���վ http://www.mir3.com.cn��\\
-<ȡ��/@exit>
+抱歉，您目前不能领取礼品，获得领取资格的方式，请查阅官方网站 http://www.mir3.com.cn。\\
+<取消/@exit>
 }

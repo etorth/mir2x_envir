@@ -2,48 +2,48 @@
 
 [@Convert_QT_TotalMonster_0]
 {
-(Î¯ÍÐµÄÊÂÇéºÃÏñÈ«²¿½â¾öÁË..)
+(å§”æ‰˜çš„äº‹æƒ…å¥½åƒå…¨éƒ¨è§£å†³äº†..)
 }
 
 [@Convert_QT_TotalMonster_1]
 {
-(Î¯ÍÐµÄÊÂÇéºÃÏñÈ«²¿½â¾öÁË..)
+(å§”æ‰˜çš„äº‹æƒ…å¥½åƒå…¨éƒ¨è§£å†³äº†..)
 }
 
 [@Convert_QT_TotalMonster_2]
 {
-(Î¯ÍÐµÄÊÂÇé¿ìÍê³ÉÁË..) \ \
+(å§”æ‰˜çš„äº‹æƒ…å¿«å®Œæˆäº†..) \ \
 
 }
 
 [@Convert_QT_TotalMonster_3]
 {
-(Î¯ÍÐµÄÊÂÇéºÃÏñÈ«²¿½â¾öÁË..)
+(å§”æ‰˜çš„äº‹æƒ…å¥½åƒå…¨éƒ¨è§£å†³äº†..)
 }
 
 [@Convert_QT_TotalMonster_4]
 {
-(Î¯ÍÐµÄÊÂÇéºÃÏñÈ«²¿½â¾öÁË..)
+(å§”æ‰˜çš„äº‹æƒ…å¥½åƒå…¨éƒ¨è§£å†³äº†..)
 }
 
 [@Convert_QT_TotalMonster_5]
 {
-(Î¯ÍÐµÄÊÂÇé¿ìÍê³ÉÁË..) \ \
+(å§”æ‰˜çš„äº‹æƒ…å¿«å®Œæˆäº†..) \ \
 
 }
 
 [@Convert_QT_TotalMonster_6]
 {
-(Î¯ÍÐµÄÊÂÇéºÃÏñ¶¼Íê³ÉÁË..)
+(å§”æ‰˜çš„äº‹æƒ…å¥½åƒéƒ½å®Œæˆäº†..)
 }
 
 [@Convert_QT_TotalMonster_7]
 {
-(Î¯ÍÐµÄÊÂÇé¿ìÍê³ÉÁË..) \ \
+(å§”æ‰˜çš„äº‹æƒ…å¿«å®Œæˆäº†..) \ \
 
 }
 
 [@Convert_QT_TotalMonster_8]
 {
-(Î¯ÍÐµÄÎïÆ·ºÃÏñ¶¼ÕÒµ½ÁË...)
+(å§”æ‰˜çš„ç‰©å“å¥½åƒéƒ½æ‰¾åˆ°äº†...)
 }

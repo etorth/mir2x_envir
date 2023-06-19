@@ -9,11 +9,11 @@
 
 [@Make_Charm_BCharm]
 #IF
-checkitem ÷¼÷Ã¹Ç 3
-checkitem ¼¦Ñª 3
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3
+checkitem Â¼Â¦Ã‘Âª 3
 #ACT
-take ÷¼÷Ã¹Ç 3
-take ¼¦Ñª 3
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3
+take Â¼Â¦Ã‘Âª 3
 mov d0 0
 goto @Make_Charm_BCharm_1
 #ELSESAY
@@ -41,7 +41,7 @@ mov d0 0
 [@Make_Charm_BCharm_3]
 #IF
 #ACT
-give »¤Éí·û£¨Ğ¡£© 1
+give Â»Â¤Ã‰Ã­Â·Ã»Â£Â¨ÃÂ¡Â£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_4
@@ -51,11 +51,11 @@ mov d0 0
 
 [@Make_Charm_HCharm]
 #IF
-checkitem ½©Ê¬¹ÇÍ· 2
-checkitem ¼¦Ñª 5
+checkitem Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 2
+checkitem Â¼Â¦Ã‘Âª 5
 #ACT
-take ½©Ê¬¹ÇÍ· 2
-take ¼¦Ñª 5
+take Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 2
+take Â¼Â¦Ã‘Âª 5
 mov d0 0
 goto @Make_Charm_HCharm_1
 #ELSESAY
@@ -83,7 +83,7 @@ mov d0 0
 [@Make_Charm_HCharm_3]
 #IF
 #ACT
-give ÉñÊ¥»¤Éí·û£¨Ğ¡£© 1
+give Ã‰Ã±ÃŠÂ¥Â»Â¤Ã‰Ã­Â·Ã»Â£Â¨ÃÂ¡Â£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_7
@@ -93,13 +93,13 @@ mov d0 0
 
 [@Make_Charm_FCharm]
 #IF
-checkitem ÷¼÷Ã¹Ç 4
-checkitem Ğ«×ÓµÄÎ²°Í 1
-checkitem ¼¦Ñª 4
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 4
+checkitem ÃÂ«Ã—Ã“ÂµÃ„ÃÂ²Â°Ã 1
+checkitem Â¼Â¦Ã‘Âª 4
 #ACT
-take ÷¼÷Ã¹Ç 4
-take Ğ«×ÓµÄÎ²°Í 1
-take ¼¦Ñª 4
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 4
+take ÃÂ«Ã—Ã“ÂµÃ„ÃÂ²Â°Ã 1
+take Â¼Â¦Ã‘Âª 4
 mov d0 0
 goto @Make_Charm_FCharm_1
 #ELSESAY
@@ -127,7 +127,7 @@ mov d0 0
 [@Make_Charm_FCharm_3]
 #IF
 #ACT
-give »¤Éí·û£¨»ğ£© 1
+give Â»Â¤Ã‰Ã­Â·Ã»Â£Â¨Â»Ã°Â£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_10
@@ -137,13 +137,13 @@ mov d0 0
 
 [@Make_Charm_ICharm]
 #IF
-checkitem ¶¾Éßµ¨Ö­ 8
-checkitem ¼¦Ñª 4
-checkitem ¶¾Ö©ÖëÑÀ³İ 2
+checkitem Â¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 8
+checkitem Â¼Â¦Ã‘Âª 4
+checkitem Â¶Â¾Ã–Â©Ã–Ã«Ã‘Ã€Â³Ã 2
 #ACT
-take ¶¾Éßµ¨Ö­ 8
-take ¼¦Ñª 4
-take ¶¾Ö©ÖëÑÀ³İ 2
+take Â¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 8
+take Â¼Â¦Ã‘Âª 4
+take Â¶Â¾Ã–Â©Ã–Ã«Ã‘Ã€Â³Ã 2
 mov d0 0 goto @Make_Charm_ICharm_1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_11
@@ -170,7 +170,7 @@ mov d0 0
 [@Make_Charm_ICharm_3]
 #IF
 #ACT
-give »¤Éí·û£¨±ù£© 1
+give Â»Â¤Ã‰Ã­Â·Ã»Â£Â¨Â±Ã¹Â£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_13
@@ -180,13 +180,13 @@ mov d0 0
 
 [@Make_Charm_LCharm]
 #IF
-checkitem ½©Ê¬¹ÇÍ· 2
-checkitem Ê³ÈËÊ÷Ò¶ 2
-checkitem ¼¦Ñª 4
+checkitem Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 2
+checkitem ÃŠÂ³ÃˆÃ‹ÃŠÃ·Ã’Â¶ 2
+checkitem Â¼Â¦Ã‘Âª 4
 #ACT
-take ½©Ê¬¹ÇÍ· 2
-take Ê³ÈËÊ÷Ò¶ 2
-take ¼¦Ñª 4
+take Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 2
+take ÃŠÂ³ÃˆÃ‹ÃŠÃ·Ã’Â¶ 2
+take Â¼Â¦Ã‘Âª 4
 mov d0 0
 goto @Make_Charm_LCharm_1
 #ELSESAY
@@ -214,7 +214,7 @@ mov d0 0
 [@Make_Charm_LCharm_3]
 #IF
 #ACT
-give »¤Éí·û£¨À×£© 1
+give Â»Â¤Ã‰Ã­Â·Ã»Â£Â¨Ã€Ã—Â£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_16
@@ -224,13 +224,13 @@ mov d0 0
 
 [@Make_Charm_WCharm]
 #IF
-checkitem ÷¼÷Ã¹Ç 3
-checkitem Ê³ÈËÊ÷µÄ¹ûÊµ 1
-checkitem ¼¦Ñª 4
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3
+checkitem ÃŠÂ³ÃˆÃ‹ÃŠÃ·ÂµÃ„Â¹Ã»ÃŠÂµ 1
+checkitem Â¼Â¦Ã‘Âª 4
 #ACT
-take ÷¼÷Ã¹Ç 3
-take Ê³ÈËÊ÷µÄ¹ûÊµ 1
-take ¼¦Ñª 4
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3
+take ÃŠÂ³ÃˆÃ‹ÃŠÃ·ÂµÃ„Â¹Ã»ÃŠÂµ 1
+take Â¼Â¦Ã‘Âª 4
 mov d0 0
 goto @Make_Charm_WCharm_1
 #ELSESAY
@@ -258,7 +258,7 @@ mov d0 0
 [@Make_Charm_WCharm_3]
 #IF
 #ACT
-give »¤Éí·û£¨·ç£© 1
+give Â»Â¤Ã‰Ã­Â·Ã»Â£Â¨Â·Ã§Â£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_19
@@ -268,15 +268,15 @@ mov d0 0
 
 [@Make_Charm_RCharm]
 #IF
-checkitem Ò¹Ã÷Öé 10
-checkitem ÉñÁéµñÏñ 5
-checkitem ÅËÒ¹Ö®Àá 3
-checkitem ¼¦Ñª 2
+checkitem Ã’Â¹ÃƒÃ·Ã–Ã© 10
+checkitem Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 5
+checkitem Ã…Ã‹Ã’Â¹Ã–Â®Ã€Ã¡ 3
+checkitem Â¼Â¦Ã‘Âª 2
 #ACT
-take Ò¹Ã÷Öé 10
-take ÉñÁéµñÏñ 5
-take ÅËÒ¹Ö®Àá 3
-take ¼¦Ñª 2
+take Ã’Â¹ÃƒÃ·Ã–Ã© 10
+take Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 5
+take Ã…Ã‹Ã’Â¹Ã–Â®Ã€Ã¡ 3
+take Â¼Â¦Ã‘Âª 2
 mov d0 0
 goto @Make_Charm_RCharm_1
 #ELSESAY
@@ -304,7 +304,7 @@ mov d0 0
 [@Make_Charm_RCharm_3]
 #IF
 #ACT
-give Áé»ê»¤Éí·û£¨Ğ¡£© 1
+give ÃÃ©Â»ÃªÂ»Â¤Ã‰Ã­Â·Ã»Â£Â¨ÃÂ¡Â£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_22
@@ -314,15 +314,15 @@ mov d0 0
 
 [@Make_Charm_RCharmM]
 #IF
-checkitem Ò¹Ã÷Öé 30
-checkitem ÉñÁéµñÏñ 15
-checkitem ÅËÒ¹Ö®Àá 9
-checkitem ¼¦Ñª 6
+checkitem Ã’Â¹ÃƒÃ·Ã–Ã© 30
+checkitem Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 15
+checkitem Ã…Ã‹Ã’Â¹Ã–Â®Ã€Ã¡ 9
+checkitem Â¼Â¦Ã‘Âª 6
 #ACT
-take Ò¹Ã÷Öé 30
-take ÉñÁéµñÏñ 15
-take ÅËÒ¹Ö®Àá 9
-take ¼¦Ñª 6
+take Ã’Â¹ÃƒÃ·Ã–Ã© 30
+take Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 15
+take Ã…Ã‹Ã’Â¹Ã–Â®Ã€Ã¡ 9
+take Â¼Â¦Ã‘Âª 6
 mov d0 0
 goto @Make_Charm_RCharmM_1
 #ELSESAY
@@ -350,7 +350,7 @@ mov d0 0
 [@Make_Charm_RCharmM_3]
 #IF
 #ACT
-give Áé»ê»¤Éí·û£¨ÖĞ£© 1
+give ÃÃ©Â»ÃªÂ»Â¤Ã‰Ã­Â·Ã»Â£Â¨Ã–ÃÂ£Â© 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Bujuk.txt] @Bujuk_25

@@ -56,7 +56,7 @@ break
 checkgold 2000000
 #ACT
 ChangeWeaponAtom 1
-take 金币 2000000
+take 閲戝竵 2000000
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\ChangeAtom.txt] @ChangeAtom_9
 
@@ -74,7 +74,7 @@ break
 checkgold 2000000
 #ACT
 ChangeWeaponAtom 2
-take 金币 2000000
+take 閲戝竵 2000000
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\ChangeAtom.txt] @ChangeAtom_11
 
@@ -92,7 +92,7 @@ break
 checkgold 2000000
 #ACT
 ChangeWeaponAtom 3
-take 金币 2000000
+take 閲戝竵 2000000
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\ChangeAtom.txt] @ChangeAtom_13
 
@@ -110,7 +110,7 @@ break
 checkgold 2000000
 #ACT
 ChangeWeaponAtom 4
-take 金币 2000000
+take 閲戝竵 2000000
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\ChangeAtom.txt] @ChangeAtom_15
 
@@ -128,7 +128,7 @@ break
 checkgold 2000000
 #ACT
 ChangeWeaponAtom 5
-take 金币 2000000
+take 閲戝竵 2000000
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\ChangeAtom.txt] @ChangeAtom_17
 
@@ -146,7 +146,7 @@ break
 checkgold 2000000
 #ACT
 ChangeWeaponAtom 6
-take 金币 2000000
+take 閲戝竵 2000000
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\ChangeAtom.txt] @ChangeAtom_19
 
@@ -164,7 +164,7 @@ break
 checkgold 2000000
 #ACT
 ChangeWeaponAtom 7
-take 金币 2000000
+take 閲戝竵 2000000
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\ChangeAtom.txt] @ChangeAtom_21
 

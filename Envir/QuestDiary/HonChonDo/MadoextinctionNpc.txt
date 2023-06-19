@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@MadoextinctionCheck]
 {
 #IF
@@ -399,7 +399,7 @@ break
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_25
 
 #ACT
-give 毁灭之印 1
+give 姣佺伃涔嬪嵃 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=6"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=3"
@@ -417,4 +417,4 @@ mapting D16061 41 148 84
 
 
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

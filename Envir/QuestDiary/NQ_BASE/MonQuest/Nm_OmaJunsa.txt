@@ -60,6 +60,6 @@ inc S1 1
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_OmaJunsa.txt] @Nm_OmaJunsa_1
 
 #ACT
-give �ǵ� 1
+give ½ÇµÑ 1
 set [185] 1
 mov S1 0

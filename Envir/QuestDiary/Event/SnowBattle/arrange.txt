@@ -18,7 +18,7 @@ Take %A1 %P7
 	LoadValue P6 "Flag_Def\Event\SnowBattle\Gold.txt" [Gold] [Gold]
 Inc P6 50000
 	SaveValue "Flag_Def\Event\SnowBattle\Gold.txt" [Gold] [Gold] %P6
-Mapmove snow 41 29 5  ;;  ¹Ì¸£ÆÀ ÃøÀ¸·Î ÀÌµ¿
+Mapmove snow 41 29 5  ;;  ë¯¸ë¥´íŒ€ ì¸¡ìœ¼ë¡œ ì´ë™
 Inc P0 1
 Dec P1 1
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [mir] %P0
@@ -28,14 +28,14 @@ break
 #IF
 Small P0 75
 equal P1 45
-;;Àü¼³ÆÀ°úÀÇ ÀÎ¿øÂ÷ÀÌ°¡ 5¸íÀÌ»óÀÏ¶§
+;;ì „ì„¤íŒ€ê³¼ì˜ ì¸ì›ì°¨ì´ê°€ 5ëª…ì´ìƒì¼ë•Œ
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SnowBattle\arrange.txt] @arrange_1
 
 #ACT
 break
 
-;; ¹Ì¸£ÆÀÀÌ 50¸íÀÌ ³Ñ¾úÀ»°æ¿ì 
+;; ë¯¸ë¥´íŒ€ì´ 50ëª…ì´ ë„˜ì—ˆì„ê²½ìš°
 #ELSEACT
 break
 
@@ -64,7 +64,7 @@ Take %A1 %P7
 Inc P6 50000
 	SaveValue "Flag_Def\Event\SnowBattle\Gold.txt" [Gold] [Gold] %P6
 
-Mapmove snow 18 29 5  ;;  Àü¼³ÆÀ ÃøÀ¸·Î ÀÌµ¿
+Mapmove snow 18 29 5  ;;  ì „ì„¤íŒ€ ì¸¡ìœ¼ë¡œ ì´ë™
 Inc P0 1
 Inc P1 1
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [legend] %P0
@@ -74,14 +74,14 @@ break
 #IF
 Small P0 75
 equal P1 55
-;;¹Ì¸£ÆÀ°úÀÇ ÀÎ¿øÂ÷ÀÌ°¡ 5¸íÀÌ»óÀÏ¶§
+;;ë¯¸ë¥´íŒ€ê³¼ì˜ ì¸ì›ì°¨ì´ê°€ 5ëª…ì´ìƒì¼ë•Œ
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SnowBattle\arrange.txt] @arrange_3
 
 #ACT
 break
 
-;; ¹Ì¸£ÆÀÀÌ 50¸íÀÌ ³Ñ¾úÀ»°æ¿ì 
+;; ë¯¸ë¥´íŒ€ì´ 50ëª…ì´ ë„˜ì—ˆì„ê²½ìš°
 #ELSEACT
 break
 

@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@NPCQuest_Check]
 {
 #ACT
@@ -19,7 +19,7 @@ Mov D0 1
 #IF
 Check [207] 1
 Check [407] 0
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 #ACT
 Mov D0 1
 
@@ -158,4 +158,4 @@ break
 [@mainzaha_Talk1]
 #CALL [HonChonMado\MadoHaveJaha.txt] @MadoHaveJaha_Talk
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

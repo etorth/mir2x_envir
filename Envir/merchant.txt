@@ -1,444 +1,444 @@
-;;;;´«Ææ3µ¥»ú°æv1.45
+;;;;ä¼ å¥‡3å•æœºç‰ˆv1.45
 ;filename    Map  X  Y   Name  Face  Body  Sabuk
 ;-------------------------------------------------------------------------------
 ;[GM Map Store]
 ;-------------------------------------------------------------------------------
-;;19GM_INN                            Z010      10     6    ²Ö¿â±£¹ÜÔ±     0    1 
-;;19GM_INN                            Z011      10     6    ²Ö¿â±£¹ÜÔ±     0    1 
-;;19GM_INN                            Z012      10     6    ²Ö¿â±£¹ÜÔ±     0    1 
-;;19GM_INN	                      Z014      10     6    ²Ö¿â±£¹ÜÔ±     0    1
-;;19GM_INN1                           Z011      10     7    Ã¿ÈÕÈÎÎñ       0    1
+;;19GM_INN                            Z010      10     6    ä»“åº“ä¿ç®¡å‘˜     0    1
+;;19GM_INN                            Z011      10     6    ä»“åº“ä¿ç®¡å‘˜     0    1
+;;19GM_INN                            Z012      10     6    ä»“åº“ä¿ç®¡å‘˜     0    1
+;;19GM_INN	                      Z014      10     6    ä»“åº“ä¿ç®¡å‘˜     0    1
+;;19GM_INN1                           Z011      10     7    æ¯æ—¥ä»»åŠ¡       0    1
 ;-------------------------------------------------------------------------------
-;[Éú´æÓÎÏ·³¡]
+;[ç”Ÿå­˜æ¸¸æˆåœº]
 ;-------------------------------------------------------------------------------
-17GoldenIsland_Island               Island02 95    135    Éú´æÓÎÏ·³¡ÃÀÃ¼     0   12
+17GoldenIsland_Island               Island02 95    135    ç”Ÿå­˜æ¸¸æˆåœºç¾çœ‰     0   12
 ;-------------------------------------------------------------------------------
 ;[X-Mas]
 ;-------------------------------------------------------------------------------
-;17SnowA                             0         420    362  Ñ©ÈË        0    64                    
-;17SnowB                             0         452    389  Ñ©ÈË        0    65
+;17SnowA                             0         420    362  é›ªäºº        0    64
+;17SnowB                             0         452    389  é›ªäºº        0    65
 ;17X_Mas                             0
 ;-------------------------------------------------------------------------------
 ;[PR NPC]
 ;-------------------------------------------------------------------------------
-24PR                                0        459   395    °¡çû         0    2 
+24PR                                0        459   395    å•Šç¨         0    2
 ;-------------------------------------------------------------------------------
 ;[Bichun Castle]
 ;-------------------------------------------------------------------------------
-01Meet_Bichon1                      0        446   405    ½ğÊÏ           0   11 
-01Meet_Bichon2                      0        441   404    ÈâµêÀÏ°å       0    4 
-02Weapon_Bichon1                    0        402   356    °¡¿µ           0    0 
-02Weapon_Bichon2                    0        423   395    ÀÏÕÅ           0    1 
-03Armor_Bichon                      0        480   407    âùÃÀ           0    7 
-03Shoes_Bichon                      0        478   407    »ÛæÂ           0    7 
-04Potion_Bichon1                    0        397   363    Ò©µêÀÏ°å       0    5 
-04Potion_Bichon2                    0        486   414    ¶÷Ó¢           0    5 
-04PotionMake_Bichon1                0        412   410    Ò©¼ÁÊ¦         0    9 
-04PotionMake_Bichon2                0        413   409    ÀÏ»Æ           0    1 
-05Book_Bichon                       0        470   424    µêÔ±           0    2 
-06Inn_Bichon                        0        425   361    ¿ÍÕ»µêÔ±       0    6 
-07Grocery_Bichon                    0        450   413    ÔÓ»õÉÌ         0    3 
-08Accessory_Bichon                  0        414   349    ¶÷Êµ           0    4 
-09Reinstatement_Bichon              0        440   341    ÊÀÓñ           0    3 
-09Tavern_Bichon                     0        420   431    ¾ÆÄï           0    5  
-09NightMarket_Bichon                0        452   297    ÀÏÉú           0    9 
-09ChangeMoney_Bichon                0        408   377    °¡²Æ           0    9 
-09HairDying_Bichon                  0        462   420    ÃÀÈİÊ¦         0   29 
-09HorseMarket_Bichon                0        375   304    ÒåÏÍ           0   26 
-10Material_Bichon                   0        417   405    Ì«¿¡           0   34 
-10ChestnutMarket_Bichon             0        441   374    Àõ×ÓÉÌÈË       0    3 
-13Move_Bichon1                      0        498   463    ÁùÃæÉñÊ¯       0   56 
-13Move_Bichon2                      0        507   313    ÁùÃæÉñÊ¯       0   56 
-13Move_Bichon3                      0        370   336    ÁùÃæÉñÊ¯       0   56 
-13Move_Bichon4                      0        379   444    ÁùÃæÉñÊ¯       0   56 
-14Doctor_Bichon                     0        456   393    ÍòÊÂÍ¨         0    2 
-14Quest_Bichon1                     0        389   396    Íõ´óÈË         0    8 
-14Quest_Bichon2                     0        473   428    Í¼Êé¹ÜÀíÔ±     0    2 
-14Quest_Bichon3                     0        417   353    Ğİ°àÎÀÊ¿1      0   43 
-14Quest_Bichon4                     0        447   465    Ğİ°àÎÀÊ¿2      0   43 
-14Quest_Bichon5                     0        502   393    Ğİ°àÎÀÊ¿3      0   43 
-14Quest_Bichon6                     0        472   361    ±ÈÆæ³Ç³ÇÖ÷     0    8 
-14Quest_Bichon7                     0        357   273    ÍõĞ¡¶ş         0    3 
-14Quest_Bichon8                     0        356   271    ÀöÁé           0   12 
-14Quest_Bichon9                     0        355   326    °¡Ğñ           0   39 
-14Quest_Bichon10                    0        422   429    ºéÆøÁØ         0    3 
-14Quest_Bichon11                    0        483   404    ËÕ°Ù»¨         0    7 
-14Quest_Bichon12                    0        517   395    Ä¸×ÓÊ¯Ïñ       0   59 
-14Quest_Bichon                      0_003     27    35    Ê¯Ä¸           0    7
-15Magic_Bichon1                     0        447   444    ×Ü½ÌÍ·         0   15 
-15Magic_Bichon2                     0        462   435    »ªÁú¶ÏÖé       0   18 
-15Magic_Bichon3                     0        449   433    ±ÈÆæµÀ³¤       0   16  
+01Meet_Bichon1                      0        446   405    é‡‘æ°           0   11
+01Meet_Bichon2                      0        441   404    è‚‰åº—è€æ¿       0    4
+02Weapon_Bichon1                    0        402   356    å•Šåº·           0    0
+02Weapon_Bichon2                    0        423   395    è€å¼            0    1
+03Armor_Bichon                      0        480   407    æ€¡ç¾           0    7
+03Shoes_Bichon                      0        478   407    æ…§åª›           0    7
+04Potion_Bichon1                    0        397   363    è¯åº—è€æ¿       0    5
+04Potion_Bichon2                    0        486   414    æ©è‹±           0    5
+04PotionMake_Bichon1                0        412   410    è¯å‰‚å¸ˆ         0    9
+04PotionMake_Bichon2                0        413   409    è€é»„           0    1
+05Book_Bichon                       0        470   424    åº—å‘˜           0    2
+06Inn_Bichon                        0        425   361    å®¢æ ˆåº—å‘˜       0    6
+07Grocery_Bichon                    0        450   413    æ‚è´§å•†         0    3
+08Accessory_Bichon                  0        414   349    æ©å®           0    4
+09Reinstatement_Bichon              0        440   341    ä¸–ç‰           0    3
+09Tavern_Bichon                     0        420   431    é…’å¨˜           0    5
+09NightMarket_Bichon                0        452   297    è€ç”Ÿ           0    9
+09ChangeMoney_Bichon                0        408   377    å•Šè´¢           0    9
+09HairDying_Bichon                  0        462   420    ç¾å®¹å¸ˆ         0   29
+09HorseMarket_Bichon                0        375   304    ä¹‰è´¤           0   26
+10Material_Bichon                   0        417   405    å¤ªä¿Š           0   34
+10ChestnutMarket_Bichon             0        441   374    æ —å­å•†äºº       0    3
+13Move_Bichon1                      0        498   463    å…­é¢ç¥çŸ³       0   56
+13Move_Bichon2                      0        507   313    å…­é¢ç¥çŸ³       0   56
+13Move_Bichon3                      0        370   336    å…­é¢ç¥çŸ³       0   56
+13Move_Bichon4                      0        379   444    å…­é¢ç¥çŸ³       0   56
+14Doctor_Bichon                     0        456   393    ä¸‡äº‹é€š         0    2
+14Quest_Bichon1                     0        389   396    ç‹å¤§äºº         0    8
+14Quest_Bichon2                     0        473   428    å›¾ä¹¦ç®¡ç†å‘˜     0    2
+14Quest_Bichon3                     0        417   353    ä¼‘ç­å«å£«1      0   43
+14Quest_Bichon4                     0        447   465    ä¼‘ç­å«å£«2      0   43
+14Quest_Bichon5                     0        502   393    ä¼‘ç­å«å£«3      0   43
+14Quest_Bichon6                     0        472   361    æ¯”å¥‡åŸåŸä¸»     0    8
+14Quest_Bichon7                     0        357   273    ç‹å°äºŒ         0    3
+14Quest_Bichon8                     0        356   271    ä¸½çµ           0   12
+14Quest_Bichon9                     0        355   326    å•Šæ—­           0   39
+14Quest_Bichon10                    0        422   429    æ´ªæ°”éœ–         0    3
+14Quest_Bichon11                    0        483   404    è‹ç™¾èŠ±         0    7
+14Quest_Bichon12                    0        517   395    æ¯å­çŸ³åƒ       0   59
+14Quest_Bichon                      0_003     27    35    çŸ³æ¯           0    7
+15Magic_Bichon1                     0        447   444    æ€»æ•™å¤´         0   15
+15Magic_Bichon2                     0        462   435    åé¾™æ–­ç        0   18
+15Magic_Bichon3                     0        449   433    æ¯”å¥‡é“é•¿       0   16
 ;-------------------------------------------------------------------------------
 ;[Special Bichon NPC]
 ;-------------------------------------------------------------------------------
-18Execution_Bichon                  0        477   366    ĞĞÕş¹ÙÔ±       0    8 
-18Flag_Bichon                       0        478   367    ĞĞ»áÆì         0 10000 
-21WeddingMaker_Bichon               0        388   288    Ë¾ÒÇ           0   48
+18Execution_Bichon                  0        477   366    è¡Œæ”¿å®˜å‘˜       0    8
+18Flag_Bichon                       0        478   367    è¡Œä¼šæ——         0 10000
+21WeddingMaker_Bichon               0        388   288    å¸ä»ª           0   48
 ;-------------------------------------------------------------------------------
 ;[KugKyung Village]
 ;-------------------------------------------------------------------------------
-01Meet_Kugkyung                     01       425   274    Èâµê½ğÀÏ°å     0   11 
-02Weapon_Kugkyung                   01       459   279    µÂĞã           0    0 
-03Armor_Kugkyung                    01       442   296    Ë³×Ó           0    7 
-04Potion_Kugkyung                   01       434   303    ÒüÀÏÈË         0    1 
-05Book_Kugkyung                     01       445   319    ÀÏÓà           0    2 
-06Inn_Kugkyung                      01       471   279    ÕÔÀÏÍ·         0    9 
-07Grocery_Kugkyung                  01       433   282    µØÌ¯ÉÌÈË       0    3 
-08Accessory_Kugkyung                01       444   270    ÏşÀö           0    4 
-10Material_Kugkyung                 01       431   307    °¡»Ô           0   34 
-10ChestnutMarket_Kugkyung           01       438   281    Àõ×ÓÉÌÈË       0    3 
-13Move_Kugkyung1                    01       456   216    ÁùÃæÉñÊ¯       0   56 
-13Move_Kugkyung2                    01       411   287    ÁùÃæÉñÊ¯       0   56 
-13Move_Kugkyung3                    01       463   356    ÁùÃæÉñÊ¯       0   56 
-14Doctor_Kugkyung                   01       429   263    ÍòÊÂÍ¨         0    2 
-14Quest_KugKyung1                   01       461   257    ÉÏ¹ÙĞ¡½ã       0   12 
-14Quest_KugKyung2                   01       444   245    ÖÇÉÆ           0    5 
-14Quest_Kugkyung3                   01       476   284    ÎŞÃûÉÌÈË       0   34 
-14Quest_KugKyung                    01_001    17    16    ÔÆ·¢           0   18
-15Magic_Kugkyung1                   01       456   302    ÁúÑªÏÈÉú       0   46
-15Magic_KugKyung                    01_003     5     8    ÁúÑªÏÈÉú       0   46 
-15Magic_Kugkyung2                   01       104   203    »ÆºÓ´óÏÀ       0   46
+01Meet_Kugkyung                     01       425   274    è‚‰åº—é‡‘è€æ¿     0   11
+02Weapon_Kugkyung                   01       459   279    å¾·ç§€           0    0
+03Armor_Kugkyung                    01       442   296    é¡ºå­           0    7
+04Potion_Kugkyung                   01       434   303    å°¹è€äºº         0    1
+05Book_Kugkyung                     01       445   319    è€ä½™           0    2
+06Inn_Kugkyung                      01       471   279    èµµè€å¤´         0    9
+07Grocery_Kugkyung                  01       433   282    åœ°æ‘Šå•†äºº       0    3
+08Accessory_Kugkyung                01       444   270    æ™“ä¸½           0    4
+10Material_Kugkyung                 01       431   307    å•Šè¾‰           0   34
+10ChestnutMarket_Kugkyung           01       438   281    æ —å­å•†äºº       0    3
+13Move_Kugkyung1                    01       456   216    å…­é¢ç¥çŸ³       0   56
+13Move_Kugkyung2                    01       411   287    å…­é¢ç¥çŸ³       0   56
+13Move_Kugkyung3                    01       463   356    å…­é¢ç¥çŸ³       0   56
+14Doctor_Kugkyung                   01       429   263    ä¸‡äº‹é€š         0    2
+14Quest_KugKyung1                   01       461   257    ä¸Šå®˜å°å§       0   12
+14Quest_KugKyung2                   01       444   245    æ™ºå–„           0    5
+14Quest_Kugkyung3                   01       476   284    æ— åå•†äºº       0   34
+14Quest_KugKyung                    01_001    17    16    äº‘å‘           0   18
+15Magic_Kugkyung1                   01       456   302    é¾™è¡€å…ˆç”Ÿ       0   46
+15Magic_KugKyung                    01_003     5     8    é¾™è¡€å…ˆç”Ÿ       0   46
+15Magic_Kugkyung2                   01       104   203    é»„æ²³å¤§ä¾        0   46
 ;-------------------------------------------------------------------------------
 ;[Special(Dice) NPC]
 ;-------------------------------------------------------------------------------
-17MobRush_kugkyung                  01       424   312    Âú¶à           0    2 
-09CancleWeapon                      01       422   262    °¡±ò           0   28
+17MobRush_kugkyung                  01       424   312    æ»¡å¤š           0    2
+09CancleWeapon                      01       422   262    å•Šå½¬           0   28
 ;-------------------------------------------------------------------------------
 ;[Eunhang Village]
 ;-------------------------------------------------------------------------------
-01Meet_Eunhang                      02       228   194    ĞíÊÏ           0   11 
-02Weapon_Eunhang                    02       284   197    Ìú½³Ê¦¸µ       0    0 
-03Armor_Eunhang                     02       260   177    ²¼µêÏşÜ½       0    7 
-04Potion_Eunhang                    02       273   189    ĞíÖĞÒ½         0    1 
-04PotionMake_Euhang                 02       272   189    Ò©¼ÁÊ¦         0    9 
-05Book_Eunhang                      02       233   222    ²ÅÊ¯           0    2 
-06Inn_Eunhang                       02       250   190    °¡ö©           0    6 
-07Grocery_Eunhang                   02       236   205    µØÌ¯ÀÏÖÜ       0    3 
-08Accessory_Eunhang                 02       275   222    ÏşÀ¼           0    4 
-10Material_Eunhang                  02       269   186    °¡Ñ«           0   34 
-10ChestnutMarket_Eunhang            02       260   205    Àõ×ÓÉÌÈË       0    3 
-13Move_Eunhang                      02       249   144    ÁùÃæÉñÊ¯       0   56 
-14Doctor_Eunhang                    02       264   195    ÍòÊÂÍ¨         0    2 
-14Quest_Euhang                      02       264   201    ÄÏ¹¬Ğ¡½ã       0   12 
-15Magic_Eunhang1                    02       265   145    Åùö¨×ğÕß       0   48 
-15Magic_Eunhang2                    02       353   212    »¯ÌìÏÈÉú       0   48 
-15Magic_Euhang	                 02_001	       5    8	  Åùö¨×ğÕß	 0   48	
-15Magic_Euhang	                 02_003	      91    14	  Åùö¨×ğÕß	 0   48	 
-15Magic_Euhang	                 02_004	      25    41	  Åùö¨×ğÕß	 0   48
+01Meet_Eunhang                      02       228   194    è®¸æ°           0   11
+02Weapon_Eunhang                    02       284   197    é“åŒ å¸ˆå‚…       0    0
+03Armor_Eunhang                     02       260   177    å¸ƒåº—æ™“èŠ™       0    7
+04Potion_Eunhang                    02       273   189    è®¸ä¸­åŒ»         0    1
+04PotionMake_Euhang                 02       272   189    è¯å‰‚å¸ˆ         0    9
+05Book_Eunhang                      02       233   222    æ‰çŸ³           0    2
+06Inn_Eunhang                       02       250   190    å•Šé›¯           0    6
+07Grocery_Eunhang                   02       236   205    åœ°æ‘Šè€å‘¨       0    3
+08Accessory_Eunhang                 02       275   222    æ™“å…°           0    4
+10Material_Eunhang                  02       269   186    å•Šå‹‹           0   34
+10ChestnutMarket_Eunhang            02       260   205    æ —å­å•†äºº       0    3
+13Move_Eunhang                      02       249   144    å…­é¢ç¥çŸ³       0   56
+14Doctor_Eunhang                    02       264   195    ä¸‡äº‹é€š         0    2
+14Quest_Euhang                      02       264   201    å—å®«å°å§       0   12
+15Magic_Eunhang1                    02       265   145    éœ¹é›³å°Šè€…       0   48
+15Magic_Eunhang2                    02       353   212    åŒ–å¤©å…ˆç”Ÿ       0   48
+15Magic_Euhang	                 02_001	       5    8	  éœ¹é›³å°Šè€…	 0   48
+15Magic_Euhang	                 02_003	      91    14	  éœ¹é›³å°Šè€…	 0   48
+15Magic_Euhang	                 02_004	      25    41	  éœ¹é›³å°Šè€…	 0   48
 ;-------------------------------------------------------------------------------
 ;[Special Euhang NPC]
 ;-------------------------------------------------------------------------------
-09Repair_Euhang                     02       243   234    ¹âĞã           0   28 
-09Bonus_Euhang                      02       247   242    ÖÇÉÆ´óÊ¦       0   37 
+09Repair_Euhang                     02       243   234    å…‰ç§€           0   28
+09Bonus_Euhang                      02       247   242    æ™ºå–„å¤§å¸ˆ       0   37
 ;-------------------------------------------------------------------------------
 ;[DoGwan]
 ;-------------------------------------------------------------------------------
-01Meet_DoGwan                       1        366   182    Ç®ÀÏ°å         0   11 
-02Weapon_DoGwan                     1        426   117    Ìú½³           0   15 
-02Weapon_DoGwan                     1_001     14    12    °¡ÅË           0   15 
-02Weapon_Wooma                      1        382   198    ÍõÌú½³         0    0 
-03Armor_DoGwan                      1        412   133    ÁºÉú           0   23 
-03Armor_DoGwan                      1_003     13    16    °¡ºÆ           0   23 
-04Potion_Wooma                      1        363   176    »ªÓñ           0    5 
-04Potion_DoGwan1                    1        393   113    Ò©ÖĞ           0   25 
-04Potion_DoGwan2                    1        387   118    Ò©Éñ           0   22 
-04PotionMake_DoGwan                 1_006     12     7    Â»Ó¢           0   22 
-04Potion_DoGwan                     1_006      9    10    ÀÏÒ©           0   25 
-05Book_DoGwan                       1        418    96    Êé¹í           0   18 
-05Book_DoGwan                       1_004      9    11    ÊéÉñ           0   18 
-06Inn_DoGwan                        1        396   116    °¡Ìì           0   18 
-07Grocery_DoGwan                    1        391   167    Ğ¡ÀÏ°å         0   17 
-07Grocery_DoGwan                    1_007     11    14    ´óÀÏ°å         0   17 
-08Accessory_DoGwan                  1        370   135    Ğã¶ù           0   20 
-08Accessory_DoGwan                  1_005      9    11    ·å¶ù           0   20 
-10Material_DoGwan                   1        386   119    ÌìĞÇ           0   34 
-10ChestnutMarket_DoGwan             1        382   141    Àõ×ÓÉÌÈË       0    3 
-13Move_DoGwan                       1        416   179    ÁùÃæÉñÊ¯       0   56 
-14Doctor_DoGwan                     1        398   127    ÍòÊÂÍ¨         0    2 
-14Quest_DoGwan1                     1        403   132    Ê¿¹Ù           0   16 
-14Quest_DoGwan2                     1        379   214    ÊéÌÃĞşÕğ       0   16 
-14Quest_DoGwan                      1_009    117    25    ÎŞÃûÀÏÈË       0    9 
-15Magic_DoGwan                      1        349   401    ´ó±¯ÉÆÉ®       0   18 
-15Magic_DoGwan                      1_002     11    10    ÇåÃ÷×Ó         0   14
-15Magic_DoGwan                      1_008	5   8	  ÇåÃ÷×Ó	 0   16
-15Magic_DoGwan                      1_011     91    14    ÇåÃ÷×Ó         0   14 
-15Magic_DoGwan0	                    1_013     44    25	±äÒì÷¼÷Ã	 0   58	
-15Magic_DoGwan1	                    1_013     26    20	±äÒì÷¼÷Ã	 0   58	
-15Magic_DoGwan2	                    1_013     29    23	±äÒì÷¼÷Ã	 0   58	
-15Magic_DoGwan3                     1_013     23    23	±äÒì÷¼÷Ã	 0   58	
-15Magic_DoGwan4	                    1_013     35    15	±äÒì÷¼÷Ã	 0   58	
-15Magic_DoGwan5	                    1_013     26    26	±äÒì÷¼÷Ã	 0   58	
-15Magic_DoGwan6	                    1_013     25    41	±äÒì÷¼÷Ã	 0   58	
-15Magic_DoGwan7	                    1_013     10    24	±äÒì÷¼÷Ã	 0   58
+01Meet_DoGwan                       1        366   182    é’±è€æ¿         0   11
+02Weapon_DoGwan                     1        426   117    é“åŒ            0   15
+02Weapon_DoGwan                     1_001     14    12    å•Šæ½˜           0   15
+02Weapon_Wooma                      1        382   198    ç‹é“åŒ          0    0
+03Armor_DoGwan                      1        412   133    æ¢ç”Ÿ           0   23
+03Armor_DoGwan                      1_003     13    16    å•Šæµ©           0   23
+04Potion_Wooma                      1        363   176    åç‰           0    5
+04Potion_DoGwan1                    1        393   113    è¯ä¸­           0   25
+04Potion_DoGwan2                    1        387   118    è¯ç¥           0   22
+04PotionMake_DoGwan                 1_006     12     7    ç¦„è‹±           0   22
+04Potion_DoGwan                     1_006      9    10    è€è¯           0   25
+05Book_DoGwan                       1        418    96    ä¹¦é¬¼           0   18
+05Book_DoGwan                       1_004      9    11    ä¹¦ç¥           0   18
+06Inn_DoGwan                        1        396   116    å•Šå¤©           0   18
+07Grocery_DoGwan                    1        391   167    å°è€æ¿         0   17
+07Grocery_DoGwan                    1_007     11    14    å¤§è€æ¿         0   17
+08Accessory_DoGwan                  1        370   135    ç§€å„¿           0   20
+08Accessory_DoGwan                  1_005      9    11    å³°å„¿           0   20
+10Material_DoGwan                   1        386   119    å¤©æ˜Ÿ           0   34
+10ChestnutMarket_DoGwan             1        382   141    æ —å­å•†äºº       0    3
+13Move_DoGwan                       1        416   179    å…­é¢ç¥çŸ³       0   56
+14Doctor_DoGwan                     1        398   127    ä¸‡äº‹é€š         0    2
+14Quest_DoGwan1                     1        403   132    å£«å®˜           0   16
+14Quest_DoGwan2                     1        379   214    ä¹¦å ‚ç„éœ‡       0   16
+14Quest_DoGwan                      1_009    117    25    æ— åè€äºº       0    9
+15Magic_DoGwan                      1        349   401    å¤§æ‚²å–„åƒ§       0   18
+15Magic_DoGwan                      1_002     11    10    æ¸…æ˜å­         0   14
+15Magic_DoGwan                      1_008	5   8	  æ¸…æ˜å­	 0   16
+15Magic_DoGwan                      1_011     91    14    æ¸…æ˜å­         0   14
+15Magic_DoGwan0	                    1_013     44    25	å˜å¼‚éª·é«…	 0   58
+15Magic_DoGwan1	                    1_013     26    20	å˜å¼‚éª·é«…	 0   58
+15Magic_DoGwan2	                    1_013     29    23	å˜å¼‚éª·é«…	 0   58
+15Magic_DoGwan3                     1_013     23    23	å˜å¼‚éª·é«…	 0   58
+15Magic_DoGwan4	                    1_013     35    15	å˜å¼‚éª·é«…	 0   58
+15Magic_DoGwan5	                    1_013     26    26	å˜å¼‚éª·é«…	 0   58
+15Magic_DoGwan6	                    1_013     25    41	å˜å¼‚éª·é«…	 0   58
+15Magic_DoGwan7	                    1_013     10    24	å˜å¼‚éª·é«…	 0   58
 ;-------------------------------------------------------------------------------
 ;[PantomWood]
 ;-------------------------------------------------------------------------------
-;;13Blocker_PantomWood                12        43   145    ·ÉÁú           0   45 
+;;13Blocker_PantomWood                12        43   145    é£é¾™           0   45
 ;-------------------------------------------------------------------------------
 ;[SnakeVally]
 ;-------------------------------------------------------------------------------
-02Weapon_SnakeVally                 2        351   219    Ìú½³°¡Á¦       0    0 
-03Armor_SankeVally                  2        342   235    ½ğÁ«           0    7 
-04Potion_SnakeVally                 2        334   224    ½ğÖĞÒ½         0    1 
-06Inn_SnakeVally                    2        346   234    ¿ÍÕ»±£¹ÜÔ±     0    5 
-07Grocery_SnakeVally                2        361   226    Á÷ÀËÂ¬         0    3 
-09NotBlocker_SnakeVally             2        343   219    Éß¹ÈÀÏÈË       0    9 
-10Material_SnakeVally               2        331   225    °¡¸£           0   34 
-13Move_SnakeVally1                  2        306   244    ÁùÃæÉñÊ¯       0   56 
-13Move_SnakeVally2                  2        314   193    ÁùÃæÉñÊ¯       0   56 
-14Doctor_SnakeVally                 2        322   223    ÍòÊÂÍ¨         0    2 
-14Quest_SnakeVally1                 2        337   223    Éß¹ÈÀÏÌ«       0    7 
-14Quest_SnakeVally2                 2        360   208    Éß¹ÈÀÏ¿ó·ò     0    1 
-15Magic_SnakeVally                  2        347   193    ¶ÏÇÇÏÈÉú       0   18 
+02Weapon_SnakeVally                 2        351   219    é“åŒ å•ŠåŠ›       0    0
+03Armor_SankeVally                  2        342   235    é‡‘è²           0    7
+04Potion_SnakeVally                 2        334   224    é‡‘ä¸­åŒ»         0    1
+06Inn_SnakeVally                    2        346   234    å®¢æ ˆä¿ç®¡å‘˜     0    5
+07Grocery_SnakeVally                2        361   226    æµæµªå¢         0    3
+09NotBlocker_SnakeVally             2        343   219    è›‡è°·è€äºº       0    9
+10Material_SnakeVally               2        331   225    å•Šç¦           0   34
+13Move_SnakeVally1                  2        306   244    å…­é¢ç¥çŸ³       0   56
+13Move_SnakeVally2                  2        314   193    å…­é¢ç¥çŸ³       0   56
+14Doctor_SnakeVally                 2        322   223    ä¸‡äº‹é€š         0    2
+14Quest_SnakeVally1                 2        337   223    è›‡è°·è€å¤ª       0    7
+14Quest_SnakeVally2                 2        360   208    è›‡è°·è€çŸ¿å¤«     0    1
+15Magic_SnakeVally                  2        347   193    æ–­ä¹”å…ˆç”Ÿ       0   18
 ;-------------------------------------------------------------------------------
 ;[Sabuk Castle]
 ;-------------------------------------------------------------------------------
-02Weapon_Sabuk                      3        195   183    ÀÏºú           0    0 
-03Armor_Sabuk                       3        229   150    Ë«Ï²           0    7 
-04Potion_Sabuk                      3        204   196    ¾§¾§           0    5 
-06Inn_Sabuk                         3        214   128    »İÁ«           0    6 
-07Grocery_Sabuk                     3        229   168    Ô°ÀÏ°å         0    3 
-08Accessory_Sabuk                   3        211   183    ¶à¶à           0    5 
-09RefineWeapon                      3        198   180    °¡Ïè           0   28 
-10Material_Sabuk                    3        203   197    Óá¹«           0   34 
-18ShooterMarket_Sabuk               3        168   158    ±øÆ÷ÉÌ         0    0 
-18Manager_Sabuk                     3        193   146    É³°Í¿Ë¹ÜÀíÔ±   0    8 
-13Move_Sabuk                        3        222   159    ÁùÃæÉñÊ¯       0   56 
+02Weapon_Sabuk                      3        195   183    è€èƒ¡           0    0
+03Armor_Sabuk                       3        229   150    åŒå–œ           0    7
+04Potion_Sabuk                      3        204   196    æ™¶æ™¶           0    5
+06Inn_Sabuk                         3        214   128    æƒ è²           0    6
+07Grocery_Sabuk                     3        229   168    å›­è€æ¿         0    3
+08Accessory_Sabuk                   3        211   183    å¤šå¤š           0    5
+09RefineWeapon                      3        198   180    å•Šç¿”           0   28
+10Material_Sabuk                    3        203   197    ä¿å…¬           0   34
+18ShooterMarket_Sabuk               3        168   158    å…µå™¨å•†         0    0
+18Manager_Sabuk                     3        193   146    æ²™å·´å…‹ç®¡ç†å‘˜   0    8
+13Move_Sabuk                        3        222   159    å…­é¢ç¥çŸ³       0   56
 ;-------------------------------------------------------------------------------
 ;[Sabuk Castle]  [Attack]
 ;-------------------------------------------------------------------------------
-04Potion_SabukWar                   3        289   513    ÃôÕê           0   10 
-06Inn_SabukWar                      3        280   528    Ãô¹ú           0   32 
-18ShooterMarket_Sabuk               3        302   513    ¶¨¹ú           0   31 
-13Move_Sabuk                        3        294   539    ÁùÃæÉñÊ¯       0   56 
+04Potion_SabukWar                   3        289   513    æ•è´           0   10
+06Inn_SabukWar                      3        280   528    æ•å›½           0   32
+18ShooterMarket_Sabuk               3        302   513    å®šå›½           0   31
+13Move_Sabuk                        3        294   539    å…­é¢ç¥çŸ³       0   56
 ;-------------------------------------------------------------------------------
 ;[Sabuk Castle]  [Attack Allies]
 ;-------------------------------------------------------------------------------
-04Potion_SabukWar                   3         75   516    ÔÚ¿ü           0   34 
-06Inn_SabukWar                      3         64   505    ¾Şºº           0   61 
-18ShooterMarket_Sabuk               3         53   550    Õıºµ           0   26 
-13Move_Sabuk                        3         49   566    ÁùÃæÉñÊ¯       0   56 
+04Potion_SabukWar                   3         75   516    åœ¨å¥           0   34
+06Inn_SabukWar                      3         64   505    å·¨æ±‰           0   61
+18ShooterMarket_Sabuk               3         53   550    æ­£æ—±           0   26
+13Move_Sabuk                        3         49   566    å…­é¢ç¥çŸ³       0   56
 ;-------------------------------------------------------------------------------
 ;[Sabuk Castle]  [Defense Allies]
 ;-------------------------------------------------------------------------------
-04Potion_SabukWar                   3         83   140    ÍêÃÀ           0   13 
-06Inn_SabukWar                      3         95   150    Îä»¢           0    3 
-18ShooterMarket_Sabuk               3         72   161    ¶¨¹ú           0   28 
-13Move_Sabuk                        3         71   140    ÁùÃæÉñÊ¯       0   56 
+04Potion_SabukWar                   3         83   140    å®Œç¾           0   13
+06Inn_SabukWar                      3         95   150    æ­¦è™           0    3
+18ShooterMarket_Sabuk               3         72   161    å®šå›½           0   28
+13Move_Sabuk                        3         71   140    å…­é¢ç¥çŸ³       0   56
 ;-------------------------------------------------------------------------------
 ;[Sabuk Castle]  [Flag]
 ;-------------------------------------------------------------------------------
 ;Sabuk Flag(Victory Flag)
-18MainFlag_Sabuk                    3        205   157    É³°Í¿ËÆìÖÄ     0 10000
+18MainFlag_Sabuk                    3        205   157    æ²™å·´å…‹æ——å¸œ     0 10000
 ;IN Castle
-18SubFlag_Sabuk                     3        202   138    É³°Í¿ËÆìÖÄ     0 10000
-18SubFlag_Sabuk                     3        189   151    É³°Í¿ËÆìÖÄ     0 10000
-18SubFlag_Sabuk                     3        204   146    É³°Í¿ËÆìÖÄ     0 10000
-18SubFlag_Sabuk                     3        195   155    É³°Í¿ËÆìÖÄ     0 10000
+18SubFlag_Sabuk                     3        202   138    æ²™å·´å…‹æ——å¸œ     0 10000
+18SubFlag_Sabuk                     3        189   151    æ²™å·´å…‹æ——å¸œ     0 10000
+18SubFlag_Sabuk                     3        204   146    æ²™å·´å…‹æ——å¸œ     0 10000
+18SubFlag_Sabuk                     3        195   155    æ²™å·´å…‹æ——å¸œ     0 10000
 ;Gate (Disappear on Battle)[left]
-18SubFlag_Sabuk                     3        165   190    É³°Í¿ËÆìÖÄ     0 10000
-18SubFlag_Sabuk                     3        170   195    É³°Í¿ËÆìÖÄ     0 10000
+18SubFlag_Sabuk                     3        165   190    æ²™å·´å…‹æ——å¸œ     0 10000
+18SubFlag_Sabuk                     3        170   195    æ²™å·´å…‹æ——å¸œ     0 10000
 ;Gate (Disappear on Battle)[front]
-18SubFlag_Sabuk                     3        233   196    É³°Í¿ËÆìÖÄ     0 10000
-18SubFlag_Sabuk                     3        237   192    É³°Í¿ËÆìÖÄ     0 10000
+18SubFlag_Sabuk                     3        233   196    æ²™å·´å…‹æ——å¸œ     0 10000
+18SubFlag_Sabuk                     3        237   192    æ²™å·´å…‹æ——å¸œ     0 10000
 ;Gate (Disappear on Battle)[right]
-18SubFlag_Sabuk                     3        240   123    É³°Í¿ËÆìÖÄ     0 10000
-18SubFlag_Sabuk                     3        236   119    É³°Í¿ËÆìÖÄ     0 10000
+18SubFlag_Sabuk                     3        240   123    æ²™å·´å…‹æ——å¸œ     0 10000
+18SubFlag_Sabuk                     3        236   119    æ²™å·´å…‹æ——å¸œ     0 10000
 ;-------------------------------------------------------------------------------
 ;[Oasis Village]
 ;-------------------------------------------------------------------------------
-01Meet_Oasis                        4        438    52    ÍÀ·ò           0   11 
-02Weapon_Oasis                      4        448    76    ¶¡Ìú½³         0    0 
-02Weapon_Oasis                      4_001      7    13    ÍõÌú½³         0    0 
-03Armor_Oasis                       4        462    91    ²¼ÉÌÅ®µêÔ±     0   35 
-03Armor_Oasis                       4_004      9     8    Ö¯Å®           0   35 
-04Potion_Oasis                      4        430    75    Ò½ÏÉ           0   10 
-04Potion_Oasis                      4_003     10    10    °×ÀÏÖĞÒ½       0   10 
-06Inn_Oasis                         4        438    68    ÂÌÖŞ²Ö¿â±£¹ÜÔ± 0   39 
-06Inn_Oasis                         4_003      8    15    ÂÌÖŞ²Ö¿â¹Ü¼Ò   0   39 
-07Grocery_Oasis                     4        470    67    ºéÀÏ°å         0    3 
-08Astrologist_Oasis                 4        475    55    ¶ëáÒÏÀ         0   38    
-08Astrologist_Oasis                 4_005     14    22    Ã·É½ÏÀ         0   38 
-10Material_Oasis                    4        437    71    Èó¾©           0   34 
-10Material_Oasis                    4_003     12     8    Ê¯Óî           0   34 
-13Move_Oasis                        4        435    83    ÁùÃæÉñÊ¯       0   56 
-15Magic_Oasis                       4        426    97    Î¨ÎÒ¶À×ğ       0   18 
+01Meet_Oasis                        4        438    52    å± å¤«           0   11
+02Weapon_Oasis                      4        448    76    ä¸é“åŒ          0    0
+02Weapon_Oasis                      4_001      7    13    ç‹é“åŒ          0    0
+03Armor_Oasis                       4        462    91    å¸ƒå•†å¥³åº—å‘˜     0   35
+03Armor_Oasis                       4_004      9     8    ç»‡å¥³           0   35
+04Potion_Oasis                      4        430    75    åŒ»ä»™           0   10
+04Potion_Oasis                      4_003     10    10    ç™½è€ä¸­åŒ»       0   10
+06Inn_Oasis                         4        438    68    ç»¿æ´²ä»“åº“ä¿ç®¡å‘˜ 0   39
+06Inn_Oasis                         4_003      8    15    ç»¿æ´²ä»“åº“ç®¡å®¶   0   39
+07Grocery_Oasis                     4        470    67    æ´ªè€æ¿         0    3
+08Astrologist_Oasis                 4        475    55    å³¨åµ‹ä¾          0   38
+08Astrologist_Oasis                 4_005     14    22    æ¢…å±±ä¾          0   38
+10Material_Oasis                    4        437    71    æ¶¦äº¬           0   34
+10Material_Oasis                    4_003     12     8    çŸ³å®‡           0   34
+13Move_Oasis                        4        435    83    å…­é¢ç¥çŸ³       0   56
+15Magic_Oasis                       4        426    97    å”¯æˆ‘ç‹¬å°Š       0   18
 ;-------------------------------------------------------------------------------
 ;[Samak Castle]
 ;-------------------------------------------------------------------------------
-01Meet_Samak                        5        200   249    »ÆÀÏ°å         0   11 
-02Weapon_Samak                      5        189   252    Ìúºº           0   27 
-02Weapon_Samak1                     5_002      8    17    ÓÂºº           0   27 
-02Weapon_Samak2                     5_002      7    19    ÖÒÔÆ           0   27 
-03Armor_Samak                       5        177   281    Ï²¶ù           0   35 
-03Armor_Samak                       5_004     15    15    ÏşÃô           0   35 
-03Shoes_Samak                       5        181   277    ÈóÕæ           0   35 
-04Potion_Samak                      5        200   237    Ò©ÀÉ           0   34 
-04Potion_Samak                      5_003     13    17    Ò½Éñ           0   34 
-04PotionMake_Samak                  5        198   252    ÀÏÖ£           0    1 
-06Inn_Samak                         5        171   265    É³Ä®²Ö¿âĞ¡¹Ü¼Ò 0   39 
-06Inn_Samak                         5_006     12    23    É³Ä®²Ö¿â¹Ü¼Ò   0   39 
-07Grocery_Samak                     5        192   232    ÔÓ»õÉÌÀÏÀî     0    3 
-08Accessory_Samak                   5        208   246    Ù»¶ù           0   12 
-08Accessory_Samak                   5_005      9    11    Ñ©¶ù           0   12 
-09ChangeMoney_Samak                 5_006      7    21    °¡¿¡           0    9 
-10Material_Samak                    5        197   235    °¡ËÎ           0   34 
-13Move_Samak1                       5        204   289    ÁùÃæÉñÊ¯       0   56 
-13Move_Samak2                       5        112   177    ÁùÃæÉñÊ¯       0   56 
-15Magic_Samak1                      5        227   169    Îä¹¦½ÌÍ·       0   15 
-15Magic_Samak2                      5        199   203    Ğ¡ĞãÓñÅ®       0   35 
-15Magic_Samak3                      5        230   188    Ü½ÈØÏÉ×Ó       0   35 
+01Meet_Samak                        5        200   249    é»„è€æ¿         0   11
+02Weapon_Samak                      5        189   252    é“æ±‰           0   27
+02Weapon_Samak1                     5_002      8    17    å‹‡æ±‰           0   27
+02Weapon_Samak2                     5_002      7    19    å¿ äº‘           0   27
+03Armor_Samak                       5        177   281    å–œå„¿           0   35
+03Armor_Samak                       5_004     15    15    æ™“æ•           0   35
+03Shoes_Samak                       5        181   277    æ¶¦çœŸ           0   35
+04Potion_Samak                      5        200   237    è¯éƒ           0   34
+04Potion_Samak                      5_003     13    17    åŒ»ç¥           0   34
+04PotionMake_Samak                  5        198   252    è€éƒ‘           0    1
+06Inn_Samak                         5        171   265    æ²™æ¼ ä»“åº“å°ç®¡å®¶ 0   39
+06Inn_Samak                         5_006     12    23    æ²™æ¼ ä»“åº“ç®¡å®¶   0   39
+07Grocery_Samak                     5        192   232    æ‚è´§å•†è€æ     0    3
+08Accessory_Samak                   5        208   246    å€©å„¿           0   12
+08Accessory_Samak                   5_005      9    11    é›ªå„¿           0   12
+09ChangeMoney_Samak                 5_006      7    21    å•Šä¿Š           0    9
+10Material_Samak                    5        197   235    å•Šå®‹           0   34
+13Move_Samak1                       5        204   289    å…­é¢ç¥çŸ³       0   56
+13Move_Samak2                       5        112   177    å…­é¢ç¥çŸ³       0   56
+15Magic_Samak1                      5        227   169    æ­¦åŠŸæ•™å¤´       0   15
+15Magic_Samak2                      5        199   203    å°ç§€ç‰å¥³       0   35
+15Magic_Samak3                      5        230   188    èŠ™è“‰ä»™å­       0   35
 ;-------------------------------------------------------------------------------
 ;[Ant DG enter]
 ;-------------------------------------------------------------------------------
-07Grocery_Ant                       6        284   723    °¡È«           0    3 
-13Move_Ant                          6        273   731    ÁùÃæÉñÊ¯       0   56 
+07Grocery_Ant                       6        284   723    å•Šå…¨           0    3
+13Move_Ant                          6        273   731    å…­é¢ç¥çŸ³       0   56
 ;-------------------------------------------------------------------------------
 ;[Mongchon Castle]
 ;-------------------------------------------------------------------------------
-02Weapon_Mongchon                   74       354   297    Ó¢Áú           0   27 
-03Armor_Mongchon                    74       324   277    ÏşŞ±           0   35 
-04Potion_Mongchon                   74       289   289    Áè·å           0   34 
-06Inn_Mongchon                      74       323   310    ÇğÊå           0   39 
-07Grocery_Mongchon                  74       293   278    ÁúÊå           0    3 
-08Accessory_Mongchon                74       311   273    ÉÆÓ±           0   12 
-10Material_Mongchon                 74       287   290    °¡¹ó           0   34 
-13Move_Mongchon1                    74       349   329    ÁùÃæÉñÊ¯       0   56 
-13Move_Mongchon2                    74       271   267    ÁùÃæÉñÊ¯       0   56 
-15Magic_Mongchon1                   74       300   299    ÎäÊõ½ÌÍ·       0   15 
-15Magic_Mongchon2                   74       290   299    À×ÎÌ¶ÏÖé       0   18 
-15Magic_Mongchon3                   74       297   295    ÃËÖØµÀ³¤       0   16 
-15Magic_Mongchon4                   74       324   108    ÆÃÆ¤Â·°×       0    9 
+02Weapon_Mongchon                   74       354   297    è‹±é¾™           0   27
+03Armor_Mongchon                    74       324   277    æ™“è–‡           0   35
+04Potion_Mongchon                   74       289   289    å‡Œå³°           0   34
+06Inn_Mongchon                      74       323   310    ä¸˜å”           0   39
+07Grocery_Mongchon                  74       293   278    é¾™å”           0    3
+08Accessory_Mongchon                74       311   273    å–„é¢–           0   12
+10Material_Mongchon                 74       287   290    å•Šè´µ           0   34
+13Move_Mongchon1                    74       349   329    å…­é¢ç¥çŸ³       0   56
+13Move_Mongchon2                    74       271   267    å…­é¢ç¥çŸ³       0   56
+15Magic_Mongchon1                   74       300   299    æ­¦æœ¯æ•™å¤´       0   15
+15Magic_Mongchon2                   74       290   299    é›·ç¿æ–­ç        0   18
+15Magic_Mongchon3                   74       297   295    ç›Ÿé‡é“é•¿       0   16
+15Magic_Mongchon4                   74       324   108    æ³¼çš®è·¯ç™½       0    9
 ;-------------------------------------------------------------------------------
 ;[SukGak DG enter]
 ;-------------------------------------------------------------------------------
-13Move_SukGak                       75       184    90    ÁùÃæÉñÊ¯       0   56
+13Move_SukGak                       75       184    90    å…­é¢ç¥çŸ³       0   56
 ;-------------------------------------------------------------------------------
 ;[HalfNight Village]
 ;-------------------------------------------------------------------------------
-02Weapon_HalfNight                  8        224   210    °¡Ê¤           0   27 
-03Armor_HalfNight                   8        249   257    ÏşÑó           0   35 
-04Potion_HalfNight                  8        282   224    ³ÉºÕ           0    1 
-06Inn_HalfNight                     8        231   260    Âú´º           0   39 
-07Grocery_HalfNight                 8        253   291    ÖĞÊå           0    3 
-08Accessory_HalfNight               8        266   285    Ïş»ª           0   12 
-10Material_HalfNight                8        271   222    ÆÃÆ¤           0   34 
-13Move_HalfNight1                   8        288   241    ÁùÃæÉñÊ¯       0   57 
-13Move_HalfNight2                   8        113   463    ÁùÃæÉñÊ¯       0   57 
-13Move_HalfNight3                   8        668   388    ÁùÃæÉñÊ¯       0   57 
-13Move_HalfNight4                   8        448   579    ÁùÃæÉñÊ¯       0   57 
-13Move_HalfNight5                   8        424   239    ÁùÃæÉñÊ¯       0   57 
+02Weapon_HalfNight                  8        224   210    å•Šèƒœ           0   27
+03Armor_HalfNight                   8        249   257    æ™“æ´‹           0   35
+04Potion_HalfNight                  8        282   224    æˆèµ«           0    1
+06Inn_HalfNight                     8        231   260    æ»¡æ˜¥           0   39
+07Grocery_HalfNight                 8        253   291    ä¸­å”           0    3
+08Accessory_HalfNight               8        266   285    æ™“å           0   12
+10Material_HalfNight                8        271   222    æ³¼çš®           0   34
+13Move_HalfNight1                   8        288   241    å…­é¢ç¥çŸ³       0   57
+13Move_HalfNight2                   8        113   463    å…­é¢ç¥çŸ³       0   57
+13Move_HalfNight3                   8        668   388    å…­é¢ç¥çŸ³       0   57
+13Move_HalfNight4                   8        448   579    å…­é¢ç¥çŸ³       0   57
+13Move_HalfNight5                   8        424   239    å…­é¢ç¥çŸ³       0   57
 ;-------------------------------------------------------------------------------
 ;[RedZone]
 ;-------------------------------------------------------------------------------
-04Potion_RedZone                    81       138   301    ´ÎÓ¹           0   28 
-09Lucky_RedZone                     81       119   297    Ğ¡Íû           0   38
-13Move_RedZone                      81       129   265    ÁùÃæÉñÊ¯       0   57 
+04Potion_RedZone                    81       138   301    æ¬¡åº¸           0   28
+09Lucky_RedZone                     81       119   297    å°æœ›           0   38
+13Move_RedZone                      81       129   265    å…­é¢ç¥çŸ³       0   57
 ;-------------------------------------------------------------------------------
 ;[Encore Village]
 ;-------------------------------------------------------------------------------
-02Weapon_Encore                     9        196   526    Ö¾³É           0   28 
-03Armor_Encore                      9        204   628    Ïş»İ           0   67 
-04Potion_Encore                     9        215   527    ÓÄÃÀ           0   67 
-05Book_Encore                       9        174   581    ĞşºÆ           0   66 
-06Inn_Encore                        9        209   586    ±¦Ó¢           0   66 
-07Grocery_Encore                    9        199   559    °¡³É           0   66 
-08Accessory_Encore                  9        190   610    °¡Öé           0   68 
-09HorseMarket_Encore                9        264   559    ÊÀÉ½           0   69 
-09Lucky_Encore                      9        160   555    Ğ¡Ó¢           0   69
-10Material_Encore                   9        223   531    ÏşÓÂ           0   66 
+02Weapon_Encore                     9        196   526    å¿—æˆ           0   28
+03Armor_Encore                      9        204   628    æ™“æƒ            0   67
+04Potion_Encore                     9        215   527    å¹½ç¾           0   67
+05Book_Encore                       9        174   581    ç„æµ©           0   66
+06Inn_Encore                        9        209   586    å®è‹±           0   66
+07Grocery_Encore                    9        199   559    å•Šæˆ           0   66
+08Accessory_Encore                  9        190   610    å•Šç            0   68
+09HorseMarket_Encore                9        264   559    ä¸–å±±           0   69
+09Lucky_Encore                      9        160   555    å°è‹±           0   69
+10Material_Encore                   9        223   531    æ™“å‹‡           0   66
 ;-------------------------------------------------------------------------------
 ;[SkeletonCave]
 ;-------------------------------------------------------------------------------
-06Inn_SkeletonCave                  D002     174   216    ¶´Ñ¨±£¹ÜÔ±     0    3 
-07Grocery_SkeletonCave              DM001      4     6    ¼éÉÌÅ·Ñô       0    9 
-14Quest_SkeletonCave                D012_001  13    11    ÔÆ·¢           0   18 
-14Quest_SkeletonCave                E002_001   9    11    ÔÆ·¢           0   18 
-14Quest_SkeletonCave                E002      65    12    ¼ÎµÇ           0   15 
-14Quest_SkeletonCave                D001     152   355    »Æ¾§           0   18 
-14Quest_SkeletonCave                DM002     14    22    ÎŞÀíµÄµÀÊ¿     0   48 
+06Inn_SkeletonCave                  D002     174   216    æ´ç©´ä¿ç®¡å‘˜     0    3
+07Grocery_SkeletonCave              DM001      4     6    å¥¸å•†æ¬§é˜³       0    9
+14Quest_SkeletonCave                D012_001  13    11    äº‘å‘           0   18
+14Quest_SkeletonCave                E002_001   9    11    äº‘å‘           0   18
+14Quest_SkeletonCave                E002      65    12    å˜‰ç™»           0   15
+14Quest_SkeletonCave                D001     152   355    é»„æ™¶           0   18
+14Quest_SkeletonCave                DM002     14    22    æ— ç†çš„é“å£«     0   48
 ;-------------------------------------------------------------------------------
 ;[ZombieCave]
 ;-------------------------------------------------------------------------------
-09NotBlocker_ZombieCave             D431      29   175    ¿óÉ½ÀÏÈË       0    1 
-14Quest_ZombieCave                  E402_001  13    10    Êğ¼ı           0   48 
-14Quest_ZombieCave                  D404_002  22    11    Êğ¼ı           0   48 
+09NotBlocker_ZombieCave             D431      29   175    çŸ¿å±±è€äºº       0    1
+14Quest_ZombieCave                  E402_001  13    10    ç½²ç®­           0   48
+14Quest_ZombieCave                  D404_002  22    11    ç½²ç®­           0   48
 ;-------------------------------------------------------------------------------
 ;[WoomaPalace]
 ;-------------------------------------------------------------------------------
-14Quest_WoomaPalace                 D023_001  17    21    Å£ÀÏµÀ         0   20 
-14Quest_WoomaPalace                 D022     207    47    Ê¯¶Ñ           0   55 
-14Quest_WoomaPalace                 D022_001  64    21    Êé¼Ü           0   54 
+14Quest_WoomaPalace                 D023_001  17    21    ç‰›è€é“         0   20
+14Quest_WoomaPalace                 D022     207    47    çŸ³å †           0   55
+14Quest_WoomaPalace                 D022_001  64    21    ä¹¦æ¶           0   54
 ;-------------------------------------------------------------------------------
 ;[Zumasinjun  Rate:300%]
 ;-------------------------------------------------------------------------------
-04Potion_Zuma                       D5071     20    23    »êµÎ           0   28 
+04Potion_Zuma                       D5071     20    23    é­‚æ»´           0   28
 ;-------------------------------------------------------------------------------
 ;[HalfTemple]
 ;-------------------------------------------------------------------------------
-02Weapon_HalfTemple                 D1110     27    13    Ë¾ÂíÔÆÌì       0   36 
-09WideUse_HalfTemple                D1110      7    24    Ë¾ÂíÎäÁÖ       0   40 
-09Repair_HalfTemple                 D1110      7    20    Ë¾Âí»¯ÁÖ       0   37 
-13Move_HalfTemple1                  D1110     15    18    ÁùÃæÉñÊ¯       0   57 
-13Move_HalfTemple2                  D1110     28    31    ÁùÃæÉñÊ¯       0   57 
-13Move_HalfTemple                   D11031   199   257    ÁùÃæÉñÊ¯       0   57 
-13Move_HalfTemple                   D1105    219    99    ÁùÃæÉñÊ¯       0   57 
+02Weapon_HalfTemple                 D1110     27    13    å¸é©¬äº‘å¤©       0   36
+09WideUse_HalfTemple                D1110      7    24    å¸é©¬æ­¦æ—       0   40
+09Repair_HalfTemple                 D1110      7    20    å¸é©¬åŒ–æ—       0   37
+13Move_HalfTemple1                  D1110     15    18    å…­é¢ç¥çŸ³       0   57
+13Move_HalfTemple2                  D1110     28    31    å…­é¢ç¥çŸ³       0   57
+13Move_HalfTemple                   D11031   199   257    å…­é¢ç¥çŸ³       0   57
+13Move_HalfTemple                   D1105    219    99    å…­é¢ç¥çŸ³       0   57
 ;-------------------------------------------------------------------------------
 ;[SinGiSun]
 ;-------------------------------------------------------------------------------
-02Weapon_SinGiSun                   D9033     10    15    »ğÉ½           0   48 
-02Weapon_SinGiSun                   D9012     10    12    »¨Öé           0   48 
-04Potion_SinGiSun                   D90221    22    20    »¨ÏÉ           0   49 
-04Potion_SinGiSun                   D90211    22    20    »ğÁú           0   48 
-04Potion_SinGiSun                   D9011      9    13    »ğÊ¯           0   48 
-04Potion_SinGiSun                   D90222    17    23    »ğ·ç           0   48
-04Potion_SinGiSun                   D9031     10    15    »ğÌì           0   48 
-02Weapon_SinGiSun                   D9032     12    11    »ğÀÉ           0   48
-14Quest_SinGiSun                    D903      54    54    °ÔÍõÓÄÁé       0   76 
-14Quest_SinGiSun                    D900      45    58    °ÔÍõÓÄÁé       0   76 
-14Quest_SinGiSun                    D90323    16     8    °ÔÍõÓÄÁé       0   76 
+02Weapon_SinGiSun                   D9033     10    15    ç«å±±           0   48
+02Weapon_SinGiSun                   D9012     10    12    èŠ±ç            0   48
+04Potion_SinGiSun                   D90221    22    20    èŠ±ä»™           0   49
+04Potion_SinGiSun                   D90211    22    20    ç«é¾™           0   48
+04Potion_SinGiSun                   D9011      9    13    ç«çŸ³           0   48
+04Potion_SinGiSun                   D90222    17    23    ç«é£           0   48
+04Potion_SinGiSun                   D9031     10    15    ç«å¤©           0   48
+02Weapon_SinGiSun                   D9032     12    11    ç«éƒ           0   48
+14Quest_SinGiSun                    D903      54    54    éœ¸ç‹å¹½çµ       0   76
+14Quest_SinGiSun                    D900      45    58    éœ¸ç‹å¹½çµ       0   76
+14Quest_SinGiSun                    D90323    16     8    éœ¸ç‹å¹½çµ       0   76
 ;-------------------------------------------------------------------------------
 ;[NuMa]
 ;-------------------------------------------------------------------------------
-01Meet_NuMa                         41       126    86    Íß´È           0   77
-02Weapon_Numa                       41       145    82    Í¼Ä¾ÀÕ         0   77 
-03Armor_Numa                        41       141    108   ÈåÅÁ           0   78 
-04Potion_Numa                       41       168    125   °¡Äª           0   80 
-06Inn_Numa                          41       168    84    °¡ÀÕ           0   79 
-07Grocery_Numa                      41       127    118   ËàÁ¼¼Ñ         0   81 
-08Accessory_Numa                    41       155    105   ÓğÏ¼           0   78 
-10Material_Numa                     41       141    90    ÓíÀÏ           0   81 
-;11RentMonster_Numa                  41       147    106   ¹ÖÎï×âÁŞÉÌ         0   8
-09HorseMarket_Numa                  41       147    106   ÀÎÉü           0   77
-13Move_Numa                         41       184    136   ÁùÃæÉñÊ¯       0   56 
-17NuMaSahaka_Numa	            41	     148    84	    ÏÄ¿Â	 0   86	
-17Zaha_Numa                         41       151    121   ×ÏÏ¼ÉñÅ®       0   35
+01Meet_NuMa                         41       126    86    ç“¦æ…ˆ           0   77
+02Weapon_Numa                       41       145    82    å›¾æœ¨å‹’         0   77
+03Armor_Numa                        41       141    108   å„’å¸•           0   78
+04Potion_Numa                       41       168    125   å•Šè«           0   80
+06Inn_Numa                          41       168    84    å•Šå‹’           0   79
+07Grocery_Numa                      41       127    118   è‚ƒè‰¯ä½³         0   81
+08Accessory_Numa                    41       155    105   ç¾½éœ           0   78
+10Material_Numa                     41       141    90    ç¦¹è€           0   81
+;11RentMonster_Numa                  41       147    106   æ€ªç‰©ç§Ÿèµå•†         0   8
+09HorseMarket_Numa                  41       147    106   ç‰¢ç‰²           0   77
+13Move_Numa                         41       184    136   å…­é¢ç¥çŸ³       0   56
+17NuMaSahaka_Numa	            41	     148    84	    å¤æŸ¯	 0   86
+17Zaha_Numa                         41       151    121   ç´«éœç¥å¥³       0   35
 ;-------------------------------------------------------------------------------
 ;[GuildWarEvent]
 ;-------------------------------------------------------------------------------
-20Gmatch		            02	     254   227	  ÔÆÖĞ×Ó         0   31
-jishou1                             0        452   389    ¼ÄÊÛÉÌ´ó³É     0   18
-jishou2                             1        401   119    ¼ÄÊÛÉÌººÁÖ     0   18
-jishou3                             02       254   198    ¼ÄÊÛÉÌ°¡¸£     0   18
-;;kuanshangl                          2        363   203    ¿óÉ½¹ÜÀíÔ±     0   8
+20Gmatch		            02	     254   227	  äº‘ä¸­å­         0   31
+jishou1                             0        452   389    å¯„å”®å•†å¤§æˆ     0   18
+jishou2                             1        401   119    å¯„å”®å•†æ±‰æ—     0   18
+jishou3                             02       254   198    å¯„å”®å•†å•Šç¦     0   18
+;;kuanshangl                          2        363   203    çŸ¿å±±ç®¡ç†å‘˜     0   8
 ;-------------------------------------------------------------------------------
 ;[HonChonMado Quest]
 ;-------------------------------------------------------------------------------
-17Monsternpc                    D16063       29    37     À´Àú²»Ã÷ÈË     0 28
-17NumaMidBoss1                npcroom1        9     7     °¢Áú¹Ö1        0 90
-17NumaMidBoss2                npcroom1        9     8     °¢Áú¹Ö2        0 90
-17NumaMidBoss3                npcroom1        9     9     °¢Áú¹Ö3        0 90
-17NumaMidBoss4                npcroom1        9    10     °¢Áú¹Ö4        0 90
-17baska1 npcroom1 10 7 ÅµÂê´ó·¨ÀÏ1 0 86
-17baska2 npcroom1 10 8 ÅµÂê´ó·¨ÀÏ2 0 86
-17baska3 npcroom1 10 9 ÅµÂê´ó·¨ÀÏ3 0 86
-17baska4 npcroom1 10 10 ÅµÂê´ó·¨ÀÏ4 0 86
-17StoneNpc1 D1601 81 230 Ê¯Ïñ1 0 91
-17StoneNpc2 D1602 193 41 Ê¯Ïñ2 0 91
-17StoneNpc3 D16032 57 355 Ê¯Ïñ3 0 91
-17StoneNpc4 D1604 305 213 Ê¯Ïñ4 0 91
-17StoneNpc5 D1605 202 321 Ê¯Ïñ5 0 91
-17StoneNpcbox1 D16064 29 37 Ïä×Ó1 0 92
-17NumaMagda D1601 157 93 Ä¦´ï 0 86
-17NumaMagda1 D16064 24 49 Ä¦´ï1 0 86
-17Quest_HonChonmado D16062 29 37 ¼Å»ÃÖ®ÈĞ 0 87
+17Monsternpc                    D16063       29    37     æ¥å†ä¸æ˜äºº     0 28
+17NumaMidBoss1                npcroom1        9     7     é˜¿é¾™æ€ª1        0 90
+17NumaMidBoss2                npcroom1        9     8     é˜¿é¾™æ€ª2        0 90
+17NumaMidBoss3                npcroom1        9     9     é˜¿é¾™æ€ª3        0 90
+17NumaMidBoss4                npcroom1        9    10     é˜¿é¾™æ€ª4        0 90
+17baska1 npcroom1 10 7 è¯ºç›å¤§æ³•è€1 0 86
+17baska2 npcroom1 10 8 è¯ºç›å¤§æ³•è€2 0 86
+17baska3 npcroom1 10 9 è¯ºç›å¤§æ³•è€3 0 86
+17baska4 npcroom1 10 10 è¯ºç›å¤§æ³•è€4 0 86
+17StoneNpc1 D1601 81 230 çŸ³åƒ1 0 91
+17StoneNpc2 D1602 193 41 çŸ³åƒ2 0 91
+17StoneNpc3 D16032 57 355 çŸ³åƒ3 0 91
+17StoneNpc4 D1604 305 213 çŸ³åƒ4 0 91
+17StoneNpc5 D1605 202 321 çŸ³åƒ5 0 91
+17StoneNpcbox1 D16064 29 37 ç®±å­1 0 92
+17NumaMagda D1601 157 93 æ‘©è¾¾ 0 86
+17NumaMagda1 D16064 24 49 æ‘©è¾¾1 0 86
+17Quest_HonChonmado D16062 29 37 å¯‚å¹»ä¹‹åˆƒ 0 87

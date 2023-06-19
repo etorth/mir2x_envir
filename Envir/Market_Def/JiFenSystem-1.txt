@@ -1,5 +1,5 @@
-;;���߹����޸�
+;;霸者归来修改
 [@main]
-#CALL [KingScript\���ֲ˵�.txt] @jfcd
+#CALL [KingScript\积分菜单.txt] @jfcd
 
 

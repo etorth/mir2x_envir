@@ -5,25 +5,25 @@
 equal p0 1
 #ACT
 goto @Check_set_Tquest_G1
-break 
+break
 
 #IF
 equal p0 2
 #ACT
 goto @Check_set_Tquest_G2
-break 
+break
 
 #IF
 equal p0 3
 #ACT
 goto @Check_set_Tquest_G3
-break 
+break
 
 #IF
 equal p0 4
 #ACT
 goto @Check_set_Tquest_G4
-break 
+break
 
 #ELSEACT
 goto @set_Tquest_0_0
@@ -39,32 +39,32 @@ goto @set_Tquest_0_1
 
 
 [@set_Tquest_0_1]
-;		
-#IF 
+;
+#IF
 checklevel 41
 #ACT
 goto @set_Tquest_1_1
 break
 ;
-#IF 
+#IF
 checklevel 31
 #ACT
 goto @set_Tquest_2_1
 break
 ;
-#IF 
+#IF
 checklevel 21
 #ACT
 goto @set_Tquest_3_1
 break
 ;
-#IF 
+#IF
 checklevel 11
 #ACT
 goto @set_Tquest_4_1
 ;break
 ;;
-;#IF 
+;#IF
 ;checklevel 7
 ;#ACT
 ;goto @set_Tquest_5_1
@@ -75,7 +75,7 @@ goto @set_Tquest_4_1
 
 [@set_Tquest_1_1]
 ;		Level 41 ~ 50
-#IF 
+#IF
 #ACT
 movr d0 100
 inc d0 1
@@ -94,7 +94,7 @@ goto @set_Tquest_1_2
 
 
 [@set_Tquest_1_2]
-#IF 
+#IF
 #ACT
 movr d0 100
 inc d0 1
@@ -173,7 +173,7 @@ goto @set_Tquest_1_1
 
 [@set_Tquest_2_1]
 ;		Level 31 ~ 40
-#IF 
+#IF
 #ACT
 movr d0 100
 inc d0 1
@@ -272,7 +272,7 @@ goto @set_Tquest_2_1
 
 [@set_Tquest_3_1]
 ;		Level 21 ~ 30
-#IF 
+#IF
 #ACT
 movr d0 100
 inc d0 1
@@ -371,7 +371,7 @@ goto @set_Tquest_3_1
 
 [@set_Tquest_4_1]
 ;		Level 11 ~ 20
-#IF 
+#IF
 #ACT
 movr d0 100
 inc d0 1
@@ -448,7 +448,7 @@ goto @set_Tquest_4_5
 
 
 [@set_Tquest_4_5]
-#IF 
+#IF
 #ACT
 movr d0 100
 inc d0 1
@@ -470,7 +470,7 @@ goto @set_Tquest_4_1
 
 ;[@set_Tquest_5_1]
 ;;		Level 7 ~ 10
-;#IF 
+;#IF
 ;#ACT
 ;movr d0 100
 ;inc d0 1
@@ -3133,10 +3133,10 @@ reset [307] 3
 ;set [310] 0
 ;reset [307] 3
 ;#SAY
-;ֻ˵һ�飬ϣ���������á���\ 
-;�������ȥ��һ����{FCOLOR/10}ɳ�Ϳ˳�{FCOLOR/12}��ҩ�̵�{FCOLOR/10}����{FCOLOR/12}�ɡ�\ 
-;����Ҳ����ɳ�Ϳ˳�{FCOLOR/10}196 : 255{FCOLOR/12}������\ \
-;<����/@exit>
+;只说一遍，希望认真听好。。\
+;这次事情去找一下在{FCOLOR/10}沙巴克城{FCOLOR/12}里药铺的{FCOLOR/10}基德{FCOLOR/12}吧。\
+;基德也许在沙巴克城{FCOLOR/10}196 : 255{FCOLOR/12}附近。\ \
+;<结束/@exit>
 
 ;---------------
 

@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 [@CastleWarReady_TAOSUNG]
 {
 #ACT
@@ -9,9 +9,9 @@ ChangeMapAttr "5" "NoSpell"
 TingWar TAOSUNG
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg0]
 lineMsg [Grobal] %A7
-mongenp "5,267,145,0" Ä¾Õ¤À¸2 1
-mongenp "5,201,159,0" Ä¾Õ¤À¸4 1
-mongenp "5,211,96,0" Ä¾Õ¤À¸1 1
+mongenp "5,267,145,0" æœ¨æ …æ 2 1
+mongenp "5,201,159,0" æœ¨æ …æ 4 1
+mongenp "5,211,96,0" æœ¨æ …æ 1 1
 Delaygoto [Grobal] 30 @TosungCastle_NumaMsg
 
 [@TosungCastle_NumaMsg]
@@ -31,19 +31,19 @@ SetAreaAttr "5, 250, 105, 8" "NoLack"
 SetAreaAttr "5, 44, 122, 8" "NoLack"
 SetAreaAttr "5, 320, 306, 8" "NoLack"
 SetAreaAttr "5, 151, 315, 8" "NoLack"
-movenpc "5,262,84,¡ºĞĞÕş¹Ù¡»_É³Ä®ÍÁ³Ç¹ÙÀô" Z013 10 11
-movenpc "5,202,129,³ËÁú" Z013 10 12
-movenpc "5,209,115,¡ºÃŞ²¼µê¡»_²¼µêÏşÜ½¡¡" Z013 10 13
-movenpc "5,242,144,¡ºÒ©µê¡»_ÁúÊå" Z013 10 14
-movenpc "5,237,89,¡ºÂÃµê¡»_ÇğÊå" Z013 10 15
-movenpc "5,229,153,¡ºÔÓ»õµê¡»_Ó¢Áú" Z013 10 16
-movenpc "5,222,147,¡ºÊÎÆ·µê¡»_Ñ©¶ù" Z013 9 16
-movenpc "5,262,107,¡ºÌú½³ÆÌ¡»_Ê¤Ô×" Z013 9 15
-movenpc "5,247,147,¡º²ÄÁÏÉÌ¡»_Áè·å" Z013 9 14
-movenpc "5,226,94,¡º×âÁŞµê¡»_ÍõÌú½³" Z013 9 13
-movenpc "5,240,128,¡º»î¶¯¡»_Ğ¢Ïà" Z013 8 13
-movenpc "5,255,90,¡º¼ÄÊÛÉÌ¡»_°¡¸£" Z013 8 14
-movenpc "5,243,86,¡ºÉùÍûµÀ¾ßµê¡»_°¡Ã·" Z013 8 15
+movenpc "5,262,84,ã€è¡Œæ”¿å®˜ã€_æ²™æ¼ åœŸåŸå®˜å" Z013 10 11
+movenpc "5,202,129,ä¹˜é¾™" Z013 10 12
+movenpc "5,209,115,ã€æ£‰å¸ƒåº—ã€_å¸ƒåº—æ™“èŠ™ã€€" Z013 10 13
+movenpc "5,242,144,ã€è¯åº—ã€_é¾™å”" Z013 10 14
+movenpc "5,237,89,ã€æ—…åº—ã€_ä¸˜å”" Z013 10 15
+movenpc "5,229,153,ã€æ‚è´§åº—ã€_è‹±é¾™" Z013 10 16
+movenpc "5,222,147,ã€é¥°å“åº—ã€_é›ªå„¿" Z013 9 16
+movenpc "5,262,107,ã€é“åŒ é“ºã€_èƒœå®°" Z013 9 15
+movenpc "5,247,147,ã€ææ–™å•†ã€_å‡Œå³°" Z013 9 14
+movenpc "5,226,94,ã€ç§Ÿèµåº—ã€_ç‹é“åŒ " Z013 9 13
+movenpc "5,240,128,ã€æ´»åŠ¨ã€_å­ç›¸" Z013 8 13
+movenpc "5,255,90,ã€å¯„å”®å•†ã€_å•Šç¦" Z013 8 14
+movenpc "5,243,86,ã€å£°æœ›é“å…·åº—ã€_å•Šæ¢…" Z013 8 15
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg1]
 lineMsg [Grobal] %A7
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg2]
@@ -68,25 +68,25 @@ SetAreaAttr "5, 250, 105, 8" "Clear"
 SetAreaAttr "5, 44, 122, 8" "Clear"
 SetAreaAttr "5, 320, 306, 8" "Clear"
 SetAreaAttr "5, 151, 315, 8" "Clear"
-MonClear "5" ÅµÂê8
-MonClear "5" ÅµÂê9
-MonClear "5" ÅµÂê½«Ê¿8
-MonClear "5" ÅµÂê½«Ê¿9
-MonClear "5" ÅµÂê·¨ÀÏ8
-MonClear "5" ÅµÂê·¨ÀÏ9
-movenpc "Z013,10,11,¡ºĞĞÕş¹Ù¡»_É³Ä®ÍÁ³Ç¹ÙÀô" 5 262 84
-movenpc "Z013,10,12,³ËÁú" 5 202 129
-movenpc "Z013,10,13,¡ºÃŞ²¼µê¡»_²¼µêÏşÜ½¡¡" 5 209 115
-movenpc "Z013,10,14,¡ºÒ©µê¡»_ÁúÊå" 5 242 144
-movenpc "Z013,10,15,¡ºÂÃµê¡»_ÇğÊå" 5 237 89
-movenpc "Z013,10,16,¡ºÔÓ»õµê¡»_Ó¢Áú" 5 229 153
-movenpc "Z013,9,16,¡ºÊÎÆ·µê¡»_Ñ©¶ù" 5 222 147
-movenpc "Z013,9,15,¡ºÌú½³ÆÌ¡»_Ê¤Ô×" 5 262 107
-movenpc "Z013,9,14,¡º²ÄÁÏÉÌ¡»_Áè·å" 5 247 147
-movenpc "Z013,9,13,¡º×âÁŞµê¡»_ÍõÌú½³" 5 226 94
-movenpc "Z013,8,13,¡º»î¶¯¡»_Ğ¢Ïà" 5 240 128
-movenpc "Z013,8,14,¡º¼ÄÊÛÉÌ¡»_°¡¸£" 5 255 90
-movenpc "Z013,8,15,¡ºÉùÍûµÀ¾ßµê¡»_°¡Ã·" 5 243 86
+MonClear "5" è¯ºç›8
+MonClear "5" è¯ºç›9
+MonClear "5" è¯ºç›å°†å£«8
+MonClear "5" è¯ºç›å°†å£«9
+MonClear "5" è¯ºç›æ³•è€8
+MonClear "5" è¯ºç›æ³•è€9
+movenpc "Z013,10,11,ã€è¡Œæ”¿å®˜ã€_æ²™æ¼ åœŸåŸå®˜å" 5 262 84
+movenpc "Z013,10,12,ä¹˜é¾™" 5 202 129
+movenpc "Z013,10,13,ã€æ£‰å¸ƒåº—ã€_å¸ƒåº—æ™“èŠ™ã€€" 5 209 115
+movenpc "Z013,10,14,ã€è¯åº—ã€_é¾™å”" 5 242 144
+movenpc "Z013,10,15,ã€æ—…åº—ã€_ä¸˜å”" 5 237 89
+movenpc "Z013,10,16,ã€æ‚è´§åº—ã€_è‹±é¾™" 5 229 153
+movenpc "Z013,9,16,ã€é¥°å“åº—ã€_é›ªå„¿" 5 222 147
+movenpc "Z013,9,15,ã€é“åŒ é“ºã€_èƒœå®°" 5 262 107
+movenpc "Z013,9,14,ã€ææ–™å•†ã€_å‡Œå³°" 5 247 147
+movenpc "Z013,9,13,ã€ç§Ÿèµåº—ã€_ç‹é“åŒ " 5 226 94
+movenpc "Z013,8,13,ã€æ´»åŠ¨ã€_å­ç›¸" 5 240 128
+movenpc "Z013,8,14,ã€å¯„å”®å•†ã€_å•Šç¦" 5 255 90
+movenpc "Z013,8,15,ã€å£°æœ›é“å…·åº—ã€_å•Šæ¢…" 5 243 86
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg3]
 lineMsg [Grobal] %A7
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Complete'"
@@ -95,4 +95,4 @@ Delaygoto [Grobal] 10 @TosungCastle_Numa_Finished
 [@TosungCastle_Numa_Finished]
 #CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastleWar_Numa_Finished
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

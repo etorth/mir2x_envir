@@ -15,7 +15,7 @@
       FormatStr "FLD_USERID='%s'" %USERID
       ReadValueSql  "TBL_RELATPOINT"  %A9  "FLD_USERID,FLD_POINT,FLD_OK"  [@Point_Loading]
       close
-            
+
 [@Point_Loading()]
    #IF
    #ACT
@@ -28,14 +28,14 @@
    #IF
       IsAdmin
    #SAY
-      {FCOLOR/1}DBΔΙΈ―ΕΝΐϊΐεΐΜΈ§ = <$OUTPUT(A8)> \ \
-      ½ΊΕ©Έ³Ζ®ΖχΐΞΖ® = <$OUTPUT(D0)> \ \
-      DB ΐϊΐε»θ°¨ΖχΐΞΖ® = <$OUTPUT(D1)> \
-      DB ΐεΉΜ Ηφ»σΕΒ = <$OUTPUT(D2)>{FCOLOR/12} \ \
+      {FCOLOR/1}DBμΌ€λ¦­ν„°μ €μ¥μ΄λ¦„ = <$OUTPUT(A8)> \ \
+      μ¤ν¬λ¦½νΈν¬μΈνΈ = <$OUTPUT(D0)> \ \
+      DB μ €μ¥μ‚­κ°ν¬μΈνΈ = <$OUTPUT(D1)> \
+      DB μ¥λ―Έ ν„μƒνƒ = <$OUTPUT(D2)>{FCOLOR/12} \ \
 
    #IF
       !Equal    A8   ""
-      equal     D2   1 
+      equal     D2   1
    #ACT
       UpdateValueSql "TBL_RELATPOINT" %A0 "FLD_OK=0"
       break
@@ -66,7 +66,7 @@
    #ACT
       FormatStr "FLD_POINT='%s'" %D0
       UpdateValueSql "TBL_RELATPOINT" %A0 %A9
-      
+
    #IF
       !Equal    D2   0
    #SAY
@@ -75,7 +75,7 @@
       break
 
    #IF
-      Equal  A8   "" 
+      Equal  A8   ""
    #ACT
       FormatStr "'%s'" %USERID
       mov A1 %A9

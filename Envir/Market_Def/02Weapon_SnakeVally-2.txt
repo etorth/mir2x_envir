@@ -27,7 +27,7 @@ goto @main_0_0
 [@main_0_0]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_SnakeVally-2.txt] @NPC_Main_0_0
- 
+
 [@Special_Repair()]
 #CALL [\Repair\TotalRepair.txt] @SRepairItem
 
@@ -49,8 +49,8 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-º××ì³ú          100        1
-·çÖ®º××ì³ú      100        1
+ÂºÃ—Ã—Ã¬Â³Ãº          100        1
+Â·Ã§Ã–Â®ÂºÃ—Ã—Ã¬Â³Ãº      100        1
 
 
 [@pre_repair]

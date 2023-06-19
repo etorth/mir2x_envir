@@ -21,7 +21,7 @@ goto @main_0_0
 #CALL [\NQ_HELP\area\wang.txt] @WANG
 
 [@JIYUK_3]
-#CALL [\NQ_HELP\area\bichun.txt] @BICHUN 
+#CALL [\NQ_HELP\area\bichun.txt] @BICHUN
 
 [@JIYUK_4]
 #CALL [\NQ_HELP\area\yaksa.txt] @YAKSA

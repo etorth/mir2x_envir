@@ -1,4 +1,4 @@
-f;;²»ÒªÉ¾µô´ËĞĞ
+f;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 
 
 
@@ -310,7 +310,7 @@ Delaygoto [Local] 7 @SAMAK_NPC1_1_EventMSG_2
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg2]
 EventMSG [DQ1901_001] %A7
-MongenP "DQ1901_001,30,30,30" Ê¯ÏñÊ¨×Ó 10
+MongenP "DQ1901_001,30,30,30" çŸ³åƒç‹®å­ 10
 Delaygoto [Grobal] 600 @SAMAK_NPC1_1_TimeOut
 
 [@SAMAK_NPC1_1_TimeOut]
@@ -329,7 +329,7 @@ break
 
 [@SAMAK_NPC1_2]
 #IF
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 goto @SAMAK_NPC1_2_EventMSG
 break
@@ -362,7 +362,7 @@ Delaygoto [Grobal] 7 @SAMAK_NPC1_2_1
 
 [@SAMAK_NPC1_2_1]
 #IF
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_7
@@ -408,7 +408,7 @@ break
 
 [@SAMAK_NPC1_3]
 #IF
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg6]
 EventMSG [D1901] %A7
@@ -495,51 +495,51 @@ LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Con
 EventMSG [D1901] %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='2',FLD_SAMAKSTATUSRDY='2'"
-MonClear D1901 ´º
-MonClear D1901 ÏÄ
-MonClear D1901 Çï
-MonClear D1901 ¶¬
-MongenP "D1901,150,150,150" É³Ä®·çÄ§ 1 "Noitem,µ®ÉúÖé×Ó"
-ApplyMonEX "D1901,150,150,150" É³Ä®·çÄ§ [RunAway] ´º
-MongenP "D1901,150,150,150" É³Ä®·çÄ§ 1 "Noitem,ÀÏ»¯Öé×Ó"
-ApplyMonEX "D1901,150,150,150" É³Ä®·çÄ§ [RunAway] ÏÄ
-MongenP "D1901,150,150,150" ºìÒÂ·¨Ê¦ 1 "Noitem,¼²²¡Öé×Ó"
-ApplyMonEX "D1901,150,150,150" ºìÒÂ·¨Ê¦ [RunAway] Çï
-MongenP "D1901,150,150,150" ºìÒÂ·¨Ê¦ 1 "Noitem,ËÀÍöÖé×Ó"
-ApplyMonEX "D1901,150,150,150" ºìÒÂ·¨Ê¦ [RunAway] ¶¬
+MonClear D1901 æ˜¥
+MonClear D1901 å¤
+MonClear D1901 ç§‹
+MonClear D1901 å†¬
+MongenP "D1901,150,150,150" æ²™æ¼ é£é­” 1 "Noitem,è¯ç”Ÿç å­"
+ApplyMonEX "D1901,150,150,150" æ²™æ¼ é£é­” [RunAway] æ˜¥
+MongenP "D1901,150,150,150" æ²™æ¼ é£é­” 1 "Noitem,è€åŒ–ç å­"
+ApplyMonEX "D1901,150,150,150" æ²™æ¼ é£é­” [RunAway] å¤
+MongenP "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ 1 "Noitem,ç–¾ç—…ç å­"
+ApplyMonEX "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ [RunAway] ç§‹
+MongenP "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ 1 "Noitem,æ­»äº¡ç å­"
+ApplyMonEX "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ [RunAway] å†¬
 Delaygoto [Grobal] 3600 @Samak_NPC1_3_TimeOut
 Delaygoto [Grobal] 7 @Samak_NPC1_3_MonCheck
 
 [@Samak_NPC1_3_MonCheck]
 #IF
-!CheckMonMap D1901 1 ´º
+!CheckMonMap D1901 1 æ˜¥
 #ACT
-MongenP "D1901,150,150,150" É³Ä®·çÄ§ 1 "Noitem,µ®ÉúÖé×Ó"
-ApplyMonEX "D1901,150,150,150" É³Ä®·çÄ§ [RunAway] ´º
+MongenP "D1901,150,150,150" æ²™æ¼ é£é­” 1 "Noitem,è¯ç”Ÿç å­"
+ApplyMonEX "D1901,150,150,150" æ²™æ¼ é£é­” [RunAway] æ˜¥
 Delaygoto [Grobal] 7 @Samak_NPC1_3_MonCheck
 break
 
 #IF
-!CheckMonMap D1901 1 ÏÄ
+!CheckMonMap D1901 1 å¤
 #ACT
-MongenP "D1901,150,150,150" É³Ä®·çÄ§ 1 "Noitem,ÀÏ»¯Öé×Ó"
-ApplyMonEX "D1901,150,150,150" É³Ä®·çÄ§ [RunAway] ÏÄ
+MongenP "D1901,150,150,150" æ²™æ¼ é£é­” 1 "Noitem,è€åŒ–ç å­"
+ApplyMonEX "D1901,150,150,150" æ²™æ¼ é£é­” [RunAway] å¤
 Delaygoto [Grobal] 7 @Samak_NPC1_3_MonCheck
 break
 
 #IF
-!CheckMonMap D1901 1 Çï
+!CheckMonMap D1901 1 ç§‹
 #ACT
-MongenP "D1901,150,150,150" ºìÒÂ·¨Ê¦ 1 "Noitem,¼²²¡Öé×Ó"
-ApplyMonEX "D1901,150,150,150" ºìÒÂ·¨Ê¦ [RunAway] Çï
+MongenP "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ 1 "Noitem,ç–¾ç—…ç å­"
+ApplyMonEX "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ [RunAway] ç§‹
 Delaygoto [Grobal] 7 @Samak_NPC1_3_MonCheck
 break
 
 #IF
-!CheckMonMap D1901 1 ¶¬
+!CheckMonMap D1901 1 å†¬
 #ACT
-MongenP "D1901,150,150,150" ºìÒÂ·¨Ê¦ 1 "Noitem,ËÀÍöÖé×Ó"
-ApplyMonEX "D1901,150,150,150" ºìÒÂ·¨Ê¦ [RunAway] ¶¬
+MongenP "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ 1 "Noitem,æ­»äº¡ç å­"
+ApplyMonEX "D1901,150,150,150" çº¢è¡£æ³•å¸ˆ [RunAway] å†¬
 Delaygoto [Grobal] 7 @Samak_NPC1_3_MonCheck
 break
 
@@ -582,7 +582,7 @@ break
 #IF
 Equal A0 %GUILDNAME
 Equal A1 %USERNAME
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 goto @Samak_NPC1_4_GuildMaster
 break
@@ -593,15 +593,15 @@ break
 
 [@Samak_NPC1_4_GuildMaster]
 #IF
-checkitem µ®ÉúÖé×Ó 1
-checkitem ÀÏ»¯Öé×Ó 1
-checkitem ¼²²¡Öé×Ó 1
-checkitem ËÀÍöÖé×Ó 1
+checkitem è¯ç”Ÿç å­ 1
+checkitem è€åŒ–ç å­ 1
+checkitem ç–¾ç—…ç å­ 1
+checkitem æ­»äº¡ç å­ 1
 #ACT
-take µ®ÉúÖé×Ó 1
-take ÀÏ»¯Öé×Ó 1
-take ¼²²¡Öé×Ó 1
-take ËÀÍöÖé×Ó 1
+take è¯ç”Ÿç å­ 1
+take è€åŒ–ç å­ 1
+take ç–¾ç—…ç å­ 1
+take æ­»äº¡ç å­ 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='2',FLD_SAMAKSTATUSRDY='8'"
 Delaygoto [Local] 7 @Samak_NPC1_4_EventMSG
@@ -719,8 +719,8 @@ break
 #IF
 IsCastleGuild TAOSUNG
 IsGuildMaster
-!checkitem É­ÂŞÆ¬ 1
-checkitemw Í·×ÓÖ¤¼ş 1
+!checkitem æ£®ç½—ç‰‡ 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 break
 
@@ -730,8 +730,8 @@ break
 #IF
 IsCastleGuild TAOSUNG
 IsGuildMaster
-checkitem É­ÂŞÆ¬ 1
-!checkitemw Í·×ÓÖ¤¼ş 1
+checkitem æ£®ç½—ç‰‡ 1
+!checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 break
 
@@ -741,8 +741,8 @@ break
 #IF
 IsCastleGuild TAOSUNG
 IsGuildMaster
-checkitem É­ÂŞÆ¬ 1
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitem æ£®ç½—ç‰‡ 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg26]
 EventMSG [D1901] %A7
@@ -841,35 +841,35 @@ Delaygoto [Grobal] 120 @Samak_NPC1_5_Mongen
 #IF
 !CheckMonMap DQ1902_003 50
 #ACT
-MongenP "DQ1902_003,40,40,40" ÅËÒ¹Õ½Ê¿ 10
-MongenP "DQ1902_003,40,40,40" ÅËÒ¹»ğÄ§ 10
-MongenP "DQ1902_003,40,40,40" ÅËÒ¹±ùÄ§ 10
-MongenP "DQ1902_003,40,40,40" ÅËÒ¹ÔÆÄ§ 10
-MongenP "DQ1902_003,40,40,40" ÅËÒ¹·çÄ§ 10
-MongenP "DQ1902_003,40,40,40" ÅËÒ¹×ó»¤ÎÀ 10
-MongenP "DQ1902_003,40,40,40" ÅËÒ¹ÓÒ»¤ÎÀ 10
+MongenP "DQ1902_003,40,40,40" æ½˜å¤œæˆ˜å£« 10
+MongenP "DQ1902_003,40,40,40" æ½˜å¤œç«é­” 10
+MongenP "DQ1902_003,40,40,40" æ½˜å¤œå†°é­” 10
+MongenP "DQ1902_003,40,40,40" æ½˜å¤œäº‘é­” 10
+MongenP "DQ1902_003,40,40,40" æ½˜å¤œé£é­” 10
+MongenP "DQ1902_003,40,40,40" æ½˜å¤œå·¦æŠ¤å« 10
+MongenP "DQ1902_003,40,40,40" æ½˜å¤œå³æŠ¤å« 10
 
 #IF
 !CheckMonMap DQ1902_004 50
 #ACT
-MongenP "DQ1902_004,40,40,40" ÅËÒ¹Õ½Ê¿ 10
-MongenP "DQ1902_004,40,40,40" ÅËÒ¹»ğÄ§ 10
-MongenP "DQ1902_004,40,40,40" ÅËÒ¹±ùÄ§ 10
-MongenP "DQ1902_004,40,40,40" ÅËÒ¹ÔÆÄ§ 10
-MongenP "DQ1902_004,40,40,40" ÅËÒ¹·çÄ§ 10
-MongenP "DQ1902_004,40,40,40" ÅËÒ¹×ó»¤ÎÀ 10
-MongenP "DQ1902_004,40,40,40" ÅËÒ¹ÓÒ»¤ÎÀ 10
+MongenP "DQ1902_004,40,40,40" æ½˜å¤œæˆ˜å£« 10
+MongenP "DQ1902_004,40,40,40" æ½˜å¤œç«é­” 10
+MongenP "DQ1902_004,40,40,40" æ½˜å¤œå†°é­” 10
+MongenP "DQ1902_004,40,40,40" æ½˜å¤œäº‘é­” 10
+MongenP "DQ1902_004,40,40,40" æ½˜å¤œé£é­” 10
+MongenP "DQ1902_004,40,40,40" æ½˜å¤œå·¦æŠ¤å« 10
+MongenP "DQ1902_004,40,40,40" æ½˜å¤œå³æŠ¤å« 10
 
 #IF
 !CheckMonMap DQ1902_005 50
 #ACT
-MongenP "DQ1902_005,40,40,40" ÅËÒ¹Õ½Ê¿ 10
-MongenP "DQ1902_005,40,40,40" ÅËÒ¹»ğÄ§ 10
-MongenP "DQ1902_005,40,40,40" ÅËÒ¹±ùÄ§ 10
-MongenP "DQ1902_005,40,40,40" ÅËÒ¹ÔÆÄ§ 10
-MongenP "DQ1902_005,40,40,40" ÅËÒ¹·çÄ§ 10
-MongenP "DQ1902_005,40,40,40" ÅËÒ¹×ó»¤ÎÀ 10
-MongenP "DQ1902_005,40,40,40" ÅËÒ¹ÓÒ»¤ÎÀ 10
+MongenP "DQ1902_005,40,40,40" æ½˜å¤œæˆ˜å£« 10
+MongenP "DQ1902_005,40,40,40" æ½˜å¤œç«é­” 10
+MongenP "DQ1902_005,40,40,40" æ½˜å¤œå†°é­” 10
+MongenP "DQ1902_005,40,40,40" æ½˜å¤œäº‘é­” 10
+MongenP "DQ1902_005,40,40,40" æ½˜å¤œé£é­” 10
+MongenP "DQ1902_005,40,40,40" æ½˜å¤œå·¦æŠ¤å« 10
+MongenP "DQ1902_005,40,40,40" æ½˜å¤œå³æŠ¤å« 10
 
 [@SAMAK_NPC1_5_MoveRootin]
 #IF
@@ -924,8 +924,8 @@ break
 
 [@Samak_NPC1_5_MasterCheck]
 #IF
-Checkitem ¼òÒ×Ô¿³× 3
-!checkitemw Í·×ÓÖ¤¼ş 1
+Checkitem ç®€æ˜“é’¥åŒ™ 3
+!checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_22
@@ -934,8 +934,8 @@ Checkitem ¼òÒ×Ô¿³× 3
 break
 
 #IF
-Checkitem ¼òÒ×Ô¿³× 3
-checkitemw Í·×ÓÖ¤¼ş 1
+Checkitem ç®€æ˜“é’¥åŒ™ 3
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg34]
 EventMSG "D1901,D1902,D1903" %A7
@@ -967,7 +967,7 @@ Delaygoto [Grobal] 7 @Samak_NPC1_5_NextMission_3
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg38]
 EventMSG "D1901,D1902,D1903" %A7
-take ¼òÒ×Ô¿³× 3
+take ç®€æ˜“é’¥åŒ™ 3
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='3',FLD_SAMAKSTATUSRDY='5'"
 break
@@ -985,22 +985,22 @@ break
 
 [@Samak_NPC1_6_Check]
 #IF
-!checkitemw Í·×ÓÖ¤¼ş 1
+!checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_24
 
 #IF
-checkitem É­ÂŞÆ¬ 2
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitem æ£®ç½—ç‰‡ 2
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg39]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 10 @Samak_NPC1_6_EventMSG
 
 #IF
-!checkitem É­ÂŞÆ¬ 2
-checkitemw Í·×ÓÖ¤¼ş 1
+!checkitem æ£®ç½—ç‰‡ 2
+checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_25
@@ -1023,8 +1023,8 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRD
 [@SAMAK_NPC1_7]
 #IF
 IsGuildMaster
-Checkitemw Í·×ÓÖ¤¼ş 1
-checkitem É­ÂŞÆ¬ 3
+Checkitemw å¤´å­è¯ä»¶ 1
+checkitem æ£®ç½—ç‰‡ 3
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg42]
 EventMSG "D1901,D1902,D1903" %A7
@@ -1033,8 +1033,8 @@ break
 
 #IF
 IsGuildMaster
-Checkitemw Í·×ÓÖ¤¼ş 1
-!checkitem É­ÂŞÆ¬ 3
+Checkitemw å¤´å­è¯ä»¶ 1
+!checkitem æ£®ç½—ç‰‡ 3
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_26
@@ -1044,7 +1044,7 @@ break
 
 #IF
 IsGuildMaster
-!Checkitemw Í·×ÓÖ¤¼ş 1
+!Checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_27
@@ -1080,8 +1080,8 @@ Delaygoto [Grobal] 7 @Samak_NPC1_7_3
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg45]
 EventMSG "D1901,D1902,D1903" %A7
-take É­ÂŞÆ¬ 3
-give É­ÂŞÊ¯ 1
+take æ£®ç½—ç‰‡ 3
+give æ£®ç½—çŸ³ 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='14'"
 
@@ -1097,7 +1097,7 @@ break
 
 #IF
 IsGuildMaster
-!checkitemw Í·×ÓÖ¤¼ş 1
+!checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_30
@@ -1107,7 +1107,7 @@ break
 
 #IF
 IsGuildMaster
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg46]
 EventMSG "D1901,D1902,D1903" %A7
@@ -1419,7 +1419,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 [@Samak_NPC3_2]
 #IF
 IsGuildMaster
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg65]
 EventMSG "D1901,D1902,D1903,DQ1903_002" %A7
@@ -1605,7 +1605,7 @@ Delaygoto [Grobal] 3 @Samak_NPC3_3_PuzzleResult_1
 
 #ELSEACT
 Mul D2 D3
-MongenP "DQ1903_002,40,40,30" µØÀÎÅ®Éñ1 %P9
+MongenP "DQ1903_002,40,40,30" åœ°ç‰¢å¥³ç¥1 %P9
 Delaygoto [Grobal] 3 @Samak_NPC3_3_PuzzleFail
 
 #ELSESAY
@@ -1759,16 +1759,16 @@ goto @Samak_NPC4_MapSpell
 [@Samak_NPC4_Mongen]
 #IF
 CheckHum DQ1903_003 1
-!CheckMonMap DQ1903_003 2 ÕğÌìÊ×½«
+!CheckMonMap DQ1903_003 2 éœ‡å¤©é¦–å°†
 #ACT
-MongenP "DQ1903_003,40,40,30" ÕğÌìÊ×½« 5 "Noitem"
+MongenP "DQ1903_003,40,40,30" éœ‡å¤©é¦–å°† 5 "Noitem"
 
 #IF
 #ACT
-MongenP "DQ1903_003,40,40,30" µØÀÎÅ®Éñ1 10 "Noitem"
-MongenP "DQ1903_003,40,40,30" µØÀÎÅ®Éñ2 10 "Noitem"
-MongenP "DQ1903_003,40,40,30" Ê¯ÏñÊ¨×Ó 10 "Noitem"
-MongenP "DQ1903_003,40,40,30" »ğÑæÊ¨×Ó 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" åœ°ç‰¢å¥³ç¥1 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" åœ°ç‰¢å¥³ç¥2 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" çŸ³åƒç‹®å­ 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" ç«ç„°ç‹®å­ 10 "Noitem"
 
 Delaygoto [Grobal] 480 @Samak_NPC4_Mongen
 
@@ -1960,13 +1960,13 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 
 [@Samak_NPC5_2]
 #IF
-!checkitemw Í·×ÓÖ¤¼ş 1
+!checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_51
 
 #IF
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 #ACT
 MonClear DQ1903_003
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg87]
@@ -1992,19 +1992,19 @@ Delaygoto [Grobal] 100 @Samak_NPC5_Mongen
 
 [@Samak_NPC5_Mongen]
 #IF
-!CheckMonMap DQ1903_003 1 ÕğÌìÄ§Éñ
+!CheckMonMap DQ1903_003 1 éœ‡å¤©é­”ç¥
 #ACT
-MongenP "DQ1903_003,40,40,30" ÕğÌìÄ§Éñ 1 "Noitem,É­ÂŞÆ¬"
+MongenP "DQ1903_003,40,40,30" éœ‡å¤©é­”ç¥ 1 "Noitem,æ£®ç½—ç‰‡"
 
 #IF
 !CheckMonMap DQ1903_003 20
 #ACT
-MongenP "DQ1903_003,40,40,30" ÕğÌìÊ×½« 5 "Noitem"
-MongenP "DQ1903_003,40,40,30" ÎäÁ¦Éñ½«2 10 "Noitem"
-MongenP "DQ1903_003,40,40,30" µØÀÎÅ®Éñ1 10 "Noitem"
-MongenP "DQ1903_003,40,40,30" µØÀÎÅ®Éñ2 10 "Noitem"
-MongenP "DQ1903_003,40,40,30" Ê¯ÏñÊ¨×Ó 10 "Noitem"
-MongenP "DQ1903_003,40,40,30" »ğÑæÊ¨×Ó 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" éœ‡å¤©é¦–å°† 5 "Noitem"
+MongenP "DQ1903_003,40,40,30" æ­¦åŠ›ç¥å°†2 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" åœ°ç‰¢å¥³ç¥1 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" åœ°ç‰¢å¥³ç¥2 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" çŸ³åƒç‹®å­ 10 "Noitem"
+MongenP "DQ1903_003,40,40,30" ç«ç„°ç‹®å­ 10 "Noitem"
 Delaygoto [Grobal] 480 @Samak_NPC5_Mongen
 
 #ELSEACT
@@ -2074,7 +2074,7 @@ break
 
 [@Samak_NPC6_1]
 #IF
-checkitemw Í·×ÓÖ¤¼ş 1
+checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_53
@@ -2103,65 +2103,65 @@ goto @Samak_NPC6_Puzzle_Set
 #IF
 Equal D1 0
 #ACT
-Mov A1 ¡Û
+Mov A1 â‰¯
 #ELSEACT
-Mov A1 ¡Ü
+Mov A1 â‰¤
 
 #IF
 Equal D2 0
 #ACT
-Mov A2 ¡Û
+Mov A2 â‰¯
 #ELSEACT
-Mov A2 ¡Ü
+Mov A2 â‰¤
 
 #IF
 Equal D3 0
 #ACT
-Mov A3 ¡Û
+Mov A3 â‰¯
 #ELSEACT
-Mov A3 ¡Ü
+Mov A3 â‰¤
 
 #IF
 Equal D4 0
 #ACT
-Mov A4 ¡Û
+Mov A4 â‰¯
 #ELSEACT
-Mov A4 ¡Ü
+Mov A4 â‰¤
 
 #IF
 Equal D5 0
 #ACT
-Mov A5 ¡Û
+Mov A5 â‰¯
 #ELSEACT
-Mov A5 ¡Ü
+Mov A5 â‰¤
 
 #IF
 Equal D6 0
 #ACT
-Mov A6 ¡Û
+Mov A6 â‰¯
 #ELSEACT
-Mov A6 ¡Ü
+Mov A6 â‰¤
 
 #IF
 Equal D7 0
 #ACT
-Mov A7 ¡Û
+Mov A7 â‰¯
 #ELSEACT
-Mov A7 ¡Ü
+Mov A7 â‰¤
 
 #IF
 Equal D8 0
 #ACT
-Mov A8 ¡Û
+Mov A8 â‰¯
 #ELSEACT
-Mov A8 ¡Ü
+Mov A8 â‰¤
 
 #IF
 Equal D9 0
 #ACT
-Mov A9 ¡Û
+Mov A9 â‰¯
 #ELSEACT
-Mov A9 ¡Ü
+Mov A9 â‰¤
 
 #IF
 #ACT
@@ -2203,8 +2203,8 @@ goto @Samak_NPC6_Puzzle_Display
 [@Samak_NPC6_puzzle_Penal]
 #IF
 #ACT
-MongenP "DQ1902_006,40,40,30" ¿ø¼×ÂìÒÏ 20
-MongenP "DQ1902_006,40,40,30" ±¬¶¾ÂìÒÏ 10
+MongenP "DQ1902_006,40,40,30" ç›”ç”²èš‚èš 20
+MongenP "DQ1902_006,40,40,30" çˆ†æ¯’èš‚èš 10
 
 goto @Samak_NPC6_2_MapSpell
 
@@ -2692,16 +2692,16 @@ Delaygoto [Grobal] 10 @Samak_NPC6_2_MapSpell
 [@Samak_NPC6_2_Mongen]
 #IF
 CheckHum DQ1902_007 1
-!CheckMonMap DQ1902_007 20 ¿ø¼×ÂìÒÏ
+!CheckMonMap DQ1902_007 20 ç›”ç”²èš‚èš
 #ACT
-MongenP "DQ1902_007,40,40,30" ¿ø¼×ÂìÒÏ 40
-MongenP "DQ1902_007,40,40,30" ±¬¶¾ÂìÒÏ 40
-MongenP "DQ1902_007,40,40,30" ÂìÒÏµÀÊ¿ 40
-MonPWR "DQ1902_007" "¿ø¼×ÂìÒÏ,ÂìÒÏµÀÊ¿,±¬¶¾ÂìÒÏ" [HP] 800
-MonPWR "DQ1902_007" "¿ø¼×ÂìÒÏ,ÂìÒÏµÀÊ¿,±¬¶¾ÂìÒÏ" [DC] 60
-MonPWR "DQ1902_007" "¿ø¼×ÂìÒÏ,ÂìÒÏµÀÊ¿,±¬¶¾ÂìÒÏ" [MC] 60
-MonPWR "DQ1902_007" "¿ø¼×ÂìÒÏ,ÂìÒÏµÀÊ¿,±¬¶¾ÂìÒÏ" [AC] 40
-MonPWR "DQ1902_007" "¿ø¼×ÂìÒÏ,ÂìÒÏµÀÊ¿,±¬¶¾ÂìÒÏ" [MAC] 45
+MongenP "DQ1902_007,40,40,30" ç›”ç”²èš‚èš 40
+MongenP "DQ1902_007,40,40,30" çˆ†æ¯’èš‚èš 40
+MongenP "DQ1902_007,40,40,30" èš‚èšé“å£« 40
+MonPWR "DQ1902_007" "ç›”ç”²èš‚èš,èš‚èšé“å£«,çˆ†æ¯’èš‚èš" [HP] 800
+MonPWR "DQ1902_007" "ç›”ç”²èš‚èš,èš‚èšé“å£«,çˆ†æ¯’èš‚èš" [DC] 60
+MonPWR "DQ1902_007" "ç›”ç”²èš‚èš,èš‚èšé“å£«,çˆ†æ¯’èš‚èš" [MC] 60
+MonPWR "DQ1902_007" "ç›”ç”²èš‚èš,èš‚èšé“å£«,çˆ†æ¯’èš‚èš" [AC] 40
+MonPWR "DQ1902_007" "ç›”ç”²èš‚èš,èš‚èšé“å£«,çˆ†æ¯’èš‚èš" [MAC] 45
 Delaygoto [Grobal] 600 @Samak_NPC6_2_Mongen
 #ELSEACT
 Delaygoto [Grobal] 600 @Samak_NPC6_2_Mongen
@@ -2753,7 +2753,7 @@ break
 
 [@Samak_NPC7_1]
 #IF
-Checkitemw Í·×ÓÖ¤¼ş 1
+Checkitemw å¤´å­è¯ä»¶ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] @Convert_SamakCastleQuest_59
@@ -2921,8 +2921,8 @@ break
 
 [@Samak_NPC8_1]
 #IF
-checkitemw Í·×ÓÖ¤¼ş 1
-!CheckMonMap DQ1903_001 1 °ÔÍõÊØÎÀ
+checkitemw å¤´å­è¯ä»¶ 1
+!CheckMonMap DQ1903_001 1 éœ¸ç‹å®ˆå«
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg92]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
@@ -2947,8 +2947,8 @@ Delaygoto [Grobal] 7 @Samak_NPC8_EventMSG_1
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg94]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
-MongenP "DQ1903_001,40,30,1" °ÔÍõÊØÎÀ 1 "Noitem,´óÄ§ÉñÑª±­"
-MonPWR "DQ1903_001" "°ÔÍõÊØÎÀ" [HP] 20000
+MongenP "DQ1903_001,40,30,1" éœ¸ç‹å®ˆå« 1 "Noitem,å¤§é­”ç¥è¡€æ¯"
+MonPWR "DQ1903_001" "éœ¸ç‹å®ˆå«" [HP] 20000
 Delaygoto [Grobal] 7 @Samak_NPC8_EventMSG_2
 
 [@Samak_NPC8_EventMSG_2]
@@ -2975,10 +2975,10 @@ break
 Checkhum DQ1903_001 1
 !CheckMonMap DQ1903_001 30
 #ACT
-MongenP "DQ1903_001,40,30,15" Éñ½¢ÊØÎÀ 20 "noitem"
-MongenP "DQ1903_001,40,30,25" È®ºïÄ§ 10 "noitem"
-MongenP "DQ1903_001,40,30,25" ´¥½ÇÉñÄ§ 10 "noitem"
-MongenP "DQ1903_001,40,30,25" º£Éñ½«Áì 10 "noitem"
+MongenP "DQ1903_001,40,30,15" ç¥èˆ°å®ˆå« 20 "noitem"
+MongenP "DQ1903_001,40,30,25" çŠ¬çŒ´é­” 10 "noitem"
+MongenP "DQ1903_001,40,30,25" è§¦è§’ç¥é­” 10 "noitem"
+MongenP "DQ1903_001,40,30,25" æµ·ç¥å°†é¢† 10 "noitem"
 Delaygoto [Grobal] 480 @Samak_NPC8_Mongen
 
 #ELSEACT
@@ -2987,4 +2987,4 @@ Delaygoto [Grobal] 480 @Samak_NPC8_Mongen
 break
 
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

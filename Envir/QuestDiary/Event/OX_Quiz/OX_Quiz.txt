@@ -1,40 +1,40 @@
 ;;OX_Quiz.txt
 [@OX_Quiz_Main]
 {
-#DEFINE             N1{TIME}            N1      ;; 20ÃÊ ½Ã°£À» ¾Ë·Á ÁÖ´Â º¯¼ö
-#DEFINE             N2{COUNT}           N2      ;; ¹®Á¦¼ö¸¦ Ä«¿îÆ® ÇØÁÖ´Â º¯¼ö
-#DEFINE             B1{ANSWER}          B1      ;; ´äÀ» ÀúÀå ÇÏ´Â º¯¼ö
+#DEFINE             N1{TIME}            N1      ;; 20ì´ˆ ì‹œê°„ì„ ì•Œë ¤ ì£¼ëŠ” ë³€ìˆ˜
+#DEFINE             N2{COUNT}           N2      ;; ë¬¸ì œìˆ˜ë¥¼ ì¹´ìš´íŠ¸ í•´ì£¼ëŠ” ë³€ìˆ˜
+#DEFINE             B1{ANSWER}          B1      ;; ë‹µì„ ì €ì¥ í•˜ëŠ” ë³€ìˆ˜
 
 #IF
-IsAdmin                                         ;; ¿î¿µÀÚ ÀÏ °æ¿ì¸¸
+IsAdmin                                         ;; ìš´ì˜ì ì¼ ê²½ìš°ë§Œ
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @Admin_Event_Main
 
-#ELSESAY                                        ;; »ç¿ëÀÚ°¡ Å¬¸¯ ÇßÀ» °æ¿ì 
+#ELSESAY                                        ;; ì‚¬ìš©ìê°€ í´ë¦­ í–ˆì„ ê²½ìš°
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @user_Event_Main
 
 [@OX_Quiz_Initial]
 #ACT
-SendCmd  "oxmapO, 51, 47, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Show  ;; NPC³ªÅ¸³²
-SendCmd  "oxmapX, 73, 70, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Show  ;; NPC³ªÅ¸³²
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; ÀÌº¥Æ® ´äÀ» °áÁ¤ ÇÒ¼ö ¾øÀ½
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 0           ;; ÀÌº¥Æ® ½ÃÀÛÀ½ ¾Ë¸²
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 0            ;; °ÔÀÌÆ®°¡ ¿­¸°´Ù.
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 0             ;; ÀÌº¥Æ® ³¡À» ÃÊ±âÈ­
+SendCmd  "oxmapO, 51, 47, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Show  ;; NPCë‚˜íƒ€ë‚¨
+SendCmd  "oxmapX, 73, 70, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Show  ;; NPCë‚˜íƒ€ë‚¨
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; ì´ë²¤íŠ¸ ë‹µì„ ê²°ì • í• ìˆ˜ ì—†ìŒ
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 0           ;; ì´ë²¤íŠ¸ ì‹œì‘ìŒ ì•Œë¦¼
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 0            ;; ê²Œì´íŠ¸ê°€ ì—´ë¦°ë‹¤.
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 0             ;; ì´ë²¤íŠ¸ ëì„ ì´ˆê¸°í™”
 SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0
 
 [@kyokyo]
 #ACT
-SendCmd  "oxmapO, 51, 47, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Show  ;; NPC³ªÅ¸³²
-SendCmd  "oxmapX, 73, 70, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Show  ;; NPC³ªÅ¸³²
+SendCmd  "oxmapO, 51, 47, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Show  ;; NPCë‚˜íƒ€ë‚¨
+SendCmd  "oxmapX, 73, 70, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Show  ;; NPCë‚˜íƒ€ë‚¨
 
-;----------------------------------------------- ÀÌº¥Æ® ½ÃÀÛ ·çÆ¾
+;----------------------------------------------- ì´ë²¤íŠ¸ ì‹œì‘ ë£¨í‹´
 [@OX_Quiz_Start]
 #ACT
 LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start]
 
 #IF
-Equal              P1                   0       ;; ÀÌº¥Æ® ½ÃÀÛÀÌ ¾Æ´Ï¸é
+Equal              P1                   0       ;; ì´ë²¤íŠ¸ ì‹œì‘ì´ ì•„ë‹ˆë©´
 #ACT
 close
 	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Start_1]
@@ -43,14 +43,14 @@ close
 LineMsg Grobal  "%A0"
 LineMsg Grobal  "%A1"
 LineMsg Grobal  "%A2"
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 1        ;; ÀÌº¥Æ® ´äÀ» °áÁ¤ ÇÒ¼ö ¾øÀ½
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 1           ;; ÀÌº¥Æ® ½ÃÀÛÀ½ ¾Ë¸²
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 1            ;; °ÔÀÌÆ®°¡ ¿­¸°´Ù.
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 0             ;; ÀÌº¥Æ® ³¡À» ÃÊ±âÈ­
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 1         ;; Ã³À½ ÁøÀÔ½Ã´Â ÀÌµ¿ÀÌ ºÒ°¡´ÉÇÔ
-Mov                N1{TIME}             20      ;; ½Ã°£ ºÎºĞ ÃÊ±âÈ­
-Mov                N2{COUNT}            1       ;; ¹®Á¦ Ä«¿îÆ® ÃÊ±âÈ­
-Delaygoto [Grobal] 300 @OX_Quiz_CloseGate                ;; 5ºĞ µ¿¾È ¹®Àº ¿­¾îµÒ
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 1        ;; ì´ë²¤íŠ¸ ë‹µì„ ê²°ì • í• ìˆ˜ ì—†ìŒ
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 1           ;; ì´ë²¤íŠ¸ ì‹œì‘ìŒ ì•Œë¦¼
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 1            ;; ê²Œì´íŠ¸ê°€ ì—´ë¦°ë‹¤.
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 0             ;; ì´ë²¤íŠ¸ ëì„ ì´ˆê¸°í™”
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 1         ;; ì²˜ìŒ ì§„ì…ì‹œëŠ” ì´ë™ì´ ë¶ˆê°€ëŠ¥í•¨
+Mov                N1{TIME}             20      ;; ì‹œê°„ ë¶€ë¶„ ì´ˆê¸°í™”
+Mov                N2{COUNT}            1       ;; ë¬¸ì œ ì¹´ìš´íŠ¸ ì´ˆê¸°í™”
+Delaygoto [Grobal] 300 @OX_Quiz_CloseGate                ;; 5ë¶„ ë™ì•ˆ ë¬¸ì€ ì—´ì–´ë‘ 
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @Admin_EvStart_Fail
 
@@ -58,20 +58,20 @@ Delaygoto [Grobal] 300 @OX_Quiz_CloseGate                ;; 5ºĞ µ¿¾È ¹®Àº ¿­¾îµÒ
 #ACT
 	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [End]
 LineMsg Grobal  "%A0"
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0         ;; ½Ã°£ÀÌ Áö³­ÈÄ ÀÌµ¿ °¡´ÉÇÔ
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; ÀÌº¥Æ® ´äÀ» °áÁ¤ °¡´É
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 0            ;; °ÔÀÌÆ®°¡ ´İÈù´Ù.
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0         ;; ì‹œê°„ì´ ì§€ë‚œí›„ ì´ë™ ê°€ëŠ¥í•¨
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; ì´ë²¤íŠ¸ ë‹µì„ ê²°ì • ê°€ëŠ¥
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 0            ;; ê²Œì´íŠ¸ê°€ ë‹«íŒë‹¤.
 
-;----------------------------------------------- ÀÌº¥Æ® Á¤´äÀ» ¸ÂÃß´Â ·çÆ¾
+;----------------------------------------------- ì´ë²¤íŠ¸ ì •ë‹µì„ ë§ì¶”ëŠ” ë£¨í‹´
 [@Correct()]
 #ACT
-Mov                 B1{ANSWER}          %ARG(1)                            ;; ´äÀ» ÀÔ·ÂÇÔ
+Mov                 B1{ANSWER}          %ARG(1)                            ;; ë‹µì„ ì…ë ¥í•¨
 LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro]
 LoadValue P2 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start]
 
 #IF
-Equal               P1                  0                                  ;; ¹®Á¦¸¦ ³¾¼ö ÀÖ´Â Å¸ÀÓ
-Equal               P2                  1                                  ;; ÀÌº¥Æ®°¡ ½ÃÀÛÀÌ¾î¾ß¸¸ °¡´É
+Equal               P1                  0                                  ;; ë¬¸ì œë¥¼ ë‚¼ìˆ˜ ìˆëŠ” íƒ€ì„
+Equal               P2                  1                                  ;; ì´ë²¤íŠ¸ê°€ ì‹œì‘ì´ì–´ì•¼ë§Œ ê°€ëŠ¥
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @User_Answer
 
@@ -80,85 +80,85 @@ Equal               P2                  1                                  ;; ÀÌ
 
 [@Close_Syntex]
 #ACT
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0         ;; ÀÌµ¿ÀÌ °¡´É ÇÏ°Ô ÇÔ
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 1        ;; ¹®Á¦¸¦ ´õ ¸ø³»°Ô ÇÔ
-close                                                                      ;; ÀÌº¥Æ® Ã¢À» ´İÀ½
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0         ;; ì´ë™ì´ ê°€ëŠ¥ í•˜ê²Œ í•¨
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 1        ;; ë¬¸ì œë¥¼ ë” ëª»ë‚´ê²Œ í•¨
+close                                                                      ;; ì´ë²¤íŠ¸ ì°½ì„ ë‹«ìŒ
 goto @Answertime
 
 [@AnswerTime]
 #IF
-Equal               N1{TIME}            0         ;; 20ÃÊ°¡ °æ°ú µÇ¾úÀ»½Ã
+Equal               N1{TIME}            0         ;; 20ì´ˆê°€ ê²½ê³¼ ë˜ì—ˆì„ì‹œ
 #ACT
 	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Event] [Correct]
 EventMsg  "oxmap,oxmapO,oxmapX"  "%A0"
-goto @ReCorrect                                   ;; Á¤´ä ÀÔ·Â ·çÆ¾À¸·Î ÀÌµ¿
-SendCmd  "oxmapO, 51, 47, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Hide  ;; NPC»ç¶óÁü
-SendCmd  "oxmapX, 73, 70, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Hide  ;; NPC»ç¶óÁü
+goto @ReCorrect                                   ;; ì •ë‹µ ì…ë ¥ ë£¨í‹´ìœ¼ë¡œ ì´ë™
+SendCmd  "oxmapO, 51, 47, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Hide  ;; NPCì‚¬ë¼ì§
+SendCmd  "oxmapX, 73, 70, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Hide  ;; NPCì‚¬ë¼ì§
 #ELSEACT
 	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Event] [Time]
 EventMsg "oxmap,oxmapO,oxmapX"   "%A0"
-Dec         N1{TIME}                    1         ;; ½Ã°£ Æ½À» °¨¼Ò ½ÃÆÀ
-Delaygoto [Grobal]   1   @AnswerTime                       ;; 1ÃÊ¸¶´Ù °è¼ÓÇØ¼­ µ¹¸²
+Dec         N1{TIME}                    1         ;; ì‹œê°„ í‹±ì„ ê°ì†Œ ì‹œíŒ€
+Delaygoto [Grobal]   1   @AnswerTime                       ;; 1ì´ˆë§ˆë‹¤ ê³„ì†í•´ì„œ ëŒë¦¼
 
 [@ReCorrect]
 #IF
 Equal               B1{ANSWER}          "O"
 #ACT
-MapTing   oxmapX    01   439 303                 ;; X ¸Ê¿¡ ÀÖ´Â »ç¶÷ ÆÃ±è
+MapTing   oxmapX    01   439 303                 ;; X ë§µì— ìˆëŠ” ì‚¬ëŒ íŒ…ê¹€
 #ELSEACT
-MapTing   oxmapO    01   439 303                 ;; O ¸Ê¿¡ ÀÖ´Â »ç¶÷ ÆÃ±è
+MapTing   oxmapO    01   439 303                 ;; O ë§µì— ìˆëŠ” ì‚¬ëŒ íŒ…ê¹€
 
-;----------------------------------------------- ÀÌº¥Æ® ¹®Á¦¸¦ ³»ÁÖ´Â ·çÆ¾
+;----------------------------------------------- ì´ë²¤íŠ¸ ë¬¸ì œë¥¼ ë‚´ì£¼ëŠ” ë£¨í‹´
 [@OX_Quiz_Problem]
 #ACT
 close
-INC         N2{COUNT}                   1         ;; ¹®Á¦¼ö Ä«¿îÆ®
-Mov         N1{TIME}                    20        ;; Á¦ÇÑ ½Ã°£À¸·Î ÃÊ±âÈ­ ´Ù½Ã
+INC         N2{COUNT}                   1         ;; ë¬¸ì œìˆ˜ ì¹´ìš´íŠ¸
+Mov         N1{TIME}                    20        ;; ì œí•œ ì‹œê°„ìœ¼ë¡œ ì´ˆê¸°í™” ë‹¤ì‹œ
 	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Event] [Quiz]
 EventMsg "oxmap,oxmapO,oxmapX" "%A0"
-SendCmd  "oxmapO, 51, 47, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Show  ;; NPC³ªÅ¸³²
-SendCmd  "oxmapX, 73, 70, 5"  ÀÌº¥Æ®µµ¿ì¹Ì  Show  ;; NPC³ªÅ¸³²
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; ¹®Á¦ÀÇ ´äÀ» ÀÔ·Â ÇÒ¼ö ÀÖ°Ô ÇÔ
+SendCmd  "oxmapO, 51, 47, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Show  ;; NPCë‚˜íƒ€ë‚¨
+SendCmd  "oxmapX, 73, 70, 5"  ì´ë²¤íŠ¸ë„ìš°ë¯¸  Show  ;; NPCë‚˜íƒ€ë‚¨
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; ë¬¸ì œì˜ ë‹µì„ ì…ë ¥ í• ìˆ˜ ìˆê²Œ í•¨
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @Answer_OX
 
 
-;----------------------------------------------- ÀÌº¥Æ® Á¾·á ·çÆ¾
+;----------------------------------------------- ì´ë²¤íŠ¸ ì¢…ë£Œ ë£¨í‹´
 [@OX_Quiz_Quit]
 #ACT
 	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Ev_End_1]
 	LoadValue A1 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Ev_End_2]
 LineMsg "oxmap,oxmapO,oxmapX" "%A0"
 LineMsg "oxmap,oxmapO,oxmapX" "%A1"
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 0           ;; ÀÌº¥Æ® ´Ù½Ã ½ÃÀÛÀ» ÇÒ¼ö ÀÖ°Ô Á¶Àı
-SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 1             ;; ÀÌº¥Æ®°¡ Á¾·á µÊ
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 0           ;; ì´ë²¤íŠ¸ ë‹¤ì‹œ ì‹œì‘ì„ í• ìˆ˜ ìˆê²Œ ì¡°ì ˆ
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 1             ;; ì´ë²¤íŠ¸ê°€ ì¢…ë£Œ ë¨
 }
 ;-------------------------------------------------------------------------------
 [@OX_Quiz_AnsO]
 {
 #ACT
-LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; ÀÌº¥Æ®°¡ Á¾·á µÊ
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; ì´ë²¤íŠ¸ê°€ ì¢…ë£Œ ë¨
 
 #IF
-Equal          P1                1   ;; ÀÌº¥Æ®°¡ Á¾·á µÇ¾ú´ÂÁö È®ÀÎ ÇÏ´Â ºÎºĞ
+Equal          P1                1   ;; ì´ë²¤íŠ¸ê°€ ì¢…ë£Œ ë˜ì—ˆëŠ”ì§€ í™•ì¸ í•˜ëŠ” ë¶€ë¶„
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @User_Gift
 
 #ACT
-give Ãàº¹ÀÇ±â¸§ 1                    ;; »óÇ° Áö±Ş
-give °­·ÂÈ­±â¸§ 1
-Map   0                              ;; »óÇ°À» ¹ŞÀ¸¸é ÆÃ±è
+give ì¶•ë³µì˜ê¸°ë¦„ 1                    ;; ìƒí’ˆ ì§€ê¸‰
+give ê°•ë ¥í™”ê¸°ë¦„ 1
+Map   0                              ;; ìƒí’ˆì„ ë°›ìœ¼ë©´ íŒ…ê¹€
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @Answer_Move
 
 [@OX_Quiz_MoveX]
 #ACT
-LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem]         ;; ¹úÄ¢ ½Ã°£
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem]         ;; ë²Œì¹™ ì‹œê°„
 
 #IF
-Equal          P1                0   ;; ÀÌµ¿ ºÒ°¡´É
+Equal          P1                0   ;; ì´ë™ ë¶ˆê°€ëŠ¥
 #ACT
-Map            oxmapX                ;; ÀÌµ¿ ½ÃÅ´
+Map            oxmapX                ;; ì´ë™ ì‹œí‚´
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @Move_Fail
 
@@ -167,28 +167,28 @@ Map            oxmapX                ;; ÀÌµ¿ ½ÃÅ´
 [@OX_Quiz_AnsX]
 {
 #ACT
-LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; ÀÌº¥Æ®°¡ Á¾·á µÊ
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; ì´ë²¤íŠ¸ê°€ ì¢…ë£Œ ë¨
 
 #IF
-Equal          P1                1   ;; ÀÌº¥Æ®°¡ Á¾·á µÇ¾ú´ÂÁö Ã¼Å© ÇÏ´Â ºÎºĞ
+Equal          P1                1   ;; ì´ë²¤íŠ¸ê°€ ì¢…ë£Œ ë˜ì—ˆëŠ”ì§€ ì²´í¬ í•˜ëŠ” ë¶€ë¶„
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @User_Gift
 #ACT
-give Ãàº¹ÀÇ±â¸§ 1                    ;; »óÇ° Áö±Ş
-give °­·ÂÈ­±â¸§ 1
-Map   0                              ;; »óÇ°À» ¹ŞÀ¸¸é ÆÃ±è
+give ì¶•ë³µì˜ê¸°ë¦„ 1                    ;; ìƒí’ˆ ì§€ê¸‰
+give ê°•ë ¥í™”ê¸°ë¦„ 1
+Map   0                              ;; ìƒí’ˆì„ ë°›ìœ¼ë©´ íŒ…ê¹€
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @Answer_Move_1
 
 
 [@OX_Quiz_MoveO]
 #ACT
-LoadValue P2 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem]         ;; ¹úÄ¢ ½Ã°£
+LoadValue P2 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem]         ;; ë²Œì¹™ ì‹œê°„
 
 #IF
-Equal     P2       0                                                        ;; ÀÌµ¿ ºÒ°¡´É
+Equal     P2       0                                                        ;; ì´ë™ ë¶ˆê°€ëŠ¥
 #ACT
-Map       oxmapO                     ;; ÀÌµ¿ ½ÃÅ´
+Map       oxmapO                     ;; ì´ë™ ì‹œí‚´
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz.txt] @Move_Fail
 }

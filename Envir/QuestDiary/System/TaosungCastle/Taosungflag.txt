@@ -1,8 +1,8 @@
-;;��Ҫɾ������
+;;不要删掉此行
 [@ChangeFlag_TAOSUNG]
 {
 #ACT
-SENDCMD "5 , 0, 0, 1000" ��ɳĮ������á� "@_Startup"
-SENDCMD "Z013, 0, 0, 1000" ��ɳĮ������á� "@_Startup"
+SENDCMD "5 , 0, 0, 1000" 『沙漠土城旗幟』 "@_Startup"
+SENDCMD "Z013, 0, 0, 1000" 『沙漠土城旗幟』 "@_Startup"
 }
-;;��Ҫɾ������
+;;不要删掉此行

@@ -59,7 +59,7 @@ goto @npc_base
 #IF
 check [169] 1
 #ACT
-goto @main_c2       
+goto @main_c2
 break
 #IF
 check [152] 1

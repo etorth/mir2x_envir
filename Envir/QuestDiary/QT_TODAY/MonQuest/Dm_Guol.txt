@@ -49,6 +49,6 @@ break
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T417_Say
 
 #ACT
-give ʬ���׹� 1
+give Ê¬Íõ°×¹Ç 1
 set [308] 1
 ;-----------------------------------------------------

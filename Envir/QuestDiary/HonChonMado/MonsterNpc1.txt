@@ -1,8 +1,8 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 [@MonsterNpc1_Talk]
 {
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk1
 break
@@ -27,7 +27,7 @@ mov D3 %ARG(3)
 Equal D1 12
 Equal D2 0
 Equal D3 0
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk2_13
 break
@@ -37,7 +37,7 @@ break
 Equal D1 12
 Equal D2 0
 Equal D3 1
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk2_12
 break
@@ -46,8 +46,8 @@ break
 Equal D1 11
 Equal D2 10
 Equal D3 1
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-!checkmonmap D16063 »ÙÃğÖ®Ó¡´óÊ¦ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+!checkmonmap D16063 æ¯ç­ä¹‹å°å¤§å¸ˆ 1
 #ACT
 goto @MonsterNpc1_Talk2_7
 break
@@ -56,8 +56,8 @@ break
 Equal D1 11
 Equal D2 10
 Equal D3 1
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkmonmap D16063 »ÙÃğÖ®Ó¡´óÊ¦ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkmonmap D16063 æ¯ç­ä¹‹å°å¤§å¸ˆ 1
 #ACT
 goto @MonsterNpc1_Talk2_6
 break
@@ -66,7 +66,7 @@ break
 Equal D1 11
 Equal D2 9
 Equal D3 1
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk2_2
 break
@@ -75,7 +75,7 @@ break
 Equal D1 11
 Equal D2 8
 Equal D3 0
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk2_10
 break
@@ -84,7 +84,7 @@ break
 Equal D1 11
 Equal D2 8
 Equal D3 1
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk2_1
 break
@@ -92,7 +92,7 @@ break
 #IF
 Equal D1 10
 Equal D2 0
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk1_10
 break
@@ -100,7 +100,7 @@ break
 #IF
 Equal D1 9
 Equal D2 8
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk1_3_2
 break
@@ -108,7 +108,7 @@ break
 #IF
 Equal D1 9
 Equal D2 7
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MonsterNpc1_Talk1_4
 break
@@ -117,8 +117,8 @@ break
 #IF
 Equal D1 9
 Equal D2 6
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-Checkitem ´ó×å³¤½ÇµÑ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitem å¤§æ—é•¿è§’ç¬› 1
 #ACT
 goto @MonsterNpc1_Talk1_1
 break
@@ -151,7 +151,7 @@ mapmove 4 456 77
 
 [@MonsterNpc1_Talk1_3]
 #IF
-Checkitem ÉñÃØÖ®Ó¡ 1
+Checkitem ç¥ç§˜ä¹‹å° 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_3
@@ -169,7 +169,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
 
 [@MonsterNpc1_Talk1_3_1]
 #IF
-checkitem ÉñÃØÖ®Ó¡ 1
+checkitem ç¥ç§˜ä¹‹å° 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_5
@@ -191,7 +191,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
 
 [@MonsterNpc1_Talk1_4]
 #IF
-checkitem ´ó×å³¤½ÇµÑ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_7
@@ -202,7 +202,7 @@ checkitem ´ó×å³¤½ÇµÑ 1
 
 [@MonsterNpc1_Talk1_4_1]
 #IF
-checkitem ´ó×å³¤½ÇµÑ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_9
@@ -212,7 +212,7 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=0"
-take ´ó×å³¤½ÇµÑ 1
+take å¤§æ—é•¿è§’ç¬› 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
@@ -224,7 +224,7 @@ break
 
 [@MonsterNpc1_Talk1_4_1]
 #IF
-checkitem ´ó×å³¤½ÇµÑ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_11
@@ -234,7 +234,7 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=1"
-take ´ó×å³¤½ÇµÑ 1
+take å¤§æ—é•¿è§’ç¬› 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
@@ -251,7 +251,7 @@ break
 
 [@MonsterNpc1_Talk1_3_2]
 #IF
-checkitem ´ó×å³¤½ÇµÑ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_14
@@ -262,7 +262,7 @@ checkitem ´ó×å³¤½ÇµÑ 1
 
 [@MonsterNpc1_Talk1_3_3]
 #IF
-checkitem ´ó×å³¤½ÇµÑ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_16
@@ -272,7 +272,7 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=0"
-take ´ó×å³¤½ÇµÑ 1
+take å¤§æ—é•¿è§’ç¬› 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
@@ -286,7 +286,7 @@ break
 
 [@MonsterNpc1_Talk1_3_4]
 #IF
-checkitem ´ó×å³¤½ÇµÑ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_18
@@ -296,7 +296,7 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=1"
-take ´ó×å³¤½ÇµÑ 1
+take å¤§æ—é•¿è§’ç¬› 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
@@ -314,7 +314,7 @@ mapmove 4 456 77
 
 [@MonsterNpc1_Talk2_1]
 #IF
-Checkitem ĞÄÊ¯ 1
+Checkitem å¿ƒçŸ³ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_20
@@ -323,7 +323,7 @@ Checkitem ĞÄÊ¯ 1
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=11"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=9"
-take ĞÄÊ¯ 1
+take å¿ƒçŸ³ 1
 
 #ELSESAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_21
@@ -357,8 +357,8 @@ break
 
 [@MonsterNpc1_5_Event]
 #ACT
-Mongenp "D16063,33,44,10" ÅµÂêË¾Áî 5
-ApplyMonEx "D16063,33,44,30" ÅµÂêË¾Áî [Monsterside] "»ÙÃğÖ®Ó¡´óÊ¦"
+Mongenp "D16063,33,44,10" è¯ºç›å¸ä»¤ 5
+ApplyMonEx "D16063,33,44,30" è¯ºç›å¸ä»¤ [Monsterside] "æ¯ç­ä¹‹å°å¤§å¸ˆ"
 
 [@MonsterNpc1_Talk2_6]
 
@@ -379,8 +379,8 @@ ApplyMonEx "D16063,33,44,30" ÅµÂêË¾Áî [Monsterside] "»ÙÃğÖ®Ó¡´óÊ¦"
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
-give ´ó×å³¤½ÇµÑ 1
-give ĞÄÊ¯ 1
+give å¤§æ—é•¿è§’ç¬› 1
+give å¿ƒçŸ³ 1
 
 [@MonsterNpc1_Talk2_9]
 
@@ -392,7 +392,7 @@ give ĞÄÊ¯ 1
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
-give ´ó×å³¤½ÇµÑ 1
+give å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_30
@@ -411,4 +411,4 @@ give ´ó×å³¤½ÇµÑ 1
 #ACT
 mapmove 41 149 84
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@MadoItemQuest]
 {
 #ACT
@@ -8,7 +8,7 @@ SetItemEvent 20 21 @MadoItemQuestMain
 [@MadoItemQuestMain]
 #IF
 check [207] 1
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @MadoItemQuestMain_ok
 return false
@@ -62,4 +62,4 @@ break
 
 
 }
-;不要删掉此行
+;涓嶈鍒犳帀姝よ

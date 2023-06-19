@@ -2,114 +2,114 @@
 
 [@Convert_TaosungManager_0]
 {
-ɳĮ���ǽ�� : <$CS_TAOSUNG_CASTLEGOLD>��� \
-ɳĮ���ǽ���˰�� : <$CS_TAOSUNG_TODAYTAX>��� \ \
-<��ȡɳĮ����˰�/@@DrawTax> \ \
-<�鿴����ս���ճ̡�/@view_warschedule>\ \
-;<���빥��ս��/@Propse_CastleWar>\ \
+沙漠土城金库 : <$CS_TAOSUNG_CASTLEGOLD>金币 \
+沙漠土城今日税收 : <$CS_TAOSUNG_TODAYTAX>金币 \ \
+<提取沙漠土城税款。/@@DrawTax> \ \
+<查看攻城战的日程。/@view_warschedule>\ \
+;<申请攻城战。/@Propse_CastleWar>\ \
 
-ͬ{FCOLOR/10}<$NPCNAME>{FCOLOR/12} <�Ի���/@TalkToQuest>\ \
-<��  ��/@exit>
+同{FCOLOR/10}<$NPCNAME>{FCOLOR/12} <对话。/@TalkToQuest>\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_TaosungManager_1]
 {
-<$USERNAME>����ռ��ɳĮ���ǵ�<$CS_TAOSUNG_OWNER>�л�������ˡ�\ \
-<�鿴����ս�ճ̡�/@view_warschedule>\
-<���빥��ս��/@Propse_CastleWar>\
-<�˽�һ�¹���ս��/@requestcastlewar> \ \
-ͬ{FCOLOR/10}<$NPCNAME>{FCOLOR/12} <�Ի���/@TalkToQuest>\ \
-<��  ��/@exit>\ \
+<$USERNAME>不是占领沙漠土城的<$CS_TAOSUNG_OWNER>行会的掌门人。\ \
+<查看攻城战日程。/@view_warschedule>\
+<申请攻城战。/@Propse_CastleWar>\
+<了解一下攻城战。/@requestcastlewar> \ \
+同{FCOLOR/10}<$NPCNAME>{FCOLOR/12} <对话。/@TalkToQuest>\ \
+<关  闭/@exit>\ \
 
 
 }
 
 [@Convert_TaosungManager_2]
 {
-��Ϊ�����ǹ��������Բ�����ȡ��\ \
-<��  ��/@exit>
+因为现在是攻城中所以不能提取。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_TaosungManager_3]
 {
-��Ϊ������̫���޷���ȡ��\ \
-<��  ��/@exit>
+因为输入金额太多无法提取。\ \
+<关  闭/@exit>
 }
 
 [@Convert_TaosungManager_4]
 {
-��ȡ��<$OUTPUT(D2)>��\ \
-<��  ��/@exit>
+提取了<$OUTPUT(D2)>。\ \
+<关  闭/@exit>
 }
 
 [@Convert_TaosungManager_5]
 {
-����ʱ�������빥��ս��\ \
-<ǰһ��/@main>
+攻城时不能申请攻城战。\ \
+<前一步/@main>
 }
 
 [@Convert_TaosungManager_6]
 {
-���������˲��ܽ������롣\ \
-<ǰһ��/@main>
+不是掌门人不能进行申请。\ \
+<前一步/@main>
 }
 
 [@Convert_TaosungManager_7]
 {
-�����л᲻�ܽ��й�����\ \
-<ǰһ��/@main>
+城主行会不能进行攻击。\ \
+<前一步/@main>
 }
 
 [@Convert_TaosungManager_8]
 {
-�����л᲻�ܽ��й�����\ \
-<ǰһ��/@main>
+城主行会不能进行攻击。\ \
+<前一步/@main>
 }
 
 [@Convert_TaosungManager_9]
 {
-û����ַ���������빥��ս��\ \
-<ǰһ��/@main>
+没有遗址雕像不能申请攻城战。\ \
+<前一步/@main>
 }
 
 [@Convert_TaosungManager_10]
 {
-�����˹���ս��\ \
-{FCOLOR/10}3�պ�����8��{FCOLOR/12}ս������ʼ��\ \
-<ǰһ��/@main>
+申请了攻城战。\ \
+{FCOLOR/10}3日后下午8点{FCOLOR/12}战争将开始。\ \
+<前一步/@main>
 }
 
 [@Convert_TaosungManager_11]
 {
-��Ϊ�����������޷��������롣\ \
-<ǰһ��/@main>
+因为已申请所以无法重新申请。\ \
+<前一步/@main>
 
 }
 
 [@Convert_TaosungManager_12]
 {
-��Ϊ����ǰ�������Ⱥ��ֵĹ���������û����ַ����Ҳ����һ��������ᡣ\
-���빥��ս��\ \
-{FCOLOR/10}3�պ�����8��{FCOLOR/12}ս������ʼ��\ \
-<ǰһ��/@main>
+因为你以前有消灭霸群大怪的功绩，所以没有遗址雕像也给你一次申请机会。\
+申请攻城战。\ \
+{FCOLOR/10}3日后下午8点{FCOLOR/12}战争将开始。\ \
+<前一步/@main>
 
 }
 
 [@Convert_TaosungManager_13]
 {
-���빥��ս��Ҫ��ַ�������������?\
-�����������Ļ�{FCOLOR/10}3�պ�����8��{FCOLOR/12}ս������ʼ��\ \
-<ǰһ��/@main>
+申请攻城战需要遗址雕像。你带来了吗?\
+如果现在申请的话{FCOLOR/10}3日后下午8点{FCOLOR/12}战争将开始。\ \
+<前一步/@main>
 
 }
 
 [@Convert_TaosungManager_14]
 {
-ɳĮ���ǹ���ս���ճ�ͬ�¡�\
+沙漠土城攻城战的日程同下。\
 {FCOLOR/10}<$CS_TAOSUNG_WARDATE>{FCOLOR/12} \ \
-<ǰһ��/@main>
+<前一步/@main>
 
 
 }

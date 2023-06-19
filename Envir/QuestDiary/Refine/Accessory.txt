@@ -35,7 +35,7 @@ end
 begin
 
   #IF
-    not CheckItem        ¸ÖÓñÊ¯    1
+    not CheckItem        Â¸Ã–Ã“Ã±ÃŠÂ¯    1
     or not CheckGold     10000
   #ACT
     goto @didnotMatchConditions
@@ -44,12 +44,12 @@ begin
   #IF
   #ACT
     mov     D2{TYPE}    %ARG(1)
-    mov     D3{ATOM}    %ARG(2) 
+    mov     D3{ATOM}    %ARG(2)
     TestRefineAccessories   %A0   %D2   %D3
     mov     D1{PROB}    %P9
 
   #IF
-    Small   D1{PROB}    0 
+    Small   D1{PROB}    0
   #ACT
     goto @didnotMatchConditions
     break
@@ -107,15 +107,15 @@ end
 begin
 
   #IF
-    not CheckItem        ¸ÖÓñÊ¯    1
+    not CheckItem        Â¸Ã–Ã“Ã±ÃŠÂ¯    1
     or not CheckGold     10000
   #ACT
     break
 
   #IF
   #ACT
-    Take      ¸ÖÓñÊ¯    1
-    Take      ½ð±Ò        10000
+    Take      Â¸Ã–Ã“Ã±ÃŠÂ¯    1
+    Take      Â½Ã°Â±Ã’        10000
     RefineAccessories   %A0   %D2   %D3
 
   #IF
@@ -136,13 +136,13 @@ begin
   #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Fail
 end
-    
+
 [@askAboutRefineAccessories]
 begin
 
   #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Help
-    
+
 end
 
 }

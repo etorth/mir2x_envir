@@ -47,7 +47,7 @@ Cleardelaygoto
 ;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert77
 
 ;----------------------------------------------------------
-;; ∏±∑π¿Ã ¿Ã∫•∆Æ ¿Ã∫•∆Æ
+;; Î¶¥Î†àÏù¥ Ïù¥Î≤§Ìä∏ Ïù¥Î≤§Ìä∏
 ;----------------------------------------------------------
 [@GEvent_start_01]
 #CALL [Event\Event_Game01\GEventRush1.txt] @GEventRush1_main

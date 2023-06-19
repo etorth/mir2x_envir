@@ -21,8 +21,8 @@ checkgold 100000
 !checkshooter
 !checksavedshooter
 #ACT
-take ½ğ±Ò 100000
-makeshooter Í¶Ê¯³µ 100
+take é‡‘å¸ 100000
+makeshooter æŠ•çŸ³è½¦ 100
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\ShooterMarket.txt] @ShooterMarket_3
 
@@ -44,8 +44,8 @@ checkgold 100000
 !checkshooter
 !checksavedshooter
 #ACT
-take ½ğ±Ò 100000
-makeshooter åó³µ 100
+take é‡‘å¸ 100000
+makeshooter å¼©è½¦ 100
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\ShooterMarket.txt] @ShooterMarket_6
 
@@ -84,8 +84,8 @@ checksavedshooter  1
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\ShooterMarket.txt] @ShooterMarket_11
 
 #ACT
-take ½ğ±Ò 1000
-makeshooter Í¶Ê¯³µ
+take é‡‘å¸ 1000
+makeshooter æŠ•çŸ³è½¦
 break
 
 #IF
@@ -95,7 +95,7 @@ checksavedshooter  2
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\ShooterMarket.txt] @ShooterMarket_12
 
 #ACT
-makeshooter åó³µ
+makeshooter å¼©è½¦
 break
 
 #IF
@@ -112,7 +112,7 @@ checkshooter
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\ShooterMarket.txt] @ShooterMarket_14
 
 #ACT
-give ½ğ±Ò 50000
+give é‡‘å¸ 50000
 killshooter
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\ShooterMarket.txt] @ShooterMarket_15

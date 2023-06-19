@@ -3,8 +3,8 @@
 #IF
 check [725] 1
 #SAY
-Äã²»ÊÇÒÑ¾­ÓÐÁËÉñÊ¥Õ½¼×Êõ(ÃØ¼®)Âð? ÎªÊ²Ã´»¹¸úÎÒÒªÄØ? \ \
-<½áÊø/@exit>
+ä½ ä¸æ˜¯å·²ç»æœ‰äº†ç¥žåœ£æˆ˜ç”²æœ¯(ç§˜ç±)å—? ä¸ºä»€ä¹ˆè¿˜è·Ÿæˆ‘è¦å‘¢? \ \
+<ç»“æŸ/@exit>
 #ACT
 break
 
@@ -19,10 +19,10 @@ goto @mugong_Upac_next
 
 [@mugong_Upac_next]
 #IF
-checkmagic ÉñÊ¥Õ½¼×Êõ 1
+checkmagic ç¥žåœ£æˆ˜ç”²æœ¯ 1
 #SAY
-Äã²»ÊÇÒÑ¾­ÐÞÁ¶ÁËÉñÊ¥Õ½¼×ÊõÂð? \ \
-<½áÊø/@exit>
+ä½ ä¸æ˜¯å·²ç»ä¿®ç‚¼äº†ç¥žåœ£æˆ˜ç”²æœ¯å—? \ \
+<ç»“æŸ/@exit>
 #ELSEACT
 goto @mugong_Upac_next1
 
@@ -32,43 +32,43 @@ checklevel 25
 #ACT
 goto @mugong_Upac_next3
 #ELSESAY
-Äã»¹Ã»ÓÐÄÜÁ¦ÐÞÁ¶ÉñÊ¥Õ½¼×Êõ..µ½ÁË {FCOLOR/10}µÈ¼¶ 25{FCOLOR/12} ÔÙÀ´ÕÒÎÒ°É¡£\ \
-<½áÊø/@exit>
+ä½ è¿˜æ²¡æœ‰èƒ½åŠ›ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯..åˆ°äº† {FCOLOR/10}ç­‰çº§ 25{FCOLOR/12} å†æ¥æ‰¾æˆ‘å§ã€‚\ \
+<ç»“æŸ/@exit>
 
 [@mugong_Upac_next3]
 #IF
 #SAY
-Ê¹ÓÃÉñÊ¥Õ½¼×Êõ¿ÉÒÔË²¼äÎüÊÕ´ó×ÔÈ»µÄÕæÆø£¬ {FCOLOR/10}Ìá¸ßÎïÀí·ÀÓùÁ¦{FCOLOR/12} ¡£ \ \
-ÄãÏëÐÞÁ¶ÉñÊ¥Õ½¼×ÊõÂð?ÒªÏëÐÞÁ¶ÉñÊ¥Õ½¼×Êõ¾ÍÒªÑ§»áÎüÊÕ´ó×ÔÈ»ÕæÆøµÄ·½·¨¡£ÊÀÉÏÍòÎï¸÷ÓÐ¸÷µÄÕæÆø£¬ÉñÊ¥Õ½¼×Êõ¾ÍÊÇÎüÊÕÕâÖÖÕæÆø£¬ {FCOLOR/10}Ò»¶¨Ê±¼äÄÚ±£»¤×Ô¼º{FCOLOR/12} ¡£\ \
-<½ÌÎÒÉñÊ¥Õ½¼×Êõ°É/@mugong_Upac_next4_1> \
-<ÎÒÏëÎÒ»¹Î´×öºÃ×¼±¸/@mugong_Upac_next4_2>
+ä½¿ç”¨ç¥žåœ£æˆ˜ç”²æœ¯å¯ä»¥çž¬é—´å¸æ”¶å¤§è‡ªç„¶çš„çœŸæ°”ï¼Œ {FCOLOR/10}æé«˜ç‰©ç†é˜²å¾¡åŠ›{FCOLOR/12} ã€‚ \ \
+ä½ æƒ³ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯å—?è¦æƒ³ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯å°±è¦å­¦ä¼šå¸æ”¶å¤§è‡ªç„¶çœŸæ°”çš„æ–¹æ³•ã€‚ä¸–ä¸Šä¸‡ç‰©å„æœ‰å„çš„çœŸæ°”ï¼Œç¥žåœ£æˆ˜ç”²æœ¯å°±æ˜¯å¸æ”¶è¿™ç§çœŸæ°”ï¼Œ {FCOLOR/10}ä¸€å®šæ—¶é—´å†…ä¿æŠ¤è‡ªå·±{FCOLOR/12} ã€‚\ \
+<æ•™æˆ‘ç¥žåœ£æˆ˜ç”²æœ¯å§/@mugong_Upac_next4_1> \
+<æˆ‘æƒ³æˆ‘è¿˜æœªåšå¥½å‡†å¤‡/@mugong_Upac_next4_2>
 
 [@mugong_Upac_next4_1]
 #IF
 #SAY
-Ç°ÃæÎÒÒ²ËµÁË£¬ÒªÏëÐÞÁ¶ÉñÊ¥Õ½¼×Êõ¾ÍÒªÑ§»áÎüÊÕ {FCOLOR/10}´ó×ÔÈ»ÕæÆø{FCOLOR/12} µÄ·½·¨£¬Äã»¹Ã»ÓÐÕâ¸öÄÜÁ¦£¬Ð¡ÐÄ×ß»ðÈëÄ§°¡¡£\ \
-<²»×ß»ðÈëÄ§»¹¿ÉÐÞÁ¶ÉñÊ¥Õ½¼×Êõ¸ÃÔõÃ´×öÄØ?/@mugong_Upac_next5>
+å‰é¢æˆ‘ä¹Ÿè¯´äº†ï¼Œè¦æƒ³ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯å°±è¦å­¦ä¼šå¸æ”¶ {FCOLOR/10}å¤§è‡ªç„¶çœŸæ°”{FCOLOR/12} çš„æ–¹æ³•ï¼Œä½ è¿˜æ²¡æœ‰è¿™ä¸ªèƒ½åŠ›ï¼Œå°å¿ƒèµ°ç«å…¥é­”å•Šã€‚\ \
+<ä¸èµ°ç«å…¥é­”è¿˜å¯ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯è¯¥æ€Žä¹ˆåšå‘¢?/@mugong_Upac_next5>
 
 [@mugong_Upac_next4_2]
 #IF
 #SAY
-àÅ....ÎªÁËÐÞÁ¶ÐÂµÄ¼¼Êõ¶ø±ä»»×Ô¼º»òÐíÊÇ¿ÉÅÂµÄÊÂÇé¡£×öºÃÐÄÀí×¼±¸Ö®ºóÔÙÀ´°É¡£\ \
-<½áÊø/@exit>
+å—¯....ä¸ºäº†ä¿®ç‚¼æ–°çš„æŠ€æœ¯è€Œå˜æ¢è‡ªå·±æˆ–è®¸æ˜¯å¯æ€•çš„äº‹æƒ…ã€‚åšå¥½å¿ƒç†å‡†å¤‡ä¹‹åŽå†æ¥å§ã€‚\ \
+<ç»“æŸ/@exit>
 
 [@mugong_Upac_next5]
 #IF
 #ACT
 SET [515] 1
 #SAY
-ÎüÊÕ´ó×ÔÈ»ÕæÆøÊ±£¬²»×ß»ðÈëÄ§µÄ·½·¨Ö®Ò»ÊÇÕÒµ½¿ÉÒÔÐ­µ÷´ó×ÔÈ»ºÍÄãÖ®¼äÕæÆøµÄ {FCOLOR/10}Ð­µ÷Îï{FCOLOR/12} ¡£´ËÐ­µ÷ÎïÒªÓÐ×î {FCOLOR/10}½à¾»µÄ´ó×ÔÈ»ÕæÆø{FCOLOR/12} .. \
-Õâ¸öÐ­µ÷ÎïÒþ²ØÔÚ {FCOLOR/10}Æð±¬Ê¯{FCOLOR/12} ÀïÃæ.. Æð±¬Ê¯¿ÉÔÚ´ø×Å  {FCOLOR/10}±ÈÆæ·Ï¿ó{FCOLOR/12}  ËùµÃµ½µÄÄ³ÖÖÌØÊâÎïÆ·¾Í¿É½øÈëµÄÃØÃÜµØµã»ñµÃ¡£\ \
-<ÏÂÒ»¸ö/@mugong_Upac_next6>
+å¸æ”¶å¤§è‡ªç„¶çœŸæ°”æ—¶ï¼Œä¸èµ°ç«å…¥é­”çš„æ–¹æ³•ä¹‹ä¸€æ˜¯æ‰¾åˆ°å¯ä»¥åè°ƒå¤§è‡ªç„¶å’Œä½ ä¹‹é—´çœŸæ°”çš„ {FCOLOR/10}åè°ƒç‰©{FCOLOR/12} ã€‚æ­¤åè°ƒç‰©è¦æœ‰æœ€ {FCOLOR/10}æ´å‡€çš„å¤§è‡ªç„¶çœŸæ°”{FCOLOR/12} .. \
+è¿™ä¸ªåè°ƒç‰©éšè—åœ¨ {FCOLOR/10}èµ·çˆ†çŸ³{FCOLOR/12} é‡Œé¢.. èµ·çˆ†çŸ³å¯åœ¨å¸¦ç€  {FCOLOR/10}æ¯”å¥‡åºŸçŸ¿{FCOLOR/12}  æ‰€å¾—åˆ°çš„æŸç§ç‰¹æ®Šç‰©å“å°±å¯è¿›å…¥çš„ç§˜å¯†åœ°ç‚¹èŽ·å¾—ã€‚\ \
+<ä¸‹ä¸€ä¸ª/@mugong_Upac_next6>
 
 [@mugong_Upac_next6]
 #IF
 #SAY
-ÇëÔÚ  {FCOLOR/10}±ÈÆæ·Ï¿ó{FCOLOR/12}  ×ÐÏ¸ÕÒÒ»ÏÂ°É¡£ÄÇÄã¾Í¿ÉÒÔÔÚÃØÃÜµØµãÕÒµ½ {FCOLOR/10}Æð±¬Ê¯{FCOLOR/12} ¡£\ \
-<½áÊø/@exit>
+è¯·åœ¨  {FCOLOR/10}æ¯”å¥‡åºŸçŸ¿{FCOLOR/12}  ä»”ç»†æ‰¾ä¸€ä¸‹å§ã€‚é‚£ä½ å°±å¯ä»¥åœ¨ç§˜å¯†åœ°ç‚¹æ‰¾åˆ° {FCOLOR/10}èµ·çˆ†çŸ³{FCOLOR/12} ã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 
@@ -92,7 +92,7 @@ break
 #IF
 random 100
 #ACT
-give ÉñÊ¥Õ½¼×Êõ 1
+give ç¥žåœ£æˆ˜ç”²æœ¯ 1
 map D420_001
 }
 
@@ -120,24 +120,24 @@ break
 check [515] 1
 check [516] 1
 check [725] 0
-checkitem Æð±¬Ê¯ 1
+checkitem èµ·çˆ†çŸ³ 1
 #SAY
-ºÃºÃ.. Õâ¸ö {FCOLOR/10}Æð±¬Ê¯{FCOLOR/12} ¾ÍÊÇµ÷½Ú´ó×ÔÈ»ºÍÄãÖ®¼äÕæÆøµÄÊ¯Í·¡£µ±ÄãÄÃµ½Õâ¿ÅÊ¯Í·µÄÍ¬Ê±£¬ÄãÒÑ¾­ÓµÓÐÁËµ÷½Ú´ó×ÔÈ»ºÍÄãÖ®¼äÕæÆøµÄÄÜÁ¦.. \
-ÄãÏÖÔÚÓÐ³ä·ÖµÄÄÜÁ¦ÐÞÁ¶ÉñÊ¥Õ½¼×ÊõÁË...\ \
-<ÄÇÃ´Çë¸øÎÒÉñÊ¥Õ½¼×Êõ(ÃØ¼®)°É/@mugong_Upac_test_next>
+å¥½å¥½.. è¿™ä¸ª {FCOLOR/10}èµ·çˆ†çŸ³{FCOLOR/12} å°±æ˜¯è°ƒèŠ‚å¤§è‡ªç„¶å’Œä½ ä¹‹é—´çœŸæ°”çš„çŸ³å¤´ã€‚å½“ä½ æ‹¿åˆ°è¿™é¢—çŸ³å¤´çš„åŒæ—¶ï¼Œä½ å·²ç»æ‹¥æœ‰äº†è°ƒèŠ‚å¤§è‡ªç„¶å’Œä½ ä¹‹é—´çœŸæ°”çš„èƒ½åŠ›.. \
+ä½ çŽ°åœ¨æœ‰å……åˆ†çš„èƒ½åŠ›ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯äº†...\ \
+<é‚£ä¹ˆè¯·ç»™æˆ‘ç¥žåœ£æˆ˜ç”²æœ¯(ç§˜ç±)å§/@mugong_Upac_test_next>
 #ELSESAY
-Äã°ÑÆð±¬Ê¯¸øÅª¶ªÁË?? Ã»ÓÐÆð±¬Ê¯ÎÒ¿ÉÎÞ·¨ÈÃÄãÐÞÁ¶ÉñÊ¥Õ½¼×Êõ..\ \
-<½áÊø/@exit>
+ä½ æŠŠèµ·çˆ†çŸ³ç»™å¼„ä¸¢äº†?? æ²¡æœ‰èµ·çˆ†çŸ³æˆ‘å¯æ— æ³•è®©ä½ ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯..\ \
+<ç»“æŸ/@exit>
 
 [@mugong_Upac_test_next]
 #IF
-checkitem Æð±¬Ê¯ 1
+checkitem èµ·çˆ†çŸ³ 1
 #ACT
-take Æð±¬Ê¯
+take èµ·çˆ†çŸ³
 goto @mugong_Upac_test_next2
 #ELSESAY
-Äã¶ªÁË {FCOLOR/10}Æð±¬Ê¯{FCOLOR/12} ?? ÄÇÎÒ¿ÉÃ»°ì·¨ÈÃÄãÐÞÁ¶ÉñÊ¥Õ½¼×Êõ..\ \
-<½áÊø/@exit>
+ä½ ä¸¢äº† {FCOLOR/10}èµ·çˆ†çŸ³{FCOLOR/12} ?? é‚£æˆ‘å¯æ²¡åŠžæ³•è®©ä½ ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯..\ \
+<ç»“æŸ/@exit>
 
 [@mugong_Upac_test_next2]
 #IF
@@ -151,38 +151,38 @@ goto @mugong_Upac_test_next4
 #IF
 check [725] 0
 #ACT
-give ÉñÊ¥Õ½¼×Êõ£¨ÃØ¼®£© 1
-give ÉñÆæÁé»êÕ½ÒÂ£¨ÄÐ£© 1
-give °ËÃæÌ«¼«½äÖ¸
-give ½ð±Ò 25000
+give ç¥žåœ£æˆ˜ç”²æœ¯ï¼ˆç§˜ç±ï¼‰ 1
+give ç¥žå¥‡çµé­‚æˆ˜è¡£ï¼ˆç”·ï¼‰ 1
+give å…«é¢å¤ªæžæˆ’æŒ‡
+give é‡‘å¸ 25000
 reset [515] 1
 SET [725] 1
 #SAY
-ÏëÏëÄãÒÑ¾­ÐÞÁ¶³É¹¦µÄÄ§·¨£¬Äã¾Í»áÖªµÀ¸ÃÔõÃ´Ê¹ÓÃÉñÊ¥Õ½¼¼ÊõÁË£¬³ÖÐøÊ¹ÓÃÉñÊ¥Õ½¼×Êõ£¬Äã¾Í×ÔÈ»¶øÈ»Ñ§»áÀûÓÃ´ó×ÔÈ»ÕæÆøµÄ¡£ \ \
-<½áÊø/@exit>
+æƒ³æƒ³ä½ å·²ç»ä¿®ç‚¼æˆåŠŸçš„é­”æ³•ï¼Œä½ å°±ä¼šçŸ¥é“è¯¥æ€Žä¹ˆä½¿ç”¨ç¥žåœ£æˆ˜æŠ€æœ¯äº†ï¼ŒæŒç»­ä½¿ç”¨ç¥žåœ£æˆ˜ç”²æœ¯ï¼Œä½ å°±è‡ªç„¶è€Œç„¶å­¦ä¼šåˆ©ç”¨å¤§è‡ªç„¶çœŸæ°”çš„ã€‚ \ \
+<ç»“æŸ/@exit>
 
 [@mugong_Upac_test_next4]
 #IF
 check [725] 0
 #ACT
-give ÉñÆæÁé»êÕ½ÒÂ£¨Å®£© 1
-give ÉñÊ¥Õ½¼×Êõ£¨ÃØ¼®£© 1
-give °ËÃæÌ«¼«½äÖ¸
-give ½ð±Ò 25000
+give ç¥žå¥‡çµé­‚æˆ˜è¡£ï¼ˆå¥³ï¼‰ 1
+give ç¥žåœ£æˆ˜ç”²æœ¯ï¼ˆç§˜ç±ï¼‰ 1
+give å…«é¢å¤ªæžæˆ’æŒ‡
+give é‡‘å¸ 25000
 reset [515] 1
 SET [725] 1
 #SAY
-ÏëÏëÄãÒÑ¾­ÐÞÁ¶³É¹¦µÄÄ§·¨£¬Äã¾Í»áÖªµÀ¸ÃÔõÃ´Ê¹ÓÃÉñÊ¥Õ½¼¼ÊõÁË£¬³ÖÐøÊ¹ÓÃÉñÊ¥Õ½¼×Êõ£¬Äã¾Í×ÔÈ»¶øÈ»Ñ§»áÀûÓÃ {FCOLOR/10}´ó×ÔÈ»ÕæÆø{FCOLOR/12} µÄ¡£ \ \.
-<½áÊø/@exit>
+æƒ³æƒ³ä½ å·²ç»ä¿®ç‚¼æˆåŠŸçš„é­”æ³•ï¼Œä½ å°±ä¼šçŸ¥é“è¯¥æ€Žä¹ˆä½¿ç”¨ç¥žåœ£æˆ˜æŠ€æœ¯äº†ï¼ŒæŒç»­ä½¿ç”¨ç¥žåœ£æˆ˜ç”²æœ¯ï¼Œä½ å°±è‡ªç„¶è€Œç„¶å­¦ä¼šåˆ©ç”¨ {FCOLOR/10}å¤§è‡ªç„¶çœŸæ°”{FCOLOR/12} çš„ã€‚ \ \.
+<ç»“æŸ/@exit>
 }
 
 [@mugong_Upac_explain]
 {
 #IF
 #SAY
-ÒªÏëÐÞÁ¶ÉñÊ¥Õ½¼×Êõ, Ê×ÏÈÒª´Ó±ÈÆæ·Ï¿óµÄ¹ÖÎïÉíÉÏ¶á»Ø {FCOLOR/10}ÉñÊ¥Õ½¼×Êõ{FCOLOR/12} ¡£
-±ØÐë°ÑÄã´ò°ÜµÄ½©Ê¬µôÏÂµÄÉñÊ¥Õ½¼×ÊõÊé·ÅÈë°üÀï£¬ÕâÑùÄã¾Í»á±»ÒÆ¶¯µ½·Ï¿óµÄÃØÃÜ·¿¼ä¡£
-ÄÇ¸ö·¿¼äÊÇ {FCOLOR/10}Ê¬Íõ{FCOLOR/12} ¾Ó×¡µÄµØ·½, ÔÚÕâÐ©¹ÖÎïµ±ÖÐ¾Í¿ÉÒÔµÃµ½ {FCOLOR/10}Æð±¬Ê¯{FCOLOR/12} ¡£
-°ÑÆð±¬Ê¯¸øÎÒ´øÀ´¼´¿É¡£\ \ 
-<½áÊø/@exit>
+è¦æƒ³ä¿®ç‚¼ç¥žåœ£æˆ˜ç”²æœ¯, é¦–å…ˆè¦ä»Žæ¯”å¥‡åºŸçŸ¿çš„æ€ªç‰©èº«ä¸Šå¤ºå›ž {FCOLOR/10}ç¥žåœ£æˆ˜ç”²æœ¯{FCOLOR/12} ã€‚
+å¿…é¡»æŠŠä½ æ‰“è´¥çš„åƒµå°¸æŽ‰ä¸‹çš„ç¥žåœ£æˆ˜ç”²æœ¯ä¹¦æ”¾å…¥åŒ…é‡Œï¼Œè¿™æ ·ä½ å°±ä¼šè¢«ç§»åŠ¨åˆ°åºŸçŸ¿çš„ç§˜å¯†æˆ¿é—´ã€‚
+é‚£ä¸ªæˆ¿é—´æ˜¯ {FCOLOR/10}å°¸çŽ‹{FCOLOR/12} å±…ä½çš„åœ°æ–¹, åœ¨è¿™äº›æ€ªç‰©å½“ä¸­å°±å¯ä»¥å¾—åˆ° {FCOLOR/10}èµ·çˆ†çŸ³{FCOLOR/12} ã€‚
+æŠŠèµ·çˆ†çŸ³ç»™æˆ‘å¸¦æ¥å³å¯ã€‚\ \
+<ç»“æŸ/@exit>
 }

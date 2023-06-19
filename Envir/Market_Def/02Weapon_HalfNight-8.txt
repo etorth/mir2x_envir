@@ -16,7 +16,7 @@ goto @main_0_A
 
 [@main_0_A]
 #IF
-checkitem ลหานฬ์ม้ 1
+checkitem ร…รร’ยนรรฌรรฉ 1
 #SAY
        #INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_Main_0_A
 #ELSEACT
@@ -52,20 +52,20 @@ goto @HNTL_02_3
 
 [@HNTL_02_1]
 #ACT
-Give ลหานมถำü 1
-TAKE ลหานฬ์ม้ 1
+Give ร…รร’ยนรยถร“รผ 1
+TAKE ร…รร’ยนรรฌรรฉ 1
 goto @HNTL_03
 
 [@HNTL_02_2]
 #ACT
-Give ลหานฤงีศ 1
-TAKE ลหานฬ์ม้ 1
+Give ร…รร’ยนรยงร•ร 1
+TAKE ร…รร’ยนรรฌรรฉ 1
 goto @HNTL_03
 
 [@HNTL_02_3]
 #ACT
-Give ลหานา๘ษ฿ 1
-TAKE ลหานฬ์ม้ 1
+Give ร…รร’ยนร’รธรร 1
+TAKE ร…รร’ยนรรฌรรฉ 1
 goto @HNTL_03
 
 
@@ -98,10 +98,10 @@ goto @HNTL_03
 
 [Goods]
 ;ItemName      Volume     Hour
-วเอญธซ        100        1
-ฐหปฤ          100        1
-ม่ท็          100        1
-ีถยํตถ        100        1
-ะÞยÞ          100        1
-บฃป๊          100        1
-ฐ๋ิย          100        1
+รร รยญยธยซ        100        1
+ยฐรยปร          100        1
+รรจยทรง          100        1
+ร•ยถรรญยตยถ        100        1
+ฤลรล          100        1
+ยบยฃยปรช          100        1
+ยฐรซร”ร          100        1

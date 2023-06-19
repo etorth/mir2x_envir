@@ -159,9 +159,9 @@ set [173] 1
 #IF
 check [189] 0
 check [188] 1
-checkitem °ë¿é²»ËÀÅÆ 1
+checkitem Â°Ã«Â¿Ã©Â²Â»Ã‹Ã€Ã…Ã† 1
 #ACT
-take °ë¿é²»ËÀÅÆ 1
+take Â°Ã«Â¿Ã©Â²Â»Ã‹Ã€Ã…Ã† 1
 goto @GO_UNBAL1_KWAN_1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_18
@@ -205,7 +205,7 @@ check [190] 1
 check [196] 0
 check [190] 1
 #ACT
-give »Ø³Ç¾í 6
+give Â»Ã˜Â³Ã‡Â¾Ã­ 6
 reset [171] 19
 set [196] 1
 #SAY
@@ -247,7 +247,7 @@ set [192] 1
 check [199] 0
 check [197] 0
 check [195] 1
-checkitem ²»ËÀÅÆ 1
+checkitem Â²Â»Ã‹Ã€Ã…Ã† 1
 #ACT
 goto @OMAYONG_COMPLETE_1
 #ELSESAY
@@ -267,10 +267,10 @@ goto @OMAYONG_COMPLETE_3
 check [199] 0
 check [197] 0
 check [195] 1
-checkitem ²»ËÀÅÆ 1
+checkitem Â²Â»Ã‹Ã€Ã…Ã† 1
 #ACT
-take ²»ËÀÅÆ 1
-give ½ğ±Ò 30000
+take Â²Â»Ã‹Ã€Ã…Ã† 1
+give Â½Ã°Â±Ã’ 30000
 mov S1 0
 mov S2 0
 reset [191] 4
@@ -287,10 +287,10 @@ set [199] 1
 #IF
 check [197] 0
 check [195] 1
-checkitem ²»ËÀÅÆ 1
+checkitem Â²Â»Ã‹Ã€Ã…Ã† 1
 #ACT
-take ²»ËÀÅÆ 1
-give ½ğ±Ò 30000
+take Â²Â»Ã‹Ã€Ã…Ã† 1
+give Â½Ã°Â±Ã’ 30000
 set [197] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_29
@@ -422,9 +422,9 @@ goto @GIVE_HAMMER_0
 #IF
 check [183] 0
 check [181] 1
-checkitem ÍõÌú½³µÄÌú´¸ 1
+checkitem ÃÃµÃŒÃºÂ½Â³ÂµÃ„ÃŒÃºÂ´Â¸ 1
 #ACT
-take ÍõÌú½³µÄÌú´¸ 1
+take ÃÃµÃŒÃºÂ½Â³ÂµÃ„ÃŒÃºÂ´Â¸ 1
 goto @GIVE_HAMMER_1
 set [182] 1
 #ELSESAY
@@ -444,7 +444,7 @@ check [181] 1
 check [183] 0
 check [181] 1
 #ACT
-give ÇàÍ­¸« 1
+give Ã‡Ã ÃÂ­Â¸Â« 1
 set [182] 0
 set [183] 1
 #SAY
@@ -535,8 +535,8 @@ check [199] 0
 check [198] 0
 check [196] 1
 #ACT
-give ÀËÓêµ¶ 1
-give Ç¿Ğ§Ì«ÑôË® 5
+give Ã€Ã‹Ã“ÃªÂµÂ¶ 1
+give Ã‡Â¿ÃÂ§ÃŒÂ«Ã‘Ã´Ã‹Â® 5
 goto @JAYOUN_COMPLETE_2
 
 [@JAYOUN_COMPLETE_2]
@@ -697,7 +697,7 @@ check [190] 0
 check [189] 1
 #ACT
 set [177] 0
-set [190] 1 
+set [190] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_67
 
@@ -737,7 +737,7 @@ check [196] 1
 check [191] 0
 check [196] 1
 #ACT
-give °ë¿é²»ËÀÅÆ 1
+give Â°Ã«Â¿Ã©Â²Â»Ã‹Ã€Ã…Ã† 1
 set [191] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_71

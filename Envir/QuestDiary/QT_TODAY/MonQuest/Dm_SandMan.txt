@@ -54,15 +54,15 @@ goto @sukjangin_T119_1
 
 [@sukjangin_T119_1]
 #IF
-checkitem 石人心核 299
+checkitem 鐭充汉蹇冩牳 299
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T119_Say
 
 #ELSEACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 
 ;-----------------------------------------------------
 [@sukjangin_T219]
@@ -96,9 +96,9 @@ break
 
 [@sukjangin_T219_1]
 #IF
-checkitem 石人心核 17
+checkitem 鐭充汉蹇冩牳 17
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T219_Say
@@ -110,7 +110,7 @@ goto @sukjangin_T219_2
 #IF
 random 3
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -144,9 +144,9 @@ break
 
 [@sukjangin_T216_1]
 #IF
-checkitem 石人心核 19
+checkitem 鐭充汉蹇冩牳 19
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T216_Say
@@ -158,7 +158,7 @@ goto @sukjangin_T216_2
 #IF
 random 3
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -192,9 +192,9 @@ break
 
 [@sukjangin_T212_1]
 #IF
-checkitem 石人心核 24
+checkitem 鐭充汉蹇冩牳 24
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T212_Say
@@ -206,7 +206,7 @@ goto @sukjangin_T212_2
 #IF
 random 3
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -241,9 +241,9 @@ break
 
 [@sukjangin_T205_1]
 #IF
-checkitem 石人心核 14
+checkitem 鐭充汉蹇冩牳 14
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T205_Say
@@ -255,5 +255,5 @@ goto @sukjangin_T205_2
 #IF
 random 3
 #ACT
-give 石人心核 1
+give 鐭充汉蹇冩牳 1
 ;-----------------------------------------------------

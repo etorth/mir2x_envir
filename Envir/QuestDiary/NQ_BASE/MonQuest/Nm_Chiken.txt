@@ -24,6 +24,6 @@ goto @dark
 #IF
 random 2
 #ACT
-give ��Ѫ 1
+give ¼¦Ñª 1
 
 ;-------------------------

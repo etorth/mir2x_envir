@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 
 [@Main]
 #ACT
@@ -8,7 +8,7 @@ Mov A0 %USERMAP
 Equal A0 "D1606"
 check [207] 1
 check [208] 1
-checkitemw 寂幻之刃 1
+checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @MadoHaveStep5_0
 break
@@ -17,7 +17,7 @@ break
 Equal A0 "D16064"
 check [207] 1
 check [208] 1
-checkitemw 寂幻之刃 1
+checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @MadoHaveStep4_0
 break
@@ -33,4 +33,4 @@ break
 
 [@MadoHaveStep4_0]
 #CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep4_1
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

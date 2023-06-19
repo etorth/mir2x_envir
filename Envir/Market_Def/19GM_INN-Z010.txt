@@ -68,7 +68,7 @@ Cleardelaygoto
 #CALL [\Event\Story\pachon01.txt] @pachon01_1
 
 ;----------------------------------------------------------
-;; ¸±·¹ÀÌ ÀÌº¥Æ® ½ÃÀÛ
+;; ë¦´ë ˆì´ ì´ë²¤íŠ¸ ì‹œì‘
 ;----------------------------------------------------------
 [@GEvent_start_oneDay]
 #CALL [Event\Event_Game01\GEvent_Msg01.txt] @GEventgrobal_Msg01

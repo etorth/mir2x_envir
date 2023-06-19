@@ -46,10 +46,10 @@ break
 
 [@Oma_T417_1]
 #IF
-checkitem 半兽利齿 9
+checkitem 掳毛脢脼脌没鲁脻 9
 #ACT
 set [308] 1
-give 半兽利齿 1
+give 掳毛脢脼脌没鲁脻 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T417_Say
 
@@ -60,7 +60,7 @@ goto @Oma_T417_2
 #IF
 Random 3
 #ACT
-give 半兽利齿 1
+give 掳毛脢脼脌没鲁脻 1
 
 
 
@@ -94,9 +94,9 @@ break
 
 [@oma_T440_1]
 #IF
-checkitem 半兽利齿 9
+checkitem 掳毛脢脼脌没鲁脻 9
 #ACT
-give 半兽利齿 1
+give 掳毛脢脼脌没鲁脻 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T440_Say_1
@@ -108,5 +108,5 @@ goto @oma_T440_2
 #IF
 random 3
 #ACT
-give 半兽利齿 1
+give 掳毛脢脼脌没鲁脻 1
 ;-----------------------------------------------------

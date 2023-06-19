@@ -3,7 +3,7 @@
 {
 #ACT
 	LoadValue P1 "Flag_Def\event\SnowBattle\Flag.txt" [Event_main] [finish]
-		
+
 #IF
 	equal P1 0
 

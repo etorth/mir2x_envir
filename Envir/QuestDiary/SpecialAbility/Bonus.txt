@@ -34,43 +34,43 @@ break
 #IF
 Equal P1  20
 #ACT
-SysMsg  "ÌåÁ¦ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "ä½“åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 close
 
 #IF
 Equal P1  21
 #ACT
-SysMsg  "Ä§Á¦ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "é­”åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 close
 
 #IF
 Equal P1  0
 #ACT
-SysMsg  "·ÀÓùÁ¦ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "é˜²å¾¡åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 close
 
 #IF
 Equal P1  1
 #ACT
-SysMsg  "Ä§·¨·ÀÓùÁ¦ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "é­”æ³•é˜²å¾¡åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 close
 
 #IF
 Equal P1  2
 #ACT
-SysMsg  "ÆÆ»µÁ¦ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "ç ´ååŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 close
 
 #IF
 Equal P1  3
 #ACT
-SysMsg  "×ÔÈ»½çÄ§·¨ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "è‡ªç„¶ç•Œé­”æ³• <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 close
 
 #IF
 Equal P1  4
 #ACT
-SysMsg  "Áé»ê½çÄ§·¨ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "çµé­‚ç•Œé­”æ³• <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 close
 
 #IF
@@ -81,31 +81,31 @@ break
 #IF
 Large  P2  0
 #ACT
-SysMsg  "ÔªËØ £¨»ð£© ÊôÐÔ <$OUTPUT(P2)> ÉÏÉýÁË¡£"
+SysMsg  "å…ƒç´  ï¼ˆç«ï¼‰ å±žæ€§ <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
 #IF
 Large  P3  0
 #ACT
-SysMsg  "ÔªËØ £¨šê£© ÊôÐÔ <$OUTPUT(P3)> ÉÏÉýÁË¡£"
+SysMsg  "å…ƒç´  ï¼ˆæ°·ï¼‰ å±žæ€§ <$OUTPUT(P3)> ä¸Šå‡äº†ã€‚"
 #IF
 Large  P4  0
 #ACT
-SysMsg  "ÔªËØ £¨À×£© ÊôÐÔ <$OUTPUT(P4)> ÉÏÉýÁË¡£"
+SysMsg  "å…ƒç´  ï¼ˆé›·ï¼‰ å±žæ€§ <$OUTPUT(P4)> ä¸Šå‡äº†ã€‚"
 #IF
 Large  P5  0
 #ACT
-SysMsg  "ÔªËØ £¨·ç£© ÊôÐÔ <$OUTPUT(P5)> ÉÏÉýÁË¡£"
+SysMsg  "å…ƒç´  ï¼ˆé£Žï¼‰ å±žæ€§ <$OUTPUT(P5)> ä¸Šå‡äº†ã€‚"
 #IF
 Large  P6  0
 #ACT
-SysMsg  "ÔªËØ £¨ÉñÊ¥£© ÊôÐÔ <$OUTPUT(P6)> ÉÏÉýÁË¡£"
+SysMsg  "å…ƒç´  ï¼ˆç¥žåœ£ï¼‰ å±žæ€§ <$OUTPUT(P6)> ä¸Šå‡äº†ã€‚"
 #IF
 Large  P7  0
 #ACT
-SysMsg  "ÔªËØ £¨°µºÚ£© ÊôÐÔ <$OUTPUT(P7)> ÉÏÉýÁË¡£"
+SysMsg  "å…ƒç´  ï¼ˆæš—é»‘ï¼‰ å±žæ€§ <$OUTPUT(P7)> ä¸Šå‡äº†ã€‚"
 #IF
 Large  P8  0
 #ACT
-SysMsg  "ÔªËØ £¨»ÃÓ°£© ÊôÐÔ <$OUTPUT(P8)> ÉÏÉýÁË¡£"
+SysMsg  "å…ƒç´  ï¼ˆå¹»å½±ï¼‰ å±žæ€§ <$OUTPUT(P8)> ä¸Šå‡äº†ã€‚"
 #IF
 #ACT
 close

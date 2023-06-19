@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@main]
 #ACT
 goto @NumaMidBoss1_open
@@ -10,4 +10,4 @@ break
 
 [@everythingreward]
 #CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

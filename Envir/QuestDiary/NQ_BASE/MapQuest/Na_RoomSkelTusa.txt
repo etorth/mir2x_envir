@@ -76,22 +76,22 @@ goto @enterh_hatu_1
 
 [@enterh_hatu_1]
 #IF
-checkitem °ë¿é²»ËÀÅÆ 1
+checkitem Â°Ã«Â¿Ã©Â²Â»Ã‹Ã€Ã…Ã† 1
 #ACT
 Monclear D002_001
 Param1 D002_001
 Param2 19
 Param3 12
-MonGen ÷¼÷Ã¾«Áé61 1 1
+MonGen Ã·Â¼Ã·ÃƒÂ¾Â«ÃÃ©61 1 1
 Param1 D002_001
 Param2 10
 Param3 14
-MonGen ÷¼÷ÃÕ½Ê¿61 4 2
+MonGen Ã·Â¼Ã·ÃƒÃ•Â½ÃŠÂ¿61 4 2
 set [193] 1
 Param1 D002_001
 Param2 13
 Param3 16
-MonGen ÖÀ¸«÷¼÷Ã61 4 2
+MonGen Ã–Ã€Â¸Â«Ã·Â¼Ã·Ãƒ61 4 2
 enter_ok
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_7

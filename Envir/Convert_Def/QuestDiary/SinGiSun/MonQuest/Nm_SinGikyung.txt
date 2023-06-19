@@ -1,5 +1,5 @@
 ;;Nm_SinGikyung.txt
 [@NPC_Main]
 {
-×ÜËã½â¾öÁË£¬»ØÈ¥ÕÒ°ÔÍõÓÄÁé°É¡£
+æ€»ç®—è§£å†³äº†ï¼Œå›žåŽ»æ‰¾éœ¸çŽ‹å¹½çµå§ã€‚
 }

@@ -15,5 +15,5 @@ break
 #IF
 random 50
 #ACT
-give ��ʥս���� 1
+give ÉñÊ¥Õ½¼×Êõ 1
 map D400_001

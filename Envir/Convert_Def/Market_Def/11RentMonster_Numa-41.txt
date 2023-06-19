@@ -1,6 +1,6 @@
 ;;11RentMonster_Numa-41.txt
 [@NPC_RedPlayer]
 {
-跟你这样的人无话可说...\ \
-<关闭./@exit>
+璺熶綘杩欐牱鐨勪汉鏃犺瘽鍙...\ \
+<鍏抽棴./@exit>
 }

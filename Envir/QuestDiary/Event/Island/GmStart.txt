@@ -1,22 +1,22 @@
 ;;GmStart.txt
 [@StartGoldenIsland]
 {
-;ÀÌº¥Æ®½ÃÀÛ, ¿î¿µÀÚ°¡ ½ÃÀÛÇÔ.
-#Define  N1{EVENT}    N1                             ;N1   0:ÀÌº¥Æ®Áß¾Æ´Ô, 1:ÀÌº¥Æ®Áß
-#Define  N2{TIME}     N2                             ;N2   ½Ã°£
-#Define  N3{OPEN}     N3                             ;N3   0:ÀÌº¥Æ®¸Ê ´İÈû, 1:ÀÌº¥Æ®¸Ê ¿­¸²
+;Ã€ÃŒÂºÂ¥Ã†Â®Â½ÃƒÃ€Ã›, Â¿Ã®Â¿ÂµÃ€ÃšÂ°Â¡ Â½ÃƒÃ€Ã›Ã‡Ã”.
+#Define  N1{EVENT}    N1                             ;N1   0:Ã€ÃŒÂºÂ¥Ã†Â®ÃÃŸÂ¾Ã†Â´Ã”, 1:Ã€ÃŒÂºÂ¥Ã†Â®ÃÃŸ
+#Define  N2{TIME}     N2                             ;N2   Â½ÃƒÂ°Â£
+#Define  N3{OPEN}     N3                             ;N3   0:Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠ Â´Ä°ÃˆÃ», 1:Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠ Â¿Â­Â¸Â²
 #Define  N4{FINISH}   N4
-#Define  N8{GOLD}     N8                             ;N8   »ó±İ
+#Define  N8{GOLD}     N8                             ;N8   Â»Ã³Â±Ä°
 #Define  N5{AI}       N5
-#Define  N9{DropGold} N9                             ;N9   Áß°£»ó±İ
+#Define  N9{DropGold} N9                             ;N9   ÃÃŸÂ°Â£Â»Ã³Â±Ä°
 
 #ACT
   LoadValue P1 "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold"
 
 #IF
-  Small P1 1000000   ;; ÃÊ±â ±İ¾× 100¸¸À¸·Î
+  Small P1 1000000   ;; ÃƒÃŠÂ±Ã¢ Â±Ä°Â¾Ã— 100Â¸Â¸Ã€Â¸Â·Ã
 #ACT
-  Mov  N8{GOLD}      1000000   ;; ÃÊ±â ±İ¾× 100¸¸À¸·Î
+  Mov  N8{GOLD}      1000000   ;; ÃƒÃŠÂ±Ã¢ Â±Ä°Â¾Ã— 100Â¸Â¸Ã€Â¸Â·Ã
 #ELSEACT
   Mov  N8{GOLD}      %P1
 
@@ -25,12 +25,12 @@
 #SAY
    #INCLUDE [..\Convert_Def\QuestDiary\Event\Island\Gmstart.txt] @Event_Island_Gmstart_Say_1
 #ACT
-	mov  N1{EVENT}    1                                    ; º¸¹°¼¶ ÀÌº¥Æ® ½ÃÀÛ
-	mov  N2{TIME}     0                                    ; º¸¹°¼¶ ½Ã°£À» ÃÊ±âÈ­ ÇÔ
-	mov  N3{OPEN}     1                                    ; º¸¹°¼¶ ÀÔ±¸¸¦ ¿­¾îÁÜ
-	mov  N5{AI}       0                                    ; º¸¹°¼¶ ¸ó½ºÅÍ AI ¼¼ÆÃ
-   Mov  N4{FINISH}   0                                    ; ¿î¿µÀÚ°¡ Áß°£¿¡ Áß´ÜÀ» ÇßÀ» °æ¿ì
-	mov  N9{DropGold} 0                                    ; º¸¹°¼¶ Áß°£ µ· ¼¼ÆÃ
+	mov  N1{EVENT}    1                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€ÃŒÂºÂ¥Ã†Â® Â½ÃƒÃ€Ã›
+	mov  N2{TIME}     0                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Â½ÃƒÂ°Â£Ã€Â» ÃƒÃŠÂ±Ã¢ÃˆÂ­ Ã‡Ã”
+	mov  N3{OPEN}     1                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€Ã”Â±Â¸Â¸Â¦ Â¿Â­Â¾Ã®ÃÃœ
+	mov  N5{AI}       0                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Â¸Ã³Â½ÂºÃ…Ã AI Â¼Â¼Ã†Ãƒ
+   Mov  N4{FINISH}   0                                    ; Â¿Ã®Â¿ÂµÃ€ÃšÂ°Â¡ ÃÃŸÂ°Â£Â¿Â¡ ÃÃŸÂ´ÃœÃ€Â» Ã‡ÃŸÃ€Â» Â°Ã¦Â¿Ã¬
+	mov  N9{DropGold} 0                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ ÃÃŸÂ°Â£ ÂµÂ· Â¼Â¼Ã†Ãƒ
    goto @GMSettingStartIsland
 #ELSESAY
    #INCLUDE [..\Convert_Def\QuestDiary\Event\Island\Gmstart.txt] @Event_Island_Gmstart_Say_2
@@ -38,31 +38,31 @@
 [@GMSettingStartIsland]
 #IF
 #ACT
-	MonClear "Island02" "Ô³ºïÕ½Ê¿"                           ; ¸ğµç ¸ó½ºÅÍ »èÁ¦
-	MonClear "Island02" "Ô³ºïÕ½½«"
-	MonClear "Island02" "Ä§Éñ¹Ö1"
-	MonClear "Island02" "¾Û±¦Ïä4"
-	ResetMapAttr "Island02"                                ; ÀÌº¥Æ®¸Ê ¼Ó¼º(SetEventMap)±îÁö ÃÊ±âÈ­µÊ
-	ClearItemMap "Island02, 100, 100, 9999" ½ğ±Ò
-	SetEventDamage Island02  5                             ; 5¹è µ¥¹ÌÁö
-	SetEventMap  "Island02"                                ; new cmd ÀÌº¥Æ®¸ÊÀ¸·Î ¸¸µë (ResetEventMap)
-	ChangeMapAttr  "Island02" "NOCHAT"                     ; Ã¤ÆÃÀ» ÇÒ¼ö ¾ø°Ô ¼¼ÆÃ
-	SendCmd  "Island02, 95, 135, 5"  Éú´æÓÎÏ·³¡ÃÀÃ¼  Hide
+	MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½ÃŠÂ¿"                           ; Â¸ÄŸÂµÃ§ Â¸Ã³Â½ÂºÃ…Ã Â»Ã¨ÃÂ¦
+	MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½Â½Â«"
+	MonClear "Island02" "Ã„Â§Ã‰Ã±Â¹Ã–1"
+	MonClear "Island02" "Â¾Ã›Â±Â¦ÃÃ¤4"
+	ResetMapAttr "Island02"                                ; Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠ Â¼Ã“Â¼Âº(SetEventMap)Â±Ã®ÃÃ¶ ÃƒÃŠÂ±Ã¢ÃˆÂ­ÂµÃŠ
+	ClearItemMap "Island02, 100, 100, 9999" Â½ÄŸÂ±Ã’
+	SetEventDamage Island02  5                             ; 5Â¹Ã¨ ÂµÂ¥Â¹ÃŒÃÃ¶
+	SetEventMap  "Island02"                                ; new cmd Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠÃ€Â¸Â·Ã Â¸Â¸ÂµÃ« (ResetEventMap)
+	ChangeMapAttr  "Island02" "NOCHAT"                     ; ÃƒÂ¤Ã†ÃƒÃ€Â» Ã‡Ã’Â¼Ã¶ Â¾Ã¸Â°Ã” Â¼Â¼Ã†Ãƒ
+	SendCmd  "Island02, 95, 135, 5"  Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÃƒÃ€ÃƒÂ¼  Hide
 	LoadValue A0 [Convert_Def\QuestDiary\Event\Island\GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg1]
 	LineMsg  "Grobal"  %A0
-	goto @GenMonkeys                                       ; ¸ó½ºÅÍ Á¨ °ü¸® ºÎºĞ
-	goto @CheckFinishCondition                             ; º¸¹°¼¶ ÀÌº¥Æ® ÀüÃ¼ °ü¸® ºÎºĞ
+	goto @GenMonkeys                                       ; Â¸Ã³Â½ÂºÃ…Ã ÃÂ¨ Â°Ã¼Â¸Â® ÂºÃÂºÄ
+	goto @CheckFinishCondition                             ; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€ÃŒÂºÂ¥Ã†Â® Ã€Ã¼ÃƒÂ¼ Â°Ã¼Â¸Â® ÂºÃÂºÄ
 
-;; ¸ó½ºÅÍ Á¨ ÄÁÆ®·Ñ ÇÏ´Â ºÎºĞ
+;; Â¸Ã³Â½ÂºÃ…Ã ÃÂ¨ Ã„ÃÃ†Â®Â·Ã‘ Ã‡ÃÂ´Ã‚ ÂºÃÂºÄ
 [@GenMonkeys]
 #CALL [Event\Island\Zen.txt] @Add_GetMonkeys
 
-;; º¸¹°¼¶ ¹æÀÇ »óÈ²À» È®ÀÎ ÇÏ´Â ºÎºĞ
+;; ÂºÂ¸Â¹Â°Â¼Â¶ Â¹Ã¦Ã€Ã‡ Â»Ã³ÃˆÂ²Ã€Â» ÃˆÂ®Ã€Ã Ã‡ÃÂ´Ã‚ ÂºÃÂºÄ
 [@CheckFinishCondition]
 #CALL [Event\Island\Condition.txt] @Add_CheckFinishCondition
 }
 
-;; ¿î¿µÀÚ Á¤Áö ÀÌº¥Æ® ¸í·É¾î
+;; Â¿Ã®Â¿ÂµÃ€Ãš ÃÂ¤ÃÃ¶ Ã€ÃŒÂºÂ¥Ã†Â® Â¸Ã­Â·Ã‰Â¾Ã®
 [@FinishGoldenIsland]
 {
 begin
@@ -73,18 +73,18 @@ end
 [@FinishConFirm]
 begin
   #ACT
-		MonClear "Island02" "Ô³ºïÕ½Ê¿"                           ; ¸ğµç ¸ó½ºÅÍ »èÁ¦
-		MonClear "Island02" "Ô³ºïÕ½½«"
-		MonClear "Island02" "Ä§Éñ¹Ö1"
-		MonClear "Island02" "¾Û±¦Ïä4"
+		MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½ÃŠÂ¿"                           ; Â¸ÄŸÂµÃ§ Â¸Ã³Â½ÂºÃ…Ã Â»Ã¨ÃÂ¦
+		MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½Â½Â«"
+		MonClear "Island02" "Ã„Â§Ã‰Ã±Â¹Ã–1"
+		MonClear "Island02" "Â¾Ã›Â±Â¦ÃÃ¤4"
    	LoadValue A0 [Convert_Def\QuestDiary\Event\Island\GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg2]
    	LoadValue A1 [Convert_Def\QuestDiary\Event\Island\GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg3]
 		LineMsg  "Grobal"  %A0
 		LineMsg  "Grobal"  %A1
-		SaveValue "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold" %N8       ;; ÁßÁö ÀÌ¿ù ±İ¾×À» ÀúÀå
-		MapTing Island02 01 424 313                                           ;; ¸ğµç »ç¶÷À» ÆÃ±è
+		SaveValue "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold" %N8       ;; ÃÃŸÃÃ¶ Ã€ÃŒÂ¿Ã¹ Â±Ä°Â¾Ã—Ã€Â» Ã€ÃºÃ€Ã¥
+		MapTing Island02 01 424 313                                           ;; Â¸ÄŸÂµÃ§ Â»Ã§Â¶Ã·Ã€Â» Ã†ÃƒÂ±Ã¨
 		Mov  N1{EVENT}  0
-      Mov  N4{FINISH} 1                                    ; ¿î¿µÀÚ°¡ Áß°£¿¡ Áß´ÜÀ» ÇßÀ» °æ¿ì
+      Mov  N4{FINISH} 1                                    ; Â¿Ã®Â¿ÂµÃ€ÃšÂ°Â¡ ÃÃŸÂ°Â£Â¿Â¡ ÃÃŸÂ´ÃœÃ€Â» Ã‡ÃŸÃ€Â» Â°Ã¦Â¿Ã¬
 		close
 end
 }

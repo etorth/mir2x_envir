@@ -7,17 +7,17 @@ begin
 	#ACT
 		goto @DuringGuildMatchTerm
 		break
-	
+
 	#IF
 		IsAdmin
 		checklevel 50
 	#SAY
-		(*)¹ÜÀíÔ±ÃüÁîÓï¾ä:\\
-		__<¿ªÊ¼ĞĞ»á´óÕ½£¨Ê±¼äÖÆ£©/@startGuildMatchTimeMatch>\
-		__<²é¿´ĞĞ»á·ÖÊı/@viewGuildMatchPoint>\
+		(*)ç®¡ç†å‘˜å‘½ä»¤è¯­å¥:\\
+		__<å¼€å§‹è¡Œä¼šå¤§æˆ˜ï¼ˆæ—¶é—´åˆ¶ï¼‰/@startGuildMatchTimeMatch>\
+		__<æŸ¥çœ‹è¡Œä¼šåˆ†æ•°/@viewGuildMatchPoint>\
 	#ELSESAY
-		ÏÖÔÚÊÇĞİÏ¢Ê±¼ä£¬ÇëÉÔºóÔÙÀ´¡£\
-	
+		ç°åœ¨æ˜¯ä¼‘æ¯æ—¶é—´ï¼Œè¯·ç¨åå†æ¥ã€‚\
+
 	[@startNewGuildMatch]
 	begin
 		#ACT
@@ -26,13 +26,13 @@ begin
 			SetGMEPlayTime  50
 			SetGMEPauseTime 10
 			SetGMELimitUser 200
-			SetEventDamage  E602       3        ;3¹è µ¥¹ÌÁö
+			SetEventDamage  E602       3        ;3ç¡… å•å›ºç˜¤
 			StartNewGME
 		#SAY
-			ËùÓĞĞĞ»áµÄ·ÖÊıËÈ³õÆÚ»¯¡£\
-			ÏÖÔÚ¿ªÊ¼ĞĞ»á´óÕ½¡£\
+			æ‰€æœ‰è¡Œä¼šçš„åˆ†æ•°å·³åˆæœŸåŒ–ã€‚\
+			ç°åœ¨å¼€å§‹è¡Œä¼šå¤§æˆ˜ã€‚\
    end
-   
+
 	[@continueGuildMatch]
 	begin
 		#ACT
@@ -40,13 +40,13 @@ begin
 			SetGMEPoint     10000
 			SetGMEPlayTime  50
 			SetGMEPauseTime 10
-			SetEventDamage  E602       3       ;3¹è µ¥¹ÌÁö
+			SetEventDamage  E602       3       ;3ç¡… å•å›ºç˜¤
 			SetGMELimitUser 200
 			ContinueGME
 		#SAY
-			¼ÌĞø¿ªÊ¼ĞĞ»á´óÕ½.\
+			ç»§ç»­å¼€å§‹è¡Œä¼šå¤§æˆ˜.\
    end
-   
+
 	[@startGuildMatchTimeMatch]
 	begin
 		#ACT
@@ -54,76 +54,76 @@ begin
 			SetGMETime      180
 			SetGMEPlayTime  180
 			SetGMEPauseTime 0
-			SetEventDamage  E602       3      ;3¹è µ¥¹ÌÁö
+			SetEventDamage  E602       3      ;3ç¡… å•å›ºç˜¤
 			SetGMELimitUser 200
 			StartNewGME
 			close
    end
-   
+
 	[@DuringGuildMatchTerm]
 	begin
 		#IF
 			CheckOpenGME
 		#SAY
-			Òª²Î¼ÓĞĞ»á´óÕ½Âğ£¿ÔÚ¾º¼¼³¡ÖĞÈÎºÎPK²»¼ÆPKÖµ£¨²»»áºìÃû£©£¬²»»áµôÂä×°±¸¡£¾º¼¼³¡×î¶àÍ¬Ê±ÈİÄÉ200ÈË¡£½øÈë¾º¼¼³¡ÄÚÇëÎğĞ¯´ø»Ø³Ç¾í,Ëæ»ú´«ËÍ¾íºÍµØÀÎÌÓÍÑ¾í£¬ Î¥ÕßÒ»ÂÉÃ»ÊÕ£¡\\ 
-			<²Î¼ÓĞĞ»á´óÕ½/@movetoGuildMatchPlace>\
-			<½áÊø/@exit>
+			è¦å‚åŠ è¡Œä¼šå¤§æˆ˜å—ï¼Ÿåœ¨ç«æŠ€åœºä¸­ä»»ä½•PKä¸è®¡PKå€¼ï¼ˆä¸ä¼šçº¢åï¼‰ï¼Œä¸ä¼šæ‰è½è£…å¤‡ã€‚ç«æŠ€åœºæœ€å¤šåŒæ—¶å®¹çº³200äººã€‚è¿›å…¥ç«æŠ€åœºå†…è¯·å‹¿æºå¸¦å›åŸå·,éšæœºä¼ é€å·å’Œåœ°ç‰¢é€ƒè„±å·ï¼Œ è¿è€…ä¸€å¾‹æ²¡æ”¶ï¼\\
+			<å‚åŠ è¡Œä¼šå¤§æˆ˜/@movetoGuildMatchPlace>\
+			<ç»“æŸ/@exit>
 		#ELSESAY
-			ÏÖÔÚÊÇĞİÏ¢Ê±¼ä£¬ÇëÉÔºóÔÙÀ´¡£\
+			ç°åœ¨æ˜¯ä¼‘æ¯æ—¶é—´ï¼Œè¯·ç¨åå†æ¥ã€‚\
 	end
-	
+
 	[@movetoGuildMatchPlace]
 	begin
 		#IF
 			Checklevel 15
 		#ELSESAY
-			²Î¼ÓĞĞ»áÕ½£¬µÈ¼¶²»µÃĞ¡ÓÚ15¼¶¡£\\
-			<½áÊø/@exit>
+			å‚åŠ è¡Œä¼šæˆ˜ï¼Œç­‰çº§ä¸å¾—å°äº15çº§ã€‚\\
+			<ç»“æŸ/@exit>
 		#ELSEACT
 			break
-	
+
 		#IF
-			Checkitem µØÀÎÌÓÍÑ¾í 1
+			Checkitem åœ°ç‰¢é€ƒè„±å· 1
 		#SAY
-			´øÀ´µØÀÎÌÓÍÑ¾íÁË°É£¿ ËµºÃÒªÃ»ÊÕµÄ¡£\\
-			<½áÊø/@exit>
+			å¸¦æ¥åœ°ç‰¢é€ƒè„±å·äº†å§ï¼Ÿ è¯´å¥½è¦æ²¡æ”¶çš„ã€‚\\
+			<ç»“æŸ/@exit>
 		#ACT
-			take µØÀÎÌÓÍÑ¾í 100
+			take åœ°ç‰¢é€ƒè„±å· 100
 			break
-	
+
 		#IF
-			Checkitem Ëæ»ú´«ËÍ¾í 1
+			Checkitem éšæœºä¼ é€å· 1
 		#SAY
-			´øÀ´Ëæ»ú´«ËÍ¾íÁË°É£¿ ËµºÃÒªÃ»ÊÕµÄ¡£\\
-			<½áÊø/@exit>
+			å¸¦æ¥éšæœºä¼ é€å·äº†å§ï¼Ÿ è¯´å¥½è¦æ²¡æ”¶çš„ã€‚\\
+			<ç»“æŸ/@exit>
 		#ACT
-			take Ëæ»ú´«ËÍ¾í 100
+			take éšæœºä¼ é€å· 100
 			break
-	
+
 		#IF
-			Checkitem »Ø³Ç¾í 1
+			Checkitem å›åŸå· 1
 		#SAY
-			´øÀ´»Ø³Ç¾íÁË°É£¿ ËµºÃÒªÃ»ÊÕµÄ¡£\\
-			<½áÊø/@exit>
+			å¸¦æ¥å›åŸå·äº†å§ï¼Ÿ è¯´å¥½è¦æ²¡æ”¶çš„ã€‚\\
+			<ç»“æŸ/@exit>
 		#ACT
-			take »Ø³Ç¾í 100
+			take å›åŸå· 100
 			break
-	
+
 		#IF
 			HasGuild
 		#ELSESAY
-			Ã»ÓĞ¼ÓÈëĞĞ»áµÄÈË£¬²»¿ÉÒÔ²Î¼ÓĞĞ»áÕ½µÄ¡£\ \
-			<½áÊø/@exit>
+			æ²¡æœ‰åŠ å…¥è¡Œä¼šçš„äººï¼Œä¸å¯ä»¥å‚åŠ è¡Œä¼šæˆ˜çš„ã€‚\ \
+			<ç»“æŸ/@exit>
 		#ELSEACT
 			break
-	
+
 		#IF
 			CheckEnterGMEMap
 		#ACT
 			MoveToGMEMap
 			close
 		#ELSESAY
-			¶Ô²»Æğ£¬ÈËÊıËÈÂú£¡\
+			å¯¹ä¸èµ·ï¼Œäººæ•°å·³æ»¡ï¼\
 	end
 end
 }

@@ -135,7 +135,7 @@ goto @ST_HON_SOPAL_3_1
 
 [@ST_HON_SOPAL_3_1]
 #IF
-checkitem Áé»ê»¤ÎÀ 1
+checkitem ÃÃ©Â»ÃªÂ»Â¤ÃÃ€ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_14
 
@@ -145,9 +145,9 @@ checkitem Áé»ê»¤ÎÀ 1
 
 [@ST_HON_SOPAL_3_2]
 #IF
-checkitem Áé»ê»¤ÎÀ 1
+checkitem ÃÃ©Â»ÃªÂ»Â¤ÃÃ€ 1
 #ACT
-take Áé»ê»¤ÎÀ 1
+take ÃÃ©Â»ÃªÂ»Â¤ÃÃ€ 1
 set [211] 1
 goto @ST_HON_SOPAL_3_3
 
@@ -164,8 +164,8 @@ check [210] 1
 check [212] 0
 check [210] 1
 #ACT
-give Å£Èâ 5
-give ½ğ±Ò 10000
+give Ã…Â£ÃˆÃ¢ 5
+give Â½Ã°Â±Ã’ 10000
 set [212] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_17
@@ -367,7 +367,7 @@ goto @ST_HON_UKJE_4_1
 
 [@ST_HON_UKJE_4_1]
 #IF
-checkitem Áé»ê»¤ÎÀ 1
+checkitem ÃÃ©Â»ÃªÂ»Â¤ÃÃ€ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\younghon.txt] @younghon_37
 
@@ -490,8 +490,8 @@ goto @ST_HON_KWANRI_1_0
 check [209] 0
 check [207] 1
 #ACT
-give Áé»ê»¤ÎÀ 1
-give ½ğ±Ò 5000
+give ÃÃ©Â»ÃªÂ»Â¤ÃÃ€ 1
+give Â½Ã°Â±Ã’ 5000
 set [208] 1
 goto @ST_HON_KWANRI_1_1
 

@@ -30,6 +30,6 @@ goto @umgwisa1
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\MonQuest\Nm_WoomaGisa.txt] @Nm_WoomaGisa_1
 
 #ACT
-give Áé»êÃ÷Öé 1
+give ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
 set [288] 1
 ;----------------------------------------------------------

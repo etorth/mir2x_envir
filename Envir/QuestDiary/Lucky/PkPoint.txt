@@ -4,7 +4,7 @@
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Lucky\PkPoint.txt] @PkPoint_1
 
- 
+
 [@point]
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Lucky\PkPoint.txt] @PkPoint_2
@@ -17,7 +17,7 @@ checkgold 1000
 	#INCLUDE [..\Convert_Def\QuestDiary\Lucky\PkPoint.txt] @PkPoint_3
 
 #ACT
-take ½ð±Ò 1000
+take Â½Ã°Â±Ã’ 1000
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Lucky\PkPoint.txt] @PkPoint_4
 
@@ -126,7 +126,7 @@ checkgold 500
 	#INCLUDE [..\Convert_Def\QuestDiary\Lucky\PkPoint.txt] @PkPoint_17
 
 #ACT
-take ½ð±Ò 500
+take Â½Ã°Â±Ã’ 500
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Lucky\PkPoint.txt] @PkPoint_18
 

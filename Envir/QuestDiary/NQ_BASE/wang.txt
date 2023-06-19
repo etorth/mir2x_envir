@@ -62,7 +62,7 @@ set [132] 1
 check [164] 1
 check [132] 0
 #ACT
-give ½ğ±Ò 3000
+give Â½Ã°Â±Ã’ 3000
 set [133] 0
 set [132] 1
 #SAY
@@ -139,7 +139,7 @@ check [167] 1
 #IF
 check [168] 0
 #ACT
-give ½ğ±Ò 5000
+give Â½Ã°Â±Ã’ 5000
 reset [132] 19
 set [168] 1
 #SAY
@@ -194,7 +194,7 @@ check [155] 1
 check [157] 1
 check [159] 1
 #ACT
-give ½ğ±Ò 25000
+give Â½Ã°Â±Ã’ 25000
 reset [152] 7
 set [169] 1
 #SAY
@@ -333,7 +333,7 @@ check [152] 1
 #IF
 checkgold 15000
 #ACT
-take ½ğ±Ò 15000
+take Â½Ã°Â±Ã’ 15000
 goto @INVITE_JABSANG_6_1
 #ELSEACT
 set [154] 1
@@ -358,7 +358,7 @@ check [155] 0
 check [152] 1
 checkgold 12000
 #ACT
-take ½ğ±Ò 12000
+take Â½Ã°Â±Ã’ 12000
 goto @INVITE_JABSANG_7_1
 #ELSEACT
 set [154] 1
@@ -409,7 +409,7 @@ check [155] 0
 check [152] 1
 checkgold 10000
 #ACT
-take ½ğ±Ò 10000
+take Â½Ã°Â±Ã’ 10000
 goto @INVITE_JABSANG_11_1
 #ELSEACT
 set [154] 1
@@ -452,9 +452,9 @@ set [153] 1
 #IF
 check [155] 0
 check [152] 1
-checkitem ÉÕ¾Æ 1
+checkitem Ã‰Ã•Â¾Ã† 1
 #ACT
-take ÉÕ¾Æ 1
+take Ã‰Ã•Â¾Ã† 1
 goto @INVITE_JABSANG_15
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_41
@@ -519,7 +519,7 @@ check [155] 0
 check [152] 1
 checkgold 30000
 #ACT
-take ½ğ±Ò 20000
+take Â½Ã°Â±Ã’ 20000
 goto @INVITE_JABSANG_25_1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_48
@@ -609,7 +609,7 @@ goto @SHOW_BULSA_1_0
 
 [@SHOW_BULSA_1_0]
 #IF
-checkitem ½ÇµÑ 1
+checkitem Â½Ã‡ÂµÃ‘ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_57
 
@@ -617,7 +617,7 @@ checkitem ½ÇµÑ 1
 break
 ;
 #IF
-checkitem ²»ËÀÅÆ 1
+checkitem Â²Â»Ã‹Ã€Ã…Ã† 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_58
 
@@ -625,7 +625,7 @@ checkitem ²»ËÀÅÆ 1
 break
 ;
 #IF
-checkitem Áé»ê»¤ÎÀ 1
+checkitem ÃÃ©Â»ÃªÂ»Â¤ÃÃ€ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_59
 
@@ -633,7 +633,7 @@ checkitem Áé»ê»¤ÎÀ 1
 break
 ;
 #IF
-checkitem »ÙÃğ»¤Éí·û 1
+checkitem Â»Ã™ÃƒÃ°Â»Â¤Ã‰Ã­Â·Ã» 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_60
 
@@ -641,7 +641,7 @@ checkitem »ÙÃğ»¤Éí·û 1
 break
 ;
 #IF
-checkitem ÎÖÂê½ğÅÆ 1
+checkitem ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_61
 
@@ -649,7 +649,7 @@ checkitem ÎÖÂê½ğÅÆ 1
 break
 ;
 #IF
-checkitem µØÓüÉñÖÓ 1
+checkitem ÂµÃ˜Ã“Ã¼Ã‰Ã±Ã–Ã“ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_62
 
@@ -657,7 +657,7 @@ checkitem µØÓüÉñÖÓ 1
 break
 ;
 #IF
-checkitem Áé»êÃ÷Öé 1
+checkitem ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_63
 
@@ -741,9 +741,9 @@ set [158] 1
 #IF
 check [159] 0
 check [158] 1
-checkitem »Ø³Ç¾í 6
+checkitem Â»Ã˜Â³Ã‡Â¾Ã­ 6
 #ACT
-take »Ø³Ç¾í 6
+take Â»Ã˜Â³Ã‡Â¾Ã­ 6
 goto @GIVE_CHOGONG_1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wang.txt] @wang_73

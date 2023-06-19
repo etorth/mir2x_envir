@@ -34,7 +34,7 @@ large S1 3
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_Bubgi.txt] @Nm_Bubgi_1
 
 #ACT
-give ɮ�½�ʬ�� 1
+give É®ÂÂ½©Ê¬¹Ç 1
 mov S1 5
 #ELSEACT
 goto @bub3

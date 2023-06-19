@@ -1,85 +1,85 @@
 ;;Dying.txt
 [@Dying_1]
 {
-ͷ��Ⱦ�ɰ�ɫ�ˡ�\ \
-<ǰһ��/@ChangeHairColor>
+头发染成白色了。\ \
+<前一步/@ChangeHairColor>
 }
 
 [@Dying_2]
 {
-ͷ��Ⱦ�ɺ�ɫ�ˡ�\ \
-<ǰһ��/@ChangeHairColor>
+头发染成黑色了。\ \
+<前一步/@ChangeHairColor>
 }
 
 [@Dying_3]
 {
-ͷ��Ⱦ�ɻ�ɫ�ˡ�\ \
-<ǰһ��/@ChangeHairColor>
+头发染成灰色了。\ \
+<前一步/@ChangeHairColor>
 }
 
 [@Dying_4]
 {
-��ֻҪѡ�����ַ����Ϳ��԰����е�Ⱦ�ϻ����һ��Ⱦ��������ɫ��ͷ��������Щ��ɫ����Ⱦ���ϡ�Ⱦ��������һ��Ⱦ�����������������������ʾ�Լ��ĸ��ԣ����ָ���Ҳ�ǵ�Ȼ�ġ�\
-<�ðɣ����Կ�/@randcolor>\
-<������Ⱦ/@ChangeHairColor>
+你只要选择这种方法就可以把所有的染料混合在一起染出五颜六色的头发，但有些颜色可能染不上。染发费用是一般染发的两倍，不过如果你想显示自己的个性，这种付出也是当然的。\
+<好吧，试试看/@randcolor>\
+<不想乱染/@ChangeHairColor>
 }
 
 [@Dying_5]
 {
-�͹٣����ȸ�����������ûǮ��\ \
-<ǰһ��/@ChangeHairColor>
+客官，请先付款。不过你好像没钱。\ \
+<前一步/@ChangeHairColor>
 }
 
 [@Dying_6]
 {
-Ⱦ���ˣ��������𣬿͹٣�\ \
-<ǰһ��/@ChangeHairColor>
+染好了，你满意吗，客官？\ \
+<前一步/@ChangeHairColor>
 }
 
 [@Dying_7]
 {
-�͹٣����ȸ�����������ûǮ��\ \
-<ǰһ��/@ChangeHairColor>
+客官，请先付款。不过你好像没钱。\ \
+<前一步/@ChangeHairColor>
 }
 
 [@Dying_8]
 {
-�������Ҫ����㷢�͸�Ϊͺͷ�ˡ����ϲ������֡�\ \
-<ǰһ��/@ChangeHairShape>
+根据你的要求把你发型改为秃头了。你的喜好真奇怪。\ \
+<前一步/@ChangeHairShape>
 }
 
 [@Dying_9]
 {
-���͸�Ϊ�����ˡ�\ \
-<ǰһ��/@ChangeHairShape>
+发型改为剪发了。\ \
+<前一步/@ChangeHairShape>
 }
 
 [@Dying_10]
 {
-���ͱ�Ϊ�������ˡ�\ \
-<ǰһ��/@ChangeHairShape>
+发型变为长辫子了。\ \
+<前一步/@ChangeHairShape>
 }
 
 [@Dying_11]
 {
-���͸�Ϊ�̷��ˡ�\ \
-<ǰһ��/@ChangeHairShape>
+发型改为短发了。\ \
+<前一步/@ChangeHairShape>
 }
 
 [@Dying_12]
 {
-���͸�Ϊ�����ˡ�\ \
-<ǰһ��/@ChangeHairShape>
+发型改为发髻了。\ \
+<前一步/@ChangeHairShape>
 }
 
 [@Dying_13]
 {
-���͸�Ϊ�ҷ��ˣ�����һ��Ҳ�������¿�����������\ \
-<ǰһ��/@ChangeHairShape>
+发型改为乱发了，不过一点也不像裴勇俊，嗬嗬嗬。\ \
+<前一步/@ChangeHairShape>
 }
 
 [@Dying_14]
 {
-�͹٣����ȸ�����������ûǮ��\ \
-<ǰһ��/@changeHairShape>
+客官，请先付款。不过你好像没钱。\ \
+<前一步/@changeHairShape>
 }

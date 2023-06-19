@@ -258,7 +258,7 @@ check [236] 1
 check [247] 0
 check [236] 1
 #ACT
-give ��� 10000
+give ½ð±Ò 10000
 reset [220] 16
 set [247] 1
 #SAY
@@ -337,9 +337,9 @@ goto @TARAK_COMPLETE_0_1
 
 [@TARAK_COMPLETE_0_1]
 #IF
-checkitem ������ 1
+checkitem ²»ËÀÅÆ 1
 #ACT
-take ������ 1
+take ²»ËÀÅÆ 1
 set [246] 1
 goto @TARAK_COMPLETE_1
 
@@ -363,12 +363,12 @@ check [245] 1
 check [248] 0
 check [245] 1
 #ACT
-give �׻��� 1
-give ս���� 2
-give ��� 20000
+give °×»¢½£ 1
+give Õ½ÉñÓÍ 2
+give ½ð±Ò 20000
 mov S1 0
 mov S2 0
-reset [237] 10 
+reset [237] 10
 set [248] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\tarak.txt] @tarak_38
@@ -514,7 +514,7 @@ goto @TAKE_BONE1_0_1
 
 [@TAKE_BONE1_0_1]
 #IF
-checkitem ɮ�½�ʬ�� 1
+checkitem É®ÂÂ½©Ê¬¹Ç 1
 #ACT
 goto @TAKE_BONE1_0_2
 #ELSESAY
@@ -523,7 +523,7 @@ goto @TAKE_BONE1_0_2
 
 [@TAKE_BONE1_0_2]
 #IF
-checkitem �׵罩ʬ�� 1
+checkitem À×µç½©Ê¬¹Ç 1
 #ACT
 goto @TAKE_BONE1_1
 #ELSESAY
@@ -532,11 +532,11 @@ goto @TAKE_BONE1_1
 
 [@TAKE_BONE1_1]
 #IF
-checkitem ɮ�½�ʬ�� 1
-checkitem �׵罩ʬ�� 1
+checkitem É®ÂÂ½©Ê¬¹Ç 1
+checkitem À×µç½©Ê¬¹Ç 1
 #ACT
-take ɮ�½�ʬ�� 10
-take �׵罩ʬ�� 10
+take É®ÂÂ½©Ê¬¹Ç 10
+take À×µç½©Ê¬¹Ç 10
 set [241] 1
 goto @TAKE_BONE1_1_1
 
@@ -554,7 +554,7 @@ set [241] 1
 #IF
 random 2
 #ACT
-give �������� 1
+give »ÙÃð»¤Éí·û 1
 set [242] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\tarak.txt] @tarak_54
@@ -617,7 +617,7 @@ monclear E402_001
 param1 E402_001
 param2 13
 param3 14
-mongen ��ʬ261 5 3
+mongen ½©Ê¬261 5 3
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\tarak.txt] @tarak_61
 
@@ -630,7 +630,7 @@ monclear E402_001
 param1 E402_001
 param2 13
 param3 14
-mongen ��ʬ261 5 3
+mongen ½©Ê¬261 5 3
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\tarak.txt] @tarak_62
 
@@ -714,7 +714,7 @@ monclear D404_002
 param1 D404_002
 param2 22
 param3 13
-mongen ��ʬ�� 1 1
+mongen ½©Ê¬Íõ 1 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\tarak.txt] @tarak_70
 
@@ -727,7 +727,7 @@ monclear D404_002
 param1 D404_002
 param2 22
 param3 13
-mongen ��ʬ�� 1 1
+mongen ½©Ê¬Íõ 1 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\tarak.txt] @tarak_71
 

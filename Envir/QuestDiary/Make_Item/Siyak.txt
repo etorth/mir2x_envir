@@ -9,12 +9,12 @@
 
 [@Make_Potion_HPPotionS]
 #IF
-checkitem ÉÕ¾Æ 1
-checkitem ¶¾Éßµ¨Ö­ 6
+checkitem Ã‰Ã•Â¾Ã† 1
+checkitem Â¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 6
 #ACT
-take ÉÕ¾Æ 1
-take ¶¾Éßµ¨Ö­ 6
-give Ã¼·ÂÈ¸º¹¾à(¼Ò) 10
+take Ã‰Ã•Â¾Ã† 1
+take Â¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 6
+give ÃƒÂ¼Â·Ã‚ÃˆÂ¸ÂºÂ¹Â¾Ã (Â¼Ã’) 10
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_2
 
@@ -26,11 +26,11 @@ give Ã¼·ÂÈ¸º¹¾à(¼Ò) 10
 
 [@Make_Potion_HPPotionM]
 #IF
-checkitem ÉÕ¾Æ 1
-checkitem ÷¼÷Ã¹Ç 10
+checkitem Ã‰Ã•Â¾Ã† 1
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 10
 #ACT
-take ÉÕ¾Æ 1
-take ÷¼÷Ã¹Ç 10
+take Ã‰Ã•Â¾Ã† 1
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 10
 mov d0 0
 goto @Make_Potion_HPPotionM_1
 #ELSESAY
@@ -58,7 +58,7 @@ mov d0 0
 [@Make_Potion_HPPotionM_3]
 #IF
 #ACT
-give ½ğ´´Ò©£¨ÖĞ£© 10
+give Â½Ã°Â´Â´Ã’Â©Â£Â¨Ã–ÃÂ£Â© 10
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_6
@@ -68,13 +68,13 @@ mov d0 0
 
 [@Make_Potion_HPPotionL]
 #IF
-checkitem ÂìÒÏÂÑ 3
-checkitem ÉÕ¾Æ 2
-checkitem ÑÀ³İ 3
+checkitem Ã‚Ã¬Ã’ÃÃ‚Ã‘ 3
+checkitem Ã‰Ã•Â¾Ã† 2
+checkitem Ã‘Ã€Â³Ã 3
 #ACT
-take ÂìÒÏÂÑ 3
-take ÉÕ¾Æ 2
-take ÑÀ³İ 3
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 3
+take Ã‰Ã•Â¾Ã† 2
+take Ã‘Ã€Â³Ã 3
 mov d0 0
 goto @Make_Potion_HPPotionL_1
 #ELSESAY
@@ -102,7 +102,7 @@ mov d0 0
 [@Make_Potion_HPPotionL_3]
 #IF
 #ACT
-give ½ğ´´Ò©£¨´ó£© 10
+give Â½Ã°Â´Â´Ã’Â©Â£Â¨Â´Ã³Â£Â© 10
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_9
@@ -112,15 +112,15 @@ mov d0 0
 
 [@Make_Potion_HPPotionXL]
 #IF
-checkitem Ò¹Ã÷Öé 3
-checkitem ÉÕ¾Æ 3
-checkitem ÉñÁéµñÏñ 3
-checkitem ÅËÒ¹Ö®Àá 4
+checkitem Ã’Â¹ÃƒÃ·Ã–Ã© 3
+checkitem Ã‰Ã•Â¾Ã† 3
+checkitem Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 3
+checkitem Ã…Ã‹Ã’Â¹Ã–Â®Ã€Ã¡ 4
 #ACT
-take Ò¹Ã÷Öé 3
-take ÉÕ¾Æ 3
-take ÉñÁéµñÏñ 3
-take ÅËÒ¹Ö®Àá 4
+take Ã’Â¹ÃƒÃ·Ã–Ã© 3
+take Ã‰Ã•Â¾Ã† 3
+take Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 3
+take Ã…Ã‹Ã’Â¹Ã–Â®Ã€Ã¡ 4
 mov d0 0
 goto @Make_Potion_HPPotionXL_1
 #ELSESAY
@@ -148,7 +148,7 @@ mov d0 0
 [@Make_Potion_HPPotionXL_3]
 #IF
 #ACT
-give ½ğ´´Ò©£¨ÌØ£© 10
+give Â½Ã°Â´Â´Ã’Â©Â£Â¨ÃŒÃ˜Â£Â© 10
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_12
@@ -159,12 +159,12 @@ mov d0 0
 
 [@Make_Potion_MPPotionS]
 #IF
-checkitem ÷¼÷Ã¹Ç 3
-checkitem ÉÕ¾Æ 1
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3
+checkitem Ã‰Ã•Â¾Ã† 1
 #ACT
-take ÷¼÷Ã¹Ç 3
-take ÉÕ¾Æ 1
-give Ä§·¨Ò©£¨Ğ¡£© 10
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3
+take Ã‰Ã•Â¾Ã† 1
+give Ã„Â§Â·Â¨Ã’Â©Â£Â¨ÃÂ¡Â£Â© 10
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_13
 
@@ -178,11 +178,11 @@ give Ä§·¨Ò©£¨Ğ¡£© 10
 
 [@Make_Potion_MPPotionM]
 #IF
-checkitem ½©Ê¬¹ÇÍ· 5
-checkitem ÉÕ¾Æ 1
+checkitem Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 5
+checkitem Ã‰Ã•Â¾Ã† 1
 #ACT
-take ½©Ê¬¹ÇÍ· 5
-take ÉÕ¾Æ 1
+take Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 5
+take Ã‰Ã•Â¾Ã† 1
 mov d0 0
 goto @Make_Potion_MPPotionM_1
 #ELSESAY
@@ -210,7 +210,7 @@ mov d0 0
 [@Make_Potion_MPPotionM_3]
 #IF
 #ACT
-give Ä§·¨Ò©£¨ÖĞ£© 10
+give Ã„Â§Â·Â¨Ã’Â©Â£Â¨Ã–ÃÂ£Â© 10
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_17
@@ -220,13 +220,13 @@ mov d0 0
 
 [@Make_Potion_MPPotionL]
 #IF
-checkitem ºÅ½Ç 3
-checkitem ÑÀ³İ 3
-checkitem ÉÕ¾Æ 2
+checkitem ÂºÃ…Â½Ã‡ 3
+checkitem Ã‘Ã€Â³Ã 3
+checkitem Ã‰Ã•Â¾Ã† 2
 #ACT
-take ºÅ½Ç 3
-take ÑÀ³İ 3
-take ÉÕ¾Æ 2
+take ÂºÃ…Â½Ã‡ 3
+take Ã‘Ã€Â³Ã 3
+take Ã‰Ã•Â¾Ã† 2
 mov d0 0
 goto @Make_Potion_MPPotionL_1
 #ELSESAY
@@ -254,7 +254,7 @@ mov d0 0
 [@Make_Potion_MPPotionL_3]
 #IF
 #ACT
-give Ä§·¨Ò©£¨´ó£© 10
+give Ã„Â§Â·Â¨Ã’Â©Â£Â¨Â´Ã³Â£Â© 10
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_20
@@ -264,13 +264,13 @@ mov d0 0
 
 [@Make_Potion_MPPotionXL]
 #IF
-checkitem ÉÕ¾Æ 3
-checkitem ÉñÁéµñÏñ 4
-checkitem ±¦Óñ 6
+checkitem Ã‰Ã•Â¾Ã† 3
+checkitem Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 4
+checkitem Â±Â¦Ã“Ã± 6
 #ACT
-take ÉÕ¾Æ 3
-take ÉñÁéµñÏñ 4
-take ±¦Óñ 6
+take Ã‰Ã•Â¾Ã† 3
+take Ã‰Ã±ÃÃ©ÂµÃ±ÃÃ± 4
+take Â±Â¦Ã“Ã± 6
 mov d0 0
 goto @Make_Potion_MPPotionXL_1
 #ELSESAY
@@ -298,7 +298,7 @@ mov d0 0
 [@Make_Potion_MPPotionXL_3]
 #IF
 #ACT
-give Ä§·¨Ò©£¨ÌØ£© 10
+give Ã„Â§Â·Â¨Ã’Â©Â£Â¨ÃŒÃ˜Â£Â© 10
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Siyak.txt] @Siyak_23

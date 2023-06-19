@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 [@MadoTimeQuestfridayhyun]
 {
 
@@ -101,7 +101,7 @@ checkgold 30000
 #IF
 checkgold 30000
 #ACT
-take ½ğ±Ò 30000
+take é‡‘å¸ 30000
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcHyun.txt] @Convert_MadoNpcHyun_6
@@ -143,7 +143,7 @@ break
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcHyun.txt] @Convert_MadoNpcHyun_13
 
 #ACT
-Give »÷ÍË»¤Éí·û 1
+Give å‡»é€€æŠ¤èº«ç¬¦ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=3"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
@@ -154,4 +154,4 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcHyun.txt] @Convert_MadoNpcHyun_14
 
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

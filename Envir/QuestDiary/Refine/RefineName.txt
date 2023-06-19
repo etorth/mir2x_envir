@@ -42,7 +42,7 @@ checkgold 1000000
 #IF
 checkgold 1000000
 #ACT
-take ½ð±Ò 1000000
+take Â½Ã°Â±Ã’ 1000000
 WriteWeaponName @CheckWeaponName
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_7
@@ -58,5 +58,5 @@ WriteWeaponName @CheckWeaponName
 	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_9
 
 #ACT
-give ½ð±Ò 1000000
+give Â½Ã°Â±Ã’ 1000000
 }

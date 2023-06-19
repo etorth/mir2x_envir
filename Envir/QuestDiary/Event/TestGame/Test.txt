@@ -30,20 +30,20 @@ goto @RushTest_Game
 break
 
 #ELSESAY
-½øÈëÊ±¼ä: \
+è¿›å…¥æ—¶é—´: \
 04:25-04:30\
 10:25-10:30\
 16:25-16:30\
 22:25-22:30\
-Äã´í¹ý½øÈëÊ±¼äÁË¡£\ \
-<½áÊø/@exit>
+ä½ é”™è¿‡è¿›å…¥æ—¶é—´äº†ã€‚\ \
+<ç»“æŸ/@exit>
 
 [@RushTest_Game]
 #IF
 checkhum RUSH1 30
 #SAY
-ÔÎ£¬ÀïÃæÒÑ¾­ÓÐ30ÈËÁË£¬ÈËÂúÁË¡£ \ \
-<½áÊø/@exit>
+æ™•ï¼Œé‡Œé¢å·²ç»æœ‰30äººäº†ï¼Œäººæ»¡äº†ã€‚ \ \
+<ç»“æŸ/@exit>
 #ELSEACT
 map RUSH1
 goto @RushTest_Game_PreCheck

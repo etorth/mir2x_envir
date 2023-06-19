@@ -1,8 +1,8 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@NumaMagda1_Talk]
 {
 #IF
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @NumaMagda1_Talk1
 break
@@ -24,7 +24,7 @@ mov D3 %ARG(3)
 
 #IF
 large D1 12
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @NumaMagda1_Talk_9
 break
@@ -32,7 +32,7 @@ break
 #IF
 Equal D1 12
 Equal D2 3
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @NumaMagda1_Talk_8
 break
@@ -40,7 +40,7 @@ break
 #IF
 Equal D1 12
 Equal D2 2
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 !Checkmonmap D16064 1
 #ACT
 goto @NumaMagda1_Talk_7
@@ -49,7 +49,7 @@ break
 #IF
 Equal D1 12
 Equal D2 2
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 Checkmonmap D16064 1
 #ACT
 goto @NumaMagda1_Talk_6
@@ -58,7 +58,7 @@ break
 #IF
 Equal D1 12
 Equal D2 1
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @NumaMagda1_Talk_1
 break
@@ -98,8 +98,8 @@ break
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
-Mongenp "D16064,33,44,10" 诺玛司令 5
-ApplyMonEx "D16064,33,44,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+Mongenp "D16064,33,44,10" 璇虹帥鍙镐护 5
+ApplyMonEx "D16064,33,44,30" 璇虹帥鍙镐护 [Monsterside] "姣佺伃涔嬪嵃澶у笀"
 close
 
 [@NumaMagda1_Talk_6]
@@ -136,4 +136,4 @@ break
 [@NumaMagda1_Event_Face]
 #CALL [HonChondo\extinctionQuestEvent.txt] @madojobcheckEvent
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

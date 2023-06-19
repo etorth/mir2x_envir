@@ -3,71 +3,71 @@
 {
 begin
    #ACT
-      #DEFINE      D0{USERCOUNT}     D0  ;; À¯ÀúÀÇ Ä«¿îÆ®¸¦ ÀúÀå ÇÏ´Â ºÎºĞ
-      #DEFINE      A0{USERNANE}      A0  ;; À¯ÀúÀÇ ÀÌ¸§À» ÀúÀå ÇÏ´Â ºÎºĞ
+      #DEFINE      D0{USERCOUNT}     D0  ;; ìœ ì €ì˜ ì¹´ìš´íŠ¸ë¥¼ ì €ì¥ í•˜ëŠ” ë¶€ë¶„
+      #DEFINE      A0{USERNANE}      A0  ;; ìœ ì €ì˜ ì´ë¦„ì„ ì €ì¥ í•˜ëŠ” ë¶€ë¶„
       goto @SaveGodNessMainRootin
 
    [@SaveGodNessMainRootin]
    begin
       #IF
-         IsAdmin ;; ¿î¿µÀÚ°¡ ÀÌº¥Æ®ÀÇ ½ÃÀÛµîÀ» Á¶ÀÛÇÔ
+         IsAdmin ;; ìš´ì˜ìê°€ ì´ë²¤íŠ¸ì˜ ì‹œì‘ë“±ì„ ì¡°ì‘í•¨
       #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\GodNess.txt] @GodNess_1
-         {FCOLOR/10} ¿©½Å ÀÌº¥Æ® {FCOLOR/12} \ \
-         _<¿©½Å ÀÌº¥Æ®¸¦ ½ÃÀÛ ÇÑ´Ù./@GMStartSaveGodNess> \ \
-         _<¿©½Å ÀÌº¥Æ®¸¦ Á¾·á ÇÑ´Ù./@GMFinishSaveGodNess> \ \
-      
+         {FCOLOR/10} ì—¬ì‹  ì´ë²¤íŠ¸ {FCOLOR/12} \ \
+         _<ì—¬ì‹  ì´ë²¤íŠ¸ë¥¼ ì‹œì‘ í•œë‹¤./@GMStartSaveGodNess> \ \
+         _<ì—¬ì‹  ì´ë²¤íŠ¸ë¥¼ ì¢…ë£Œ í•œë‹¤./@GMFinishSaveGodNess> \ \
+
       #IF
       #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\GodNess.txt] @GodNess_2
-         _<¿©½Å ±¸ÇÏ±â ÀÌº¥Æ®¿¡ Âü°¡ÇÑ´Ù./@UserInputSaveGodNess> \ 
-         _<Âü°¡ÇÏÁö ¾Ê´Â´Ù./@exit>
+         _<ì—¬ì‹  êµ¬í•˜ê¸° ì´ë²¤íŠ¸ì— ì°¸ê°€í•œë‹¤./@UserInputSaveGodNess> \
+         _<ì°¸ê°€í•˜ì§€ ì•ŠëŠ”ë‹¤./@exit>
    end
 
 ;;------------------------------------------------------------------------------------------------------------
-;; GM Control ºÎºĞ
+;; GM Control ë¶€ë¶„
 ;;------------------------------------------------------------------------------------------------------------
    [@GMStartSaveGodNess]
 	   begin
 	      #ACT
 	         LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
-	      
+
 	      #IF
-	         Equal     P1         0      ;; ÀÌº¥Æ®°¡ ÁøÇàÁßÀÌÁö ¾ÊÀ»°æ¿ì¸¸ ½ÇÇàµÊ
+	         Equal     P1         0      ;; ì´ë²¤íŠ¸ê°€ ì§„í–‰ì¤‘ì´ì§€ ì•Šì„ê²½ìš°ë§Œ ì‹¤í–‰ë¨
 	      #ACT
 	         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State] 1
-	         LineMsg [Grobal] "(!)¿©½Å ±¸ÇÏ±â ÀÌº¥Æ® ½ÃÀÛÀ» ÇÏ°Ú½À´Ï´Ù."
+	         LineMsg [Grobal] "(!)ì—¬ì‹  êµ¬í•˜ê¸° ì´ë²¤íŠ¸ ì‹œì‘ì„ í•˜ê² ìŠµë‹ˆë‹¤."
 	      #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\GodNess.txt] @GodNess_3
-	         ¿©½Å ±¸ÇÏ´Â ÀÌº¥Æ®¸¦ ½ÃÀÛ ÇÏ°Ú½À´Ï´Ù. \ \
-	         <´İ  ±â/@exit> \
+	         ì—¬ì‹  êµ¬í•˜ëŠ” ì´ë²¤íŠ¸ë¥¼ ì‹œì‘ í•˜ê² ìŠµë‹ˆë‹¤. \ \
+	         <ë‹«  ê¸°/@exit> \
 	      #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\GodNess.txt] @GodNess_4
-	         ÀÌº¥Æ®¸¦ ½ÃÀÛ ÇÒ¼ö°¡ ¾ø½À´Ï´Ù. \ \
-	         <´İ  ±â/@exit> \
+	         ì´ë²¤íŠ¸ë¥¼ ì‹œì‘ í• ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤. \ \
+	         <ë‹«  ê¸°/@exit> \
 	   end
    [@GMFinishSaveGodNess]
 	   begin
 	      #ACT
 	         LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
-	      
+
 	      #IF
-	         Equal     P1         1      ;; ÀÌº¥Æ®°¡ ÁøÇàÁßÀÌÁö ¾ÊÀ»°æ¿ì¸¸ ½ÇÇàµÊ
+	         Equal     P1         1      ;; ì´ë²¤íŠ¸ê°€ ì§„í–‰ì¤‘ì´ì§€ ì•Šì„ê²½ìš°ë§Œ ì‹¤í–‰ë¨
 	      #ACT
 	         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State] 0
-	         LineMsg [Grobal] "(!)¿©½Å ±¸ÇÏ±â ÀÌº¥Æ® Á¾·á ÇÏ°Ú½À´Ï´Ù."
+	         LineMsg [Grobal] "(!)ì—¬ì‹  êµ¬í•˜ê¸° ì´ë²¤íŠ¸ ì¢…ë£Œ í•˜ê² ìŠµë‹ˆë‹¤."
 	      #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\GodNess.txt] @GodNess_5
-	         ¿©½Å ±¸ÇÏ´Â ÀÌº¥Æ®¸¦ Á¾·á ÇÏ°Ú½À´Ï´Ù. \ \
-	         <´İ  ±â/@exit> \
+	         ì—¬ì‹  êµ¬í•˜ëŠ” ì´ë²¤íŠ¸ë¥¼ ì¢…ë£Œ í•˜ê² ìŠµë‹ˆë‹¤. \ \
+	         <ë‹«  ê¸°/@exit> \
 	      #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\GodNess.txt] @GodNess_6
-	         ÀÌº¥Æ®¸¦ Á¾·á ÇÒ¼ö°¡ ¾ø½À´Ï´Ù. \ \
-	         <´İ  ±â/@exit> \
+	         ì´ë²¤íŠ¸ë¥¼ ì¢…ë£Œ í• ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤. \ \
+	         <ë‹«  ê¸°/@exit> \
 	   end
 
 ;;------------------------------------------------------------------------------------------------------------
-;; User Control ºÎºĞ
+;; User Control ë¶€ë¶„
 ;;------------------------------------------------------------------------------------------------------------
    [@UserInputSaveGodNess]
    #CALL [Event\SaveGodNess\UserSaveGodNess.txt] @UserPlay

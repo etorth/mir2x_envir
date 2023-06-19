@@ -19,19 +19,19 @@ check [212] 1
 #ACT
 goto @main_0
 break
-;   
+;
 #IF
 check [205] 1
 #ACT
 goto @main_0_3
 break
-;  
+;
 #IF
 check [203] 1
 #ACT
 goto @main_0_2
 break
-;  
+;
 #IF
 check [201] 1
 #ACT
@@ -87,8 +87,8 @@ break
 #ELSESAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw_Complete
 #ELSEACT
-take ½ğ±Ò 500000
-horsecall ºÖÉ«Âí
+take é‡‘å¸ 500000
+horsecall è¤è‰²é©¬
 
 
 [@SellHorse]
@@ -99,7 +99,7 @@ checkhorse 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_SellHorse
 #ACT
-give ½ğ±Ò 250000
+give é‡‘å¸ 250000
 KillHorse
 break
 
@@ -110,7 +110,7 @@ checkhorse 2
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_SellHorse
 #ACT
-give ½ğ±Ò 10000000
+give é‡‘å¸ 10000000
 KillHorse
 break
 

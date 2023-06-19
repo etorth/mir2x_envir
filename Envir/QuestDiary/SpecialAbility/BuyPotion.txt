@@ -12,8 +12,8 @@ checkgold 1000000
 	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\BuyPotion.txt] @BuyPotion_2
 
 #ACT
-give ����֮ҩˮ 1
-take ��� 1000000
+give ÍöÁéÖ®Ò©Ë® 1
+take ½ð±Ò 1000000
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\BuyPotion.txt] @BuyPotion_3
 

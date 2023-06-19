@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 
 
 [@Honchonmadocontrol]
@@ -306,31 +306,31 @@ break
 
 [@fridayQuestNpcMove1]
 #ACT
-Movenpc "npcroom1,10,7,ÅµÂê´ó·¨ÀÏ1" D16031 61 354
-Movenpc "npcroom1,10,8,ÅµÂê´ó·¨ÀÏ2" D16032 374 371
-Movenpc "npcroom1,10,9,ÅµÂê´ó·¨ÀÏ3" D16033 369 46
-Movenpc "npcroom1,10,10,ÅµÂê´ó·¨ÀÏ4" D16034 30 30
+Movenpc "npcroom1,10,7,è¯ºç›å¤§æ³•è€1" D16031 61 354
+Movenpc "npcroom1,10,8,è¯ºç›å¤§æ³•è€2" D16032 374 371
+Movenpc "npcroom1,10,9,è¯ºç›å¤§æ³•è€3" D16033 369 46
+Movenpc "npcroom1,10,10,è¯ºç›å¤§æ³•è€4" D16034 30 30
 
 [@fridayQuestNpcMove2]
 #ACT
-Movenpc "D16031,61,354,ÅµÂê´ó·¨ÀÏ1" npcroom1 10 7
-Movenpc "D16032,374,371,ÅµÂê´ó·¨ÀÏ2" npcroom1 10 8
-Movenpc "D16033,369,46,ÅµÂê´ó·¨ÀÏ3" npcroom1 10 9
-Movenpc "D16034,30,30,ÅµÂê´ó·¨ÀÏ4" npcroom1 10 10
+Movenpc "D16031,61,354,è¯ºç›å¤§æ³•è€1" npcroom1 10 7
+Movenpc "D16032,374,371,è¯ºç›å¤§æ³•è€2" npcroom1 10 8
+Movenpc "D16033,369,46,è¯ºç›å¤§æ³•è€3" npcroom1 10 9
+Movenpc "D16034,30,30,è¯ºç›å¤§æ³•è€4" npcroom1 10 10
 
 [@fridayQuestNpcMove3]
 #ACT
-Movenpc "npcroom1,10,7,ÅµÂê´ó·¨ÀÏ1" D1604 226 201
-Movenpc "npcroom1,10,8,ÅµÂê´ó·¨ÀÏ2" D1604 389 198
-Movenpc "npcroom1,10,9,ÅµÂê´ó·¨ÀÏ3" D1604 204 212
-Movenpc "npcroom1,10,10,ÅµÂê´ó·¨ÀÏ4" D1604 200 386
+Movenpc "npcroom1,10,7,è¯ºç›å¤§æ³•è€1" D1604 226 201
+Movenpc "npcroom1,10,8,è¯ºç›å¤§æ³•è€2" D1604 389 198
+Movenpc "npcroom1,10,9,è¯ºç›å¤§æ³•è€3" D1604 204 212
+Movenpc "npcroom1,10,10,è¯ºç›å¤§æ³•è€4" D1604 200 386
 
 [@fridayQuestnumaNpcMove]
 #ACT
-Movenpc "D16031,61,355,°¢Áú¹Ö1" npcroom1 9 7
-Movenpc "D16032,374,372,°¢Áú¹Ö2" npcroom1 9 8
-Movenpc "D16033,369,47,°¢Áú¹Ö3" npcroom1 9 9
-Movenpc "D16034,30,31,°¢Áú¹Ö4" npcroom1 9 10
+Movenpc "D16031,61,355,é˜¿é¾™æ€ª1" npcroom1 9 7
+Movenpc "D16032,374,372,é˜¿é¾™æ€ª2" npcroom1 9 8
+Movenpc "D16033,369,47,é˜¿é¾™æ€ª3" npcroom1 9 9
+Movenpc "D16034,30,31,é˜¿é¾™æ€ª4" npcroom1 9 10
 
 [@saturdayHonQuest]
 
@@ -354,10 +354,10 @@ break
 
 [@saturdayQuestNpcMove4]
 #ACT
-Movenpc "D1604,226,201,ÅµÂê´ó·¨ÀÏ1" npcroom1 10 7
-Movenpc "D1604,389,198,ÅµÂê´ó·¨ÀÏ2" npcroom1 10 8
-Movenpc "D1604,204,212,ÅµÂê´ó·¨ÀÏ3" npcroom1 10 9
-Movenpc "D1604,200,386,ÅµÂê´ó·¨ÀÏ4" npcroom1 10 10
+Movenpc "D1604,226,201,è¯ºç›å¤§æ³•è€1" npcroom1 10 7
+Movenpc "D1604,389,198,è¯ºç›å¤§æ³•è€2" npcroom1 10 8
+Movenpc "D1604,204,212,è¯ºç›å¤§æ³•è€3" npcroom1 10 9
+Movenpc "D1604,200,386,è¯ºç›å¤§æ³•è€4" npcroom1 10 10
 
 
 
@@ -367,4 +367,4 @@ Movenpc "D1604,200,386,ÅµÂê´ó·¨ÀÏ4" npcroom1 10 10
 
 
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

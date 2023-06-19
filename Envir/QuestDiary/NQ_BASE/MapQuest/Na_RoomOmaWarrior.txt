@@ -97,21 +97,21 @@ goto @enterh_omay_1
 
 [@enterh_omay_1]
 #IF
-checkitem �ǵ� 1
+checkitem ½ÇµÑ 1
 #ACT
 Monclear D001_001
 Param1 D001_001
 Param2 19
 Param3 12
-MonGen ������ʿ61 1 1
+MonGen °ëÊÞÓÂÊ¿61 1 1
 Param1 D001_001
 Param2 9
 Param3 13
-MonGen ����սʿ61 3 2
+MonGen °ëÊÞÕ½Ê¿61 3 2
 Param1 D001_001
 Param2 13
 Param3 16
-MonGen ����սʿ61 4 2
+MonGen °ëÊÞÕ½Ê¿61 4 2
 SET [186] 1
 enter_ok
 #ELSESAY

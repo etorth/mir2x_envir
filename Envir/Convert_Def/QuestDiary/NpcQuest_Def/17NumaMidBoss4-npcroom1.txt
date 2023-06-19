@@ -2,13 +2,13 @@
 
 [@Convert_17NumaMidBoss4-npcroom1_0]
 {
-<¸úÅµÂêÅÑ¾üÊ×Áì½øÐÐ¶Ô»°¡£/@NumaMidBoss4_start1>
+<è·Ÿè¯ºçŽ›å›å†›é¦–é¢†è¿›è¡Œå¯¹è¯ã€‚/@NumaMidBoss4_start1>
 }
 
 [@Convert_17NumaMidBoss4-npcroom1_1]
 {
-²»Òª¸ßÐËµÃÌ«Ôç£¬½ñÌìÄãÖ»ÊÇÔËÆøºÃ¶øÒÑ¡­¡­ÏÂ´ÎÔÙÅöµ½Äã£¬Äã¾ÍËÀ¶¨ÁË¡£ \ \
-<¹Ø ±Õ/@exit>
+ä¸è¦é«˜å…´å¾—å¤ªæ—©ï¼Œä»Šå¤©ä½ åªæ˜¯è¿æ°”å¥½è€Œå·²â€¦â€¦ä¸‹æ¬¡å†ç¢°åˆ°ä½ ï¼Œä½ å°±æ­»å®šäº†ã€‚ \ \
+<å…³ é—­/@exit>
 
 
 }

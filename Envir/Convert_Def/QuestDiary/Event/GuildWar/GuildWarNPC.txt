@@ -1,117 +1,117 @@
 [Convert]
-Msg0 = ���ص��л��ʤ��
-Msg1 = �������л��ʤ��
-Msg2 = ���һСʱ֮�ڲ���ռ��ɳĮ���Ǿ���ʧ�ܡ�
-Msg3 = '<$OUTPUT(A0)>' ���л�ռ����ɳĮ���ǡ�
+Msg0 = 防守的行会获胜。
+Msg1 = 攻击的行会获胜。
+Msg2 = 如果一小时之内不能占领沙漠土城就算失败。
+Msg3 = '<$OUTPUT(A0)>' 的行会占领了沙漠土城。
 
 [@Convert_GuildWarNPC_0]
 {
-<�л�ս��ʼ��/@GuildEventSystemTime> \ \
-<�÷����л��ʤ��/@GuildEventSystemWinA> \
-<�ù����л��ʤ��/@GuildEventSystemWinB> \ \
+<行会战开始。/@GuildEventSystemTime> \ \
+<让防守行会获胜。/@GuildEventSystemWinA> \
+<让攻击行会获胜。/@GuildEventSystemWinB> \ \
 
 }
 
 [@Convert_GuildWarNPC_1]
 {
-ɳĮ������ɳĮ�����ĵ���... \ \
-<ȷ�ϲμ�ɳĮ�����л�ս���л����ơ�/@ConfirmWarEventSystem> \
-<����μ�ռ��ɳĮ���ǵ��л�ս��/@JoinGuildWarEventSystem> \
-<�μ�ɳĮ�����л�ս��/@StartGuildWarEventSystem> \ \
-<���л�ս��ʤ��ռ��ɳĮ���ǡ�/@SamakTaosungMake> \ \
-<��  ��/@exit>
+沙漠土城是沙漠的中心地区... \ \
+<确认参加沙漠土城行会战的行会名称。/@ConfirmWarEventSystem> \
+<申请参加占领沙漠土城的行会战。/@JoinGuildWarEventSystem> \
+<参加沙漠土城行会战。/@StartGuildWarEventSystem> \ \
+<在行会战中胜利占领沙漠土城。/@SamakTaosungMake> \ \
+<关  闭/@exit>
 
 
 }
 
 [@Convert_GuildWarNPC_2]
 {
-���гǵ��л᲻��ռ��ɳĮ���ǡ�\ \
-<��  ��/@exit>
+已有城的行会不能占领沙漠土城。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_3]
 {
-���������˵Ļ�����ռ��ɳĮ���ǡ�\ \
-<��  ��/@exit>
+不是掌门人的话不能占领沙漠土城。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_4]
 {
-<$GUILDNAME>�л�û�вμ��л��ս����û��ʤ����\ \
-<��  ��/@exit>
+<$GUILDNAME>行会没有参加行会大战或是没有胜利。\ \
+<关  闭/@exit>
 
 
 }
 
 [@Convert_GuildWarNPC_5]
 {
-�л��ս�з������л� : {FCOLOR/10}<$CS_TAOSUNG_OWNER>{FCOLOR/12} �л�\ \
-�л��ս����ս���л� : {FCOLOR/10}<$OUTPUT(A6)>{FCOLOR/12} �л�\ \
-<��  ��/@exit>
+行会大战中防御的行会 : {FCOLOR/10}<$CS_TAOSUNG_OWNER>{FCOLOR/12} 行会\ \
+行会大战中挑战的行会 : {FCOLOR/10}<$OUTPUT(A6)>{FCOLOR/12} 行会\ \
+<关  闭/@exit>
 }
 
 [@Convert_GuildWarNPC_6]
 {
-û��������лᡣ\ \
-<��  ��/@exit>
+没有申请的行会。\ \
+<关  闭/@exit>
 
 
 }
 
 [@Convert_GuildWarNPC_7]
 {
-��Ϊ���ڲ���ɳĮ�����л��ս�볡ʱ�䣬���Բ��ܲμӡ�\ \
-<��  ��/@exit>
+因为现在不是沙漠土城行会大战入场时间，所以不能参加。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_8]
 {
-ɳĮ�����л�սֻ����5�㵽7��֮��������롣\ \
-<��  ��/@exit>
+沙漠土城行会战只能在5点到7点之间进行申请。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_9]
 {
-�����л�Ļ���������ɳĮ�����л�ս��\ \
-<��  ��/@exit>
+不是行会的话不能申请沙漠土城行会战。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_10]
 {
-�������л᲻�ܲμ��л�ս��\ \
-<��  ��/@exit>
+城主的行会不能参加行会战。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_11]
 {
-��ַ����û�еĻ����ܲμ��л�ս��\ \
-<��  ��/@exit>
+遗址雕像没有的话不能参加行会战。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_12]
 {
-<$GUILDNAME>�л��Ѿ��μ���ɳĮ�����л�ս��\ \
-<��  ��/@exit>
+<$GUILDNAME>行会已经参加了沙漠土城行会战。\ \
+<关  闭/@exit>
 
 }
 
 [@Convert_GuildWarNPC_13]
 {
-�μ���ɳĮ�����л�ս��\ \
-ɳĮ�����л�ս�ڽ���9����С�\ \
-<��  ��/@exit>
+参加了沙漠土城行会战。\ \
+沙漠土城行会战在今天9点进行。\ \
+<关  闭/@exit>
 }
 
 [@Convert_GuildWarNPC_14]
 {
-ɳĮ�����л�ս�Ѿ��б���л�μ��ˡ�\ \
-<��  ��/@exit>
+沙漠土城行会战已经有别的行会参加了。\ \
+<关  闭/@exit>
 }

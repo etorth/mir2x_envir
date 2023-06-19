@@ -37,8 +37,8 @@ break
 #ELSESAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw_Complete
 #ELSEACT
-take 金币 90000000
-horsecall 黑马
+take 閲戝竵 90000000
+horsecall 榛戦┈
 
 
 [@SellHorse]
@@ -49,7 +49,7 @@ checkhorse 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_SellHorse
 #ACT
-give 金币 250000
+give 閲戝竵 250000
 KillHorse
 break
 
@@ -60,7 +60,7 @@ checkhorse 2
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_SellHorse
 #ACT
-give 金币 10000000
+give 閲戝竵 10000000
 KillHorse
 break
 

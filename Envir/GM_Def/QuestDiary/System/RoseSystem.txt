@@ -1,5 +1,5 @@
 ;;RoseSystem.txt
 [RoseSystem]
 SetPoint = 11400
-GiveItemName = õ��
+GiveItemName = Ãµ¹å
 GiveItemmNum = 1

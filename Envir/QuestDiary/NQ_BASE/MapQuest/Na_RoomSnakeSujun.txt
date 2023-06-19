@@ -87,7 +87,7 @@ goto @enterh_bgp_1
 
 [@enterh_bgp_1]
 #IF
-checkitem »ÙÃð»¤Éí·û 1
+checkitem Â»Ã™ÃƒÃ°Â»Â¤Ã‰Ã­Â·Ã» 1
 #ACT
 goto @enterh_bgp_2
 #ELSESAY
@@ -107,5 +107,5 @@ monclear D422_002
 param1 D422_002
 param2 13
 param3 20
-mongen Êð¼ý 1 1
+mongen ÃŠÃ°Â¼Ã½ 1 1
 set [243] 1

@@ -1,7 +1,7 @@
 [Convert]
-Msg0 = ¿ªÊ¼ 
-Msg1 = ÐÇÆÚ¶þ
-Msg2 = ÐÇÆÚÈý
-Msg3 = ÐÇÆÚËÄ
-Msg4 = ÐÇÆÚÎå
-Msg5 = ÐÇÆÚÁù
+Msg0 = å¼€å§‹
+Msg1 = æ˜ŸæœŸäºŒ
+Msg2 = æ˜ŸæœŸä¸‰
+Msg3 = æ˜ŸæœŸå››
+Msg4 = æ˜ŸæœŸäº”
+Msg5 = æ˜ŸæœŸå…­

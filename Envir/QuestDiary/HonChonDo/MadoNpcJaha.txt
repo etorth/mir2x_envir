@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 
 
 
@@ -676,4 +676,4 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=4"
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcJaha.txt] @Convert_MadoNpcJaha_32
 
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

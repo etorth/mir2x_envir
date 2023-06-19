@@ -41,9 +41,9 @@ goto @main_0_0
 
 [@remove_sword]
 #IF
-checkitemw ¹¥É±Ìú½£ 1
+checkitemw Â¹Â¥Ã‰Â±ÃŒÃºÂ½Â£ 1
 #ACT
-takew ¹¥É±Ìú½£ 1
+takew Â¹Â¥Ã‰Â±ÃŒÃºÂ½Â£ 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Samak1-5_002.txt] @NPC_Remove_Sword
 #ELSEACT
@@ -52,10 +52,10 @@ goto @remove_sword_1
 
 [@remove_sword_1]
 #IF
-checkitemw ìÍ»ğ½£ 1
+checkitemw Ã¬ÃÂ»Ã°Â½Â£ 1
 #ACT
-takew ¹¥É±Ìú½£ 1
-takew ìÍ»ğ½£ 1
+takew Â¹Â¥Ã‰Â±ÃŒÃºÂ½Â£ 1
+takew Ã¬ÃÂ»Ã°Â½Â£ 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Samak1-5_002.txt] @NPC_Remove_Sword_1
 
@@ -64,13 +64,13 @@ takew ìÍ»ğ½£ 1
 
 [Goods]
 ;ItemName      Volume     Hour
-ÇàÍ­¸«        100        1
-°Ë»Ä          100        1
-Áè·ç          100        1
-Õ¶Âíµ¶        100        1
-ĞŞÂŞ          100        1
-º£»ê          100        1
-°ëÔÂ            100        1
+Ã‡Ã ÃÂ­Â¸Â«        100        1
+Â°Ã‹Â»Ã„          100        1
+ÃÃ¨Â·Ã§          100        1
+Ã•Â¶Ã‚Ã­ÂµÂ¶        100        1
+ÃÃÃ‚Ã          100        1
+ÂºÂ£Â»Ãª          100        1
+Â°Ã«Ã”Ã‚            100        1
 
 
 [@TQuest]

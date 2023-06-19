@@ -1,55 +1,55 @@
 ;;RefineName.txt
 [@RefineName_1]
 {
-Á¶ÖÆÎäÆ÷ÐèÒªÊÖÀïÄÃ×ÅÎäÆ÷!!\ \
-<½áÊø/@exit>
+ç‚¼åˆ¶æ­¦å™¨éœ€è¦æ‰‹é‡Œæ‹¿ç€æ­¦å™¨!!\ \
+<ç»“æŸ/@exit>
 }
 
 [@RefineName_2]
 {
-ÕæÏëÔÚÎäÆ÷ÉÏ¿ÌÃû×ÖÂð£¿ \ \
-<¿Ì/@RefineCorrect> Ãû×Ö\
-<½áÊø/@exit>
+çœŸæƒ³åœ¨æ­¦å™¨ä¸Šåˆ»åå­—å—ï¼Ÿ \ \
+<åˆ»/@RefineCorrect> åå­—\
+<ç»“æŸ/@exit>
 }
 
 [@RefineName_3]
 {
-Ç®²»¹»°¡¡£¡£\ \
-<½áÊø/@exit>
+é’±ä¸å¤Ÿå•Šã€‚ã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@RefineName_4]
 {
-Á¶ÖÆÎäÆ÷ÐèÒªÊÖÀïÄÃ×ÅÎäÆ÷!!\ \
-<½áÊø/@exit>
+ç‚¼åˆ¶æ­¦å™¨éœ€è¦æ‰‹é‡Œæ‹¿ç€æ­¦å™¨!!\ \
+<ç»“æŸ/@exit>
 }
 
 [@RefineName_5]
 {
-ÔÚÎäÆ÷ÉÏ¿ÌÃû×ÖµÈÓÚÊÇÌá¸ß½£µÄÃûÓþ¡£¡£\
-É÷ÖØµÄ¿¼ÂÇÒ»ÏÂ°É¡£Ãû×Ö²»¿ÉÒÔ³¬¹ýºº×Ö6×ÖÒÔÉÏ¡£¡£\ \
-<ÔÚÎäÆ÷ÉÏÃæ¿ÌÃû×Ö¡£/@@WriteWeaponName>
+åœ¨æ­¦å™¨ä¸Šåˆ»åå­—ç­‰äºŽæ˜¯æé«˜å‰‘çš„åèª‰ã€‚ã€‚\
+æ…Žé‡çš„è€ƒè™‘ä¸€ä¸‹å§ã€‚åå­—ä¸å¯ä»¥è¶…è¿‡æ±‰å­—6å­—ä»¥ä¸Šã€‚ã€‚\ \
+<åœ¨æ­¦å™¨ä¸Šé¢åˆ»åå­—ã€‚/@@WriteWeaponName>
 }
 
 [@RefineName_6]
 {
-Ç®²»¹»°¡¡£¡£\ \
-<½áÊø/@exit>
+é’±ä¸å¤Ÿå•Šã€‚ã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@RefineName_7]
 {
-Ç®²»¹»°¡¡£¡£\ \
-<½áÊø/@exit>
+é’±ä¸å¤Ÿå•Šã€‚ã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@RefineName_8]
 {
-Äã°ÑÎäÆ÷µÄÃû×Ö¿ÌÎª <$INPUTSTR> ¡£\ \
-<½áÊø/@exit>
+ä½ æŠŠæ­¦å™¨çš„åå­—åˆ»ä¸º <$INPUTSTR> ã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@RefineName_9]
 {
-Í¶·ÅÎäÆ÷µÄÃû×ÖÊ§°ÜÁË¡£ \ \
+æŠ•æ”¾æ­¦å™¨çš„åå­—å¤±è´¥äº†ã€‚ \ \
 }

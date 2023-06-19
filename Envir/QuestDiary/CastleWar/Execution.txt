@@ -26,7 +26,7 @@ equal A0  %PASSWD(1)
 ;;Super Admin Password
 ;;equal A0  %PASSWD(0)
 ;;User Password(Store Password)
-;;equal A0  %PASSWD(9)  
+;;equal A0  %PASSWD(9)
 
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_4
@@ -62,7 +62,7 @@ IsGuildMaster
 
 [@UserChangeFlag_next]
 #ACT
-SendCmd "0,478,367,1" ĞĞ»áÆì @TestUserFlag
+SendCmd "0,478,367,1" ÃÃÂ»Ã¡Ã†Ã¬ @TestUserFlag
 
 [@MakeGuild]
 #IF
@@ -82,7 +82,7 @@ break
 break
 
 #IF
-checkitem ÎÖÂêºÅ½Ç 1
+checkitem ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
 checkgold 1000000
 #ACT
 EnableCmd @@buildguild
@@ -98,11 +98,11 @@ break
 
 [@@buildguild]
 #IF
-checkitem ÎÖÂêºÅ½Ç 1
+checkitem ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
 checkgold 1000000
 #ACT
-take ½ğ±Ò 1000000
-take ÎÖÂêºÅ½Ç 1
+take Â½Ã°Â±Ã’ 1000000
+take ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
 BuildGuild @MakeGuildOK
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_14
@@ -118,8 +118,8 @@ BuildGuild @MakeGuildOK
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_16
 
 #ACT
-give ÎÖÂêºÅ½Ç 1
-give ½ğ±Ò 1000000
+give ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
+give Â½Ã°Â±Ã’ 1000000
 
 [@buildguildexp]
 #SAY
@@ -137,7 +137,7 @@ give ½ğ±Ò 1000000
 #IF
 checkgold 30000
 #ACT
-take ½ğ±Ò 30000
+take Â½Ã°Â±Ã’ 30000
 EnableCmd @@guildwar
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_19
@@ -159,7 +159,7 @@ GuildWar @GuildMakeWarOK
 	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Execution.txt] @Execution_22
 
 #ACT
-give ½ğ±Ò 30000
+give Â½Ã°Â±Ã’ 30000
 
 [@guildwarexp]
 #SAY

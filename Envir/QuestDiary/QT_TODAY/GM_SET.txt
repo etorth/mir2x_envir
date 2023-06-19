@@ -5,8 +5,8 @@
 
 #IF
 #SAY
-_<����ÿ��������./@@Put_QT_Number>\
-_<ȷ�Ͻ��յ�ÿ��������./@Check_set_Tquest_G4>
+_<输入每日任务编号./@@Put_QT_Number>\
+_<确认接收的每日任务编号./@Check_set_Tquest_G4>
 
 [@@Put_QT_Number]
 #IF
@@ -2539,10 +2539,10 @@ reset [307] 3
 ;set [310] 0
 ;reset [307] 3
 ;#SAY
-;ֻ˵һ�飬ϣ���������á���\ 
-;�������ȥ��һ����{FCOLOR/10}ɳ�Ϳ˳�{FCOLOR/12}��ҩ�̵�{FCOLOR/10}����{FCOLOR/12}�ɡ�\ 
-;����Ҳ����ɳ�Ϳ˳�{FCOLOR/10}196 : 255{FCOLOR/12}������\ \
-;<����/@exit>
+;只说一遍，希望认真听好。。\
+;这次事情去找一下在{FCOLOR/10}沙巴克城{FCOLOR/12}里药铺的{FCOLOR/10}基德{FCOLOR/12}吧。\
+;基德也许在沙巴克城{FCOLOR/10}196 : 255{FCOLOR/12}附近。\ \
+;<结束/@exit>
 
 ;---------------
 

@@ -1,8 +1,8 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@honchonmadoRoom_1]
 {
 #IF
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @Madoroom_ok
 break
@@ -86,7 +86,7 @@ Enter_fail
 
 [@main_Day_ok_1]
 #IF
-Checkitem 毁灭之印 1
+Checkitem 姣佺伃涔嬪嵃 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_3
@@ -112,7 +112,7 @@ MAPMOVE D16062 37 48
 
 [@Madoroom_ok]
 #IF
-Checkitemw 寂幻之刃 1
+Checkitemw 瀵傚够涔嬪垉 1
 !checkhum D1606 1
 
 #SAY
@@ -136,4 +136,4 @@ GroupMove "D1606,37,48" %USERNAME
 MAPMOVE D1606 37 48
 
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

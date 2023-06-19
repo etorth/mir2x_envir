@@ -1,6 +1,6 @@
 ;;AntTele.txt
 [@AntTele_1]
 {
-������ʯ \ \
-<�ƶ������޴������Ǯ : 500 Ǯ/@TelePortRootin(Oasis,500,Center)> \
+六面神石 \ \
+<移动至绿洲村所需金钱 : 500 钱/@TelePortRootin(Oasis,500,Center)> \
 }

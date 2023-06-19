@@ -2,7 +2,7 @@
 [@JEMABOOK_EUNSIL1]
 {
 #IF
-checkitem ÆøÁØÖ¤Êé 1
+checkitem æ°”éœ–è¯ä¹¦ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_1
 
@@ -46,7 +46,7 @@ goto @JEMABOOK_HWONGGR_2_1
 
 [@JEMABOOK_HWONGGR_2_1]
 #IF
-checkitem ÓñÖ¸»· 1
+checkitem ç‰æŒ‡ç¯ 1
 #ACT
 goto @JEMABOOK_HWONGGR_2_2
 #ELSESAY
@@ -73,9 +73,9 @@ check [257] 1
 
 [@JEMABOOK_HWONGGR_2_4]
 #IF
-checkitem ÓñÖ¸»· 1
+checkitem ç‰æŒ‡ç¯ 1
 #ACT
-take ÓñÖ¸»· 1
+take ç‰æŒ‡ç¯ 1
 goto @JEMABOOK_HWONGGR_2_5
 #ELSEACT
 mov d9 1
@@ -87,7 +87,7 @@ mov d9 1
 #IF
 gender man
 #ACT
-give ÖÆÄ§±¦Óñ 1
+give åˆ¶é­”å®ç‰ 1
 mov d9 0
 reset [254] 3
 set [258] 1
@@ -95,7 +95,7 @@ set [258] 1
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_11
 
 #ELSEACT
-give ÖÆÄ§±¦Óñ 1
+give åˆ¶é­”å®ç‰ 1
 mov d9 0
 reset [254] 3
 set [258] 1
@@ -105,9 +105,9 @@ set [258] 1
 
 [@JEMABOOK_HWONGGR_2_6]
 #IF
-checkitem ÓñÖ¸»· 1
+checkitem ç‰æŒ‡ç¯ 1
 #ACT
-take ÓñÖ¸»· 1
+take ç‰æŒ‡ç¯ 1
 goto @JEMABOOK_HWONGGR_2_7
 #ELSEACT
 mov d9 1
@@ -119,7 +119,7 @@ mov d9 1
 #IF
 gender man
 #ACT
-give ÖÆÄ§±¦Óñ 1
+give åˆ¶é­”å®ç‰ 1
 mov d9 0
 reset [254] 3
 set [258] 1
@@ -127,7 +127,7 @@ set [258] 1
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_14
 
 #ELSEACT
-give ÖÆÄ§±¦Óñ 1
+give åˆ¶é­”å®ç‰ 1
 mov d9 0
 reset [254] 3
 set [258] 1
@@ -139,7 +139,7 @@ set [258] 1
 [@JEMABOOK_SOBAKHWA_1]
 {
 #IF
-checkitem ÆøÁØÖ¤Êé 1
+checkitem æ°”éœ–è¯ä¹¦ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\jema.txt] @jema_16
 
@@ -170,8 +170,8 @@ gender man
 check [257] 0
 check [256] 1
 #ACT
-take ÆøÁØÖ¤Êé 1
-give ÓñÖ¸»· 1
+take æ°”éœ–è¯ä¹¦ 1
+give ç‰æŒ‡ç¯ 1
 mov d9 0
 set [257] 1
 #SAY
@@ -183,8 +183,8 @@ set [257] 1
 check [257] 0
 check [256] 1
 #ACT
-take ÆøÁØÖ¤Êé 1
-give ÓñÖ¸»· 1
+take æ°”éœ–è¯ä¹¦ 1
+give ç‰æŒ‡ç¯ 1
 mov d9 0
 set [257] 1
 #SAY

@@ -39,7 +39,7 @@ goto @main_0_0
 #CALL [\MU_Total_sell\Wizard\lightShock.txt] @Mu_Wizard_light_shock
 
 [@Go_Mu_Wizard_fire_line]
-#CALL [\MU_Total_sell\Wizard\fireLine.txt] @Mu_Wizard_fire_line 
+#CALL [\MU_Total_sell\Wizard\fireLine.txt] @Mu_Wizard_fire_line
 
 [@Go_Mu_Wizard_light_recall]
 #CALL [\MU_Total_sell\Wizard\lightRecall.txt] @Mu_Wizard_light_recall

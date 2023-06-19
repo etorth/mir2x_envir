@@ -31,7 +31,7 @@ goto @main_0_0
 #IF
 checkbaggage
 #ACT
-give µÿ”¸…Ò÷” 1
+give ¬µ√ò√ì√º√â√±√ñ√ì 1
 set [284] 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\14Quest_WoomaPalace-D022_001.txt] @NPC_NQuest_1

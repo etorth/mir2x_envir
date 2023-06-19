@@ -73,7 +73,7 @@ check [250] 1
 check [253] 0
 check [250] 1
 #ACT
-give ÄÍ¾ÃÌúÊÖïí 1
+give è€ä¹…é“æ‰‹é•¯ 1
 reset [249] 2
 set [252] 1
 #SAY
@@ -117,8 +117,8 @@ check [251] 1
 checkgold 1000
 #ACT
 set [592] 0
-take ½ğ±Ò 1000
-give ÒøÊÖïí 1
+take é‡‘å¸ 1000
+give é“¶æ‰‹é•¯ 1
 reset [249] 2
 set [253] 1
 #SAY
@@ -172,7 +172,7 @@ set [250] 1
 check [251] 0
 check [249] 1
 #ACT
-give ÆøÁØÖ¤Êé 1
+give æ°”éœ–è¯ä¹¦ 1
 set [251] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\mujun.txt] @mujun_18

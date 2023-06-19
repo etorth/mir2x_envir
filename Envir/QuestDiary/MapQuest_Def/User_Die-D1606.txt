@@ -1,9 +1,9 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 
 [@Main]
 #IF
 check [207] 1
-checkitem 寂幻之刃 1
+checkitem 瀵傚够涔嬪垉 1
 #ACT
 goto @MadoHaveDie2_1_0
 break
@@ -12,4 +12,4 @@ break
 
 [@MadoHaveDie2_1_0]
 #CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveDie2_1
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

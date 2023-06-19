@@ -1,14 +1,14 @@
 ;;Treasure.txt
 [@Monkey]
 {
-#Define  N1{EVENT}    N1                             ;N1   0:ÀÌº¥Æ®Áß¾Æ´Ô, 1:ÀÌº¥Æ®Áß
-#Define  N2{TIME}     N2                             ;N2   ½Ã°£
-#Define  N3{OPEN}     N3                             ;N3   0:ÀÌº¥Æ®¸Ê ´İÈû, 1:ÀÌº¥Æ®¸Ê ¿­¸²
-#Define  N4{FINISH}   N4                             ;N4   ÀÌº¥Æ® Á¾·á Ã¼Å©
-#Define  N5{AI}       N5                             ;N5   ¸ó½ºÅÍ ÀÌµ¿ Å¸ÀÔ
-#Define  N6{Reward}   N6                             ;N6   ÀÌº¥Æ® ¿Ï·áÈÄ, ÃÖÁ¾ º¸»óÀ» ¾ò±â À§ÇÑ ½Ã°£À» ÁÖ±â À§ÇÔ. 1=ÀÌº¥Æ® Á¾·á, 0=ÀÌº¥Æ® Á¾·áÈÄ 30ºĞ °æ°ú ÀÌº¥Æ® Àç½ÃÀÛ °¡´É
-#Define  N8{GOLD}     N8                             ;N8   »ó±İ
-#Define  N9{DropGold} N9                             ;N9   Áß°£»ó±İ
+#Define  N1{EVENT}    N1                             ;N1   0:Ã€ÃŒÂºÂ¥Ã†Â®ÃÃŸÂ¾Ã†Â´Ã”, 1:Ã€ÃŒÂºÂ¥Ã†Â®ÃÃŸ
+#Define  N2{TIME}     N2                             ;N2   Â½ÃƒÂ°Â£
+#Define  N3{OPEN}     N3                             ;N3   0:Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠ Â´Ä°ÃˆÃ», 1:Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠ Â¿Â­Â¸Â²
+#Define  N4{FINISH}   N4                             ;N4   Ã€ÃŒÂºÂ¥Ã†Â® ÃÂ¾Â·Ã¡ ÃƒÂ¼Ã…Â©
+#Define  N5{AI}       N5                             ;N5   Â¸Ã³Â½ÂºÃ…Ã Ã€ÃŒÂµÂ¿ Ã…Â¸Ã€Ã”
+#Define  N6{Reward}   N6                             ;N6   Ã€ÃŒÂºÂ¥Ã†Â® Â¿ÃÂ·Ã¡ÃˆÃ„, ÃƒÃ–ÃÂ¾ ÂºÂ¸Â»Ã³Ã€Â» Â¾Ã²Â±Ã¢ Ã€Â§Ã‡Ã‘ Â½ÃƒÂ°Â£Ã€Â» ÃÃ–Â±Ã¢ Ã€Â§Ã‡Ã”. 1=Ã€ÃŒÂºÂ¥Ã†Â® ÃÂ¾Â·Ã¡, 0=Ã€ÃŒÂºÂ¥Ã†Â® ÃÂ¾Â·Ã¡ÃˆÃ„ 30ÂºÄ Â°Ã¦Â°Ãº Ã€ÃŒÂºÂ¥Ã†Â® Ã€Ã§Â½ÃƒÃ€Ã› Â°Â¡Â´Ã‰
+#Define  N8{GOLD}     N8                             ;N8   Â»Ã³Â±Ä°
+#Define  N9{DropGold} N9                             ;N9   ÃÃŸÂ°Â£Â»Ã³Â±Ä°
 
 begin
 	#IF
@@ -20,7 +20,7 @@ begin
 
 [@Monkey_CheckMap]
 	begin
-		#IF 
+		#IF
 		   Equal N6{Reward} 0
 		#ACT
 		   goto @Monkey_CheckMap_1
@@ -31,10 +31,10 @@ begin
 [@Monkey_CheckMap_1]
 	begin
 		#IF
-			checkitem Éú´æÓÎÏ·³¡µØµØÍ¼1 1
-			checkitem Éú´æÓÎÏ·³¡µØµØÍ¼2 1
-			checkitem Éú´æÓÎÏ·³¡µØµØÍ¼3 1
-			checkitem Éú´æÓÎÏ·³¡µØµØÍ¼4 1
+			checkitem Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼1 1
+			checkitem Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼2 1
+			checkitem Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼3 1
+			checkitem Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼4 1
 		#SAY
 			#INCLUDE [..\Convert_Def\QuestDiary\Event\Island\Treasure.txt] @Event_Island_Treasure_Say_3
 		#ELSESAY
@@ -45,27 +45,27 @@ begin
 	begin
 		#ACT
 			LoadValue P1 "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold"
-		
+
 		#IF
-			Small P1 1000000   ;; ÃÊ±â ±İ¾× 100¸¸À¸·Î
+			Small P1 1000000   ;; ÃƒÃŠÂ±Ã¢ Â±Ä°Â¾Ã— 100Â¸Â¸Ã€Â¸Â·Ã
 		#ACT
-			Mov  N8{GOLD}      1000000   ;; ÃÊ±â ±İ¾× 100¸¸À¸·Î
+			Mov  N8{GOLD}      1000000   ;; ÃƒÃŠÂ±Ã¢ Â±Ä°Â¾Ã— 100Â¸Â¸Ã€Â¸Â·Ã
 		#ELSEACT
 			Mov  N8{GOLD}      %P1
-		
+
 		#IF
 			!Equal N1{EVENT}  1
 		#ACT
-			mov  N1{EVENT}    1                                    ; º¸¹°¼¶ ÀÌº¥Æ® ½ÃÀÛ
-			mov  N2{TIME}     0                                    ; º¸¹°¼¶ ½Ã°£À» ÃÊ±âÈ­ ÇÔ
-			mov  N3{OPEN}     1                                    ; º¸¹°¼¶ ÀÔ±¸¸¦ ¿­¾îÁÜ
-			mov  N5{AI}       0                                    ; º¸¹°¼¶ ¸ó½ºÅÍ AI ¼¼ÆÃ
-         mov  N4{FINISH}   0                                    ; ¿î¿µÀÚ°¡ Áß°£¿¡ Áß´ÜÀ» ÇßÀ» °æ¿ì
-			mov  N9{DropGold} 0                                    ; º¸¹°¼¶ Áß°£ µ· ¼¼ÆÃ
-			take Éú´æÓÎÏ·³¡µØµØÍ¼1 1
-			take Éú´æÓÎÏ·³¡µØµØÍ¼2 1
-			take Éú´æÓÎÏ·³¡µØµØÍ¼3 1
-			take Éú´æÓÎÏ·³¡µØµØÍ¼4 1
+			mov  N1{EVENT}    1                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€ÃŒÂºÂ¥Ã†Â® Â½ÃƒÃ€Ã›
+			mov  N2{TIME}     0                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Â½ÃƒÂ°Â£Ã€Â» ÃƒÃŠÂ±Ã¢ÃˆÂ­ Ã‡Ã”
+			mov  N3{OPEN}     1                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€Ã”Â±Â¸Â¸Â¦ Â¿Â­Â¾Ã®ÃÃœ
+			mov  N5{AI}       0                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ Â¸Ã³Â½ÂºÃ…Ã AI Â¼Â¼Ã†Ãƒ
+         mov  N4{FINISH}   0                                    ; Â¿Ã®Â¿ÂµÃ€ÃšÂ°Â¡ ÃÃŸÂ°Â£Â¿Â¡ ÃÃŸÂ´ÃœÃ€Â» Ã‡ÃŸÃ€Â» Â°Ã¦Â¿Ã¬
+			mov  N9{DropGold} 0                                    ; ÂºÂ¸Â¹Â°Â¼Â¶ ÃÃŸÂ°Â£ ÂµÂ· Â¼Â¼Ã†Ãƒ
+			take Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼1 1
+			take Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼2 1
+			take Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼3 1
+			take Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÂµÃ˜ÂµÃ˜ÃÂ¼4 1
 			goto @UserSettingStartIsland
 		#ELSESAY
 			#INCLUDE [..\Convert_Def\QuestDiary\Event\Island\Treasure.txt] @Event_Island_Treasure_Say_5
@@ -74,29 +74,29 @@ begin
 [@UserSettingStartIsland]
 #IF
 #ACT
-	MonClear "Island02" "Ô³ºïÕ½Ê¿"                           ; ¸ğµç ¸ó½ºÅÍ »èÁ¦
-	MonClear "Island02" "Ô³ºïÕ½½«"
-	MonClear "Island02" "Ä§Éñ¹Ö1"
-	MonClear "Island02" "¾Û±¦Ïä4"
-	SendCmd  "Island02, 95, 135, 5"  Éú´æÓÎÏ·³¡ÃÀÃ¼  Hide      ; Å»Ãâ ¼Ò³à ¾ø¾Ú
-	ResetMapAttr "Island02"                                ; ÀÌº¥Æ®¸Ê ¼Ó¼º(SetEventMap)±îÁö ÃÊ±âÈ­µÊ
-	ClearItemMap "Island02, 100, 100, 9999" ½ğ±Ò             ; º¸¹°¼¶ ¸Ê¾È¿¡¸¦ ±ú²ıÇÏ°Ô
-	ChangeMapAttr  "Island02" "NOCHAT"                     ; º¸¹°¼¶¿¡¼­´Â Ã¤ÆÃÀÌ ¾ÈµÇ°Ô ¸¸µë
-	SetEventDamage Island02  5                             ; 5¹è µ¥¹ÌÁö
-	SetEventMap  "Island02"                                ; new cmd ÀÌº¥Æ®¸ÊÀ¸·Î ¸¸µë (ResetEventMap)
-	SendCmd  "Island02, 95, 135, 5"  Éú´æÓÎÏ·³¡ÃÀÃ¼  Hide
+	MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½ÃŠÂ¿"                           ; Â¸ÄŸÂµÃ§ Â¸Ã³Â½ÂºÃ…Ã Â»Ã¨ÃÂ¦
+	MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½Â½Â«"
+	MonClear "Island02" "Ã„Â§Ã‰Ã±Â¹Ã–1"
+	MonClear "Island02" "Â¾Ã›Â±Â¦ÃÃ¤4"
+	SendCmd  "Island02, 95, 135, 5"  Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÃƒÃ€ÃƒÂ¼  Hide      ; Ã…Â»ÃƒÃ¢ Â¼Ã’Â³Ã  Â¾Ã¸Â¾Ãš
+	ResetMapAttr "Island02"                                ; Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠ Â¼Ã“Â¼Âº(SetEventMap)Â±Ã®ÃÃ¶ ÃƒÃŠÂ±Ã¢ÃˆÂ­ÂµÃŠ
+	ClearItemMap "Island02, 100, 100, 9999" Â½ÄŸÂ±Ã’             ; ÂºÂ¸Â¹Â°Â¼Â¶ Â¸ÃŠÂ¾ÃˆÂ¿Â¡Â¸Â¦ Â±ÃºÂ²Ä±Ã‡ÃÂ°Ã”
+	ChangeMapAttr  "Island02" "NOCHAT"                     ; ÂºÂ¸Â¹Â°Â¼Â¶Â¿Â¡Â¼Â­Â´Ã‚ ÃƒÂ¤Ã†ÃƒÃ€ÃŒ Â¾ÃˆÂµÃ‡Â°Ã” Â¸Â¸ÂµÃ«
+	SetEventDamage Island02  5                             ; 5Â¹Ã¨ ÂµÂ¥Â¹ÃŒÃÃ¶
+	SetEventMap  "Island02"                                ; new cmd Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠÃ€Â¸Â·Ã Â¸Â¸ÂµÃ« (ResetEventMap)
+	SendCmd  "Island02, 95, 135, 5"  Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÃƒÃ€ÃƒÂ¼  Hide
 	LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Treasure.txt] [Event_Island_Treasure_EventMsg] [Msg1]
 	LineMsg  "Grobal"  %A0
-	Mapting Island02 01 425 314                            ; º¸¹°¼¶ ¸Ê¿¡ ÀÖ´Â³Ñ ÆÃ±â±â
-	Map     Island02                                       ; º¸¹°¼¶ ¸Ê¾ÈÀ¸·Î µé¾î°¡°Ô ÇÔ
-	goto @GenMonkeys                                       ; ¸ó½ºÅÍ Á¨ °ü¸® ºÎºĞ
-	goto @CheckFinishCondition                             ; º¸¹°¼¶ ÀÌº¥Æ® ÀüÃ¼ °ü¸® ºÎºĞ
+	Mapting Island02 01 425 314                            ; ÂºÂ¸Â¹Â°Â¼Â¶ Â¸ÃŠÂ¿Â¡ Ã€Ã–Â´Ã‚Â³Ã‘ Ã†ÃƒÂ±Ã¢Â±Ã¢
+	Map     Island02                                       ; ÂºÂ¸Â¹Â°Â¼Â¶ Â¸ÃŠÂ¾ÃˆÃ€Â¸Â·Ã ÂµÃ©Â¾Ã®Â°Â¡Â°Ã” Ã‡Ã”
+	goto @GenMonkeys                                       ; Â¸Ã³Â½ÂºÃ…Ã ÃÂ¨ Â°Ã¼Â¸Â® ÂºÃÂºÄ
+	goto @CheckFinishCondition                             ; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€ÃŒÂºÂ¥Ã†Â® Ã€Ã¼ÃƒÂ¼ Â°Ã¼Â¸Â® ÂºÃÂºÄ
 
 [@ChallengeGoldenIsland]
 	begin
 		#IF
 		#ACT
-         LoadValue N7 "GM_Def\Event\Island\Gold.txt" "InputGold" "Gold"   ;; ÀÔÀå·á ¼¼ÆÃ ÇÏ´Â ºÎºĞ
+         LoadValue N7 "GM_Def\Event\Island\Gold.txt" "InputGold" "Gold"   ;; Ã€Ã”Ã€Ã¥Â·Ã¡ Â¼Â¼Ã†Ãƒ Ã‡ÃÂ´Ã‚ ÂºÃÂºÄ
 
 		#IF
 			!Equal N1{EVENT}  1
@@ -104,18 +104,18 @@ begin
 			#INCLUDE [..\Convert_Def\QuestDiary\Event\Island\Treasure.txt] @Event_Island_Treasure_Say_6
 		#ACT
 			break
-		
+
 		#IF
 			Equal  N3{OPEN}  0
 		#SAY
 			#INCLUDE [..\Convert_Def\QuestDiary\Event\Island\Treasure.txt] @Event_Island_Treasure_Say_7
 		#ACT
 			break
-		
+
 		#IF
-			CheckGold        %N7    ;;  ÀÔÀå·á Ã¼Å© ±¸¹®
+			CheckGold        %N7    ;;  Ã€Ã”Ã€Ã¥Â·Ã¡ ÃƒÂ¼Ã…Â© Â±Â¸Â¹Â®
 		#ACT
-			Take   ½ğ±Ò        %N7
+			Take   Â½ÄŸÂ±Ã’        %N7
 			Inc    N8{GOLD}  %N7
 			LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Treasure.txt] [Event_Island_Treasure_EventMsg] [Msg2]
 			LineMsg  "01,Island02" %A0

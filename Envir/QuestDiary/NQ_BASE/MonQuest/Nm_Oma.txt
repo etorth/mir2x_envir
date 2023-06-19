@@ -69,6 +69,6 @@ inc s2 1
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_Oma.txt] @Nm_Oma_1
 
 #ACT
-give ÍõÌú½³µÄÌú´¸ 1
+give ÃÃµÃŒÃºÂ½Â³ÂµÃ„ÃŒÃºÂ´Â¸ 1
 set [181] 1
 mov s2 0

@@ -53,9 +53,9 @@ break
 
 [@T418_MonQuest_1]
 #IF
-checkitem �׵罩ʬ�� 1
+checkitem À×µç½©Ê¬¹Ç 1
 #ACT
-give �׵罩ʬ�� 1
+give À×µç½©Ê¬¹Ç 1
 set [308] 1
 
 
@@ -89,9 +89,9 @@ break
 
 [@jusulgwi_T318_1]
 #IF
-checkitem �׵罩ʬ�� 9
+checkitem À×µç½©Ê¬¹Ç 9
 #ACT
-give �׵罩ʬ�� 1
+give À×µç½©Ê¬¹Ç 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T318_Say
@@ -103,6 +103,6 @@ goto @jusulgwi_T318_2
 #IF
 random 3
 #ACT
-give �׵罩ʬ�� 1
+give À×µç½©Ê¬¹Ç 1
 
 ;-----------------------------------------------------

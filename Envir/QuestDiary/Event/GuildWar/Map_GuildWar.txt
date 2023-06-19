@@ -17,7 +17,7 @@ Inc D0 5
 Dec D1 3
 FormatStr "FLD_GUILD1POINT=%s,FLD_GUILD2POINT=%s" %D0 %D1
 UpdateValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
-EventMsg "E001" "<$OUTPUT(A0)>ÐÐ»áµÄ·ÖÊýÊÇ : <$OUTPUT(D0)>·Ö , <$OUTPUT(A1)>ÐÐ»áµÄ·ÖÊýÊÇ : <$OUTPUT(D1)>·Ö"
+EventMsg "E001" "<$OUTPUT(A0)>è¡Œä¼šçš„åˆ†æ•°æ˜¯ : <$OUTPUT(D0)>åˆ† , <$OUTPUT(A1)>è¡Œä¼šçš„åˆ†æ•°æ˜¯ : <$OUTPUT(D1)>åˆ†"
 break
 
 #IF
@@ -27,5 +27,5 @@ Dec D0 3
 Inc D1 5
 FormatStr "FLD_GUILD1POINT=%s,FLD_GUILD2POINT=%s" %D0 %D1
 UpdateValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
-EventMsg "E001" "<$OUTPUT(A0)>ÐÐ»áµÄ·ÖÊýÊÇ : <$OUTPUT(D0)>·Ö , <$OUTPUT(A1)>ÐÐ»áµÄ·ÖÊýÊÇ : <$OUTPUT(D1)>·Ö"
+EventMsg "E001" "<$OUTPUT(A0)>è¡Œä¼šçš„åˆ†æ•°æ˜¯ : <$OUTPUT(D0)>åˆ† , <$OUTPUT(A1)>è¡Œä¼šçš„åˆ†æ•°æ˜¯ : <$OUTPUT(D1)>åˆ†"
 break

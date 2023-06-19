@@ -1,20 +1,20 @@
-;;����3������v1.45
-[@������ʾ]
+;;传奇3单机版v1.45
+[@上线提示]
 {
 #SAY
-{FCOLOR/10}<$USERNAME>{FCOLOR/12},��ӭ����{FCOLOR/10}ҫ�洫��3{FCOLOR/12}.\
-{FCOLOR/10}[����������]{FCOLOR/12}\
-{FCOLOR/8}������{FCOLOR/10} ��BOSS {FCOLOR/12}Ϊ{FCOLOR/10} ������Сʱ {FCOLOR/12}һ�Σ�{FCOLOR/10}СBOSS{FCOLOR/12}Ϊ{FCOLOR/10}һСʱ{FCOLOR/12}һ��\
-1.����ϷΪ�¹�ͨ13ħ���������á�\
-2.��Ϸ����1�����飬1�����ʡ�\
-3.��Ϸ��ͼ������ŵ����ַ��\
-4.��л��ҵ�֧�֣���ӭ��Ҷ��ᱦ������ͽ���\
+{FCOLOR/10}<$USERNAME>{FCOLOR/12},欢迎进入{FCOLOR/10}耀祖传奇3{FCOLOR/12}.\
+{FCOLOR/10}[服务器设置]{FCOLOR/12}\
+{FCOLOR/8}服务器{FCOLOR/10} 大BOSS {FCOLOR/12}为{FCOLOR/10} 整点三小时 {FCOLOR/12}一次，{FCOLOR/10}小BOSS{FCOLOR/12}为{FCOLOR/10}一小时{FCOLOR/12}一次\
+1.本游戏为仿光通13魔法复古设置。\
+2.游戏设置1倍经验，1倍爆率。\
+3.游戏地图开放至诺玛遗址。\
+4.感谢大家的支持，欢迎大家多提宝贵意见和建议\
 
 #IF
 check [003] 0
 checkjob warrior
 #ACT
-lineMsg [Grobal] "���·��Ƴ��ұ�.һ�뽭�����´�..һλ�µ���ʿ' <$OUTPUT(A0)> '����������������ص�δ֪����..."
+lineMsg [Grobal] "天下风云出我辈.一入江湖岁月催..一位新的武士' <$OUTPUT(A0)> '降生到这个充满神秘的未知世界..."
 set [003] 1
 goto @CIUKL
 break
@@ -23,7 +23,7 @@ break
 check [003] 0
 checkjob taoist
 #ACT
-lineMsg [Grobal] "���·��Ƴ��ұ�.һ�뽭�����´�..һλ�µĵ�ʿ' <$OUTPUT(A0)> '����������������ص�δ֪����..."
+lineMsg [Grobal] "天下风云出我辈.一入江湖岁月催..一位新的道士' <$OUTPUT(A0)> '降生到这个充满神秘的未知世界..."
 set [003] 1
 goto @CIUKL
 break
@@ -32,7 +32,7 @@ break
 checkjob wizard
 check [003] 0
 #ACT
-lineMsg [Grobal] "���·��Ƴ��ұ�.һ�뽭�����´�..һλ�µķ�ʦ' <$OUTPUT(A0)> '����������������ص�δ֪����..."
+lineMsg [Grobal] "天下风云出我辈.一入江湖岁月催..一位新的法师' <$OUTPUT(A0)> '降生到这个充满神秘的未知世界..."
 set [003] 1
 goto @CIUKL
 
@@ -45,6 +45,6 @@ IsCastleGuild Sabuk
 IsGuildMaster
 #ACT
 Delaygoto [Local] 1800 @_Award1
-LineMsg "Grobal" "ΰ���ɳ�Ϳ˳ǳ���<$USERNAME>������~~!"
+LineMsg "Grobal" "伟大的沙巴克城城主<$USERNAME>上线啦~~!"
 
 }

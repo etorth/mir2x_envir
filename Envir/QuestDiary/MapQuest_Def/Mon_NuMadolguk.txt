@@ -1,11 +1,11 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@main]
 #IF
 Check [209] 1
 Check [210] 1
 Check [409] 0
 #ACT
-Mov A8 "诺玛突击队长"
+Mov A8 "璇虹帥绐佸嚮闃熼暱"
 goto @TodayQuest_TQCase1
 #ELSEACT
 goto @main_Except
@@ -38,4 +38,4 @@ break
 
 [@Taosung_Mon]
 #CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastle_VillageAttack_Numa
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

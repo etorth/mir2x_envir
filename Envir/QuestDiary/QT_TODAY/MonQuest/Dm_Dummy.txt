@@ -130,9 +130,9 @@ break
 
 [@puppet_T440_1]
 #IF
-checkitem µ¾²İÈËÄ¾½£ 9
+checkitem ç¨»è‰äººæœ¨å‰‘ 9
 #ACT
-give µ¾²İÈËÄ¾½£ 1
+give ç¨»è‰äººæœ¨å‰‘ 1
 set [309] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T440_Say
@@ -144,7 +144,7 @@ goto @puppet_T440_1_1
 #IF
 random 3
 #ACT
-give µ¾²İÈËÄ¾½£ 1
+give ç¨»è‰äººæœ¨å‰‘ 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -245,9 +245,9 @@ break
 
 [@puppet_T532_1]
 #IF
-checkitem ÎŞÃûÓÍ 2
+checkitem æ— åæ²¹ 2
 #ACT
-give ÎŞÃûÓÍ 1
+give æ— åæ²¹ 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T532_Say
@@ -259,5 +259,5 @@ goto @puppet_T532_1_1
 #IF
 random 3
 #ACT
-give ÎŞÃûÓÍ 1
+give æ— åæ²¹ 1
 ;-----------------------------------------------------

@@ -32,8 +32,8 @@ break
 #ELSESAY
 	#INCLUDE [..\convert_Def\Market_Def\09HorseMarket_Encore-9.txt] @NPC_BuyHorseWhite_Complete
 #ELSEACT
-take 金币 20000000
-horsecall 白马
+take 閲戝竵 20000000
+horsecall 鐧介┈
 
 [@SellHorse]
 #IF
@@ -43,7 +43,7 @@ checkhorse 1
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Encore-9.txt] @NPC_SellHorse
 #ACT
-give 金币 250000
+give 閲戝竵 250000
 KillHorse
 break
 
@@ -54,7 +54,7 @@ checkhorse 2
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Encore-9.txt] @NPC_SellHorse
 #ACT
-give 金币 10000000
+give 閲戝竵 10000000
 KillHorse
 break
 

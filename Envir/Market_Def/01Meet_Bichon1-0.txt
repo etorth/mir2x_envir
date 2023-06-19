@@ -35,7 +35,7 @@ check [270] 1
 #ACT
 goto @main_0_4
 break
-	
+
 #IF
 check [267] 1
 #ACT
@@ -54,7 +54,7 @@ goto @main_0_1
 [@main_0_0]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Bichon1-0.txt] @NPC_Main_0_0
- 
+
 [@main_0_1]
 #IF
 checklevel 5
@@ -89,7 +89,7 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-¸ÉÈâ       1000          1
+Â¸Ã‰ÃˆÃ¢       1000          1
 
 
 [@NQuest01_1]

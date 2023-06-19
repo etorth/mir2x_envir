@@ -1,6 +1,6 @@
 ;;Numa_Teleport
 [@Numa_1]
 {
-ÁùÃæÉñÊ¯ \ \
-<ÒÆ¶¯ÖÁÂÌÖŞ´åËùĞè½ğÇ® : 5000 Ç®/@TelePortRootin(Oasis,5000,Center)> \
+å…­é¢ç¥çŸ³ \ \
+<ç§»åŠ¨è‡³ç»¿æ´²æ‘æ‰€éœ€é‡‘é’± : 5000 é’±/@TelePortRootin(Oasis,5000,Center)> \
 }

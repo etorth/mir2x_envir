@@ -9,9 +9,9 @@
 
 [@Make_General_Torch]
 #IF
-checkitem ÷¼÷Ã¹Ç 3 checkitem ÉÕ¾Æ 1
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3 checkitem Ã‰Ã•Â¾Ã† 1
 #ACT
-take ÷¼÷Ã¹Ç 3 take ÉÕ¾Æ 1
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 3 take Ã‰Ã•Â¾Ã† 1
 goto @Make_General_Torch_3
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Japhwa.txt] @Japhwa_2
@@ -20,7 +20,7 @@ goto @Make_General_Torch_3
 [@Make_General_Torch_3]
 #IF
 #ACT
-give »ğ°Ñ 1
+give Â»Ã°Â°Ã‘ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Japhwa.txt] @Japhwa_3
 
@@ -29,11 +29,11 @@ give »ğ°Ñ 1
 
 [@Make_General_TorchM]
 #IF
-checkitem ½©Ê¬¹ÇÍ· 4
-checkitem ÉÕ¾Æ 2
+checkitem Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 4
+checkitem Ã‰Ã•Â¾Ã† 2
 #ACT
-take ½©Ê¬¹ÇÍ· 4
-take ÉÕ¾Æ 2
+take Â½Â©ÃŠÂ¬Â¹Ã‡ÃÂ· 4
+take Ã‰Ã•Â¾Ã† 2
 mov d0 0
 goto @Make_General_TorchM_1
 #ELSESAY
@@ -61,7 +61,7 @@ mov d0 0
 [@Make_General_TorchM_3]
 #IF
 #ACT
-give ÁÁ»ğ°Ñ 1
+give ÃÃÂ»Ã°Â°Ã‘ 1
 mov d0 0
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Japhwa.txt] @Japhwa_6

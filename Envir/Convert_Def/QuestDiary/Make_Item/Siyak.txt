@@ -1,171 +1,171 @@
 ;;Siyak.txt
 [@Siyak_1]
 {
-ÄÇ£¬ÄãÏë×öÊ²Ã´Ò©°¡£¿ÓÐÊ±ºîÄÑÃâ»áÓöµ½Ê§°Ü£¬ËùÒÔÒªÁôÒâ°¡¡£ \ \
- <½ð´´Ò©£¨Ð¡£©/@Make_Potion_HPPotionS>     ,   <Ä§·¨Ò©£¨Ð¡£©/@Make_Potion_MPPotionS>\
-<½ð´´Ò©£¨ÖÐ£©/@Make_Potion_HPPotionM>     ,   <Ä§·¨Ò©£¨ÖÐ£©/@Make_Potion_MPPotionM>\
-<½ð´´Ò©£¨´ó£©/@Make_Potion_HPPotionL>     ,   <Ä§·¨Ò©£¨´ó£©/@Make_Potion_MPPotionL>\
-<½ð´´Ò©£¨ÌØ£©/@Make_Potion_HPPotionXL>     ,   <Ä§·¨Ò©£¨ÌØ£©/@Make_Potion_MPPotionXL>\ \
-<Ç°Ò»²½/@make_item_main> \
-<½áÊø/@exit>
+é‚£ï¼Œä½ æƒ³åšä»€ä¹ˆè¯å•Šï¼Ÿæœ‰æ—¶ä¾¯éš¾å…ä¼šé‡åˆ°å¤±è´¥ï¼Œæ‰€ä»¥è¦ç•™æ„å•Šã€‚ \ \
+ <é‡‘åˆ›è¯ï¼ˆå°ï¼‰/@Make_Potion_HPPotionS>     ,   <é­”æ³•è¯ï¼ˆå°ï¼‰/@Make_Potion_MPPotionS>\
+<é‡‘åˆ›è¯ï¼ˆä¸­ï¼‰/@Make_Potion_HPPotionM>     ,   <é­”æ³•è¯ï¼ˆä¸­ï¼‰/@Make_Potion_MPPotionM>\
+<é‡‘åˆ›è¯ï¼ˆå¤§ï¼‰/@Make_Potion_HPPotionL>     ,   <é­”æ³•è¯ï¼ˆå¤§ï¼‰/@Make_Potion_MPPotionL>\
+<é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰/@Make_Potion_HPPotionXL>     ,   <é­”æ³•è¯ï¼ˆç‰¹ï¼‰/@Make_Potion_MPPotionXL>\ \
+<å‰ä¸€æ­¥/@make_item_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_2]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁËÉÕ¾Æ 1Æ¿£¬¶¾Éßµ¨Ö­ 6¸ö°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð ?\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_HPPotionS> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†çƒ§é…’ 1ç“¶ï¼Œæ¯’è›‡èƒ†æ± 6ä¸ªå•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå— ?\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_HPPotionS> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_3]
 {
-ÒªÖÆ×÷½ð´´Ò©£¨Ð¡£©µÄ»°£¬ÐèÒª10¸öµ±¶¾Éßµ¨Ö­ 6¸ö£¬ÉÕ¾Æ 1Æ¿°¡¡£\ \
-<½áÊø/@exit>
+è¦åˆ¶ä½œé‡‘åˆ›è¯ï¼ˆå°ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“æ¯’è›‡èƒ†æ± 6ä¸ªï¼Œçƒ§é…’ 1ç“¶å•Šã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_4]
 {
-ÒªÖÆ×÷½ð´´Ò©£¨ÖÐ£©µÄ»°£¬ÐèÒª10¸öµ±ÉÕ¾Æ 1Æ¿£¬÷¼÷Ã¹Ç 10¸ö°¡¡£\ \
-<½áÊø/@exit>
+è¦åˆ¶ä½œé‡‘åˆ›è¯ï¼ˆä¸­ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“çƒ§é…’ 1ç“¶ï¼Œéª·é«…éª¨ 10ä¸ªå•Šã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_5]
 {
-°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_HPPotionM> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_HPPotionM> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_6]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁËÉÕ¾Æ 1Æ¿£¬¶¾Éßµ¨Ö­ 10¸ö°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð  ?\ \
- <¼ÌÐø ÖÆ×÷/@Make_Potion_HPPotionM> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†çƒ§é…’ 1ç“¶ï¼Œæ¯’è›‡èƒ†æ± 10ä¸ªå•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå—  ?\ \
+ <ç»§ç»­ åˆ¶ä½œ/@Make_Potion_HPPotionM> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_7]
 {
-ÒªÖÆ×÷½ð´´Ò©£¨´ó£©µÄ»°£¬ÐèÒª10¸öµ±ÑÀ³Ý 3¸ö£¬ÉÕ¾Æ 2Æ¿£¬ÂìÒÏÂÑ 3¸ö°¡¡£\ \
- <½áÊø/@exit>
+è¦åˆ¶ä½œé‡‘åˆ›è¯ï¼ˆå¤§ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“ç‰™é½¿ 3ä¸ªï¼Œçƒ§é…’ 2ç“¶ï¼Œèš‚èšåµ 3ä¸ªå•Šã€‚\ \
+ <ç»“æŸ/@exit>
 }
 
 [@Siyak_8]
 {
-°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_HPPotionL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_HPPotionL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_9]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁËÑÀ³Ý 3¸ö£¬ÉÕ¾Æ 2Æ¿£¬ÂìÒÏÂÑ 3¸ö°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð£¿ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_HPPotionL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†ç‰™é½¿ 3ä¸ªï¼Œçƒ§é…’ 2ç“¶ï¼Œèš‚èšåµ 3ä¸ªå•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå—ï¼Ÿ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_HPPotionL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_10]
 {
-ÒªÖÆ×÷½ð´´Ò©£¨ÌØ£©µÄ»°£¬ÐèÒª10¸öµ±Ò¹Ã÷Öé 3¸ö£¬ÉÕ¾Æ 3Æ¿£¬ÉñÁéµñÏñ 3¸ö£¬ÅËÒ¹Ö®Àá 4¸ö°¡¡£\ \
- <½áÊø/@exit>
+è¦åˆ¶ä½œé‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“å¤œæ˜Žç  3ä¸ªï¼Œçƒ§é…’ 3ç“¶ï¼Œç¥žçµé›•åƒ 3ä¸ªï¼Œæ½˜å¤œä¹‹æ³ª 4ä¸ªå•Šã€‚\ \
+ <ç»“æŸ/@exit>
 }
 
 [@Siyak_11]
 {
-°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_HPPotionXL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_HPPotionXL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_12]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁËÒ¹Ã÷Öé 3¸ö£¬ÉÕ¾Æ 3Æ¿£¬ÉñÁéµñÏñ 3¸ö£¬ÅËÒ¹Ö®Àá 4¸ö°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð£¿?\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_HPPotionXL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†å¤œæ˜Žç  3ä¸ªï¼Œçƒ§é…’ 3ç“¶ï¼Œç¥žçµé›•åƒ 3ä¸ªï¼Œæ½˜å¤œä¹‹æ³ª 4ä¸ªå•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå—ï¼Ÿ?\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_HPPotionXL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_13]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË÷¼÷Ã¹Ç 3¸ö£¬ÉÕ¾Æ 1Æ¿°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð?\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_MPPotionS> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†éª·é«…éª¨ 3ä¸ªï¼Œçƒ§é…’ 1ç“¶å•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå—?\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_MPPotionS> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_14]
 {
-ÒªÖÆ×÷Ä§·¨Ò©£¨Ð¡£©µÄ»°£¬ÐèÒª10¸öµ±÷¼÷Ã¹Ç 3¸ö£¬ÉÕ¾Æ 1Æ¿°¡¡£\ \
-<½áÊø/@exit>
+è¦åˆ¶ä½œé­”æ³•è¯ï¼ˆå°ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“éª·é«…éª¨ 3ä¸ªï¼Œçƒ§é…’ 1ç“¶å•Šã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_15]
 {
-ÒªÖÆ×÷Ä§·¨Ò©£¨ÖÐ£©µÄ»°£¬ÐèÒª10¸öµ±½©Ê¬¹ÇÍ· 5¸ö£¬ÉÕ¾Æ 1Æ¿°¡¡£\ \
-<½áÊø/@exit>
+è¦åˆ¶ä½œé­”æ³•è¯ï¼ˆä¸­ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“åƒµå°¸éª¨å¤´ 5ä¸ªï¼Œçƒ§é…’ 1ç“¶å•Šã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_16]
 {
-°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_MPPotionM> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_MPPotionM> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_17]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË½©Ê¬¹ÇÍ· 5¸ö£¬ÉÕ¾Æ 1Æ¿°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð?\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_MPPotionM> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†åƒµå°¸éª¨å¤´ 5ä¸ªï¼Œçƒ§é…’ 1ç“¶å•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå—?\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_MPPotionM> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_18]
 {
-ÒªÖÆ×÷Ä§·¨Ò©£¨´ó£©µÄ»°£¬ÐèÒª10¸öµ±ºÅ½Ç 3¸ö£¬ÉÕ¾Æ 2Æ¿£¬ÑÀ³Ý 3¸ö°¡\ \
- <½áÊø/@exit>
+è¦åˆ¶ä½œé­”æ³•è¯ï¼ˆå¤§ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“å·è§’ 3ä¸ªï¼Œçƒ§é…’ 2ç“¶ï¼Œç‰™é½¿ 3ä¸ªå•Š\ \
+ <ç»“æŸ/@exit>
 }
 
 [@Siyak_19]
 {
-°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_MPPotionL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_MPPotionL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_20]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁËºÅ½Ç 3¸ö£¬ÉÕ¾Æ 2Æ¿£¬ÑÀ³Ý 3¸ö°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð??\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_MPPotionL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†å·è§’ 3ä¸ªï¼Œçƒ§é…’ 2ç“¶ï¼Œç‰™é½¿ 3ä¸ªå•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå—??\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_MPPotionL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_21]
 {
-ÒªÖÆ×÷Ä§·¨Ò©£¨ÌØ£©µÄ»°£¬ÐèÒª10¸öµ±ÉÕ¾Æ 3Æ¿£¬ ÉñÁéµñÏñ 4¸ö£¬±¦Óñ 6¸ö°¡¡£\ \
- <½áÊø/@exit>
+è¦åˆ¶ä½œé­”æ³•è¯ï¼ˆç‰¹ï¼‰çš„è¯ï¼Œéœ€è¦10ä¸ªå½“çƒ§é…’ 3ç“¶ï¼Œ ç¥žçµé›•åƒ 4ä¸ªï¼Œå®çŽ‰ 6ä¸ªå•Šã€‚\ \
+ <ç»“æŸ/@exit>
 }
 
 [@Siyak_22]
 {
-°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_MPPotionXL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_MPPotionXL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Siyak_23]
 {
-×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁËÉÕ¾Æ 3Æ¿£¬ ÉñÁéµñÏñ 4¸ö£¬ ±¦Óñ 6¸ö°¡¡£ÄÇÃ´Ïë¼ÌÐø×öÂð?\ \
-<¼ÌÐø ÖÆ×÷/@Make_Potion_MPPotionXL> \
-<Ç°Ò»²½/@make_Potion_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†çƒ§é…’ 3ç“¶ï¼Œ ç¥žçµé›•åƒ 4ä¸ªï¼Œ å®çŽ‰ 6ä¸ªå•Šã€‚é‚£ä¹ˆæƒ³ç»§ç»­åšå—?\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Potion_MPPotionXL> \
+<å‰ä¸€æ­¥/@make_Potion_main> \
+<ç»“æŸ/@exit>
 }

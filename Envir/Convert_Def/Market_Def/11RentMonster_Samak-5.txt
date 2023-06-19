@@ -1,6 +1,6 @@
 ;;11RentMonster_Samak-5.txt
 [@NPC_RedPlayer]
 {
-跟你这种人我无话可说。\ \
-<结束/@exit>
+璺熶綘杩欑浜烘垜鏃犺瘽鍙銆俓 \
+<缁撴潫/@exit>
 }

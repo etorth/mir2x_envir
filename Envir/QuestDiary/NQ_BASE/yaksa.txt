@@ -93,9 +93,9 @@ goto @GIVE_TOOTH_0
 check [166] 0
 check [167] 0
 check [150] 1
-checkitem ¶¾ÉßÑÀ³İ 1
+checkitem Â¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 1
 #ACT
-take ¶¾ÉßÑÀ³İ 1
+take Â¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 1
 set [151] 1
 goto @GIVE_TOOTH_1
 #ELSESAY
@@ -125,7 +125,7 @@ check [166] 0
 check [167] 0
 check [150] 1
 #ACT
-give ½ğ´´Ò©£¨ÌØ£© 8
+give Â½Ã°Â´Â´Ã’Â©Â£Â¨ÃŒÃ˜Â£Â© 8
 goto @GIVE_TOOTH_5
 
 [@GIVE_TOOTH_4_2]
@@ -134,7 +134,7 @@ check [166] 0
 check [167] 0
 check [150] 1
 #ACT
-give Ä§·¨Ò©£¨ÌØ£© 8
+give Ã„Â§Â·Â¨Ã’Â©Â£Â¨ÃŒÃ˜Â£Â© 8
 goto @GIVE_TOOTH_5
 
 [@GIVE_TOOTH_5]
@@ -210,15 +210,15 @@ check [148] 1
 #IF
 checkgold 1000
 #ACT
-take ½ğ±Ò 1000
-give ¶¾ÉßÑÀ³İ 1
+take Â½Ã°Â±Ã’ 1000
+give Â¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 1
 set [149] 1
 set [150] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\yaksa.txt] @yaksa_18
 
 #ELSEACT
-give ¶¾ÉßÑÀ³İ 1
+give Â¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 1
 set [150] 1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\yaksa.txt] @yaksa_19
@@ -235,14 +235,14 @@ check [148] 1
 #IF
 checkgold 100
 #ACT
-take ½ğ±Ò 100
-give ¶¾ÉßÑÀ³İ 1
+take Â½Ã°Â±Ã’ 100
+give Â¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 1
 set [150] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\yaksa.txt] @yaksa_21
 
 #ELSEACT
-give ¶¾ÉßÑÀ³İ 1
+give Â¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 1
 set [150] 1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\yaksa.txt] @yaksa_22

@@ -46,7 +46,7 @@ check [307] 1
 
 [@301_CHECK1_2]
 #IF
-checkitem ºÖÉ«Àõ×Ó 20
+checkitem ÂºÃ–Ã‰Â«Ã€ÃµÃ—Ã“ 20
 #ACT
 goto @301_CHECK1_3
 #ELSESAY
@@ -57,7 +57,7 @@ goto @301_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ºÖÉ«Àõ×Ó 20
+checkitem ÂºÃ–Ã‰Â«Ã€ÃµÃ—Ã“ 20
 #ACT
 movr s0 100
 inc s0 1
@@ -76,7 +76,7 @@ small s0 5
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Race_5]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_5]
-take ºÖÉ«Àõ×Ó 20
+take ÂºÃ–Ã‰Â«Ã€ÃµÃ—Ã“ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -96,7 +96,7 @@ small s0 20
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_15]
-take ºÖÉ«Àõ×Ó 20
+take ÂºÃ–Ã‰Â«Ã€ÃµÃ—Ã“ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -106,7 +106,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_80_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Race_80_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_80_Type2]
-take ºÖÉ«Àõ×Ó 20
+take ÂºÃ–Ã‰Â«Ã€ÃµÃ—Ã“ 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -167,7 +167,7 @@ check [307] 1
 
 [@302_CHECK1_2]
 #IF
-checkitem »ğÑæÎÖÂêºÅ½Ç 30
+checkitem Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 30
 #ACT
 goto @302_CHECK1_3
 #ELSESAY
@@ -177,7 +177,7 @@ goto @302_CHECK1_3
 
 [@302_CHECK1_3]
 #IF
-checkitem »ğÑæÎÖÂêºÅ½Ç 30
+checkitem Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 30
 #ACT
 movr s0 100
 inc s0 1
@@ -190,14 +190,14 @@ check [310] 1
 #ACT
 break
 ;
-#IF 
+#IF
 check [310] 0
 check [307] 1
 small s0 5
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_5]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_5]
-take »ğÑæÎÖÂêºÅ½Ç 30
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -209,7 +209,7 @@ goto @302_Reward_1
 
 
 [@302_Reward_1]
-#IF 
+#IF
 check [310] 0
 check [307] 1
 small s0 45
@@ -219,7 +219,7 @@ large s0 5
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_40_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Type2]
-take »ğÑæÎÖÂêºÅ½Ç 30
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 30
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -247,7 +247,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Man_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_40_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Man_Type2]
-take »ğÑæÎÖÂêºÅ½Ç 30
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 30
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -258,7 +258,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_WoMan_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_40_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_WoMan_Type2]
-take »ğÑæÎÖÂêºÅ½Ç 30
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 30
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -318,8 +318,8 @@ check [307] 1
 
 [@303_CHECK1_2]
 #IF
-checkitem ÂìÒÏÂÑ 100
-checkitem Í­É«Àõ×Ó 5
+checkitem Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+checkitem ÃÂ­Ã‰Â«Ã€ÃµÃ—Ã“ 5
 #ACT
 goto @303_CHECK1_3
 #ELSESAY
@@ -333,8 +333,8 @@ check [310] 1
 break
 ;
 #IF
-checkitem ÂìÒÏÂÑ 100
-checkitem Í­É«Àõ×Ó 5
+checkitem Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+checkitem ÃÂ­Ã‰Â«Ã€ÃµÃ—Ã“ 5
 #ACT
 movr s0 100
 inc s0 1
@@ -346,8 +346,8 @@ Equal s0 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_1]
-take ÂìÒÏÂÑ 100
-take Í­É«Àõ×Ó 5
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take ÃÂ­Ã‰Â«Ã€ÃµÃ—Ã“ 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -366,8 +366,8 @@ small s0 20
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_9]
-take ÂìÒÏÂÑ 100
-take Í­É«Àõ×Ó 5
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take ÃÂ­Ã‰Â«Ã€ÃµÃ—Ã“ 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -387,8 +387,8 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_Man_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_90_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_Man_Type2]
-take ÂìÒÏÂÑ 100
-take Í­É«Àõ×Ó 5
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take ÃÂ­Ã‰Â«Ã€ÃµÃ—Ã“ 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -401,8 +401,8 @@ set [310] 1
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_WoMan_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_90_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_WoMan_Type2]
-take ÂìÒÏÂÑ 100
-take Í­É«Àõ×Ó 5
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take ÃÂ­Ã‰Â«Ã€ÃµÃ—Ã“ 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -473,7 +473,7 @@ check [307] 1
 check [308] 1
 #ACT
 movr s0 100
-inc s0 1 
+inc s0 1
 goto @304_Reward
 
 [@304_Reward]
@@ -482,7 +482,7 @@ check [310] 1
 #ACT
 break
 ;
-#IF 
+#IF
 Equal s0 1
 check [310] 0
 check [307] 1
@@ -575,7 +575,7 @@ check [307] 1
 
 [@305_CHECK1_2]
 #IF
-checkitem °×»¢½£ 2
+checkitem Â°Ã—Â»Â¢Â½Â£ 2
 #ACT
 goto @305_CHECK1_3
 #ELSESAY
@@ -586,7 +586,7 @@ goto @305_CHECK1_3
 #IF
 #ACT
 movr s0 100
-inc s0 1 
+inc s0 1
 goto @305_Reward
 
 
@@ -604,7 +604,7 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Amount_1]
-take °×»¢½£ 2
+take Â°Ã—Â»Â¢Â½Â£ 2
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -625,7 +625,7 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Amount_9]
-take °×»¢½£ 2
+take Â°Ã—Â»Â¢Â½Â£ 2
 give %A0 %D0
 mov s0 0
 reset [307] 2
@@ -633,7 +633,7 @@ set [310] 1
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Race_90]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Amount_90]
-take °×»¢½£ 2
+take Â°Ã—Â»Â¢Â½Â£ 2
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -691,7 +691,7 @@ check [307] 1
 
 [@306_CHECK1_2]
 #IF
-checkitem Áé»êÉñË®£¨ÖĞ£© 5
+checkitem ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 5
 #ACT
 goto @306_CHECK1_3
 
@@ -703,7 +703,7 @@ goto @306_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Áé»êÉñË®£¨ÖĞ£© 5
+checkitem ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 5
 #ACT
 movr s0 100
 inc s0 1
@@ -722,7 +722,7 @@ small s0 41
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_40]
-take Áé»êÉñË®£¨ÖĞ£© 5
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -743,7 +743,7 @@ small s0 71
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_30_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_type1]
-take Áé»êÉñË®£¨ÖĞ£© 5
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -770,7 +770,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_Man_type2]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_30_Man_Type3]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_Man_type3]
-take Áé»êÉñË®£¨ÖĞ£© 5
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -781,7 +781,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_WoMan_type2]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_30_WoMan_Type3]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_WoMan_type3]
-take Áé»êÉñË®£¨ÖĞ£© 5
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -842,7 +842,7 @@ check [307] 1
 
 [@307_CHECK1_2]
 #IF
-checkitem »ğÑæÎÖÂêºÅ½Ç 20
+checkitem Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 20
 #ACT
 goto @307_CHECK1_3
 #ELSESAY
@@ -853,7 +853,7 @@ goto @307_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem »ğÑæÎÖÂêºÅ½Ç 20
+checkitem Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 20
 #ACT
 movr s0 100
 inc s0 1
@@ -872,7 +872,7 @@ small s0 61
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_60]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_60]
-take »ğÑæÎÖÂêºÅ½Ç 20
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -893,7 +893,7 @@ small s0 91
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_30]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_30]
-take »ğÑæÎÖÂêºÅ½Ç 20
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -915,7 +915,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_10_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_Man_type2]
-take »ğÑæÎÖÂêºÅ½Ç 20
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -929,7 +929,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_10_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_WoMan_type2]
-take »ğÑæÎÖÂêºÅ½Ç 20
+take Â»Ã°Ã‘Ã¦ÃÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -987,7 +987,7 @@ check [307] 1
 
 [@308_CHECK1_2]
 #IF
-checkitem ¼²·çÉñË®£¨ÖĞ£© 2
+checkitem Â¼Â²Â·Ã§Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 2
 #ACT
 goto @308_CHECK1_3
 #ELSESAY
@@ -998,7 +998,7 @@ goto @308_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ¼²·çÉñË®£¨ÖĞ£© 2
+checkitem Â¼Â²Â·Ã§Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 2
 #ACT
 movr s0 100
 inc s0 1
@@ -1017,7 +1017,7 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_20]
-take ¼²·çÉñË®£¨ÖĞ£© 2
+take Â¼Â²Â·Ã§Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 2
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1038,7 +1038,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Race_80_Man_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_Man_type2]
-take ¼²·çÉñË®£¨ÖĞ£© 2
+take Â¼Â²Â·Ã§Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 2
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1052,7 +1052,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Race_80_WoMan_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_WoMan_type2]
-take ¼²·çÉñË®£¨ÖĞ£© 2
+take Â¼Â²Â·Ã§Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 2
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1110,8 +1110,8 @@ check [307] 1
 
 [@309_CHECK1_2]
 #IF
-checkitem ÀËÓêµ¶ 5
-checkitem Æ¤ 10
+checkitem Ã€Ã‹Ã“ÃªÂµÂ¶ 5
+checkitem Ã†Â¤ 10
 #ACT
 goto @309_CHECK1_3
 #ELSESAY
@@ -1122,8 +1122,8 @@ goto @309_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ÀËÓêµ¶ 5
-checkitem Æ¤ 10
+checkitem Ã€Ã‹Ã“ÃªÂµÂ¶ 5
+checkitem Ã†Â¤ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -1142,8 +1142,8 @@ small s0 6
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Race_5_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Amount_5_Type1]
-take ÀËÓêµ¶ 5
-take Æ¤ 10
+take Ã€Ã‹Ã“ÃªÂµÂ¶ 5
+take Ã†Â¤ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1164,8 +1164,8 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Race_5_Type2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Amount_5_Type2]
-take ÀËÓêµ¶ 5
-take Æ¤ 10
+take Ã€Ã‹Ã“ÃªÂµÂ¶ 5
+take Ã†Â¤ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1173,8 +1173,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Race_90_Type2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Amount_90_Type2]
-take ÀËÓêµ¶ 5
-take Æ¤ 10
+take Ã€Ã‹Ã“ÃªÂµÂ¶ 5
+take Ã†Â¤ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1234,7 +1234,7 @@ check [307] 1
 
 [@310_CHECK1_2]
 #IF
-checkitem Æ¤ 30
+checkitem Ã†Â¤ 30
 #ACT
 goto @310_CHECK1_3
 #ELSESAY
@@ -1245,7 +1245,7 @@ goto @310_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æ¤ 30
+checkitem Ã†Â¤ 30
 #ACT
 movr s0 100
 inc s0 1
@@ -1264,7 +1264,7 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Amount_20]
-take Æ¤ 30
+take Ã†Â¤ 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1286,7 +1286,7 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Race_30]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Amount_30]
-take Æ¤ 30
+take Ã†Â¤ 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1297,7 +1297,7 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Amount_50]
-take Æ¤ 30
+take Ã†Â¤ 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1354,7 +1354,7 @@ check [307] 1
 
 [@311_CHECK1_2]
 #IF
-checkitem Æ¤ 10
+checkitem Ã†Â¤ 10
 #ACT
 goto @311_CHECK1_3
 #ELSESAY
@@ -1365,7 +1365,7 @@ goto @311_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æ¤ 10
+checkitem Ã†Â¤ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -1386,7 +1386,7 @@ small s0 51
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Race_50_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Type2]
-take Æ¤ 10
+take Ã†Â¤ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1408,7 +1408,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Race_50_Man_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Man_type2]
-take Æ¤ 10
+take Ã†Â¤ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1422,7 +1422,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Race_50_WoMan_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_WoMan_type2]
-take Æ¤ 10
+take Ã†Â¤ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1479,7 +1479,7 @@ check [307] 1
 
 [@312_CHECK1_2]
 #IF
-checkitem Æ¤ 90
+checkitem Ã†Â¤ 90
 #ACT
 goto @312_CHECK1_3
 #ELSESAY
@@ -1490,7 +1490,7 @@ goto @312_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æ¤ 90
+checkitem Ã†Â¤ 90
 #ACT
 movr s0 100
 inc s0 1
@@ -1509,7 +1509,7 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_10]
-take Æ¤ 90
+take Ã†Â¤ 90
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1531,7 +1531,7 @@ small s0 51
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_40_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Race_40_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_40_Type2]
-take Æ¤ 90
+take Ã†Â¤ 90
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1545,7 +1545,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_50_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Race_50_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_50_Type2]
-take Æ¤ 90
+take Ã†Â¤ 90
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1724,7 +1724,7 @@ check [307] 1
 
 [@314_CHECK1_2]
 #IF
-checkitem ÂìÒÏÂÑ 100
+checkitem Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
 #ACT
 goto @314_CHECK1_3
 #ELSESAY
@@ -1735,7 +1735,7 @@ goto @314_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ÂìÒÏÂÑ 100
+checkitem Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
 #ACT
 movr s0 100
 inc s0 1
@@ -1754,7 +1754,7 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Race_30]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Amount_30]
-take ÂìÒÏÂÑ 100
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1767,7 +1767,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Amount_70_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Race_70_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Amount_70_Type2]
-take ÂìÒÏÂÑ 100
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1826,7 +1826,7 @@ check [307] 1
 
 [@315_CHECK1_2]
 #IF
-checkitem Æ¤ 80
+checkitem Ã†Â¤ 80
 #ACT
 goto @315_CHECK1_3
 #ELSESAY
@@ -1837,7 +1837,7 @@ goto @315_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æ¤ 80
+checkitem Ã†Â¤ 80
 #ACT
 movr s0 100
 inc s0 1
@@ -1857,7 +1857,7 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_20]
-take Æ¤ 80
+take Ã†Â¤ 80
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1891,7 +1891,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man_Type2]
-take Æ¤ 80
+take Ã†Â¤ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1905,7 +1905,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan_Type2]
-take Æ¤ 80
+take Ã†Â¤ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1925,7 +1925,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man1_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_Man1_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man1_Type2]
-take Æ¤ 80
+take Ã†Â¤ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1939,7 +1939,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan1_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_WoMan1_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan1_Type2]
-take Æ¤ 80
+take Ã†Â¤ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -1997,7 +1997,7 @@ check [307] 1
 
 [@316_CHECK1_2]
 #IF
-checkitem Æ¤ 50
+checkitem Ã†Â¤ 50
 #ACT
 goto @316_CHECK1_3
 #ELSESAY
@@ -2008,7 +2008,7 @@ goto @316_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æ¤ 50
+checkitem Ã†Â¤ 50
 #ACT
 movr s0 100
 inc s0 1
@@ -2027,7 +2027,7 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Amount_1]
-take Æ¤ 50
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2047,7 +2047,7 @@ large s0 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Amount_9]
-take Æ¤ 50
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2058,7 +2058,7 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Race_90]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Amount_90]
-take Æ¤ 50
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2115,9 +2115,9 @@ check [307] 1
 
 [@317_CHECK1_2]
 #IF
-checkitem ¹¥»÷ÉñË®£¨ÖĞ£© 1
-checkitem ×ÔÈ»ÉñË®£¨ÖĞ£© 1
-checkitem Áé»êÉñË®£¨ÖĞ£© 1
+checkitem Â¹Â¥Â»Ã·Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+checkitem Ã—Ã”ÃˆÂ»Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+checkitem ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
 #ACT
 goto @317_CHECK1_3
 #ELSESAY
@@ -2128,9 +2128,9 @@ goto @317_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ¹¥»÷ÉñË®£¨ÖĞ£© 1
-checkitem ×ÔÈ»ÉñË®£¨ÖĞ£© 1
-checkitem Áé»êÉñË®£¨ÖĞ£© 1
+checkitem Â¹Â¥Â»Ã·Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+checkitem Ã—Ã”ÃˆÂ»Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+checkitem ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
 #ACT
 movr s0 100
 inc s0 1
@@ -2149,9 +2149,9 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_1]
-take ¹¥»÷ÉñË®£¨ÖĞ£© 1
-take ×ÔÈ»ÉñË®£¨ÖĞ£© 1
-take Áé»êÉñË®£¨ÖĞ£© 1
+take Â¹Â¥Â»Ã·Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take Ã—Ã”ÃˆÂ»Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2171,9 +2171,9 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_9]
-take ¹¥»÷ÉñË®£¨ÖĞ£© 1
-take ×ÔÈ»ÉñË®£¨ÖĞ£© 1
-take Áé»êÉñË®£¨ÖĞ£© 1
+take Â¹Â¥Â»Ã·Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take Ã—Ã”ÃˆÂ»Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2196,9 +2196,9 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_90_Man_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_Man_type2]
-take ¹¥»÷ÉñË®£¨ÖĞ£© 1
-take ×ÔÈ»ÉñË®£¨ÖĞ£© 1
-take Áé»êÉñË®£¨ÖĞ£© 1
+take Â¹Â¥Â»Ã·Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take Ã—Ã”ÃˆÂ»Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -2211,9 +2211,9 @@ set [310] 1
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_90_WoMan_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_WoMan_type2]
-take ¹¥»÷ÉñË®£¨ÖĞ£© 1
-take ×ÔÈ»ÉñË®£¨ÖĞ£© 1
-take Áé»êÉñË®£¨ÖĞ£© 1
+take Â¹Â¥Â»Ã·Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take Ã—Ã”ÃˆÂ»Ã‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
+take ÃÃ©Â»ÃªÃ‰Ã±Ã‹Â®Â£Â¨Ã–ÃÂ£Â© 1
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -2269,7 +2269,7 @@ check [307] 1
 
 [@318_CHECK1_2]
 #IF
-checkitem À×µç½©Ê¬¹Ç 10
+checkitem Ã€Ã—ÂµÃ§Â½Â©ÃŠÂ¬Â¹Ã‡ 10
 #ACT
 goto @318_CHECK1_3
 #ELSESAY
@@ -2280,7 +2280,7 @@ goto @318_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem À×µç½©Ê¬¹Ç 10
+checkitem Ã€Ã—ÂµÃ§Â½Â©ÃŠÂ¬Â¹Ã‡ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -2300,7 +2300,7 @@ small s0 21
 
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Amount_20]
-take À×µç½©Ê¬¹Ç 10
+take Ã€Ã—ÂµÃ§Â½Â©ÃŠÂ¬Â¹Ã‡ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2323,7 +2323,7 @@ gender man
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Amount_80_Man_type2]
 
 #ACT
-take À×µç½©Ê¬¹Ç 10
+take Ã€Ã—ÂµÃ§Â½Â©ÃŠÂ¬Â¹Ã‡ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -2339,7 +2339,7 @@ mov s0 0
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Amount_80_WoMan_type2]
 
 #ACT
-take À×µç½©Ê¬¹Ç 10
+take Ã€Ã—ÂµÃ§Â½Â©ÃŠÂ¬Â¹Ã‡ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -2611,8 +2611,8 @@ check [307] 1
 
 [@321_CHECK1_2]
 #IF
-checkitem ¶¾Ö©ÖëÑÀ³İ 25
-checkitem ºÅ½Ç 20
+checkitem Â¶Â¾Ã–Â©Ã–Ã«Ã‘Ã€Â³Ã 25
+checkitem ÂºÃ…Â½Ã‡ 20
 #ACT
 goto @321_CHECK1_3
 #ELSESAY
@@ -2623,8 +2623,8 @@ goto @321_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ¶¾Ö©ÖëÑÀ³İ 25
-checkitem ºÅ½Ç 20
+checkitem Â¶Â¾Ã–Â©Ã–Ã«Ã‘Ã€Â³Ã 25
+checkitem ÂºÃ…Â½Ã‡ 20
 #ACT
 movr s0 100
 inc s0 1
@@ -2643,8 +2643,8 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_10]
-take ¶¾Ö©ÖëÑÀ³İ 25
-take ºÅ½Ç 20
+take Â¶Â¾Ã–Â©Ã–Ã«Ã‘Ã€Â³Ã 25
+take ÂºÃ…Â½Ã‡ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2664,8 +2664,8 @@ small s0 56
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_1_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Race_45_1_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_1_type2]
-take ¶¾Ö©ÖëÑÀ³İ 25
-take ºÅ½Ç 20
+take Â¶Â¾Ã–Â©Ã–Ã«Ã‘Ã€Â³Ã 25
+take ÂºÃ…Â½Ã‡ 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -2680,8 +2680,8 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_2_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Race_45_2_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_2_type2]
-take ¶¾Ö©ÖëÑÀ³İ 25
-take ºÅ½Ç 20
+take Â¶Â¾Ã–Â©Ã–Ã«Ã‘Ã€Â³Ã 25
+take ÂºÃ…Â½Ã‡ 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -2738,8 +2738,8 @@ check [307] 1
 
 [@322_CHECK1_2]
 #IF
-checkitem Æßµã°×Éßµ¨ 3
-checkitem Ç§Äê¶¾Éßµ¨Ö­ 12
+checkitem Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÂµÂ¨ 3
+checkitem Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 12
 #ACT
 goto @322_CHECK1_3
 #ELSESAY
@@ -2750,8 +2750,8 @@ goto @322_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æßµã°×Éßµ¨ 3
-checkitem Ç§Äê¶¾Éßµ¨Ö­ 12
+checkitem Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÂµÂ¨ 3
+checkitem Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 12
 #ACT
 movr s0 100
 inc s0 1
@@ -2770,8 +2770,8 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Race_15_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Amount_15_1]
-take Æßµã°×Éßµ¨ 3
-take Ç§Äê¶¾Éßµ¨Ö­ 12
+take Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÂµÂ¨ 3
+take Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 12
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2792,8 +2792,8 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Race_15_2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Amount_15_2]
-take Æßµã°×Éßµ¨ 3
-take Ç§Äê¶¾Éßµ¨Ö­ 12
+take Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÂµÂ¨ 3
+take Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 12
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2804,8 +2804,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Amount_70]
-take Æßµã°×Éßµ¨ 3
-take Ç§Äê¶¾Éßµ¨Ö­ 12
+take Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÂµÂ¨ 3
+take Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÂµÂ¨Ã–Â­ 12
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2862,9 +2862,9 @@ check [307] 1
 
 [@323_CHECK1_2]
 #IF
-checkitem ºÅ½Ç 30
-checkitem Æßµã°×ÉßÑÀ³İ 5 
-checkitem Ç§Äê¶¾ÉßÑÀ³İ 15
+checkitem ÂºÃ…Â½Ã‡ 30
+checkitem Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 5
+checkitem Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 15
 #ACT
 goto @323_CHECK1_3
 #ELSESAY
@@ -2875,9 +2875,9 @@ goto @323_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ºÅ½Ç 30
-checkitem Æßµã°×ÉßÑÀ³İ 5 
-checkitem Ç§Äê¶¾ÉßÑÀ³İ 15
+checkitem ÂºÃ…Â½Ã‡ 30
+checkitem Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 5
+checkitem Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 15
 #ACT
 movr s0 100
 inc s0 1
@@ -2896,10 +2896,10 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Amount_10]
-take ºÅ½Ç 30
-take Æßµã°×ÉßÑÀ³İ 5 
-take Ç§Äê¶¾ÉßÑÀ³İ 15
-give ¾®ÖĞÔÂ 1
+take ÂºÃ…Â½Ã‡ 30
+take Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 5
+take Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 15
+give Â¾Â®Ã–ÃÃ”Ã‚ 1
 reset [307] 2
 set [310] 1
 mov s0 0
@@ -2924,10 +2924,10 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Amount_20]
-take ºÅ½Ç 30
-take Æßµã°×ÉßÑÀ³İ 5 
-take Ç§Äê¶¾ÉßÑÀ³İ 15
-give ×æÂêÍ·Ïñ 1
+take ÂºÃ…Â½Ã‡ 30
+take Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 5
+take Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 15
+give Ã—Ã¦Ã‚ÃªÃÂ·ÃÃ± 1
 reset [307] 2
 set [310] 1
 mov s0 0
@@ -2937,10 +2937,10 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Amount_70]
-take ºÅ½Ç 30
-take Æßµã°×ÉßÑÀ³İ 5 
-take Ç§Äê¶¾ÉßÑÀ³İ 15
-give ½ğ±Ò 80000
+take ÂºÃ…Â½Ã‡ 30
+take Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 5
+take Ã‡Â§Ã„ÃªÂ¶Â¾Ã‰ÃŸÃ‘Ã€Â³Ã 15
+give Â½Ã°Â±Ã’ 80000
 reset [307] 2
 set [310] 1
 mov s0 0
@@ -2997,8 +2997,8 @@ check [307] 1
 
 [@324_CHECK1_2]
 #IF
-checkitem Ìú¿ó 10
-checkduraeva Ìú¿ó 12
+checkitem ÃŒÃºÂ¿Ã³ 10
+checkduraeva ÃŒÃºÂ¿Ã³ 12
 #ACT
 goto @324_CHECK1_2_1
 #ELSESAY
@@ -3007,8 +3007,8 @@ goto @324_CHECK1_2_1
 
 [@324_CHECK1_2_1]
 #IF
-checkitem ºÚÌú 10
-checkduraeva ºÚÌú 12
+checkitem ÂºÃšÃŒÃº 10
+checkduraeva ÂºÃšÃŒÃº 12
 #ACT
 goto @324_CHECK1_3
 #ELSESAY
@@ -3019,8 +3019,8 @@ goto @324_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ºÚÌú 10
-checkduraeva ºÚÌú 12
+checkitem ÂºÃšÃŒÃº 10
+checkduraeva ÂºÃšÃŒÃº 12
 #ACT
 movr s0 100
 inc s0 1
@@ -3039,8 +3039,8 @@ small s0 6
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Race_5]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Amount_5]
-take Ìú¿ó 10
-take ºÚÌú 10
+take ÃŒÃºÂ¿Ã³ 10
+take ÂºÃšÃŒÃº 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3065,8 +3065,8 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Amount_15]
-take Ìú¿ó 10
-take ºÚÌú 10
+take ÃŒÃºÂ¿Ã³ 10
+take ÂºÃšÃŒÃº 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3077,8 +3077,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Race_80]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Amount_80]
-take Ìú¿ó 10
-take ºÚÌú 10
+take ÃŒÃºÂ¿Ã³ 10
+take ÂºÃšÃŒÃº 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3136,8 +3136,8 @@ check [307] 1
 
 [@325_CHECK1_2]
 #IF
-checkitem ½ğ¿ó 5
-checkduraeva ½ğ¿ó 12
+checkitem Â½Ã°Â¿Ã³ 5
+checkduraeva Â½Ã°Â¿Ã³ 12
 #ACT
 goto @325_CHECK1_2_1
 #ELSESAY
@@ -3146,8 +3146,8 @@ goto @325_CHECK1_2_1
 
 [@325_CHECK1_2_1]
 #IF
-checkitem Òø¿ó 10
-checkduraeva Òø¿ó 12
+checkitem Ã’Ã¸Â¿Ã³ 10
+checkduraeva Ã’Ã¸Â¿Ã³ 12
 #ACT
 goto @325_CHECK1_3
 #ELSESAY
@@ -3176,8 +3176,8 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_10]
-take ½ğ¿ó 5
-take Òø¿ó 10
+take Â½Ã°Â¿Ã³ 5
+take Ã’Ã¸Â¿Ã³ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3204,8 +3204,8 @@ small s0 61
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_50_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_50_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_50_type2]
-take ½ğ¿ó 5
-take Òø¿ó 10
+take Â½Ã°Â¿Ã³ 5
+take Ã’Ã¸Â¿Ã³ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -3229,17 +3229,17 @@ gender man
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_40_Man]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_40_Man]
 
-take ½ğ¿ó 5
-take Òø¿ó 10
+take Â½Ã°Â¿Ã³ 5
+take Ã’Ã¸Â¿Ã³ 10
 give %A0 %D0
-reset [307] 2 
+reset [307] 2
 set [310] 1
 mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_40_WoMan]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_40WoMan]
-take ½ğ¿ó 5
-take Òø¿ó 10
+take Â½Ã°Â¿Ã³ 5
+take Ã’Ã¸Â¿Ã³ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3299,8 +3299,8 @@ check [307] 1
 
 [@326_CHECK1_2]
 #IF
-checkitem ÂìÒÏÂÑ 100
-checkitem Æ¤ 50
+checkitem Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+checkitem Ã†Â¤ 50
 #ACT
 goto @326_CHECK1_3
 #ELSESAY
@@ -3311,8 +3311,8 @@ goto @326_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ÂìÒÏÂÑ 100
-checkitem Æ¤ 50
+checkitem Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+checkitem Ã†Â¤ 50
 #ACT
 movr s0 100
 inc s0 1
@@ -3331,8 +3331,8 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_1]
-take ÂìÒÏÂÑ 100
-take Æ¤ 50
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3357,8 +3357,8 @@ small s0 6
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_4]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_4]
-take ÂìÒÏÂÑ 100
-take Æ¤ 50
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3377,8 +3377,8 @@ gender man
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_95_Man]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_95_Man]
-take ÂìÒÏÂÑ 100
-take Æ¤ 50
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3389,8 +3389,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_95_WoMan]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_95_WoMan]
-take ÂìÒÏÂÑ 100
-take Æ¤ 50
+take Ã‚Ã¬Ã’ÃÃ‚Ã‘ 100
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3447,8 +3447,8 @@ check [307] 1
 
 [@327_CHECK1_2]
 #IF
-checkitem Å£Èâ 20
-checkduraeva Å£Èâ 12
+checkitem Ã…Â£ÃˆÃ¢ 20
+checkduraeva Ã…Â£ÃˆÃ¢ 12
 #ACT
 goto @327_CHECK1_2_1
 #ELSESAY
@@ -3457,8 +3457,8 @@ goto @327_CHECK1_2_1
 
 [@327_CHECK1_2_1]
 #IF
-checkitem ¼¦Èâ 10
-checkduraeva ¼¦Èâ 5
+checkitem Â¼Â¦ÃˆÃ¢ 10
+checkduraeva Â¼Â¦ÃˆÃ¢ 5
 #ACT
 goto @327_CHECK1_3
 #ELSESAY
@@ -3489,8 +3489,8 @@ small s0 31
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_30_1_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Race_30_1_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_30_1_type2]
-take Å£Èâ 20
-take ¼¦Èâ 10
+take Ã…Â£ÃˆÃ¢ 20
+take Â¼Â¦ÃˆÃ¢ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -3515,8 +3515,8 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Race_30_2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_30_2]
-take Å£Èâ 20
-take ¼¦Èâ 10
+take Ã…Â£ÃˆÃ¢ 20
+take Â¼Â¦ÃˆÃ¢ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3527,8 +3527,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_40]
-take Å£Èâ 20
-take ¼¦Èâ 10
+take Ã…Â£ÃˆÃ¢ 20
+take Â¼Â¦ÃˆÃ¢ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3585,8 +3585,8 @@ check [307] 1
 
 [@328_CHECK1_2]
 #IF
-checkitem ºìÉßÑª 20
-checkitem »¢ÉßÑª 20
+checkitem ÂºÃ¬Ã‰ÃŸÃ‘Âª 20
+checkitem Â»Â¢Ã‰ÃŸÃ‘Âª 20
 #ACT
 goto @328_CHECK1_3
 #ELSESAY
@@ -3597,8 +3597,8 @@ goto @328_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ºìÉßÑª 20
-checkitem »¢ÉßÑª 20
+checkitem ÂºÃ¬Ã‰ÃŸÃ‘Âª 20
+checkitem Â»Â¢Ã‰ÃŸÃ‘Âª 20
 #ACT
 movr s0 100
 inc s0 1
@@ -3617,8 +3617,8 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Amount_15]
-take ºìÉßÑª 20
-take »¢ÉßÑª 20
+take ÂºÃ¬Ã‰ÃŸÃ‘Âª 20
+take Â»Â¢Ã‰ÃŸÃ‘Âª 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3629,8 +3629,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Race_85]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Amount_85]
-take ºìÉßÑª 20
-take »¢ÉßÑª 20
+take ÂºÃ¬Ã‰ÃŸÃ‘Âª 20
+take Â»Â¢Ã‰ÃŸÃ‘Âª 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3687,8 +3687,8 @@ check [307] 1
 
 [@329_CHECK1_2]
 #IF
-checkitem Æ¤ 30
-checkitem Ö©ÖëÏß 10
+checkitem Ã†Â¤ 30
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 10
 #ACT
 goto @329_CHECK1_3
 #ELSESAY
@@ -3700,8 +3700,8 @@ goto @329_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æ¤ 30
-checkitem Ö©ÖëÏß 10
+checkitem Ã†Â¤ 30
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -3720,8 +3720,8 @@ small s0 41
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Amount_40]
-take Æ¤ 30
-take Ö©ÖëÏß 10
+take Ã†Â¤ 30
+take Ã–Â©Ã–Ã«ÃÃŸ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3729,8 +3729,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Race_60]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Amount_60]
-take Æ¤ 30
-take Ö©ÖëÏß 10
+take Ã†Â¤ 30
+take Ã–Â©Ã–Ã«ÃÃŸ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3790,7 +3790,7 @@ check [307] 1
 
 [@330_CHECK1_2]
 #IF
-checkitem ÷¼÷Ã¹Ç 100
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 100
 #ACT
 goto @330_CHECK1_3
 #ELSESAY
@@ -3801,7 +3801,7 @@ goto @330_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ÷¼÷Ã¹Ç 100
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 100
 #ACT
 movr s0 100
 inc s0 1
@@ -3820,7 +3820,7 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_10]
-take ÷¼÷Ã¹Ç 100
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 100
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3846,7 +3846,7 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_40]
-take ÷¼÷Ã¹Ç 100
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 100
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3859,7 +3859,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_50_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Race_50_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_50_type2]
-take ÷¼÷Ã¹Ç 100
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 100
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -3917,7 +3917,7 @@ check [307] 1
 
 [@331_CHECK1_2]
 #IF
-checkitem ±¦Óñ 10
+checkitem Â±Â¦Ã“Ã± 10
 #ACT
 goto @331_CHECK1_3
 #ELSESAY
@@ -3928,7 +3928,7 @@ goto @331_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ±¦Óñ 10
+checkitem Â±Â¦Ã“Ã± 10
 #ACT
 movr s0 100
 inc s0 1
@@ -3947,7 +3947,7 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Amount_10]
-take ±¦Óñ 10
+take Â±Â¦Ã“Ã± 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3973,7 +3973,7 @@ small s0 50
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Amount_40]
-take ±¦Óñ 10
+take Â±Â¦Ã“Ã± 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3984,7 +3984,7 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Amount_50]
-take ±¦Óñ 10
+take Â±Â¦Ã“Ã± 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4041,8 +4041,8 @@ check [307] 1
 
 [@332_CHECK1_2]
 #IF
-checkitem Æ¤ 30
-checkitem Ö©ÖëÏß 10
+checkitem Ã†Â¤ 30
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 10
 #ACT
 goto @332_CHECK1_3
 #ELSESAY
@@ -4054,8 +4054,8 @@ goto @332_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Æ¤ 30
-checkitem Ö©ÖëÏß 10
+checkitem Ã†Â¤ 30
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -4074,8 +4074,8 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_1]
-take Æ¤ 30
-take Ö©ÖëÏß 10
+take Ã†Â¤ 30
+take Ã–Â©Ã–Ã«ÃÃŸ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4102,8 +4102,8 @@ small s0 51
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_49_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Race_49_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_49_type2]
-take Æ¤ 30
-take Ö©ÖëÏß 10
+take Ã†Â¤ 30
+take Ã–Â©Ã–Ã«ÃÃŸ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -4115,8 +4115,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_50]
-take Æ¤ 30
-take Ö©ÖëÏß 10
+take Ã†Â¤ 30
+take Ã–Â©Ã–Ã«ÃÃŸ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4173,7 +4173,7 @@ check [307] 1
 
 [@333_CHECK1_2]
 #IF
-checkitem Ö©ÖëÏß 20
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 20
 #ACT
 goto @333_CHECK1_3
 #ELSESAY
@@ -4189,11 +4189,11 @@ break
 #IF
 check [310] 0
 check [307] 1
-checkitem Ö©ÖëÏß 20
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 20
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [333] [Reward_Race_100]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [333] [Reward_Amount_100]
-take Ö©ÖëÏß 20
+take Ã–Â©Ã–Ã«ÃÃŸ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4249,8 +4249,8 @@ check [307] 1
 
 [@334_CHECK1_2]
 #IF
-checkitem Ö©ÖëÏß 50
-checkitem ÷¼÷Ã¹Ç 50
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 50
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 50
 #ACT
 goto @334_CHECK1_3
 #ELSESAY
@@ -4261,8 +4261,8 @@ goto @334_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem Ö©ÖëÏß 50
-checkitem ÷¼÷Ã¹Ç 50
+checkitem Ã–Â©Ã–Ã«ÃÃŸ 50
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 50
 #ACT
 movr s0 100
 inc s0 1
@@ -4282,8 +4282,8 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Amount_10]
-take Ö©ÖëÏß 50
-take ÷¼÷Ã¹Ç 50
+take Ã–Â©Ã–Ã«ÃÃŸ 50
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4310,8 +4310,8 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Amount_40]
-take Ö©ÖëÏß 50
-take ÷¼÷Ã¹Ç 50
+take Ã–Â©Ã–Ã«ÃÃŸ 50
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4322,8 +4322,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Amount_50]
-take Ö©ÖëÏß 50
-take ÷¼÷Ã¹Ç 50
+take Ã–Â©Ã–Ã«ÃÃŸ 50
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4380,8 +4380,8 @@ check [307] 1
 
 [@335_CHECK1_2]
 #IF
-checkitem ÷¼÷Ã¹Ç 50
-checkitem Æ¤ 20
+checkitem Ã·Â¼Ã·ÃƒÂ¹Ã‡ 50
+checkitem Ã†Â¤ 20
 #ACT
 goto @335_CHECK1_3
 #ELSESAY
@@ -4400,8 +4400,8 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [335] [Reward_Race_100]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [335] [Reward_Amount_100]
-take ÷¼÷Ã¹Ç 50
-take Æ¤ 20
+take Ã·Â¼Ã·ÃƒÂ¹Ã‡ 50
+take Ã†Â¤ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4457,7 +4457,7 @@ check [307] 1
 
 [@336_CHECK1_2]
 #IF
-checkitem »¨É«Ö©Öë¶¾Ò© 10
+checkitem Â»Â¨Ã‰Â«Ã–Â©Ã–Ã«Â¶Â¾Ã’Â© 10
 #ACT
 goto @336_CHECK1_3
 #ELSESAY
@@ -4468,7 +4468,7 @@ goto @336_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem »¨É«Ö©Öë¶¾Ò© 10
+checkitem Â»Â¨Ã‰Â«Ã–Â©Ã–Ã«Â¶Â¾Ã’Â© 10
 #ACT
 movr s0 100
 inc s0 1
@@ -4487,7 +4487,7 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Amount_1]
-take »¨É«Ö©Öë¶¾Ò© 10
+take Â»Â¨Ã‰Â«Ã–Â©Ã–Ã«Â¶Â¾Ã’Â© 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4512,7 +4512,7 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Race_19]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Amount_19]
-take »¨É«Ö©Öë¶¾Ò© 10
+take Â»Â¨Ã‰Â«Ã–Â©Ã–Ã«Â¶Â¾Ã’Â© 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4523,7 +4523,7 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Race_80]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Amount_80]
-take »¨É«Ö©Öë¶¾Ò© 10
+take Â»Â¨Ã‰Â«Ã–Â©Ã–Ã«Â¶Â¾Ã’Â© 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4581,8 +4581,8 @@ check [307] 1
 
 [@337_CHECK1_2]
 #IF
-checkitem Ìú¿ó 10
-checkduraeva Ìú¿ó 12
+checkitem ÃŒÃºÂ¿Ã³ 10
+checkduraeva ÃŒÃºÂ¿Ã³ 12
 #ACT
 goto @337_CHECK1_2_1
 #ELSESAY
@@ -4591,7 +4591,7 @@ goto @337_CHECK1_2_1
 
 [@337_CHECK1_2_1]
 #IF
-checkitem Æ¤ 50
+checkitem Ã†Â¤ 50
 #ACT
 goto @337_CHECK1_3
 #ELSESAY
@@ -4622,8 +4622,8 @@ small s0 41
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Amount_40_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Race_40_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Amount_40_type2]
-take Ìú¿ó 10
-take Æ¤ 50
+take ÃŒÃºÂ¿Ã³ 10
+take Ã†Â¤ 50
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -4635,8 +4635,8 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Race_60]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Amount_60]
-take Ìú¿ó 10
-take Æ¤ 50
+take ÃŒÃºÂ¿Ã³ 10
+take Ã†Â¤ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4693,7 +4693,7 @@ check [307] 1
 
 [@338_CHECK1_2]
 #IF
-checkitem ÅµÂê·¨ÀÏÕäÖé 5
+checkitem Ã…ÂµÃ‚ÃªÂ·Â¨Ã€ÃÃ•Ã¤Ã–Ã© 5
 #ACT
 goto @338_CHECK1_3
 #ELSESAY
@@ -4704,7 +4704,7 @@ goto @338_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ÅµÂê·¨ÀÏÕäÖé 5
+checkitem Ã…ÂµÃ‚ÃªÂ·Â¨Ã€ÃÃ•Ã¤Ã–Ã© 5
 #ACT
 movr s0 100
 inc s0 1
@@ -4723,7 +4723,7 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_15]
-take ÅµÂê·¨ÀÏÕäÖé 5
+take Ã…ÂµÃ‚ÃªÂ·Â¨Ã€ÃÃ•Ã¤Ã–Ã© 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4748,7 +4748,7 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Race_35]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_35]
-take ÅµÂê·¨ÀÏÕäÖé 5
+take Ã…ÂµÃ‚ÃªÂ·Â¨Ã€ÃÃ•Ã¤Ã–Ã© 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4761,7 +4761,7 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_50_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Race_50_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_50_type2]
-take ÅµÂê·¨ÀÏÕäÖé 5
+take Ã…ÂµÃ‚ÃªÂ·Â¨Ã€ÃÃ•Ã¤Ã–Ã© 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -4819,7 +4819,7 @@ check [307] 1
 
 [@339_CHECK1_2]
 #IF
-checkitem É³Ä®ÓãÄ§ÑÀ³İ 20
+checkitem Ã‰Â³Ã„Â®Ã“Ã£Ã„Â§Ã‘Ã€Â³Ã 20
 #ACT
 goto @339_CHECK1_3
 #ELSESAY
@@ -4830,7 +4830,7 @@ goto @339_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem É³Ä®ÓãÄ§ÑÀ³İ 20
+checkitem Ã‰Â³Ã„Â®Ã“Ã£Ã„Â§Ã‘Ã€Â³Ã 20
 #ACT
 movr s0 100
 inc s0 1
@@ -4849,7 +4849,7 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Amount_10]
-take É³Ä®ÓãÄ§ÑÀ³İ 20
+take Ã‰Â³Ã„Â®Ã“Ã£Ã„Â§Ã‘Ã€Â³Ã 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4875,7 +4875,7 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Amount_20]
-take É³Ä®ÓãÄ§ÑÀ³İ 20
+take Ã‰Â³Ã„Â®Ã“Ã£Ã„Â§Ã‘Ã€Â³Ã 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4886,7 +4886,7 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Amount_70]
-take É³Ä®ÓãÄ§ÑÀ³İ 20
+take Ã‰Â³Ã„Â®Ã“Ã£Ã„Â§Ã‘Ã€Â³Ã 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4942,7 +4942,7 @@ check [307] 1
 
 [@340_CHECK1_2]
 #IF
-checkitem ÅµÂêÒ©Ë® 10
+checkitem Ã…ÂµÃ‚ÃªÃ’Â©Ã‹Â® 10
 #ACT
 goto @340_CHECK1_3
 #ELSESAY
@@ -4953,7 +4953,7 @@ goto @340_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem ÅµÂêÒ©Ë® 10
+checkitem Ã…ÂµÃ‚ÃªÃ’Â©Ã‹Â® 10
 #ACT
 movr s0 100
 inc s0 1
@@ -4972,7 +4972,7 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Race_15_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Amount_15_1]
-take ÅµÂêÒ©Ë® 10
+take Ã…ÂµÃ‚ÃªÃ’Â©Ã‹Â® 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -4997,7 +4997,7 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Race_15_2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Amount_15_2]
-take ÅµÂêÒ©Ë® 10
+take Ã…ÂµÃ‚ÃªÃ’Â©Ã‹Â® 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -5008,7 +5008,7 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Amount_70]
-take ÅµÂêÒ©Ë® 10
+take Ã…ÂµÃ‚ÃªÃ’Â©Ã‹Â® 10
 give %A0 %D0
 reset [307] 2
 set [310] 1

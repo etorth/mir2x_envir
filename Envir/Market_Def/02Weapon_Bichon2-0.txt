@@ -28,7 +28,7 @@ goto @main_0_0
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Bichon2-0.txt] @NPC_Main_0_0
 
- 
+
 [@Special_Repair()]
 #CALL [\Repair\TotalRepair.txt] @SRepairItem
 
@@ -54,14 +54,14 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-ÇàÍ­¸«          100        1
-°Ë»Ä            100        1
-Áè·ç            100        1
-Õ¶Âíµ¶          100        1
-ĞŞÂŞ            100        1
-º£»ê            100        1
-°ëÔÂ            100        1
-º××ì³ú          100        1
+Ã‡Ã ÃÂ­Â¸Â«          100        1
+Â°Ã‹Â»Ã„            100        1
+ÃÃ¨Â·Ã§            100        1
+Ã•Â¶Ã‚Ã­ÂµÂ¶          100        1
+ÃÃÃ‚Ã            100        1
+ÂºÂ£Â»Ãª            100        1
+Â°Ã«Ã”Ã‚            100        1
+ÂºÃ—Ã—Ã¬Â³Ãº          100        1
 
 [@pre_repair]
 #IF
@@ -77,7 +77,7 @@ goto @pre_repair_mutebo
 	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Bichon2-0.txt] @NPC_Pre_Repair
 [@pre_repair_mutebo]
 #IF
-checkmagic Ò°Âù³å×²
+checkmagic Ã’Â°Ã‚Ã¹Â³Ã¥Ã—Â²
 #ACT
 goto @pre_repair_0
 #ELSEACT

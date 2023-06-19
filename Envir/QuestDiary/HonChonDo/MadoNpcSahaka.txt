@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;Â²Â»Ã’ÂªÃ‰Â¾ÂµÃ´Â´Ã‹ÃÃ
 
 
 
@@ -131,7 +131,7 @@ break
 HOUR 22 23
 !Equal D2 2
 !Equal D3 1
-checkitem ²Ø±¦Ïä 1
+checkitem Â²Ã˜Â±Â¦ÃÃ¤ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_2
 break
@@ -140,7 +140,7 @@ break
 HOUR 22 23
 Equal D2 2
 Equal D3 1
-checkitem ²Ø±¦Ïä 1
+checkitem Â²Ã˜Â±Â¦ÃÃ¤ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_3
 break
@@ -217,7 +217,7 @@ break
 HOUR 1 21
 !Equal D2 2
 !Equal D3 1
-checkitem ²Ø±¦Ïä 1
+checkitem Â²Ã˜Â±Â¦ÃÃ¤ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_2
 break
@@ -226,7 +226,7 @@ break
 HOUR 1 21
 Equal D2 2
 Equal D3 1
-checkitem ²Ø±¦Ïä 1
+checkitem Â²Ã˜Â±Â¦ÃÃ¤ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_3
 break
@@ -349,7 +349,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_15
 
 #ACT
-take ²Ø±¦Ïä 1
+take Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=3"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
@@ -467,7 +467,7 @@ break
 
 #IF
 HOUR 21 23
-Checkitem Ê¬¹ÇÏîÁ´ 1
+Checkitem ÃŠÂ¬Â¹Ã‡ÃÃ®ÃÂ´ 1
 #ACT
 goto @MadoTimeQuestthursdaynoDB
 break
@@ -502,7 +502,7 @@ break
 HOUR 21 23
 !Equal D2 1
 !Equal D3 0
-Checkitem Ê¬¹ÇÏîÁ´ 1
+Checkitem ÃŠÂ¬Â¹Ã‡ÃÃ®ÃÂ´ 1
 #ACT
 goto @MadoTimeQuestthursdaynoDB
 break
@@ -603,7 +603,7 @@ mov D3 %ARG(2)
 
 #IF
 HOUR 0 20
-Checkitem Ê¬¹ÇÏîÁ´ 1
+Checkitem ÃŠÂ¬Â¹Ã‡ÃÃ®ÃÂ´ 1
 #ACT
 goto @MadoTimeQuestthursdaynoDB
 break
@@ -655,7 +655,7 @@ HOUR 21 21
 MIN 1 30
 Equal D2 1
 Equal D3 0
-Checkitem Ê¬¹ÇÏîÁ´ 1
+Checkitem ÃŠÂ¬Â¹Ã‡ÃÃ®ÃÂ´ 1
 #ACT
 goto @MadoTimeQuestSathursday9_930
 break
@@ -665,7 +665,7 @@ HOUR 21 21
 MIN 1 30
 Equal D2 1
 Equal D3 1
-Checkitem Ê¬¹ÇÏîÁ´ 1
+Checkitem ÃŠÂ¬Â¹Ã‡ÃÃ®ÃÂ´ 1
 #ACT
 goto @MadoTimeQuestthursday9_930_no_1
 break
@@ -1161,4 +1161,4 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_54
 
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;Â²Â»Ã’ÂªÃ‰Â¾ÂµÃ´Â´Ã‹ÃÃ

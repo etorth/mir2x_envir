@@ -11,10 +11,10 @@ goto @main_root_1
 #IF
 checkjob taoist
 #ACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @chung_main
 #ELSEACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @chung_other_class
 
 [@chung_other_class]

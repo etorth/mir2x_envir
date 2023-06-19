@@ -1,3 +1,3 @@
 ;;9BCEvent1-0.txt
 [@main]
-#CALL [\附加功能\系统服务.txt] @xtfw
+#CALL [\闄勫姞鍔熻兘\绯荤粺鏈嶅姟.txt] @xtfw

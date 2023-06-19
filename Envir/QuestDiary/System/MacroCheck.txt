@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@MacroBlock]
 #IF
 Equal A8 "TRUE"
@@ -173,4 +173,4 @@ break
 
 #ELSEACT
 Map 3
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

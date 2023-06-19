@@ -24,7 +24,7 @@ goto @main_0_0
 [@main_0_0]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Main_0_0
- 
+
 ;----------------------------------------------------------
 
 [@buy]
@@ -34,7 +34,7 @@ goto @main_0_0
 [@sell]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Sell
- 
+
 [@repair]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Repair
@@ -45,8 +45,8 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-��Ь	        100         1
-Ƥѥ	        100         1
+²ÝÐ¬	        100         1
+Æ¤Ñ¥	        100         1
 
 [@TQuest]
 #IF

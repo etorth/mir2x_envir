@@ -2,6 +2,6 @@
 [@ChangeFlag]
 {
 #ACT
-SENDCMD  "3   , 0, 0, 1000"  ɳ�Ϳ�����  "@_Startup"
-SENDCMD  "Z011, 0, 0, 1000"  ɳ�Ϳ�����  "@_Startup"
+SENDCMD  "3   , 0, 0, 1000"  É³°Í¿ËÆìÖÄ  "@_Startup"
+SENDCMD  "Z011, 0, 0, 1000"  É³°Í¿ËÆìÖÄ  "@_Startup"
 }

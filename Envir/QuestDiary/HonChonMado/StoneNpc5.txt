@@ -1,8 +1,8 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 [@NumaStone5_Talk]
 {
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @NumaStone5_Talk1
 break
@@ -25,7 +25,7 @@ mov D3 %ARG(3)
 #IF
 Equal D1 12
 Equal D2 1
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @NumaStone5_Talk1_5
 break
@@ -33,7 +33,7 @@ break
 #IF
 Equal D1 12
 Equal D2 0
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @NumaStone5_Talk1_1
 break
@@ -41,7 +41,7 @@ break
 #IF
 Equal D1 11
 small D2 9
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @NumaStone5_Talk0_1
 break
@@ -73,28 +73,28 @@ break
 
 [@NumaStone5_Talk1_3]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-Checkitem Çà¿ÕÊ¯ 1
-Checkitem ´óµØÊ¯ 1
-Checkitem Ì«ÑôÊ¯ 1
-Checkitem ÔÂ¹âÊ¯ 1
-Checkitem ÊÜÌ¥Ê¯ 1
-Checkitem °²Ï¢Ê¯ 1
-Checkitem ĞÄÊ¯ 1
-Checkitem »îÊ¯ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitem é’ç©ºçŸ³ 1
+Checkitem å¤§åœ°çŸ³ 1
+Checkitem å¤ªé˜³çŸ³ 1
+Checkitem æœˆå…‰çŸ³ 1
+Checkitem å—èƒçŸ³ 1
+Checkitem å®‰æ¯çŸ³ 1
+Checkitem å¿ƒçŸ³ 1
+Checkitem æ´»çŸ³ 1
 #ACT
 set [208] 1
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
-take Çà¿ÕÊ¯ 1
-take ´óµØÊ¯ 1
-take Ì«ÑôÊ¯ 1
-take ÔÂ¹âÊ¯ 1
-take ÊÜÌ¥Ê¯ 1
-take °²Ï¢Ê¯ 1
-take ĞÄÊ¯ 1
-take »îÊ¯ 1
+take é’ç©ºçŸ³ 1
+take å¤§åœ°çŸ³ 1
+take å¤ªé˜³çŸ³ 1
+take æœˆå…‰çŸ³ 1
+take å—èƒçŸ³ 1
+take å®‰æ¯çŸ³ 1
+take å¿ƒçŸ³ 1
+take æ´»çŸ³ 1
 LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\StoneNpc5.txt] [Convert] [Msg0]
 Linemsg "Grobal" %A7
 goto @NumaStone5_Talk1_4
@@ -123,4 +123,4 @@ break
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc5.txt] @Convert_StoneNpc5_6
 
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

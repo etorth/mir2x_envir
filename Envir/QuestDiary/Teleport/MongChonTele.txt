@@ -7,10 +7,10 @@
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\MongChonTele.txt] @MongChonTele_1
 
 #ELSEACT
-mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
+mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
 }
 ;-------------------------------------------------------------------------------
 [@Monchon_Teleport_West]
@@ -21,8 +21,8 @@ mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\MongChonTele.txt] @MongChonTele_2
 
 #ELSEACT
-mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
+mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
 }

@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@Samak_Item_Main]
 {
 #ACT
@@ -25,4 +25,4 @@ FormatStr "%s,%s,%s,10" %A0 %A1 %A2
 MakeHealZone %A9 10 50 [GUILD]
 
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

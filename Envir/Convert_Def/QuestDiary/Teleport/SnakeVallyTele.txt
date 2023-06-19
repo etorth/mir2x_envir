@@ -1,35 +1,35 @@
 ;;SnakeVallyTele.txt
 [@SnakeVallyTele_1]
 {
-ÁùÃæÉñÊ¯ \ \
-<ÒÆ¶¯ÖÁ±ÈÆæ³ÇËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(Bichon,500,East)> \ \
-<ÒÆ¶¯ÖÁÒøĞÓÉ½´åËùĞè½ğÇ® : 1000 Ç®/@TelePortRootin(EunHang,1000,Center)> \
-<ÒÆ¶¯ÖÁµÀ¹İ´åËùĞè½ğÇ® : 1000 Ç®/@TelePortRootin(DoGwan,1000,Center)> \
-<ÒÆ¶¯ÖÁ±ß¾³´å×¯ËùĞè½ğÇ® : 1000 Ç®/@TelePortRootin(KugKyung,1000,North)> \ \
-<ÒÆ¶¯ÖÁÅËÒ¹µº´åËùĞè½ğÇ® : 1500 Ç®/@TelePortRootin(HalfMoon,1500,Center)> \
-<ÒÆ¶¯ÖÁÃËÖØÍÁ³ÇËùĞè½ğÇ® : 1500 Ç®/@TelePortRootin(MongChon,1500,East)> \ \
-<ÒÆ¶¯ÖÁÉ³Ä®ÍÁ³ÇËùĞè½ğÇ® : 2000 Ç®/@TelePortRootin(Samak,2000,East)> \ \
-<ÒÆ¶¯ÖÁÂÌÖŞ´åËùĞè½ğÇ® : 2500 Ç®/@TelePortRootin(Oasis,2500,Center)> \ \
-;;<´©¸¶¸¶À» ÀÌµ¿¿ä±İ : 3000 Ç®/@TelePortRootin(Numa,3000,Center)> \
+å…­é¢ç¥çŸ³ \ \
+<ç§»åŠ¨è‡³æ¯”å¥‡åŸæ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(Bichon,500,East)> \ \
+<ç§»åŠ¨è‡³é“¶æå±±æ‘æ‰€éœ€é‡‘é’± : 1000 é’±/@TelePortRootin(EunHang,1000,Center)> \
+<ç§»åŠ¨è‡³é“é¦†æ‘æ‰€éœ€é‡‘é’± : 1000 é’±/@TelePortRootin(DoGwan,1000,Center)> \
+<ç§»åŠ¨è‡³è¾¹å¢ƒæ‘åº„æ‰€éœ€é‡‘é’± : 1000 é’±/@TelePortRootin(KugKyung,1000,North)> \ \
+<ç§»åŠ¨è‡³æ½˜å¤œå²›æ‘æ‰€éœ€é‡‘é’± : 1500 é’±/@TelePortRootin(HalfMoon,1500,Center)> \
+<ç§»åŠ¨è‡³ç›Ÿé‡åœŸåŸæ‰€éœ€é‡‘é’± : 1500 é’±/@TelePortRootin(MongChon,1500,East)> \ \
+<ç§»åŠ¨è‡³æ²™æ¼ åœŸåŸæ‰€éœ€é‡‘é’± : 2000 é’±/@TelePortRootin(Samak,2000,East)> \ \
+<ç§»åŠ¨è‡³ç»¿æ´²æ‘æ‰€éœ€é‡‘é’± : 2500 é’±/@TelePortRootin(Oasis,2500,Center)> \ \
+;;<ç©¿ä»˜ä»˜é˜‘ ææ‚¼å¤¸é™› : 3000 é’±/@TelePortRootin(Numa,3000,Center)> \
 }
 
 [@SnakeVallyTele_2]
 {
-ÁùÃæÉñÊ¯ \ \
+å…­é¢ç¥çŸ³ \ \
 }
 
 [@SnakeVallyTele_3]
 {
-<ÒÆ¶¯ÖÁ¹¥³ÇÕ½µØÓòËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(Sabuk,500,Center)> \ \
+<ç§»åŠ¨è‡³æ”»åŸæˆ˜åœ°åŸŸæ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(Sabuk,500,Center)> \ \
 }
 
 [@SnakeVallyTele_4]
 {
-<ÒÆ¶¯ÖÁ¹¥³ÇÕ½µØÓòËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(Sabuk,500,Center)> \ \
+<ç§»åŠ¨è‡³æ”»åŸæˆ˜åœ°åŸŸæ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(Sabuk,500,Center)> \ \
 }
 
 [@SnakeVallyTele_5]
 {
-Äã²»ÊÇ²Î¼ÓÉ³°Í¿Ë¹¥³ÇÕ½µÄĞĞ»á³ÉÔ±¡£\ \
-<½áÊø/@exit>
+ä½ ä¸æ˜¯å‚åŠ æ²™å·´å…‹æ”»åŸæˆ˜çš„è¡Œä¼šæˆå‘˜ã€‚\ \
+<ç»“æŸ/@exit>
 }

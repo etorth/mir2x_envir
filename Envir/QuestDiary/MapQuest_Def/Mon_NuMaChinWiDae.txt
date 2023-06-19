@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 
 [@Main]
 #ACT
@@ -20,4 +20,4 @@ break
 
 [@mainstep6_1_0]
 #CALL [HonChondo\Mon_extinction.txt] @mainstep6_1
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

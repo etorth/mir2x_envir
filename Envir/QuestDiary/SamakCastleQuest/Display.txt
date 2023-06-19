@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@Samak_Display_Main]
 {
 #IF
@@ -195,4 +195,4 @@ UpdateValueSQL "TBL_SamakCastleQuest" %A6 %A9
 #INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Display.txt] @Convert_Display_15
 
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

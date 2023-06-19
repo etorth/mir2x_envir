@@ -67,7 +67,7 @@ goto @GIVE_GALL_0
 #IF
 check [217] 1
 check [219] 0
-checkitem ǧ�궾�ߵ�֭ 1
+checkitem Ç§Äê¶¾Éßµ¨Ö­ 1
 #ACT
 goto @GIVE_GALL_1
 #ELSESAY
@@ -76,9 +76,9 @@ goto @GIVE_GALL_1
 
 [@GIVE_GALL_1]
 #IF
-checkitem ǧ�궾�ߵ�֭ 1
+checkitem Ç§Äê¶¾Éßµ¨Ö­ 1
 #ACT
-take ǧ�궾�ߵ�֭ 1
+take Ç§Äê¶¾Éßµ¨Ö­ 1
 set [218] 1
 goto @GIVE_GALL_2
 [@GIVE_GALL_2]
@@ -94,7 +94,7 @@ check [219] 0
 check [217] 1
 check [219] 0
 #ACT
-give �������� 1
+give ²¨ÎÆÊÖïí 1
 reset [214] 4
 set [219] 1
 #SAY
@@ -154,7 +154,7 @@ set [216] 1
 [@SEARCH_GALL]
 {
 #IF
-checkitem ǧ�궾�ߵ�֭ 1
+checkitem Ç§Äê¶¾Éßµ¨Ö­ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\bamgol.txt] @bamgol_15
 

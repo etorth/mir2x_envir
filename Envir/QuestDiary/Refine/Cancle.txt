@@ -11,7 +11,7 @@ begin
 		   TestRefinePoints
 
 		#IF
-		   !checkitem ħ��ʯ 1
+		   !checkitem Ä§¾§Ê¯ 1
 		#SAY
 		   #INCLUDE [..\Convert_Def\QuestDiary\Refine\Cancle.txt] @Cancle_Say_2
 		#ACT
@@ -22,21 +22,21 @@ begin
 
 		#SAY
 		   Refine points = <$OUTPUT(P9)>\
-		
+
 		#IF
 		   ESmall  P9  20
 		#SAY
 		   #INCLUDE [..\Convert_Def\QuestDiary\Refine\Cancle.txt] @Cancle_Say_3
 		#ACT
 		   break
-		
+
 		#IF
 		   ESmall  P9  30
 		#SAY
 		   #INCLUDE [..\Convert_Def\QuestDiary\Refine\Cancle.txt] @Cancle_Say_4
 		#ACT
 		   break
-		
+
 		#IF
 		#SAY
 		   #INCLUDE [..\Convert_Def\QuestDiary\Refine\Cancle.txt] @Cancle_Say_5
@@ -52,14 +52,14 @@ begin
          #INCLUDE [..\Convert_Def\QuestDiary\Refine\Cancle.txt] @Cancle_Say_5_except
       #ELSEACT
          break
-	
+
 	   #IF
 	      CheckAccessory  5
    		checkgold       1000000
-			checkitem       ħ��ʯ     1
+			checkitem       Ä§¾§Ê¯     1
 		#ACT
-			take ħ��ʯ 1
-			take ��� 1000000
+			take Ä§¾§Ê¯ 1
+			take ½ð±Ò 1000000
 			ResetRefineWeapon
 			close
 		#ELSESAY

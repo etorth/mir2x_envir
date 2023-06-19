@@ -113,8 +113,8 @@ check [131] 0
 #IF
 check [131] 0
 #ACT
-give ¹Å¼® 1
-give »ù±¾½£Êõ 1
+give Â¹Ã…Â¼Â® 1
+give Â»Ã¹Â±Â¾Â½Â£ÃŠÃµ 1
 reset [102] 28
 set [131] 1
 #SAY
@@ -167,8 +167,8 @@ check [131] 0
 check [105] 1
 check [131] 0
 #ACT
-give ¹Å¼® 1
-give »ù±¾½£Êõ 1
+give Â¹Ã…Â¼Â® 1
+give Â»Ã¹Â±Â¾Â½Â£ÃŠÃµ 1
 reset [102] 28
 set [131] 1
 #SAY
@@ -202,7 +202,7 @@ check [103] 0
 check [102] 1
 check [103] 0
 #ACT
-give ÈâÌÀ 1
+give ÃˆÃ¢ÃŒÃ€ 1
 set [103] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\warriorbase.txt] @warriorbase_23
@@ -268,10 +268,10 @@ check [106] 0
 
 [@Junsa_MQ_COMPLETE_4]
 #IF
-checkdura Å£Èâ 10
+checkdura Ã…Â£ÃˆÃ¢ 10
 #ACT
-take Å£Èâ 1
-give ½ğ±Ò 1000
+take Ã…Â£ÃˆÃ¢ 1
+give Â½Ã°Â±Ã’ 1000
 set [105] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\warriorbase.txt] @warriorbase_29
@@ -289,7 +289,7 @@ goto @Junsa_TAKE_GOGIGUK_0
 
 [@Junsa_TAKE_GOGIGUK_0]
 #IF
-checkitem ÈâÌÀ 1
+checkitem ÃˆÃ¢ÃŒÃ€ 1
 #ACT
 goto @Junsa_TAKE_GOGIGUK_1
 #ELSESAY
@@ -301,8 +301,8 @@ goto @Junsa_TAKE_GOGIGUK_1
 check [103] 1
 check [163] 0
 #ACT
-take ÈâÌÀ 1
-give Ø°Ê× 1
+take ÃˆÃ¢ÃŒÃ€ 1
+give Ã˜Â°ÃŠÃ— 1
 set [103] 0
 set [163] 1
 #SAY
@@ -329,11 +329,11 @@ check [164] 0
 
 [@Junsa_CQ_COMPLETE_0]
 #IF
-checkitem ¹Å¼® 1
+checkitem Â¹Ã…Â¼Â® 1
 #ACT
 takecheckitem
-give ½ğ±Ò 1000
-give ÇàÍ­Í·¿ø 1
+give Â½Ã°Â±Ã’ 1000
+give Ã‡Ã ÃÂ­ÃÂ·Â¿Ã¸ 1
 goto @Junsa_CQ_COMPLETE_1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\warriorbase.txt] @warriorbase_35

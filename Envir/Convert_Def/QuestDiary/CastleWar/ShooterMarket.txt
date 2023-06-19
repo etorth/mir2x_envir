@@ -1,96 +1,96 @@
 ;;ShooterMarket.txt
 [@ShooterMarket_1]
 {
-������ȡ���Ǳ����ĵط�����\ \
-<����Ͷʯ��/@buy_stoneshooter>\
-<������/@buy_chainshooter>\ \
-<�и����Ǳ���/@leave_shooter>\
-<�һع��Ǳ���/@getback_shooter>\ \
-<���۹��Ǳ���/@kill_shooter>\
-<�������ʯͷ/@buy>\ \
+这里是取攻城兵器的地方。。\ \
+<购买投石车/@buy_stoneshooter>\
+<购买弩车/@buy_chainshooter>\ \
+<托付攻城兵器/@leave_shooter>\
+<找回攻城兵器/@getback_shooter>\ \
+<出售攻城兵器/@kill_shooter>\
+<购买箭，石头/@buy>\ \
 }
 
 [@ShooterMarket_2]
 {
-Ͷʯ���ļ۸���10���ҡ���ȷ��һ�������Ǯ�� \ \
-<����/@exit>
+投石车的价格是10万金币。请确认一下你带的钱。 \ \
+<结束/@exit>
 }
 
 [@ShooterMarket_3]
 {
-�ɹ�������˹���Ͷʯ����\ \
-<ǰһ��/@main>
+成功地完成了购买投石车。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_4]
 {
-���Ѿ��й��Ǳ����ˡ�\ \
-<ǰһ��/@main>
+你已经有攻城兵器了。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_5]
 {
-�󳵵ļ۸���10���ҡ���ȷ��һ�������Ǯ��\ \
-<����/@exit>
+弩车的价格是10万金币。请确认一下你带的钱。\ \
+<结束/@exit>
 }
 
 [@ShooterMarket_6]
 {
-�ɹ�������˹����󳵡�\ \
-<ǰһ��/@main>
+成功地完成了购买弩车。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_7]
 {
-���Ѿ��й��Ǳ����ˡ�\ \
-<ǰһ��/@main>
+你已经有攻城兵器了。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_8]
 {
-����ģ��һᱣ�ܺù��Ǳ����ġ�\ \
-<ǰһ��/@main>
+请放心，我会保管好攻城兵器的。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_9]
 {
-��û�й��Ǳ���������\ \
-<ǰһ��/@main>
+你没有攻城兵器啊。。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_10]
 {
-�һع��Ǳ�������ķ�����1000��ҡ���ȷ��һ�������Ǯ��\ \
-<����/@exit>
+找回攻城兵器所需的费用是1000金币。请确认一下你带的钱。\ \
+<结束/@exit>
 }
 
 [@ShooterMarket_11]
 {
-��ɹ����ҵ���Ͷʯ����\ \
-<ǰһ��/@main>
+你成功地找到了投石车。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_12]
 {
-��ɹ����ҵ����󳵡�\ \
-<ǰһ��/@main>
+你成功地找到了弩车。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_13]
 {
-û������������йܵĹ��Ǳ�����\ \
-<ǰһ��/@main>
+没有以你的名字托管的攻城兵器。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_14]
 {
-��ɹ��س����˹��Ǳ�����\ \
-<ǰһ��/@main>
+你成功地出售了攻城兵器。\ \
+<前一步/@main>
 }
 
 [@ShooterMarket_15]
 {
-��û�й��Ǳ���������\ \
-<ǰһ��/@main>
+你没有攻城兵器啊。。\ \
+<前一步/@main>
 }
 

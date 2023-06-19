@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;虏禄脪陋脡戮碌么麓脣脨脨
 [@MadoTimeQuestNumaNpc_A]
 {
 #IF
@@ -68,7 +68,7 @@ break
 Equal D2 5
 Equal D3 1
 Equal D4 1
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
 goto @MadoTimeQuestnumanpcfriday_A_1
 break
@@ -91,9 +91,9 @@ break
 
 [@MadoTimeQuestnumanpcfriday_A_3]
 #IF
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
-take 尸骨项链 1
+take 脢卢鹿脟脧卯脕麓 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
@@ -120,7 +120,7 @@ break
 
 [@MadoTimeQuestnumanpcfriday_A_6]
 #IF
-Checkitem 击退护身符 1
+Checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_6
@@ -133,17 +133,17 @@ break
 
 [@MadoTimeQuestnumanpcfriday_A_7]
 #IF
-Checkitem 击退护身符 1
+Checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_8
 
 #ACT
-take 击退护身符 1
+take 禄梅脥脣禄陇脡铆路没 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-Movenpc "D16031,61,355,阿龙怪1" npcroom1 9 7
+Movenpc "D16031,61,355,掳垄脕煤鹿脰1" npcroom1 9 7
 
 #ELSESAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_9
@@ -224,7 +224,7 @@ break
 Equal D2 5
 Equal D3 1
 Equal D4 2
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
 goto @MadoTimeQuestnumanpcfriday_B_1
 break
@@ -247,9 +247,9 @@ break
 
 [@MadoTimeQuestnumanpcfriday_B_3]
 #IF
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
-take 尸骨项链 1
+take 脢卢鹿脟脧卯脕麓 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
@@ -276,7 +276,7 @@ break
 
 [@MadoTimeQuestnumanpcfriday_B_6]
 #IF
-checkitem 击退护身符 1
+checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_17
@@ -289,17 +289,17 @@ break
 
 [@MadoTimeQuestnumanpcfriday_B_7]
 #IF
-checkitem 击退护身符 1
+checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_19
 
 #ACT
-take 击退护身符 1
+take 禄梅脥脣禄陇脡铆路没 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-Movenpc "D16032,374,372,阿龙怪2" npcroom1 9 8
+Movenpc "D16032,374,372,掳垄脕煤鹿脰2" npcroom1 9 8
 #ELSEACT
 break
 
@@ -383,7 +383,7 @@ break
 Equal D2 5
 Equal D3 1
 Equal D4 3
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
 goto @MadoTimeQuestnumanpcfriday_C_1
 break
@@ -406,9 +406,9 @@ break
 
 [@MadoTimeQuestnumanpcfriday_C_3]
 #IF
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
-take 尸骨项链 1
+take 脢卢鹿脟脧卯脕麓 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
@@ -435,7 +435,7 @@ break
 
 [@MadoTimeQuestnumanpcfriday_C_6]
 #IF
-checkitem 击退护身符 1
+checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_28
@@ -448,17 +448,17 @@ break
 
 [@MadoTimeQuestnumanpcfriday_C_7]
 #IF
-checkitem 击退护身符 1
+checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_30
 
 #ACT
-take 击退护身符 1
+take 禄梅脥脣禄陇脡铆路没 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-Movenpc "D16033,369,47,阿龙怪3" npcroom1 9 9
+Movenpc "D16033,369,47,掳垄脕煤鹿脰3" npcroom1 9 9
 #ELSEACT
 break
 
@@ -542,7 +542,7 @@ break
 Equal D2 5
 Equal D3 1
 Equal D4 4
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
 goto @MadoTimeQuestnumanpcfriday_D_1
 break
@@ -565,9 +565,9 @@ break
 
 [@MadoTimeQuestnumanpcfriday_D_3]
 #IF
-Checkitem 尸骨项链 1
+Checkitem 脢卢鹿脟脧卯脕麓 1
 #ACT
-take 尸骨项链 1
+take 脢卢鹿脟脧卯脕麓 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
@@ -594,7 +594,7 @@ break
 
 [@MadoTimeQuestnumanpcfriday_D_6]
 #IF
-checkitem 击退护身符 1
+checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_39
@@ -607,17 +607,17 @@ break
 
 [@MadoTimeQuestnumanpcfriday_D_7]
 #IF
-checkitem 击退护身符 1
+checkitem 禄梅脥脣禄陇脡铆路没 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_41
 
 #ACT
-take 击退护身符 1
+take 禄梅脥脣禄陇脡铆路没 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-Movenpc "D16034,30,31,阿龙怪4" npcroom1 9 10
+Movenpc "D16034,30,31,掳垄脕煤鹿脰4" npcroom1 9 10
 #ELSEACT
 break
 
@@ -630,4 +630,4 @@ break
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNumaNpc.txt] @Convert_MadoNumaNpc_43
 
 }
-;;不要删掉此行
+;;虏禄脪陋脡戮碌么麓脣脨脨

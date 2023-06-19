@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@NPCQuest_Check]
 {
 #ACT
@@ -8,7 +8,7 @@ Mov D0 0
 #IF
 check [207] 1
 check [407] 0
-checkitemw 寂幻之刃 1
+checkitemw 瀵傚够涔嬪垉 1
 #ACT
 goto @NumaStone3Quest_start1
 Mov D0 1
@@ -28,4 +28,4 @@ break
 [@NumaStone3Quest_start1]
 #CALL [HonChonMado\StoneNpc3.txt] @NumaStone3_Talk
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

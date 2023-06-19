@@ -1,19 +1,19 @@
 ;;SabukTele.txt
 [@SabukTele_1]
 {
-�㲻�ǲμ�ɳ�Ϳ˹���ս���л��Ա��\ \
-<����/@exit>
+你不是参加沙巴克攻城战的行会成员。\ \
+<结束/@exit>
 }
 
 [@SabukTele_2]
 {
-�㲻�ǲμ�ɳ�Ϳ˹���ս���л��Ա��\ \
-<����/@exit>
+你不是参加沙巴克攻城战的行会成员。\ \
+<结束/@exit>
 }
 
 [@SabukTele_3]
 {
-������ʯ \ \
-<�ƶ������ݴ������Ǯ : 500 Ǯ/@TelePortRootin(DoGwan,500,Center)> \
-<�ƶ�������ɽ�������Ǯ : 500 Ǯ/@TelePortRootin(SnakeVally,500,North)> \
+六面神石 \ \
+<移动至道馆村所需金钱 : 500 钱/@TelePortRootin(DoGwan,500,Center)> \
+<移动至毒蛇山村所需金钱 : 500 钱/@TelePortRootin(SnakeVally,500,North)> \
 }

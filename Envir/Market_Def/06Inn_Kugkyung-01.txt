@@ -106,7 +106,7 @@ goto @TQuest1_2
 break
 
 #ELSEACT
-goto @TQuest1_1 
+goto @TQuest1_1
 
 ;--------------
 

@@ -1,4 +1,4 @@
-;;��Ҫɾ������
+;;²»ÒªÉ¾µô´ËÐÐ
 [@Samak_CastleMaster_Login]
 {
 #IF
@@ -108,35 +108,35 @@ Movr D0 5
 #IF
 Equal D0 0
 #ACT
-MongenP %A5 ŵ����ʯ�� 3
-MongenP %A5 ŵ����� 3
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂêÆï±ø 3
 break
 
 #IF
 Equal D0 1
 #ACT
-MongenP %A5 ŵ����ʯ�� 3
-MongenP %A5 ŵ��˾�� 3
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂêË¾Áî 3
 break
 
 #IF
 Equal D0 2
 #ACT
-MongenP %A5 ŵ����ʯ�� 3
-MongenP %A5 ŵ��װ�ױ� 3
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂê×°¼×±ø 3
 break
 
 #IF
 Equal D0 3
 #ACT
-MongenP %A5 ŵ����ʯ�� 3
-MongenP %A5 ŵ����� 3
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂêÆï±ø 3
 break
 
 #ELSEACT
-MongenP %A5 ŵ����ʯ�� 3
-MongenP %A5 ŵ�긫�� 3
+MongenP %A5 ÅµÂêÅ×Ê¯±ø 3
+MongenP %A5 ÅµÂê¸«±ø 3
 
 
 }
-;;��Ҫɾ������
+;;²»ÒªÉ¾µô´ËÐÐ

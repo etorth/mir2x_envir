@@ -10,7 +10,7 @@ break
 #IF
 check [730] 1
 #SAY
-(ÕâÀïÊÇÒÔÇ°»÷ÍËòÚò¼µÄ¶´¿ßÅ¶...ÏÖÔÚ¶´¿Ú±»¶ÂÉÏÁË¡£)
+(è¿™é‡Œæ˜¯ä»¥å‰å‡»é€€èœˆèš£çš„æ´çªŸå“¦...ç°åœ¨æ´å£è¢«å µä¸Šäº†ã€‚)
 #ACT
 enter_fail
 break
@@ -18,7 +18,7 @@ break
 #IF
 check [526] 1
 #SAY
-(ÕâÀïÊÇÒÔÇ°»÷ÍËòÚò¼µÄ¶´¿ßÅ¶...ÏÖÔÚ¶´¿Ú±»¶ÂÉÏÁË¡£)
+(è¿™é‡Œæ˜¯ä»¥å‰å‡»é€€èœˆèš£çš„æ´çªŸå“¦...ç°åœ¨æ´å£è¢«å µä¸Šäº†ã€‚)
 #ACT
 enter_fail
 break
@@ -26,7 +26,7 @@ break
 #IF
 check [524] 0
 #SAY
-(ºÃÏñÊÇÊ²Ã´¶´¿ßÈë¿Ú£¿ÏÖÔÚ¶´¿Ú±»¶ÂÉÏÁË¡£)
+(å¥½åƒæ˜¯ä»€ä¹ˆæ´çªŸå…¥å£ï¼Ÿç°åœ¨æ´å£è¢«å µä¸Šäº†ã€‚)
 #ACT
 enter_fail
 break
@@ -34,7 +34,7 @@ break
 #IF
 check [523] 0
 #SAY
-(ºÃÏñÊÇÊ²Ã´¶´¿ßÈë¿Ú£¿ÏÖÔÚ¶´¿Ú±»¶ÂÉÏÁË¡£)
+(å¥½åƒæ˜¯ä»€ä¹ˆæ´çªŸå…¥å£ï¼Ÿç°åœ¨æ´å£è¢«å µä¸Šäº†ã€‚)
 #ACT
 enter_fail
 break
@@ -52,7 +52,7 @@ enter_fail
 #IF
 checkhum 1_020 1
 #SAY
-(ºÃÏñÓĞÈËÔÚÀïÃæ£¿ÓĞÉùÒô¡£¡£¡£)\
+(å¥½åƒæœ‰äººåœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³ã€‚ã€‚ã€‚)\
 #ACT
 enter_fail
 #ELSEACT
@@ -62,7 +62,7 @@ goto @MapQuest_massheal_cave1_2
 #IF
 checkhum 1_021 1
 #SAY
-(ºÃÏñÓĞÈËÔÚÀïÃæ£¿ÓĞÉùÒô¡£¡£¡£)\
+(å¥½åƒæœ‰äººåœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³ã€‚ã€‚ã€‚)\
 #ACT
 enter_fail
 #ELSEACT
@@ -72,7 +72,7 @@ goto @MapQuest_massheal_cave1_3
 #IF
 checkhum 1_022 1
 #SAY
-(ºÃÏñÓĞÈËÔÚÀïÃæ£¿ÓĞÉùÒô¡£¡£¡£)\
+(å¥½åƒæœ‰äººåœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³ã€‚ã€‚ã€‚)\
 #ACT
 enter_fail
 #ELSEACT
@@ -82,7 +82,7 @@ goto @MapQuest_massheal_cave1_4
 #IF
 checkhum 1_023 1
 #SAY
-(ºÃÏñÓĞÈËÔÚÀïÃæ£¿ÓĞÉùÒô¡£¡£¡£)\
+(å¥½åƒæœ‰äººåœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³ã€‚ã€‚ã€‚)\
 #ACT
 enter_fail
 #ELSEACT
@@ -94,70 +94,70 @@ Monclear 1_023
 Param1 1_020
 Param2 15
 Param3 77
-MonGen ÌøÌø·ä61  10 10
+MonGen è·³è·³èœ‚61  10 10
 ;
 Param1 1_020
 Param2 70
 Param3 20
-MonGen ºÚÉ«¶ñÇù61  10  10
+MonGen é»‘è‰²æ¶è›†61  10  10
 ;
 Param1 1_020
 Param2 90
 Param3 70
-MonGen ÌøÌø·ä61  10  10
-MonGen ÎÖ¶¾òÚò¼61 1 1
-MonGen Ğ°¶ñòÚò¼61 1 1
+MonGen è·³è·³èœ‚61  10  10
+MonGen æ²ƒæ¯’èœˆèš£61 1 1
+MonGen é‚ªæ¶èœˆèš£61 1 1
 ;
 Param1 1_020
 Param2 100
 Param3 42
-MonGen ºÚÉ«¶ñÇù61  10  10
+MonGen é»‘è‰²æ¶è›†61  10  10
 ;
 Param1 1_020
 Param2 146
 Param3 18
-MonGen ÌøÌø·ä61  10 10
+MonGen è·³è·³èœ‚61  10 10
 ;
 Param1 1_021
 Param2 25
 Param3 30
-MonGen ÌøÌø·ä61  15  10
-MonGen ºûµû³æ61  5 10
+MonGen è·³è·³èœ‚61  15  10
+MonGen è´è¶è™«61  5 10
 ;
 Param1 1_022
 Param2 45
 Param3 20
-MonGen ºÚÉ«¶ñÇù61  10  10
-MonGen òÚò¼61  5  10
+MonGen é»‘è‰²æ¶è›†61  10  10
+MonGen èœˆèš£61  5  10
 ;
 Param1 1_022
 Param2 65
 Param3 70
-MonGen òÚò¼61  10 10
+MonGen èœˆèš£61  10 10
 ;
 Param1 1_022
 Param2 75
 Param3 42
-MonGen ºÚÉ«¶ñÇù61  10  10
-MonGen ÎÖ¶¾òÚò¼61  1 1
-MonGen Ğ°¶ñòÚò¼61  1 1
+MonGen é»‘è‰²æ¶è›†61  10  10
+MonGen æ²ƒæ¯’èœˆèš£61  1 1
+MonGen é‚ªæ¶èœˆèš£61  1 1
 ;
 Param1 1_022
 Param2 122
 Param3 17
-MonGen òÚò¼61  10  10
+MonGen èœˆèš£61  10  10
 ;
 Param1 1_022
 Param2 154
 Param3 30
-MonGen ºÚÉ«¶ñÇù61  10  10
-MonGen òÚò¼61  5  10
+MonGen é»‘è‰²æ¶è›†61  10  10
+MonGen èœˆèš£61  5  10
 ;
 Param1 1_023
 Param2 22
 Param3 22
-MonGen ÎÖ¶¾òÚò¼62  1 1
-MonGen òÚò¼61  10 1
+MonGen æ²ƒæ¯’èœˆèš£62  1 1
+MonGen èœˆèš£61  10 1
 ;
 set [525] 1
 enter_ok

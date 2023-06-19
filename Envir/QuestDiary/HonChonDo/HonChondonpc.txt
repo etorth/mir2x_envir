@@ -1,8 +1,8 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@HonChondo_Questnpc]
 {
 #IF
-Checkitem 毁灭之印 1
+Checkitem 姣佺伃涔嬪嵃 1
 #ACT
 goto @HonChondo_Questnpc_1
 break
@@ -142,7 +142,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 
 [@HonChondo_Questnpc_1_nohave_6]
 #IF
-Checkitem 毁灭之印 1
+Checkitem 姣佺伃涔嬪嵃 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_13
@@ -153,15 +153,15 @@ Checkitem 毁灭之印 1
 
 [@HonChondo_Questnpc_1_nohave_7]
 #IF
-Checkitem 毁灭之印 1
+Checkitem 姣佺伃涔嬪嵃 1
 !Checkweaponlevel 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_15
 
 #ACT
-TAKE 毁灭之印 1
-Givew 1 寂幻之刃
+TAKE 姣佺伃涔嬪嵃 1
+Givew 1 瀵傚够涔嬪垉
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=7"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
@@ -195,4 +195,4 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 mapting D16062 41 148 84
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

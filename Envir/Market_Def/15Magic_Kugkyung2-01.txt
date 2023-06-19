@@ -13,10 +13,10 @@ goto @main_0
 #IF
 checkjob warrior
 #ACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @whang_main
 #ELSEACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @whang_other_class
 
 [@whang_other_class]

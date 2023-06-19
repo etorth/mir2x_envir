@@ -31,7 +31,7 @@ goto @Guyonggap_start_3
 
 [@Guyonggap_start_3]
 #IF
-checkitemw ���Ϳ��ף��У�
+checkitemw ÇáÐÍ¿ø¼×£¨ÄÐ£©
 #ACT
 goto @Guyonggap_start_6
 #ELSEACT
@@ -39,7 +39,7 @@ goto @Guyonggap_start_3_1
 
 [@Guyonggap_start_3_1]
 #IF
-checkitemw ���Ϳ��ף�Ů��
+checkitemw ÇáÐÍ¿ø¼×£¨Å®£©
 #ACT
 goto @Guyonggap_start_6
 #ELSEACT
@@ -123,7 +123,7 @@ goto @Guyonggap_start_11
 
 [@Guyonggap_start_11]
 #IF
-checkitemw ���Ϳ��ף��У�
+checkitemw ÇáÐÍ¿ø¼×£¨ÄÐ£©
 #ACT
 goto @Guyonggap_start_14
 #ELSEACT
@@ -131,7 +131,7 @@ goto @Guyonggap_start_11_1
 
 [@Guyonggap_start_11_1]
 #IF
-checkitemw ���Ϳ��ף�Ů��
+checkitemw ÇáÐÍ¿ø¼×£¨Å®£©
 #ACT
 goto @Guyonggap_start_14
 #ELSEACT
@@ -239,8 +239,8 @@ set [160] 1
 #IF
 check [160] 1
 check [170] 0
-checkitem ���� 5
-checkduraeva ���� 13
+checkitem Ìú¿ó 5
+checkduraeva Ìú¿ó 13
 #ACT
 goto @give_iron_1
 #ELSESAY
@@ -263,11 +263,11 @@ goto @give_iron_2_2
 
 [@give_iron_2_1]
 #IF
-checkitem ���� 5
-checkduraeva ���� 13
+checkitem Ìú¿ó 5
+checkduraeva Ìú¿ó 13
 #ACT
-take ���� 5
-give �;����Ϳ��ף��У� 1
+take Ìú¿ó 5
+give ÄÍ¾ÃÇáÐÍ¿ø¼×£¨ÄÐ£© 1
 goto @give_iron_3
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\kyunggap.txt] @kyunggap_23
@@ -275,11 +275,11 @@ goto @give_iron_3
 
 [@give_iron_2_2]
 #IF
-checkitem ���� 5
-checkduraeva ���� 13
+checkitem Ìú¿ó 5
+checkduraeva Ìú¿ó 13
 #ACT
-take ���� 5
-give �;����Ϳ��ף�Ů�� 1
+take Ìú¿ó 5
+give ÄÍ¾ÃÇáÐÍ¿ø¼×£¨Å®£© 1
 goto @give_iron_3
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\kyunggap.txt] @kyunggap_24

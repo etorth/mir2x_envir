@@ -25,7 +25,7 @@ checkmonmap 02_006 2
 #ACT
 goto @MapQuest_lightstick_mon2_2
 #SAY
-Å¶¡£¡£¡££¨Õâ¼Ò»ï£¬ÔÚÏ¹Ëµ¡£ºÃÏñ³öÏÖÁËÊ²Ã´Ê§Îó¡£¡££©\
+å“¦ã€‚ã€‚ã€‚ï¼ˆè¿™å®¶ä¼™ï¼Œåœ¨çžŽè¯´ã€‚å¥½åƒå‡ºçŽ°äº†ä»€ä¹ˆå¤±è¯¯ã€‚ã€‚ï¼‰\
 #ELSEACT
 break
 
@@ -36,12 +36,12 @@ random 2
 Param1 02_006
 Param2 25
 Param3 22
-MonGen ½©Ê¬461  3  1
-MonGen ÖÀ¸«÷¼÷Ã61  1  1
+MonGen åƒµå°¸461  3  1
+MonGen æŽ·æ–§éª·é«…61  1  1
 break
 #ELSEACT
 Param1 02_006
 Param2 25
 Param3 22
-MonGen ÖÀ¸«÷¼÷Ã61  2  1
+MonGen æŽ·æ–§éª·é«…61  2  1
 break

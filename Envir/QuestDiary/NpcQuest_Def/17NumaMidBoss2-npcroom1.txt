@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@NPCQuest_Check]
 {
 #ACT
@@ -27,4 +27,4 @@ break
 [@NumaMidBoss2_start1]
 #CALL [HonChondo\MadoNumaNpc.txt] @MadoTimeQuestNumaNpc_B
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

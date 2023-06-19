@@ -109,7 +109,7 @@ goto @BackLog_BC_M1_B0_2
 goto @BackLog_BC_M1_1
 [@BackLog_BC_M1_B0_2]
 #IF
-checkitem ∆¯¡ÿ÷§ È 1
+checkitem √Ü√∏√Å√ò√ñ¬§√ä√© 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\BackGround\bichun.txt] @bichun_1
 

@@ -6,100 +6,100 @@ Check [790] 0
 Checklevel 50
 #ACT
 set [790] 1
-Eventmsg Grobal " ¿ÉÁ¯µÄÈËÃÇ£¬ÄãÃÇÌı×Å¡£ÎÒ½«Ç××Ô³öÂíÈÃÄãÃÇ¸Ğ¾õµ½ÄãÃÇÓĞ¶àÃ´µÄÅ³Èõ°¡¡£" 121
+Eventmsg Grobal " å¯æ€œçš„äººä»¬ï¼Œä½ ä»¬å¬ç€ã€‚æˆ‘å°†äº²è‡ªå‡ºé©¬è®©ä½ ä»¬æ„Ÿè§‰åˆ°ä½ ä»¬æœ‰å¤šä¹ˆçš„æ‡¦å¼±å•Šã€‚" 121
 Delaygoto [Grobal] 7 @pachon_next1
 #ELSESAY
-»î¶¯ÕıÔÚ½øĞĞÖĞ¡£\ \
-<½áÊø/@exit>
+æ´»åŠ¨æ­£åœ¨è¿›è¡Œä¸­ã€‚\ \
+<ç»“æŸ/@exit>
 
 [@pachon_next1]
 #ACT
-Eventmsg Grobal "ÔõÃ´´óµØÕâÑùÕğ¶¯°¡£¿" 10141
+Eventmsg Grobal "æ€ä¹ˆå¤§åœ°è¿™æ ·éœ‡åŠ¨å•Šï¼Ÿ" 10141
 Delaygoto [Grobal] 7 @pachon_next1_1
 
 [@pachon_next1_1]
 #ACT
-Eventmsg Grobal "ÍÛ£¡ÈËÀàÒ²ÓĞ»áÊ¹ÓÃ¹ã²¥µÄÈË£¬ÕæÊÇÌ«ÓĞÒâÊ¶ÁË¡£¡£" 121
+Eventmsg Grobal "å“‡ï¼äººç±»ä¹Ÿæœ‰ä¼šä½¿ç”¨å¹¿æ’­çš„äººï¼ŒçœŸæ˜¯å¤ªæœ‰æ„è¯†äº†ã€‚ã€‚" 121
 Delaygoto [Grobal] 7 @pachon_next1_2
 
 [@pachon_next1_2]
 #ACT
-Eventmsg Grobal "ÄÇÄãÊÇË­°¡£¿" 10141
+Eventmsg Grobal "é‚£ä½ æ˜¯è°å•Šï¼Ÿ" 10141
 Delaygoto [Grobal] 7 @pachon_next1_3
 
 [@pachon_next1_3]
 #ACT
-Eventmsg Grobal " ¹ş¹ş¹ş¡£¡£ÎÒÊÇÄãÃÇµÄËÀÉñ°¡¡£ÎÒÊÇÏë°ÑÄÇĞ©ÎªÁËÉú»î¶ø¼å°¾µÄÈË´øµ½Êæ·şµÄµØÓò¶øÀ´µÄ¡£" 121
+Eventmsg Grobal " å“ˆå“ˆå“ˆã€‚ã€‚æˆ‘æ˜¯ä½ ä»¬çš„æ­»ç¥å•Šã€‚æˆ‘æ˜¯æƒ³æŠŠé‚£äº›ä¸ºäº†ç”Ÿæ´»è€Œç…ç†¬çš„äººå¸¦åˆ°èˆ’æœçš„åœ°åŸŸè€Œæ¥çš„ã€‚" 121
 Delaygoto [Grobal] 7 @pachon_next1_4
 
 [@pachon_next1_4]
 #ACT
-Eventmsg grobal "¡£¡£¡£¡£ºúËµÊ²Ã´" 10151
+Eventmsg grobal "ã€‚ã€‚ã€‚ã€‚èƒ¡è¯´ä»€ä¹ˆ" 10151
 Delaygoto [Grobal] 7 @pachon_next1_5
 
 [@pachon_next1_5]
 #ACT
-Eventmsg Grobal "²»ºÃÁË¡£´óÍõ£¡£¡£¡" 11
+Eventmsg Grobal "ä¸å¥½äº†ã€‚å¤§ç‹ï¼ï¼ï¼" 11
 Delaygoto [Grobal] 7 @pachon_next1_6
 
 [@pachon_next1_6]
 #ACT
-Eventmsg Grobal "Ê²Ã´ÊÂÇé£¿" 121
+Eventmsg Grobal "ä»€ä¹ˆäº‹æƒ…ï¼Ÿ" 121
 Delaygoto [Grobal] 7 @pachon_next1_7
 
 [@pachon_next1_7]
 #ACT
-Eventmsg Grobal "ËµÔÚÎÒÃÇµÄÕ½½¢ÉÏ·¢ÏÖÁËÄÇ¸ö¼Ò»ïÀ²¡£" 11
+Eventmsg Grobal "è¯´åœ¨æˆ‘ä»¬çš„æˆ˜èˆ°ä¸Šå‘ç°äº†é‚£ä¸ªå®¶ä¼™å•¦ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next1_8
 
 [@pachon_next1_8]
 #ACT
-Eventmsg Grobal " ÎÒµÄµĞÈË¡£¡£¡£ÖÕÓÚ³öÏÖÁË¡£ÎÒÈ¥¿´°É¡£ÕâµØ·½¾Í½»¸øÄãÁË¡£¡£" 121
+Eventmsg Grobal " æˆ‘çš„æ•Œäººã€‚ã€‚ã€‚ç»ˆäºå‡ºç°äº†ã€‚æˆ‘å»çœ‹å§ã€‚è¿™åœ°æ–¹å°±äº¤ç»™ä½ äº†ã€‚ã€‚" 121
 Delaygoto [Grobal] 7 @pachon_next1_9
 
 [@pachon_next1_9]
 #ACT
-Eventmsg Grobal " ½ñÌìËãÄã×ßÔË¡£¡£ÏÂ´Î¿ÉÃ»ÓĞÕâÑùµÄĞÒÔËÁË¡£¡£ÈËÀà°¡¡£¡£¡£" 121
+Eventmsg Grobal " ä»Šå¤©ç®—ä½ èµ°è¿ã€‚ã€‚ä¸‹æ¬¡å¯æ²¡æœ‰è¿™æ ·çš„å¹¸è¿äº†ã€‚ã€‚äººç±»å•Šã€‚ã€‚ã€‚" 121
 Delaygoto [Grobal] 7 @pachon_next1_10
 
 [@pachon_next1_10]
 #ACT
-Eventmsg Grobal " ÏÖÔÚ´«´ïÄÜÌı¼ûÎÒµÄÉùÒôµÄ¸÷×åÊôµÄÁìµ¼Õß£¬ÔÚÒÔ°ÔÍõ½ÌÖ÷µÄÃûÏÂ¸úÎÒÒ»Æğ¼ßÃğÈËÀàµÄ¶¼À´¼ÓÈë°É¡£" 11
+Eventmsg Grobal " ç°åœ¨ä¼ è¾¾èƒ½å¬è§æˆ‘çš„å£°éŸ³çš„å„æ—å±çš„é¢†å¯¼è€…ï¼Œåœ¨ä»¥éœ¸ç‹æ•™ä¸»çš„åä¸‹è·Ÿæˆ‘ä¸€èµ·æ­¼ç­äººç±»çš„éƒ½æ¥åŠ å…¥å§ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next1_11
 
 [@pachon_next1_11]
 #ACT
-Eventmsg Grobal "¡£¡£¡£" 46
+Eventmsg Grobal "ã€‚ã€‚ã€‚" 46
 Delaygoto [Grobal] 7 @pachon_next1_12
 
 [@pachon_next1_12]
 #ACT
-Eventmsg Grobal "¡£¡£¡£ÕâĞ©À¬»øÒ»¶¨Òª³ıµô¡£" 142
+Eventmsg Grobal "ã€‚ã€‚ã€‚è¿™äº›åƒåœ¾ä¸€å®šè¦é™¤æ‰ã€‚" 142
 Delaygoto [Grobal] 7 @pachon_next1_13
 
 [@pachon_next1_13]
 #ACT
-Eventmsg Grobal "ËûÃÇÏëÒªµÄÊÇÊ²Ã´£¿" 10141
+Eventmsg Grobal "ä»–ä»¬æƒ³è¦çš„æ˜¯ä»€ä¹ˆï¼Ÿ" 10141
 Delaygoto [Grobal] 7 @pachon_next1_14
 
 [@pachon_next1_14]
 #ACT
-Eventmsg Grobal "Ä§ÎïÖ»ÄÜÊÊºÏµØÓò¡£Ã»ÓĞ¶Ô»°µÄ¡£" 10151
+Eventmsg Grobal "é­”ç‰©åªèƒ½é€‚åˆåœ°åŸŸã€‚æ²¡æœ‰å¯¹è¯çš„ã€‚" 10151
 Delaygoto [Grobal] 7 @pachon_next1_15
 
 [@pachon_next1_15]
 #ACT
-Eventmsg Grobal "¹ş¹ş¹ş ÄãÃÇÕâĞ©°×ÌìµÄÏ@Ó¬¡£" 11
+Eventmsg Grobal "å“ˆå“ˆå“ˆ ä½ ä»¬è¿™äº›ç™½å¤©çš„è¥è‡ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_1
 
 [@pachon_next2_1]
 #ACT
-Eventmsg Grobal "ÕâÊÇÓÉÄãÃÇµÄĞ°Äî¶ø×ö³ÉµÄ¡£¿Ö¾å°É¡£»¹ÓĞÈ¥ËÀ°É¡£" 11
+Eventmsg Grobal "è¿™æ˜¯ç”±ä½ ä»¬çš„é‚ªå¿µè€Œåšæˆçš„ã€‚ææƒ§å§ã€‚è¿˜æœ‰å»æ­»å§ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next02
 
 [@pachon_next02]
 #ACT
-Eventmsg Grobal "²»ºÃÁË£¡²»ºÃÁË£¡ÔÚ±ÈÆæÏØÍâÎ§³öÏÖÁËĞí¶à½©Ê¬¡£ÇëÎÀÊ¿ÃÇËÀÊØ×¡±±¶«ÃÅ£¬ÄÏÎ÷ÃÅ£¬ÄÏ¶«ÃÅ£¡" 10431
+Eventmsg Grobal "ä¸å¥½äº†ï¼ä¸å¥½äº†ï¼åœ¨æ¯”å¥‡å¿å¤–å›´å‡ºç°äº†è®¸å¤šåƒµå°¸ã€‚è¯·å«å£«ä»¬æ­»å®ˆä½åŒ—ä¸œé—¨ï¼Œå—è¥¿é—¨ï¼Œå—ä¸œé—¨ï¼" 10431
 Delaygoto [Grobal] 15 @pachon_next2_2
 
 
@@ -107,215 +107,215 @@ Delaygoto [Grobal] 15 @pachon_next2_2
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 Delaygoto [Grobal] 120 @pachon_next2_3
 
@@ -323,2294 +323,2294 @@ Delaygoto [Grobal] 120 @pachon_next2_3
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
 Clearmission
-Eventmsg Grobal "ÔãÁË¡£µÃ¸Ï½ôÕÙ¼¯ÈËÂíÁË¡£¡£ÏÖÔÚÄÜÌıµ½ÎÒµÄ»°µÄÈËÇë¼¯ºÏµ½±ÈÆæÏØ°É¡£ÎÒ½«¸ø³ıÈ¥Ä§ÎïÔ­Ğ×µÄÈËÖÂÒÔ·áºñµÄĞ»Àñ¡£" 10081
+Eventmsg Grobal "ç³Ÿäº†ã€‚å¾—èµ¶ç´§å¬é›†äººé©¬äº†ã€‚ã€‚ç°åœ¨èƒ½å¬åˆ°æˆ‘çš„è¯çš„äººè¯·é›†åˆåˆ°æ¯”å¥‡å¿å§ã€‚æˆ‘å°†ç»™é™¤å»é­”ç‰©åŸå‡¶çš„äººè‡´ä»¥ä¸°åšçš„è°¢ç¤¼ã€‚" 10081
 Delaygoto [Grobal] 7 @pachon_next2_4_1
 
 [@pachon_next2_4_1]
 #ACT
-Eventmsg Grobal "ÏÖÔÚ±ÈÆæÏØÕı±»À´Â·²»Ã÷µÄÄ§ÎïËù¹¥»÷×Å¡£ËùÒÔÍâÎ§µÄÕ½Ê¿ÃÇÍù±ÈÆæÏØÒÆ¶¯Ê±Òª¸ñÍâµÄ×¢Òâ°¡¡£" 10431
+Eventmsg Grobal "ç°åœ¨æ¯”å¥‡å¿æ­£è¢«æ¥è·¯ä¸æ˜çš„é­”ç‰©æ‰€æ”»å‡»ç€ã€‚æ‰€ä»¥å¤–å›´çš„æˆ˜å£«ä»¬å¾€æ¯”å¥‡å¿ç§»åŠ¨æ—¶è¦æ ¼å¤–çš„æ³¨æ„å•Šã€‚" 10431
 Delaygoto [Grobal] 120 @pachon_next2_4
 
 [@pachon_next2_4]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ÎÖÂêÕ½Ê¿  10 25
-Mongen ÎÖÂêÕ½½«  10 25 
-Mongen ÎÖÂêÓÂÊ¿  10 25
-Mongen »ğÑæÎÖÂê  10 25
+Mongen æ²ƒç›æˆ˜å£«  10 25
+Mongen æ²ƒç›æˆ˜å°†  10 25
+Mongen æ²ƒç›å‹‡å£«  10 25
+Mongen ç«ç„°æ²ƒç›  10 25
 Clearmission
-Eventmsg Grobal "²»¡£¡£²»ºÃÁË¡£Á¬ÎÖÂêÉñµîµÄ ¹ÖÎï¶¼¡£¡£ÕÕÕâÑùÏÂÈ¥±ÈÆæÏØ½«»á±»ÄÇĞ©Ä§ÎïËùÕ¼ÁìµÄ¡£¡£¡£" 10431
+Eventmsg Grobal "ä¸ã€‚ã€‚ä¸å¥½äº†ã€‚è¿æ²ƒç›ç¥æ®¿çš„ æ€ªç‰©éƒ½ã€‚ã€‚ç…§è¿™æ ·ä¸‹å»æ¯”å¥‡å¿å°†ä¼šè¢«é‚£äº›é­”ç‰©æ‰€å é¢†çš„ã€‚ã€‚ã€‚" 10431
 Delaygoto [Grobal] 180 @pachon_next2_5
 
 [@pachon_next2_5]
 #ACT
-Eventmsg Grobal " ÓÖ´óÓÖÀÃµÄ¼Ò»ï¡£Õâ´ÎÊÂÇé³É¹¦µÄ»°£¬°ÔÍõ½ÌÖ÷½«»á¸øÄã¸ü´óµÄÁ¦Á¿µÄ¡£" 11
+Eventmsg Grobal " åˆå¤§åˆçƒ‚çš„å®¶ä¼™ã€‚è¿™æ¬¡äº‹æƒ…æˆåŠŸçš„è¯ï¼Œéœ¸ç‹æ•™ä¸»å°†ä¼šç»™ä½ æ›´å¤§çš„åŠ›é‡çš„ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_6
 
 [@pachon_next2_6]
 #ACT
-Eventmsg Grobal "ºÇ¡£¡£¡£ºÇ¡£¡£¡£ºÇ¡£¡£¡£" 54
+Eventmsg Grobal "å‘µã€‚ã€‚ã€‚å‘µã€‚ã€‚ã€‚å‘µã€‚ã€‚ã€‚" 54
 Delaygoto [Grobal] 7 @pachon_next2_7
 
 [@pachon_next2_7]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ½©Ê¬1  10 25
-Mongen ½©Ê¬2  10 25 
-Mongen ½©Ê¬3  10 25
-Mongen ½©Ê¬4  10 25 
-Mongen ½©Ê¬5  10 25
-Mongen Ê¬Íõ   1  25
+Mongen åƒµå°¸1  10 25
+Mongen åƒµå°¸2  10 25
+Mongen åƒµå°¸3  10 25
+Mongen åƒµå°¸4  10 25
+Mongen åƒµå°¸5  10 25
+Mongen å°¸ç‹   1  25
 Clearmission
-Eventmsg Grobal "³öÏÖ¶àÊı ½©Ê¬ºÍÊ¬Íõ£¡°¡~ÄÑµÀ¾ÍÕâÑù°Ñ±ÈÆæÏØÈÃ¸øËÀµôµÄÈËÂğ£¿" 10432
+Eventmsg Grobal "å‡ºç°å¤šæ•° åƒµå°¸å’Œå°¸ç‹ï¼å•Š~éš¾é“å°±è¿™æ ·æŠŠæ¯”å¥‡å¿è®©ç»™æ­»æ‰çš„äººå—ï¼Ÿ" 10432
 Delaygoto [Grobal] 180 @pachon_next2_8
 
 [@pachon_next2_8]
 #ACT
-Eventmsg Grobal "¹ş¹ş¹ş¡£ÏñĞ¡º¢ÔÚÏ·Ë£Âğ¡£¸øÄã¿´ÎÒµÄ¾ü¶Ó°É¡£" 142
+Eventmsg Grobal "å“ˆå“ˆå“ˆã€‚åƒå°å­©åœ¨æˆè€å—ã€‚ç»™ä½ çœ‹æˆ‘çš„å†›é˜Ÿå§ã€‚" 142
 Delaygoto [Grobal] 7 @pachon_next2_9
 
 [@pachon_next2_9]
 #ACT
-Eventmsg Grobal "¹ş¹ş¡£" 11
+Eventmsg Grobal "å“ˆå“ˆã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_10
 
 [@pachon_next2_10]
 #ACT
-Eventmsg Grobal "ÄãÃÇÕâĞ©÷¼÷Ã£¬Ìı´Ó÷¼÷Ã½ÌÖ÷µÄÃüÁî¶¼ÆğÀ´°É¡£" 142
+Eventmsg Grobal "ä½ ä»¬è¿™äº›éª·é«…ï¼Œå¬ä»éª·é«…æ•™ä¸»çš„å‘½ä»¤éƒ½èµ·æ¥å§ã€‚" 142
 Delaygoto [Grobal] 7 @pachon_next2_11
 
 [@pachon_next2_11]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ÷¼÷Ã        10 25
-Mongen ÖÀ¸«÷¼÷Ã    10 25 
-Mongen ÷¼÷ÃÕ½Ê¿    10 25
-Mongen ÷¼÷ÃÕ½½«    10 25 
-Mongen ÷¼÷Ã¾«Áé    1  25
+Mongen éª·é«…        10 25
+Mongen æ·æ–§éª·é«…    10 25
+Mongen éª·é«…æˆ˜å£«    10 25
+Mongen éª·é«…æˆ˜å°†    10 25
+Mongen éª·é«…ç²¾çµ    1  25
 Clearmission
-Eventmsg Grobal "÷¼÷ÃÊ¿±ø´³½øÀ´ÁË£¡" 10431
+Eventmsg Grobal "éª·é«…å£«å…µé—¯è¿›æ¥äº†ï¼" 10431
 Delaygoto [Grobal] 10 @pachon_next2_111
 
 [@pachon_next2_111]
 #ACT
-Eventmsg Grobal "Å¶~ÉñÁé°¡¡£¡£ÄãÏë·ÅÆúÎÒÃÇÕâÃ´¶àÄêÀ´ĞÁ¿à´´½¨ÆğÀ´µÄ¼ÒÔ°Âğ£¿¡£¡£" 10432
+Eventmsg Grobal "å“¦~ç¥çµå•Šã€‚ã€‚ä½ æƒ³æ”¾å¼ƒæˆ‘ä»¬è¿™ä¹ˆå¤šå¹´æ¥è¾›è‹¦åˆ›å»ºèµ·æ¥çš„å®¶å›­å—ï¼Ÿã€‚ã€‚" 10432
 Delaygoto [Grobal] 180 @pachon_next2_12
 
 [@pachon_next2_12]
 #ACT
-Eventmsg Grobal "¹ş¹ş¹ş¡£Ö»ÓĞÊı×Ö¶àÂğ¡£" 11
+Eventmsg Grobal "å“ˆå“ˆå“ˆã€‚åªæœ‰æ•°å­—å¤šå—ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_13
 
 [@pachon_next2_13]
 #ACT
-Eventmsg Grobal "Õâ²»ÊÇ½áÊø¡£ÎÒ»¹Ã»ÓÃÎÒµÄÁ¦ÆøµÄÊ®·ÖÖ®Ò»Ó´¡£" 142
+Eventmsg Grobal "è¿™ä¸æ˜¯ç»“æŸã€‚æˆ‘è¿˜æ²¡ç”¨æˆ‘çš„åŠ›æ°”çš„ååˆ†ä¹‹ä¸€å“Ÿã€‚" 142
 Delaygoto [Grobal] 7 @pachon_next2_14
 
 [@pachon_next2_14]
 #ACT
-Eventmsg Grobal "ÎÖÂê½ÌÖ÷£¬ÌÓµôÁË£¿" 11
+Eventmsg Grobal "æ²ƒç›æ•™ä¸»ï¼Œé€ƒæ‰äº†ï¼Ÿ" 11
 Delaygoto [Grobal] 7 @pachon_next2_15
 
 [@pachon_next2_15]
 #ACT
-Eventmsg Grobal "¡£¡£¡£" 46
+Eventmsg Grobal "ã€‚ã€‚ã€‚" 46
 Delaygoto [Grobal] 7 @pachon_next2_16
 
 [@pachon_next2_16]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ·à³æ        15 25
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê  15 25
+Mongen ç²ªè™«        15 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›  15 25
 Clearmission
-Eventmsg Grobal "ÒÔÎÒÃÇµÄÁ¦Á¿ÔÙÒ²µÖ¿¹²»ÁËÁË¡£¡£Èç¹û·ÖÉ¢ÔÚÊÀ½ç¸÷µØµÄÓÂÊ¿ÃÇ¶¼µ½±ÈÆæÏØÀ´ÖúÕó»¹²î²»¶à¡£¡£¡£" 10432
+Eventmsg Grobal "ä»¥æˆ‘ä»¬çš„åŠ›é‡å†ä¹ŸæŠµæŠ—ä¸äº†äº†ã€‚ã€‚å¦‚æœåˆ†æ•£åœ¨ä¸–ç•Œå„åœ°çš„å‹‡å£«ä»¬éƒ½åˆ°æ¯”å¥‡å¿æ¥åŠ©é˜µè¿˜å·®ä¸å¤šã€‚ã€‚ã€‚" 10432
 Delaygoto [Grobal] 180 @pachon_next2_17
 
 [@pachon_next2_17]
 #ACT
-Eventmsg Grobal "Å³ÈõµÄ¸úÈËÀàÃ»Ê²Ã´Çø±ğ¡£" 11
+Eventmsg Grobal "æ‡¦å¼±çš„è·Ÿäººç±»æ²¡ä»€ä¹ˆåŒºåˆ«ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_18
 
 [@pachon_next2_18]
 #ACT
-Eventmsg Grobal "¡£¡£¡£" 46
+Eventmsg Grobal "ã€‚ã€‚ã€‚" 46
 Delaygoto [Grobal] 7 @pachon_next2_19
 
 [@pachon_next2_19]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ÎÖÂêÕ½Ê¿    15 25
-Mongen ÎÖÂêÕ½½«    15 25 
-Mongen ÎÖÂêÓÂÊ¿    15 25
-Mongen »ğÑæÎÖÂê    15 25 
-Mongen ÎÖÂêÎÀÊ¿    1 25
+Mongen æ²ƒç›æˆ˜å£«    15 25
+Mongen æ²ƒç›æˆ˜å°†    15 25
+Mongen æ²ƒç›å‹‡å£«    15 25
+Mongen ç«ç„°æ²ƒç›    15 25
+Mongen æ²ƒç›å«å£«    1 25
 Clearmission
-Eventmsg Grobal "ÎÖÂêÎÀÊ¿´ø×Å¾ü¶Ó³öÏÖÁË£¡µ½µ×ËûºóÃæµÄÊÇÊ²Ã´¶«Î÷ÄØ¡£¡£Ïë¶¼ÈÃÈËº¦ÅÂ¡£" 10431
+Eventmsg Grobal "æ²ƒç›å«å£«å¸¦ç€å†›é˜Ÿå‡ºç°äº†ï¼åˆ°åº•ä»–åé¢çš„æ˜¯ä»€ä¹ˆä¸œè¥¿å‘¢ã€‚ã€‚æƒ³éƒ½è®©äººå®³æ€•ã€‚" 10431
 Delaygoto [Grobal] 240 @pachon_next2_20
 
 [@pachon_next2_20]
 #ACT
-Eventmsg Grobal "Ö»ÓĞËÀÂ·Ò»ÌõÂğ£¿¡£¡£" 10432
+Eventmsg Grobal "åªæœ‰æ­»è·¯ä¸€æ¡å—ï¼Ÿã€‚ã€‚" 10432
 Delaygoto [Grobal] 7 @pachon_next2_21
 
 [@pachon_next2_21]
 #ACT
-Eventmsg Grobal "ºÇºÇºÇºÇ¡£ÄãÃÇÕâĞ©¼ÄÉú³æ£¡ ¿´ÄãÃÇÌÓÑù°É¡£" 11
+Eventmsg Grobal "å‘µå‘µå‘µå‘µã€‚ä½ ä»¬è¿™äº›å¯„ç”Ÿè™«ï¼ çœ‹ä½ ä»¬é€ƒæ ·å§ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_22
 
 [@pachon_next2_22]
 #ACT
-Eventmsg Grobal "ÎÀÊ¿ÃÇ£¡´ÓºÚ°µÖĞ³öÀ´ÏûÃğËùÓĞ´æ»îµÄ¶«Î÷°É¡£" 142
+Eventmsg Grobal "å«å£«ä»¬ï¼ä»é»‘æš—ä¸­å‡ºæ¥æ¶ˆç­æ‰€æœ‰å­˜æ´»çš„ä¸œè¥¿å§ã€‚" 142
 Delaygoto [Grobal] 7 @pachon_next2_23
 
 [@pachon_next2_23]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ÷¼÷Ã¹­¼ıÊÖ  20 25
-Mongen ÷¼÷ÃÊ¿±ø    20 25 
-Mongen ÷¼÷ÃÎäÊ¿    20 25
-Mongen ÷¼÷ÃÎä½«    20 25
+Mongen éª·é«…å¼“ç®­æ‰‹  20 25
+Mongen éª·é«…å£«å…µ    20 25
+Mongen éª·é«…æ­¦å£«    20 25
+Mongen éª·é«…æ­¦å°†    20 25
 Clearmission
-Eventmsg Grobal "°¥£¡µĞÈËÌ«¶àÁË¡£" 10081
+Eventmsg Grobal "å“ï¼æ•Œäººå¤ªå¤šäº†ã€‚" 10081
 Delaygoto [Grobal] 240 @pachon_next2_24
 
 [@pachon_next2_24]
 #ACT
-Eventmsg Grobal "´ËÊ±´Ë¿ÌÄËÊÇ±ÈÆæÏØ×îÎ£»úµÄÊ±ºò¡£¡£¡£" 10141
+Eventmsg Grobal "æ­¤æ—¶æ­¤åˆ»ä¹ƒæ˜¯æ¯”å¥‡å¿æœ€å±æœºçš„æ—¶å€™ã€‚ã€‚ã€‚" 10141
 Delaygoto [Grobal] 7 @pachon_next2_25
 
 [@pachon_next2_25]
 #ACT
-Eventmsg Grobal "¾ÍÖ»»áÓĞĞ°ÄîµÄ¹í¹Ö°¡¡£ÎÒ½«Ò»¸ö¸ö°ÑÄãÉ±µô¡£" 10151
+Eventmsg Grobal "å°±åªä¼šæœ‰é‚ªå¿µçš„é¬¼æ€ªå•Šã€‚æˆ‘å°†ä¸€ä¸ªä¸ªæŠŠä½ æ€æ‰ã€‚" 10151
 Delaygoto [Grobal] 7 @pachon_next2_26
 
 [@pachon_next2_26]
 #ACT
-Eventmsg Grobal "¹Ç¹í½«Õ¹ÏÖÄãµÄÄÜÁ¦°É¡£" 142
+Eventmsg Grobal "éª¨é¬¼å°†å±•ç°ä½ çš„èƒ½åŠ›å§ã€‚" 142
 Delaygoto [Grobal] 7 @pachon_next2_27
 
 [@pachon_next2_27]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen ÷¼÷Ã¹­¼ıÊÖ  12 25
-Mongen ÷¼÷ÃÊ¿±ø    12 25 
-Mongen ÷¼÷ÃÎäÊ¿    12 25
-Mongen ÷¼÷ÃÎä½«    12 25
-Mongen ¹Ç¹í½«      1  25
+Mongen éª·é«…å¼“ç®­æ‰‹  12 25
+Mongen éª·é«…å£«å…µ    12 25
+Mongen éª·é«…æ­¦å£«    12 25
+Mongen éª·é«…æ­¦å°†    12 25
+Mongen éª¨é¬¼å°†      1  25
 Clearmission
 Delaygoto [Grobal] 300 @pachon_next2_28
 
 [@pachon_next2_28]
 #ACT
-Eventmsg Grobal "àÅ¡£µ½ÁËÒ»Íù´ò½øµÄÊ±ºòÁË¡£" 11
+Eventmsg Grobal "å—¯ã€‚åˆ°äº†ä¸€å¾€æ‰“è¿›çš„æ—¶å€™äº†ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_29
 
 [@pachon_next2_29]
 #ACT
-Eventmsg Grobal "ÄÜµ²×¡ÎÒµÄ¾ü¶ÓÂğ¡£¡£ºÇºÇºÇºÇ " 11
+Eventmsg Grobal "èƒ½æŒ¡ä½æˆ‘çš„å†›é˜Ÿå—ã€‚ã€‚å‘µå‘µå‘µå‘µ " 11
 Delaygoto [Grobal] 7 @pachon_next2_30
 
 [@pachon_next2_30]
 #ACT
-Eventmsg Grobal "¡£¡£¡£" 46
+Eventmsg Grobal "ã€‚ã€‚ã€‚" 46
 Delaygoto [Grobal] 7 @pachon_next2_31
 
 [@pachon_next2_31]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen º£Éñ½«Áì  1  25
-Mongen Çá¼×ÊØÎÀ  1  25
-Mongen Éñ½¢ÊØÎÀ  1  25
-Mongen ¶ñĞÎ¹í    1  25
-Mongen ºìÒÂ·¨Ê¦  1  25
+Mongen æµ·ç¥å°†é¢†  1  25
+Mongen è½»ç”²å®ˆå«  1  25
+Mongen ç¥èˆ°å®ˆå«  1  25
+Mongen æ¶å½¢é¬¼    1  25
+Mongen çº¢è¡£æ³•å¸ˆ  1  25
 Clearmission
-Eventmsg Grobal "¿´¿´Òì½çµÄÁ¦Á¿°É£¡" 11
+Eventmsg Grobal "çœ‹çœ‹å¼‚ç•Œçš„åŠ›é‡å§ï¼" 11
 Delaygoto [Grobal] 420 @pachon_next2_321
 
 [@pachon_next2_321]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 529 
+param2 529
 param3 341
 SetMission
 Param1 0
 Param2 559
 Param3 311
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 492 
+param2 492
 param3 305
 SetMission
 Param1 0
 Param2 522
 Param3 275
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 545 
+param2 545
 param3 358
 SetMission
 Param1 0
 Param2 575
 Param3 328
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 284
 SetMission
 Param1 0
 Param2 500
 Param3 254
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 ;
 param1 0
-param2 391 
+param2 391
 param3 449
 SetMission
 Param1 0
 Param2 350
 Param3 500
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 373 
+param2 373
 param3 430
 SetMission
 Param1 0
 Param2 343
 Param3 460
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 409 
+param2 409
 param3 465
 SetMission
 Param1 0
 Param2 379
 Param3 495
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 354 
+param2 354
 param3 411
 SetMission
 Param1 0
 Param2 324
 Param3 441
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 427 
+param2 427
 param3 484
 SetMission
 Param1 0
 Param2 397
 Param3 514
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 ;
 param1 0
-param2 505 
+param2 505
 param3 450
 SetMission
 Param1 0
 Param2 530
 Param3 470
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 488 
+param2 488
 param3 468
 SetMission
 Param1 0
 Param2 518
 Param3 498
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 523 
+param2 523
 param3 432
 SetMission
 Param1 0
 Param2 553
 Param3 462
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 470 
+param2 470
 param3 490
 SetMission
 Param1 0
 Param2 500
 Param3 520
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
 
 param1 0
-param2 540 
+param2 540
 param3 420
 SetMission
 Param1 0
 Param2 570
 Param3 450
-Mongen º£Éñ½«Áì  2  25
-Mongen Çá¼×ÊØÎÀ  2  25
-Mongen Éñ½¢ÊØÎÀ  2  25
-Mongen ¶ñĞÎ¹í    2  25
-Mongen ºìÒÂ·¨Ê¦  2  25
+Mongen æµ·ç¥å°†é¢†  2  25
+Mongen è½»ç”²å®ˆå«  2  25
+Mongen ç¥èˆ°å®ˆå«  2  25
+Mongen æ¶å½¢é¬¼    2  25
+Mongen çº¢è¡£æ³•å¸ˆ  2  25
 Clearmission
-Eventmsg Grobal "°ÔÍõ½ÌÖ÷µÄ²¿ÏÂÃÇ£¡ Òì¿Õ¼äµÄÃÅ´ó´óµÄ³¨¿ª×Å¡£¿ìµ½ÕâÀïÀ´´¦ÀíµôËùÎ½µÄÄÇĞ©¼ÄÉú³æ°É¡£" 11
+Eventmsg Grobal "éœ¸ç‹æ•™ä¸»çš„éƒ¨ä¸‹ä»¬ï¼ å¼‚ç©ºé—´çš„é—¨å¤§å¤§çš„æ•å¼€ç€ã€‚å¿«åˆ°è¿™é‡Œæ¥å¤„ç†æ‰æ‰€è°“çš„é‚£äº›å¯„ç”Ÿè™«å§ã€‚" 11
 Delaygoto [Grobal] 480 @pachon_next2_32
 
 
 [@pachon_next2_32]
 #ACT
-Eventmsg Grobal "Ã»Ê±¼äÁË¡£ÄãÃÇµÄÃüÒ²µ½´ËÎªÖ¹ÁË¡£" 11
+Eventmsg Grobal "æ²¡æ—¶é—´äº†ã€‚ä½ ä»¬çš„å‘½ä¹Ÿåˆ°æ­¤ä¸ºæ­¢äº†ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_next2_33
 
 [@pachon_next2_33]
 #ACT
-Eventmsg Grobal "¡£¡£¡£" 46
+Eventmsg Grobal "ã€‚ã€‚ã€‚" 46
 Delaygoto [Grobal] 7 @pachon_next2_34
 
 [@pachon_next2_34]
 #ACT
-Eventmsg Grobal "¶ºÁôÔÚÈËÊÀ¼äÓĞ¶à³¤Ê±¼ä°¡¡£¡£¡£" 142
+Eventmsg Grobal "é€—ç•™åœ¨äººä¸–é—´æœ‰å¤šé•¿æ—¶é—´å•Šã€‚ã€‚ã€‚" 142
 Delaygoto [Grobal] 7 @pachon_next2_35
 
 [@pachon_next2_35]
 #ACT
 ;
 param1 0
-param2 513 
+param2 513
 param3 327
 SetMission
 Param1 0
 Param2 543
 Param3 297
-Mongen ÎÖÂêÎÀÊ¿  10 25
-Mongen ÎÖÂê½ÌÖ÷  1  25 
+Mongen æ²ƒç›å«å£«  10 25
+Mongen æ²ƒç›æ•™ä¸»  1  25
 Clearmission
 
 ;
@@ -2621,8 +2621,8 @@ Setmission
 Param1 0
 Param2 350
 Param3 500
-Mongen ºìÒÂ·¨Ê¦  10 25
-Mongen °ÔÍõÊØÎÀ  1  25 
+Mongen çº¢è¡£æ³•å¸ˆ  10 25
+Mongen éœ¸ç‹å®ˆå«  1  25
 Clearmission
 
 ;
@@ -2633,60 +2633,60 @@ Setmission
 Param1 0
 Param2 550
 Param3 510
-Mongen ¹Ç¹í½«    10 25
-Mongen ÷¼÷Ã½ÌÖ÷  1  25 
+Mongen éª¨é¬¼å°†    10 25
+Mongen éª·é«…æ•™ä¸»  1  25
 Clearmission
-Eventmsg Grobal "ÏûÊ§°É¡£ÈËÀà°¡£¡" 11
+Eventmsg Grobal "æ¶ˆå¤±å§ã€‚äººç±»å•Šï¼" 11
 Delaygoto [Grobal] 600 @pachon_last1
 
 [@pachon_last1]
 #IF
-checkmonmap 0 1 °ÔÍõÊØÎÀ
+checkmonmap 0 1 éœ¸ç‹å®ˆå«
 #ACT
 goto @pachon_last2
 break
 
 #IF
-checkmonmap 0 1 ÎÖÂê½ÌÖ÷
+checkmonmap 0 1 æ²ƒç›æ•™ä¸»
 #ACT
 goto @pachon_last2
 break
 
 #IF
-checkmonmap 0 1 ÷¼÷Ã½ÌÖ÷
+checkmonmap 0 1 éª·é«…æ•™ä¸»
 #ACT
 goto @pachon_last2
 break
 
 [@pachon_last2]
 #ACT
-monclear 0 
-Eventmsg Grobal "ÓŞ´ÀµÄ¡£¡£¡£" 99
+monclear 0
+Eventmsg Grobal "æ„šè ¢çš„ã€‚ã€‚ã€‚" 99
 Delaygoto [Grobal] 7 @pachon_last2_2
 
 [@pachon_last2_2]
 #ACT
-Eventmsg Grobal "²»ÄÜ°ÑÎÒµÄÊÀ½ç½»¸øÒì½çµÄ¶«Î÷¡£" 99
+Eventmsg Grobal "ä¸èƒ½æŠŠæˆ‘çš„ä¸–ç•Œäº¤ç»™å¼‚ç•Œçš„ä¸œè¥¿ã€‚" 99
 Delaygoto [Grobal] 7 @pachon_last2_3
 
 [@pachon_last2_3]
 #ACT
-Eventmsg Grobal "Ê²Ã´£¿Äã¸ÉÊ²Ã´£¿¸Ï·Á°­ÎÒÃÇµÄÊÂÇé¡£" 11
+Eventmsg Grobal "ä»€ä¹ˆï¼Ÿä½ å¹²ä»€ä¹ˆï¼Ÿèµ¶å¦¨ç¢æˆ‘ä»¬çš„äº‹æƒ…ã€‚" 11
 Delaygoto [Grobal] 7 @pachon_last2_4
 
 [@pachon_last2_4]
 #ACT
-Eventmsg Grobal "È«²¿ ÏûÊ§ÁËÂğ¡£¡££¿" 10141
+Eventmsg Grobal "å…¨éƒ¨ æ¶ˆå¤±äº†å—ã€‚ã€‚ï¼Ÿ" 10141
 Delaygoto [Grobal] 7 @pachon_last2_5
 
 [@pachon_last2_5]
 #ACT
-Eventmsg Grobal "²»ÒªÒÔÎªÎÒ°ïÁËÄã¡£Ö»²»¹ıÄãÒªÃ÷°×ÕâÀïµÄÁìµ¼ÈËÖ»ÓĞÒ»¸ö¡£¡£¡£" 99
+Eventmsg Grobal "ä¸è¦ä»¥ä¸ºæˆ‘å¸®äº†ä½ ã€‚åªä¸è¿‡ä½ è¦æ˜ç™½è¿™é‡Œçš„é¢†å¯¼äººåªæœ‰ä¸€ä¸ªã€‚ã€‚ã€‚" 99
 Delaygoto [Grobal] 7 @pachon_last2_6
 
 [@pachon_last2_7]
 #ACT
-Eventmsg Grobal "ÅËÒ¹Å£Ä§Íõ¡£¡£ËûÓĞÄÇÃ´À÷º¦Âğ¡£ĞÒ¿÷ËğÊ§²»Ì«ÑÏÖØ£¬²»¹ıÅËÒ¹Å£Ä§Íõ¹¥»÷¹ıÀ´µÄ»°¡£¡£¡£" 10141
+Eventmsg Grobal "æ½˜å¤œç‰›é­”ç‹ã€‚ã€‚ä»–æœ‰é‚£ä¹ˆå‰å®³å—ã€‚å¹¸äºæŸå¤±ä¸å¤ªä¸¥é‡ï¼Œä¸è¿‡æ½˜å¤œç‰›é­”ç‹æ”»å‡»è¿‡æ¥çš„è¯ã€‚ã€‚ã€‚" 10141
 Delaygoto [Grobal] 7 @pachon_last1_7
 
 [@pachon_last2_7]

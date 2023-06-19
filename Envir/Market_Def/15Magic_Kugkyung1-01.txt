@@ -11,10 +11,10 @@ goto @main_0
 #IF
 checkjob warrior
 #ACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @yong_main
 #ELSEACT
-BreakTimeRecall 
+BreakTimeRecall
 goto @yong_other_class
 
 [@yong_other_class]

@@ -1,8 +1,8 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ
 [@MadoNpc_Call]
 {
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call1
 break
@@ -22,12 +22,12 @@ ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOHAVEUSER" [@MadoNpcNpc_Call_0]
 mov A9 %ARG(1)
 #IF
 Equal A9 ""
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ´ó×å³¤½ÇµÑ 1
-checkitem ÍòÀï±Ìº£ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ºÚÌì°µÔÆ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem é»‘å¤©æš—äº‘ 1
 #ACT
 FormatStr "'%s',%s,%s," %USERNAME 1 0
 mov A8 %A9
@@ -67,7 +67,7 @@ break
 #IF
 Equal D1 13
 Equal D2 10
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_11
 break
@@ -75,7 +75,7 @@ break
 #IF
 Equal D1 13
 Equal D2 9
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_10
 break
@@ -83,7 +83,7 @@ break
 #IF
 Equal D1 13
 Equal D2 8
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_9
 break
@@ -91,7 +91,7 @@ break
 #IF
 Equal D1 13
 Equal D2 7
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_8
 break
@@ -99,7 +99,7 @@ break
 #IF
 Equal D1 13
 Equal D2 6
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_7
 break
@@ -107,7 +107,7 @@ break
 #IF
 Equal D1 13
 Equal D2 5
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_5
 break
@@ -115,7 +115,7 @@ break
 #IF
 Equal D1 13
 Equal D2 4
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_4
 break
@@ -123,7 +123,7 @@ break
 #IF
 Equal D1 13
 Equal D2 3
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_3
 break
@@ -132,7 +132,7 @@ break
 #IF
 Equal D1 13
 Equal D2 2
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call5_1
 break
@@ -140,7 +140,7 @@ break
 #IF
 Equal D1 2
 Equal D2 0
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call_10
 break
@@ -148,7 +148,7 @@ break
 #IF
 Equal D1 1
 Equal D2 2
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @MadoNpc_Call_1
 break
@@ -156,18 +156,18 @@ break
 #IF
 Equal D1 1
 Equal D2 1
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 #ACT
 goto @madoQuestHave_Yes_1
 break
 
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ´ó×å³¤½ÇµÑ 1
-checkitem ÍòÀï±Ìº£ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ºÚÌì°µÔÆ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem é»‘å¤©æš—äº‘ 1
 Equal D1 1
 Equal D2 0
 
@@ -270,12 +270,12 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 
 [@MadoNpc_Call5_1]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ÍòÀï±Ìº£ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ºÚÌì°µÔÆ 1
-checkitem ´ó×å³¤½ÇµÑ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem é»‘å¤©æš—äº‘ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_14
@@ -288,8 +288,8 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=3"
 set [208] 1
-Mongenp "D1606,33,44,10" ÅµÂêÍ»»÷¶Ó³¤ 1
-ApplyMonEx "D1606,33,44,30" ÅµÂêÍ»»÷¶Ó³¤ [Monsterside] "·è¿ñÅµÂêÓÂÊ¿"
+Mongenp "D1606,33,44,10" è¯ºç›çªå‡»é˜Ÿé•¿ 1
+ApplyMonEx "D1606,33,44,30" è¯ºç›çªå‡»é˜Ÿé•¿ [Monsterside] "ç–¯ç‹‚è¯ºç›å‹‡å£«"
 close
 
 [@MadoNpc_Call5_3]
@@ -304,12 +304,12 @@ close
 
 [@MadoNpc_Call5_5]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ÍòÀï±Ìº£ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ºÚÌì°µÔÆ 1
-checkitem ´ó×å³¤½ÇµÑ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem é»‘å¤©æš—äº‘ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_17
@@ -320,12 +320,12 @@ checkitem ´ó×å³¤½ÇµÑ 1
 
 [@MadoNpc_Call5_6]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ÍòÀï±Ìº£ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ºÚÌì°µÔÆ 1
-checkitem ´ó×å³¤½ÇµÑ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem é»‘å¤©æš—äº‘ 1
+checkitem å¤§æ—é•¿è§’ç¬› 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_19
@@ -335,7 +335,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
 LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg1]
 Eventmsg "Grobal" %A7 2000
-take ´ó×å³¤½ÇµÑ 1
+take å¤§æ—é•¿è§’ç¬› 1
 #ELSEACT
 break
 
@@ -344,11 +344,11 @@ break
 
 [@MadoNpc_Call5_7]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ÍòÀï±Ìº£ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ºÚÌì°µÔÆ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem é»‘å¤©æš—äº‘ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_21
@@ -359,11 +359,11 @@ checkitem ºÚÌì°µÔÆ 1
 
 [@MadoNpc_Call5_7_1]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ÍòÀï±Ìº£ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ºÚÌì°µÔÆ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem é»‘å¤©æš—äº‘ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_23
@@ -373,7 +373,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
 LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg2]
 Eventmsg "Grobal" %A7 2000
-take ºÚÌì°µÔÆ 1
+take é»‘å¤©æš—äº‘ 1
 #ELSEACT
 break
 
@@ -382,10 +382,10 @@ break
 
 [@MadoNpc_Call5_8]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ÍòÀï±Ìº£ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_25
@@ -396,10 +396,10 @@ checkitem ÍòÀï±Ìº£ 1
 
 [@MadoNpc_Call5_8_1]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
-checkitem ÍòÀï±Ìº£ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
+checkitem ä¸‡é‡Œç¢§æµ· 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_27
@@ -409,7 +409,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
 LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg3]
 Eventmsg "Grobal" %A7 2000
-take ÍòÀï±Ìº£ 1
+take ä¸‡é‡Œç¢§æµ· 1
 #ELSEACT
 break
 
@@ -418,9 +418,9 @@ break
 
 [@MadoNpc_Call5_9]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_29
@@ -431,9 +431,9 @@ checkitem Ñª»¨ÂäÕÕ 1
 
 [@MadoNpc_Call5_9_1]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem ¾Å¹¬ÔÆÎí 1
-checkitem Ñª»¨ÂäÕÕ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem ä¹å®«äº‘é›¾ 1
+checkitem è¡€èŠ±è½ç…§ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_31
@@ -443,7 +443,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=9"
 LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg4]
 Eventmsg "Grobal" %A7 2000
-take ¾Å¹¬ÔÆÎí 1
+take ä¹å®«äº‘é›¾ 1
 #ELSEACT
 break
 
@@ -452,8 +452,8 @@ break
 
 [@MadoNpc_Call5_10]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem Ñª»¨ÂäÕÕ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem è¡€èŠ±è½ç…§ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_33
@@ -464,8 +464,8 @@ checkitem Ñª»¨ÂäÕÕ 1
 
 [@MadoNpc_Call5_10_1]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
-checkitem Ñª»¨ÂäÕÕ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+checkitem è¡€èŠ±è½ç…§ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_35
@@ -475,7 +475,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=10"
 LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg5]
 Eventmsg "Grobal" %A7 2000
-take Ñª»¨ÂäÕÕ 1
+take è¡€èŠ±è½ç…§ 1
 Delaygoto [Grobal] 12 @MadoNpc_Call5_11_1
 break
 #ELSEACT
@@ -486,7 +486,7 @@ break
 
 [@MadoNpc_Call5_11]
 #IF
-Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] @Convert_MadoNpc_37
@@ -510,8 +510,8 @@ LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg7]
 Eventmsg "Grobal" %A7 2000
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=14"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
-takew ¼Å»ÃÖ®ÈĞ 1
-givew 1 Ó°÷ÈÖ®ÈĞ
+takew å¯‚å¹»ä¹‹åˆƒ 1
+givew 1 å½±é­…ä¹‹åˆƒ
 set [207] 0
 Delaygoto [Grobal] 12 @MadoNpc_Call5_13
 
@@ -533,4 +533,4 @@ mapting D1606 4 174 139
 #ACT
 mapmove 4 174 139
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;ä¸è¦åˆ æ‰æ­¤è¡Œ

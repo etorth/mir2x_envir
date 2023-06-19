@@ -2,7 +2,7 @@
 [@SabukDefult]
 {
 #ACT
- 
+
 SetAreaAttr  "3, 206, 159, 6"  "NoFly"
 SetAreaAttr  "3, 206, 159, 10"  "NoLack"
 

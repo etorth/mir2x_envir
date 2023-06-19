@@ -7,11 +7,11 @@
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SamakTele.txt] @SamakTele_1
 
 #ELSEACT
-mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
+mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
 }
 
 ;-------------------------------------------------------------------------------
@@ -24,9 +24,9 @@ break
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SamakTele.txt] @SamakTele_2
 
 #ELSEACT
-mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
+mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
 }

@@ -101,7 +101,7 @@ goto @enterh_umy
 
 [@enterh_umy]
 #IF
-checkitem ÎÖÂê½ğÅÆ 1
+checkitem ÃÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #ACT
 goto @enterh_umy_0
 #ELSESAY

@@ -1,10 +1,10 @@
 ;;BlanceSetting.txt
 [Island_MonsterZen]
-Mon1_Type   = Ô³ºïÕ½Ê¿
-Mon2_Type   = Ô³ºïÕ½½«
-Mon3_Type   = Ä§Éñ¹Ö1
+Mon1_Type   = çŒ¿çŒ´æˆ˜å£«
+Mon2_Type   = çŒ¿çŒ´æˆ˜å°†
+Mon3_Type   = é­”ç¥æ€ª1
 
 [Island_Reword]
-Reword1     = ×çÖäÖ®Ò©Ë®
-Reword2     = ÎäÆ÷Ç¿»¯ÓÍ
-Reword3     = ×£¸£ÓÍ
+Reword1     = è¯…å’’ä¹‹è¯æ°´
+Reword2     = æ­¦å™¨å¼ºåŒ–æ²¹
+Reword3     = ç¥ç¦æ²¹

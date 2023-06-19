@@ -40,7 +40,7 @@ break
 #IF
 #ACT
 set [308] 1
-give ๗ผ๗รพซม้นว 1
+give รทยผรทรยพยซรรฉยนร 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T495_Say
 

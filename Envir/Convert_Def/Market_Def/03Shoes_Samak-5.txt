@@ -1,41 +1,41 @@
 ;;03Shoes_Samak-5.txt
 [@NPC_RedPlayer]
 {
-�Ҳ���������ֻ��������⡣\ \
-<����/@exit>
+我不想和你这种坏人做生意。\ \
+<结束/@exit>
 }
 
 [@NPC_Main]
 {
-��ӭ���٣���Ҫ��Ь��\ \
-<����/@buy>Ь\ 
-<����/@sell>Ь\
-<����/@repair>Ь\
- <����/@exit>
+欢迎光临，你要买鞋？\ \
+<购买/@buy>鞋\
+<出售/@sell>鞋\
+<修理/@repair>鞋\
+ <结束/@exit>
 }
 
 [@NPC_Buy]
 {
-����ѡ����Ҫ��Ь��\ \
-<ǰһ��/@main>
+请挑选你需要的鞋。\ \
+<前一步/@main>
 }
 
 [@NPC_Sell]
 {
-��˵��ɳĮ����Σ�յĵط���Ь�Ǳ���Ʒ��\ \
-<ǰһ��/@main>
+据说在沙漠这样危险的地方，鞋是必需品。\ \
+<前一步/@main>
 }
 
 [@NPC_Repair]
 {
-��������Ь��\ \
-<ǰһ��/@main>
+可以修理鞋。\ \
+<前一步/@main>
 }
 
 [@NPC_Repair_Complete]
 {
-�޵ò�����\ \
-<ǰһ��/@main>
+修得不错。\ \
+<前一步/@main>
 }
 
 

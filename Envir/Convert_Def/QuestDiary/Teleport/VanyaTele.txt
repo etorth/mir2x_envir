@@ -1,23 +1,23 @@
 ;;VanyaTele.txt
 [@VanyaTele_1]
 {
-ÁùÃæÉñÊ¯ \ \
-<ÒÆ¶¯ÖÁ±ß¾³´å×¯ËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(KugKyung,1000,South)> \
-__<ÒÆ¶¯ÖÁÅËÒ¹Ê¯¿ß½Ï½ü´¦µØÏÂ³ÇËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(HalfCave,1000,Center)> \
-__<ÒÆ¶¯ÖÁÅËÒ¹Éñµî½Ï½ü´¦µØÏÂ³ÇËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(HalfTemple,1000,Center)> \
-<ÒÆ¶¯ÖÁ±ÈÆæ³ÇËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(Bichon,500,North)> \ \
-<ÒÆ¶¯ÖÁÃËÖØÍÁ³ÇËùĞè½ğÇ® : 1500 Ç®/@TelePortRootin(MongChon,1500,East)> \ \
-<ÒÆ¶¯ÖÁÒøĞÓÉ½´åËùĞè½ğÇ® : 1000 Ç®/@TelePortRootin(EunHang,1000,Center)> \
-<ÒÆ¶¯ÖÁµÀ¹İ´åËùĞè½ğÇ® : 1000 Ç®/@TelePortRootin(DoGwan,1000,Center)> \ \
-<ÒÆ¶¯ÖÁ¶¾ÉßÉ½´åËùĞè½ğÇ® : 2000 Ç®/@TelePortRootin(SnakeVally,2500,South)> \
-<ÒÆ¶¯ÖÁÉ³Ä®ÍÁ³ÇËùĞè½ğÇ® : 2000 Ç®/@TelePortRootin(Samak,2000,East)> \ \
-<ÒÆ¶¯ÖÁÂÌÖŞ´åËùĞè½ğÇ® : 2500 Ç®/@TelePortRootin(Oasis,2500,Center)> \ \
-__<ÒÆ¶¯ÖÁÁ÷·ÅµºËùĞè½ğÇ®  : 10000 Ç®/@TelePortRootin(RedZone,10000,Center)> \ \
+å…­é¢ç¥çŸ³ \ \
+<ç§»åŠ¨è‡³è¾¹å¢ƒæ‘åº„æ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(KugKyung,1000,South)> \
+__<ç§»åŠ¨è‡³æ½˜å¤œçŸ³çªŸè¾ƒè¿‘å¤„åœ°ä¸‹åŸæ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(HalfCave,1000,Center)> \
+__<ç§»åŠ¨è‡³æ½˜å¤œç¥æ®¿è¾ƒè¿‘å¤„åœ°ä¸‹åŸæ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(HalfTemple,1000,Center)> \
+<ç§»åŠ¨è‡³æ¯”å¥‡åŸæ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(Bichon,500,North)> \ \
+<ç§»åŠ¨è‡³ç›Ÿé‡åœŸåŸæ‰€éœ€é‡‘é’± : 1500 é’±/@TelePortRootin(MongChon,1500,East)> \ \
+<ç§»åŠ¨è‡³é“¶æå±±æ‘æ‰€éœ€é‡‘é’± : 1000 é’±/@TelePortRootin(EunHang,1000,Center)> \
+<ç§»åŠ¨è‡³é“é¦†æ‘æ‰€éœ€é‡‘é’± : 1000 é’±/@TelePortRootin(DoGwan,1000,Center)> \ \
+<ç§»åŠ¨è‡³æ¯’è›‡å±±æ‘æ‰€éœ€é‡‘é’± : 2000 é’±/@TelePortRootin(SnakeVally,2500,South)> \
+<ç§»åŠ¨è‡³æ²™æ¼ åœŸåŸæ‰€éœ€é‡‘é’± : 2000 é’±/@TelePortRootin(Samak,2000,East)> \ \
+<ç§»åŠ¨è‡³ç»¿æ´²æ‘æ‰€éœ€é‡‘é’± : 2500 é’±/@TelePortRootin(Oasis,2500,Center)> \ \
+__<ç§»åŠ¨è‡³æµæ”¾å²›æ‰€éœ€é‡‘é’±  : 10000 é’±/@TelePortRootin(RedZone,10000,Center)> \ \
 }
 
 [@VanyaTele_2]
 {
-ÁùÃæÉñÊ¯ \ \
-<ÒÆ¶¯ÖÁÅËÒ¹µº´åËùĞèµÄ½ğÇ® : 500 Ç®/@TelePortRootin(HalfMoon,500,Center)> \
+å…­é¢ç¥çŸ³ \ \
+<ç§»åŠ¨è‡³æ½˜å¤œå²›æ‘æ‰€éœ€çš„é‡‘é’± : 500 é’±/@TelePortRootin(HalfMoon,500,Center)> \
 }
 

@@ -114,9 +114,9 @@ break
 
 [@numabubro_T338_1]
 #IF
-checkitem ÅµÂê·¨ÀÏÕäÖé 4
+checkitem è¯ºç›æ³•è€çç  4
 #ACT
-give ÅµÂê·¨ÀÏÕäÖé 1
+give è¯ºç›æ³•è€çç  1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T338_Say
@@ -129,7 +129,7 @@ goto @numabubro_T338_2
 #IF
 random 3
 #ACT
-give ÅµÂê·¨ÀÏÕäÖé 1
+give è¯ºç›æ³•è€çç  1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------

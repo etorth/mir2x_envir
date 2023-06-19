@@ -26,7 +26,7 @@ Monclear 02_006
 set [519] 1
 goto @MapQuest_lightstick_mon3
 #SAY
-(ºÙ£¬ÖÕÓÚÍ¨¹ıÁËÑ§Ï°À×µçÊõµÄ²âÊÔ¡£¡£¡£)\
+(å˜¿ï¼Œç»ˆäºé€šè¿‡äº†å­¦ä¹ é›·ç”µæœ¯çš„æµ‹è¯•ã€‚ã€‚ã€‚)\
 
 [@MapQuest_lightstick_mon3]
 #IF

@@ -1,50 +1,50 @@
 ;;09HorseMarket_Encore-9.txt
 [@NPC_Main]
 {
-ÎÒ¶Ô¹óÖØÎïÆ·Ã»ÐËÈ¤......Òª¿´ÎÒ´ø×ÅµÄÎïÆ·Âð£¿\ \
-<¹ºÈë/@BuyHorseWhite> {FCOLOR/10}ÃûÆ·{FCOLOR/12}°×Âí£¨2000Íò½ð±Ò,ÐèÒªµÈ¼¶40£©\
-<ÂôËùÓµÓÐµÄÂí¡£/@SellHorse> \
-<½áÊø/@exit>
+æˆ‘å¯¹è´µé‡ç‰©å“æ²¡å…´è¶£......è¦çœ‹æˆ‘å¸¦ç€çš„ç‰©å“å—ï¼Ÿ\ \
+<è´­å…¥/@BuyHorseWhite> {FCOLOR/10}åå“{FCOLOR/12}ç™½é©¬ï¼ˆ2000ä¸‡é‡‘å¸,éœ€è¦ç­‰çº§40ï¼‰\
+<å–æ‰€æ‹¥æœ‰çš„é©¬ã€‚/@SellHorse> \
+<ç»“æŸ/@exit>
 }
 
 [@NPC_Main_NoMoney]
 {
-ÎÒ¸úÇîÈË²»Ëµ»°£¡\ \
-<½áÊø/@exit>
+æˆ‘è·Ÿç©·äººä¸è¯´è¯ï¼\ \
+<ç»“æŸ/@exit>
 }
 
 [@NPC_Main_NoLv]
 {
-ÏëÆï°×ÂíÐèÒªµÈ¼¶ÊÇ40ÒÔÉÏ...µÈÁ·µ½40¼¶ÔÙÀ´°É...\ \
-<½áÊø/@exit>
+æƒ³éª‘ç™½é©¬éœ€è¦ç­‰çº§æ˜¯40ä»¥ä¸Š...ç­‰ç»ƒåˆ°40çº§å†æ¥å§...\ \
+<ç»“æŸ/@exit>
 }
 
 [@NPC_BuyHorseWhite_nOmONEY]
 {
-°×ÂíµÄ¼Û¸ñÊÇ2000Íò½ð±Ò...ÄãÁ¬Ç®Ò²Ã»ÓÐ¾ÍÏë¹ºÂò°×ÂíÂð£¿\ \
-<½áÊø/@exit>
+ç™½é©¬çš„ä»·æ ¼æ˜¯2000ä¸‡é‡‘å¸...ä½ è¿žé’±ä¹Ÿæ²¡æœ‰å°±æƒ³è´­ä¹°ç™½é©¬å—ï¼Ÿ\ \
+<ç»“æŸ/@exit>
 }
 
 [@NPC_BuyHorseWhite_Fail]
 {
-ÄãÒÑ¾­ÓÐÁËÂí...ÎÒ²»ÄÜ°ÑÕâ¸ö{FCOLOR/10}ÃûÆ·{FCOLOR/12}°×Âí¸øÒÑÓÐÂíµÄÈË...\ \
-<½áÊø/@exit>
+ä½ å·²ç»æœ‰äº†é©¬...æˆ‘ä¸èƒ½æŠŠè¿™ä¸ª{FCOLOR/10}åå“{FCOLOR/12}ç™½é©¬ç»™å·²æœ‰é©¬çš„äºº...\ \
+<ç»“æŸ/@exit>
 }
 
 [@NPC_BuyHorseWhite_Complete]
 {
-ÃûÆ·°×ÂíÔÚÕâÀï...ËäÈ»¹ó£¬²»¹ýÕâ¸ö{FCOLOR/10}ÃûÆ·{FCOLOR/12}°×ÂíÊÇÎïÓÐËùÖµ...\ \
-<½áÊø/@exit>
+åå“ç™½é©¬åœ¨è¿™é‡Œ...è™½ç„¶è´µï¼Œä¸è¿‡è¿™ä¸ª{FCOLOR/10}åå“{FCOLOR/12}ç™½é©¬æ˜¯ç‰©æœ‰æ‰€å€¼...\ \
+<ç»“æŸ/@exit>
 }
 
 [@NPC_SellHorse]
 {
-ÎÒËùÓµÓÐµÄÂíÒÑ¾­Âô³öÈ¥ÁË¡£\ \
-<½áÊø/@exit>
+æˆ‘æ‰€æ‹¥æœ‰çš„é©¬å·²ç»å–å‡ºåŽ»äº†ã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@NPC_SellHorse_Fail]
 {
-ÄãÒÑÆï×ÅÂíµÄÇé¿öÏÂÎÒ²»ÄÜÂô¸øÄã...ÄãÔÚÈ·ÈÏÒ»ÏÂÄãµÄÂí°É...\ \
-<½áÊø/@exit>
+ä½ å·²éª‘ç€é©¬çš„æƒ…å†µä¸‹æˆ‘ä¸èƒ½å–ç»™ä½ ...ä½ åœ¨ç¡®è®¤ä¸€ä¸‹ä½ çš„é©¬å§...\ \
+<ç»“æŸ/@exit>
 }

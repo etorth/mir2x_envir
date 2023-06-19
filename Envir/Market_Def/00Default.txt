@@ -37,17 +37,17 @@ goto @Defult_SafeZone_Setting
 #CALL [\System\Flag.txt] @ChangeFlag
 
 [@_USERLOGINTELL]
-#CALL [\¸½¼Ó¹¦ÄÜ\ÉÏÏßÌáÊ¾.txt] @ÉÏÏßÌáÊ¾
+#CALL [\é™„åŠ åŠŸèƒ½\ä¸Šçº¿æç¤º.txt] @ä¸Šçº¿æç¤º
 
 [@_UserLogin]
 
 
-;;Ê±¼ä´¥·¢£¬¼ä¸ôÊ±¼äÓÉ¿ØÖÆÌ¨ÀïÃæµ÷Õû
+;;æ—¶é—´è§¦å‘ï¼Œé—´éš”æ—¶é—´ç”±æŽ§åˆ¶å°é‡Œé¢è°ƒæ•´
 [@_TimeEATEVENT]
 #IF
 check [888] 1
 checkgold 10000
 #ACT
-take ½ð±Ò 10000
+take é‡‘å¸ 10000
 giveexp %USERNAME 100000
-sysmsg "Äú±»¿Û³ýÁË10000½ð±Ò!"
+sysmsg "æ‚¨è¢«æ‰£é™¤äº†10000é‡‘å¸!"

@@ -2,66 +2,66 @@
 
 [@Convert_HelperHonChonMaDoBook_0]
 {
-Ӱ��֮������û�п�ʼ��\ \
-<��  ��/@exit>
+影魅之刃任务还没有开始。\ \
+<关  闭/@exit>
 }
 
 [@Convert_HelperHonChonMaDoBook_1]
 {
-��    �� : {FCOLOR/10}1-1{FCOLOR/12} Ӱ��֮�е��ջ�\ \
-��    �� : �ռ������еĳ�Ϊħ���۾��������󣬿�ʼΪ�ָ�Ӱ��֮�е�ð�ա�\ \
+阶    段 : {FCOLOR/10}1-1{FCOLOR/12} 影魅之刃的诱惑\ \
+内    容 : 收集完所有的成为魔剑眼睛的项链后，开始为恢复影魅之刃的冒险。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_2]
 {
-��    �� : {FCOLOR/10}1-2{FCOLOR/12} ���ѵĳ���\ \
-��    �� : ��Ϊ��������齫����̺���ʧ���ָ�Ӱ��֮�е��ó̴�һ��ʼ�������鷳��\ \
+阶    段 : {FCOLOR/10}1-2{FCOLOR/12} 艰难的出发\ \
+内    容 : 因为意外的事情将万里碧海丢失，恢复影魅之刃的旅程从一开始就遇到麻烦。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_3]
 {
-��    �� : {FCOLOR/10}1-3{FCOLOR/12} ħ��İ���\ \
-��    �� : ħ�ｫ�ָ�Ӱ��֮����Ҫ��������������㣬Ҫͻ�Ƹ��ֻ����õ�֤Ʊ��\ \
+阶    段 : {FCOLOR/10}1-3{FCOLOR/12} 魔达的帮助\ \
+内    容 : 魔达将恢复影魅之刃需要做的事情告诉了你，要突破各种机关拿到证票。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_4]
 {
-��    �� : {FCOLOR/10}1-4{FCOLOR/12} �����Ķ���\ \
-��    �� : ��Ϊ���Ϸ����Ĳ����ź����о�����ȡ��Ӱ��֮���йص���������\ \
+阶    段 : {FCOLOR/10}1-4{FCOLOR/12} 其他的动向\ \
+内    容 : 因为不断飞来的不明信函，感觉到和取得影魅之刃有关的其他动向。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_5]
 {
-��    �� : {FCOLOR/10}1-5{FCOLOR/12} ����֮ӡ\ \
-��    �� : ����ϼ��Ů����õ�������֮ӡ����ؿ���ͻ�Ƶ������ػ��߹����ˡ�\ \
+阶    段 : {FCOLOR/10}1-5{FCOLOR/12} 神秘之印\ \
+内    容 : 从紫霞神女那里得到了神秘之印，这回可以突破第三个守护者关门了。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_6]
 {
-��    �� : {FCOLOR/10}1-6{FCOLOR/12} �ػ�ʯ���ػ���\ \
-��    �� : ����Ӱ��֮����ɵĽӽ�����ȥ�����±��ҿ����������Ҳ������ʼ�����ˡ�\ \
+阶    段 : {FCOLOR/10}1-6{FCOLOR/12} 守护石和守护者\ \
+内    容 : 随着影魅之刃完成的接近，过去的秘事被揭开不祥的征兆也渐渐开始出现了。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_7]
 {
-��    �� : {FCOLOR/10}1-7{FCOLOR/12} ���˵�����\ \
-��    �� : �ӹ��������û��˴�Ž��Ľǵѣ����Ҫȥ���Ĺ��ż��볤��ء�\ \
+阶    段 : {FCOLOR/10}1-7{FCOLOR/12} 怪人的人情\ \
+内    容 : 从怪人那里拿回了大脚将的角笛，这回要去最后的关门祭祀长领地。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_8]
 {
-��    �� : {FCOLOR/10}1-8{FCOLOR/12} ħ����׼�\ \
-��    �� : �������ż�����ħ������¶�����غܾõ�����Ŀ��\ \
+阶    段 : {FCOLOR/10}1-8{FCOLOR/12} 魔达的凶计\ \
+内    容 : 在最后关门见到的魔达终于露出隐藏很久的真面目。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_9]
 {
-��    �� : {FCOLOR/10}1-9{FCOLOR/12} ���˵�ŵ����������\ \
-��    �� : �����ΪӰ��֮�е�ħ������ɶ�������ŵ�������������Ϊ�õ�Ӱ��֮�ж���ʼ�ļ���������\ \
+阶    段 : {FCOLOR/10}1-9{FCOLOR/12} 疯了的诺玛教主的灵魂\ \
+内    容 : 打败因为影魅之刃的魔力而变成堕落灵魂的诺玛教主，结束了为得到影魅之刃而开始的艰难修炼。\ \
 }
 
 [@Convert_HelperHonChonMaDoBook_10]
 {
-��    �� : {FCOLOR/13}1-10{FCOLOR/12} ������Ӱ��֮��\ \
-��    �� : ������Ϊ��ʧ��ֻ�۾�����˯�ܾõ�Ӱ��֮�У�ʹ���ָ���ԭ�е��������浣�Ľ���ôΣ�յ�ħ���ķ�ӡ�������֪�����ʲô�������ѡ�\ \
+阶    段 : {FCOLOR/13}1-10{FCOLOR/12} 重生的影魅之刃\ \
+内    容 : 唤醒因为丢失四只眼睛而昏睡很久的影魅之刃，使它恢复了原有的力量。真担心将这么危险的魔剑的封印解除，不知会带来什么样的灾难。\ \
 }

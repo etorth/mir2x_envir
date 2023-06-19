@@ -50,13 +50,13 @@ goto @main_0_1
 
 [Goods]
 ;ItemName      Volume     Hour
-青铜斧        100        1
-八荒          100        1
-凌风          100        1
-斩马刀          100        1
-修罗          100        1
-海魂          100        1
-半月            100        1
+脟脿脥颅赂芦        100        1
+掳脣禄脛          100        1
+脕猫路莽          100        1
+脮露脗铆碌露          100        1
+脨脼脗脼          100        1
+潞拢禄锚          100        1
+掳毛脭脗            100        1
 
 [@SinQuest]
 #CALL [\SinGiSun\SinGiSun.txt] @WakeUp_Check2

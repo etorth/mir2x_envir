@@ -4,23 +4,23 @@
 #IF
 ISADMIN
 #SAY
-<�л�ս��ʼ��/@GuildEventSystemTime> \\
-<�÷����л��ʤ��/@GuildEventSystemWinA> \
-<�ù����л��ʤ��/@GuildEventSystemWinB> \\
+<行会战开始。/@GuildEventSystemTime> \\
+<让防守行会获胜。/@GuildEventSystemWinA> \
+<让攻击行会获胜。/@GuildEventSystemWinB> \\
 
 #IF
 #SAY
-ɳĮ������ɳĮ�����ĵ���... \\
-<ȷ�ϲμ�ɳĮ�����л�ս���л����ơ�/@ConfirmWarEventSystem> \
-<����μ�ռ��ɳĮ���ǵ��л�ս��/@JoinGuildWarEventSystem> \
-<�μ�ɳĮ�����л�ս��/@StartGuildWarEventSystem> \\
-<���л�ս��ʤ��ռ��ɳĮ���ǡ�/@SamakTaosungMake> \\
-<��  ��/@exit>
+沙漠土城是沙漠的中心地区... \\
+<确认参加沙漠土城行会战的行会名称。/@ConfirmWarEventSystem> \
+<申请参加占领沙漠土城的行会战。/@JoinGuildWarEventSystem> \
+<参加沙漠土城行会战。/@StartGuildWarEventSystem> \\
+<在行会战中胜利占领沙漠土城。/@SamakTaosungMake> \\
+<关  闭/@exit>
 
 [@GuildEventSystemWinA]
 #ACT
 Close
-LineMsg [Grobal] "���ص��л��ʤ��"
+LineMsg [Grobal] "防守的行会获胜。"
 UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME2='',FLD_WINGUILD=''"
 
 [@GuildEventSystemWinB]
@@ -31,8 +31,8 @@ ReadValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME2" @Guil
 [@GuildEventSystemWinB_Next()]
 #ACT
 Mov A1 %ARG(1)
-LineMsg [Grobal] "�������л��ʤ��"
-LineMsg [Grobal] "���һСʱ֮�ڲ���ռ��ɳĮ���Ǿ���ʧ�ܡ�"
+LineMsg [Grobal] "攻击的行会获胜。"
+LineMsg [Grobal] "如果一小时之内不能占领沙漠土城就算失败。"
 FormatSTR "FLD_GUILDNAME2='',FLD_WINGUILD='%s'" %A1
 UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
 
@@ -44,16 +44,16 @@ or IsCastleGuild TAOSUNG
 #ACT
 break
 #SAY
-���гǵ��л᲻��ռ��ɳĮ���ǡ�\\
-<��  ��/@exit>
+已有城的行会不能占领沙漠土城。\\
+<关  闭/@exit>
 
 #IF
 IsGuildMaster
 #ACT
 ReadValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_WINGUILD" @SamakTaosungMake_Give
 #ELSESAY
-���������˵Ļ�����ռ��ɳĮ���ǡ�\\
-<��  ��/@exit>
+不是掌门人的话不能占领沙漠土城。\\
+<关  闭/@exit>
 
 [@SamakTaosungMake_Give()]
 #ACT
@@ -64,12 +64,12 @@ Equal A0 %GUILDNAME
 #ACT
 FormatSTR "FLD_GUILDNAME1='%s'" %GUILDNAME
 UpdateValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
-LineMsg [Grobal] "'<$OUTPUT(A0)>' ���л�ռ����ɳĮ���ǡ�"
+LineMsg [Grobal] "'<$OUTPUT(A0)>' 的行会占领了沙漠土城。"
 CaptureCastleFlag TAOSUNG
 Close
 #ELSESAY
-<$GUILDNAME>�л�û�вμ��л��ս����û��ʤ����\\
-<��  ��/@exit>
+<$GUILDNAME>行会没有参加行会大战或是没有胜利。\\
+<关  闭/@exit>
 
 [@ConfirmWarEventSystem]
 #ACT
@@ -82,12 +82,12 @@ Mov A6 %ARG(1)
 #IF
 !Equal A6 ""
 #SAY
-�л��ս�з������л� : {FCOLOR/10}<$CS_TAOSUNG_OWNER>{FCOLOR/12} �л�\\
-�л��ս����ս���л� : {FCOLOR/10}<$OUTPUT(A6)>{FCOLOR/12} �л�\\
-<��  ��/@exit>
+行会大战中防御的行会 : {FCOLOR/10}<$CS_TAOSUNG_OWNER>{FCOLOR/12} 行会\\
+行会大战中挑战的行会 : {FCOLOR/10}<$OUTPUT(A6)>{FCOLOR/12} 行会\\
+<关  闭/@exit>
 #ELSESAY
-û��������лᡣ\\
-<��  ��/@exit>
+没有申请的行会。\\
+<关  闭/@exit>
 
 [@StartGuildWarEventSystem]
 #ACT
@@ -104,8 +104,8 @@ Equal A2 "OpenGate"
 #ELSEACT
 break
 #ELSESAY
-��Ϊ���ڲ���ɳĮ�����л��ս�볡ʱ�䣬���Բ��ܲμӡ�\\
-<��  ��/@exit>
+因为现在不是沙漠土城行会大战入场时间，所以不能参加。\\
+<关  闭/@exit>
 
 #IF
 Equal A0 %GUILDNAME
@@ -130,16 +130,16 @@ break
 #ACT
 break
 #SAY
-ɳĮ�����л�սֻ����5�㵽7��֮��������롣\\
-<��  ��/@exit>
+沙漠土城行会战只能在5点到7点之间进行申请。\\
+<关  闭/@exit>
 
 #IF
 IsGuildMaster
 #ACT
 ReadValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME1,FLD_GUILDNAME2" @JoinGuildWarEventSystem_Check
 #ELSESAY
-�����л�Ļ���������ɳĮ�����л�ս��\\
-<��  ��/@exit>
+不是行会的话不能申请沙漠土城行会战。\\
+<关  闭/@exit>
 
 [@JoinGuildWarEventSystem_Check()]
 #IF
@@ -156,38 +156,38 @@ or IsCastleGuild Taosung
 #ACT
 break
 #SAY
-�������л᲻�ܲμ��л�ս��\\
-<��  ��/@exit>
+城主的行会不能参加行会战。\\
+<关  闭/@exit>
 
 #IF
-!checkitem ��ַ���� 1
+!checkitem 遗址雕像 1
 #ACT
 break
 #SAY
-��ַ����û�еĻ����ܲμ��л�ս��\\
-<��  ��/@exit>
+遗址雕像没有的话不能参加行会战。\\
+<关  闭/@exit>
 
 #IF
 Equal A1 %GUILDNAME
 #ACT
 break
 #SAY
-<$GUILDNAME>�л��Ѿ��μ���ɳĮ�����л�ս��\\
-<��  ��/@exit>
+<$GUILDNAME>行会已经参加了沙漠土城行会战。\\
+<关  闭/@exit>
 
 #IF
 Equal A1 ""
 #ACT
-take ��ַ���� 1
+take 遗址雕像 1
 FormatStr "FLD_GUILDNAME2='%s'" %GUILDNAME
 UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
 break
 #SAY
-�μ���ɳĮ�����л�ս��\\
-ɳĮ�����л�ս�ڽ���9����С�\\
-<��  ��/@exit>
+参加了沙漠土城行会战。\\
+沙漠土城行会战在今天9点进行。\\
+<关  闭/@exit>
 #ELSESAY
-ɳĮ�����л�ս�Ѿ��б���л�μ��ˡ�\\
-<��  ��/@exit>
+沙漠土城行会战已经有别的行会参加了。\\
+<关  闭/@exit>
 }
 ;;------------------aragom

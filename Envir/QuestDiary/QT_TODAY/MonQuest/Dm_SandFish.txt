@@ -44,9 +44,9 @@ break
 
 [@sandfish_T339_1]
 #IF
-checkitem ɳĮ��ħ���� 19
+checkitem É³Ä®ÓãÄ§ÑÀ³Ý 19
 #ACT
-give ɳĮ��ħ���� 1
+give É³Ä®ÓãÄ§ÑÀ³Ý 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T339_Say
@@ -58,5 +58,5 @@ goto @sandfish_T339_2
 #IF
 random 3
 #ACT
-give ɳĮ��ħ���� 1
+give É³Ä®ÓãÄ§ÑÀ³Ý 1
 ;-----------------------------------------------------

@@ -26,15 +26,15 @@ DelayGoto [Grobal] 12 @Event_Start_5
 	LoadValue A0 "Convert_Def\QuestDiary\Event\SnowBattle\SnowBattle.txt" [EventMSG] [Grobal_4]
 	Eventmsg Grobal "%A0" 10004
 
-DelayGoto [Grobal] 180 @Event_Start_6 
+DelayGoto [Grobal] 180 @Event_Start_6
 
 [@Event_Start_6]
 begin
 #ACT
-;-----------------------Âü°¡½ÅÃ»À» ¸·À½
+;-----------------------ì°¸ê°€ì‹ ì²­ì„ ë§‰ìŒ
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [join] 1
 
-;-----------------------GM_DefÀÇ Á¦ÇÑ½Ã°£À» ÇÃ·¡±×¿¡ ÀúÀå
+;-----------------------GM_Defì˜ ì œí•œì‹œê°„ì„ í”Œë˜ê·¸ì— ì €ì¥
 loadValue P0 "GM_Def\Event\SnowBattle\GM.txt" [EventTime] [TimeSet]
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Event_Timer] [Time] %P0
 
@@ -73,32 +73,32 @@ goto @MapSpell
 delaygoto [grobal] 12 @SBevent_Loop
 
 [@MapSpell]
-;----------------------¸Ê½ºÆç ¹«ÇÑ·çÇÁ ºÒ·¯¿À´ÂºÎºĞ
+;----------------------ë§µìŠ¤í  ë¬´í•œë£¨í”„ ë¶ˆëŸ¬ì˜¤ëŠ”ë¶€ë¶„
 #CALL [\\Event\SnowBattle\MapSpell.txt] @MapSpellMasic
 
 
-;---------------------½Ã°£Á¦ÇÑ ·çÇÁ ½ÃÀÛºÎºĞ
+;---------------------ì‹œê°„ì œí•œ ë£¨í”„ ì‹œì‘ë¶€ë¶„
 [@SBevent_Loop]
-;----------------------´«»ç¶÷ Á¨½ÃÅ°´Â ±¸¹®
+;----------------------ëˆˆì‚¬ëŒ ì  ì‹œí‚¤ëŠ” êµ¬ë¬¸
 #ACT
 loadValue P0 "GM_Def\Event\SnowBattle\GM.txt" [SnowManGen] [Stock]
 LoadValue P1 "Flag_Def\event\SnowBattle\Flag.txt" [Event_Timer] [Time]
 
 #IF
-!CheckMonMap "Snow,43,29,5" %P0 
+!CheckMonMap "Snow,43,29,5" %P0
 #ACT
-MonGenP "Snow,43,29,4" Ñ©ÈË %P0
-;ApplyMonEx "Snow,43,29,10" Ñ©ÈË [Monsterside]
-;ApplyMonEx "Snow,43,29,10" Ñ©ÈË [Runaway]
+MonGenP "Snow,43,29,4" æ±½í›™ %P0
+;ApplyMonEx "Snow,43,29,10" æ±½í›™ [Monsterside]
+;ApplyMonEx "Snow,43,29,10" æ±½í›™ [Runaway]
 
 #IF
-!CheckMonMap "Snow,16,29,5" %P0 
+!CheckMonMap "Snow,16,29,5" %P0
 #ACT
-MonGenP "Snow,16,29,4" Ñ©ÈË %P0 
-;ApplyMonEx "Snow,16,29,10" Ñ©ÈË [Monsterside]
-;ApplyMonEx "Snow,16,29,10" Ñ©ÈË [Runaway]
+MonGenP "Snow,16,29,4" æ±½í›™ %P0
+;ApplyMonEx "Snow,16,29,10" æ±½í›™ [Monsterside]
+;ApplyMonEx "Snow,16,29,10" æ±½í›™ [Runaway]
 
-;----------------120ÃÊ ³²¾ÑÀ»¶§ ¼­µçµ¥½º½ºÆç ¹ßµ¿
+;----------------120ì´ˆ ë‚¨ì•—ì„ë•Œ ì„œë“ ë°ìŠ¤ìŠ¤í  ë°œë™
 #IF
 Equal P1 120
 #ACT
@@ -113,7 +113,7 @@ break
 #CALL [\\Event\SnowBattle\MapSpell.txt] @SuddenDeathSpell_1
 
 [@Hum_Check_Mir]
-;---------------°¢ÆÀÀÇ ³²Àº ÀÎ¿ø¼ö¸¦ Ã¼Å©ÇÏ¿© ÀúÀåÇÔ
+;---------------ê°íŒ€ì˜ ë‚¨ì€ ì¸ì›ìˆ˜ë¥¼ ì²´í¬í•˜ì—¬ ì €ì¥í•¨
 #IF
 checkHum "Snow,50,29,21"
 #ACT
@@ -129,9 +129,9 @@ goto @Live_Msg
 
 
 [@Live_Msg]
-;;------------------ÀÌº¥Æ® »ıÁß°è 1ºĞ¸¶´Ù ³ª¿À´Â±¸¹®
+;;------------------ì´ë²¤íŠ¸ ìƒì¤‘ê³„ 1ë¶„ë§ˆë‹¤ ë‚˜ì˜¤ëŠ”êµ¬ë¬¸
 #ACT
-loadValue P0 "Flag_Def\Event\SnowBattle\Flag.txt" [Live_Msg] [open] 
+loadValue P0 "Flag_Def\Event\SnowBattle\Flag.txt" [Live_Msg] [open]
 loadValue P1 "Flag_Def\Event\SnowBattle\Flag.txt" [Event_Timer] [Time]
 
 #IF
@@ -159,7 +159,7 @@ Large P1 %P2
 #ACT
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Live_Msg] [open] 0
 	LoadValue A0 "Convert_Def\QuestDiary\Event\SnowBattle\SnowBattle.txt" [EventMSG] [Grobal_5]
-	Eventmsg Grobal "%A0" 
+	Eventmsg Grobal "%A0"
 
 goto @LoopCheck
 break
@@ -169,7 +169,7 @@ Small P1 %P2
 #ACT
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Live_Msg] [open] 0
 	LoadValue A0 "Convert_Def\QuestDiary\Event\SnowBattle\SnowBattle.txt" [EventMSG] [Grobal_6]
-	Eventmsg Grobal "%A0" 
+	Eventmsg Grobal "%A0"
 
 goto @LoopCheck
 break
@@ -179,7 +179,7 @@ Equal P1 %P2
 #ACT
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Live_Msg] [open] 0
 	LoadValue A0 "Convert_Def\QuestDiary\Event\SnowBattle\SnowBattle.txt" [EventMSG] [Grobal_7]
-	Eventmsg Grobal "%A0" 
+	Eventmsg Grobal "%A0"
 
 goto @LoopCheck
 break
@@ -189,7 +189,7 @@ goto @LoopCheck
 break
 
 [@LoopCheck]
-;-------------------½Ã°£Á¦ÇÑ·çÇÁ Ã¼Å©±¸¹®----------------------------------------
+;-------------------ì‹œê°„ì œí•œë£¨í”„ ì²´í¬êµ¬ë¬¸----------------------------------------
 #ACT
 loadValue P0 "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [start]
 loadValue P1 "Flag_Def\Event\SnowBattle\Flag.txt" [wincheck] [Mirwin]
@@ -198,34 +198,34 @@ loadValue P3 "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [Finish]
 loadValue P4 "Flag_Def\Event\SnowBattle\Flag.txt" [Event_Timer] [Time]
 loadValue P5 "Flag_Def\Event\SnowBattle\Flag.txt" [Hum_Check] [Mir]
 loadValue P6 "Flag_Def\Event\SnowBattle\Flag.txt" [Hum_Check] [Legend]
-;-------------------ÀÌº¥Æ® Á¦ÇÑ½Ã°£ ¼³Á¤------------------------------------------
+;-------------------ì´ë²¤íŠ¸ ì œí•œì‹œê°„ ì„¤ì •------------------------------------------
 #IF
 Equal P4 0
 #ACT
 Goto @TimeOver
 break
 
-;-------------------¹Ì¸£Áø¿µ¿¡ ÀÎ¿øÀÌ Àü¸êµÇ¸é Àü¼³ÆÀ½Â¸® Ã¼Å©-----------
+;-------------------ë¯¸ë¥´ì§„ì˜ì— ì¸ì›ì´ ì „ë©¸ë˜ë©´ ì „ì„¤íŒ€ìŠ¹ë¦¬ ì²´í¬-----------
 #IF
 Equal P0 1
 Equal P1 0
 Equal P2 0
-!checkhum "Snow,50,29,21" 1 
+!checkhum "Snow,50,29,21" 1
 checkhum "Snow,9,29,21" 1
 #ACT
 goto @Legendwin_check
 break
-;------------------Àü¼³Áø¿µÀÌ Àü¸êµÇ¸é ¹Ì¸£ÆÀ½Â¸®Ã¼Å©
+;------------------ì „ì„¤ì§„ì˜ì´ ì „ë©¸ë˜ë©´ ë¯¸ë¥´íŒ€ìŠ¹ë¦¬ì²´í¬
 #IF
 Equal P0 1
 Equal P1 0
 Equal P2 0
-!checkhum "Snow,9,29,21" 1 
+!checkhum "Snow,9,29,21" 1
 checkhum "Snow,50,29,21" 1
 #ACT
 goto @Mirwin_check
 break
-;---------------¾çÁø¿µ¿¡ »ì¾Æ³²Àº »ç¶÷ÀÌ ÇÑ¸íµµ ¾øÀ»¶§ ÁßÁö
+;---------------ì–‘ì§„ì˜ì— ì‚´ì•„ë‚¨ì€ ì‚¬ëŒì´ í•œëª…ë„ ì—†ì„ë•Œ ì¤‘ì§€
 #IF
 Equal P0 1
 Equal P5 0
@@ -245,13 +245,13 @@ SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Event_Timer] [Time] %P4
 
 delaygoto [grobal] 30 @SBevent_Loop
 break
-;-----------------------½Ã°£Á¦ÇÑ ·çÇÁ±¸¹®
+;-----------------------ì‹œê°„ì œí•œ ë£¨í”„êµ¬ë¬¸
 #ELSEACT
 break
 
 
 [@TimeOver]
-;---------------------½Ã°£ ÃÊ°úÈÄ °á°úÃ³¸®
+;---------------------ì‹œê°„ ì´ˆê³¼í›„ ê²°ê³¼ì²˜ë¦¬
 #ACT
 ResetMapAttr "snow"
 SetAreaAttr  "snow, 28, 29, 50"  "NoRevival"
@@ -260,7 +260,7 @@ Monclear snow
 goto @TimeOver_Hum_Check_Mir
 
 [@TimeOver_Hum_Check_Mir]
-;---------------°¢ÆÀÀÇ ³²Àº ÀÎ¿ø¼ö¸¦ Ã¼Å©ÇÏ¿© ÀúÀåÇÔ
+;---------------ê°íŒ€ì˜ ë‚¨ì€ ì¸ì›ìˆ˜ë¥¼ ì²´í¬í•˜ì—¬ ì €ì¥í•¨
 #IF
 checkHum "Snow,50,29,21"
 #ACT
@@ -305,7 +305,7 @@ break
 break
 
 [@AutoStop]
-;-----------------¹«ÇÑ·çÇÁ ÀÚµ¿Á¾·á---------------------------------------
+;-----------------ë¬´í•œë£¨í”„ ìë™ì¢…ë£Œ---------------------------------------
 #ACT
 ResetMapAttr "snow"
 SetAreaAttr  "snow, 28, 29, 50"  "NoRevival"
@@ -319,7 +319,7 @@ SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [check] 50
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [wincheck] [Mirwin] 0
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [wincheck] [Legendwin] 0
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [Finish] 1
-;------------------ÀÌº¥Æ®¸Ê,¿£ÇÇ¾¾ÀÇÅ¬¸®¾î
+;------------------ì´ë²¤íŠ¸ë§µ,ì—”í”¼ì”¨ì˜í´ë¦¬ì–´
 
 
 	LoadValue A0 "Convert_Def\QuestDiary\Event\SnowBattle\SnowBattle.txt" [EventMSG] [Grobal_8]
@@ -366,11 +366,11 @@ DelayGoto [Grobal] 12 @Mirwin
 
 [@Mirwin]
 #ACT
-;---------------------- ÀÌº¥Æ® ±¸µ¿ÇÃ·¹±× ÃÊ±âÈ­ ----------------------
+;---------------------- ì´ë²¤íŠ¸ êµ¬ë™í”Œë ˆê·¸ ì´ˆê¸°í™” ----------------------
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [Finish] 1
-;---------------------- ¹Ì¸£Ãø¿¡ ¿£ÇÇ¾¾ºÒ·¯¿È -------------------------
+;---------------------- ë¯¸ë¥´ì¸¡ì— ì—”í”¼ì”¨ë¶ˆëŸ¬ì˜´ -------------------------
 Mapmover "snow,9,29,21" "0,435,377,16"
-SendCmd  "snow, 39, 29, 3"  ´«Ææ¶Ó·¢½±NPC Show
+SendCmd  "snow, 39, 29, 3"  ëˆˆíœëš ë™ì‰½NPC Show
 	LoadValue A0 "Convert_Def\QuestDiary\Event\SnowBattle\SnowBattle.txt" [EventMSG] [snow_7]
 	Eventmsg "snow" "%A0" 10004
 
@@ -417,11 +417,11 @@ DelayGoto [Grobal] 12 @Legendwin
 
 [@Legendwin]
 #ACT
-;----------------------ÀÌº¥Æ® ±¸µ¿ÇÃ·¹±× ÃÊ±âÈ­ ---------------------
+;----------------------ì´ë²¤íŠ¸ êµ¬ë™í”Œë ˆê·¸ ì´ˆê¸°í™” ---------------------
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [Finish] 1
-;--------------------- Àü¼³Ãø¿¡ ¿£ÇÇ¾¾ºÒ·¯¿È ------------------------
+;--------------------- ì „ì„¤ì¸¡ì— ì—”í”¼ì”¨ë¶ˆëŸ¬ì˜´ ------------------------
 Mapmover "snow,50,29,21" "0,435,377,16"
-SendCmd  "snow, 22, 29, 3"  ´«Ëµ¶Ó·¢½±NPC Show
+SendCmd  "snow, 22, 29, 3"  ëˆˆç¶±ëš ë™ì‰½NPC Show
 	LoadValue A0 "Convert_Def\QuestDiary\Event\SnowBattle\SnowBattle.txt" [EventMSG] [snow_9]
 	Eventmsg "snow" "%A0" 10004
 

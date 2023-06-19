@@ -45,10 +45,10 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-��ͭͷ��        50         1
-ħ��ͷ��        50         1
-���Ϳ��ף��У�  50         1
-���Ϳ��ף�Ů��  50         1
+青铜头盔        50         1
+魔法头盔        50         1
+轻型盔甲（男）  50         1
+轻型盔甲（女）  50         1
 
 [@pre_repair]
 #IF

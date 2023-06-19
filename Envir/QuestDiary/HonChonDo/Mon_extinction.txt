@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËĞĞ
+;;Â²Â»Ã’ÂªÃ‰Â¾ÂµÃ´Â´Ã‹ÃÃ
 
 
 [@mainstep0_1]
@@ -22,7 +22,7 @@ Equal d3 0
 set [206] 0
 goto @honchondostep0_1_1
 goto @madojobcheckstep0_1
-Give ²Ø±¦Ïä 1
+Give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -73,7 +73,7 @@ Equal d3 0
 set [206] 0
 goto @honchondostep0_2_1
 goto @madojobcheckstep0_2
-Give ²Ø±¦Ïä 1
+Give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -124,7 +124,7 @@ Equal d3 0
 set [206] 0
 goto @honchondostep0_3_1
 goto @madojobcheckstep0_3
-Give ²Ø±¦Ïä 1
+Give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -174,7 +174,7 @@ Equal d3 0
 set [206] 0
 goto @honchondostep0_4_1
 goto @madojobcheckstep0_4
-Give ²Ø±¦Ïä 1
+Give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -237,7 +237,7 @@ inc D9 1
 Equal D9 3
 #ACT
 set [206] 0
-give ²Ø±¦Ïä 1
+give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -280,7 +280,7 @@ inc D9 1
 Equal D9 3
 #ACT
 set [206] 0
-give ²Ø±¦Ïä 1
+give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -323,7 +323,7 @@ inc D9 1
 Equal D9 3
 #ACT
 set [206] 0
-give ²Ø±¦Ïä 1
+give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -366,7 +366,7 @@ inc D9 1
 Equal D9 3
 #ACT
 set [206] 0
-give ²Ø±¦Ïä 1
+give Â²Ã˜Â±Â¦ÃÃ¤ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
@@ -419,11 +419,11 @@ break
 mov A1 %USERX
 mov A2 %USERY
 ForMatStr "D1604,%s,%s,5" %A1 %A2
-Mongenp %A9 °¢Áú¹Ö 1
+Mongenp %A9 Â°Â¢ÃÃºÂ¹Ã– 1
 
 ForMatStr "D1604,%s,%s,10" %A1 %A2
-ApplyMonEx %A9 °¢Áú¹Ö [Monsterside] "???"
-Mongenp %A9 ÅµÂê×°¼×±ø 20
+ApplyMonEx %A9 Â°Â¢ÃÃºÂ¹Ã– [Monsterside] "???"
+Mongenp %A9 Ã…ÂµÃ‚ÃªÃ—Â°Â¼Ã—Â±Ã¸ 20
 LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg0]
 Eventmsg "D1604" %A7 2000
 break
@@ -449,7 +449,7 @@ Equal D2 1
 Equal D3 1
 #ACT
 set [206] 0
-give Ê¬¹ÇÏîÁ´ 1
+give ÃŠÂ¬Â¹Ã‡ÃÃ®ÃÂ´ 1
 goto @honchondostep2_2_1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=3"
@@ -611,11 +611,11 @@ Equal D1 4
 Equal D2 5
 Equal D3 0
 #ACT
-monclear D16031 °¢Áú¹Ö
-monclear D16031 ÅµÂê¸«±ø¶Ó
+monclear D16031 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16031 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 
 
-Movenpc "npcroom1,9,7,°¢Áú¹Ö1" D16031 61 355
+Movenpc "npcroom1,9,7,Â°Â¢ÃÃºÂ¹Ã–1" D16031 61 355
 set [206] 0
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
@@ -641,11 +641,11 @@ Equal D1 4
 Equal D2 5
 Equal D3 0
 #ACT
-monclear D16032 °¢Áú¹Ö
-monclear D16032 ÅµÂê¸«±ø¶Ó
+monclear D16032 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16032 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 
 
-Movenpc "npcroom1,9,8,°¢Áú¹Ö2" D16032 374 372
+Movenpc "npcroom1,9,8,Â°Â¢ÃÃºÂ¹Ã–2" D16032 374 372
 set [206] 0
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
@@ -671,11 +671,11 @@ Equal D1 4
 Equal D2 5
 Equal D3 0
 #ACT
-monclear D16033 °¢Áú¹Ö
-monclear D16033 ÅµÂê¸«±ø¶Ó
+monclear D16033 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16033 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 
 
-Movenpc "npcroom1,9,9,°¢Áú¹Ö3" D16033 369 47
+Movenpc "npcroom1,9,9,Â°Â¢ÃÃºÂ¹Ã–3" D16033 369 47
 set [206] 0
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
@@ -700,11 +700,11 @@ Equal D1 4
 Equal D2 5
 Equal D3 0
 #ACT
-monclear D16034 °¢Áú¹Ö
-monclear D16034 ÅµÂê¸«±ø¶Ó
+monclear D16034 Â°Â¢ÃÃºÂ¹Ã–
+monclear D16034 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 
 
-Movenpc "npcroom1,9,10,°¢Áú¹Ö4" D16034 30 31
+Movenpc "npcroom1,9,10,Â°Â¢ÃÃºÂ¹Ã–4" D16034 30 31
 set [206] 0
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
@@ -731,8 +731,8 @@ Equal D1 5
 Equal D2 2
 Equal D3 1
 #ACT
-MonClear D1604 °¢Áú¹Ö
-MonClear D1604 ÅµÂê¸«±ø
+MonClear D1604 Â°Â¢ÃÃºÂ¹Ã–
+MonClear D1604 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸
 goto @honchondostep5_1
 break
 #ELSEACT
@@ -760,7 +760,7 @@ mov D3 %ARG(3)
 Equal D1 6
 Equal D2 1
 Equal D3 0
-!Checkmonmap D16061 1 »ÙÃğÖ®Ó¡´óÊ¦
+!Checkmonmap D16061 1 Â»Ã™ÃƒÃ°Ã–Â®Ã“Â¡Â´Ã³ÃŠÂ¦
 #ACT
 set [206] 0
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -787,7 +787,7 @@ mov D3 %ARG(3)
 Equal D1 6
 Equal D2 2
 Equal D3 0
-!Checkmonmap D16061 1 ÅµÂê¸«±ø¶Ó
+!Checkmonmap D16061 1 Ã…ÂµÃ‚ÃªÂ¸Â«Â±Ã¸Â¶Ã“
 #ACT
 monclear D16061
 set [206] 0
@@ -857,4 +857,4 @@ Eventmsg "D16061" %A7
 Mapting D16061 41 148 84
 
 }
-;;²»ÒªÉ¾µô´ËĞĞ
+;;Â²Â»Ã’ÂªÃ‰Â¾ÂµÃ´Â´Ã‹ÃÃ

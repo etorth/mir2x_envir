@@ -2,7 +2,7 @@
 [@Sabuk_Teleport]
 {
 #IF
-IsOnCastleWar Sabuk                    ;; °ø¼ºÇ® ÁßÀÎÁö Ã¼Å© ÇÏ´Â ºÎºĞ
+IsOnCastleWar Sabuk                    ;; ê³µì„±í’€ ì¤‘ì¸ì§€ ì²´í¬ í•˜ëŠ” ë¶€ë¶„
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_1
 
@@ -10,7 +10,7 @@ IsOnCastleWar Sabuk                    ;; °ø¼ºÇ® ÁßÀÎÁö Ã¼Å© ÇÏ´Â ºÎºĞ
 break
 
 #IF
-IsOnReadyCastleWar Sabuk               ;; °ø¼º ´ë±â½Ã°£ÀÎÁö Ã¼Å© ÇÏ´Â ºÎºĞ
+IsOnReadyCastleWar Sabuk               ;; ê³µì„± ëŒ€ê¸°ì‹œê°„ì¸ì§€ ì²´í¬ í•˜ëŠ” ë¶€ë¶„
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_2
 
@@ -23,9 +23,9 @@ break
 	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_3
 
 #ELSEACT
-mapmove 81 125 274                                    ;; »¡°»ÀÌ ÀÌµ¿
+mapmove 81 125 274                                    ;; ë¹¨ê°±ì´ ì´ë™
 break
 
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ÀÌµ¿ ·çÆ¾
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ì´ë™ ë£¨í‹´
 }

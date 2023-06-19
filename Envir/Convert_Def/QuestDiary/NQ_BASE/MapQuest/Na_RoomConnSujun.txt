@@ -1,41 +1,41 @@
 ;;Na_RoomConnSujun.txt
 [@Na_RoomConnSujun_1]
 {
-(��ڱ���ס��)\
+(入口被堵住了)\
 }
 
 [@Na_RoomConnSujun_2]
 {
-(��ڱ���ס��)\
+(入口被堵住了)\
 }
 
 [@Na_RoomConnSujun_3]
 {
-(��ڱ���ס��)\
+(入口被堵住了)\
 }
 
 [@Na_RoomConnSujun_4]
 {
-(�����ʿ��һ���������)\
+(堕落道士这家伙又逃跑了)\
 }
 
 [@Na_RoomConnSujun_5]
 {
-(�������˶����ʿ)\
+(不能饶了堕落道士)\
 }
 
 [@Na_RoomConnSujun_6]
 {
-(�������˶����ʿ)\
+(不能饶了堕落道士)\
 }
 
 [@Na_RoomConnSujun_7]
 {
-(��ڱ���ס��)\
+(入口被堵住了)\
 }
 
 [@Na_RoomConnSujun_8]
 {
-(���ں����ܽ�ȥ)\
+(现在好像不能进去)\
 }
 

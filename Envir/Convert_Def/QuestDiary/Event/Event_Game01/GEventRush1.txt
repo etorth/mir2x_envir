@@ -1,11 +1,11 @@
 ;;GEventRush1.txt
 [@NPC_AlreadyStart]
 {
-活动已经启动过一次，不能再次启动.
+娲诲姩宸茬粡鍚姩杩囦竴娆★紝涓嶈兘鍐嶆鍚姩.
 }
 
 [@NPC_ready]
 {
-道馆活动准备完毕.
+閬撻娲诲姩鍑嗗瀹屾瘯.
 }
 

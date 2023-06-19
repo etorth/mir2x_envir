@@ -17,7 +17,7 @@ goto @tusa1
 [@tusa1]
 #IF
 check [193] 1
-checkitem °ë¿é²»ËÀÅÆ 1
+checkitem åŠå—ä¸æ­»ç‰Œ 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_SkelTusa.txt] @Nm_SkelTusa_1
 
@@ -25,10 +25,10 @@ checkitem °ë¿é²»ËÀÅÆ 1
 set [195] 1
 set [193] 0
 set [194] 0
-take °ë¿é²»ËÀÅÆ 1
-give ²»ËÀÅÆ 1
-give ×çÖä÷¼÷Ã¾«ÁéÍ·¿ø 1
-give ½ğ±Ò 7000
+take åŠå—ä¸æ­»ç‰Œ 1
+give ä¸æ­»ç‰Œ 1
+give è¯…å’’éª·é«…ç²¾çµå¤´ç›” 1
+give é‡‘å¸ 7000
 mapmove d002 256 286
 ;
 #ELSESAY

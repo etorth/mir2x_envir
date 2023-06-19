@@ -8,7 +8,7 @@
 
 #ELSEACT
 mapmove 81 125 274
-                                    
+
 [@TelePortRootin()]
-#CALL [Teleport\MoveRootin.txt] @TelePortMove         
+#CALL [Teleport\MoveRootin.txt] @TelePortMove
 }

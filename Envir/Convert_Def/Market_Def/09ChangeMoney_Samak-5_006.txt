@@ -1,13 +1,13 @@
 ;;09ChangeMoney_Samak-5_006.txt
 [@NPC_Main]
 {
-跟你这种人我无话可说。\ \
-<结束/@exit>
+璺熶綘杩欑浜烘垜鏃犺瘽鍙銆俓 \
+<缁撴潫/@exit>
 }
 
 [@NPC_TQuest]
 {
-今天没事情可拜托你了。\ \
-<结束/@exit>
+浠婂ぉ娌′簨鎯呭彲鎷滄墭浣犱簡銆俓 \
+<缁撴潫/@exit>
 }
 

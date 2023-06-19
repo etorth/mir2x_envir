@@ -21,7 +21,7 @@ goto @main_0_0
 #CALL [\NQ_HELP\area\wang.txt] @WANG
 
 [@JIYUK_3]
-#CALL [\NQ_HELP\area\bichun.txt] @BICHUN 
+#CALL [\NQ_HELP\area\bichun.txt] @BICHUN
 
 [@JIYUK_4]
 #CALL [\NQ_HELP\area\yaksa.txt] @YAKSA
@@ -85,7 +85,7 @@ inc d1 1
 goto @C_TQuest_1_2
 
 [@C_TQuest_1_2]
-;			Dailyquest acquire fail :£¨1/5£© -> £¨1/3£©
+;			Dailyquest acquire fail :Â£Â¨1/5Â£Â© -> Â£Â¨1/3Â£Â©
 #IF
 equal d1 1
 #ACT

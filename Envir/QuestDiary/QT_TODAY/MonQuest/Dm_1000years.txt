@@ -67,7 +67,7 @@ break
 ;-----------------------------------------------------
 ;-----------------------------------------------------
 [@Chun_T488]
-;		���� ����Ʈ 488 ��
+;		ÀÏÀÏ Äù½ºÆ® 488 ¹ø
 #IF
 check [310] 1
 #ACT
@@ -96,9 +96,9 @@ break
 
 [@Chun_T488_1]
 #IF
-checkitem ǧ�궾������ 9
+checkitem Ç§Äê¶¾ÉßÑÀ³Ý 9
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T488_Say
@@ -110,7 +110,7 @@ goto @Chun_T488_2
 #IF
 equal s0 0
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 ;-----------------------------------------------------
 [@chunyundoksa_T322]
 ;
@@ -142,9 +142,9 @@ break
 
 [@chunyundoksa_T322_1]
 #IF
-checkitem ǧ�궾�ߵ�֭ 11
+checkitem Ç§Äê¶¾Éßµ¨Ö­ 11
 #ACT
-give ǧ�궾�ߵ�֭ 1
+give Ç§Äê¶¾Éßµ¨Ö­ 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T322_Say
@@ -156,7 +156,7 @@ goto @chunyundoksa_T322_2
 #IF
 random 3
 #ACT
-give ǧ�궾�ߵ�֭ 1
+give Ç§Äê¶¾Éßµ¨Ö­ 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -191,9 +191,9 @@ break
 
 [@chunyundoksa_T323_1]
 #IF
-checkitem ǧ�궾������ 14
+checkitem Ç§Äê¶¾ÉßÑÀ³Ý 14
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T323_Say
@@ -205,7 +205,7 @@ goto @chunyundoksa_T323_2
 #IF
 random 3
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -239,9 +239,9 @@ break
 
 [@chunyundoksa_T412_1]
 #IF
-checkitem ǧ�궾��Ѫ 2
+checkitem Ç§Äê¶¾ÉßÑª 2
 #ACT
-give ǧ�궾��Ѫ 1
+give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T412_Say
@@ -253,7 +253,7 @@ goto @chunyundoksa_T412_2
 #IF
 random 3
 #ACT
-give ǧ�궾��Ѫ 1
+give Ç§Äê¶¾ÉßÑª 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -287,9 +287,9 @@ break
 
 [@chunyundoksa_T430_1]
 #IF
-checkitem ǧ�궾��Ѫ 2
+checkitem Ç§Äê¶¾ÉßÑª 2
 #ACT
-give ǧ�궾��Ѫ 1
+give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T430_Say
@@ -301,7 +301,7 @@ goto @chunyundoksa_T430_2
 #IF
 random 3
 #ACT
-give ǧ�궾��Ѫ 1
+give Ç§Äê¶¾ÉßÑª 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -337,7 +337,7 @@ break
 #IF
 random 3
 #ACT
-give ǧ�궾��Ѫ 1
+give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T431_Say
@@ -376,9 +376,9 @@ break
 
 [@chunyundoksa_T433_1]
 #IF
-checkitem ǧ�궾������ 2
+checkitem Ç§Äê¶¾ÉßÑÀ³Ý 2
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T433_Say
@@ -390,7 +390,7 @@ goto @chunyundoksa_T433_2
 #IF
 random 3
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -425,9 +425,9 @@ break
 
 [@chunyundoksa_T438_1]
 #IF
-checkitem ǧ�궾��Ѫ 2
+checkitem Ç§Äê¶¾ÉßÑª 2
 #ACT
-give ǧ�궾��Ѫ 1
+give Ç§Äê¶¾ÉßÑª 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T438_Say
@@ -439,15 +439,15 @@ goto @chunyundoksa_T438_2
 #IF
 random 3
 #ACT
-give ǧ�궾��Ѫ 1
+give Ç§Äê¶¾ÉßÑª 1
 
 ;-----------
 
 [@chunyundoksa_T438_3]
 #IF
-checkitem ǧ�궾������ 2
+checkitem Ç§Äê¶¾ÉßÑÀ³Ý 2
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 set [309] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T438_Say_1
@@ -459,7 +459,7 @@ goto @chunyundoksa_T438_4
 #IF
 random 3
 #ACT
-give ǧ�궾������ 1
+give Ç§Äê¶¾ÉßÑÀ³Ý 1
 
 ;-----------------------------------------------------
 
@@ -497,7 +497,7 @@ break
 #IF
 random 3
 #ACT
-give ǧ�궾�ߵ�֭ 1
+give Ç§Äê¶¾Éßµ¨Ö­ 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T442_Say
@@ -538,7 +538,7 @@ break
 [@chunyundoksa_T522_1]
 #IF
 #ACT
-give ǧ�궾�ߵ�֭ 1
+give Ç§Äê¶¾Éßµ¨Ö­ 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T522_Say

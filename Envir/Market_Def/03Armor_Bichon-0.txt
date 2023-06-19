@@ -120,7 +120,7 @@ goto @main_0_0
 [@main_0_3]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\03Armor_Bichon-0.txt] @NPC_Main_0_3
- 
+
 [@main_0_4]
 #IF
 check [236] 1
@@ -133,19 +133,19 @@ goto @main_0_0
 [@main_0_4_1]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\03Armor_Bichon-0.txt] @NPC_Main_0_4_1
- 
+
 [@main_0_5]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\03Armor_Bichon-0.txt] @NPC_Main_0_5
- 
+
 [@main_0_6]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\03Armor_Bichon-0.txt] @NPC_Main_0_6
- 
+
 [@main_0_7]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\03Armor_Bichon-0.txt] @NPC_Main_0_7
- 
+
 [@buy]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_def\03Armor_Bichon-0.txt] @NPC_Buy
@@ -164,19 +164,19 @@ goto @main_0_0
 
 [Goods]
 ;ItemName      Volume     Hour
-ÇàÍ­Í·¿ø         50         1
-Ä§·¨Í·¿ø         50         1
-;;ĞÒÔËÇàÍ­Í·¿ø     50         1
-²¼ÒÂ£¨ÄĞ£©       50         1
-²¼ÒÂ£¨Å®£©       50         1
-ÇáĞÍ¿ø¼×£¨ÄĞ£©   50         1
-ÇáĞÍ¿ø¼×£¨Å®£©   50         1
-ÖØ¿ø¼×£¨ÄĞ£©     50         1
-ÖØ¿ø¼×£¨Å®£©     50         1
-Áé»êÕ½ÒÂ£¨ÄĞ£©   50         1
-Áé»êÕ½ÒÂ£¨Å®£©   50         1
-Ä§·¨³¤ÅÛ£¨ÄĞ£©   50         1
-Ä§·¨³¤ÅÛ£¨Å®£©   50         1
+é’é“œå¤´ç›”         50         1
+é­”æ³•å¤´ç›”         50         1
+;;å¹¸è¿é’é“œå¤´ç›”     50         1
+å¸ƒè¡£ï¼ˆç”·ï¼‰       50         1
+å¸ƒè¡£ï¼ˆå¥³ï¼‰       50         1
+è½»å‹ç›”ç”²ï¼ˆç”·ï¼‰   50         1
+è½»å‹ç›”ç”²ï¼ˆå¥³ï¼‰   50         1
+é‡ç›”ç”²ï¼ˆç”·ï¼‰     50         1
+é‡ç›”ç”²ï¼ˆå¥³ï¼‰     50         1
+çµé­‚æˆ˜è¡£ï¼ˆç”·ï¼‰   50         1
+çµé­‚æˆ˜è¡£ï¼ˆå¥³ï¼‰   50         1
+é­”æ³•é•¿è¢ï¼ˆç”·ï¼‰   50         1
+é­”æ³•é•¿è¢ï¼ˆå¥³ï¼‰   50         1
 
 
 [@NQuest01_1]
@@ -224,7 +224,7 @@ goto @pre_repair_mutebo
 
 [@pre_repair_mutebo]
 #IF
-checkmagic Ò°Âù³å×²
+checkmagic é‡è›®å†²æ’
 #ACT
 goto @pre_repair_0
 #ELSEACT

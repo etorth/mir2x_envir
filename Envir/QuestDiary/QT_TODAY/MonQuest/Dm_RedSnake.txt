@@ -92,9 +92,9 @@ break
 
 [@redsnake_T328_1]
 #IF
-checkitem ºìÉßÑª 19
+checkitem ÂºÃ¬Ã‰ÃŸÃ‘Âª 19
 #ACT
-give ºìÉßÑª 1
+give ÂºÃ¬Ã‰ÃŸÃ‘Âª 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T328_Say
@@ -106,7 +106,7 @@ goto @redsnake_T328_2
 #IF
 random 3
 #ACT
-give ºìÉßÑª 1
+give ÂºÃ¬Ã‰ÃŸÃ‘Âª 1
 ;-----------------------------------------------------
 
 
@@ -173,7 +173,7 @@ inc S0 1
 
 #ACT
 set [308] 1
-give ºìÉßÑª 1
+give ÂºÃ¬Ã‰ÃŸÃ‘Âª 1
 mov S0 0
 
 ;-----------------------------------------------------

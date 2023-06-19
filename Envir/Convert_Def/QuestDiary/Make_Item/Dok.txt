@@ -1,84 +1,84 @@
 ;;Dok.txt
 [@Dok_1]
 {
-ÄÇ£¬ÄãÏëÖÆ×÷Ê²Ã´Ò©°¡£¿ ÓÐÊ±ºîÖÆ×÷Ò©Ê±Ò²ÄÑÃâ»áÊ§°Ü£¬ÄãÁôÒâ°¡¡£\ \
-<»ÒÉ«Ò©·Û£¨Ð¡£©/@Make_Drug_GDrug>    ,    <»ÆÉ«Ò©·Û£¨Ð¡£©/@Make_Drug_YDrug> \
-<»ÒÉ«Ò©·Û£¨ÖÐ£©/@Make_Drug_GDrugM>   ,    <»ÆÉ«Ò©·Û£¨ÖÐ£©/@Make_Drug_YDrugM> \ \
-<Ç°Ò»²½/@make_item_main>
-<½áÊø/@exit>
+é‚£ï¼Œä½ æƒ³åˆ¶ä½œä»€ä¹ˆè¯å•Šï¼Ÿ æœ‰æ—¶ä¾¯åˆ¶ä½œè¯æ—¶ä¹Ÿéš¾å…ä¼šå¤±è´¥ï¼Œä½ ç•™æ„å•Šã€‚\ \
+<ç°è‰²è¯ç²‰ï¼ˆå°ï¼‰/@Make_Drug_GDrug>    ,    <é»„è‰²è¯ç²‰ï¼ˆå°ï¼‰/@Make_Drug_YDrug> \
+<ç°è‰²è¯ç²‰ï¼ˆä¸­ï¼‰/@Make_Drug_GDrugM>   ,    <é»„è‰²è¯ç²‰ï¼ˆä¸­ï¼‰/@Make_Drug_YDrugM> \ \
+<å‰ä¸€æ­¥/@make_item_main>
+<ç»“æŸ/@exit>
 }
 
 [@Dok_2]
 {
-ÒªÖÆ×÷»ÒÉ«Ò©·Û£¨Ð¡£©µÄ»°£¬ÐèÒª{FCOLOR/10}Ê³ÈËÊ÷Ò¶ 6¸ö£¬Ê³ÈËÊ÷µÄ¹ûÊµ 3¸ö£¬¶¾Ö©ÖëÑÀ³Ý 2¸ö{FCOLOR/12}°¡¡£\ \
-<½áÊø/@exit>
+è¦åˆ¶ä½œç°è‰²è¯ç²‰ï¼ˆå°ï¼‰çš„è¯ï¼Œéœ€è¦{FCOLOR/10}é£Ÿäººæ ‘å¶ 6ä¸ªï¼Œé£Ÿäººæ ‘çš„æžœå®ž 3ä¸ªï¼Œæ¯’èœ˜è››ç‰™é½¿ 2ä¸ª{FCOLOR/12}å•Šã€‚\ \
+<ç»“æŸ/@exit>
 }
 
 [@Dok_3]
 {
-×öµÄºÜºÃÂð¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}Ê³ÈËÊ÷Ò¶ 6¸ö£¬Ê³ÈËÊ÷µÄ¹ûÊµ 3¸ö£¬ ¶¾Ö©ÖëÑÀ³Ý 2¸ö{FCOLOR/12}°¡¡£ÄÇÃ´£¬ ÄãÏë¼ÌÐø×öÂð?\ \
-<¼ÌÐø ÖÆ×÷/@Make_Drug_GDrug> \
-<Ç°Ò»²½/@make_Drug_main> \
-<½áÊø/@exit>
+åšçš„å¾ˆå¥½å—ã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}é£Ÿäººæ ‘å¶ 6ä¸ªï¼Œé£Ÿäººæ ‘çš„æžœå®ž 3ä¸ªï¼Œ æ¯’èœ˜è››ç‰™é½¿ 2ä¸ª{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œ ä½ æƒ³ç»§ç»­åšå—?\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Drug_GDrug> \
+<å‰ä¸€æ­¥/@make_Drug_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Dok_4]
 {
-ÒªÖÆ×÷»ÒÉ«Ò©·Û£¨ÖÐ£©µÄ»°£¬ÐèÒª{FCOLOR/10}Ê³ÈËÊ÷Ò¶ 6¸ö£¬Ê³ÈËÊ÷µÄ¹ûÊµ 4¸ö£¬¶¾Ö©ÖëÑÀ³Ý 6¸ö{FCOLOR/12}°¡¡£\ \
- <½áÊø/@exit>
+è¦åˆ¶ä½œç°è‰²è¯ç²‰ï¼ˆä¸­ï¼‰çš„è¯ï¼Œéœ€è¦{FCOLOR/10}é£Ÿäººæ ‘å¶ 6ä¸ªï¼Œé£Ÿäººæ ‘çš„æžœå®ž 4ä¸ªï¼Œæ¯’èœ˜è››ç‰™é½¿ 6ä¸ª{FCOLOR/12}å•Šã€‚\ \
+ <ç»“æŸ/@exit>
 }
 
 [@Dok_5]
 {
-°¥£¬ Ê§°ÜÁË¡£ ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Drug_GDrugM> \
-<Ç°Ò»²½/@make_Drug_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚ é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Drug_GDrugM> \
+<å‰ä¸€æ­¥/@make_Drug_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Dok_6]
 {
-×öµÄºÜºÃÂð¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}Ê³ÈËÊ÷Ò¶ 6¸ö£¬Ê³ÈËÊ÷µÄ¹ûÊµ 4¸ö£¬ ¶¾Ö©ÖëÑÀ³Ý 6¸ö{FCOLOR/12}°¡¡£ÄÇÃ´£¬ ÄãÏë¼ÌÐø×öÂð?\ \
- <¼ÌÐø ÖÆ×÷/@Make_Drug_GDrugM> \
- <Ç°Ò»²½/@make_Drug_main> \
- <½áÊø/@exit>
+åšçš„å¾ˆå¥½å—ã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}é£Ÿäººæ ‘å¶ 6ä¸ªï¼Œé£Ÿäººæ ‘çš„æžœå®ž 4ä¸ªï¼Œ æ¯’èœ˜è››ç‰™é½¿ 6ä¸ª{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œ ä½ æƒ³ç»§ç»­åšå—?\ \
+ <ç»§ç»­ åˆ¶ä½œ/@Make_Drug_GDrugM> \
+ <å‰ä¸€æ­¥/@make_Drug_main> \
+ <ç»“æŸ/@exit>
 }
 
 [@Dok_7]
 {
-ÒªÖÆ×÷»ÆÉ«Ò©·Û£¨Ð¡£©µÄ»°£¬ÐèÒª{FCOLOR/10}ÇùÂÑ 2¸ö£¬Ð«×ÓµÄÎ²°Í 2¸ö£¬Ê³ÈËÊ÷Ò¶ 2¸ö{FCOLOR/12}°¡¡£\ \
- <½áÊø/@exit>
-¡´·ÅÆú
+è¦åˆ¶ä½œé»„è‰²è¯ç²‰ï¼ˆå°ï¼‰çš„è¯ï¼Œéœ€è¦{FCOLOR/10}è›†åµ 2ä¸ªï¼ŒèŽå­çš„å°¾å·´ 2ä¸ªï¼Œé£Ÿäººæ ‘å¶ 2ä¸ª{FCOLOR/12}å•Šã€‚\ \
+ <ç»“æŸ/@exit>
+ã€ˆæ”¾å¼ƒ
 }
 
 [@Dok_8]
 {
-×öµÄºÜºÃÂð¡£¡£¡£ÏûÄ¥ÁË {FCOLOR/10}ÇùÂÑ 2¸ö£¬Ð«×ÓµÄÎ²°Í 2¸ö£¬Ê³ÈËÊ÷Ò¶ 2¸ö{FCOLOR/12}°¡¡£ÄÇÃ´£¬ ÄãÏë¼ÌÐø×öÂð??\ \
- <¼ÌÐø ÖÆ×÷/@Make_Drug_YDrug> \
- <Ç°Ò»²½/@make_Drug_main> \
- <½áÊø/@exit>
+åšçš„å¾ˆå¥½å—ã€‚ã€‚ã€‚æ¶ˆç£¨äº† {FCOLOR/10}è›†åµ 2ä¸ªï¼ŒèŽå­çš„å°¾å·´ 2ä¸ªï¼Œé£Ÿäººæ ‘å¶ 2ä¸ª{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œ ä½ æƒ³ç»§ç»­åšå—??\ \
+ <ç»§ç»­ åˆ¶ä½œ/@Make_Drug_YDrug> \
+ <å‰ä¸€æ­¥/@make_Drug_main> \
+ <ç»“æŸ/@exit>
 }
 
 [@Dok_9]
 {
-ÒªÖÆ×÷»ÆÉ«Ò©·Û£¨ÖÐ£©µÄ»°£¬ÐèÒª{FCOLOR/10}ÇùÂÑ 2¸ö£¬Ð«×ÓµÄÎ²°Í 5¸ö£¬Ê³ÈËÊ÷Ò¶ 6¸ö{FCOLOR/12}°¡¡£\ \
- <½áÊø/@exit>
+è¦åˆ¶ä½œé»„è‰²è¯ç²‰ï¼ˆä¸­ï¼‰çš„è¯ï¼Œéœ€è¦{FCOLOR/10}è›†åµ 2ä¸ªï¼ŒèŽå­çš„å°¾å·´ 5ä¸ªï¼Œé£Ÿäººæ ‘å¶ 6ä¸ª{FCOLOR/12}å•Šã€‚\ \
+ <ç»“æŸ/@exit>
 }
 
 [@Dok_10]
 {
-°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
-<¼ÌÐø ÖÆ×÷/@Make_Drug_YDrugM> \
-<Ç°Ò»²½/@make_Drug_main> \
-<½áÊø/@exit>
+å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
+<ç»§ç»­ åˆ¶ä½œ/@Make_Drug_YDrugM> \
+<å‰ä¸€æ­¥/@make_Drug_main> \
+<ç»“æŸ/@exit>
 }
 
 [@Dok_11]
 {
-×öµÄºÜºÃÂð¡£¡£¡£ÏûÄ¥ÁË {FCOLOR/10}ÇùÂÑ 2¸ö£¬Ð«×ÓµÄÎ²°Í 5¸ö£¬Ê³ÈËÊ÷Ò¶ 6¸ö{FCOLOR/12}°¡¡£ÄÇÃ´£¬ ÄãÏë¼ÌÐø×öÂð?\ \
- <¼ÌÐø ÖÆ×÷/@Make_Drug_YDrugM> \
- <Ç°Ò»²½/@make_Drug_main> \
- <½áÊø/@exit>
+åšçš„å¾ˆå¥½å—ã€‚ã€‚ã€‚æ¶ˆç£¨äº† {FCOLOR/10}è›†åµ 2ä¸ªï¼ŒèŽå­çš„å°¾å·´ 5ä¸ªï¼Œé£Ÿäººæ ‘å¶ 6ä¸ª{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œ ä½ æƒ³ç»§ç»­åšå—?\ \
+ <ç»§ç»­ åˆ¶ä½œ/@Make_Drug_YDrugM> \
+ <å‰ä¸€æ­¥/@make_Drug_main> \
+ <ç»“æŸ/@exit>
 }
 
 

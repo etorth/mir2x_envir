@@ -1,40 +1,40 @@
 ;;08Accessory_Encore-9.txt
 [@NPC_RedPlayer]
 {
-���޷����������˴򽻵���\ \
-<����/@exit>
+我无法和你这种人打交道。\ \
+<结束/@exit>
 }
 
 [@NPC_Main]
 {
-��������ʲô����װ��Ʒ���У��������������\ \
-<����/@buy>��Ʒ\
-<����/@sell>��Ʒ\
-<����/@repair>��Ʒ\
-<����/@exit>
+我这里有什么样的装饰品都有，您可以随便挑。\ \
+<购买/@buy>饰品\
+<出售/@sell>饰品\
+<修理/@repair>饰品\
+<结束/@exit>
 }
 
 [@NPC_Buy]
 {
-��Ҫ����װ��Ʒ?��Ҫʲô����?\ \
-<ǰһ��/@main>
+您要购买装饰品?想要什么样的?\ \
+<前一步/@main>
 }
 
 [@NPC_Sell]
 {
-���ҿ�����Ҫ����ʲô��Ʒ�� \ \
-<ǰһ��/@main>
+让我看看您要出售什么物品。 \ \
+<前一步/@main>
 }
 
 [@NPC_Repair]
 {
-���ɱ�С���ң��ҿ��Ǻ����еġ�\ \
-<ǰһ��/@main>
+您可别小看我，我可是很在行的。\ \
+<前一步/@main>
 }
 
 [@NPC_Repair_Complete]
 {
-�Ѿ��޺��ˡ� \ \
-<ǰһ��/@main>
+已经修好了。 \ \
+<前一步/@main>
 }
 

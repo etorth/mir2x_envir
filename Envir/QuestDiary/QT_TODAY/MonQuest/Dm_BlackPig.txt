@@ -50,9 +50,9 @@ break
 
 [@hkdon_T206_1]
 #IF
-checkitem ºÚÒ°ÖíÑÀ³İ 99
+checkitem ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 99
 #ACT
-give ºÚÒ°ÖíÑÀ³İ 1
+give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T206_Say
@@ -64,7 +64,7 @@ goto @hkdon_T206_2
 #IF
 random 3
 #ACT
-give ºÚÒ°ÖíÑÀ³İ 1
+give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -98,9 +98,9 @@ break
 
 [@hkdon_T204_1]
 #IF
-checkitem ºÚÒ°ÖíÑÀ³İ 19
+checkitem ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 19
 #ACT
-give ºÚÒ°ÖíÑÀ³İ 1
+give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
 set [308] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T204_Say
@@ -112,5 +112,5 @@ goto @hkdon_T204_2
 #IF
 random 3
 #ACT
-give ºÚÒ°ÖíÑÀ³İ 1
+give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
 ;-----------------------------------------------------

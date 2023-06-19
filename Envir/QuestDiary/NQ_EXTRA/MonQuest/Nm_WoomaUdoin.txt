@@ -30,8 +30,8 @@ goto @udoin1
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\MonQuest\Nm_WoomaUdoin.txt] @Nm_WoomaUdoin_1
 
 #ACT
-give Áé»êÃ÷Öé 1
-give ÎÖÂêÉñÌú´¸ 1
+give ÃÃ©Â»ÃªÃƒÃ·Ã–Ã© 1
+give ÃÃ–Ã‚ÃªÃ‰Ã±ÃŒÃºÂ´Â¸ 1
 set [297] 1
 ;
 set [291] 0

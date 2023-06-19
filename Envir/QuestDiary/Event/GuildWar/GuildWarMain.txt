@@ -22,14 +22,14 @@ Equal A1 ""
 #ACT
 break
 #ELSEACT
-LineMsg [Grobal] "'<$OUTPUT(A0)>' �л�� '<$OUTPUT(A1)>' �л�ռ��ɳĮ���ǵ��л�ս��ʼ�ˡ�"
+LineMsg [Grobal] "'<$OUTPUT(A0)>' 行会和 '<$OUTPUT(A1)>' 行会占领沙漠土城的行会战开始了。"
 UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GATECONTROL='OpenGate'"
 Delaygoto [Grobal] 2400 @GuildEventSystemTime_Startting 1004
 
 
 [@GuildEventSystemTime_Startting]
 #ACT
-LineMsg [Grobal] "�����ٲμ�ռ��ɳĮ���ǵ��л�ս��"
+LineMsg [Grobal] "不能再参加占领沙漠土城的行会战。"
 UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GATECONTROL='CloseGate'"
 Delaygoto [Grobal] 1200 @GuildEventSystemTime_Actting 1004
 
@@ -93,9 +93,9 @@ inc D1 %D4
 #IF
 Equal D0 %D1
 #ACT
-LineMsg [Grobal] "�л�ս����ʱ�Ѿ������л�ʣ�µĻ�Ա�������˷�ֵ�"
-LineMsg [Grobal] "'<$OUTPUT(A0)>'���л��'<$OUTPUT(A1)>'�л�ķ���һ����"
-LineMsg [Grobal] "����ɹ���Ա������"
+LineMsg [Grobal] "行会战结束时已经将各行会剩下的会员数加入了分值里。"
+LineMsg [Grobal] "'<$OUTPUT(A0)>'的行会和'<$OUTPUT(A1)>'行会的分数一样。"
+LineMsg [Grobal] "结果由管理员发表。"
 MapTing E001 5 195 207
 
 Delaygoto [Grobal] 300 @GuildEventSystemTime_Clear 1004
@@ -104,9 +104,9 @@ break
 #IF
 Large D0 %D1
 #ACT
-LineMsg [Grobal] "�л�ս����ʱ�Ѿ������л�ʣ�µĻ�Ա�������˷�ֵ�"
-LineMsg [Grobal] "'<$OUTPUT(A0)>'���л���'<$OUTPUT(D0)>'��ʤ���ˡ�"
-LineMsg [Grobal] "��ɳĮ���Ƿ����л�ս��ʤ���ˡ�"
+LineMsg [Grobal] "行会战结束时已经将各行会剩下的会员数加入了分值里。"
+LineMsg [Grobal] "'<$OUTPUT(A0)>'的行会以'<$OUTPUT(D0)>'分胜利了。"
+LineMsg [Grobal] "在沙漠土城防御行会战中胜利了。"
 UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME2='',FLD_WINGUILD=''"
 MapTing E001 5 195 207
 Delaygoto [Grobal] 30 @GuildEventSystemTime_Clear 1004
@@ -115,10 +115,10 @@ break
 #IF
 Large D1 %D0
 #ACT
-LineMsg [Grobal] "�л�ս����ʱ�Ѿ������л�ʣ�µĻ�Ա�������˷�ֵ�"
-LineMsg [Grobal] "'<$OUTPUT(A1)>'���л���'<$OUTPUT(D1)>'��ʤ���ˡ�"
-LineMsg [Grobal] "ʤ�����л������˵�ɳĮ���ǹ���Ա�������ɳĮ���ǡ�"
-LineMsg [Grobal] "1Сʱ֮�ڲ���ռ��ɳĮ���ǵĻ����Ͳ���ռ��ɳĮ���ǡ�"
+LineMsg [Grobal] "行会战结束时已经将各行会剩下的会员数加入了分值里。"
+LineMsg [Grobal] "'<$OUTPUT(A1)>'的行会以'<$OUTPUT(D1)>'分胜利了。"
+LineMsg [Grobal] "胜利的行会掌门人到沙漠土城管理员那里接收沙漠土城。"
+LineMsg [Grobal] "1小时之内不能占领沙漠土城的话，就不能占领沙漠土城。"
 FormatSTR "FLD_GUILDNAME2='',FLD_WINGUILD='%s'" %A1
 UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
 MapTing E001 5 195 207

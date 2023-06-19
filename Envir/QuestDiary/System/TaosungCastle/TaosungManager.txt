@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ
 [@Castle_Manager_TAOSUNG]
 {
 #IF
@@ -98,7 +98,7 @@ IsCastleGuild [SABUK]
 break
 
 #IF
-!checkitem 遗址雕像 1
+!checkitem 閬楀潃闆曞儚 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_9
@@ -110,7 +110,7 @@ break
 CanProposeCastleWar [TAOSUNG]
 #ACT
 ProposeCastleWar [TAOSUNG]
-take 遗址雕像 1
+take 閬楀潃闆曞儚 1
 
 #SAY
 #INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_10
@@ -138,4 +138,4 @@ UpdateValueSql "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_PAGUNSUNGGUIL
 #INCLUDE [..\Convert_Def\QuestDiary\System\TaosungCastle\TaosungManager.txt] @Convert_TaosungManager_14
 
 }
-;;不要删掉此行
+;;涓嶈鍒犳帀姝よ

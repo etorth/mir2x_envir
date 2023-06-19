@@ -2,24 +2,24 @@
 
 [@Convert_Map_extinctionRoom_0]
 {
-(���ں����ǽ�ȥ��ʱ��.. ����Ѱ��������׼ȷ�鱨ȷ��ʱ��������ɡ�)
+(现在好像不是进去的时候.. 继续寻找线索以准确情报确认时间后再来吧。)
 }
 
 [@Convert_Map_extinctionRoom_1]
 {
-(�����к�ǿ�Ľ��.. ����Ѱ�Ҹ���������ɡ�)
+(好像有很强的结界.. 继续寻找更多的线索吧。)
 }
 
 [@Convert_Map_extinctionRoom_2]
 {
-(�������澯��ɭ�ϣ�����ʱ��, ������ע������ɢ��ʱ����Ǳ��....)
+(现在里面警备森严，把握时机, 等他们注意力分散的时候再潜入....)
 }
 
 [@Convert_Map_extinctionRoom_3]
 {
-�����ܽ�ȥ�ˣ���ȥ������? \ \
-<ͬ���һͬ��ȥ/@extinctionRoom_Check_2> \
-<�Լ���ȥ/@extinctionRoom_Check_3> \
+好像能进去了，进去看看吗? \ \
+<同组队一同进去/@extinctionRoom_Check_2> \
+<自己进去/@extinctionRoom_Check_3> \
 
 
 }

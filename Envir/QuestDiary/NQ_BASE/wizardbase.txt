@@ -107,8 +107,8 @@ check [131] 0
 #IF
 check [131] 0
 #ACT
-give ¹Å¼® 1
-give »ğÇòÊõ 1
+give Â¹Ã…Â¼Â® 1
+give Â»Ã°Ã‡Ã²ÃŠÃµ 1
 reset [102] 28
 set [131] 1
 #SAY
@@ -162,8 +162,8 @@ check [131] 0
 check [105] 1
 check [131] 0
 #ACT
-give ¹Å¼® 1
-give »ğÇòÊõ 1
+give Â¹Ã…Â¼Â® 1
+give Â»Ã°Ã‡Ã²ÃŠÃµ 1
 reset [102] 28
 set [131] 1
 #SAY
@@ -197,7 +197,7 @@ check [103] 0
 check [102] 1
 check [103] 0
 #ACT
-give ÈâÌÀ 1
+give ÃˆÃ¢ÃŒÃ€ 1
 set [103] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_21
@@ -262,10 +262,10 @@ check [106] 0
 
 [@Sulsa_MQ_COMPLETE_4]
 #IF
-checkdura ¼¦Èâ 4
+checkdura Â¼Â¦ÃˆÃ¢ 4
 #ACT
 takecheckitem
-give ½ğ±Ò 1000
+give Â½Ã°Â±Ã’ 1000
 set [105] 1
 #SAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_27
@@ -283,7 +283,7 @@ goto @Sulsa_TAKE_GOGIGUK_0
 
 [@Sulsa_TAKE_GOGIGUK_0]
 #IF
-checkitem ÈâÌÀ 1
+checkitem ÃˆÃ¢ÃŒÃ€ 1
 #ACT
 goto @Sulsa_TAKE_GOGIGUK_1
 #ELSESAY
@@ -295,8 +295,8 @@ goto @Sulsa_TAKE_GOGIGUK_1
 check [103] 1
 check [163] 0
 #ACT
-take ÈâÌÀ 1
-give Ø°Ê× 1
+take ÃˆÃ¢ÃŒÃ€ 1
+give Ã˜Â°ÃŠÃ— 1
 set [103] 0
 set [163] 1
 #SAY
@@ -323,11 +323,11 @@ check [164] 0
 
 [@Sulsa_CQ_COMPLETE_0]
 #IF
-checkitem ¹Å¼® 1
+checkitem Â¹Ã…Â¼Â® 1
 #ACT
 takecheckitem
-give ½ğ±Ò 1000
-give ÇàÍ­Í·¿ø 1
+give Â½Ã°Â±Ã’ 1000
+give Ã‡Ã ÃÂ­ÃÂ·Â¿Ã¸ 1
 goto @Sulsa_CQ_COMPLETE_1
 #ELSESAY
 	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\wizardbase.txt] @wizardbase_33

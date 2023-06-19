@@ -1,35 +1,35 @@
 ;;06Inn_Eunhang-02.txt
 [@NPC_Main]
 {
-Ҫ�Ұ�æ��\ \
-<�Ĵ�/@storage>��Ʒ\
-<ȡ��/@PreGetback>�Ĵ����Ʒ\
-<�ֿ� ���� ����/@StgPassword>\
-<�Խ��յ���������˽�/@TQuest>\
-<����/@exit>
+要我帮忙吗？\ \
+<寄存/@storage>物品\
+<取回/@PreGetback>寄存的物品\
+<仓库 密码 管理/@StgPassword>\
+<对今日的任务进行了解/@TQuest>\
+<结束/@exit>
 }
 
 [@NPC_Storage]
 {
-����ʲô����Ҫ�Ĵ棬�ͽ����Ұɡ�\ \
-<ǰһ��/@main>
+你有什么东西要寄存，就交给我吧。\ \
+<前一步/@main>
 }
 
 [@NPC_Getback]
 {
-������ʲô������Ŀ¼�Ժ��پ����ɡ�\ \
-<ǰһ��/@main>
+你想找什么，看了目录以后再决定吧。\ \
+<前一步/@main>
 }
 
 [@NPC_TQuest]
 {
-����û����ɰ������ˡ�.\ \
- <����/@exit>
+今天没事情可拜托你了。.\ \
+ <结束/@exit>
 }
 
 [@NPC_TQuest_1]
 {
-���첻������������������ˡ�\ \
- <����/@exit>
+今天不再有事情拜托你来做了。\ \
+ <结束/@exit>
 }
 

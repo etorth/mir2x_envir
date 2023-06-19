@@ -14,7 +14,7 @@ checkpkpoint 2
 #ELSEACT
 goto @main_root_1
 
-[@main_root_1]	
+[@main_root_1]
 #IF
 check [302] 1
 #ACT
@@ -64,7 +64,7 @@ check [183] 1
 #ACT
 goto @main_root_0_1
 break
-;  
+;
 #IF
 check [179] 1
 #ACT
@@ -142,14 +142,14 @@ goto @main_0_0
 [@main_0_0]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_0_0
- 
+
 [@main_0_1]
 #SAY
 	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_0_1
- 
+
 [@main_0_2]
 #IF
-checkitem ÎÖÂê½ðÅÆ 1
+checkitem ÃŽÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #ACT
 goto @main_0_2_1
 #ELSEACT
@@ -165,7 +165,7 @@ goto @main_0_0
 
 [@main_1_1]
 #IF
-checkitem ÎÖÂê½ðÅÆ 1
+checkitem ÃŽÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
 #ACT
 goto @main_1_1_1
 #ELSEACT

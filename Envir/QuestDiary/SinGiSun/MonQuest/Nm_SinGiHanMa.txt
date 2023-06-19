@@ -1,0 +1,11 @@
+;;Nm_SinGiHanMa.txt
+[@main]
+#IF
+check [318] 0
+#ACT
+set [318] 1
+give าลบก 1
+#SAY
+	#INCLUDE [..\Convert_Def\QuestDiary\SinGiSun\MonQuest\Nm_SinGiHanMa.txt] @NPC_Main
+#ELSEACT
+break

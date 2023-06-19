@@ -1,0 +1,22 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[@main]
+#IF
+!IsOnCastleWar SaBuk
+#ACT
+goto @chick_Guild
+#ELSEACT
+enter_ok
+
+[@chick_Guild]
+#IF
+!IsCastleGuild  SABUK
+#ACT
+enter_fail
+goto @fail
+#ELSEACT
+enter_ok
+
+[@fail]
+#SAY
+沙巴克行会密室,只在攻城时间对外开放!\\
+<关闭/@exit>\

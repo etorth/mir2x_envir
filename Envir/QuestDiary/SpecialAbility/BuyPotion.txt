@@ -1,0 +1,20 @@
+;;BuyPotion.txt
+[@BuyPotion]
+{
+#SAY
+	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\BuyPotion.txt] @BuyPotion_1
+
+
+[@BuyPotionCheck]
+#IF
+checkgold 1000000
+#SAY
+	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\BuyPotion.txt] @BuyPotion_2
+
+#ACT
+give ÍöÁéÖ®Ò©Ë® 1
+take ½ð±Ò 1000000
+#ELSESAY
+	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\BuyPotion.txt] @BuyPotion_3
+
+}

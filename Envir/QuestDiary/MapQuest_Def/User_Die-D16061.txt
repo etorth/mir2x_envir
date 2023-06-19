@@ -1,0 +1,14 @@
+;;不要删掉此行
+
+[@Main]
+#IF
+check [205] 1
+#ACT
+goto @honchondostep_use_0
+break
+#ELSEACT
+break
+
+[@honchondostep_use_0]
+#CALL [HonChonDo\Mon_extinction.txt] @honchondostep_user
+;;不要删掉此行

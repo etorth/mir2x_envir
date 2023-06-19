@@ -1,0 +1,3 @@
+;;17SnowB-0.txt
+[@main]
+#CALL [\\XMAS\SnowmanB.txt] @SnowsayB

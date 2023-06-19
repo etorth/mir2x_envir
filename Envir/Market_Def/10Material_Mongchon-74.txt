@@ -1,0 +1,70 @@
+;;10Material_Mongchon-74.txt
+%100
+;meterial
++52
+
+
+[@main]
+#IF
+#ACT
+goto @main_root
+
+
+[@main_root]
+#IF
+checkpkpoint 2
+#SAY
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Mongchon-74.txt] @NPC_RedPlayer
+#ELSEACT
+goto @main_0_0
+
+
+[@main_0_0]
+#SAY
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Mongchon-74.txt] @NPC_Main
+
+[@sell]
+#SAY
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Mongchon-74.txt] @NPC_Sell
+
+
+;;[@Event1115]
+;;#CALL [\Event\02_11_15_Event.txt] @change_event
+
+;;[@Event1105]
+;;#CALL [\Event\02_11_05_Event.txt] @Event_main
+
+[@TQuest]
+#IF
+CheckDailyQuest 459
+#ACT
+goto @TQuest_459
+break
+
+#ELSEACT
+goto @TQuest1_6
+
+[@TQuest1_6]
+#SAY
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Mongchon-74.txt] @NPC_TQuest_1
+[@TQuest_459]
+#IF
+check [310] 1
+#ACT
+goto @TQuest1_6
+break
+
+#IF
+check [307] 1
+#ACT
+goto @TQuest459_2
+break
+
+#ELSEACT
+goto @TQuest459_1
+
+[@TQuest459_1]
+#CALL [\QT_TODAY\4thClass.txt] @459_START
+
+[@TQuest459_2]
+#CALL [\QT_TODAY\4thClass.txt] @459_CHECK1

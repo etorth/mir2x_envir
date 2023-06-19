@@ -1,0 +1,7 @@
+[Convert]
+Msg0 = (!) 获得名望值 <$OUTPUT(D6)>.
+Msg1 = (!) <$USERNAME>的当前名望值为'<$OUTPUT(P9)>'.
+Msg2 = A0 = <$OUTPUT(A0)>,D0 = <$OUTPUT(D0)>,D1 = <$OUTPUT(D1)>,D2 = <$OUTPUT(D2)>
+Msg3 = A0 = <$OUTPUT(A0)>,D0 = <$OUTPUT(D0)>,D1 = <$OUTPUT(D1)>,D2 = <$OUTPUT(D2)>
+Msg4 = A0 = <$OUTPUT(A0)>,D0 = <$OUTPUT(D0)>,D1 = <$OUTPUT(D1)>,D2 = <$OUTPUT(D2)>
+Msg5 = A0 = <$OUTPUT(A0)>,D0 = <$OUTPUT(D0)>,D1 = <$OUTPUT(D1)>,D2 = <$OUTPUT(D2)>

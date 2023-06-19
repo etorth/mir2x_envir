@@ -1,0 +1,1367 @@
+;;不要删掉此行
+[@TosungCastleWar_Numa]
+{
+#ACT
+goto @TosungCastleWar_Numa_Start
+goto @TosungCastleWar_owner
+goto @Tosung_owner_BarriCade
+
+[@TosungCastleWar_Numa_Start]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+ReadValueSqlsys "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER" [@TosungCastleWar_Numa_MonZen]
+#ELSEACT
+break
+
+[@TosungCastleWar_Numa_MonZen()]
+#ACT
+Mov A1 %ARG(1)
+
+#IF
+!checkmonmap 5 400
+Equal A1 "NUMA"
+#ACT
+ApplyMonEX "5,267,145,5" 木栅栏2 [Monsterside]
+ApplyMonEX "5,201,159,5" 木栅栏4 [Monsterside]
+ApplyMonEX "5,211,96,5" 木栅栏1 [Monsterside]
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg0]
+EventMsg "4,5" %A7 18
+goto @TosungCastleWar_Numa_Defence
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_MonZen_A
+break
+
+#IF
+!checkmonmap 5 400
+!Equal A1 "NUMA"
+#ACT
+
+ApplyMonEX "5,267,145,5" 木栅栏2 [Humanside]
+ApplyMonEX "5,201,159,5" 木栅栏4 [Humanside]
+ApplyMonEX "5,211,96,5" 木栅栏1 [Humanside]
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg1]
+EventMsg "4,5" %A7 14
+goto @TosungCastleWar_Numa_TosungAttack
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_MonZen_B
+break
+
+#IF
+checkmonmap 5 400
+#ACT
+Delaygoto [Grobal] 300 @TosungCastleWar_Numa_Start
+break
+
+[@TosungCastleWar_Numa_MonZen_A]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg2]
+EventMsg "4,5" %A7 129
+
+[@TosungCastleWar_Numa_MonZen_B]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg3]
+EventMsg "4,5" %A7 18
+
+
+[@TosungCastleWar_Numa_TosungAttack]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+mongenp "5,240,115,100" 诺玛9 30 "noitem"
+mongenp "5,100,260,5" 诺玛9 20 "noitem"
+AddPath 201, 159
+AddPath 217, 141
+AddPath 217, 128
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,186,138,20" 诺玛9
+ClearPath
+
+mongenp "5,100,260,5" 诺玛法老9 20 "noitem"
+AddPath 201, 159
+AddPath 217, 141
+AddPath 217, 128
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,100,260,20" 诺玛法老9
+ClearPath
+
+mongenp "5,100,260,5" 诺玛将士9 30 "noitem"
+AddPath 201, 159
+AddPath 217, 141
+AddPath 217, 128
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,100,260,20" 诺玛将士9
+ClearPath
+
+mongenp "5,162,48,5" 诺玛9 20 "noitem"
+AddPath 206, 91
+AddPath 222, 108
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,162,48,20" 诺玛9
+ClearPath
+
+mongenp "5,162,48,5" 诺玛法老9 10 "noitem"
+AddPath 206, 91
+AddPath 222, 108
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,162,48,20" 诺玛法老9
+ClearPath
+
+mongenp "5,162,48,5" 诺玛将士9 30 "noitem"
+AddPath 206, 91
+AddPath 222, 108
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,162,48,20" 诺玛将士9
+ClearPath
+
+mongenp "5,287,221,5" 诺玛9 20 "noitem"
+AddPath 268, 146
+AddPath 256, 134
+AddPath 256, 124
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,287,221,20" 诺玛9
+ClearPath
+
+mongenp "5,287,221,5" 诺玛法老9 10 "noitem"
+AddPath 268, 146
+AddPath 256, 134
+AddPath 256, 124
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,287,221,20" 诺玛法老9
+ClearPath
+
+
+mongenp "5,287,221,5" 诺玛将士9 30 "noitem"
+AddPath 268, 146
+AddPath 256, 134
+AddPath 256, 124
+AddPath 242, 102
+AddPath 249, 102
+AddPath 248, 106
+ApplyPath "5,287,221,20" 诺玛将士9
+ClearPath
+Delaygoto [Grobal] 300 @TosungCastleWar_Numa_Start
+#ELSEACT
+break
+
+[@TosungCastleWar_Numa_Defence]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+mongenp "5,261,91,30" 诺玛9 50 "noitem"
+mongenp "5,250,105,50" 诺玛将士9 50 "noitem"
+
+mongenp "5,246,105,5" 诺玛法老9 20 "noitem"
+AddPath 248, 106
+AddPath 271, 80
+AddPath 248, 106
+AddPath 248, 106
+ApplyPath "5,246,105,20" 诺玛法老9
+ClearPath
+
+mongenp "5,229,110,5" 诺玛将士9 10 "noitem"
+AddPath 211, 96
+ApplyPath "5,232,119,10" 诺玛将士9
+ClearPath
+
+mongenp "5,229,110,5" 诺玛法老9 10 "noitem"
+AddPath 211, 96
+ApplyPath "5,232,119,10" 诺玛法老9
+ClearPath
+
+mongenp "5,217,132,5" 诺玛将士9 10 "noitem"
+AddPath 206, 153
+ApplyPath "5,217,132,10" 诺玛将士9
+ClearPath
+mongenp "5,217,132,5" 诺玛法老9 10 "noitem"
+AddPath 206, 153
+ApplyPath "5,217,132,10" 诺玛法老9
+ClearPath
+
+mongenp "5,246,112,5" 诺玛将士9 10 "noitem"
+AddPath 262, 141
+ApplyPath "5,246,112,10" 诺玛将士9
+ClearPath
+mongenp "5,246,112,5" 诺玛法老9 10 "noitem"
+AddPath 262, 141
+ApplyPath "5,246,112,10" 诺玛法老9
+ClearPath
+
+mongenp "5,272,132,3" 诺玛法老9 2 "noitem"
+mongenp "5,197,147,3" 诺玛法老9 2 "noitem"
+mongenp "5,202,98,3" 诺玛法老9 2 "noitem"
+mongenp "5,216,83,3" 诺玛法老9 2 "noitem"
+Delaygoto [Grobal] 300 @TosungCastleWar_Numa_Start
+break
+#ELSEACT
+break
+
+
+[@TosungCastleWar_owner]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+ReadValueSqlsys "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER" [@TosungCastleWar_owner_0]
+
+#ELSEACT
+break
+
+[@TosungCastleWar_owner_0()]
+#ACT
+Mov A1 %ARG(1)
+
+#IF
+IsOnCastleWar [TAOSUNG]
+Equal A1 "NUMA"
+#ACT
+Delaygoto [Grobal] 60 @TosungCastleWar_owner
+break
+
+#IF
+IsOnCastleWar [TAOSUNG]
+!Equal A1 "NUMA"
+#ACT
+goto @TosungCastleWar_owner_1
+break
+
+#IF
+#ACT
+break
+
+[@TosungCastleWar_owner_1]
+#IF
+!checkmonmap "5,248,106,1" 1 诺玛8
+!checkmonmap "5,248,106,1" 1 诺玛9
+!checkmonmap "5,248,106,1" 1 诺玛法老8
+!checkmonmap "5,248,106,1" 1 诺玛法老9
+!checkmonmap "5,248,106,1" 1 诺玛将士8
+!checkmonmap "5,248,106,1" 1 诺玛将士9
+#ACT
+Delaygoto [Grobal] 60 @TosungCastleWar_owner
+break
+#ELSEACT
+ReadValueSqlsys "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS" @TosungCastleWar_owner_TAOSUNG_0
+
+[@TosungCastleWar_owner_TAOSUNG_0()]
+#ACT
+mov A8 %ARG(1)
+
+#IF
+Equal A8 "Ready"
+#ACT
+ClearCastleOwner [Taosung]
+UpdateValueSql "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER='NUMA'"
+UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Confuse'"
+mov D0 0
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg4]
+linemsg "5" %A7
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg5]
+linemsg "5" %A7
+ApplyMonEX "5,267,145,5" 木栅栏2 [Monsterside]
+ApplyMonEX "5,201,159,5" 木栅栏4 [Monsterside]
+ApplyMonEX "5,211,96,5" 木栅栏1 [Monsteranside]
+Delaygoto [Grobal] 60 @TosungCastleWar_owner
+goto @TosungCastleWar_owner_TAOSUNG
+goto @Tosung_owner_BarriCade
+break
+#ELSEACT
+Delaygoto [Grobal] 60 @TosungCastleWar_owner
+break
+
+[@TosungCastleWar_owner_TAOSUNG]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg6]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG1
+
+[@TosungCastleWar_owner_TAOSUNG1]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg7]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG2
+
+[@TosungCastleWar_owner_TAOSUNG2]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg8]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG3
+
+[@TosungCastleWar_owner_TAOSUNG3]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg9]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG4
+
+[@TosungCastleWar_owner_TAOSUNG4]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg10]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG5
+
+[@TosungCastleWar_owner_TAOSUNG5]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg11]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG6
+
+[@TosungCastleWar_owner_TAOSUNG6]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg12]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG7
+
+[@TosungCastleWar_owner_TAOSUNG7]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg13]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG8
+
+[@TosungCastleWar_owner_TAOSUNG8]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg14]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG9
+
+[@TosungCastleWar_owner_TAOSUNG9]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg15]
+linemsg "5" %A7
+Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG10
+
+[@TosungCastleWar_owner_TAOSUNG10]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg16]
+linemsg "5" %A7
+UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Ready'"
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg17]
+LineMsg "5" %A7
+break
+
+[@Tosung_owner_BarriCade]
+#IF
+IsOnCastleWar [TAOSUNG]
+#ACT
+ReadValueSqlsys "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER" [@Tosung_owner_BarriCade_0]
+
+[@Tosung_owner_BarriCade_0()]
+#ACT
+mov A1 %ARG(1)
+
+#IF
+Equal A1 "Numa"
+#ACT
+Monclear "5" "木栅栏7"
+MonGenP "5,247,105,0" 木栅栏8 1
+MonGenP "5,248,105,0" 木栅栏8 1
+MonGenP "5,249,105,0" 木栅栏8 1
+MonGenP "5,247,106,0" 木栅栏8 1
+MonGenP "5,249,106,0" 木栅栏8 1
+MonGenP "5,247,107,0" 木栅栏8 1
+MonGenP "5,248,107,0" 木栅栏8 1
+MonGenP "5,249,107,0" 木栅栏8 1
+break
+
+#IF
+!Equal A1 "Numa"
+#ACT
+Monclear "5" "木栅栏8"
+MonGenP "5,247,105,0" 木栅栏7 1
+MonGenP "5,248,105,0" 木栅栏7 1
+MonGenP "5,249,105,0" 木栅栏7 1
+MonGenP "5,247,106,0" 木栅栏7 1
+MonGenP "5,249,106,0" 木栅栏7 1
+MonGenP "5,247,107,0" 木栅栏7 1
+MonGenP "5,248,107,0" 木栅栏7 1
+MonGenP "5,249,107,0" 木栅栏7 1
+ApplyMonEX "5,248,106,5" 木栅栏7 [Humanside]
+break
+
+
+
+
+
+
+[@TosungCastleWar_Numa_Finished]
+{
+#ACT
+ReadValueSqlsys "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER" [@TosungCastleWar_Numa_FinishCondition]
+
+[@TosungCastleWar_Numa_FinishCondition()]
+#ACT
+Mov A1 %ARG(1)
+
+#IF
+Equal A1 "NUMA"
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg18]
+EventMsg Grobal %A7 129
+MonClear "5" 诺玛8
+MonClear "5" 诺玛9
+MonClear "5" 诺玛将士8
+MonClear "5" 诺玛将士9
+MonClear "5" 诺玛法老8
+MonClear "5" 诺玛法老9
+Monclear "5" "木栅栏8"
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_1
+
+#ELSEACT
+Monclear
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg19]
+EventMsg Grobal %A7 129
+MonClear "5" 诺玛8
+MonClear "5" 诺玛9
+MonClear "5" 诺玛将士8
+MonClear "5" 诺玛将士9
+MonClear "5" 诺玛法老8
+MonClear "5" 诺玛法老9
+Monclear "5" "木栅栏7"
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_1
+
+
+[@TosungCastleWar_Numa_FinishA_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg20]
+EventMsg Grobal %A7 18
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_2
+
+[@TosungCastleWar_Numa_FinishA_2]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg21]
+EventMsg Grobal %A7 129
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_3
+
+[@TosungCastleWar_Numa_FinishA_3]
+#ACT
+ClearCastleGold [TAOSUNG]
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg22]
+EventMsg Grobal %A7 18
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_4
+
+[@TosungCastleWar_Numa_FinishA_4]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg23]
+EventMsg Grobal %A7 14
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_5
+
+[@TosungCastleWar_Numa_FinishA_5]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg24]
+EventMsg Grobal %A7 18
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack
+
+
+
+[@TosungCastleWar_Numa_FinishB_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg25]
+EventMsg Grobal %A7 14
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_2
+
+[@TosungCastleWar_Numa_FinishB_2]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg26]
+EventMsg Grobal %A7 18
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_3
+
+[@TosungCastleWar_Numa_FinishB_3]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg27]
+EventMsg Grobal %A7 14
+Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_4
+
+[@TosungCastleWar_Numa_FinishB_4]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg28]
+EventMsg Grobal %A7 18
+
+
+
+
+
+[@TosungCastle_VillageAttack]
+#ACT
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg29]
+EventMsg "4,5" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_1
+
+[@TosungCastle_VillageAttack_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg30]
+EventMsg "4,5" %A7 129
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_2
+
+[@TosungCastle_VillageAttack_2]
+#ACT
+MonGenP "4,155,134,5" 单腿诺玛 5
+ApplyMonEx "4,155,134,15" 单腿诺玛 [Humanside] [RunAway]
+mongenp "4,155,134,10" 诺玛7 15
+ApplyMonEx "4,155,134,20" 诺玛7 [Humanside] 诺玛阻力军
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg31]
+EventMsg "4,5" %A7 10821
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_3
+
+[@TosungCastle_VillageAttack_3]
+#ACT
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg32]
+EventMsg "4,5" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_4
+
+[@TosungCastle_VillageAttack_4]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg33]
+EventMsg "4,5" %A7 10821
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_5
+
+
+
+[@TosungCastle_VillageAttack_5]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg34]
+EventMsg "4,5" %A7 10801
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_6
+
+[@TosungCastle_VillageAttack_6]
+#ACT
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg35]
+EventMsg "4,5" %A7 10821
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_7
+
+[@TosungCastle_VillageAttack_7]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg36]
+EventMsg "4,5" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_8
+
+
+
+[@TosungCastle_VillageAttack_8]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg37]
+EventMsg "4,5" %A7 14
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_9
+
+[@TosungCastle_VillageAttack_9]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg38]
+EventMsg "4,5" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_10
+
+[@TosungCastle_VillageAttack_10]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg39]
+EventMsg "4,5" %A7 14
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_11
+
+[@TosungCastle_VillageAttack_11]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg40]
+EventMsg "4,5" %A7
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_12
+
+[@TosungCastle_VillageAttack_12]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg41]
+EventMsg "4,5" %A7 14
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_13
+
+[@TosungCastle_VillageAttack_13]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg42]
+EventMsg "4,5" %A7 186
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_14
+
+[@TosungCastle_VillageAttack_14]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg43]
+EventMsg "4,5" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_15
+
+[@TosungCastle_VillageAttack_15]
+#ACT
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+mongenp "4,258,141,5" 诺玛突击队长 1
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛突击队长
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg44]
+EventMsg "4,5" %A7 186
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_0
+
+[@TosungCastle_VillageAttack_16_0]
+#ACT
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_10
+
+[@TosungCastle_VillageAttack_16_10]
+#ACT
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_11
+
+[@TosungCastle_VillageAttack_16_11]
+#ACT
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16
+
+
+
+[@TosungCastle_VillageAttack_16]
+#IF
+checkmonmap 5 1 "诺玛突击队长"
+#ACT
+monclear 4 "诺玛突击队长"
+mongenp "4,134,71,5" 诺玛法老7 3
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛法老7
+ClearPath
+mongenp "4,134,71,5" 诺玛7 10
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛7
+ClearPath
+mongenp "4,134,71,5" 诺玛将士8 5
+AddPath 134, 105
+AddPath 154, 115
+AddPath 154, 123
+AddPath 155, 134
+ApplyPath "4,134,71,10" 诺玛将士8
+ClearPath
+
+mongenp "4,104,193,5" 诺玛法老8 3
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛法老8
+ClearPath
+mongenp "4,104,193,5" 诺玛7 10
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛7
+ClearPath
+mongenp "4,104,193,5" 诺玛将士7 5
+AddPath 150, 146
+AddPath 155, 134
+ApplyPath "4,104,193,10" 诺玛将士7
+ClearPath
+
+mongenp "4,171,215,5" 诺玛法老7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛法老7
+ClearPath
+mongenp "4,171,215,5" 诺玛8 10
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛8
+ClearPath
+mongenp "4,171,215,5" 诺玛将士7 5
+AddPath 171, 153
+AddPath 158, 139
+AddPath 155, 134
+ApplyPath "4,171,215,10" 诺玛将士7
+ClearPath
+
+mongenp "4,258,141,5" 诺玛法老7 3
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛法老7
+ClearPath
+mongenp "4,258,141,5" 诺玛7 10
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛7
+ClearPath
+mongenp "4,258,141,5" 诺玛将士7 5
+AddPath 176, 141
+AddPath 166, 130
+AddPath 155, 134
+ApplyPath "4,258,141,10" 诺玛将士7
+ClearPath
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg45]
+EventMsg "4,5" %A7 186
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_1
+#ELSEACT
+Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_1
+
+[@TosungCastle_VillageAttack_16_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg46]
+EventMsg "4,5" %A7 14
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_17
+
+
+[@TosungCastle_VillageAttack_17]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg47]
+EventMsg "4,5" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_18
+
+[@TosungCastle_VillageAttack_18]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg48]
+EventMsg "4,5" %A7 14
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_20
+
+[@TosungCastle_VillageAttack_20]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg49]
+EventMsg "4,5" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_21
+
+[@TosungCastle_VillageAttack_21]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg50]
+EventMsg "4,5" %A7 14
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_22
+
+[@TosungCastle_VillageAttack_23]
+#ACT
+monclear 4
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg51]
+EventMsg "4,5" %A7 18
+
+
+}
+
+
+[@TosungCastle_VillageAttack_Numa]
+{
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg52]
+EventMsg "4" %A7 186
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_Numa_1
+
+[@TosungCastle_VillageAttack_Numa_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg53]
+EventMsg "4" %A7 129
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_Numa_2
+
+[@TosungCastle_VillageAttack_Numa_2]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg54]
+EventMsg "4" %A7 18
+Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_Numa_3
+
+[@TosungCastle_VillageAttack_Numa_3]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg55]
+EventMsg "4" %A7 14
+
+}
+
+
+[@TosungCastleWar_NumaMsg]
+{
+#ACT
+ReadValueSqlsys "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER" [@TosungCastleWar_NumaMsg_0]
+
+[@TosungCastleWar_NumaMsg_0()]
+#ACT
+Mov A1 %ARG(1)
+
+#IF
+!Equal A1 "NUMA"
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg56]
+EventMsg Grobal %A7 18
+Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgA_1
+#ELSEACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg57]
+EventMsg Grobal %A7 129
+Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgB_1
+
+[@TosungCastleWar_NumaMsgA_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg58]
+EventMsg Grobal %A7 14
+Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgA_2
+
+[@TosungCastleWar_NumaMsgA_2]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg59]
+EventMsg Grobal %A7 129
+Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgA_3
+
+[@TosungCastleWar_NumaMsgA_3]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg60]
+EventMsg Grobal %A7 18
+
+[@TosungCastleWar_NumaMsgB_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg61]
+EventMsg Grobal %A7 18
+Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgB_3
+
+[@TosungCastleWar_NumaMsgB_3]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg62]
+EventMsg Grobal %A7 18
+}
+;;不要删掉此行

@@ -1,0 +1,193 @@
+;;--------------------aragom
+[@GuildWarEventSystem]
+{
+#IF
+ISADMIN
+#SAY
+<行会战开始。/@GuildEventSystemTime> \\
+<让防守行会获胜。/@GuildEventSystemWinA> \
+<让攻击行会获胜。/@GuildEventSystemWinB> \\
+
+#IF
+#SAY
+沙漠土城是沙漠的中心地区... \\
+<确认参加沙漠土城行会战的行会名称。/@ConfirmWarEventSystem> \
+<申请参加占领沙漠土城的行会战。/@JoinGuildWarEventSystem> \
+<参加沙漠土城行会战。/@StartGuildWarEventSystem> \\
+<在行会战中胜利占领沙漠土城。/@SamakTaosungMake> \\
+<关  闭/@exit>
+
+[@GuildEventSystemWinA]
+#ACT
+Close
+LineMsg [Grobal] "防守的行会获胜。"
+UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME2='',FLD_WINGUILD=''"
+
+[@GuildEventSystemWinB]
+#ACT
+Close
+ReadValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME2" @GuildEventSystemWinB_Next
+
+[@GuildEventSystemWinB_Next()]
+#ACT
+Mov A1 %ARG(1)
+LineMsg [Grobal] "攻击的行会获胜。"
+LineMsg [Grobal] "如果一小时之内不能占领沙漠土城就算失败。"
+FormatSTR "FLD_GUILDNAME2='',FLD_WINGUILD='%s'" %A1
+UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
+
+
+[@SamakTaosungMake]
+#IF
+IsCastleGuild SABUK
+or IsCastleGuild TAOSUNG
+#ACT
+break
+#SAY
+已有城的行会不能占领沙漠土城。\\
+<关  闭/@exit>
+
+#IF
+IsGuildMaster
+#ACT
+ReadValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_WINGUILD" @SamakTaosungMake_Give
+#ELSESAY
+不是掌门人的话不能占领沙漠土城。\\
+<关  闭/@exit>
+
+[@SamakTaosungMake_Give()]
+#ACT
+Mov A0 %ARG(1)
+
+#IF
+Equal A0 %GUILDNAME
+#ACT
+FormatSTR "FLD_GUILDNAME1='%s'" %GUILDNAME
+UpdateValueSQL "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
+LineMsg [Grobal] "'<$OUTPUT(A0)>' 的行会占领了沙漠土城。"
+CaptureCastleFlag TAOSUNG
+Close
+#ELSESAY
+<$GUILDNAME>行会没有参加行会大战或是没有胜利。\\
+<关  闭/@exit>
+
+[@ConfirmWarEventSystem]
+#ACT
+ReadValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME2" @ConfirmWarEventSystem_Case
+
+[@ConfirmWarEventSystem_Case()]
+#ACT
+Mov A6 %ARG(1)
+
+#IF
+!Equal A6 ""
+#SAY
+行会大战中防御的行会 : {FCOLOR/10}<$CS_TAOSUNG_OWNER>{FCOLOR/12} 行会\\
+行会大战中挑战的行会 : {FCOLOR/10}<$OUTPUT(A6)>{FCOLOR/12} 行会\\
+<关  闭/@exit>
+#ELSESAY
+没有申请的行会。\\
+<关  闭/@exit>
+
+[@StartGuildWarEventSystem]
+#ACT
+ReadValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME1,FLD_GUILDNAME2,FLD_GATECONTROL" @StartGuildWarEventSystem_Check
+
+[@StartGuildWarEventSystem_Check()]
+#ACT
+Mov A0 %ARG(1)
+Mov A1 %ARG(2)
+Mov A2 %ARG(3)
+
+#IF
+Equal A2 "OpenGate"
+#ELSEACT
+break
+#ELSESAY
+因为现在不是沙漠土城行会大战入场时间，所以不能参加。\\
+<关  闭/@exit>
+
+#IF
+Equal A0 %GUILDNAME
+#ACT
+TeamMakeTeam 1
+Killslave
+Map E001
+break
+
+#IF
+Equal A1 %GUILDNAME
+#ACT
+TeamMakeTeam 2
+Killslave
+Map E001
+break
+
+
+[@JoinGuildWarEventSystem]
+#IF
+!hour 17 19
+#ACT
+break
+#SAY
+沙漠土城行会战只能在5点到7点之间进行申请。\\
+<关  闭/@exit>
+
+#IF
+IsGuildMaster
+#ACT
+ReadValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" "FLD_GUILDNAME1,FLD_GUILDNAME2" @JoinGuildWarEventSystem_Check
+#ELSESAY
+不是行会的话不能申请沙漠土城行会战。\\
+<关  闭/@exit>
+
+[@JoinGuildWarEventSystem_Check()]
+#IF
+hour 17 19
+#ACT
+Mov A0 %ARG(1)
+Mov A1 %ARG(2)
+#ELSEACT
+break
+
+#IF
+IsCastleGuild Sabuk
+or IsCastleGuild Taosung
+#ACT
+break
+#SAY
+城主的行会不能参加行会战。\\
+<关  闭/@exit>
+
+#IF
+!checkitem 遗址雕像 1
+#ACT
+break
+#SAY
+遗址雕像没有的话不能参加行会战。\\
+<关  闭/@exit>
+
+#IF
+Equal A1 %GUILDNAME
+#ACT
+break
+#SAY
+<$GUILDNAME>行会已经参加了沙漠土城行会战。\\
+<关  闭/@exit>
+
+#IF
+Equal A1 ""
+#ACT
+take 遗址雕像 1
+FormatStr "FLD_GUILDNAME2='%s'" %GUILDNAME
+UpdateValueSql "TBL_GuildWar" "FLD_GUILDWARTITLE='Taosung'" %A9
+break
+#SAY
+参加了沙漠土城行会战。\\
+沙漠土城行会战在今天9点进行。\\
+<关  闭/@exit>
+#ELSESAY
+沙漠土城行会战已经有别的行会参加了。\\
+<关  闭/@exit>
+}
+;;------------------aragom

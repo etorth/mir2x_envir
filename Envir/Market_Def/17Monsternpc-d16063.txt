@@ -1,0 +1,15 @@
+;;不要删掉此行
+[@main]
+#ACT
+goto @MonsternpcQuest_open
+break
+
+
+
+
+[@MonsternpcQuest_open]
+#CALL [NpcQuest_Def\17Monsternpc-D15063.txt] @NPCQuest_Check
+
+[@everythingreward]
+#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

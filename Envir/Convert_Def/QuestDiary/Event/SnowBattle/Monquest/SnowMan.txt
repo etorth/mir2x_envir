@@ -1,0 +1,6 @@
+;;SnowMan.txt
+[@main]
+#IF
+#ACT
+give ´«µ¢ÀÌ 1
+

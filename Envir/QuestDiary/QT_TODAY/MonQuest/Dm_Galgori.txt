@@ -90,7 +90,7 @@ inc s0 1
 set [308] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T479_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T479_Say
 
 
 ;-----------------------------------------------------
@@ -154,7 +154,7 @@ inc S0 1
 [@galgori_T523_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T523_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T523_Say
 
 #ACT
 set [308] 1
@@ -222,7 +222,7 @@ inc S0 1
 [@galgori_T450_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T450_Say_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T450_Say_1
 
 #ACT
 set [309] 1
@@ -289,7 +289,7 @@ inc S0 1
 [@galgori_T443_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T443_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T443_Say
 
 #ACT
 set [308] 1

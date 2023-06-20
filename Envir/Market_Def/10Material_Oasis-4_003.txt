@@ -14,24 +14,24 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Oasis-4_003.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Oasis-4_003.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Oasis-4_003.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Oasis-4_003.txt] @NPC_Main
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Oasis-4_003.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Oasis-4_003.txt] @NPC_Sell
 
 ;;[@Event1115]
-;;#CALL [QuestDiary/Event/02_11_15_Event.txt] @change_event
+;;#CALL [\Event\02_11_15_Event.txt] @change_event
 
 ;;[@Event1105]
-;;#CALL [QuestDiary/Event/02_11_05_Event.txt] @Event_main
+;;#CALL [\Event\02_11_05_Event.txt] @Event_main
 
 [@TQuest]
 #IF
@@ -53,7 +53,7 @@ goto @TQuest3_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Oasis-4_003.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Oasis-4_003.txt] @NPC_TQuest
 
 [@TQuest1_0]
 #IF
@@ -72,14 +72,14 @@ break
 goto @TQuest1_1
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @334_START
+#CALL [\QT_TODAY\3rdClass.txt] @334_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @334_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @334_CHECK1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Oasis-4_003.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Oasis-4_003.txt] @NPC_TQuest_1
 
 [@TQuest2_0]
 #IF
@@ -98,10 +98,10 @@ break
 goto @TQuest2_1
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @224_START
+#CALL [\QT_TODAY\2ndClass.txt] @224_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @224_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @224_CHECK1
 
 [@TQuest3_0]
 #IF
@@ -120,7 +120,7 @@ break
 goto @TQuest3_1
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @120_START
+#CALL [\QT_TODAY\1stClass.txt] @120_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @120_CHECK1
+#CALL [\QT_TODAY\1stClass.txt] @120_CHECK1

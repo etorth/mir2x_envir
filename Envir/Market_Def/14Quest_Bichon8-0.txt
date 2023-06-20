@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon8-0.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon8-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -39,23 +39,23 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon8-0.txt] @NPC_Main_0
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon8-0.txt] @NPC_Main_0
 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon8-0.txt] @NPC_Main_1
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon8-0.txt] @NPC_Main_1
 
 [@main_0_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon8-0.txt] @NPC_Main_2
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon8-0.txt] @NPC_Main_2
 
 [@main_0_3]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon8-0.txt] @NPC_Main_3
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon8-0.txt] @NPC_Main_3
 
 
 [@Quest_1]
-#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_YORYUNG_1
+#CALL [\NQ_BASE\younghon.txt] @ST_HON_YORYUNG_1
 
 [@Quest_2]
-#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_YORYUNG_2
+#CALL [\NQ_BASE\younghon.txt] @ST_HON_YORYUNG_2

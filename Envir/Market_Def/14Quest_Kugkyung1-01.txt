@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung1-01.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Kugkyung1-01.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -19,23 +19,23 @@ goto @main_cj
 #IF
 checkjob wizard
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung1-01.txt] @NPC_Main_Wizard
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Kugkyung1-01.txt] @NPC_Main_Wizard
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung1-01.txt] @NPC_Main_Taoist
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Kugkyung1-01.txt] @NPC_Main_Taoist
 
 [@eunhang]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung1-01.txt] @NPC_Help_Wizard
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Kugkyung1-01.txt] @NPC_Help_Wizard
 
 [@dokwan]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung1-01.txt] @NPC_Help_Taoist
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Kugkyung1-01.txt] @NPC_Help_Taoist
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung1-01.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Kugkyung1-01.txt] @NPC_Main
 
 
 [@NQuest01]
@@ -90,17 +90,17 @@ goto @NQuest01_1_1
 setopen [1] 1
 goto @NQuest01_1_1
 [@NQuest01_1_1]
-#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_MQ_START
+#CALL [\NQ_BASE\warriorbase.txt] @Junsa_MQ_START
 
 [@NQuest01_2]
-#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_GO_BUCHER
+#CALL [\NQ_BASE\warriorbase.txt] @Junsa_GO_BUCHER
 
 [@NQuest01_3]
-#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_CQ_START1
+#CALL [\NQ_BASE\warriorbase.txt] @Junsa_CQ_START1
 
 [@NQuest01_7]
-#CALL [QuestDiary/NQ_BASE/warriorbase.txt] @Junsa_GO_WANG
+#CALL [\NQ_BASE\warriorbase.txt] @Junsa_GO_WANG
 
 [@NQuest01_8]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Kugkyung1-01.txt] @NPC_Nquest
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Kugkyung1-01.txt] @NPC_Nquest

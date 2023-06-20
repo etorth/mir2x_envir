@@ -1,3 +1,0 @@
-;;15Magic_KugKyung-01_003.txt
-[@main]
-#CALL [\Mu_warrior\wedo.txt] @yedo_test

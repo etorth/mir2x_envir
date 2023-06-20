@@ -1,6 +1,0 @@
-;;18Flag_Bichon-0.txt
-[@NPC_Main]
-{
-<$GUILD> ÐÐ»áÆìÖÄ \ \
-<½áÊø/@exit>
-}

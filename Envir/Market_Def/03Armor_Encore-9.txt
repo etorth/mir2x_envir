@@ -10,7 +10,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Encore-9.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
@@ -18,30 +18,30 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Encore-9.txt] @NPC_Main_0_0
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Encore-9.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Encore-9.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Encore-9.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Encore-9.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-é“å£«å¤´ç›”         50         1
-æˆ˜ç¥ç›”ç”²ï¼ˆç”·ï¼‰   50         1
-æˆ˜ç¥ç›”ç”²ï¼ˆå¥³ï¼‰   50         1
-å¹½çµæˆ˜è¡£ï¼ˆç”·ï¼‰   50         1
-å¹½çµæˆ˜è¡£ï¼ˆå¥³ï¼‰   50         1
-æ¶é­”é•¿è¢ï¼ˆç”·ï¼‰   50         1
-æ¶é­”é•¿è¢ï¼ˆå¥³ï¼‰   50         1
+µÀÊ¿Í·¿ø         50         1
+Õ½Éñ¿ø¼×£¨ÄĞ£©   50         1
+Õ½Éñ¿ø¼×£¨Å®£©   50         1
+ÓÄÁéÕ½ÒÂ£¨ÄĞ£©   50         1
+ÓÄÁéÕ½ÒÂ£¨Å®£©   50         1
+¶ñÄ§³¤ÅÛ£¨ÄĞ£©   50         1
+¶ñÄ§³¤ÅÛ£¨Å®£©   50         1

@@ -22,24 +22,24 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_RedZone-81.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_RedZone-81.txt] @NPC_Main
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_RedZone-81.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_RedZone-81.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour
-èœ¡çƒ›             50         1
-ç«æŠŠ             50         1
-é‡‘åˆ›è¯ï¼ˆå°ï¼‰     50         1
-é­”æ³•è¯ï¼ˆå°ï¼‰     50         1
-é‡‘åˆ›è¯ï¼ˆä¸­ï¼‰     50         1
-é­”æ³•è¯ï¼ˆä¸­ï¼‰     50         1
-åœ°ç‰¢é€ƒè„±å·       50         1
-æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰     50         1
+À¯Öò             50         1
+»ğ°Ñ             50         1
+½ğ´´Ò©£¨Ğ¡£©     50         1
+Ä§·¨Ò©£¨Ğ¡£©     50         1
+½ğ´´Ò©£¨ÖĞ£©     50         1
+Ä§·¨Ò©£¨ÖĞ£©     50         1
+µØÀÎÌÓÍÑ¾í       50         1
+»¤Éí·û£¨Ğ¡£©     50         1
 
 
 ;;------------------------------------------------------------------------------
@@ -49,5 +49,5 @@ goto @main_0_0
 
 
 [@Ghltod]
-#CALL [QuestDiary/Event/PotionEvent/PEvent.txt] @Event_Ghltod
+#CALL [Event\PotionEvent\PEvent.txt] @Event_Ghltod
 ;-------------------------------------------------------------------------------

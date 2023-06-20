@@ -2,10 +2,10 @@
 
 [@Convert_ItemQuestMado_0]
 {
-涓嶈兘浣跨敤瑁呭銆俓 \
+不能使用装备。\ \
 }
 
 [@Convert_ItemQuestMado_1]
 {
-涓嶈兘浣跨敤瑁呭銆俓 \
+不能使用装备。\ \
 }

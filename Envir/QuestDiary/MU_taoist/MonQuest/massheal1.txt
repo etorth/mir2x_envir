@@ -27,11 +27,11 @@ goto @MapQuest_massheal_cave_complete_1
 #IF
 check [526] 0
 #ACT
-give ç¾¤ä½“æ²»æ„ˆæœ¯ï¼ˆç§˜ç±ï¼‰   1
+give ÈºÌåÖÎÓúÊõ£¨ÃØ¼®£©   1
 set [526] 1
 goto @MapQuest_massheal_cave_complete_3
 #SAY
-(å‡ ä¹éƒ½å¤„ç†å“Ÿ...) \
+(¼¸ºõ¶¼´¦ÀíÓ´...) \
 
 [@MapQuest_massheal_cave_complete_3]
 #IF

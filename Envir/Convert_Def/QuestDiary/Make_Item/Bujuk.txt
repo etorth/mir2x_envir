@@ -1,197 +1,197 @@
 ;;Bujuk.txt
 [@Bujuk_1]
 {
-é‚£ï¼Œä½ æƒ³åˆ¶ä½œä»€ä¹ˆè¯å‘¢ï¼Ÿ æœ‰æ—¶ä¾¯åˆ¶ä½œè¯æ—¶ä¹Ÿéš¾å…ä¼šå¤±è´¥ï¼Œä½ ç•™æ„å•Šã€‚\ \
- <æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰/@Make_Charm_BCharm>       ,    <ç¥žåœ£æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰/@Make_Charm_HCharm> \
- <æŠ¤èº«ç¬¦ï¼ˆç«ï¼‰/@Make_Charm_Fcharm>       ,    <æŠ¤èº«ç¬¦ï¼ˆå†°ï¼‰/@Make_Charm_Icharm> \
- <æŠ¤èº«ç¬¦ï¼ˆé›·ï¼‰/@Make_Charm_Lcharm>       ,    <æŠ¤èº«ç¬¦ï¼ˆé£Žï¼‰/@Make_Charm_Wcharm> \
- <çµé­‚æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰/@Make_Charm_Rcharm>   ,     <çµé­‚æŠ¤èº«ç¬¦ï¼ˆä¸­ï¼‰/@Make_Charm_RcharmM> \
-<å‰ä¸€æ­¥/@make_item_main> \
-<ç»“æŸ/@exit>
+ÄÇ£¬ÄãÏëÖÆ×÷Ê²Ã´Ò©ÄØ£¿ ÓÐÊ±ºîÖÆ×÷Ò©Ê±Ò²ÄÑÃâ»áÊ§°Ü£¬ÄãÁôÒâ°¡¡£\ \
+ <»¤Éí·û£¨Ð¡£©/@Make_Charm_BCharm>       ,    <ÉñÊ¥»¤Éí·û£¨Ð¡£©/@Make_Charm_HCharm> \
+ <»¤Éí·û£¨»ð£©/@Make_Charm_Fcharm>       ,    <»¤Éí·û£¨±ù£©/@Make_Charm_Icharm> \
+ <»¤Éí·û£¨À×£©/@Make_Charm_Lcharm>       ,    <»¤Éí·û£¨·ç£©/@Make_Charm_Wcharm> \
+ <Áé»ê»¤Éí·û£¨Ð¡£©/@Make_Charm_Rcharm>   ,     <Áé»ê»¤Éí·û£¨ÖÐ£©/@Make_Charm_RcharmM> \
+<Ç°Ò»²½/@make_item_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_2]
 {
-è¦åˆ¶ä½œæŠ¤èº«ç¬¦ï¼ˆå°ï¼‰çš„è¯éœ€è¦{FCOLOR/10}éª·é«…éª¨3ä¸ªï¼Œé¸¡è¡€3ç“¶{FCOLOR/12}ã€‚\
-æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰æ˜¯åˆ©ç”¨éª·é«…éª¨é‡Œå‰©ä¸‹æ¥çš„çµé­‚çš„åŠ›é‡æ¥åˆ¶ä½œçš„ã€‚æŠŠéª·é«…éª¨ç²‰ç¢Žä»¥åŽåˆ¶ä½œçº¸å¼ çš„æ—¶å€™æŽºè¿›åŽ»ç„¶åŽåœ¨ä¸Šé¢ç”¨é¸¡è¡€æ¥å†™å­—è€Œåˆ¶ä½œæŠ¤èº«ç¬¦çš„ã€‚\ \
- <ç»“æŸ/@exit>
+ÒªÖÆ×÷»¤Éí·û£¨Ð¡£©µÄ»°ÐèÒª{FCOLOR/10}÷¼÷Ã¹Ç3¸ö£¬¼¦Ñª3Æ¿{FCOLOR/12}¡£\
+»¤Éí·û£¨Ð¡£©ÊÇÀûÓÃ÷¼÷Ã¹ÇÀïÊ£ÏÂÀ´µÄÁé»êµÄÁ¦Á¿À´ÖÆ×÷µÄ¡£°Ñ÷¼÷Ã¹Ç·ÛËéÒÔºóÖÆ×÷Ö½ÕÅµÄÊ±ºò²ô½øÈ¥È»ºóÔÚÉÏÃæÓÃ¼¦ÑªÀ´Ð´×Ö¶øÖÆ×÷»¤Éí·ûµÄ¡£\ \
+ <½áÊø/@exit>
 }
 
 [@Bujuk_3]
 {
-å“Žã€‚å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
- <ç»§ç»­ åˆ¶ä½œ/@Make_Charm_BCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
- <ç»“æŸ/@exit>
+°¥¡£Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+ <¼ÌÐø ÖÆ×÷/@Make_Charm_BCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+ <½áÊø/@exit>
 }
 
 [@Bujuk_4]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚å¯¹å•Šã€‚æ¶ˆç£¨äº†{FCOLOR/10}éª·é«…éª¨3ä¸ªï¼Œé¸¡è¡€3ç“¶{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œä½ æƒ³ç»§ç»­åšå—ï¼Ÿ\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_BCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£¶Ô°¡¡£ÏûÄ¥ÁË{FCOLOR/10}÷¼÷Ã¹Ç3¸ö£¬¼¦Ñª3Æ¿{FCOLOR/12}°¡¡£ÄÇÃ´£¬ÄãÏë¼ÌÐø×öÂð£¿\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_BCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_5]
 {
-è¦åˆ¶ä½œç¥žåœ£æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰çš„è¯éœ€è¦{FCOLOR/10}åƒµå°¸éª¨å¤´2ä¸ªï¼Œé¸¡è¡€5ç“¶ã€‚{FCOLOR/12}\
-ç¥žåœ£æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰æ˜¯åˆæˆäº†åƒµå°¸çš„å’’æœ¯åŠ›é‡å’Œé¸¡è¡€çš„é€€é­”å±žæ€§å…·æœ‰å¼ºå¤§çš„ç¥žåœ£åŠ›ã€‚\ \
-<ç»“æŸ/@exit>
+ÒªÖÆ×÷ÉñÊ¥»¤Éí·û£¨Ð¡£©µÄ»°ÐèÒª{FCOLOR/10}½©Ê¬¹ÇÍ·2¸ö£¬¼¦Ñª5Æ¿¡£{FCOLOR/12}\
+ÉñÊ¥»¤Éí·û£¨Ð¡£©ÊÇºÏ³ÉÁË½©Ê¬µÄÖäÊõÁ¦Á¿ºÍ¼¦ÑªµÄÍËÄ§ÊôÐÔ¾ßÓÐÇ¿´óµÄÉñÊ¥Á¦¡£\ \
+<½áÊø/@exit>
 }
 
 [@Bujuk_6]
 {
-å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_HCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_HCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_7]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚å¯¹å•Šã€‚æ¶ˆç£¨äº†åƒµå°¸éª¨å¤´2ä¸ªï¼Œé¸¡è¡€5ç“¶å•Šã€‚é‚£ä¹ˆï¼Œä½ æƒ³ç»§ç»­åšå—ï¼Ÿ\ \
- <ç»§ç»­ åˆ¶ä½œ/@Make_Charm_HCharm> \
- <å‰ä¸€æ­¥/@make_Charm_main> \
- <ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£¶Ô°¡¡£ÏûÄ¥ÁË½©Ê¬¹ÇÍ·2¸ö£¬¼¦Ñª5Æ¿°¡¡£ÄÇÃ´£¬ÄãÏë¼ÌÐø×öÂð£¿\ \
+ <¼ÌÐø ÖÆ×÷/@Make_Charm_HCharm> \
+ <Ç°Ò»²½/@make_Charm_main> \
+ <½áÊø/@exit>
 }
 
 [@Bujuk_8]
 {
-è¦åˆ¶ä½œæŠ¤èº«ç¬¦ï¼ˆç«ï¼‰çš„è¯ï¼Œéœ€è¦{FCOLOR/10}éª·é«…éª¨4ä¸ªï¼Œé¸¡è¡€4ç“¶ï¼ŒèŽå­çš„å°¾å·´1ä¸ª{FCOLOR/12}ã€‚\
-æŠ¤èº«ç¬¦ï¼ˆç«ï¼‰æ˜¯åˆ©ç”¨äº†èŽå­å°¾å·´çš„æ¯’æ€§è´®å…¥äº†ç«å±žæ€§è€Œåˆ¶ä½œçš„ã€‚\ \
- <ç»“æŸ/@exit>
+ÒªÖÆ×÷»¤Éí·û£¨»ð£©µÄ»°£¬ÐèÒª{FCOLOR/10}÷¼÷Ã¹Ç4¸ö£¬¼¦Ñª4Æ¿£¬Ð«×ÓµÄÎ²°Í1¸ö{FCOLOR/12}¡£\
+»¤Éí·û£¨»ð£©ÊÇÀûÓÃÁËÐ«×ÓÎ²°ÍµÄ¶¾ÐÔÖüÈëÁË»ðÊôÐÔ¶øÖÆ×÷µÄ¡£\ \
+ <½áÊø/@exit>
 }
 
 [@Bujuk_9]
 {
-å“Žï¼Œå¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_FCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+°¥£¬Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_FCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_10]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}éª·é«…éª¨4ä¸ªï¼Œé¸¡è¡€4ç“¶ï¼ŒèŽå­çš„å°¾å·´1ä¸ª{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œä½ æƒ³ç»§ç»­åšå—ï¼Ÿ\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_FCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}÷¼÷Ã¹Ç4¸ö£¬¼¦Ñª4Æ¿£¬Ð«×ÓµÄÎ²°Í1¸ö{FCOLOR/12}°¡¡£ÄÇÃ´£¬ÄãÏë¼ÌÐø×öÂð£¿\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_FCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_11]
 {
-è¦åˆ¶ä½œæŠ¤èº«ç¬¦ï¼ˆå†°ï¼‰çš„è¯ï¼Œéœ€è¦{FCOLOR/10}æ¯’è›‡èƒ†æ±8ä¸ªï¼Œé¸¡è¡€4ç“¶ï¼Œæ¯’èœ˜è››ç‰™é½¿2ä¸ª{FCOLOR/12}ã€‚\
-æŠ¤èº«ç¬¦ï¼ˆå†°ï¼‰æ˜¯æ·»åŠ äº†æ¯’èœ˜è››ç‰™é½¿æ”¾åˆ°æ¯’è›‡èƒ†æ±ç„¶åŽç­‰å®ƒä»¬å‘é…µä¼šäº§ç”Ÿå¾ˆå¼ºçš„å†·æ°”ï¼Œè´®å…¥äº†å†°çš„å±žæ€§åˆ¶ä½œè€Œæˆçš„ã€‚\ \
- <ç»“æŸ/@exit>
+ÒªÖÆ×÷»¤Éí·û£¨±ù£©µÄ»°£¬ÐèÒª{FCOLOR/10}¶¾Éßµ¨Ö­8¸ö£¬¼¦Ñª4Æ¿£¬¶¾Ö©ÖëÑÀ³Ý2¸ö{FCOLOR/12}¡£\
+»¤Éí·û£¨±ù£©ÊÇÌí¼ÓÁË¶¾Ö©ÖëÑÀ³Ý·Åµ½¶¾Éßµ¨Ö­È»ºóµÈËüÃÇ·¢½Í»á²úÉúºÜÇ¿µÄÀäÆø£¬ÖüÈëÁË±ùµÄÊôÐÔÖÆ×÷¶ø³ÉµÄ¡£\ \
+ <½áÊø/@exit>
 }
 
 [@Bujuk_12]
 {
-å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_ICharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_ICharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_13]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}æ¯’è›‡èƒ†æ±8ä¸ªï¼Œé¸¡è¡€4ç“¶ï¼Œæ¯’èœ˜è››ç‰™é½¿2ä¸ª{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œä½ æƒ³ç»§ç»­åšå—?\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_ICharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}¶¾Éßµ¨Ö­8¸ö£¬¼¦Ñª4Æ¿£¬¶¾Ö©ÖëÑÀ³Ý2¸ö{FCOLOR/12}°¡¡£ÄÇÃ´£¬ÄãÏë¼ÌÐø×öÂð?\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_ICharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_14]
 {
-è¦åˆ¶ä½œæŠ¤èº«ç¬¦ï¼ˆé›·ï¼‰çš„è¯ï¼Œ éœ€è¦{FCOLOR/10}åƒµå°¸éª¨å¤´2ä¸ªï¼Œé¸¡è¡€4ç“¶ï¼Œé£Ÿäººæ ‘å¶2ä¸ª{FCOLOR/12}å•Šã€‚\
-æŠ¤èº«ç¬¦ï¼ˆé›·ï¼‰æ˜¯æ›¿ä»£çº¸ä½¿ç”¨äº†é£Ÿäººæ ‘å¶è¿˜åˆ©ç”¨äº†è¿™ä¸ªåƒµå°¸çš„å’’æœ¯åŠ›åˆæ•£çš„è¯ä¼šå‘ç”Ÿå¾ˆå¼ºçš„é—ªç”µå¼çš„åŠ›è´®å…¥äº†é›·çš„å±žæ€§è€Œåˆ¶ä½œçš„ã€‚\ \
- <ç»“æŸ/@exit>
+ÒªÖÆ×÷»¤Éí·û£¨À×£©µÄ»°£¬ ÐèÒª{FCOLOR/10}½©Ê¬¹ÇÍ·2¸ö£¬¼¦Ñª4Æ¿£¬Ê³ÈËÊ÷Ò¶2¸ö{FCOLOR/12}°¡¡£\
+»¤Éí·û£¨À×£©ÊÇÌæ´úÖ½Ê¹ÓÃÁËÊ³ÈËÊ÷Ò¶»¹ÀûÓÃÁËÕâ¸ö½©Ê¬µÄÖäÊõÁ¦ºÏÉ¢µÄ»°»á·¢ÉúºÜÇ¿µÄÉÁµçÊ½µÄÁ¦ÖüÈëÁËÀ×µÄÊôÐÔ¶øÖÆ×÷µÄ¡£\ \
+ <½áÊø/@exit>
 }
 
 [@Bujuk_15]
 {
-å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_LCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_LCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_16]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}åƒµå°¸éª¨å¤´2ä¸ªï¼Œé¸¡è¡€4ç“¶ï¼Œé£Ÿäººæ ‘å¶2ä¸ª{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œä½ æƒ³ç»§ç»­åšå—?\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_LCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}½©Ê¬¹ÇÍ·2¸ö£¬¼¦Ñª4Æ¿£¬Ê³ÈËÊ÷Ò¶2¸ö{FCOLOR/12}°¡¡£ÄÇÃ´£¬ÄãÏë¼ÌÐø×öÂð?\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_LCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_17]
 {
-è¦åˆ¶ä½œæŠ¤èº«ç¬¦ï¼ˆé£Žï¼‰çš„è¯ï¼Œéœ€è¦{FCOLOR/10}éª·é«…éª¨ 3ä¸ªï¼Œé£Ÿäººæ ‘çš„æžœå®ž 1ä¸ªï¼Œ é¸¡è¡€ 4ç“¶{FCOLOR/12}å•Šã€‚\
-æŠ¤èº«ç¬¦ï¼ˆé£Žï¼‰æ˜¯åœ¨éª·é«…éª¨å’Œé¸¡è¡€ä¸Šæ·»åŠ äº†é£Ÿäººæ ‘çš„æžœå®žï¼Œæ‰€ä»¥è·Ÿä¸€èˆ¬çš„æŠ¤èº«ç¬¦ä¸ä¸€æ ·çš„ã€‚å®ƒæ˜¯è´®å…¥äº†é£Žçš„å±žæ€§åˆ¶ä½œè€Œæˆçš„ã€‚\ \
- <ç»“æŸ/@exit>
+ÒªÖÆ×÷»¤Éí·û£¨·ç£©µÄ»°£¬ÐèÒª{FCOLOR/10}÷¼÷Ã¹Ç 3¸ö£¬Ê³ÈËÊ÷µÄ¹ûÊµ 1¸ö£¬ ¼¦Ñª 4Æ¿{FCOLOR/12}°¡¡£\
+»¤Éí·û£¨·ç£©ÊÇÔÚ÷¼÷Ã¹ÇºÍ¼¦ÑªÉÏÌí¼ÓÁËÊ³ÈËÊ÷µÄ¹ûÊµ£¬ËùÒÔ¸úÒ»°ãµÄ»¤Éí·û²»Ò»ÑùµÄ¡£ËüÊÇÖüÈëÁË·çµÄÊôÐÔÖÆ×÷¶ø³ÉµÄ¡£\ \
+ <½áÊø/@exit>
 }
 
 [@Bujuk_18]
 {
-å“Žï¼Œ å¤±è´¥äº†ã€‚ é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_WCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+°¥£¬ Ê§°ÜÁË¡£ ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_WCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_19]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}éª·é«…éª¨ 3ä¸ªï¼Œ é£Ÿäººæ ‘çš„æžœå®ž 1ä¸ªï¼Œé¸¡è¡€ 4ç“¶{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œ ä½ æƒ³ç»§ç»­åšå—ï¼Ÿ\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_WCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}÷¼÷Ã¹Ç 3¸ö£¬ Ê³ÈËÊ÷µÄ¹ûÊµ 1¸ö£¬¼¦Ñª 4Æ¿{FCOLOR/12}°¡¡£ÄÇÃ´£¬ ÄãÏë¼ÌÐø×öÂð£¿\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_WCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_20]
 {
-è¦åˆ¶ä½œçµé­‚æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰çš„è¯ï¼Œ éœ€è¦{FCOLOR/10}å¤œæ˜Žç  10ä¸ªï¼Œç¥žçµé›•åƒ 5ä¸ªï¼Œ æ½˜å¤œä¹‹æ³ª 3ä¸ªï¼Œ é¸¡è¡€ 2ç“¶{FCOLOR/12}å•Šã€‚\
-çµé­‚æŠ¤èº«ç¬¦ï¼ˆå°ï¼‰æ˜¯åœ¨é¸¡è¡€å’Œç”±æ½˜å¤œä¹‹æ³ªå’Œå¤œæ˜Žç åˆ¶ä½œè€Œæˆçš„ä¼ è¯´è¯æ°´å’Œç”±ç¥žçµé›•åƒç£¨æˆè€Œåˆ¶ä½œçš„çº¸ä¸Šå†™å­—è€Œåšæˆçš„ã€‚ç”¨è¿™ç§æ–¹æ³•åˆ¶ä½œè€Œæˆçš„æŠ¤èº«ç¬¦ä¸ŠåµŒç€çµé­‚ï¼Œæ‰€ä»¥åœ¨å¬é­‚æ—¶èƒ½å‘æŒ¥å¼ºå¤§çš„åŠ›é‡ã€‚\ \
-<ç»“æŸ/@exit>
+ÒªÖÆ×÷Áé»ê»¤Éí·û£¨Ð¡£©µÄ»°£¬ ÐèÒª{FCOLOR/10}Ò¹Ã÷Öé 10¸ö£¬ÉñÁéµñÏñ 5¸ö£¬ ÅËÒ¹Ö®Àá 3¸ö£¬ ¼¦Ñª 2Æ¿{FCOLOR/12}°¡¡£\
+Áé»ê»¤Éí·û£¨Ð¡£©ÊÇÔÚ¼¦ÑªºÍÓÉÅËÒ¹Ö®ÀáºÍÒ¹Ã÷ÖéÖÆ×÷¶ø³ÉµÄ´«ËµÒ©Ë®ºÍÓÉÉñÁéµñÏñÄ¥³É¶øÖÆ×÷µÄÖ½ÉÏÐ´×Ö¶ø×ö³ÉµÄ¡£ÓÃÕâÖÖ·½·¨ÖÆ×÷¶ø³ÉµÄ»¤Éí·ûÉÏÇ¶×ÅÁé»ê£¬ËùÒÔÔÚÕÙ»êÊ±ÄÜ·¢»ÓÇ¿´óµÄÁ¦Á¿¡£\ \
+<½áÊø/@exit>
 }
 
 [@Bujuk_21]
 {
-å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_RCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_RCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_22]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}å¤œæ˜Žç  10ä¸ªï¼Œç¥žçµé›•åƒ 5ä¸ªï¼Œæ½˜å¤œä¹‹æ³ª 3ä¸ªï¼Œ é¸¡è¡€ 2ç“¶{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œä½ æƒ³ç»§ç»­åšå— ?\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_RCharm> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}Ò¹Ã÷Öé 10¸ö£¬ÉñÁéµñÏñ 5¸ö£¬ÅËÒ¹Ö®Àá 3¸ö£¬ ¼¦Ñª 2Æ¿{FCOLOR/12}°¡¡£ÄÇÃ´£¬ÄãÏë¼ÌÐø×öÂð ?\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_RCharm> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_23]
 {
-è¦åˆ¶ä½œçµé­‚æŠ¤èº«ç¬¦ï¼ˆä¸­ï¼‰çš„è¯ï¼Œ éœ€è¦{FCOLOR/10}å¤œæ˜Žç  30ä¸ªï¼Œç¥žçµé›•åƒ 15ä¸ªï¼Œ æ½˜å¤œä¹‹æ³ª 9ä¸ªï¼Œ é¸¡è¡€ 6ç“¶{FCOLOR/12}å•Šã€‚\
-çµé­‚æŠ¤èº«ç¬¦ï¼ˆä¸­ï¼‰æ˜¯åœ¨é¸¡è¡€å’Œç”±æ½˜å¤œä¹‹æ³ªå’Œå¤œæ˜Žç åˆ¶ä½œè€Œæˆçš„ä¼ è¯´è¯æ°´å’Œç”±ç¥žçµé›•åƒç£¨æˆè€Œåˆ¶ä½œçš„çº¸ä¸Šå†™å­—è€Œåšæˆçš„ã€‚ç”¨è¿™ç§æ–¹æ³•åˆ¶ä½œè€Œæˆçš„æŠ¤èº«ç¬¦ä¸ŠåµŒç€çµé­‚ï¼Œæ‰€ä»¥åœ¨å¬é­‚æ—¶èƒ½å‘æŒ¥å¼ºå¤§çš„åŠ›é‡ã€‚\ \
-<ç»“æŸ/@exit>
+ÒªÖÆ×÷Áé»ê»¤Éí·û£¨ÖÐ£©µÄ»°£¬ ÐèÒª{FCOLOR/10}Ò¹Ã÷Öé 30¸ö£¬ÉñÁéµñÏñ 15¸ö£¬ ÅËÒ¹Ö®Àá 9¸ö£¬ ¼¦Ñª 6Æ¿{FCOLOR/12}°¡¡£\
+Áé»ê»¤Éí·û£¨ÖÐ£©ÊÇÔÚ¼¦ÑªºÍÓÉÅËÒ¹Ö®ÀáºÍÒ¹Ã÷ÖéÖÆ×÷¶ø³ÉµÄ´«ËµÒ©Ë®ºÍÓÉÉñÁéµñÏñÄ¥³É¶øÖÆ×÷µÄÖ½ÉÏÐ´×Ö¶ø×ö³ÉµÄ¡£ÓÃÕâÖÖ·½·¨ÖÆ×÷¶ø³ÉµÄ»¤Éí·ûÉÏÇ¶×ÅÁé»ê£¬ËùÒÔÔÚÕÙ»êÊ±ÄÜ·¢»ÓÇ¿´óµÄÁ¦Á¿¡£\ \
+<½áÊø/@exit>
 }
 
 [@Bujuk_24]
 {
-å“Žï¼Œ å¤±è´¥äº†ã€‚é‡æ–°è¯•ä¸€ä¸‹çœ‹çœ‹ã€‚\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_RCharmM> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+°¥£¬ Ê§°ÜÁË¡£ÖØÐÂÊÔÒ»ÏÂ¿´¿´¡£\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_RCharmM> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 [@Bujuk_25]
 {
-åšçš„å¾ˆå¥½å•Šã€‚ã€‚ã€‚æ¶ˆç£¨äº†{FCOLOR/10}å¤œæ˜Žç  30ä¸ªï¼Œç¥žçµé›•åƒ 15ä¸ªï¼Œæ½˜å¤œä¹‹æ³ª 9ä¸ªï¼Œ é¸¡è¡€ 6ç“¶{FCOLOR/12}å•Šã€‚é‚£ä¹ˆï¼Œä½ æƒ³ç»§ç»­åšå—?\ \
-<ç»§ç»­ åˆ¶ä½œ/@Make_Charm_RCharmM> \
-<å‰ä¸€æ­¥/@make_Charm_main> \
-<ç»“æŸ/@exit>
+×öµÄºÜºÃ°¡¡£¡£¡£ÏûÄ¥ÁË{FCOLOR/10}Ò¹Ã÷Öé 30¸ö£¬ÉñÁéµñÏñ 15¸ö£¬ÅËÒ¹Ö®Àá 9¸ö£¬ ¼¦Ñª 6Æ¿{FCOLOR/12}°¡¡£ÄÇÃ´£¬ÄãÏë¼ÌÐø×öÂð?\ \
+<¼ÌÐø ÖÆ×÷/@Make_Charm_RCharmM> \
+<Ç°Ò»²½/@make_Charm_main> \
+<½áÊø/@exit>
 }
 
 

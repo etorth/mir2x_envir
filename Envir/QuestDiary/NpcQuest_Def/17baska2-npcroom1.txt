@@ -1,18 +1,18 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@NPCQuest_Check]
 {
 #ACT
 Mov D0 0
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_0
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_0
 
 #IF
 check [205] 1
 check [405] 0
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_1
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_1
 
 #ACT
 Mov D0 1
@@ -27,7 +27,7 @@ break
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_2
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_2
 
 [@baska2Quest_start1]
 #ACT
@@ -43,21 +43,21 @@ DAYOFWEEK FRI
 Equal D1 4
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_3
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_3
 
 #IF
 DAYOFWEEK FRI
 Equal D1 5
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_4
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_4
 
 #IF
 DAYOFWEEK SAT
 Equal D1 5
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_5
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska2-npcroom1.txt] @Convert_17baska2-npcroom1_5
 
 #IF
 #ACT
@@ -65,10 +65,10 @@ goto @NoQuest_Say
 break
 
 [@baska1Quest_start1_B]
-#CALL [QuestDiary/HonChondo/MadoNpcBaska.txt] @MadoTimeQuestBaska_B
+#CALL [HonChondo\MadoNpcBaska.txt] @MadoTimeQuestBaska_B
 
 
 [@baska1Quest_start1_BB]
-#CALL [QuestDiary/HonChondo/MadoNpcBaska.txt] @MadoTimeQuestsundaynpcB
+#CALL [HonChondo\MadoNpcBaska.txt] @MadoTimeQuestsundaynpcB
 }
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

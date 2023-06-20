@@ -1,3 +1,3 @@
 ;;09Lucky_RedZone-81.txt
 [@main]
-#CALL [QuestDiary/Lucky/PkPoint.txt] @PkTime
+#CALL [\Lucky\PkPoint.txt] @PkTime

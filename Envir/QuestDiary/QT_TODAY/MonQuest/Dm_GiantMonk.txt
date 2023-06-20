@@ -44,12 +44,12 @@ break
 
 [@chiljumbaksa_T118_1]
 #IF
-checkitem è¡€å·¨äººå¿ƒè„ 299
+checkitem Ñª¾ŞÈËĞÄÔà 299
 #ACT
-give è¡€å·¨äººå¿ƒè„ 1
+give Ñª¾ŞÈËĞÄÔà 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T118_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T118_Say
 
 #ELSEACT
 goto @chiljumbaksa_T118_1_1
@@ -58,5 +58,5 @@ goto @chiljumbaksa_T118_1_1
 #IF
 random 3
 #ACT
-give è¡€å·¨äººå¿ƒè„ 1
+give Ñª¾ŞÈËĞÄÔà 1
 ;-----------------------------------------------------

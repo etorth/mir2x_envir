@@ -4,7 +4,7 @@
 #IF
 checkweaponlevel 1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_1
 
 #ELSEACT
 break
@@ -13,17 +13,17 @@ break
 checkweaponlevel 10
 checkgold 1000000
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_2
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_3
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_3
 
 
 [@RefineCorrect]
 #IF
 checkweaponlevel 1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_4
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_4
 
 #ELSEACT
 break
@@ -32,31 +32,31 @@ break
 checkweaponlevel 10
 checkgold 1000000
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_5
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_5
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_6
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_6
 
 
 [@@WriteWeaponName]
 #IF
 checkgold 1000000
 #ACT
-take Â½Ã°Â±Ã’ 1000000
+take ½ð±Ò 1000000
 WriteWeaponName @CheckWeaponName
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_7
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_7
 
 
 [@CheckWeaponName]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_8
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_8
 
 
 [@CheckWeaponName~]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/RefineName.txt] @RefineName_9
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\RefineName.txt] @RefineName_9
 
 #ACT
-give Â½Ã°Â±Ã’ 1000000
+give ½ð±Ò 1000000
 }

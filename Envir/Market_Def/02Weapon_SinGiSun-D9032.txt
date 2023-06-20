@@ -20,15 +20,15 @@
 [@main]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_SinGiSun-D9032.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_SinGiSun-D9032.txt] @NPC_Main
 
 [@Repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_SinGiSun-D9032.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_SinGiSun-D9032.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_SinGiSun-D9032.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_SinGiSun-D9032.txt] @NPC_Repair_Complete
 
 
 

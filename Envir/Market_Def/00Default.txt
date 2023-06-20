@@ -6,48 +6,48 @@ goto @Default_Setting_Sabuk
 goto @Defult_SafeZone_Setting
 
 [@Defult_SafeZone_Setting]
-#CALL [QuestDiary/System/SafeZone.txt] @SafeZone
+#CALL [\System\SafeZone.txt] @SafeZone
 
 
 ;; Sabuk Castle Weather Control
 [@Weather_Control_Sabuk]
-#CALL [QuestDiary/System/Weather.txt] @Weather
+#CALL [\System\Weather.txt] @Weather
 
 ;; Sabuk Castle Base Setting
 [@Default_Setting_Sabuk]
-#CALL [QuestDiary/System/DefaultSabuk.txt] @SabukDefult
+#CALL [\System\DefaultSabuk.txt] @SabukDefult
 
 ;; Work at Sabuk Battle 2Hours Ago
 [@_War_Ready_Sabuk]
-#CALL [QuestDiary/System/CastleWar.txt] @CastleWarReady
+#CALL [\System\CastleWar.txt] @CastleWarReady
 
 ;; Work at Sabuk Battle Start
 [@_War_Start_Sabuk]
-#CALL [QuestDiary/System/CastleWar.txt] @CastleWarStart
+#CALL [\System\CastleWar.txt] @CastleWarStart
 
 ;; Work at Sabuk Battle Finish
 [@_War_Finish_Sabuk]
-#CALL [QuestDiary/System/CastleWar.txt] @CastleWarFinish
+#CALL [\System\CastleWar.txt] @CastleWarFinish
 
 ;; Work at Flag Data Changed
 [@_CastleOwnerChanged_Sabuk]
-#CALL [QuestDiary/System/Flag.txt] @ChangeFlag
+#CALL [\System\Flag.txt] @ChangeFlag
 
 [@_CastleFlagChanged_Sabuk]
-#CALL [QuestDiary/System/Flag.txt] @ChangeFlag
+#CALL [\System\Flag.txt] @ChangeFlag
 
 [@_USERLOGINTELL]
-#CALL [QuestDiary/é™„åŠ åŠŸèƒ½/ä¸Šçº¿æç¤º.txt] @ä¸Šçº¿æç¤º
+#CALL [\¸½¼Ó¹¦ÄÜ\ÉÏÏßÌáÊ¾.txt] @ÉÏÏßÌáÊ¾
 
 [@_UserLogin]
 
 
-;;æ—¶é—´è§¦å‘ï¼Œé—´éš”æ—¶é—´ç”±æ§åˆ¶å°é‡Œé¢è°ƒæ•´
+;;Ê±¼ä´¥·¢£¬¼ä¸ôÊ±¼äÓÉ¿ØÖÆÌ¨ÀïÃæµ÷Õû
 [@_TimeEATEVENT]
 #IF
 check [888] 1
 checkgold 10000
 #ACT
-take é‡‘å¸ 10000
+take ½ğ±Ò 10000
 giveexp %USERNAME 100000
-sysmsg "æ‚¨è¢«æ‰£é™¤äº†10000é‡‘å¸!"
+sysmsg "Äú±»¿Û³ıÁË10000½ğ±Ò!"

@@ -2,7 +2,7 @@
 [@Defence_SubFlag]
 {
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_1
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_1
 
 }
 
@@ -15,7 +15,7 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 205 158 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_2
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_2
 
 #ACT
 break
@@ -27,7 +27,7 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 206 158 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_3
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_3
 
 #ACT
 break
@@ -39,7 +39,7 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 205 158 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_4
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_4
 
 #ACT
 break
@@ -51,14 +51,14 @@ IsGuildMaster
 !IsCastleGuild  SABUK
 CheckPos 3 205 158 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_5
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_5
 
 #ACT
 break
 
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_6
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_6
 
 
 [@castlewarmenu_Attack]
@@ -70,8 +70,8 @@ IsGuildMaster
 CheckPos 3 205 158 0
 #ACT
 CAPTURECASTLEFLAG  SABUK
-SENDCMD  "3, 0, 0, 1000" æ²™å·´å…‹æ——å¸œ "@_Startup"
-linemsg  "3" " æŒ‘æˆ˜è¡Œä¼š '<$GUILD>' è¡Œä¼šå é¢†äº†æ²™å·´å…‹åŸã€‚"
+SENDCMD  "3, 0, 0, 1000" É³°Í¿ËÆìÖÄ "@_Startup"
+linemsg  "3" " ÌôÕ½ĞĞ»á '<$GUILD>' ĞĞ»áÕ¼ÁìÁËÉ³°Í¿Ë³Ç¡£"
 close
 break
 
@@ -83,8 +83,8 @@ IsGuildMaster
 CheckPos 3 206 158 0
 #ACT
 CAPTURECASTLEFLAG  SABUK
-SENDCMD  "3, 0, 0, 1000" æ²™å·´å…‹æ——å¸œ "@_Startup"
-linemsg  "3" " æŒ‘æˆ˜è¡Œä¼š '<$GUILD>' è¡Œä¼šå é¢†äº†æ²™å·´å…‹åŸã€‚"
+SENDCMD  "3, 0, 0, 1000" É³°Í¿ËÆìÖÄ "@_Startup"
+linemsg  "3" " ÌôÕ½ĞĞ»á '<$GUILD>' ĞĞ»áÕ¼ÁìÁËÉ³°Í¿Ë³Ç¡£"
 close
 break
 
@@ -97,7 +97,7 @@ IsGuildMaster
 CheckPos 3 205 158 0
 #ACT
 CAPTURECASTLEFLAG  SABUK
-linemsg  "3" " é˜²å¾¡è¡Œä¼š '<$GUILD>' è¡Œä¼šå é¢†äº†æ²™å·´å…‹åŸã€‚"
+linemsg  "3" " ·ÀÓùĞĞ»á '<$GUILD>' ĞĞ»áÕ¼ÁìÁËÉ³°Í¿Ë³Ç¡£"
 close
 break
 
@@ -109,7 +109,7 @@ IsGuildMaster
 CheckPos 3 206 158 0
 #ACT
 CAPTURECASTLEFLAG  SABUK
-linemsg  "3" " é˜²å¾¡è¡Œä¼š '<$GUILD>' è¡Œä¼šå é¢†äº†æ²™å·´å…‹åŸã€‚"
+linemsg  "3" " ·ÀÓùĞĞ»á '<$GUILD>' ĞĞ»áÕ¼ÁìÁËÉ³°Í¿Ë³Ç¡£"
 close
 break
 }
@@ -120,22 +120,22 @@ break
 #IF
 checkgold 100000
 #ACT
-take é‡‘å¸ 100000
+take ½ğ±Ò 100000
 movr   D1  16
 movr   D2  16
 movr   D3  16
 goto @ChangeFlagNum
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_7
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_7
 
 
 [@ChangeFlagNum]
 #IF
 #SAY
-<1å·/@num(1)> , <2å·/@num(2)> , <3å·/@num(3)>\
-<4å·/@num(4)> , <5å·/@num(5)> , <6å·/@num(6)>\
-<7å·/@num(7)> , <8å·/@num(8)> , <9å·/@num(9)>\
-<10å·/@num(10)> , <11å·/@num(11)> , <12å·/@num(12)>\
+<1ºÅ/@num(1)> , <2ºÅ/@num(2)> , <3ºÅ/@num(3)>\
+<4ºÅ/@num(4)> , <5ºÅ/@num(5)> , <6ºÅ/@num(6)>\
+<7ºÅ/@num(7)> , <8ºÅ/@num(8)> , <9ºÅ/@num(9)>\
+<10ºÅ/@num(10)> , <11ºÅ/@num(11)> , <12ºÅ/@num(12)>\
 
 [@num()]
 #ACT
@@ -156,13 +156,13 @@ dec    D0
 TestFlag  %D0  %D1  %D2  %D3
 inc    D0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_8
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_8
 
 
 
 [@ThanksColor]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Flag.txt] @Flag_9
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Flag.txt] @Flag_9
 
 #ACT
 dec D0

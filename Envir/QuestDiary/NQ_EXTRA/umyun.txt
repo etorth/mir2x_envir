@@ -11,10 +11,10 @@ check [276] 1
 check [277] 0
 checklevel 20
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_1
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_2
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_2
 
 
 [@UMKING_MUMYUNG0_1]
@@ -22,7 +22,7 @@ checklevel 20
 check [276] 1
 check [277] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_3
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_3
 
 
 [@UMKING_MUMYUNG0_2]
@@ -30,7 +30,7 @@ check [277] 0
 check [276] 1
 check [277] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_4
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_4
 
 
 [@UMKING_MUMYUNG0_3]
@@ -42,7 +42,7 @@ mov S1 0
 mov S2 0
 set [277] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_5
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_5
 
 }
 
@@ -50,7 +50,7 @@ set [277] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_6
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_6
 
 }
 
@@ -65,13 +65,13 @@ goto @UMKING_MUMYUNG2_0
 
 [@UMKING_MUMYUNG2_0]
 #IF
-checkitem √é√û√É√ª√à√ï√ñ¬æ 1
+checkitem Œﬁ√˚»’÷æ 1
 #ACT
-take √é√û√É√ª√à√ï√ñ¬æ 1
+take Œﬁ√˚»’÷æ 1
 set [279] 1
 goto @UMKING_MUMYUNG2_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_7
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_7
 
 
 [@UMKING_MUMYUNG2_1]
@@ -79,7 +79,7 @@ goto @UMKING_MUMYUNG2_1
 check [280] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_8
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_8
 
 
 [@UMKING_MUMYUNG2_2]
@@ -87,18 +87,18 @@ check [278] 1
 check [280] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_9
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_9
 
 
 [@UMKING_MUMYUNG2_3]
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_10
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_10
 
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_11
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_11
 
 
 [@UMKING_MUMYUNG2_4]
@@ -106,7 +106,7 @@ checkpkpoint 2
 check [280] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_12
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_12
 
 
 [@UMKING_MUMYUNG2_5]
@@ -114,7 +114,7 @@ check [278] 1
 check [280] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_13
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_13
 
 
 [@UMKING_MUMYUNG2_6]
@@ -122,7 +122,7 @@ check [278] 1
 check [280] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_14
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_14
 
 
 [@UMKING_MUMYUNG2_7]
@@ -130,7 +130,7 @@ check [278] 1
 check [280] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_15
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_15
 
 
 [@UMKING_MUMYUNG2_8]
@@ -138,7 +138,7 @@ check [278] 1
 check [280] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_16
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_16
 
 
 [@UMKING_MUMYUNG2_9]
@@ -148,7 +148,7 @@ check [278] 1
 #ACT
 set [280] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_17
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_17
 
 
 [@UMKING_MUMYUNG2_10]
@@ -156,7 +156,7 @@ set [280] 1
 check [287] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_18
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_18
 
 
 [@UMKING_MUMYUNG2_11]
@@ -164,7 +164,7 @@ check [278] 1
 check [287] 0
 check [278] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_19
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_19
 
 }
 
@@ -172,7 +172,7 @@ check [278] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_20
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_20
 
 }
 
@@ -180,7 +180,7 @@ check [278] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_21
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_21
 
 }
 
@@ -193,7 +193,7 @@ goto @UMKING_MUMYUNG5_0
 [@UMKING_MUMYUNG5_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_22
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_22
 
 
 [@UMKING_MUMYUNG5_1]
@@ -203,7 +203,7 @@ check [282] 1
 #ACT
 set [283] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_23
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_23
 
 }
 
@@ -211,25 +211,25 @@ set [283] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_24
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_24
 
 
 [@UMKING_MUMYUNG6_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_25
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_25
 
 }
 
 [@UMKING_MUMYUNG7]
 {
 #IF
-checkitem ¬µ√ò√ì√º√â√±√ñ√ì 1
+checkitem µÿ”¸…Ò÷” 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_26
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_26
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_27
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_27
 
 }
 
@@ -240,12 +240,12 @@ checkitem ¬µ√ò√ì√º√â√±√ñ√ì 1
 goto @UMKING_MUMYUNG8_0
 [@UMKING_MUMYUNG8_0]
 #IF
-checkitem √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
+checkitem Œ÷¬ÍΩ≈∆ 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_28
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_28
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_29
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_29
 
 
 [@UMKING_MUMYUNG8_1]
@@ -253,7 +253,7 @@ checkitem √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
 check [287] 0
 check [286] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_30
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_30
 
 
 [@UMKING_MUMYUNG8_2]
@@ -263,7 +263,7 @@ check [286] 1
 #ACT
 set [287] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_31
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_31
 
 }
 
@@ -271,7 +271,7 @@ set [287] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_32
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_32
 
 }
 
@@ -283,12 +283,12 @@ goto @UMKING_MUMYUNG10_0
 
 [@UMKING_MUMYUNG10_0]
 #IF
-checkitem √Å√©¬ª√™√É√∑√ñ√© 1
+checkitem ¡ÈªÍ√˜÷È 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_33
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_33
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_34
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_34
 
 
 [@UMKING_MUMYUNG10_1]
@@ -296,7 +296,7 @@ checkitem √Å√©¬ª√™√É√∑√ñ√© 1
 check [289] 0
 check [288] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_35
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_35
 
 
 [@UMKING_MUMYUNG10_2_1]
@@ -304,7 +304,7 @@ check [288] 1
 check [289] 0
 check [288] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_36
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_36
 
 
 [@UMKING_MUMYUNG10_2_2]
@@ -312,7 +312,7 @@ check [288] 1
 check [289] 0
 check [288] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_37
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_37
 
 
 [@UMKING_MUMYUNG10_2_3]
@@ -320,7 +320,7 @@ check [288] 1
 check [289] 0
 check [288] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_38
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_38
 
 
 [@UMKING_MUMYUNG10_3]
@@ -328,7 +328,7 @@ check [288] 1
 check [289] 0
 check [288] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_39
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_39
 
 
 [@UMKING_MUMYUNG10_4]
@@ -338,7 +338,7 @@ check [288] 1
 #ACT
 set [289] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_40
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_40
 
 }
 
@@ -346,7 +346,7 @@ set [289] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_41
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_41
 
 }
 
@@ -354,7 +354,7 @@ set [289] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_42
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_42
 
 }
 
@@ -372,21 +372,21 @@ goto @UMKING_MUMYUNG13_0
 check [299] 0
 check [297] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_43
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_43
 
 
 [@UMKING_MUMYUNG13_1]
 #IF
-checkitem √Å√©¬ª√™√É√∑√ñ√© 1
-checkitem √é√ñ√Ç√™√â√±√å√∫¬¥¬∏ 1
+checkitem ¡ÈªÍ√˜÷È 1
+checkitem Œ÷¬Í…ÒÃ˙¥∏ 1
 #ACT
-take √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
-take √Å√©¬ª√™√É√∑√ñ√© 1
-take √é√ñ√Ç√™√â√±√å√∫¬¥¬∏ 1
+take Œ÷¬ÍΩ≈∆ 1
+take ¡ÈªÍ√˜÷È 1
+take Œ÷¬Í…ÒÃ˙¥∏ 1
 set [298] 1
 goto @UMKING_MUMYUNG13_2
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_44
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_44
 
 
 [@UMKING_MUMYUNG13_2]
@@ -394,7 +394,7 @@ goto @UMKING_MUMYUNG13_2
 check [299] 0
 check [297] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_45
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_45
 
 
 [@UMKING_MUMYUNG13_3]
@@ -402,7 +402,7 @@ check [297] 1
 check [299] 0
 check [297] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_46
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_46
 
 
 [@UMKING_MUMYUNG13_4]
@@ -410,7 +410,7 @@ check [297] 1
 check [299] 0
 check [297] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_47
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_47
 
 
 [@UMKING_MUMYUNG13_5]
@@ -418,7 +418,7 @@ check [297] 1
 check [299] 0
 check [297] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_48
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_48
 
 
 [@UMKING_MUMYUNG13_6]
@@ -430,14 +430,14 @@ set [298] 0
 set [618] 0
 set [299] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_49
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_49
 
 
 [@UMKING_MUMYUNG13_7]
 #IF
 checkjob warrior
 #ACT
-give √ê√û√Ç√û 1
+give –ﬁ¬ﬁ 1
 goto @UMKING_MUMYUNG13_8
 #ELSEACT
 goto @UMKING_MUMYUNG13_7_1
@@ -446,10 +446,10 @@ goto @UMKING_MUMYUNG13_7_1
 #IF
 checkjob wizard
 #ACT
-give √ô√à√î√Ç 1
+give Ÿ»‘¬ 1
 goto @UMKING_MUMYUNG13_8
 #ELSEACT
-give ¬Ω¬µ√Ñ¬ß 1
+give Ωµƒß 1
 goto @UMKING_MUMYUNG13_8
 
 [@UMKING_MUMYUNG13_8]
@@ -463,7 +463,7 @@ reset [272] 28
 set [276] 1
 set [301] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_50
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_50
 
 }
 
@@ -471,7 +471,7 @@ set [301] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_51
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_51
 
 }
 
@@ -484,14 +484,14 @@ goto @UMKING_MUMYUNG15_0
 [@UMKING_MUMYUNG15_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_52
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_52
 
 
 [@UMKING_MUMYUNG15_1]
 #IF
 checkjob warrior
 #ACT
-give √é√ñ√Ç√™√ê√û√Ç√û 1
+give Œ÷¬Í–ﬁ¬ﬁ 1
 goto @UMKING_MUMYUNG15_3
 #ELSEACT
 goto @UMKING_MUMYUNG15_2
@@ -500,10 +500,10 @@ goto @UMKING_MUMYUNG15_2
 #IF
 checkjob wizard
 #ACT
-give √é√ñ√Ç√™√ô√à√î√Ç 1
+give Œ÷¬ÍŸ»‘¬ 1
 goto @UMKING_MUMYUNG15_3
 #ELSEACT
-give √é√ñ√Ç√™¬Ω¬µ√Ñ¬ß 1
+give Œ÷¬ÍΩµƒß 1
 goto @UMKING_MUMYUNG15_3
 
 [@UMKING_MUMYUNG15_3]
@@ -517,7 +517,7 @@ reset [272] 28
 set [276] 1
 set [302] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_53
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_53
 
 }
 
@@ -533,12 +533,12 @@ goto @UMKING_UDO1_1
 
 [@UMKING_UDO1_1]
 #IF
-checkitem √Å√©¬ª√™√É√∑√ñ√© 1
+checkitem ¡ÈªÍ√˜÷È 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_54
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_54
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_55
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_55
 
 
 [@UMKING_UDO1_2]
@@ -546,7 +546,7 @@ checkitem √Å√©¬ª√™√É√∑√ñ√© 1
 check [293] 0
 check [289] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_56
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_56
 
 
 [@UMKING_UDO1_3]
@@ -554,17 +554,17 @@ check [289] 1
 check [293] 0
 check [289] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_57
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_57
 
 
 [@UMKING_UDO1_4]
 #IF
-checkitem √Å√©¬ª√™√É√∑√ñ√© 1
+checkitem ¡ÈªÍ√˜÷È 1
 #ACT
 takecheckitem
 goto @UMKING_UDO1_5
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_58
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_58
 
 
 [@UMKING_UDO1_5]
@@ -576,7 +576,7 @@ monclear D023_001
 param1 D023_001
 param2 19
 param3 17
-mongen √é√ñ√Ç√™√ï¬Ω¬Ω¬´61 5 3
+mongen Œ÷¬Í’ΩΩ´61 5 3
 goto @UMKING_UDO1_5_4
 
 [@UMKING_UDO1_5_4]
@@ -589,19 +589,19 @@ set [293] 1
 param1 D023_001
 param2 14
 param3 20
-mongen ¬ª√∞√ë√¶√é√ñ√Ç√™61 5 3
+mongen ª—ÊŒ÷¬Í61 5 3
 goto @UMKING_UDO1_5_5
 
 [@UMKING_UDO1_5_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_59
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_59
 
 
 [@UMKING_UDO1_6]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_60
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_60
 
 
 [@UMKING_UDO1_7]
@@ -614,7 +614,7 @@ monclear D023_001
 param1 D023_001
 param2 19
 param3 17
-mongen √é√ñ√Ç√™√ï¬Ω¬Ω¬´61 5 3
+mongen Œ÷¬Í’ΩΩ´61 5 3
 goto @UMKING_UDO1_7_4
 
 [@UMKING_UDO1_7_4]
@@ -626,13 +626,13 @@ set [293] 1
 param1 D023_001
 param2 14
 param3 20
-mongen ¬ª√∞√ë√¶√é√ñ√Ç√™61 5 3
+mongen ª—ÊŒ÷¬Í61 5 3
 goto @UMKING_UDO1_7_5
 
 [@UMKING_UDO1_7_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_61
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_61
 
 }
 
@@ -640,7 +640,7 @@ goto @UMKING_UDO1_7_5
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_62
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_62
 
 }
 
@@ -656,7 +656,7 @@ goto @UMKING_UDO3_1
 [@UMKING_UDO3_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_63
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_63
 
 
 [@UMKING_UDO3_2]
@@ -670,7 +670,7 @@ goto @UMKING_UDO3_3
 [@UMKING_UDO3_3]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_64
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_64
 
 
 [@UMKING_UDO3_3_1]
@@ -680,7 +680,7 @@ set [296] 1
 param1 D023_002
 param2 14
 param3 20
-mongen √Ö¬£√Ä√è¬µ√Ä 1 3
+mongen ≈£¿œµ¿ 1 3
 map D023_002
 
 [@UMKING_UDO3_4]
@@ -695,7 +695,7 @@ goto @UMKING_UDO3_5
 [@UMKING_UDO3_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_65
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_65
 
 
 [@UMKING_UDO3_3_5_1]
@@ -705,7 +705,7 @@ set [296] 1
 param1 D023_002
 param2 14
 param3 20
-mongen √Ö¬£√Ä√è¬µ√Ä 1 3
+mongen ≈£¿œµ¿ 1 3
 map D023_002
 }
 
@@ -722,7 +722,7 @@ check [273] 1
 #ACT
 set [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_66
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_66
 
 }
 
@@ -730,7 +730,7 @@ set [274] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_67
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_67
 
 }
 
@@ -748,17 +748,17 @@ goto @UMKING_WANG1_0
 check [276] 0
 check [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_68
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_68
 
 
 [@UMKING_WANG1_1]
 #IF
-checkitem √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
+checkitem Œ÷¬ÍΩ≈∆ 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_69
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_69
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_70
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_70
 
 
 [@UMKING_WANG1_2]
@@ -766,7 +766,7 @@ checkitem √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
 check [276] 0
 check [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_71
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_71
 
 
 [@UMKING_WANG1_3_1]
@@ -774,7 +774,7 @@ check [274] 1
 check [276] 0
 check [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_72
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_72
 
 
 [@UMKING_WANG1_3]
@@ -793,28 +793,28 @@ goto @UMKING_WANG1_4_1
 
 [@UMKING_WANG1_4_1]
 #IF
-checkitem √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
+checkitem Œ÷¬ÍΩ≈∆ 1
 #ACT
-take √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
-give ¬Ω√∞¬±√í 50000
+take Œ÷¬ÍΩ≈∆ 1
+give Ω±“ 50000
 set [275] 1
 goto @UMKING_WANG1_5_1
 
 [@UMKING_WANG1_4_2]
 #IF
-checkitem √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
+checkitem Œ÷¬ÍΩ≈∆ 1
 #ACT
-take √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
-give ¬Ω√∞¬±√í 100000
+take Œ÷¬ÍΩ≈∆ 1
+give Ω±“ 100000
 set [275] 1
 goto @UMKING_WANG1_5_2
 
 [@UMKING_WANG1_4_3]
 #IF
-checkitem √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
+checkitem Œ÷¬ÍΩ≈∆ 1
 #ACT
-take √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
-give ¬Ω√∞¬±√í 200000
+take Œ÷¬ÍΩ≈∆ 1
+give Ω±“ 200000
 set [275] 1
 goto @UMKING_WANG1_5_3
 
@@ -837,7 +837,7 @@ goto @UMKING_WANG1_5_1
 check [276] 0
 check [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_73
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_73
 
 
 [@UMKING_WANG1_5_2]
@@ -845,7 +845,7 @@ check [274] 1
 check [276] 0
 check [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_74
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_74
 
 
 [@UMKING_WANG1_5_3]
@@ -853,7 +853,7 @@ check [274] 1
 check [276] 0
 check [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_75
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_75
 
 
 [@UMKING_WANG1_6]
@@ -861,7 +861,7 @@ check [274] 1
 check [276] 0
 check [274] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_76
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_76
 
 
 [@UMKING_WANG1_7]
@@ -871,7 +871,7 @@ check [274] 1
 #ACT
 set [276] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_77
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_77
 
 }
 
@@ -879,7 +879,7 @@ set [276] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_78
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_78
 
 }
 
@@ -894,7 +894,7 @@ goto @UMKING_WANG3_0
 check [281] 0
 check [280] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_79
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_79
 
 
 [@UMKING_WANG3_1]
@@ -902,7 +902,7 @@ check [280] 1
 check [281] 0
 check [280] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_80
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_80
 
 
 [@UMKING_WANG3_2]
@@ -912,7 +912,7 @@ check [280] 1
 #ACT
 set [281] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_81
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_81
 
 }
 
@@ -920,7 +920,7 @@ set [281] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_82
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_82
 
 }
 
@@ -928,7 +928,7 @@ set [281] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_83
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_83
 
 }
 
@@ -936,7 +936,7 @@ set [281] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_84
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_84
 
 }
 
@@ -944,7 +944,7 @@ set [281] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_85
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_85
 
 }
 
@@ -952,7 +952,7 @@ set [281] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_86
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_86
 
 }
 
@@ -967,7 +967,7 @@ goto @UMKING_MUYUK1_0
 check [282] 0
 check [281] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_87
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_87
 
 
 [@UMKING_MUYUK1_1]
@@ -975,7 +975,7 @@ check [281] 1
 check [282] 0
 check [281] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_88
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_88
 
 
 [@UMKING_MUYUK1_2]
@@ -983,7 +983,7 @@ check [281] 1
 check [282] 0
 check [281] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_89
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_89
 
 
 [@UMKING_MUYUK1_3]
@@ -993,7 +993,7 @@ check [281] 1
 #ACT
 set [282] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_90
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_90
 
 }
 
@@ -1001,7 +1001,7 @@ set [282] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_91
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_91
 
 }
 
@@ -1016,18 +1016,18 @@ goto @UMKING_MUYUK3_0
 check [286] 0
 check [284] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_92
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_92
 
 
 [@UMKING_MUYUK3_1]
 #IF
-checkitem ¬µ√ò√ì√º√â√±√ñ√ì 1
+checkitem µÿ”¸…Ò÷” 1
 #ACT
 takecheckitem
-give √é√ñ√Ç√™¬Ω√∞√Ö√Ü 1
+give Œ÷¬ÍΩ≈∆ 1
 goto @UMKING_MUYUK3_2
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_93
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_93
 
 
 [@UMKING_MUYUK3_2]
@@ -1037,7 +1037,7 @@ check [284] 1
 #ACT
 set [286] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_94
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_94
 
 }
 
@@ -1045,6 +1045,6 @@ set [286] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/umyun.txt] @umyun_95
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\umyun.txt] @umyun_95
 
 }

@@ -3,29 +3,29 @@
 {
 #ACT
   goto @MonkeyIslandRootin
-
+  
 [@MonkeyIslandRootin]
 begin
    #IF
-     Equal  N4{Finish} 1      ;; Ã€ÃŒÂºÂ¥Ã†Â®Â¸Â¦ Â¿Ã®Â¿ÂµÃ€ÃšÂ°Â¡ ÃÃŸÂ´ÃœÃ€Â» Ã‡ÃŸÃ€Â»Â½Ãƒ
+     Equal  N4{Finish} 1      ;; ÀÌº¥Æ®¸¦ ¿î¿µÀÚ°¡ Áß´ÜÀ» ÇßÀ»½Ã
    #ACT
      break
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;; Â¹Â®Ã€Â» Â¿Â­Â°Ã­ Â´ÃÃ€Â½ ÃƒÂ¼Ã…Â©
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;; ¹®À» ¿­°í ´İÀ½ Ã¼Å©
 	#IF
-	  Small  N2{TIME}  30       ;; 30ÂºÃÃ€ÃŒ ÃÃ¶Â³ÂªÂ¸Ã© Ã€Ã”Ã€Ã¥Ã€ÃŒ ÂºÃ’Â°Â¡Â´Ã‰ Ã‡Ã”
+	  Small  N2{TIME}  30       ;; 30ºĞÀÌ Áö³ª¸é ÀÔÀåÀÌ ºÒ°¡´É ÇÔ
 	#ACT
-	  Mov    N3{OPEN}  1        ;; Â¹Â®Ã€Â» Â¿Â­Â¾Ã®ÂµÃ’
+	  Mov    N3{OPEN}  1        ;; ¹®À» ¿­¾îµÒ
 	#ELSEACT
-	  Mov    N3{OPEN}  0        ;; Â¹Â®Ã€Â» Â´ÃÂ¾Ã†ÂµÃ’
-
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;; Â¸ÃÂ¼Â¼ÃÃ¶ ÃƒÂ¼Ã…Â© Â±Â¸Â¹Â®
+	  Mov    N3{OPEN}  0        ;; ¹®À» ´İ¾ÆµÒ
+	
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;; ¸Ş¼¼Áö Ã¼Å© ±¸¹®
 	#IF
-	  Equal  N2{TIME}  30       ;; 30ÂºÃ ÃˆÃ„ Ã‚Ã¼Â°Â¡ Ã‡Ã’Â¼Ã¶ Â¾Ã¸Â´Ã™Â´Ã‚ Â¸ÃÂ¼Â¼ÃÃ¶Â°Â¡ ÂµÃ©Â¾Ã®Â°Â¨
+	  Equal  N2{TIME}  30       ;; 30ºĞ ÈÄ Âü°¡ ÇÒ¼ö ¾ø´Ù´Â ¸Ş¼¼Áö°¡ µé¾î°¨
 	#ACT
      LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg1]
 	  LineMsg  "01,Island02"  %A0
-
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;; 60ÂºÃÃ€ÃŒ ÃÃ¶Â³Â­ÃˆÃ„Â¿Â¡ Â½ÃÂ¿Ã¬ÃÃ¶ Â¾ÃŠÂ´Ã‚ Â°Ã¦Â¿Ã¬ ÃÃŸÂ¾Ã“Ã€Â¸Â·Ã Ã†ÃƒÂ±Ã¢Â°Ã”Ã‡Ã”(10ÂºÃ Â´ÃœÃ€Â§)
+	
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;; 60ºĞÀÌ Áö³­ÈÄ¿¡ ½Î¿ìÁö ¾Ê´Â °æ¿ì Áß¾ÓÀ¸·Î ÆÃ±â°ÔÇÔ(10ºĞ ´ÜÀ§)
 	#IF
 	   Equal N2{TIME}  60
    #ACT
@@ -41,43 +41,43 @@ begin
    #ACT
 		MapTing   Island02    Island02   100  133
 
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;; ÃÂ¾Â·Ã¡ Â½ÃƒÃÂ¡ ÃƒÂ¼Ã…Â©
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;; Á¾·á ½ÃÁ¡ Ã¼Å©
 	#IF
-	  Large  N2{TIME}  89       ;; 90ÂºÃÃ€ÃŒ ÃÃ¶Â³Â­ÃˆÃ„Â¿Â¡Â´Ã‚ Ã€ÃŒÂºÂ¥Ã†Â®Â°Â¡ ÃÂ¾Â·Ã¡ÂµÃŠ
+	  Large  N2{TIME}  89       ;; 90ºĞÀÌ Áö³­ÈÄ¿¡´Â ÀÌº¥Æ®°¡ Á¾·áµÊ
 	#ACT
 	  goto @IslandEvent_Fail
 	  break
 
 	#IF
-	  Large  N2{TIME}  30       ;; 30ÂºÃ Ã€ÃŒÃˆÃ„ 0Â¸Ã­ Ã€Ã–Ã€Â»Â½Ãƒ Â½Ã‡Ã†Ã
-	  !CheckHum  "Island02 100 125 125" 1
+	  Large  N2{TIME}  30       ;; 30ºĞ ÀÌÈÄ 0¸í ÀÖÀ»½Ã ½ÇÆĞ
+	  !CheckHum  "Island02 100 125 125" 1   
 	#ACT
 	  goto @IslandEvent_Fail
 	  break
 
 	#IF
-	  Equal  N3{OPEN}  0        ;; 30ÂºÃÃ€ÃŒ ÃÃ¶Â³ÂµÃ€Â»Â¶Â§ 5Â¸Ã­ Ã€ÃŒÃ‡Ã Ã€ÃÂ¶Â§ Â¼ÂºÂ°Ã¸ , Â»Ã§Â¶Ã·Â¼Ã¶=P9
-	  !CheckHum  "Island02 100 125 125" 6
+	  Equal  N3{OPEN}  0        ;; 30ºĞÀÌ Áö³µÀ»¶§ 5¸í ÀÌÇÏ ÀÏ¶§ ¼º°ø , »ç¶÷¼ö=P9
+	  !CheckHum  "Island02 100 125 125" 6   
 	#ACT
 	  goto @IslandReward
 	  break
-
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ÃÃŸÂ°Â£ ÂºÂ¸Â»Ã³ Â±Â¸Â¹Â® ÃƒÂ¼Ã…Â©
+	
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Áß°£ º¸»ó ±¸¹® Ã¼Å©
 	#IF
 	  Equal  N1{EVENT} 1
-	  Large  N8{GOLD}  13000000      ;; ÂµÂ·Ã€ÃŒ ÃƒÃ¦ÂºÃÃˆÃ· Â³Â²Â¾Ã’Ã€Â»Â½ÃƒÂ¿Â¡
-	  Equal  N2{TIME}  30            ;; 30ÂºÃÃ€ÃŒ ÃÃ¶Â³ÂµÃ€Â»Â¶Â§ Â°Â¡ Â¶Â³Â¾Ã®ÃÃ¼
+	  Large  N8{GOLD}  13000000      ;; µ·ÀÌ ÃæºĞÈ÷ ³²¾ÒÀ»½Ã¿¡
+	  Equal  N2{TIME}  30            ;; 30ºĞÀÌ Áö³µÀ»¶§ °¡ ¶³¾îÁü
 	#ACT
 	  goto @Island_Mid_Reward
-
+	
 	#IF
-	  Large  N8{GOLD}      11000000   ;; 5ÂºÃ Â¸Â¶Â´Ã™ 100Â¸Â¸Ã€Ã¼Â¾Â¿ Â¶Â³Â¾Ã®ÃÃ¼
+	  Large  N8{GOLD}      11000000   ;; 5ºĞ ¸¶´Ù 100¸¸Àü¾¿ ¶³¾îÁü
 	  !Small  N9{DropGold}  5
 	#ACT
 	  goto @Island_Tick_Reward
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  Â¹Â«Ã‡Ã‘ Â·Ã§Ã‡Ã ÂµÂ¹Â¸Â®Â´Ã‚ ÂºÃÂºÃ
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  ¹«ÇÑ ·çÇÁ µ¹¸®´Â ºÎºĞ
 	#IF
-	  Equal  N1{EVENT}  1           ;; Ã€ÃÂ¿Ã¸Â¼Ã¶ ÃƒÂ¼Ã…Â© Â¹Ã— Â½ÃƒÂ°Â£ ÃƒÂ¼Ã…Â© Â±Â¸Â¹Â®
+	  Equal  N1{EVENT}  1           ;; ÀÎ¿ø¼ö Ã¼Å© ¹× ½Ã°£ Ã¼Å© ±¸¹®
 	  CheckHum  "Island02 100 125 125"  0
 	#ACT
       LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg2]
@@ -88,22 +88,22 @@ begin
 		LineMsg "Island02"  %A2
 		Inc    N2{TIME}     1
 		Inc    N9{DropGold} 1
-		DelayGoto  [Grobal]  60  @MonkeyIslandRootin   ;; Â½Ã‡ÃÂ¦Â·Ã Ã‡Ã’Â¶Â§Â´Ã‚ 5-> 60Ã€Â¸Â·Ã ÂºÂ¯Â°Ã¦
+		DelayGoto  [Grobal]  60  @MonkeyIslandRootin   ;; ½ÇÁ¦·Î ÇÒ¶§´Â 5-> 60À¸·Î º¯°æ
 	#ELSEACT
-	   LineMsg "Island02" "ÂºÂ¸Â¹Â°Â¼Â¶Â¸ÃŠ Â¾ÃˆÂ¿Â¡Â´Ã‚ Â»Ã§Â¶Ã·Ã€ÃŒ Â¾Ã¸Â½Ã€Â´ÃÂ´Ã™. Â±Ã—Â·Â¡Â¼Â­ ÃÃ¸Ã‡Ã Ã€ÃŒ ÂºÃ’Â°Â¡Â´Ã‰ Ã‡Ã•Â´ÃÂ´Ã™."
-      DelayGoto  [Grobal]  5  @MonkeyIslandRootin   ;; Ã€ÃŒÂºÃÂºÃÃ€Âº ÂºÂ¯Â°Ã¦ Ã‡ÃÃÃ¶ Â¾ÃŠÂ±Ã¢Â¸Â¦ Â¹Ã™Â¶Ã·
+	   LineMsg "Island02" "º¸¹°¼¶¸Ê ¾È¿¡´Â »ç¶÷ÀÌ ¾ø½À´Ï´Ù. ±×·¡¼­ ÁøÇàÀÌ ºÒ°¡´É ÇÕ´Ï´Ù."
+      DelayGoto  [Grobal]  5  @MonkeyIslandRootin   ;; ÀÌºÎºĞÀº º¯°æ ÇÏÁö ¾Ê±â¸¦ ¹Ù¶÷
 end
 
 [@IslandEvent_Fail]
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ã€ÃŒÂºÂ¥Ã†Â® Â½Ã‡Ã†ÃÂ½Ãƒ
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ÀÌº¥Æ® ½ÇÆĞ½Ã
 begin
 	#ACT
 		Mov  N1{EVENT}  0
 		SaveValue "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold" %N8
 		MapTing   Island02    01 100 130
-		MonClear  "Island02"  "Ã”Â³ÂºÃ¯Ã•Â½ÃŠÂ¿"
-		MonClear  "Island02"  "Ã”Â³ÂºÃ¯Ã•Â½Â½Â«"
-		MonClear  "Island02"  "Ã„Â§Ã‰Ã±Â¹Ã–1"
+		MonClear  "Island02"  "Ô³ºïÕ½Ê¿"
+		MonClear  "Island02"  "Ô³ºïÕ½½«"
+		MonClear  "Island02"  "Ä§Éñ¹Ö1"
       LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg5]
       LoadValue A1 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg6]
 		LineMsg   "Grobal"  %A0
@@ -112,35 +112,35 @@ begin
 end
 
 [@Island_Tick_Reward]
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 5ÂºÃ Â¸Â¶Â´Ã™ Â¶Â³Â¾Ã®ÃÃ¶Â´Ã‚ Â»Ã³Â±Ã
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 5ºĞ ¸¶´Ù ¶³¾îÁö´Â »ó±İ
 begin
   #IF
       Large  N8{GOLD}   5000000
   #ACT
       LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg7]
 		LineMsg "Island02" %A0
-		MonGenP "Island02,100,130,5" Â¾Ã›Â±Â¦ÃÃ¤4 1 "noitem,Â½Ã°Â±Ã’,100000"
-		MonGenP "Island02,100,130,5" Â¾Ã›Â±Â¦ÃÃ¤4 1 "noitem,Â½Ã°Â±Ã’,100000"
-		MonGenP "Island02,100,130,5" Â¾Ã›Â±Â¦ÃÃ¤4 1 "noitem,Â½Ã°Â±Ã’,1000000"
+		MonGenP "Island02,100,130,5" ¾Û±¦Ïä4 1 "noitem,½ğ±Ò,100000"
+		MonGenP "Island02,100,130,5" ¾Û±¦Ïä4 1 "noitem,½ğ±Ò,100000"
+		MonGenP "Island02,100,130,5" ¾Û±¦Ïä4 1 "noitem,½ğ±Ò,1000000"
 		Dec    N8{GOLD}      1000000
 		Mov    N9{DropGold}  0
 end
 
 [@Island_Mid_Reward]
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ÃÃŸÂ°Â£ Â»Ã³Â±Ã
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Áß°£ »ó±İ
 begin
 	#IF
 		Large  N8{GOLD}   5000000
 	#ACT
       LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg8]
 		LineMsg "Island02" %A0
-		MonGenP "Island02,100,130,5" Â¾Ã›Â±Â¦ÃÃ¤4 1 "noitem,Â½Ã°Â±Ã’,300000"
-		MonGenP "Island02,100,130,5" Â¾Ã›Â±Â¦ÃÃ¤4 1 "noitem,Â½Ã°Â±Ã’,300000"
-		MonGenP "Island02,100,130,5" Â¾Ã›Â±Â¦ÃÃ¤4 1 "noitem,Â½Ã°Â±Ã’,3000000"
+		MonGenP "Island02,100,130,5" ¾Û±¦Ïä4 1 "noitem,½ğ±Ò,300000"
+		MonGenP "Island02,100,130,5" ¾Û±¦Ïä4 1 "noitem,½ğ±Ò,300000"
+		MonGenP "Island02,100,130,5" ¾Û±¦Ïä4 1 "noitem,½ğ±Ò,3000000"
 		Dec    N8{GOLD}     3000000
 
 [@IslandReward]
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€ÃŒÂºÂ¥Ã†Â® ÂºÂ¸Â»Ã³ Â±Ã¢ÂºÂ»
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; º¸¹°¼¶ ÀÌº¥Æ® º¸»ó ±âº»
 begin
   #ACT
 		Mov  N1{EVENT}  0
@@ -151,45 +151,45 @@ begin
 		LineMsg "Grobal"   %A0
 		LineMsg "Island02" %A1
 		LineMsg "Island02" %A2
-		MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½ÃŠÂ¿"
-		MonClear "Island02" "Ã”Â³ÂºÃ¯Ã•Â½Â½Â«"
-		MonClear "Island02" "Ã„Â§Ã‰Ã±Â¹Ã–1"
-		MonClear "Island02" "Â¾Ã›Â±Â¦ÃÃ¤4"
-		SendCmd "Island02, 95, 135, 5"  Ã‰ÃºÂ´Ã¦Ã“ÃÃÂ·Â³Â¡ÃƒÃ€ÃƒÂ¼  Show
+		MonClear "Island02" "Ô³ºïÕ½Ê¿"
+		MonClear "Island02" "Ô³ºïÕ½½«"
+		MonClear "Island02" "Ä§Éñ¹Ö1"
+		MonClear "Island02" "¾Û±¦Ïä4"
+		SendCmd "Island02, 95, 135, 5"  Éú´æÓÎÏ·³¡ÃÀÃ¼  Show
 		MapTing  Island02  Island02  100  130
       Mov N6{Reward} 1
       Delaygoto  [Grobal]  1800 @Reward_Time_Check
 		goto @MultIslandReward
-end
+end                
 
 [@Reward_Time_Check]
 begin
         #IF
-                Equal N6{Reward} 1  ;; Ã€ÃŒÂºÂ¥Ã†Â® ÃÂ¾Â·Ã¡ ÃˆÃ„, ÂºÂ¸Â»Ã³Ã€Â» Â¸Ã”Ã€Â» Ã€ÃÃÂ¤ Â½ÃƒÂ°Â£Ã€Â» ÃÃœ.
+                Equal N6{Reward} 1  ;; ÀÌº¥Æ® Á¾·á ÈÄ, º¸»óÀ» ¸ÔÀ» ÀÏÁ¤ ½Ã°£À» ÁÜ.
         #ACT
                 Mov N6{Reward}    0
                 Mov N7{Fin_Chk}   1
 end
 [@MultIslandReward]
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ÂºÂ¸Â¹Â°Â¼Â¶ Ã€ÃŒÂºÂ¥Ã†Â® ÂºÂ¸Â»Ã³ Â»Ã³Ã€Ãš ÃÂ¨
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; º¸¹°¼¶ ÀÌº¥Æ® º¸»ó »óÀÚ Á¨
 begin
 	#IF
-		Large N8{GOLD}   5000000          ;; ÂºÂ¸Â¹Â° Â»Ã³Ã€ÃšÂ¿Â¡ Â±ÃÂ¾Ã—Ã€Â» 5Â¹Ã©Â¸Â¸Ã€Ã¼Ã€Â¸Â·Ã ÃÂ¦Ã‡Ã‘(Â¸Ã–Ã†Â¼Â·Ã Â»Ã‘Â¸Â²)
+		Large N8{GOLD}   5000000          ;; º¸¹° »óÀÚ¿¡ ±İ¾×À» 5¹é¸¸ÀüÀ¸·Î Á¦ÇÑ(¸ÖÆ¼·Î »Ñ¸²)
 	#ACT
-		Dec   N8{GOLD}   5000000          ;; Â»Ã³Â±ÃÃ€Â» Â°Â¨Â¼Ã’ Â½ÃƒÃ†Ã€
-		FormatStr "noitem,Â½Ã°Â±Ã’,%s" 5000000
-		MonGenP "Island02,100,130, 8" Â¾Ã›Â±Â¦ÃÃ¤4 1 %A9
+		Dec   N8{GOLD}   5000000          ;; »ó±İÀ» °¨¼Ò ½ÃÆÀ
+		FormatStr "noitem,½ğ±Ò,%s" 5000000
+		MonGenP "Island02,100,130, 8" ¾Û±¦Ïä4 1 %A9
 		goto @MultIslandReward
 	#ELSEACT
     	LoadValue A0 [Gm_Def\Event\Island\BlanceSetting.txt] [Island_Reword] [Reword1]
 		LoadValue A1 [Gm_Def\Event\Island\BlanceSetting.txt] [Island_Reword] [Reword2]
 		LoadValue A2 [Gm_Def\Event\Island\BlanceSetting.txt] [Island_Reword] [Reword3]
-		FormatStr "noitem,Â½Ã°Â±Ã’,%s" %N8
-		MonGenP "Island02,100,130, 8" Â¾Ã›Â±Â¦ÃÃ¤4 1 %A9
+		FormatStr "noitem,½ğ±Ò,%s" %N8
+		MonGenP "Island02,100,130, 8" ¾Û±¦Ïä4 1 %A9
       FormatStr "noitem,%s,%s," %A0 %A1
       mov A3 %A9
       Addstr A3 %A2
-		MonGenP "Island02,100,130, 4" Â¾Ã›Â±Â¦ÃÃ¤4 1 %A3
+		MonGenP "Island02,100,130, 4" ¾Û±¦Ïä4 1 %A3
 		SaveValue "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold" 0
 end
 }

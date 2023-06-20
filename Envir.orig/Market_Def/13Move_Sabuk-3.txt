@@ -1,3 +1,0 @@
-;;13Move_Sabuk-3.txt
-[@main]
-#CALL [teleport\SabukTele.txt] @Sabuk_Teleport

@@ -4,13 +4,13 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/MongChonTele.txt] @MongChonTele_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\MongChonTele.txt] @MongChonTele_1
 
 #ELSEACT
-mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
+mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
 }
 ;-------------------------------------------------------------------------------
 [@Monchon_Teleport_West]
@@ -18,11 +18,11 @@ mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/MongChonTele.txt] @MongChonTele_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\MongChonTele.txt] @MongChonTele_2
 
 #ELSEACT
-mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
+mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
 }

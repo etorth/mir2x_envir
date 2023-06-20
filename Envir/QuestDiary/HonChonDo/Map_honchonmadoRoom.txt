@@ -1,8 +1,8 @@
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––
 [@honchonmadoRoom_1]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @Madoroom_ok
 break
@@ -20,7 +20,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_0
 
 #ACT
 Enter_fail
@@ -32,7 +32,7 @@ Checkhum D1606 1
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_1
 
 #ELSEACT
 goto @main_Day_ok1
@@ -79,17 +79,17 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_2
 
 #ACT
 Enter_fail
 
 [@main_Day_ok_1]
 #IF
-Checkitem ÊØÅÁÅ≠‰πãÂç∞ 1
+Checkitem ªŸ√÷Æ”° 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_3
 
 #ACT
 Enter_fail
@@ -97,7 +97,7 @@ Enter_fail
 Enter_fail
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_4
 
 [@main_Day_ok_2]
 #ACT
@@ -112,11 +112,11 @@ MAPMOVE D16062 37 48
 
 [@Madoroom_ok]
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 !checkhum D1606 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_5
 
 #ACT
 Enter_fail
@@ -124,7 +124,7 @@ Enter_fail
 Enter_fail
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\Map_honchonmadoRoom.txt] @Convert_Map_honchonmadoRoom_6
 
 [@Madoroom_ok_2]
 #ACT
@@ -136,4 +136,4 @@ GroupMove "D1606,37,48" %USERNAME
 MAPMOVE D1606 37 48
 
 }
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––

@@ -55,7 +55,7 @@ goto @jombi5_1
 [@jombi5_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_SujunZombie.txt] @Nm_SujunZombie_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_SujunZombie.txt] @Nm_SujunZombie_1
 
 #ACT
 Monclear E402_001

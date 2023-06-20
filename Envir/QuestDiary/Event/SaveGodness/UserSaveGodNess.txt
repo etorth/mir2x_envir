@@ -4,15 +4,15 @@
 begin
    #ACT
       goto @UserMainRootin
-
+   
    [@UserMainRootin]
    begin
       #IF
          !CheckNameList "..\Flag_Def\Event\SaveGodNessName.txt"
       #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Event/SaveGodness/UserSaveGodNess.txt] @UserSaveGodNess_1
-         <$USERNAME>å¥³ç¥å·²ç»ç»™é‚ªæ¶çš„é¦–é¢†å›šç¦åœ¨é»‘æš—çš„æ·±å¤„ï¼Œå¥¹éœ€è¦ä½ ä»¬è¥æ•‘ï¼ŒæŠŠå¥¹æ•‘å‡ºï¼Œå¹¸è¿å°†é™ªä¼´åœ¨æ‚¨èº«è¾¹ \ \
-         <è¯·æ‚¨å¡«å†™æ‚¨é˜Ÿä¼é‡Œæ‰€æœ‰æˆå‘˜çš„è§’è‰²åç§°./@CombineSaveGodnessEvent> \
+	#INCLUDE [..\Convert_Def\QuestDiary\Event\SaveGodness\UserSaveGodNess.txt] @UserSaveGodNess_1
+         <$USERNAME>Å®ÉñÒÑ¾­¸øĞ°¶ñµÄÊ×ÁìÇô½ûÔÚºÚ°µµÄÉî´¦£¬ËıĞèÒªÄãÃÇÓª¾È£¬°ÑËı¾È³ö£¬ĞÒÔË½«Åã°éÔÚÄúÉí±ß \ \
+         <ÇëÄúÌîĞ´Äú¶ÓÎéÀïËùÓĞ³ÉÔ±µÄ½ÇÉ«Ãû³Æ./@CombineSaveGodnessEvent> \
    end
 
    [@CombineSaveGodnessEvent]
@@ -20,106 +20,106 @@ begin
 	   #ACT
 	      LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
 	      LoadValue P2 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [GateState]
-
+	   
 	   #IF
-	      Equal     P1             1   ;; å’¯è„š å¤‡çªæ‰ æäº¥é£˜ æ›¼å•Š è„šæ²¡ ç½ç»° æ‰åŸƒ è€ ç‰ˆå¿«
-	      Equal     P2             0   ;; å·©æ å‡¯å•¡é˜‘ ç‰ˆå¿«
+	      Equal     P1             1   ;; ¿©½Å ±¸ÇÏ±â ÀÌº¥Æ® Âü°¡ ½ÅÃ» ¹Ş´Â ±â°£ ÀÏ °æ¿ì
+	      Equal     P2             0   ;; ¹®ÀÌ ¿­·ÈÀ» °æ¿ì
       #ACT
-         SaveLog   "Flag_Def\Event\SaveGodNessName.txt"  %USERNAME   ;; æ›¼å•Šç£Š ç–™çªœä¿Š å†å˜çªƒ
-         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [GateState] 1 ;; æäº¥é£˜å·©é˜‘ æ‘§æ¾œ
-         ;; å¼Šç¼ç›” æ¶ä»¿ æ‰ç“· æ¢…å•Š
-         ;; å¼Šç¼ç‚‰ ææ‚¼
-         Delaygoto [Grobal] 10   @StartSaveGodNessControl1  ;; è§’é¾™åˆ©ç‰¢ æäº¥é£˜å•Š çŸ«ç´¯çªƒ
-         Delaygoto [Grobal] 300  @OpenTheGate  ;; æª¬æ‰æ‹³ é£å‡­æ è‚º ä¿ƒæ¾œ æ›¼å•Šç£Šå•Š ç”¸ç»¢å•Šæ‰å•Š å•Šç“·çªƒ
+         SaveLog   "Flag_Def\Event\SaveGodNessName.txt"  %USERNAME   ;; Âü°¡ÀÚ ¸í´Ü¿¡ ÀúÀåÇÔ
+         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [GateState] 1 ;; ÀÌº¥Æ®¹®À» ´İÀ½
+         ;; ±×·ì¿ø ÀÔ·Â ±â´É Ã·°¡
+         ;; ±×·ìÂ¯ ÀÌµ¿
+         Delaygoto [Grobal] 10   @StartSaveGodNessControl1  ;; ½ÇÁúÀûÀÎ ÀÌº¥Æ®°¡ ½ÃÀÛÇÔ
+         Delaygoto [Grobal] 300  @OpenTheGate  ;; ÃÊ±âÈ­ ·çÆ¾À¸·Î ´ÙÀ½ Âü°¡ÀÚ°¡ µé¾î°¡±â°¡ °¡´ÉÇÔ
    end
-
+   
    [@OpenTheGate]
    begin
       #ACT
-         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [GateState] 0 ;; æäº¥é£˜å·©é˜‘ å‡¯ç»¢ç‹„
+         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [GateState] 0 ;; ÀÌº¥Æ®¹®À» ¿­¾îµÒ
    end
 ;-------------------------------------------------------------------------------------------------------------
    [@StartSaveGodNessControl1]
    begin
-      #ACT      ;; æª¬ç„Šç²® èƒ¶æŠ›æç˜¤(è´¸æ¾œçŸ«ç´¯)
-         MonClear "EVGS01"    ;; é˜èƒ¶ç£ æ˜åŠ›
-			ClearItemMap "EVGS01,25,25,25"  æ£                              ;; åŠªåºœç»¢ ä½•ç›’
-			ClearItemMap "EVGS01,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)
-			ClearItemMap "EVGS01,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)
+      #ACT      ;; ÃÊº¸Á¸ ½ºÅ×ÀÌÁö(Ã³À½½ÃÀÛ)
+         MonClear "EVGS01"    ;; ¸ó½ºÅÍ »èÁ¦
+			ClearItemMap "EVGS01,25,25,25"  µ·                              ;; Å¬¸®¾î ºÎºĞ
+			ClearItemMap "EVGS01,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)
+			ClearItemMap "EVGS01,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)
          mapting EVGS00 EVGS01 25 25
-			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen1  ;; é˜èƒ¶ç£ å“© ä½•ç›’
-         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg1     ;; çš‹æŠ€ç˜¤ è°å¦¨ æ—ç»° ä½•ç›’
-         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword1  ;; åºœå†µé› ä½•ç›’
-			Delaygoto [Grobal]   300       @StartSaveGodNessMainGame_Control2 ;; ä¿ƒæ¾œ çªœæ‹Œè‚º é€ç»¢çš‘
+			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen1  ;; ¸ó½ºÅÍ Á¨ ºÎºĞ
+         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg1     ;; ¸Ş¼¼Áö »Ñ·Á ÁÖ´Â ºÎºĞ
+         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword1  ;; ¸®¿öµå ºÎºĞ
+			Delaygoto [Grobal]   300       @StartSaveGodNessMainGame_Control2 ;; ´ÙÀ½ ´Ü°è·Î ³Ñ¾î°¨
    end
 
    [@StartSaveGodNessMainGame_MonZen1]
    begin
       #ACT
-         MonGenP  "EVGS01,25,25,25"         è¡—æ¡£å°ç§¦æ¦œ      10   "noitem"   ;; çŸ«è®¿ ä½•ç›’
-	 MonGenP  "EVGS01,25,25,25"         å‚ˆå“            10   "noitem"
-	 MonGenP  "EVGS01,25,25,25"         ç§¦æ¦œ            5    "noitem"
-	 MonGenP  "EVGS01,25,25,25"         å¥´æ¡£å°ç§¦æ¦œ      5    "noitem"
-	 MonGenP  "EVGS01,25,25,25"         ç§¦æ¦œå‚ˆè¤        5    "noitem"
-	 MonGenP  "EVGS01,25,25,25"         åŒ…å† é›¶          10   "noitem"
-
+         MonGenP  "EVGS01,25,25,25"         ½Öµµ³¢ÇØ°ñ      10   "noitem"   ;; ½Ã·Ã ºÎºĞ
+	 MonGenP  "EVGS01,25,25,25"         Àü°¥            10   "noitem"
+	 MonGenP  "EVGS01,25,25,25"         ÇØ°ñ            5    "noitem"
+	 MonGenP  "EVGS01,25,25,25"         Å«µµ³¢ÇØ°ñ      5    "noitem"
+	 MonGenP  "EVGS01,25,25,25"         ÇØ°ñÀü»ç        5    "noitem"
+	 MonGenP  "EVGS01,25,25,25"         °ü¹ÚÁã          10   "noitem"
+	 
    end
 
    [@StartSaveGodNessMainGame_Msg1]
    begin
       #ACT
-         EventMsg [EVGS01] "å¥³ç¥å·²ç»ç»™é‚ªæ¶çš„é¦–é¢†å›šç¦åœ¨é»‘æš—çš„æ·±å¤„ï¼Œå¥¹éœ€è¦ä½ ä»¬è¥æ•‘ï¼ŒæŠŠå¥¹æ•‘å‡ºï¼Œå¹¸è¿å°†é™ªä¼´åœ¨æ‚¨èº«è¾¹."
+         EventMsg [EVGS01] "Å®ÉñÒÑ¾­¸øĞ°¶ñµÄÊ×ÁìÇô½ûÔÚºÚ°µµÄÉî´¦£¬ËıĞèÒªÄãÃÇÓª¾È£¬°ÑËı¾È³ö£¬ĞÒÔË½«Åã°éÔÚÄúÉí±ß."
    end
 
    [@StartSaveGodNessMainGame_Reword1]
    begin
       #ACT
-         DropItemMap  "EVGS01,25,25,25"  æ£              5000  10        ;; ç„Šæƒ‘ ä½•ç›’
-         DropItemMap  "EVGS01,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)  5     20
-         DropItemMap  "EVGS01,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)  5     10
+         DropItemMap  "EVGS01,25,25,25"  µ·              5000  10        ;; º¸»ó ºÎºĞ
+         DropItemMap  "EVGS01,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)  5     20
+         DropItemMap  "EVGS01,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)  5     10
    end
 
 ;-------------------------------------------------------------------------------------------------------------
    [@StartSaveGodNessMainGame_Control2]
    begin
       #IF
-         !CheckMonMap "EVGS01,25,25,25" 0       ;; å‚ˆ èƒ¶æŠ›æç˜¤å•Š åŠªåºœç»¢ ç™»ç»¢ç™»èŒç»°ç˜¤ çŠ¬ç‰¢
-      #ACT      ;; åé­ç²® èƒ¶æŠ›æç˜¤
-         MapTing  EVGS01   EVGS02  25  25     ;; ç²® ææ‚¼
-         MonClear "EVGS02"    ;; é˜èƒ¶ç£ æ˜åŠ›
-			ClearItemMap "EVGS02,25,25,25"  æ£                              ;; æ£é˜‘ ç˜¤æ¡†
-			ClearItemMap "EVGS02,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)
-			ClearItemMap "EVGS02,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)
-			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen2  ;; é˜èƒ¶ç£ å“© ä½•ç›’
-         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg2     ;; çš‹æŠ€ç˜¤ è°å¦¨ æ—ç»° ä½•ç›’
-         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword2  ;; åºœå†µé› ä½•ç›’
-			Delaygoto [Grobal]   600       @StartSaveGodNessMainGame_Control3 ;; ä¿ƒæ¾œ çªœæ‹Œè‚º é€ç»¢çš‘
+         !CheckMonMap "EVGS01,25,25,25" 0       ;; Àü ½ºÅ×ÀÌÁö°¡ Å¬¸®¾î µÇ¾îµÇ¾ú´ÂÁö È®ÀÎ
+      #ACT      ;; Áß±ŞÁ¸ ½ºÅ×ÀÌÁö
+         MapTing  EVGS01   EVGS02  25  25     ;; Á¸ ÀÌµ¿
+         MonClear "EVGS02"    ;; ¸ó½ºÅÍ »èÁ¦
+			ClearItemMap "EVGS02,25,25,25"  µ·                              ;; µ·À» Áö¿ò
+			ClearItemMap "EVGS02,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)
+			ClearItemMap "EVGS02,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)
+			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen2  ;; ¸ó½ºÅÍ Á¨ ºÎºĞ
+         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg2     ;; ¸Ş¼¼Áö »Ñ·Á ÁÖ´Â ºÎºĞ
+         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword2  ;; ¸®¿öµå ºÎºĞ
+			Delaygoto [Grobal]   600       @StartSaveGodNessMainGame_Control3 ;; ´ÙÀ½ ´Ü°è·Î ³Ñ¾î°¨
 		#ELSEACT
-		   MapTing  EVGS01   01 100 130     ;; è§’è©çªƒ
+		   MapTing  EVGS01   01 100 130     ;; ½ÇÆĞÇÔ
 	end
 
 	[@StartSaveGodNessMainGame_MonZen2]
 	begin
 	   #ACT
-           MonGenP  "EVGS02,25,25,25"         å·¨å›½        15    "noitem"   ;; çŸ«è®¿ ä½•ç›’
-           MonGenP  "EVGS02,25,25,25"         ç˜¤åŒ™        15    "noitem"
-	   MonGenP  "EVGS02,25,25,25"         ç¬¼éœ¸å›½é¥­    10    "noitem"
-	   MonGenP  "EVGS02,25,25,25"         å­ºæ‘¹        10    "noitem"
-	   MonGenP  "EVGS02,25,25,25"         é¾‹ç«‹é¢      10    "noitem"
+           MonGenP  "EVGS02,25,25,25"         ¾Ş¹ú        15    "noitem"   ;; ½Ã·Ã ºÎºĞ
+           MonGenP  "EVGS02,25,25,25"         Áö³×        15    "noitem"
+	   MonGenP  "EVGS02,25,25,25"         Áı°Ô¹ú·¹    10    "noitem"
+	   MonGenP  "EVGS02,25,25,25"         ÈæÄ¡        10    "noitem"
+	   MonGenP  "EVGS02,25,25,25"         È£Á¢Ãæ      10    "noitem"
 	end
-
+	
    [@StartSaveGodNessMainGame_Msg2]
    begin
       #ACT
-         EventMsg [EVGS02] "å¥³ç¥å·²ç»ç»™é‚ªæ¶çš„é¦–é¢†å›šç¦åœ¨é»‘æš—çš„æ·±å¤„ï¼Œå¥¹éœ€è¦ä½ ä»¬è¥æ•‘ï¼ŒæŠŠå¥¹æ•‘å‡ºï¼Œå¹¸è¿å°†é™ªä¼´åœ¨æ‚¨èº«è¾¹."
+         EventMsg [EVGS02] "Å®ÉñÒÑ¾­¸øĞ°¶ñµÄÊ×ÁìÇô½ûÔÚºÚ°µµÄÉî´¦£¬ËıĞèÒªÄãÃÇÓª¾È£¬°ÑËı¾È³ö£¬ĞÒÔË½«Åã°éÔÚÄúÉí±ß."
    end
 
 	[@StartSaveGodNessMainGame_Reword2]
 	begin
 	   #ACT
-         DropItemMap  "EVGS02,25,25,25"  æ£              5000  20        ;; ç„Šæƒ‘ ä½•ç›’
-         DropItemMap  "EVGS02,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)  5     20
-         DropItemMap  "EVGS02,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)  5     10
+         DropItemMap  "EVGS02,25,25,25"  µ·              5000  20        ;; º¸»ó ºÎºĞ
+         DropItemMap  "EVGS02,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)  5     20
+         DropItemMap  "EVGS02,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)  5     10
 	end
 
 ;-------------------------------------------------------------------------------------------------------------
@@ -127,44 +127,44 @@ begin
    begin
       #IF
          !CheckMonMap "EVGS02,25,25,25" 0
-      #ACT      ;; åé­ç²® èƒ¶æŠ›æç˜¤
-         MonClear "EVGS03"    ;; é˜èƒ¶ç£ æ˜åŠ›
-			ClearItemMap "EVGS03,25,25,25"  æ£                              ;; æ£é˜‘ ç˜¤æ¡†
-			ClearItemMap "EVGS03,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)
-			ClearItemMap "EVGS03,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)
-         MapTing  EVGS02   EVGS03  25  25     ;; ç²® ææ‚¼
-			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen3  ;; é˜èƒ¶ç£ å“© ä½•ç›’
-         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg3     ;; çš‹æŠ€ç˜¤ è°å¦¨ æ—ç»° ä½•ç›’
-         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword3  ;; åºœå†µé› ä½•ç›’
-			Delaygoto [Grobal]   900       @StartSaveGodNessMainGame_Control4   ;; ä¿ƒæ¾œ çªœæ‹Œè‚º é€ç»¢çš‘
+      #ACT      ;; Áß±ŞÁ¸ ½ºÅ×ÀÌÁö
+         MonClear "EVGS03"    ;; ¸ó½ºÅÍ »èÁ¦
+			ClearItemMap "EVGS03,25,25,25"  µ·                              ;; µ·À» Áö¿ò
+			ClearItemMap "EVGS03,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)
+			ClearItemMap "EVGS03,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)
+         MapTing  EVGS02   EVGS03  25  25     ;; Á¸ ÀÌµ¿
+			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen3  ;; ¸ó½ºÅÍ Á¨ ºÎºĞ
+         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg3     ;; ¸Ş¼¼Áö »Ñ·Á ÁÖ´Â ºÎºĞ
+         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword3  ;; ¸®¿öµå ºÎºĞ
+			Delaygoto [Grobal]   900       @StartSaveGodNessMainGame_Control4   ;; ´ÙÀ½ ´Ü°è·Î ³Ñ¾î°¨
 		#ELSEACT
-		   MapTing  EVGS02   01 100 130     ;; è§’è©çªƒ
+		   MapTing  EVGS02   01 100 130     ;; ½ÇÆĞÇÔ
 	end
 
    [@StartSaveGodNessMainGame_MonZen3]
    begin
       #ACT
-         MonGenP "EVGS03,25,25,25"         é¦†å…·è“–å‡‰        10    "noitem"   ;; çŸ«è®¿ ä½•ç›’
-         MonGenP "EVGS03,25,25,25"         é¦†å…·è‘«è“–        5     "noitem"
-	 MonGenP "EVGS03,25,25,25"         é¦†å…·æ¬¾è“–        5     "noitem"
-	 MonGenP "EVGS03,25,25,25"         é¦†å…·æ‹³è“–        5     "noitem"
-	 MonGenP "EVGS03,25,25,25"         é¦†å…·æµ…è“–        5     "noitem"
-	 MonGenP "EVGS03,25,25,25"         é¦†å…·è°…è¤        5     "noitem"
-	 MonGenP "EVGS03,25,25,25"         é¦†å…·å¿«è¤        5     "noitem"
+         MonGenP "EVGS03,25,25,25"         ¹İ¾ß±ÍÁ¹        10    "noitem"   ;; ½Ã·Ã ºÎºĞ
+         MonGenP "EVGS03,25,25,25"         ¹İ¾ßºù±Í        5     "noitem"
+	 MonGenP "EVGS03,25,25,25"         ¹İ¾ß¿î±Í        5     "noitem"
+	 MonGenP "EVGS03,25,25,25"         ¹İ¾ßÈ­±Í        5     "noitem"
+	 MonGenP "EVGS03,25,25,25"         ¹İ¾ßÇ³±Í        5     "noitem"
+	 MonGenP "EVGS03,25,25,25"         ¹İ¾ßÁÂ»ç        5     "noitem"
+	 MonGenP "EVGS03,25,25,25"         ¹İ¾ß¿ì»ç        5     "noitem"
    end
 
    [@StartSaveGodNessMainGame_Msg3]
    begin
       #ACT
-         EventMsg [EVGS03] "å¥³ç¥å·²ç»ç»™é‚ªæ¶çš„é¦–é¢†å›šç¦åœ¨é»‘æš—çš„æ·±å¤„ï¼Œå¥¹éœ€è¦ä½ ä»¬è¥æ•‘ï¼ŒæŠŠå¥¹æ•‘å‡ºï¼Œå¹¸è¿å°†é™ªä¼´åœ¨æ‚¨èº«è¾¹."
+         EventMsg [EVGS03] "Å®ÉñÒÑ¾­¸øĞ°¶ñµÄÊ×ÁìÇô½ûÔÚºÚ°µµÄÉî´¦£¬ËıĞèÒªÄãÃÇÓª¾È£¬°ÑËı¾È³ö£¬ĞÒÔË½«Åã°éÔÚÄúÉí±ß."
    end
 
    [@StartSaveGodNessMainGame_Next3]
    begin
       #ACT
-         DropItemMap  "EVGS03,25,25,25"  æ£              5000  30        ;; ç„Šæƒ‘ ä½•ç›’
-         DropItemMap  "EVGS03,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)  5     20
-         DropItemMap  "EVGS03,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)  5     10
+         DropItemMap  "EVGS03,25,25,25"  µ·              5000  30        ;; º¸»ó ºÎºĞ
+         DropItemMap  "EVGS03,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)  5     20
+         DropItemMap  "EVGS03,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)  5     10
    end
 
 ;-------------------------------------------------------------------------------------------------------------
@@ -172,39 +172,39 @@ begin
    begin
       #IF
          !CheckMonMap "EVGS03,25,25,25" 0
-      #ACT      ;; åé­ç²® èƒ¶æŠ›æç˜¤
-         MapTing  EVGS03   EVGS04  25  25     ;; ç²® ææ‚¼
-         MonClear "EVGS04"    ;; é˜èƒ¶ç£ æ˜åŠ›
-			ClearItemMap "EVGS04,25,25,25"  æ£                              ;; æ£é˜‘ ç˜¤æ¡†
-			ClearItemMap "EVGS04,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)
-			ClearItemMap "EVGS04,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)
-			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen4  ;; é˜èƒ¶ç£ å“© ä½•ç›’
-         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg4     ;; çš‹æŠ€ç˜¤ è°å¦¨ æ—ç»° ä½•ç›’
-         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword4  ;; åºœå†µé› ä½•ç›’
-			Delaygoto [Grobal]   1200       @StartSaveGodNessMainGame_Control5 ;; ä¿ƒæ¾œ çªœæ‹Œè‚º é€ç»¢çš‘
+      #ACT      ;; Áß±ŞÁ¸ ½ºÅ×ÀÌÁö
+         MapTing  EVGS03   EVGS04  25  25     ;; Á¸ ÀÌµ¿
+         MonClear "EVGS04"    ;; ¸ó½ºÅÍ »èÁ¦
+			ClearItemMap "EVGS04,25,25,25"  µ·                              ;; µ·À» Áö¿ò
+			ClearItemMap "EVGS04,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)
+			ClearItemMap "EVGS04,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)
+			Delaygoto [Grobal]   5         @StartSaveGodNessMainGame_MonZen4  ;; ¸ó½ºÅÍ Á¨ ºÎºĞ
+         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg4     ;; ¸Ş¼¼Áö »Ñ·Á ÁÖ´Â ºÎºĞ
+         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword4  ;; ¸®¿öµå ºÎºĞ
+			Delaygoto [Grobal]   1200       @StartSaveGodNessMainGame_Control5 ;; ´ÙÀ½ ´Ü°è·Î ³Ñ¾î°¨
 		#ELSEACT
-		   MapTing  EVGS03   01 100 130     ;; è§’è©çªƒ
+		   MapTing  EVGS03   01 100 130     ;; ½ÇÆĞÇÔ
 	end
 
    [@StartSaveGodNessMainGame_MonZen4]
    begin
       #ACT
-         MonGenP "EVGS04,25,25,25"         è¤å¿«ç«ç©º        1     "noitem"   ;; çŸ«è®¿ ä½•ç›’
+         MonGenP "EVGS04,25,25,25"         »ç¿ìÃµ¿Õ        1     "noitem"   ;; ½Ã·Ã ºÎºĞ
 
    end
 
    [@StartSaveGodNessMainGame_Msg4]
    begin
       #ACT
-         EventMsg [EVGS04] "å¥³ç¥å·²ç»ç»™é‚ªæ¶çš„é¦–é¢†å›šç¦åœ¨é»‘æš—çš„æ·±å¤„ï¼Œå¥¹éœ€è¦ä½ ä»¬è¥æ•‘ï¼ŒæŠŠå¥¹æ•‘å‡ºï¼Œå¹¸è¿å°†é™ªä¼´åœ¨æ‚¨èº«è¾¹"
+         EventMsg [EVGS04] "Å®ÉñÒÑ¾­¸øĞ°¶ñµÄÊ×ÁìÇô½ûÔÚºÚ°µµÄÉî´¦£¬ËıĞèÒªÄãÃÇÓª¾È£¬°ÑËı¾È³ö£¬ĞÒÔË½«Åã°éÔÚÄúÉí±ß"
    end
-
+   
    [@StartSaveGodNessMainGame_Reword4]
    begin
       #ACT
-         DropItemMap  "EVGS04,25,25,25"  æ£              5000  40        ;; ç„Šæƒ‘ ä½•ç›’
-         DropItemMap  "EVGS04,25,25,25"  çœ‰ä»¿é›€æ±—è·(æ¼‚)  5     20
-         DropItemMap  "EVGS04,25,25,25"  ä»˜ä»¿é›€æ±—è·(æ¼‚)  5     10
+         DropItemMap  "EVGS04,25,25,25"  µ·              5000  40        ;; º¸»ó ºÎºĞ
+         DropItemMap  "EVGS04,25,25,25"  Ã¼·ÂÈ¸º¹¾à(Æ¯)  5     20
+         DropItemMap  "EVGS04,25,25,25"  ¸¶·ÂÈ¸º¹¾à(Æ¯)  5     10
    end
 
 ;-------------------------------------------------------------------------------------------------------------
@@ -212,28 +212,28 @@ begin
    begin
       #IF
          !CheckMonMap "EVGS04,25,25,25" 0
-      #ACT      ;; åé­ç²® èƒ¶æŠ›æç˜¤
-         MapTing  EVGS04   EVGS05  25  25     ;; ç²® ææ‚¼
-			ClearItemMap "EVGS05,25,25,25"  æ£                               ;; æ£é˜‘ ç˜¤æ¡†
-			ClearItemMap "EVGS05,25,25,25"  é‡‘ç‰›åº§
-         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg5      ;; çš‹æŠ€ç˜¤ è°å¦¨ æ—ç»° ä½•ç›’
-         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword5   ;; åºœå†µé› ä½•ç›’
-			Delaygoto [Grobal]   240       @StartSaveGodNessMainGame_Ting      ;; æäº¥é£˜ å·±å‚
+      #ACT      ;; Áß±ŞÁ¸ ½ºÅ×ÀÌÁö
+         MapTing  EVGS04   EVGS05  25  25     ;; Á¸ ÀÌµ¿
+			ClearItemMap "EVGS05,25,25,25"  µ·                               ;; µ·À» Áö¿ò
+			ClearItemMap "EVGS05,25,25,25"  ½ğÅ£×ù
+         Delaygoto [Grobal]   10        @StartSaveGodNessMainGame_Msg5      ;; ¸Ş¼¼Áö »Ñ·Á ÁÖ´Â ºÎºĞ
+         Delaygoto [Grobal]   20        @StartSaveGodNessMainGame_Reword5   ;; ¸®¿öµå ºÎºĞ
+			Delaygoto [Grobal]   240       @StartSaveGodNessMainGame_Ting      ;; ÀÌº¥Æ® ¼º°ø
 		#ELSEACT
-		   MapTing  EVGS04   01 100 130     ;; è§’è©çªƒ
+		   MapTing  EVGS04   01 100 130     ;; ½ÇÆĞÇÔ
 	end
 
    [@StartSaveGodNessMainGame_Msg5]
    begin
       #ACT
-         EventMsg [EVGS05] "æ„Ÿè°¢ä½ ï¼Œæˆ‘æœ€å‹‡æ•¢çš„å‹‡å£«ï¼Œä½ çš„å‹‡æ°”å’ŒçœŸæƒ…å°†ä¸ºæ‚¨å¸¦æ¥ä¸€ä»½ç¤¼ç‰©ï¼Œæˆ‘å°†æ°¸è¿œä¸ä¼šå¿˜è®°ä½ çš„æ©æƒ…."
+         EventMsg [EVGS05] "¸ĞĞ»Äã£¬ÎÒ×îÓÂ¸ÒµÄÓÂÊ¿£¬ÄãµÄÓÂÆøºÍÕæÇé½«ÎªÄú´øÀ´Ò»·İÀñÎï£¬ÎÒ½«ÓÀÔ¶²»»áÍü¼ÇÄãµÄ¶÷Çé."
    end
 
    [@StartSaveGodNessMainGame_Reword5]
    begin
-      #ACT      ;; ç»Šé­ç²® èƒ¶æŠ›æç˜¤
-         DropItemMap  "EVGS05,25,25,25"  æ£              5000  50         ;; ç„Šæƒ‘ ä½•ç›’
-         DropItemMap  "EVGS05,25,25,25"  é‡‘ç‰›åº§           1     1
+      #ACT      ;; °í±ŞÁ¸ ½ºÅ×ÀÌÁö
+         DropItemMap  "EVGS05,25,25,25"  µ·              5000  50         ;; º¸»ó ºÎºĞ
+         DropItemMap  "EVGS05,25,25,25"  ½ğÅ£×ù           1     1
    end
 
    [@StartSaveGodNessMainGame_Ting]

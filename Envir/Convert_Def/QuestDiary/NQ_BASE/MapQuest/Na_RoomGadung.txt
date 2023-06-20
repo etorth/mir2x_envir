@@ -1,21 +1,21 @@
 ;;Na_RoomGadung.txt
 [@Na_RoomGadung_1]
 {
-(鍏ュ彛琚牭浣忎簡)\
+(入口被堵住了)\
 }
 
 [@Na_RoomGadung_2]
 {
-(鍏ュ彛琚牭浣忎簡)\
+(入口被堵住了)\
 }
 
 [@Na_RoomGadung_3]
 {
-(鍏ュ彛琚牭浣忎簡)\
+(入口被堵住了)\
 }
 
 [@Na_RoomGadung_4]
 {
-(鍏ュ彛琚牭浣忎簡)\
+(入口被堵住了)\
 }
 

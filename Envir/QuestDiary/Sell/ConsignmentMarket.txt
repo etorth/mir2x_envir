@@ -1,9 +1,9 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@UserMT]
 {
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/Sell/ConsignmentMarket.txt] @Convert_ConsignmentMarket_0
+#INCLUDE [..\Convert_Def\QuestDiary\Sell\ConsignmentMarket.txt] @Convert_ConsignmentMarket_0
 
 [@buyfromusermarket()]
 #ACT

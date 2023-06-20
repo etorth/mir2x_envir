@@ -46,9 +46,9 @@ break
 [@chokry_T104_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T104_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T104_Say
 
 #ACT
-give Â´Â¥ÃÃºÃ‰Ã±Ã†Â¤ 1
+give ´¥ÁúÉñÆ¤ 1
 set [308] 1
 ;-----------------------------------------------------

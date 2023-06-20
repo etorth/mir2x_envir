@@ -19,7 +19,7 @@ goto @Dosa_MQ_START_1
 check [102] 0
 checklevel 4
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_1
 
 #ELSEACT
 goto @Dosa_MQ_START_2
@@ -28,28 +28,28 @@ goto @Dosa_MQ_START_2
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_2
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_2
 
 
 [@Dosa_MQ_START_3_1]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_3
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_3
 
 
 [@Dosa_MQ_START_3_2]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_4
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_4
 
 
 [@Dosa_MQ_START_3_3]
 #IF
 check [102] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_5
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_5
 
 
 [@Dosa_MQ_START_4]
@@ -58,61 +58,61 @@ check [102] 0
 #ACT
 set [102] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_6
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_6
 
 
 [@Dosa_MQ_START_6]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_7
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_7
 
 
 [@Dosa_MQ_START_7_1]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_8
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_8
 
 
 [@Dosa_MQ_START_7_2]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_9
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_9
 
 
 [@Dosa_MQ_START_7_3]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_10
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_10
 
 
 [@Dosa_MQ_START_8]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_11
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_11
 
 
 [@Dosa_MQ_START_9]
 #IF
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_12
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_12
 
 
 [@Dosa_MQ_START_10]
 #IF
 check [131] 0
 #ACT
-give Âè§Á±ç 1
-give Ê≤ªÊÑàÊúØ 1
+give π≈ºÆ 1
+give ÷Œ”˙ ı 1
 reset [102] 28
 set [131] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_13
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_13
 
 }
 
@@ -120,7 +120,7 @@ set [131] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_14
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_14
 
 }
 
@@ -134,7 +134,7 @@ goto @Dosa_CQ_START1_0
 check [105] 1
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_15
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_15
 
 
 [@Dosa_CQ_START1_3]
@@ -145,7 +145,7 @@ checklevel 6
 #ACT
 goto @Dosa_CQ_START1_4
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_16
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_16
 
 
 [@Dosa_CQ_START1_4]
@@ -153,7 +153,7 @@ goto @Dosa_CQ_START1_4
 check [105] 1
 check [131] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_17
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_17
 
 
 [@Dosa_CQ_START1_5]
@@ -161,12 +161,12 @@ check [131] 0
 check [105] 1
 check [131] 0
 #ACT
-give Âè§Á±ç 1
-give Ê≤ªÊÑàÊúØ 1
+give π≈ºÆ 1
+give ÷Œ”˙ ı 1
 reset [102] 28
 set [131] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_18
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_18
 
 }
 
@@ -174,7 +174,7 @@ set [131] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_19
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_19
 
 }
 
@@ -189,7 +189,7 @@ goto @Dosa_DQ_START_1
 check [102] 1
 check [103] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_20
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_20
 
 
 [@Dosa_DQ_START_2]
@@ -197,10 +197,10 @@ check [103] 0
 check [102] 1
 check [103] 0
 #ACT
-give ÈÅìÂäõÊä§Ë∫´Á¨¶ 1
+give µ¿¡¶ª§…Ì∑˚ 1
 set [103] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_21
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_21
 
 }
 
@@ -208,7 +208,7 @@ set [103] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_22
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_22
 
 }
 
@@ -224,7 +224,7 @@ check [104] 0
 #ACT
 set [104] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_23
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_23
 
 }
 
@@ -238,19 +238,19 @@ goto @Dosa_MQ_COMPLETE_1
 check [104] 1
 check [105] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_24
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_24
 
 [@Dosa_MQ_COMPLETE_4]
 #IF
 check [104] 1
 check [105] 0
-checkitem È∏°Ë°Ä 2
+checkitem º¶—™ 2
 #ACT
-take È∏°Ë°Ä 2
-give ÈáëÂ∏Å 1000
+take º¶—™ 2
+give Ω±“ 1000
 goto @Dosa_MQ_COMPLETE_5
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_25
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_25
 
 
 [@Dosa_MQ_COMPLETE_5]
@@ -260,7 +260,7 @@ check [105] 0
 #ACT
 set [105] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_26
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_26
 
 }
 
@@ -272,11 +272,11 @@ goto @Dosa_TAKE_BUJOUK_0
 
 [@Dosa_TAKE_BUJOUK_0]
 #IF
-checkitem ÈÅìÂäõÊä§Ë∫´Á¨¶ 1
+checkitem µ¿¡¶ª§…Ì∑˚ 1
 #ACT
 goto @Dosa_TAKE_BUJOUK_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_27
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_27
 
 
 [@Dosa_TAKE_BUJOUK_1]
@@ -284,12 +284,12 @@ goto @Dosa_TAKE_BUJOUK_1
 check [103] 1
 check [163] 0
 #ACT
-take ÈÅìÂäõÊä§Ë∫´Á¨¶ 1
-give ÂåïÈ¶ñ 1
+take µ¿¡¶ª§…Ì∑˚ 1
+give ÿ∞ ◊ 1
 set [103] 0
 set [163] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_28
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_28
 
 }
 
@@ -297,7 +297,7 @@ set [163] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_29
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_29
 
 }
 
@@ -307,19 +307,19 @@ set [163] 1
 check [131] 1
 check [164] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_30
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_30
 
 
 [@Dosa_CQ_COMPLETE_0]
 #IF
-checkitem Âè§Á±ç 1
+checkitem π≈ºÆ 1
 #ACT
 takecheckitem
-give ÈáëÂ∏Å 1000
-give ÈùíÈìúÂ§¥Áõî 1
+give Ω±“ 1000
+give «‡Õ≠Õ∑ø¯ 1
 goto @Dosa_CQ_COMPLETE_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_31
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_31
 
 
 [@Dosa_CQ_COMPLETE_1]
@@ -330,18 +330,18 @@ check [164] 0
 reset [102] 29
 set [164] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_32
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_32
 
 
 [@Dosa_CQ_COMPLETE_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_33
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_33
 
 
 [@Dosa_CQ_COMPLETE_3]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/taoistbase.txt] @taoistbase_34
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\taoistbase.txt] @taoistbase_34
 
 }

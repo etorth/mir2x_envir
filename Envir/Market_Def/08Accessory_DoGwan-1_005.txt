@@ -16,37 +16,37 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_Main_0_0
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_Repair_complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_Repair_complete
 
 [Goods]
 ;ItemName      Volume     Hour
-Ê∞¥Êô∂È≠îÊàí        100        1
-ÁèçÁè†ÊàíÊåá        100        1
-ÈÅìÂ£´ÊâãÈïØ        100        1
-ÈªÑËâ≤Ê∞¥Êô∂È°πÈìæ    100        1
-ÁúüÂñÑÈ°πÈìæ        100        1
+ÀÆæßƒßΩ‰        100        1
+’‰÷ÈΩ‰÷∏        100        1
+µ¿ ø ÷ÔÌ        100        1
+ª∆…´ÀÆæßœÓ¡¥    100        1
+’Ê…∆œÓ¡¥        100        1
 
 
 
@@ -76,7 +76,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -99,16 +99,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @101_START
+#CALL [\QT_TODAY\1stClass.txt] @101_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @101_CHECK1
+#CALL [\QT_TODAY\1stClass.txt] @101_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1_005.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1_005.txt] @NPC_TQuest_1
 
 ;------------------------
 
@@ -131,10 +131,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @201_START
+#CALL [\QT_TODAY\2ndClass.txt] @201_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @201_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @201_CHECK1
 
 ;------------------------
 
@@ -157,10 +157,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @515_START
+;;#CALL [\QT_TODAY\5thClass.txt] @515_START
 
 [@TQuest3_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @515_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @515_CHECK1
 
 ;-----------------------
 [@TQuest4_0]
@@ -182,7 +182,7 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @553_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @553_START
 
 [@TQuest4_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @553_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @553_CHECK1

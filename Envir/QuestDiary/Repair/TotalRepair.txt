@@ -8,7 +8,7 @@ GetRepairCost  %P0
 #IF
 small P9  0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @NeedNot_Repair
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @NeedNot_Repair	
 
 #ACT
 break
@@ -25,31 +25,31 @@ CheckGold  %P9
 mov  D0   %P0
 mov  D1   %P9
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @RepairCost
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @RepairCost
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @No_Money
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @No_Money
 
 [@SRepair_Weapon]
 #IF
-checkitemw ÂºÃ—Ã—Ã¬Â³Ãº 1
+checkitemw º××ì³ú 1
 #ACT
 break
 
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @Repair_Fail
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @Repair_Fail
 
 #ELSEACT
 goto @SRepair_Weapon_Check
 
 [@SRepair_Weapon_Check]
 #IF
-checkitemw Â·Ã§Ã–Â®ÂºÃ—Ã—Ã¬Â³Ãº 1
+checkitemw ·çÖ®º××ì³ú 1
 #ACT
 break
 
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @Repair_Fail
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @Repair_Fail
 
 #ELSEACT
 mov  P0  %ARG(1)
@@ -58,12 +58,12 @@ GetRepairCost  %P0
 #IF
 small P9  0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @NeedNot_Repair
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @NeedNot_Repair	
 #ACT
 break
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @RepairCost
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @RepairCost
 
 
 #IF
@@ -78,8 +78,8 @@ GetRepairCost  %D0
 Equal  D1  %P9
 #ACT
 RepairItem  %D0
-take Â½Ã°Â±Ã’  %P9
+take ½ð±Ò  %P9
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Repair/TotalRepair.txt] @Repair_Complete
+	#INCLUDE [..\Convert_Def\QuestDiary\Repair\TotalRepair.txt] @Repair_Complete
 
 }

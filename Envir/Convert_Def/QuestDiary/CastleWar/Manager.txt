@@ -1,18 +1,18 @@
 ;;Manager.txt
 [@Manager_1]
 {
-		{FCOLOR/1}管理员命令语句:{FCOLOR/12}\
+		{FCOLOR/1}����Ա�������:{FCOLOR/12}\
 		<$@admin_menu>\ \
 }
 
 [@Manager_2]
 {
 		<$@FlagTest>\ \
-
-		沙巴克城 攻击行会 : <$CS_SABUK_ATTACKGUILDS>\ \
-		沙巴克城 剩余资金 : <$CS_SABUK_CASTLEGOLD> 金币 \
-		沙巴克城今天收的资金 : <$CS_SABUK_TODAYTAX> 金币 \
-		沙巴克城门的状态 \
+		
+		ɳ�Ϳ˳� �����л� : <$CS_SABUK_ATTACKGUILDS>\ \
+		ɳ�Ϳ˳� ʣ���ʽ� : <$CS_SABUK_CASTLEGOLD> ��� \
+		ɳ�Ϳ˳ǽ����յ��ʽ� : <$CS_SABUK_TODAYTAX> ��� \
+		ɳ�Ϳ˳��ŵ�״̬ \ 
 		<$@DoorState1>\
 		<$@DoorState2>\
 		<$@DoorState3>\ \
@@ -20,380 +20,380 @@
 
 [@Manager_3]
 {
-		<找出沙巴克城的税金。/@@DrawTax> \ \
-		<看功城战的日程。/@view_warschedule>\ \
-		<申请攻城战。/@Propse_CastleWar>\
+		<�ҳ�ɳ�Ϳ˳ǵ�˰��/@@DrawTax> \ \
+		<������ս���ճ̡�/@view_warschedule>\ \
+		<���빥��ս��/@Propse_CastleWar>\
 }
 
 [@Manager_4]
 {
-		你不是沙巴克城主人行会的楼主啊。。\ \
-		<看攻城战的日程。/@view_warschedule>\
-		<申请攻城战。/@Propse_CastleWar>\
-		<了解有关于攻城战的事。/@requestcastlewar> \
-		<结束/@exit>
+		�㲻��ɳ�Ϳ˳������л��¥��������\ \
+		<������ս���ճ̡�/@view_warschedule>\
+		<���빥��ս��/@Propse_CastleWar>\
+		<�˽��й��ڹ���ս���¡�/@requestcastlewar> \
+		<����/@exit>
 }
 
 [@Manager_5]
 {
-<输入运营者命令语句暗号/@@*admin_passwd>\
+<������Ӫ��������䰵��/@@*admin_passwd>\
 }
 
 [@Manager_6]
 {
-在沙巴克城内 <洒100万金币。/@gold_rain>\
-在沙巴克城内 < 洒药水。/@potion_rain>\
-把沙巴克城地板的 <所有金币都弄掉。/@gold_clear>\
-把沙巴克城地板的 <所有药水都弄掉。/@potion_clear>\
-把沙巴克城地板的 <所有物品都弄掉。/@allitem_clear>\
+��ɳ�Ϳ˳��� <��100���ҡ�/@gold_rain>\
+��ɳ�Ϳ˳��� < ��ҩˮ��/@potion_rain>\
+��ɳ�Ϳ˳ǵذ�� <���н�Ҷ�Ū����/@gold_clear>\
+��ɳ�Ϳ˳ǵذ�� <����ҩˮ��Ū����/@potion_clear>\
+��ɳ�Ϳ˳ǵذ�� <������Ʒ��Ū����/@allitem_clear>\
 
-<换名字/@@ChangeUserName>\
-<沙巴克怪物攻城/@monkill>\
+<������/@@ChangeUserName>\
+<ɳ�Ϳ˹��﹥��/@monkill>\
 }
 
 [@Manager_7]
 {
-密码错误。\
-<结束/@exit>
+�������\
+<����/@exit>
 }
 
 [@Manager_8]
 {
-<$USERNAME> 先生，变更名字成功。\
+<$USERNAME> ������������ֳɹ���\
 }
 
 [@Manager_9]
 {
-变更名字失败。。\
-<重试/@main>
+�������ʧ�ܡ���\
+<����/@main>
 }
 
 [@Manager_10]
 {
-         请输入提款金额. \ \
-   		<找出沙巴克城的税金。/@@DrawTax> \ \
+         �����������. \ \
+   		<�ҳ�ɳ�Ϳ˳ǵ�˰��/@@DrawTax> \ \
 }
 
 [@Manager_11]
 {
-		   沙巴克城没有税金，无法提款. \ \
+		   ɳ�Ϳ˳�û��˰���޷����. \ \
 }
 
 [@Manager_12]
 {
-			输入金额太多不能掉出来。\ \
-			<结束/@exit>
+			������̫�಻�ܵ�������\ \
+			<����/@exit>
 }
 
 [@Manager_13]
 {
-			只掉出了 <$OUTPUT(d2)>的金额。\ \
-			<结束/@exit>
+			ֻ������ <$OUTPUT(d2)>�Ľ�\ \
+			<����/@exit>
 }
 
 [@Manager_14]
 {
-在攻城中是不能申请攻城战的。\ \
-<前一步/@main>
+�ڹ������ǲ������빥��ս�ġ�\ \
+<ǰһ��/@main>
 }
 
 [@Manager_15]
 {
-不是楼主的话不能申请攻城战。\ \
-<前一步/@main>
+����¥���Ļ��������빥��ս��\ \
+<ǰһ��/@main>
 }
 
 [@Manager_16]
 {
-不能攻击城主人的行会。\ \
-<前一步/@main>
+���ܹ��������˵��лᡣ\ \
+<ǰһ��/@main>
 }
 
 [@Manager_17]
 {
- 因为没有祖玛头像所以不能申请攻城战。\ \
-<前一步/@main>
+ ��Ϊû������ͷ�����Բ������빥��ս��\ \
+<ǰһ��/@main>
 }
 
 [@Manager_18]
 {
-申请了攻城战。\ \
-攻城日程是 {FCOLOR/10}3天后下午8点在{FCOLOR/12} 开始战争。\ \
-<前一步/@main>
+�����˹���ս��\ \
+�����ճ��� {FCOLOR/10}3�������8����{FCOLOR/12} ��ʼս����\ \
+<ǰһ��/@main>
 }
 
 [@Manager_19]
 {
-已经申请了所以不能再申请。\ \
-<前一步/@main>
+�Ѿ����������Բ��������롣\ \
+<ǰһ��/@main>
 }
 
 [@Manager_20]
 {
-为了申请攻城战需要祖玛头像。\
-你有那个东西吗？\
-现在申请的话 {FCOLOR/10}3天后下午8点在{FCOLOR/12}开始战争。\ \
-<前一步/@main>
+Ϊ�����빥��ս��Ҫ����ͷ��\
+�����Ǹ�������\
+��������Ļ� {FCOLOR/10}3�������8����{FCOLOR/12}��ʼս����\ \
+<ǰһ��/@main>
 }
 
 [@Manager_21]
 {
-沙巴克城攻城战的日程是这样的。\
+ɳ�Ϳ˳ǹ���ս���ճ��������ġ�\
 {FCOLOR/10}<$CS_SABUK_WARDATE>{FCOLOR/12} \ \
-沙漠土城攻城战的日程是这样的。\
+ɳĮ���ǹ���ս���ճ��������ġ�\
 {FCOLOR/10}<$CS_TAOSUNG_WARDATE>{FCOLOR/12} \ \
-<前一步/@main>
+<ǰһ��/@main>
 }
 
 [@Manager_22]
 {
-_'<$CS_SABUK_OWNER>' 行会是沙巴克城的主人。\
+_'<$CS_SABUK_OWNER>' �л���ɳ�Ϳ˳ǵ����ˡ�\
 }
 
 [@Manager_23]
 {
-（攻城中）
+�������У�
 }
 
 [@Manager_24]
 {
-（不是攻城中）
+�����ǹ����У�
 }
 
 [@Manager_25]
 {
-正侧 城门
+���� ����
 }
 
 [@Manager_26]
 {
-_（正常）
+_��������
 }
 
 [@Manager_27]
 {
-_(<没有/@Front_make_door>)
+_(<û��/@Front_make_door>)
 }
 
 [@Manager_28]
 {
-_(<开启/@Front_Close_Door>)
+_(<����/@Front_Close_Door>)
 }
 
 [@Manager_29]
 {
-_(<关闭/@Front_Open_Door>)
+_(<�ر�/@Front_Open_Door>)
 }
 
 [@Manager_30]
 {
-左侧 城门
+��� ����
 }
 
 [@Manager_31]
 {
-_（正常）
+_��������
 }
 
 [@Manager_32]
 {
-_(<没有/@Left_make_door>)
+_(<û��/@Left_make_door>)
 }
 
 [@Manager_33]
 {
-_(<开启/@Left_Close_Door>)
+_(<����/@Left_Close_Door>)
 }
 
 [@Manager_34]
 {
-_(<关闭/@Left_Open_Door>)
+_(<�ر�/@Left_Open_Door>)
 }
 
 [@Manager_35]
 {
-右侧 城门
+�Ҳ� ����
 }
 
 [@Manager_36]
 {
-_（正常）
+_��������
 }
 
 [@Manager_37]
 {
-_(<没有/@Right_make_door>)
+_(<û��/@Right_make_door>)
 }
 
 [@Manager_38]
 {
-_(<开启/@Right_Close_Door>)
+_(<����/@Right_Close_Door>)
 }
 
 [@Manager_39]
 {
-_(<关闭/@Right_Open_Door>)
+_(<�ر�/@Right_Open_Door>)
 }
 
 [@Manager_40]
 {
-制作城门的费用是50万金币。\ \
-<支付50万金币制作正侧城门。/@Front_make_door_comfirm> \
+�������ŵķ�����50���ҡ�\ \
+<֧��50��������������š�/@Front_make_door_comfirm> \
 }
 
 [@Manager_41]
 {
-在攻城战中是不能制作城门的。\ \
-<结束/@exit>
+�ڹ���ս���ǲ����������ŵġ�\ \
+<����/@exit>
 }
 
 [@Manager_42]
 {
-没有带钱所以不能制作城门。\ \
-<前一步/@main>
+û�д�Ǯ���Բ����������š�\ \
+<ǰһ��/@main>
 }
 
 [@Manager_43]
 {
-城门制作完毕！！\ \
-<前一步/@main>
+����������ϣ���\ \
+<ǰһ��/@main>
 }
 
 [@Manager_44]
 {
-有城门。 \ \
-<前一步/@main>
+�г��š� \ \
+<ǰһ��/@main>
 }
 
 [@Manager_45]
 {
-制作城门的费用是50万金币。\ \
-<支付50万金币制作左侧城门。/@Left_make_door_comfirm> \
+�������ŵķ�����50���ҡ�\ \
+<֧��50�������������š�/@Left_make_door_comfirm> \
 }
 
 [@Manager_46]
 {
-在攻城战中是不能制作城门的。\ \
-<结束/@exit>
+�ڹ���ս���ǲ����������ŵġ�\ \
+<����/@exit>
 }
 
 [@Manager_47]
 {
-没有带钱所以不能制作城门。\ \
-<前一步/@main>
+û�д�Ǯ���Բ����������š�\ \
+<ǰһ��/@main>
 }
 
 [@Manager_48]
 {
-城门制作完毕！！\ \
-<前一步/@main>
+����������ϣ���\ \
+<ǰһ��/@main>
 }
 
 [@Manager_49]
 {
-有城门。 \ \
-<前一步/@main>
+�г��š� \ \
+<ǰһ��/@main>
 }
 
 [@Manager_50]
 {
-制作城门的费用是50万金币。\ \
-<支付50万金币制作左侧城门。/@Right_make_door_comfirm> \
+�������ŵķ�����50���ҡ�\ \
+<֧��50�������������š�/@Right_make_door_comfirm> \
 }
 
 [@Manager_51]
 {
-在攻城战中是不能制作城门的。\ \
-<结束/@exit>
+�ڹ���ս���ǲ����������ŵġ�\ \
+<����/@exit>
 }
 
 [@Manager_52]
 {
-没有带钱所以不能制作城门。\ \
-<前一步/@main>
+û�д�Ǯ���Բ����������š�\ \
+<ǰһ��/@main>
 }
 
 [@Manager_53]
 {
-城门制作完毕！！\ \
-<前一步/@main>
+����������ϣ���\ \
+<ǰһ��/@main>
 }
 
 [@Manager_54]
 {
-有城门。 \ \
-<前一步/@RightDoor>
+�г��š� \ \
+<ǰһ��/@RightDoor>
 }
 
 [@Manager_55]
 {
-开了沙巴克城门。 \ \
-<前一步/@main>
+����ɳ�Ϳ˳��š� \ \
+<ǰһ��/@main>
 }
 
 [@Manager_56]
 {
-没有城门或者城门开着的状态。\ \
-<前一步/@main>
+û�г��Ż��߳��ſ��ŵ�״̬��\ \
+<ǰһ��/@main>
 }
 
 [@Manager_57]
 {
-关了沙巴克城门。\ \
-<前一步/@main>
+����ɳ�Ϳ˳��š�\ \
+<ǰһ��/@main>
 }
 
 [@Manager_58]
 {
-没有城门或者城门关闭的状态。\ \
-<前一步/@main>
+û�г��Ż��߳��Źرյ�״̬��\ \
+<ǰһ��/@main>
 }
 
 [@Manager_59]
 {
-开了沙巴克城门。 \ \
-<前一步/@main>
+����ɳ�Ϳ˳��š� \ \
+<ǰһ��/@main>
 }
 
 [@Manager_60]
 {
-没有城门或者城门开着的状态。\ \
-<前一步/@main>
+û�г��Ż��߳��ſ��ŵ�״̬��\ \
+<ǰһ��/@main>
 }
 
 [@Manager_61]
 {
-关了沙巴克城门。\ \
-<前一步/@main>
+����ɳ�Ϳ˳��š�\ \
+<ǰһ��/@main>
 }
 
 [@Manager_62]
 {
-没有城门或者城门关闭的状态。\ \
-<前一步/@main>
+û�г��Ż��߳��Źرյ�״̬��\ \
+<ǰһ��/@main>
 }
 
 [@Manager_63]
 {
-开了沙巴克城门。 \ \
-<前一步/@main>
+����ɳ�Ϳ˳��š� \ \
+<ǰһ��/@main>
 }
 
 [@Manager_64]
 {
-没有城门或者城门开着的状态。\ \
-<前一步/@main>
+û�г��Ż��߳��ſ��ŵ�״̬��\ \
+<ǰһ��/@main>
 }
 
 [@Manager_65]
 {
-关了沙巴克城门。\ \
-<前一步/@main>
+����ɳ�Ϳ˳��š�\ \
+<ǰһ��/@main>
 }
 
 [@Manager_66]
 {
-没有城门或者城门关闭的状态。\ \
-<前一步/@main>
+û�г��Ż��߳��Źرյ�״̬��\ \
+<ǰһ��/@main>
 }
 

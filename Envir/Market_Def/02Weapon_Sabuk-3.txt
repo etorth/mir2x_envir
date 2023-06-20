@@ -9,7 +9,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [../Convert_def/Market_Def/02Weapon_Sabuk-3.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_def\Market_Def\02Weapon_Sabuk-3.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -23,43 +23,43 @@ Delaygoto [Grobal] 20 @_Startup
 Delaygoto [Grobal] 60 @_Startup
 
 [@CastleWarOn]
-#CALL [QuestDiary/CastleWar/Speak.txt] @CastleWarSpeak
+#CALL [\CastleWar\Speak.txt] @CastleWarSpeak
 
 [@main_0_0]
 #IF
 IsOnCastleWar SaBuk
 #SAY
-	#INCLUDE [../Convert_def/Market_Def/02Weapon_Sabuk-3.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_def\Market_Def\02Weapon_Sabuk-3.txt] @NPC_Main_0_0
 
 #ELSESAY
-	#INCLUDE [../Convert_def/Market_Def/02Weapon_Sabuk-3.txt] @NPC_Main_0_1
+	#INCLUDE [..\Convert_def\Market_Def\02Weapon_Sabuk-3.txt] @NPC_Main_0_1
 
 [@Special_Repair()]
-#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
+#CALL [\Repair\TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY
-	#INCLUDE [../Convert_def/Market_Def/02Weapon_Sabuk-3.txt] @NPC_Buy
+	#INCLUDE [..\Convert_def\Market_Def\02Weapon_Sabuk-3.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [../Convert_def/Market_Def/02Weapon_Sabuk-3.txt] @NPC_Sell
+	#INCLUDE [..\Convert_def\Market_Def\02Weapon_Sabuk-3.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [../Convert_def/Market_Def/02Weapon_Sabuk-3.txt] @NPC_Repair
+	#INCLUDE [..\Convert_def\Market_Def\02Weapon_Sabuk-3.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [../Convert_def/Market_Def/02Weapon_Sabuk-3.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_def\Market_Def\02Weapon_Sabuk-3.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-ÂºÃšÃŒÃºÂ¿Ã³	100	1
-Ã‡Ã ÃÂ­Â¸Â«        100        1
-Â°Ã‹Â»Ã„          100        1
-ÃÃ¨Â·Ã§          100        1
-Ã•Â¶Ã‚Ã­ÂµÂ¶          100        1
-ÃÃÃ‚Ã          100        1
-ÂºÂ£Â»Ãª          100        1
-Â°Ã«Ã”Ã‚            100        1
+ºÚÌú¿ó	100	1
+ÇàÍ­¸«        100        1
+°Ë»Ä          100        1
+Áè·ç          100        1
+Õ¶Âíµ¶          100        1
+ĞŞÂŞ          100        1
+º£»ê          100        1
+°ëÔÂ            100        1

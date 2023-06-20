@@ -2,38 +2,38 @@
 %100
 +10
 +11
-;íˆ¬êµ¬
+;Åõ±¸
 +15
 
-;ëŒ€í™”, '*' : ëŒ€í™” íƒœê·¸
+;´ëÈ­, '*' : ´ëÈ­ ÅÂ±×
 [@main]
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Numa-41.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Numa-41.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Numa-41.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Numa-41.txt] @NPC_Main
 
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Numa-41.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Numa-41.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Numa-41.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Numa-41.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Numa-41.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Numa-41.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Numa-41.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Numa-41.txt] @NPC_Repair_Complete
 
 [Goods]
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Numa-41.txt] @NPC_Goods
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Numa-41.txt] @NPC_Goods

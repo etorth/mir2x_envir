@@ -9,44 +9,44 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_M1
+#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_M1
 
 
 [@main_root]
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_Main_0_0
-
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Main_0_0
+ 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_Sell
-
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Sell
+ 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-²ÝÐ¬	        100         1
-Æ¤Ñ¥	        100         1
+��Ь	        100         1
+Ƥѥ	        100         1
 
 [@TQuest]
 #IF
@@ -56,7 +56,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_TQuest
 
 ;--------------
 
@@ -79,14 +79,14 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @452_START
+;;#CALL [\QT_TODAY\4thClass.txt] @452_START
 
 [@TQuest1_2]
-;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @452_CHECK1
+;;#CALL [\QT_TODAY\4thClass.txt] @452_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Shoes_Bichon-0.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\03Shoes_Bichon-0.txt] @NPC_TQuest_1
 ;-------------------------------------------------------------------------------

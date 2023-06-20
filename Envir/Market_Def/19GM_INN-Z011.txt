@@ -5,28 +5,28 @@
 [@main]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_def/19GM_INN-Z011.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_def\19GM_INN-Z011.txt] @NPC_Main
 
 #IF
 IsAdmin
 #SAY
-	#INCLUDE [Convert_Def/Market_def/19GM_INN-Z011.txt] @NPC_ADmin_Main
+	#INCLUDE [..\Convert_Def\Market_def\19GM_INN-Z011.txt] @NPC_ADmin_Main
 
 ;----------------------------------------------------------
 
 [@storage]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/19GM_INN-Z011.txt] @NPC_Storage
+	#INCLUDE [..\Convert_Def\Market_def\19GM_INN-Z011.txt] @NPC_Storage
 
 [@getback]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/19GM_INN-Z011.txt] @NPC_Getback
+	#INCLUDE [..\Convert_Def\Market_def\19GM_INN-Z011.txt] @NPC_Getback
 
 ;----------------------------------------------------------
 
 [@admin_menu]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/19GM_INN-Z011.txt] @NPC_Admin_Menu
+	#INCLUDE [..\Convert_Def\Market_def\19GM_INN-Z011.txt] @NPC_Admin_Menu
 
 ;----------------------------------------------------------
 ; Break Event
@@ -42,13 +42,13 @@ Cleardelaygoto
 ;----------------------------------------------------------
 
 [@RushEvent2]
-;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert72
+;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert72
 [@RushEvent7]
-;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert77
+;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert77
 
 ;----------------------------------------------------------
-;; Î¶¥Î†àÏù¥ Ïù¥Î≤§Ìä∏ Ïù¥Î≤§Ìä∏
+;; ∏±∑π¿Ã ¿Ã∫•∆Æ ¿Ã∫•∆Æ
 ;----------------------------------------------------------
 [@GEvent_start_01]
-#CALL [QuestDiary/Event/Event_Game01/GEventRush1.txt] @GEventRush1_main
+#CALL [Event\Event_Game01\GEventRush1.txt] @GEventRush1_main
 

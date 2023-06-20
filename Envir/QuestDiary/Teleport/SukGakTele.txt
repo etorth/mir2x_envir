@@ -4,11 +4,11 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SukGakTele.txt] @SukGakTele_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SukGakTele.txt] @SukGakTele_1
 
 #ELSEACT
-mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
+mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
 }

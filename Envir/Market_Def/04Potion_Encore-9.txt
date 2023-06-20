@@ -8,30 +8,30 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Encore-9.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Encore-9.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Encore-9.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Encore-9.txt] @NPC_Main_0_0
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Encore-9.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Encore-9.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Encore-9.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Encore-9.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour
-é‡‘åˆ›è¯ï¼ˆä¸­ï¼‰    2000       1
-é­”æ³•è¯ï¼ˆä¸­ï¼‰    2000       1
-é‡‘åˆ›è¯ï¼ˆå¤§ï¼‰    2000       1
-é­”æ³•è¯ï¼ˆå¤§ï¼‰    2000       1
-é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰    2000       1
-é­”æ³•è¯ï¼ˆç‰¹ï¼‰    2000       1
-å¤ªé˜³æ°´          2000       1
-å¼ºæ•ˆå¤ªé˜³æ°´      2000       1
+½ğ´´Ò©£¨ÖĞ£©    2000       1
+Ä§·¨Ò©£¨ÖĞ£©    2000       1
+½ğ´´Ò©£¨´ó£©    2000       1
+Ä§·¨Ò©£¨´ó£©    2000       1
+½ğ´´Ò©£¨ÌØ£©    2000       1
+Ä§·¨Ò©£¨ÌØ£©    2000       1
+Ì«ÑôË®          2000       1
+Ç¿Ğ§Ì«ÑôË®      2000       1

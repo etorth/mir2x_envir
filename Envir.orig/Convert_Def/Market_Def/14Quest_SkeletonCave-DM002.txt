@@ -1,5 +1,0 @@
-;;14Quest_SkeletonCave-DM002.txt
-[@NPC_Else]
-{
-£¨¡£¡£¡£¡£¡£¡££© \ \
-}

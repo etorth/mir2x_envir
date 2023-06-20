@@ -1,5 +1,5 @@
 ;;Dm_CowfaceSoldier.txt[@main]
-;		Ã€ÃÃ€Ã Ã„Ã¹Â½ÂºÃ†Â® ÃƒÂ¼Ã…Â©
+;		ÀÏÀÏ Äù½ºÆ® Ã¼Å©
 #IF
 CheckDailyQuest 456
 #ACT
@@ -11,19 +11,19 @@ break
 
 ;-----------------------------------------------------
 ;-----------------------------------------------------
-;#### Â¿Ã¬Â¸Â¶Â½Ã…Ã€Ã¼ Â¸ÃŠ Â¹Ã¸ÃˆÂ£   D022
+;#### ¿ì¸¶½ÅÀü ¸Ê ¹øÈ£   D022
 ;                        D023
-;                        D032
+;                        D032 
 ;                        D033
 ;                        D042
 ;                        D043
-;#### Â¿Ã€Â¸Â¶               ############
+;#### ¿À¸¶               ############
 ;-----------------------------------------------------
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
 [@umgbung_T456]
-;		Ã€ÃÃ€Ã Ã„Ã¹Â½ÂºÃ†Â® 456 Â¹Ã¸
+;		ÀÏÀÏ Äù½ºÆ® 456 ¹ø
 #IF
 check [310] 1
 #ACT
@@ -70,29 +70,29 @@ inc s0 1
 ;----------------------------------------------
 [@umgbung_T456_4]
 #IF
-check [307] 1
-check [308] 0
+check [307] 1 
+check [308] 0 
 #ACT
 set [308] 1
-give ÃÃ–Ã‚ÃªÃ“Ã‚ÃŠÂ¿ÂºÃ…Â½Ã‡ 1
+give ÎÖÂêÓÂÊ¿ºÅ½Ç 1
 mov s0 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T456_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T456_Say
 #ELSEACT
-give ÃÃ–Ã‚ÃªÃ“Ã‚ÃŠÂ¿ÂºÃ…Â½Ã‡ 1
+give ÎÖÂêÓÂÊ¿ºÅ½Ç 1
 mov s0 1
 goto @umgbung_T456_5
 
 [@umgbung_T456_5]
 #IF
-check [307] 1
-check [308] 1
-checkitem ÃÃ–Ã‚ÃªÃ“Ã‚ÃŠÂ¿ÂºÃ…Â½Ã‡ 10
+check [307] 1 
+check [308] 1 
+checkitem ÎÖÂêÓÂÊ¿ºÅ½Ç 10
 #ACT
 SET [309] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T456_Say_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T456_Say_1
 
-;		ÂºÂ¯Â¼Ã¶ ÃƒÃŠÂ±Ã¢ÃˆÂ­
+;		º¯¼ö ÃÊ±âÈ­
 ;----------------------------------------------------------

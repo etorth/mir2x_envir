@@ -1,3 +1,0 @@
-;;13Move_HalfTemple-D1105.txt
-[@main]
-#CALL [teleport\VanyaSinjunTele.txt] @teleport_D1105

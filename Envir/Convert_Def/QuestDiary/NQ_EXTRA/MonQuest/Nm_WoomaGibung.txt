@@ -1,5 +1,5 @@
 ;;Nm_WoomaGibung.txt
 [@Nm_WoomaGibung_1]
 {
-(械褌歇效歇袙校袛)\
+(这是什么)\
 }

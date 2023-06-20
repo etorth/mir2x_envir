@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 
 [@Main]
 #ACT
@@ -16,5 +16,5 @@ goto @mainstep2_1_0
 break
 
 [@mainstep2_1_0]
-#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep2_1
-;;涓嶈鍒犳帀姝よ
+#CALL [HonChonDo\Mon_extinction.txt] @mainstep2_1
+;;不要删掉此行

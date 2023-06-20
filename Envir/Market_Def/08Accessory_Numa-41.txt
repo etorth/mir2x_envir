@@ -1,6 +1,6 @@
 ;;08Accessory_Numa-41.txt
 %100
-;Ïû•Ïã†Íµ¨
+;¿ÂΩ≈±∏
 +19
 +20
 +21
@@ -12,58 +12,58 @@
 [@main]
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
-;; ÌÄòÏä§Ìä∏Î∂ÑÎ¶¨ Î∂ÄÎ∂Ñ
+;; ƒ˘Ω∫∆Æ∫–∏Æ ∫Œ∫–
 ;;------------------------------------------------------------------------------
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
-;; npc Î©îÎâ¥ Î∂ÄÎ∂Ñ
+;; npc ∏ﬁ¥∫ ∫Œ∫–
 ;;------------------------------------------------------------------------------
 
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Main
 
 [@rustaccessory]
-#CALL [QuestDiary/Make_Item/AtomItem.txt] @rustaccessory_Main
+#CALL [\Make_Item\AtomItem.txt] @rustaccessory_Main
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_RePair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_RePair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_RePair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_RePair_Complete
 
 [Goods]
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Numa-41.txt] @NPC_Goods
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Numa-41.txt] @NPC_Goods
 
 
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
-;; ÏùºÎ∞ò ÌÄòÏä§Ìä∏ Î∂ÄÎ∂Ñ
+;; ¿œπ› ƒ˘Ω∫∆Æ ∫Œ∫–
 ;;------------------------------------------------------------------------------
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
-;; ÏùºÏùº ÌÄòÏä§Ìä∏ Î∂ÄÎ∂Ñ
+;; ¿œ¿œ ƒ˘Ω∫∆Æ ∫Œ∫–
 ;;------------------------------------------------------------------------------

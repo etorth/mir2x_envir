@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root
 
@@ -19,19 +19,19 @@ check [212] 1
 #ACT
 goto @main_0
 break
-;
+;   
 #IF
 check [205] 1
 #ACT
 goto @main_0_3
 break
-;
+;  
 #IF
 check [203] 1
 #ACT
 goto @main_0_2
 break
-;
+;  
 #IF
 check [201] 1
 #ACT
@@ -45,50 +45,50 @@ goto @main_0
 [@main_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_Main_0
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_Main_0
 
 [@main_0_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_Main_1
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_Main_1
 
 [@main_0_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_Main_2
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_Main_2
 
 [@main_0_3]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_Main_3
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_Main_3
 
 [@BuyHorseGraw]
 #IF
 checklevel 15
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw
 #ELSEACT
 break
 
 #IF
 checkgold 500000
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw_NoMoney
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw_NoMoney
 #ELSEACT
 break
 
 #IF
 CheckHorse
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw_Fail
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw_Fail
 #ACT
 break
 
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_BuyHorseGraw_Complete
 #ELSEACT
-take ÈáëÂ∏Å 500000
-horsecall Ë§êËâ≤È©¨
+take Ω±“ 500000
+horsecall ∫÷…´¬Ì
 
 
 [@SellHorse]
@@ -97,9 +97,9 @@ checkhorse 1
 !CheckRiding
 !CheckGold 99749999
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_SellHorse
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_SellHorse
 #ACT
-give ÈáëÂ∏Å 250000
+give Ω±“ 250000
 KillHorse
 break
 
@@ -108,20 +108,20 @@ checkhorse 2
 !CheckRiding
 !CheckGold 89999999
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_SellHorse
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_SellHorse
 #ACT
-give ÈáëÂ∏Å 10000000
+give Ω±“ 10000000
 KillHorse
 break
 
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Bichon-0.txt] @NPC_SellHorse_Fail
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Bichon-0.txt] @NPC_SellHorse_Fail
 
 [@NQuest01_1]
-#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_WIHUN_1
+#CALL [\NQ_BASE\younghon.txt] @ST_HON_WIHUN_1
 
 [@NQuest01_2]
-#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_WIHUN_2
+#CALL [\NQ_BASE\younghon.txt] @ST_HON_WIHUN_2
 
 [@NQuest01_3]
-#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_WIHUN_3
+#CALL [\NQ_BASE\younghon.txt] @ST_HON_WIHUN_3

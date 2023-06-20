@@ -54,15 +54,15 @@ goto @sukjangin_T119_1
 
 [@sukjangin_T119_1]
 #IF
-checkitem 鐭充汉蹇冩牳 299
+checkitem 石人心核 299
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T119_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T119_Say
 
 #ELSEACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 
 ;-----------------------------------------------------
 [@sukjangin_T219]
@@ -96,12 +96,12 @@ break
 
 [@sukjangin_T219_1]
 #IF
-checkitem 鐭充汉蹇冩牳 17
+checkitem 石人心核 17
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T219_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T219_Say
 
 #ELSEACT
 goto @sukjangin_T219_2
@@ -110,7 +110,7 @@ goto @sukjangin_T219_2
 #IF
 random 3
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -144,12 +144,12 @@ break
 
 [@sukjangin_T216_1]
 #IF
-checkitem 鐭充汉蹇冩牳 19
+checkitem 石人心核 19
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T216_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T216_Say
 
 #ELSEACT
 goto @sukjangin_T216_2
@@ -158,7 +158,7 @@ goto @sukjangin_T216_2
 #IF
 random 3
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -192,12 +192,12 @@ break
 
 [@sukjangin_T212_1]
 #IF
-checkitem 鐭充汉蹇冩牳 24
+checkitem 石人心核 24
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T212_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T212_Say
 
 #ELSEACT
 goto @sukjangin_T212_2
@@ -206,7 +206,7 @@ goto @sukjangin_T212_2
 #IF
 random 3
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -241,12 +241,12 @@ break
 
 [@sukjangin_T205_1]
 #IF
-checkitem 鐭充汉蹇冩牳 14
+checkitem 石人心核 14
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T205_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T205_Say
 
 #ELSEACT
 goto @sukjangin_T205_2
@@ -255,5 +255,5 @@ goto @sukjangin_T205_2
 #IF
 random 3
 #ACT
-give 鐭充汉蹇冩牳 1
+give 石人心核 1
 ;-----------------------------------------------------

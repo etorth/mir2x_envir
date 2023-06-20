@@ -1,4 +1,4 @@
-;;;;浼犲3鍗曟満鐗坴1.45
+;;;;传奇3单机版v1.45
 ;;loadgen "Event_FirsrDay.gen"
 ;loadgen "Event_Harvest.gen"
 ;;loadgen "Event_Xmas.gen"
@@ -23,7 +23,7 @@ loadgen "Quest.gen"
 loadgen "ConnectExpand.gen"
 ;; Samak(1)
 loadgen "SilkRoad.gen"
-;; Gulbang
+;; Gulbang 
 loadgen "RoomGhoul.gen"
 ;; Chestnut
 loadgen "Chestnut.gen"
@@ -153,4 +153,4 @@ loadgen "!Lv12_SinGiSun_T.gen"
 ;;
 loadgen "!Lv13_numavestiges.gen"
 loadgen "!Lv13_numavestiges_T.gen"
-;;;;瀹濇咕浼犲3鍗曟満鐗坴1.45
+;;;;宝湾传奇3单机版v1.45

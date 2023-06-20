@@ -1,21 +1,21 @@
 ;;Na_RoomYonbal.txt
 [@Na_RoomYonbal_1]
 {
-(鍏ュ彛琚牭浣忎簡.)\
+(入口被堵住了.)\
 }
 
 [@Na_RoomYonbal_2]
 {
-(鍏ュ彛琚牭浣忎簡.)\
+(入口被堵住了.)\
 }
 
 [@Na_RoomYonbal_3]
 {
-(鍏ュ彛琚牭浣忎簡.)\
+(入口被堵住了.)\
 }
 
 [@Na_RoomYonbal_4]
 {
-(鍏ュ彛琚牭浣忎簡)\
+(入口被堵住了)\
 }
 

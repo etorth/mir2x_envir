@@ -10,15 +10,15 @@ break
 #IF
 check [726] 1
 #SAY
-(ç°åœ¨ä¹Ÿæ²¡æœ‰è¿›å»çš„å¿…è¦äº†...)
+(ÏÖÔÚÒ²Ã»ÓĞ½øÈ¥µÄ±ØÒªÁË...)
 #ACT
 enter_fail
 break
 ;
 #IF
-checkmagic å›°é­”å’’
+checkmagic À§Ä§Öä
 #SAY
-(ç°åœ¨ä¹Ÿæ²¡æœ‰è¿›å»çš„å¿…è¦äº†...)
+(ÏÖÔÚÒ²Ã»ÓĞ½øÈ¥µÄ±ØÒªÁË...)
 #ACT
 enter_fail
 break
@@ -29,7 +29,7 @@ check [726] 0
 #ACT
 goto @MapQuest_holycircle_moveTo5_0
 #ELSESAY
-(æˆ‘æ€ä¹ˆä¼šåœ¨è¿™é‡Œå‘¢? éš¾é“æˆ‘çš„é­‚è¢«ä»€ä¹ˆå‹¾ä½äº†? ) \
+(ÎÒÔõÃ´»áÔÚÕâÀïÄØ? ÄÑµÀÎÒµÄ»ê±»Ê²Ã´¹´×¡ÁË? ) \
 #ELSEACT
 enter_fail
 break
@@ -38,7 +38,7 @@ break
 #IF
 checkmonmap 1_018  1
 #SAY
-(ç°åœ¨è¿™ä¸ªåœ°æ–¹è¿˜æ²¡æœ‰æ¸…ç†å¹²å‡€...)\
+(ÏÖÔÚÕâ¸öµØ·½»¹Ã»ÓĞÇåÀí¸É¾»...)\
 #ACT
 set [521] 0
 enter_fail
@@ -47,14 +47,14 @@ goto @MapQuest_holycircle_moveTo5_1
 
 [@MapQuest_holycircle_moveTo5_1]
 #IF
-checkitem æœ€åå›°é­”çŸ³  1
+checkitem ×îºóÀ§Ä§Ê¯  1
 ;#SAY
-;ï¼ˆç°åœ¨è¿›å…¥çš„æ˜¯æœ€åä¸€ä¸ªå›°é­”å’’é—´å—ï¼Ÿï¼‰\
+;£¨ÏÖÔÚ½øÈëµÄÊÇ×îºóÒ»¸öÀ§Ä§Öä¼äÂğ£¿£©\
 #ACT
-take æœ€åå›°é­”çŸ³  1
+take ×îºóÀ§Ä§Ê¯  1
 set [521] 1
 enter_ok
 #ELSESAY
-(éœ€è¦æœ€åå›°é­”çŸ³å‘¢...)
+(ĞèÒª×îºóÀ§Ä§Ê¯ÄØ...)
 #ELSEACT
 enter_fail

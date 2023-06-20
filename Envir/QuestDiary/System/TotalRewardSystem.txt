@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@TotalRewardSystem]
 {
 #ACT
@@ -73,7 +73,7 @@ break
 #IF
 Equal A3 "Money"
 #ACT
-Give 閲戝竵 %D3
+Give 金币 %D3
 goto @TotalRewardSystem_Setting_2Step
 break
 
@@ -125,7 +125,7 @@ break
 #IF
 Equal A4 "Money"
 #ACT
-Give 閲戝竵 %D4
+Give 金币 %D4
 goto @TotalRewardSystem_Setting_3Step
 break
 
@@ -174,7 +174,7 @@ break
 #IF
 Equal A5 "Money"
 #ACT
-Give 閲戝竵 %D5
+Give 金币 %D5
 break
 
 #IF
@@ -200,4 +200,4 @@ Give %A5 %D5
 break
 
 }
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

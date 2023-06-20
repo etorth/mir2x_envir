@@ -50,12 +50,12 @@ break
 
 [@numa_T340_1]
 #IF
-checkitem 璇虹帥鑽按 9
+checkitem 诺玛药水 9
 #ACT
-give 璇虹帥鑽按 1
+give 诺玛药水 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T340_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T340_Say
 
 #ELSEACT
 goto @numa_T340_2
@@ -64,7 +64,7 @@ goto @numa_T340_2
 #IF
 random 3
 #ACT
-give 璇虹帥鑽按 1
+give 诺玛药水 1
 ;-----------------------------------------------------
 
 
@@ -76,7 +76,7 @@ give 璇虹帥鑽按 1
 [@numa_T235_5_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T235_Say_1
 
 #ACT
 inc S0 1
@@ -86,7 +86,7 @@ inc S0 1
 [@numa_T235_6]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T235_Say_2
 
 #ACT
 set [308] 1
@@ -126,12 +126,12 @@ break
 
 [@numa_T230_1]
 #IF
-checkitem 璇虹帥鑽按 39
+checkitem 诺玛药水 39
 #ACT
-give 璇虹帥鑽按 1
+give 诺玛药水 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T230_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T230_Say
 
 #ELSEACT
 goto @numa_T230_2
@@ -140,5 +140,5 @@ goto @numa_T230_2
 #IF
 random 3
 #ACT
-give 璇虹帥鑽按 1
+give 诺玛药水 1
 ;-----------------------------------------------------

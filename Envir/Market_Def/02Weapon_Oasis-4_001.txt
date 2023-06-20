@@ -14,7 +14,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_root_1
@@ -63,58 +63,58 @@ goto @main_0_0
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Main_0_0
 
 [@main_0_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Main_0_1
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Main_0_1
 
 [@main_0_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Main_0_2
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Main_0_2
 
 [@main_0_3]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Main_0_3
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Main_0_3
 
 ;;------------------------------------------------------------------------------
 
 [@Special_Repair()]
-#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
+#CALL [\Repair\TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
 ;; Warrior
-ÈùíÈìúÊñß        100        1
-ÂÖ´Ëçí          100        1
-ÂáåÈ£é          100        1
-Êñ©È©¨ÂàÄ        100        1
-‰øÆÁΩó          100        1
+«‡Õ≠∏´        100        1
+∞Àªƒ          100        1
+¡Ë∑Á          100        1
+’∂¬Ìµ∂        100        1
+–ﬁ¬ﬁ          100        1
 ;; Wizard
-;;ËØÖÂííÊµ∑È≠Ç      100        1
-Êµ∑È≠Ç          100        1
+;;◊Á÷‰∫£ªÍ      100        1
+∫£ªÍ          100        1
 ;; Taoist
-;;ËØÖÂííÂçäÊúà        100        1
-ÂçäÊúà            100        1
+;;◊Á÷‰∞Î‘¬        100        1
+∞Î‘¬            100        1
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -122,13 +122,13 @@ goto @main_0_0
 ;;------------------------------------------------------------------------------
 
 [@mutedo_test]
-#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo_test
+#CALL [\MU_warrior\mute.txt] @mugong_mutebo_test
 
 [@mutedo_test_complete]
-#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo_test_complete
+#CALL [\MU_warrior\mute.txt] @mugong_mutebo_test_complete
 
 [@mutedo_test_complete_retry]
-#CALL [QuestDiary/MU_warrior/mute.txt] @mugong_mutebo_test_complete_retry
+#CALL [\MU_warrior\mute.txt] @mugong_mutebo_test_complete_retry
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -161,7 +161,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -184,16 +184,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @210_START
+#CALL [\QT_TODAY\2ndClass.txt] @210_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @210_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @210_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/02Weapon_Oasis-4_001.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_def\02Weapon_Oasis-4_001.txt] @NPC_TQuest_1
 
 ;------------------------
 
@@ -216,10 +216,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @227_START
+#CALL [\QT_TODAY\2ndClass.txt] @227_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @227_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @227_CHECK1
 
 ;------------------------
 
@@ -242,10 +242,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @337_START
+#CALL [\QT_TODAY\3rdClass.txt] @337_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @337_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @337_CHECK1
 
 ;-------------------------------
 
@@ -269,12 +269,12 @@ goto @TQuest4_1
 break
 ;
 #ELSESAY
-‰ªäÂ§©Ê≤°‰∫ãÊÉÖÂèØÊãúÊâò‰Ω†‰∫Ü„ÄÇ\ \
- <ÁªìÊùü/@exit>
+ΩÒÃÏ√ª ¬«Èø…∞›Õ–ƒ„¡À°£\ \
+ <Ω· ¯/@exit>
 
 ;--------------
 
 [@TQuest4_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @550_CHECK2
+;;#CALL [\QT_TODAY\5thClass.txt] @550_CHECK2
 
 ;---------------------------

@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËÐÐ
+;;��Ҫɾ������
 [@Samak_MapD1902_0]
 {
 #IF
@@ -79,7 +79,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_0
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_0
 
 #IF
 Equal D1 2
@@ -89,7 +89,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_1
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_1
 
 #IF
 Equal D1 2
@@ -99,7 +99,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_2
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_2
 
 #IF
 Equal D1 2
@@ -109,7 +109,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_3
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_3
 
 #IF
 Equal D1 2
@@ -119,7 +119,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_4
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_4
 
 #IF
 Equal D1 2
@@ -129,7 +129,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_5
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_5
 
 #IF
 Equal D1 2
@@ -139,7 +139,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_6
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_6
 
 #IF
 Equal D1 2
@@ -149,7 +149,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_7
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_7
 
 #ELSEACT
 Enter_Ok
@@ -229,7 +229,7 @@ Equal D2 5
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_8
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_8
 
 #IF
 Equal D1 3
@@ -238,7 +238,7 @@ Equal D2 6
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_9
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_9
 
 #IF
 Equal D1 3
@@ -247,7 +247,7 @@ Equal D2 7
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_10
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_10
 
 #IF
 Equal D1 3
@@ -256,7 +256,7 @@ Equal D2 8
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_11
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_11
 
 #IF
 Equal D1 3
@@ -265,7 +265,7 @@ Equal D2 9
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_12
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_12
 
 #IF
 Equal D1 3
@@ -274,7 +274,7 @@ Equal D2 10
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_13
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_13
 
 #ELSEACT
 Enter_Fail
@@ -328,13 +328,13 @@ break
 CheckHum DQ1902_001 1
 !CheckMonMap DQ1902_001 50
 #ACT
-MongenP "DQ1902_001,40,40,30" ÅËÒ¹»ðÄ§ 10
-MongenP "DQ1902_001,40,40,30" ÅËÒ¹±ùÄ§ 10
-MongenP "DQ1902_001,40,40,30" ÅËÒ¹ÔÆÄ§ 10
-MongenP "DQ1902_001,40,40,30" ÅËÒ¹·çÄ§ 10
-MongenP "DQ1902_001,40,40,30" ÅËÒ¹Õ½Ê¿ 10
-MongenP "DQ1902_001,40,40,30" ÅËÒ¹×ó»¤ÎÀ 10
-MongenP "DQ1902_001,40,40,30" ÅËÒ¹ÓÒ»¤ÎÀ 10
+MongenP "DQ1902_001,40,40,30" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,30" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,30" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,30" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,30" ��ҹսʿ 10
+MongenP "DQ1902_001,40,40,30" ��ҹ���� 10
+MongenP "DQ1902_001,40,40,30" ��ҹ�һ��� 10
 Delaygoto [Grobal] 420 @Samak_MapDQ1902_001_Mongen
 break
 
@@ -480,7 +480,7 @@ Equal D1 5
 Equal D2 5
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_14
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_14
 
 #IF
 Equal D1 5
@@ -572,10 +572,10 @@ EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
 
 [@Samak_MapDQ1902_002_1_Mongen]
 #IF
-!CheckMonMap DQ1902_002 3 ·è¿ñÄ§ÉñµÁ
+!CheckMonMap DQ1902_002 3 ���ħ���
 checkhum DQ1902_002 1
 #ACT
-MongenP "DQ1902_002,40,40,30" ·è¿ñÄ§ÉñµÁ 10 "Noitem"
+MongenP "DQ1902_002,40,40,30" ���ħ��� 10 "Noitem"
 Delaygoto [Grobal] 600 @Samak_MapDQ1902_002_1_Mongen
 
 #ELSEACT
@@ -669,11 +669,11 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='5',FLD_SAMAKSTATUSRD
 #IF
 CheckHum DQ1902_006 1
 #ACT
-MonPWR "DQ1902_006" "¿ø¼×ÂìÒÏ,±¬¶¾ÂìÒÏ" [AC] 20
-MonPWR "DQ1902_006" "¿ø¼×ÂìÒÏ,±¬¶¾ÂìÒÏ" [MAC] 25
-MonPWR "DQ1902_006" "¿ø¼×ÂìÒÏ,±¬¶¾ÂìÒÏ" [DC] 20
-MonPWR "DQ1902_006" "¿ø¼×ÂìÒÏ,±¬¶¾ÂìÒÏ" [MC] 20
-MonPWR "DQ1902_006" "¿ø¼×ÂìÒÏ,±¬¶¾ÂìÒÏ" [HP] 150
+MonPWR "DQ1902_006" "��������,��������" [AC] 20
+MonPWR "DQ1902_006" "��������,��������" [MAC] 25
+MonPWR "DQ1902_006" "��������,��������" [DC] 20
+MonPWR "DQ1902_006" "��������,��������" [MC] 20
+MonPWR "DQ1902_006" "��������,��������" [HP] 150
 
 MapSpell [FireWall] "DQ1902_002,5,5,80,80, +d100, +t10, +r50, +h
 MapSpell [FireWall] "DQ1902_006,5,5,80,80, +d100, +t10, +r50, +h
@@ -781,7 +781,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_15
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_15
 
 #IF
 Equal D1 3
@@ -790,7 +790,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_16
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_16
 
 #IF
 Equal D1 4
@@ -799,7 +799,7 @@ Equal D2 1
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_17
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_17
 
 #IF
 Equal D1 4
@@ -808,7 +808,7 @@ Equal D2 2
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_18
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_18
 
 #IF
 Equal D1 4
@@ -817,7 +817,7 @@ Equal D2 4
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_19
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_19
 
 #IF
 Equal D1 4
@@ -826,7 +826,7 @@ Equal D2 14
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_20
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_20
 
 #ELSEACT
 Enter_Ok
@@ -834,7 +834,7 @@ break
 
 [@Samak_NumasInvasion2]
 #IF
-!CheckMonMap D1903 2 ÅµÂêÍ»»÷¶Ó³¤
+!CheckMonMap D1903 2 ŵ��ͻ���ӳ�
 #ACT
 MonClear D1903
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg22]
@@ -867,12 +867,12 @@ break
 CheckHum D1903 1
 !CheckMonMap D1903 300
 #ACT
-MongenP "D1903,150,150,150" ÅµÂêÆï±ø 35 "Noitem"
-MongenP "D1903,150,150,150" ÅµÂê×°¼×±ø 25 "Noitem"
-MongenP "D1903,150,150,150" ÅµÂêË¾Áî 25 "Noitem"
-MongenP "D1903,150,150,150" ÅµÂêÅ×Ê¯±ø 35 "Noitem"
-MongenP "D1903,150,150,150" ÅµÂê¸«±ø 25 "Noitem"
-MongenP "D1903,150,150,150" ÅµÂêÍ»»÷¶Ó³¤ 3 "Noitem"
+MongenP "D1903,150,150,150" ŵ����� 35 "Noitem"
+MongenP "D1903,150,150,150" ŵ��װ�ױ� 25 "Noitem"
+MongenP "D1903,150,150,150" ŵ��˾�� 25 "Noitem"
+MongenP "D1903,150,150,150" ŵ����ʯ�� 35 "Noitem"
+MongenP "D1903,150,150,150" ŵ�긫�� 25 "Noitem"
+MongenP "D1903,150,150,150" ŵ��ͻ���ӳ� 3 "Noitem"
 Delaygoto [Grobal] 300 @Samak_MapD1903_0
 
 #ELSEACT
@@ -900,152 +900,152 @@ goto @Samak_MapD1903_NumasInvasion_Baricate
 goto @Samak_MapD1903_NumasInvasion_BasicGen
 goto @Samak_MapD1903_NumasInvasion_SQL
 goto @Samak_MapD1903_NumasInvasion_EventMSG
-MongenP "D1903,18,110,0" Ä¾Õ¤À¸2 1
-MongenP "D1903,16,112,0" Ä¾Õ¤À¸2 1
-MonPWR "D1903" "Ä¾Õ¤À¸2" [AC] 255
-MonPWR "D1903" "Ä¾Õ¤À¸2" [MAC] 255
-MonPWR "D1903" "Ä¾Õ¤À¸2" [HP] 50000
+MongenP "D1903,18,110,0" ľդ��2 1
+MongenP "D1903,16,112,0" ľդ��2 1
+MonPWR "D1903" "ľդ��2" [AC] 255
+MonPWR "D1903" "ľդ��2" [MAC] 255
+MonPWR "D1903" "ľդ��2" [HP] 50000
 
-MongenP "D1903,29,125,0" ÅµÂêÍ»»÷¶Ó³¤ 1 "Noitem"
-MongenP "D1903,29,125,0" ÅµÂêÍ»»÷¶Ó³¤ 1 "Noitem"
-MongenP "D1903,29,125,0" ÅµÂêÍ»»÷¶Ó³¤ 1 "Noitem"
+MongenP "D1903,29,125,0" ŵ��ͻ���ӳ� 1 "Noitem"
+MongenP "D1903,29,125,0" ŵ��ͻ���ӳ� 1 "Noitem"
+MongenP "D1903,29,125,0" ŵ��ͻ���ӳ� 1 "Noitem"
 
 [@Samak_MapD1903_NumasInvasion_Baricate]
 #IF
 #ACT
-MongenP "D1903,188,211,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,190,213,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,192,215,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,194,217,0" Ä¾Õ¤À¸4 1
+MongenP "D1903,188,211,0" ľդ��4 1
+MongenP "D1903,190,213,0" ľդ��4 1
+MongenP "D1903,192,215,0" ľդ��4 1
+MongenP "D1903,194,217,0" ľդ��4 1
 
-MongenP "D1903,207,233,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,209,235,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,211,237,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,213,239,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,215,241,0" Ä¾Õ¤À¸4 1
-MongenP "D1903,217,243,0" Ä¾Õ¤À¸4 1
+MongenP "D1903,207,233,0" ľդ��4 1
+MongenP "D1903,209,235,0" ľդ��4 1
+MongenP "D1903,211,237,0" ľդ��4 1
+MongenP "D1903,213,239,0" ľդ��4 1
+MongenP "D1903,215,241,0" ľդ��4 1
+MongenP "D1903,217,243,0" ľդ��4 1
 
-MongenP "D1903,167,190,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,169,192,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,171,194,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,173,196,0" Ä¾Õ¤À¸3 1
+MongenP "D1903,167,190,0" ľդ��3 1
+MongenP "D1903,169,192,0" ľդ��3 1
+MongenP "D1903,171,194,0" ľդ��3 1
+MongenP "D1903,173,196,0" ľդ��3 1
 
-MongenP "D1903,162,194,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,164,196,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,166,198,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,168,200,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,170,202,0" Ä¾Õ¤À¸3 1
+MongenP "D1903,162,194,0" ľդ��3 1
+MongenP "D1903,164,196,0" ľդ��3 1
+MongenP "D1903,166,198,0" ľդ��3 1
+MongenP "D1903,168,200,0" ľդ��3 1
+MongenP "D1903,170,202,0" ľդ��3 1
 
-MongenP "D1903,151,206,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,153,208,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,155,210,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,157,212,0" Ä¾Õ¤À¸3 1
+MongenP "D1903,151,206,0" ľդ��3 1
+MongenP "D1903,153,208,0" ľդ��3 1
+MongenP "D1903,155,210,0" ľդ��3 1
+MongenP "D1903,157,212,0" ľդ��3 1
 
-MongenP "D1903,132,232,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,134,234,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,136,236,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,138,238,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,140,240,0" Ä¾Õ¤À¸3 1
+MongenP "D1903,132,232,0" ľդ��3 1
+MongenP "D1903,134,234,0" ľդ��3 1
+MongenP "D1903,136,236,0" ľդ��3 1
+MongenP "D1903,138,238,0" ľդ��3 1
+MongenP "D1903,140,240,0" ľդ��3 1
 
-MongenP "D1903,249,189,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,247,191,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,245,193,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,243,195,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,241,197,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,239,199,0" Ä¾Õ¤À¸1 1
+MongenP "D1903,249,189,0" ľդ��1 1
+MongenP "D1903,247,191,0" ľդ��1 1
+MongenP "D1903,245,193,0" ľդ��1 1
+MongenP "D1903,243,195,0" ľդ��1 1
+MongenP "D1903,241,197,0" ľդ��1 1
+MongenP "D1903,239,199,0" ľդ��1 1
 
-MongenP "D1903,80,125,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,78,127,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,76,129,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,74,131,0" Ä¾Õ¤À¸1 1
+MongenP "D1903,80,125,0" ľդ��1 1
+MongenP "D1903,78,127,0" ľդ��1 1
+MongenP "D1903,76,129,0" ľդ��1 1
+MongenP "D1903,74,131,0" ľդ��1 1
 
-MongenP "D1903,60,105,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,58,107,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,56,109,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,54,111,0" Ä¾Õ¤À¸1 1
+MongenP "D1903,60,105,0" ľդ��1 1
+MongenP "D1903,58,107,0" ľդ��1 1
+MongenP "D1903,56,109,0" ľդ��1 1
+MongenP "D1903,54,111,0" ľդ��1 1
 
-MongenP "D1903,59,65,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,57,67,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,55,69,0" Ä¾Õ¤À¸1 1
+MongenP "D1903,59,65,0" ľդ��1 1
+MongenP "D1903,57,67,0" ľդ��1 1
+MongenP "D1903,55,69,0" ľդ��1 1
 
-MongenP "D1903,132,149,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,134,151,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,136,153,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,138,155,0" Ä¾Õ¤À¸3 1
-MongenP "D1903,140,157,0" Ä¾Õ¤À¸3 1
+MongenP "D1903,132,149,0" ľդ��3 1
+MongenP "D1903,134,151,0" ľդ��3 1
+MongenP "D1903,136,153,0" ľդ��3 1
+MongenP "D1903,138,155,0" ľդ��3 1
+MongenP "D1903,140,157,0" ľդ��3 1
 
-MongenP "D1903,176,59,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,174,61,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,172,63,0" Ä¾Õ¤À¸1 1
-MongenP "D1903,170,65,0" Ä¾Õ¤À¸1 1
+MongenP "D1903,176,59,0" ľդ��1 1
+MongenP "D1903,174,61,0" ľդ��1 1
+MongenP "D1903,172,63,0" ľդ��1 1
+MongenP "D1903,170,65,0" ľդ��1 1
 
 [@Samak_MapD1903_NumasInvasion_Mob]
 #IF
 #ACT
-MongenP "D1903,190,209,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,192,211,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,194,213,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,196,215,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,190,209,0" ŵ����ʯ�� 1
+MongenP "D1903,192,211,0" ŵ����ʯ�� 1
+MongenP "D1903,194,213,0" ŵ����ʯ�� 1
+MongenP "D1903,196,215,0" ŵ����ʯ�� 1
 
-MongenP "D1903,209,232,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,211,234,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,213,236,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,215,238,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,217,240,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,209,232,0" ŵ����ʯ�� 1
+MongenP "D1903,211,234,0" ŵ����ʯ�� 1
+MongenP "D1903,213,236,0" ŵ����ʯ�� 1
+MongenP "D1903,215,238,0" ŵ����ʯ�� 1
+MongenP "D1903,217,240,0" ŵ����ʯ�� 1
 
-MongenP "D1903,165,192,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,167,194,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,169,196,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,171,198,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,165,192,0" ŵ����ʯ�� 1
+MongenP "D1903,167,194,0" ŵ����ʯ�� 1
+MongenP "D1903,169,196,0" ŵ����ʯ�� 1
+MongenP "D1903,171,198,0" ŵ����ʯ�� 1
 
-MongenP "D1903,162,196,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,164,198,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,166,200,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,168,202,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,162,196,0" ŵ����ʯ�� 1
+MongenP "D1903,164,198,0" ŵ����ʯ�� 1
+MongenP "D1903,166,200,0" ŵ����ʯ�� 1
+MongenP "D1903,168,202,0" ŵ����ʯ�� 1
 
-MongenP "D1903,150,208,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,152,210,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,154,212,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,156,214,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,150,208,0" ŵ����ʯ�� 1
+MongenP "D1903,152,210,0" ŵ����ʯ�� 1
+MongenP "D1903,154,212,0" ŵ����ʯ�� 1
+MongenP "D1903,156,214,0" ŵ����ʯ�� 1
 
-MongenP "D1903,130,234,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,132,236,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,134,238,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,136,240,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,130,234,0" ŵ����ʯ�� 1
+MongenP "D1903,132,236,0" ŵ����ʯ�� 1
+MongenP "D1903,134,238,0" ŵ����ʯ�� 1
+MongenP "D1903,136,240,0" ŵ����ʯ�� 1
 
-MongenP "D1903,241,199,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,243,197,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,245,195,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,247,193,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,249,191,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,241,199,0" ŵ����ʯ�� 1
+MongenP "D1903,243,197,0" ŵ����ʯ�� 1
+MongenP "D1903,245,195,0" ŵ����ʯ�� 1
+MongenP "D1903,247,193,0" ŵ����ʯ�� 1
+MongenP "D1903,249,191,0" ŵ����ʯ�� 1
 
-MongenP "D1903,201,154,8" ÅµÂêÅ×Ê¯±ø 6
+MongenP "D1903,201,154,8" ŵ����ʯ�� 6
 
-MongenP "D1903,82,127,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,80,129,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,78,131,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,82,127,0" ŵ����ʯ�� 1
+MongenP "D1903,80,129,0" ŵ����ʯ�� 1
+MongenP "D1903,78,131,0" ŵ����ʯ�� 1
 
-MongenP "D1903,56,113,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,58,111,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,60,109,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,62,107,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,56,113,0" ŵ����ʯ�� 1
+MongenP "D1903,58,111,0" ŵ����ʯ�� 1
+MongenP "D1903,60,109,0" ŵ����ʯ�� 1
+MongenP "D1903,62,107,0" ŵ����ʯ�� 1
 
-MongenP "D1903,57,71,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,59,69,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,61,67,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,57,71,0" ŵ����ʯ�� 1
+MongenP "D1903,59,69,0" ŵ����ʯ�� 1
+MongenP "D1903,61,67,0" ŵ����ʯ�� 1
 
-MongenP "D1903,129,150,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,131,152,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,133,154,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,135,156,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,137,158,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,129,150,0" ŵ����ʯ�� 1
+MongenP "D1903,131,152,0" ŵ����ʯ�� 1
+MongenP "D1903,133,154,0" ŵ����ʯ�� 1
+MongenP "D1903,135,156,0" ŵ����ʯ�� 1
+MongenP "D1903,137,158,0" ŵ����ʯ�� 1
 
-MongenP "D1903,178,61,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,176,63,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,174,65,0" ÅµÂêÅ×Ê¯±ø 1
-MongenP "D1903,172,67,0" ÅµÂêÅ×Ê¯±ø 1
+MongenP "D1903,178,61,0" ŵ����ʯ�� 1
+MongenP "D1903,176,63,0" ŵ����ʯ�� 1
+MongenP "D1903,174,65,0" ŵ����ʯ�� 1
+MongenP "D1903,172,67,0" ŵ����ʯ�� 1
 
-MongenP "D1903,84,146,15" ÅµÂê·¨ÀÏ 20
+MongenP "D1903,84,146,15" ŵ�귨�� 20
 
 [@Samak_MapD1903_NumasInvasion_EventMSG]
 #IF
@@ -1092,9 +1092,9 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRD
 CheckHum D1903 1
 !CheckMonMap D1903 200
 #ACT
-MongenP "D1903,180,150,150" ÅµÂê·¨ÀÏ 40
-MongenP "D1903,180,150,150" ÅµÂê 60
-MongenP "D1903,180,150,150" ÅµÂê½«Ê¿ 40
+MongenP "D1903,180,150,150" ŵ�귨�� 40
+MongenP "D1903,180,150,150" ŵ�� 60
+MongenP "D1903,180,150,150" ŵ�꽫ʿ 40
 Delaygoto [Grobal] 600 @Samak_MapD1903_NumasInvasion_BasicGen
 
 #ELSEACT
@@ -1130,11 +1130,11 @@ Equal D2 8
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_21
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_21
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_22
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_22
 
 #ELSEACT
 Enter_Fail
@@ -1143,12 +1143,12 @@ Enter_Fail
 #IF
 IsCastleGuild TAOSUNG
 IsGuildMaster
-!CheckMonMap DQ1901_002 1 ÷¼÷Ã½ÌÖ÷
+!CheckMonMap DQ1901_002 1 ���ý���
 #ACT
-MongenP "DQ1901_002,48,35,0" ÷¼÷Ã½ÌÖ÷ 1 "noitem,É­ÂÞÆ¬"
-MongenP "DQ1901_002,40,40,40" ¹Ç¹í½« 3 "noitem"
-MongenP "DQ1901_002,40,40,40" ÷¼÷ÃÎä½« 10 "noitem"
-MongenP "DQ1901_002,40,40,40" ÷¼÷Ã¹­¼ýÊÖ 10 "noitem"
+MongenP "DQ1901_002,48,35,0" ���ý��� 1 "noitem,ɭ��Ƭ"
+MongenP "DQ1901_002,40,40,40" �ǹ��� 3 "noitem"
+MongenP "DQ1901_002,40,40,40" �����佫 10 "noitem"
+MongenP "DQ1901_002,40,40,40" ���ù����� 10 "noitem"
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg30]
 EventMSG "D1901,DQ1901_002" %A7
 break
@@ -1156,9 +1156,9 @@ break
 #IF
 IsCastleGuild TAOSUNG
 #ACT
-MongenP "DQ1901_002,40,40,40" ¹Ç¹í½« 1 "noitem"
-MongenP "DQ1901_002,40,40,40" ÷¼÷ÃÎä½« 10 "noitem"
-MongenP "DQ1901_002,40,40,40" ÷¼÷Ã¹­¼ýÊÖ 10 "noitem"
+MongenP "DQ1901_002,40,40,40" �ǹ��� 1 "noitem"
+MongenP "DQ1901_002,40,40,40" �����佫 10 "noitem"
+MongenP "DQ1901_002,40,40,40" ���ù����� 10 "noitem"
 break
 
 #ELSEACT
@@ -1166,7 +1166,7 @@ Enter_Fail
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_23
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_23
 
 }
 
@@ -1211,7 +1211,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_24
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_24
 
 [@Samak_MapDQ1902_001_MasterMsg]
 #IF
@@ -1224,13 +1224,13 @@ break
 #IF
 !CheckMonMap DQ1902_001 50
 #ACT
-MongenP "DQ1902_001,40,40,40" ÅËÒ¹Õ½Ê¿ 10
-MongenP "DQ1902_001,40,40,40" ÅËÒ¹»ðÄ§ 10
-MongenP "DQ1902_001,40,40,40" ÅËÒ¹±ùÄ§ 10
-MongenP "DQ1902_001,40,40,40" ÅËÒ¹ÔÆÄ§ 10
-MongenP "DQ1902_001,40,40,40" ÅËÒ¹·çÄ§ 10
-MongenP "DQ1902_001,40,40,40" ÅËÒ¹×ó»¤ÎÀ 10
-MongenP "DQ1902_001,40,40,40" ÅËÒ¹ÓÒ»¤ÎÀ 10
+MongenP "DQ1902_001,40,40,40" ��ҹսʿ 10
+MongenP "DQ1902_001,40,40,40" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,40" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,40" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,40" ��ҹ��ħ 10
+MongenP "DQ1902_001,40,40,40" ��ҹ���� 10
+MongenP "DQ1902_001,40,40,40" ��ҹ�һ��� 10
 Delaygoto [Grobal] 120 @Samak_MapDQ1902_001_Mongen
 
 }
@@ -1244,7 +1244,7 @@ Enter_Fail
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_25
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_25
 
 #IF
 Equal A1 "Ready"
@@ -1275,7 +1275,7 @@ Equal D1 4
 Equal D2 15
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_26
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_26
 
 #ACT
 break
@@ -1295,7 +1295,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_27
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] @Convert_Map_27
 
 [@Samak_MapDQ1903_001_EventMSG]
 #IF
@@ -1358,4 +1358,4 @@ Enter_Fail
 Enter_Ok
 
 }
-;;²»ÒªÉ¾µô´ËÐÐ
+;;��Ҫɾ������

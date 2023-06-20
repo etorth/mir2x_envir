@@ -1,3 +1,0 @@
-;;17Rose_Bichon-0.txt
-[@main]
-#CALL [System\RoseSystem.txt] @Rose_System

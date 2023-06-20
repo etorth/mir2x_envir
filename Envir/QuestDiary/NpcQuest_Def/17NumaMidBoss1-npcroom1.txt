@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@NPCQuest_Check]
 {
 #ACT
@@ -22,9 +22,9 @@ break
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17NumaMidBoss1-npcroom1.txt] @Convert_17NumaMidBoss1-npcroom1_0
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17NumaMidBoss1-npcroom1.txt] @Convert_17NumaMidBoss1-npcroom1_0
 
 [@NumaStone3Quest_start1]
-#CALL [QuestDiary/HonChondo/MadoNumaNpc.txt] @MadoTimeQuestNumaNpc_A
+#CALL [HonChondo\MadoNumaNpc.txt] @MadoTimeQuestNumaNpc_A
 }
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

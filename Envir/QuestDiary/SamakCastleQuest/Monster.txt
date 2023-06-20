@@ -1,4 +1,4 @@
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ
 
 
 
@@ -21,15 +21,15 @@
 [@Samak_Mon1_0]
 {
 #IF
-!CheckMonmap "DQ1901_001" 1 çŸ³åƒç‹®å­
+!CheckMonmap "DQ1901_001" 1 Ê¯ÏñÊ¨×Ó
 #ACT
-give å¤´å­è¯ä»¶ 1
+give Í·×ÓÖ¤¼ş 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUSRDY=3"
 Delaygoto [Local] 3 @Samak_Mon1_MapMove
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Monster.txt] @Convert_Monster_0
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Monster.txt] @Convert_Monster_0
 
 [@Samak_Mon1_MapMove]
 #IF
@@ -187,7 +187,7 @@ Equal A2 "Ready"
 Equal D1 3
 Equal D2 1
 #ACT
-give ç®€æ˜“é’¥åŒ™ 1
+give ¼òÒ×Ô¿³× 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUSRDY=2"
 break
@@ -197,7 +197,7 @@ Equal A2 "Ready"
 Equal D1 3
 Equal D2 2
 #ACT
-give ç®€æ˜“é’¥åŒ™ 1
+give ¼òÒ×Ô¿³× 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUSRDY=3"
 break
@@ -207,7 +207,7 @@ Equal A2 "Ready"
 Equal D1 3
 Equal D2 3
 #ACT
-give ç®€æ˜“é’¥åŒ™ 1
+give ¼òÒ×Ô¿³× 1
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Monster.txt] [Convert] [Msg3]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -440,7 +440,7 @@ break
 [@Samak_Mon11_GuardGen]
 #IF
 #ACT
-MongenP "DQ1902_001,40,40,0" æŠ¤æ³•å¤© 1 "Noitem,æ£®ç½—ç‰‡"
+MongenP "DQ1902_001,40,40,0" »¤·¨Ìì 1 "Noitem,É­ÂŞÆ¬"
 
 }
 
@@ -495,7 +495,7 @@ Mapting D1901 D1901 52 242
 [@Samak_Mon13_0]
 {
 #IF
-!CheckMonMap D1903 1 è¯ºç›çªå‡»é˜Ÿé•¿
+!CheckMonMap D1903 1 ÅµÂêÍ»»÷¶Ó³¤
 #ACT
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKGUILD,FLD_SAMAKGUILDMASTER,FLD_SAMAKCONDITION,FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@SAMAK_Mon13_Read]
@@ -674,7 +674,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUSRDY=3"
 #IF
 Random 3
 #ACT
-MongenP "D1903,84,146,15" è¯ºç›æ³•è€ 20
+MongenP "D1903,84,146,15" ÅµÂê·¨ÀÏ 20
 Delaygoto [Grobal] 7 @Samak_Mon14_0
 
 #ELSEACT
@@ -685,7 +685,7 @@ Delaygoto [Grobal] 7 @Samak_Mon14_0
 [@Samak_Mon15_0]
 {
 #IF
-!CheckMonmap "DQ1903_003" 1 éœ‡å¤©é¦–å°†
+!CheckMonmap "DQ1903_003" 1 ÕğÌìÊ×½«
 #ACT
 MonClear DQ1903_003
 
@@ -700,7 +700,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUSRDY=11"
 [@Samak_Mon16_0]
 {
 #IF
-!CheckMonmap "DQ1903_003" 1 éœ‡å¤©é­”ç¥
+!CheckMonmap "DQ1903_003" 1 ÕğÌìÄ§Éñ
 #ACT
 MonClear DQ1903_003
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Monster.txt] [Convert] [Msg24]
@@ -734,9 +734,9 @@ Mapting DQ1903_003 5 251 103
 [@Samak_Mon17_0]
 {
 #IF
-!CheckMonMap DQ1902_007 1 çˆ†æ¯’èš‚èš
-!CheckMonMap DQ1902_007 1 ç›”ç”²èš‚èš
-!CheckMonMap DQ1902_007 1 èš‚èšé“å£«
+!CheckMonMap DQ1902_007 1 ±¬¶¾ÂìÒÏ
+!CheckMonMap DQ1902_007 1 ¿ø¼×ÂìÒÏ
+!CheckMonMap DQ1902_007 1 ÂìÒÏµÀÊ¿
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Monster.txt] [Convert] [Msg27]
 EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
@@ -781,4 +781,4 @@ EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKCONDITION='Complete'"
 }
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ

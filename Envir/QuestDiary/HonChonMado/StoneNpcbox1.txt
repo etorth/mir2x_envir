@@ -1,8 +1,8 @@
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––
 [@StoneNpcbox1_Talk]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @StoneNpcbox1_Talk1
 break
@@ -25,7 +25,7 @@ mov D3 %ARG(3)
 #IF
 Equal D1 13
 Equal D2 2
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @StoneNpcbox1_Talk_4
 break
@@ -33,7 +33,7 @@ break
 #IF
 Equal D1 13
 Equal D2 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @StoneNpcbox1_Talk_3
 break
@@ -41,7 +41,7 @@ break
 #IF
 Equal D1 13
 Equal D2 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @StoneNpcbox1_Talk_2
 break
@@ -49,7 +49,7 @@ break
 
 #IF
 Equal D1 12
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @StoneNpcbox1_Talk_1
 break
@@ -57,17 +57,17 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpcbox1.txt] @Convert_StoneNpcbox1_0
 
 [@StoneNpcbox1_Talk_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpcbox1.txt] @Convert_StoneNpcbox1_1
 
 [@StoneNpcbox1_Talk_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpcbox1.txt] @Convert_StoneNpcbox1_2
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -79,18 +79,18 @@ break
 [@StoneNpcbox1_Talk_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpcbox1.txt] @Convert_StoneNpcbox1_3
 
-[@StoneNpcbox1_Event_1]
-#CALL [QuestDiary/HonChonMado/QuestMadoEvent.txt] @Npcbox1_Event_1
+[@StoneNpcbox1_Event_1]	
+#CALL [HonChonMado\QuestMadoEvent.txt] @Npcbox1_Event_1
 
 [@StoneNpcbox1_Talk_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpcbox1.txt] @Convert_StoneNpcbox1_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpcbox1.txt] @Convert_StoneNpcbox1_4
 
 [@StoneNpcbox1_Talk_5]
 #ACT
 mapting	D1606 41 148 86
 }
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––

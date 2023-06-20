@@ -2,17 +2,17 @@
 [@Sabuk_Teleport]
 {
 #IF
-IsOnCastleWar Sabuk                    ;; ê³µì„±í’€ ì¤‘ì¸ì§€ ì²´í¬ í•˜ëŠ” ë¶€ë¶„
+IsOnCastleWar Sabuk                    ;; °ø¼ºÇ® ÁßÀÎÁö Ã¼Å© ÇÏ´Â ºÎºĞ
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SabukTele.txt] @SabukTele_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_1
 
 #ACT
 break
 
 #IF
-IsOnReadyCastleWar Sabuk               ;; ê³µì„± ëŒ€ê¸°ì‹œê°„ì¸ì§€ ì²´í¬ í•˜ëŠ” ë¶€ë¶„
+IsOnReadyCastleWar Sabuk               ;; °ø¼º ´ë±â½Ã°£ÀÎÁö Ã¼Å© ÇÏ´Â ºÎºĞ
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SabukTele.txt] @SabukTele_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_2
 
 #ACT
 break
@@ -20,12 +20,12 @@ break
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SabukTele.txt] @SabukTele_3
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SabukTele.txt] @SabukTele_3
 
 #ELSEACT
-mapmove 81 125 274                                    ;; ë¹¨ê°±ì´ ì´ë™
+mapmove 81 125 274                                    ;; »¡°»ÀÌ ÀÌµ¿
 break
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; ì´ë™ ë£¨í‹´
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ÀÌµ¿ ·çÆ¾
 }

@@ -26,7 +26,7 @@ goto @Xeds3
 
 [@Xeds3]
 #SAY
-扫荡不知道有没有什么大的意义，但是既然开始的事情就不能半途而废。勇士，相信你的实力。\
+ɨ����֪����û��ʲô������壬���Ǽ�Ȼ��ʼ������Ͳ��ܰ�;���ϡ���ʿ���������ʵ����\
 #ACT
 goto @Xeds4
 
@@ -49,13 +49,13 @@ goto @Xeds4_3
 
 [@Xeds4_1]
 #ACT
-Give 我乃裁决之杖 1
+Give ���˲þ�֮�� 1
 
 [@Xeds4_2]
 #ACT
-Give 我乃骨玉权杖 1
+Give ���˹���Ȩ�� 1
 
 [@Xeds4_3]
 #ACT
-Give 我乃无极棍 1
+Give �����޼��� 1
 ;;

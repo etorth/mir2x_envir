@@ -1,3 +1,0 @@
-;;13Move_Kugkyung3-01.txt
-[@main]
-#CALL [\\teleport\KugKyungTele.txt] @Kygkyung_Teleport_East

@@ -1,3 +1,0 @@
-;;Gold.txt
-[GOLD]
-AddGold =1000000

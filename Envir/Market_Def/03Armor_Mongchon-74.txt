@@ -11,7 +11,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
@@ -19,34 +19,34 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_Main_0_0
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-È≠îÊ≥ïÂ§¥Áõî         50         1
-;;Âπ∏ËøêÈùíÈìúÂ§¥Áõî     50         1
-ÈáçÁõîÁî≤ÔºàÁî∑Ôºâ     50         1
-ÈáçÁõîÁî≤ÔºàÂ•≥Ôºâ     50         1
-ÁÅµÈ≠ÇÊàòË°£ÔºàÁî∑Ôºâ   50         1
-ÁÅµÈ≠ÇÊàòË°£ÔºàÂ•≥Ôºâ   50         1
-È≠îÊ≥ïÈïøË¢çÔºàÁî∑Ôºâ   50         1
-È≠îÊ≥ïÈïøË¢çÔºàÂ•≥Ôºâ   50         1
+ƒß∑®Õ∑ø¯         50         1
+;;–“‘À«‡Õ≠Õ∑ø¯     50         1
+÷ÿø¯º◊£®ƒ–£©     50         1
+÷ÿø¯º◊£®≈Æ£©     50         1
+¡ÈªÍ’Ω“¬£®ƒ–£©   50         1
+¡ÈªÍ’Ω“¬£®≈Æ£©   50         1
+ƒß∑®≥§≈€£®ƒ–£©   50         1
+ƒß∑®≥§≈€£®≈Æ£©   50         1
 
 [@TQuest]
 #IF
@@ -74,7 +74,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -97,10 +97,10 @@ goto @TQuest498_1
 ;--------------
 
 [@TQuest498_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @498_START
+#CALL [\QT_TODAY\4thClass.txt] @498_START
 
 [@TQuest498_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @498_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @498_CHECK1
 
 ;------------------------
 
@@ -123,10 +123,10 @@ goto @TQuest475_1
 ;--------------
 
 [@TQuest475_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @475_START
+#CALL [\QT_TODAY\4thClass.txt] @475_START
 
 [@TQuest475_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @475_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @475_CHECK1
 
 
 ;--------------
@@ -150,16 +150,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @119_START
+#CALL [\QT_TODAY\1stClass.txt] @119_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @119_CHECK1
+#CALL [\QT_TODAY\1stClass.txt] @119_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/03Armor_Mongchon-74.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_def\03Armor_Mongchon-74.txt] @NPC_TQuest_1
 
 ;------------------------
 
@@ -182,10 +182,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @311_START
+#CALL [\QT_TODAY\3rdClass.txt] @311_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @311_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @311_CHECK1
 
 
 ;-------------------------------------------------------------------------------

@@ -18,7 +18,7 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [QuestDiary/NQ_BASE/BackGround/bichun.txt] @BackLog_BC_M1
+#CALL [\NQ_BASE\BackGround\bichun.txt] @BackLog_BC_M1
 
 
 ;;------------------------------------------------------------------------------
@@ -30,7 +30,7 @@ goto @main_Call_BG
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root_0_0
 
@@ -54,7 +54,7 @@ goto @main_root_0_1
 
 [@main_root_0_1]
 #IF
-checkmagic ÈõÜ‰ΩìÈöêË∫´ÊúØ
+checkmagic ºØÃÂ“˛…Ì ı
 ;		check masshiden
 #ACT
 goto @main_root_0_3
@@ -482,226 +482,226 @@ goto @main_1_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_0
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_0
+ 
 ;-----------------------------
 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_1
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_1
+ 
 ;-----------------------------
 
 [@main_0_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_2
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_2
+ 
 ;-----------------------------
 
 [@main_0_3]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_3
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_3
 
 ;-----------------------------
 
 [@main_0_4]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_4
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_4
+ 
 ;-----------------------------
 
 [@main_0_5]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_5
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_5
+ 
 ;-----------------------------
 
 [@main_0_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_6
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_6
 
 ;-----------------------------
 ;-----------------------------
 
 [@main_0_7]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_7
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_7
+ 
 
 ;-----------------------------
 
 [@main_0_8]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_8
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_8
+ 
 ;-----------------------------
 
 [@main_0_9]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_9
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_9
+ 
 ;-----------------------------
 
 [@main_0_10]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_10
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_10
 
 ;-----------------------------
 ;-----------------------------
 
 [@main_0_11]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_11
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_11
 
 ;-----------------------------
 
 [@main_0_12]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_12
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_12
+ 
 ;-----------------------------
 
 [@main_0_13]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_13
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_13
+ 
 ;-----------------------------
 
 [@main_0_14]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_0_14
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_0_14
 
 ;----------------------------------------------------
 ;----------------------------------------------------
 
 [@main_1_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_0
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_0
 
 ;-----------------------------
 
 [@main_1_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_1
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_1
+ 
 ;-----------------------------
 
 [@main_1_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_2
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_2
+ 
 ;-----------------------------
 
 [@main_1_3]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_3
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_3
+ 
 ;-----------------------------
 
 [@main_1_4]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_4
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_4
+ 
 ;-----------------------------
 
 [@main_1_5]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_5
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_5
 
 ;-----------------------------
 
 [@main_1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_6
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_6
+ 
 ;-----------------------------
 ;-----------------------------
 
 [@main_1_7]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_7
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_7
+ 
 ;-----------------------------
 
 [@main_1_8]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_8
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_8
+ 
 ;-----------------------------
 
 [@main_1_9]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_9
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_9
+ 
 ;-----------------------------
 
 [@main_1_10]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_10
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_10
+ 
 ;-----------------------------
 ;-----------------------------
 
 [@main_1_11]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_11
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_11
+ 
 ;-----------------------------
 
 [@main_1_12]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_12
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_12
+ 
 ;-----------------------------
 
 [@main_1_13]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_13
-
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_13
+ 
 ;-----------------------------
 
 [@main_1_14]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Main_1_14
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Main_1_14
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Buy
 
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Sell
 
 
 [@questionprize]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_QuestionPrize
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_QuestionPrize
 
 [@candle]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Candle
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Candle
 
 [@teleport]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Teleport
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Teleport
 
 [@teleport2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Teleport2
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Teleport2
 
 [@steleport]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_sTeleport
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_sTeleport
 
 [@repairoil]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_RepairOil
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_RepairOil
 
 [Goods]
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_Goods
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_Goods
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -709,27 +709,27 @@ goto @main_1_0
 ;;------------------------------------------------------------------------------
 
 [@NQuest01_1]
-#CALL [QuestDiary/NQ_BASE/wang.txt] @INVITE_JABSANG
+#CALL [\NQ_BASE\wang.txt] @INVITE_JABSANG
 
 [@NQuest01_2]
-#CALL [QuestDiary/NQ_BASE/wang.txt] @JOIN_JABSANG
+#CALL [\NQ_BASE\wang.txt] @JOIN_JABSANG
 
 
 [@NQuest02_1]
-#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_1
+#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_1
 
 [@NQuest02_2]
-#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_2
+#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_2
 
 [@NQuest02_3]
-#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_3
+#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_3
 
 [@NQuest02_4]
-#CALL [QuestDiary/NQ_BASE/pariche.txt] @PARICHE_JABSANG_4
+#CALL [\NQ_BASE\pariche.txt] @PARICHE_JABSANG_4
 
 
 [@NQuest03]
-#CALL [QuestDiary/MU_taoist/masshiden.txt] @mugong_masshiding_pre
+#CALL [\MU_taoist\masshiden.txt] @mugong_masshiding_pre
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -768,7 +768,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -800,7 +800,7 @@ goto @TQuest464_1
 ;--------------
 
 [@TQuest464_1]
-;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @464_CHECK2
+;;#CALL [\QT_TODAY\4thClass.txt] @464_CHECK2
 
 ;--------------
 
@@ -823,16 +823,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @238_START
+#CALL [\QT_TODAY\2ndClass.txt] @238_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @238_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @238_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_Bichon-0.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_Bichon-0.txt] @NPC_TQuest_1
 
 ;-------------------------------------
 
@@ -855,10 +855,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @323_START
+#CALL [\QT_TODAY\3rdClass.txt] @323_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @323_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @323_CHECK1
 
 ;-------------------------------------
 
@@ -881,10 +881,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @406_START
+#CALL [\QT_TODAY\4thClass.txt] @406_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @406_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @406_CHECK1
 
 ;-------------------------------------
 
@@ -907,10 +907,10 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @433_START
+#CALL [\QT_TODAY\4thClass.txt] @433_START
 
 [@TQuest4_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @433_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @433_CHECK1
 
 
 ;-------------------------------------

@@ -1,11 +1,11 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@main]
 #IF
 Check [209] 1
 Check [210] 1
 Check [409] 0
 #ACT
-Mov A8 "璇虹帥绐佸嚮闃熼暱"
+Mov A8 "诺玛突击队长"
 goto @TodayQuest_TQCase1
 #ELSEACT
 goto @main_Except
@@ -31,11 +31,11 @@ break
 break
 
 [@Samak_Mon13]
-#CALL [QuestDiary/SamakCastleQuest/Monster.txt] @Samak_Mon13_0
+#CALL [SamakCastleQuest\Monster.txt] @Samak_Mon13_0
 
 [@TodayQuest_TQCase1]
-#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_NuMadolguk
+#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NuMadolguk
 
 [@Taosung_Mon]
-#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastle_VillageAttack_Numa
-;;涓嶈鍒犳帀姝よ
+#CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastle_VillageAttack_Numa
+;;不要删掉此行

@@ -1,39 +1,39 @@
 ;;15Magic_DoGwan-1.txt
 [@NPC_RedPlayer]
 {
-è·Ÿä½ è¿™ç§äººæˆ‘æ— è¯å¯è¯´ã€‚\ \
- <ç»“æŸ/@exit>
+¸úÄãÕâÖÖÈËÎÒÎÞ»°¿ÉËµ¡£\ \
+ <½áÊø/@exit>
 }
 
 [@NPC_Main_Warrior]
 {
-è´«é“äººç§°é»›æ‚²å…ˆç”Ÿï¼Œä¸“é—¨æŒ‡å¯¼æ¥è¿™é‡Œä¿®è¡Œçš„é“å£«ã€‚\
-ä¸è¿‡ä½ æ˜¯æˆ˜å£«ï¼Œä½ åº”è¯¥åŽ»è¾¹å¢ƒåŸŽå¸‚ã€‚\ \
- <ç»“æŸ/@exit>
+Æ¶µÀÈË³Æ÷ì±¯ÏÈÉú£¬×¨ÃÅÖ¸µ¼À´ÕâÀïÐÞÐÐµÄµÀÊ¿¡£\
+²»¹ýÄãÊÇÕ½Ê¿£¬ÄãÓ¦¸ÃÈ¥±ß¾³³ÇÊÐ¡£\ \
+ <½áÊø/@exit>
 }
 
 [@NPC_Main_Wizard]
 {
-è´«é“äººç§°é»›æ‚²å…ˆç”Ÿï¼Œä¸“é—¨æŒ‡å¯¼æ¥è¿™é‡Œä¿®è¡Œçš„é“å£«ã€‚\
-ä¸è¿‡ä½ æ˜¯é­”æ³•å¸ˆï¼Œä½ åº”è¯¥åŽ»é“¶æå±±è°·ã€‚\ \
- <ç»“æŸ/@exit>
+Æ¶µÀÈË³Æ÷ì±¯ÏÈÉú£¬×¨ÃÅÖ¸µ¼À´ÕâÀïÐÞÐÐµÄµÀÊ¿¡£\
+²»¹ýÄãÊÇÄ§·¨Ê¦£¬ÄãÓ¦¸ÃÈ¥ÒøÐÓÉ½¹È¡£\ \
+ <½áÊø/@exit>
 }
 
 [@NPC_Main]
 {
-è´«é“äººç§°é»›æ‚²å…ˆç”Ÿã€‚\
-é‚£ï¼Œä½ æ¥æ‰¾æˆ‘æœ‰ä»€ä¹ˆäº‹ï¼Ÿ\
-<å¯»æ±‚æ­¦åŠŸæŒ‡å¯¼/@daebi_mugong_main>\
-<ç»“æŸ/@exit>
+Æ¶µÀÈË³Æ÷ì±¯ÏÈÉú¡£\
+ÄÇ£¬ÄãÀ´ÕÒÎÒÓÐÊ²Ã´ÊÂ£¿\
+<Ñ°ÇóÎä¹¦Ö¸µ¼/@daebi_mugong_main>\
+<½áÊø/@exit>
 }
 
 [@NPC_Main_Mugong]
 {
-æˆ‘å¯ä»¥æŒ‡å¯¼ä½ ä»¥ä¸‹è¿™äº›æ­¦åŠŸã€‚\
-ï¼ˆ26 - 30 ç­‰çº§ ä¿®ç‚¼é­”æ³•ï¼‰\
-<å›°é­”å’’/@holycircle_test_start>\
-ï¼ˆ31 - 40 ç­‰çº§ ä¿®ç‚¼é­”æ³•ï¼‰\
-<ç¾¤ä½“æ²»æ„ˆæœ¯/@massheal_test_start>\ \
-<ä¸å¯»æ±‚æ­¦åŠŸæŒ‡å¯¼/@exit>
+ÎÒ¿ÉÒÔÖ¸µ¼ÄãÒÔÏÂÕâÐ©Îä¹¦¡£\
+£¨26 - 30 µÈ¼¶ ÐÞÁ¶Ä§·¨£©\
+<À§Ä§Öä/@holycircle_test_start>\
+£¨31 - 40 µÈ¼¶ ÐÞÁ¶Ä§·¨£©\
+<ÈºÌåÖÎÓúÊõ/@massheal_test_start>\ \
+<²»Ñ°ÇóÎä¹¦Ö¸µ¼/@exit>
 }
 

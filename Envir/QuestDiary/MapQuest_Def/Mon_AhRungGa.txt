@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 
 [@Main]
 #ACT
@@ -52,17 +52,17 @@ break
 
 
 [@mainstep4_1_0]
-#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep4_1
+#CALL [HonChonDo\Mon_extinction.txt] @mainstep4_1
 
 [@mainstep4_2_0]
-#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep4_2
+#CALL [HonChonDo\Mon_extinction.txt] @mainstep4_2
 
 [@mainstep4_3_0]
-#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep4_3
+#CALL [HonChonDo\Mon_extinction.txt] @mainstep4_3
 
 [@mainstep4_4_0]
-#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep4_4
+#CALL [HonChonDo\Mon_extinction.txt] @mainstep4_4
 
 [@mainstep5_0]
-#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @mainstep5
-;;涓嶈鍒犳帀姝よ
+#CALL [HonChonDo\Mon_extinction.txt] @mainstep5
+;;不要删掉此行

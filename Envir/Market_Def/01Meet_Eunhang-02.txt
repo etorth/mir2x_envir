@@ -9,7 +9,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_root_1
@@ -54,47 +54,47 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_Main_0_0
-
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_Main_0_0
+ 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_Main_0_1
-
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_Main_0_1
+ 
 [@main_0_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_Main_0_2
-
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_Main_0_2
+ 
 [@main_0_3]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_Main_0_3
-
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_Main_0_3
+ 
 [@main_0_4]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_Main_0_4
-
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_Main_0_4
+ 
 [@main_0_5]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_Main_0_5
-
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_Main_0_5
+ 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_Sell
 
 [@meathelp]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_MeatHelp
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_MeatHelp
 
 [@NQuest01_1]
-#CALL [QuestDiary/NQ_BASE/wizardbase.txt] @Sulsa_DQ_START
+#CALL [\NQ_BASE\wizardbase.txt] @Sulsa_DQ_START
 
 [@NQuest01_2]
-#CALL [QuestDiary/NQ_BASE/wizardbase.txt] @Sulsa_GO_KIM
+#CALL [\NQ_BASE\wizardbase.txt] @Sulsa_GO_KIM
 
 [@NQuest01_3]
-#CALL [QuestDiary/NQ_BASE/wizardbase.txt] @Sulsa_SEARCH_GOGI
+#CALL [\NQ_BASE\wizardbase.txt] @Sulsa_SEARCH_GOGI
 
 [@NQuest01_4]
-#CALL [QuestDiary/NQ_BASE/wizardbase.txt] @Sulsa_MQ_COMPLETE
+#CALL [\NQ_BASE\wizardbase.txt] @Sulsa_MQ_COMPLETE
 
 [@TQuest]
 #IF
@@ -134,7 +134,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_TQuest
 
 [@TQuest581_0]
 #IF
@@ -153,10 +153,10 @@ break
 goto @TQuest581_1
 
 [@TQuest581_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @581_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @581_START
 
 [@TQuest581_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @581_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @581_CHECK1
 
 [@TQuest1_0]
 #IF
@@ -175,14 +175,14 @@ break
 goto @TQuest1_1
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @427_START
+#CALL [\QT_TODAY\4thClass.txt] @427_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @427_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @427_CHECK1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/01Meet_Eunhang-02.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\01Meet_Eunhang-02.txt] @NPC_TQuest_1
 
 [@TQuest2_0]
 #IF
@@ -201,10 +201,10 @@ break
 goto @TQuest2_1
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @441_START
+#CALL [\QT_TODAY\4thClass.txt] @441_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @441_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @441_CHECK1
 
 [@TQuest3_0]
 #IF
@@ -223,10 +223,10 @@ break
 goto @TQuest3_1
 
 [@TQuest3_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @507_START
+;;#CALL [\QT_TODAY\5thClass.txt] @507_START
 
 [@TQuest3_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @507_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @507_CHECK1
 
 [@TQuest4_0]
 #IF
@@ -245,10 +245,10 @@ break
 goto @TQuest4_1
 
 [@TQuest4_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @521_START
+;;#CALL [\QT_TODAY\5thClass.txt] @521_START
 
 [@TQuest4_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @521_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @521_CHECK1
 
 
 [@TQuest5_0]
@@ -268,7 +268,7 @@ break
 goto @TQuest5_1
 
 [@TQuest5_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @559_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @559_START
 
 [@TQuest5_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @559_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @559_CHECK1

@@ -3,71 +3,71 @@
 {
 #ACT
   goto @MonZenRootin
-
+  
 [@MonZenRootin]
 begin
 	#IF
 		Equal  N1{EVENT}  0
 	#ACT
 		break
-
-	;; é˜èƒ¶ç£ å“© çªç»° ä½•ç›’
+	
+	;; ¸ó½ºÅÍ Á¨ ÇÏ´Â ºÎºĞ
 	#IF
-		!CheckMonMap "Island02,100,100,100" 50  çŒ¿çŒ´æˆ˜å°†
+		!CheckMonMap "Island02,100,100,100" 50  Ô³ºïÕ½½«
 	#ACT
-		MonGenP  "Island02,100,130,20" çŒ¿çŒ´æˆ˜å°† 30 "noitem"
-		MonGenP  "Island02,100,130,60" çŒ¿çŒ´æˆ˜å°† 30 "noitem"
-		ChangeMonLevel "Island02" çŒ¿çŒ´æˆ˜å°† 99
-
+		MonGenP  "Island02,100,130,20" Ô³ºïÕ½½« 30 "noitem"
+		MonGenP  "Island02,100,130,60" Ô³ºïÕ½½« 30 "noitem"
+		ChangeMonLevel "Island02" Ô³ºïÕ½½« 99
+	
 	#IF
-		!CheckMonMap "Island02,100,100,100" 50  é­”ç¥æ€ª1
+		!CheckMonMap "Island02,100,100,100" 50  Ä§Éñ¹Ö1
 	#ACT
-		MonGenP  "Island02,100,130,20" é­”ç¥æ€ª1 30 "noitem"
-		MonGenP  "Island02,100,130,60" é­”ç¥æ€ª1 30 "noitem"
-		ChangeMonLevel "Island02" é­”ç¥æ€ª1 99
-
+		MonGenP  "Island02,100,130,20" Ä§Éñ¹Ö1 30 "noitem"
+		MonGenP  "Island02,100,130,60" Ä§Éñ¹Ö1 30 "noitem"
+		ChangeMonLevel "Island02" Ä§Éñ¹Ö1 99
+	
 	#IF
-		!CheckMonMap "Island02,100,100,100" 50  çŒ¿çŒ´æˆ˜å£«
+		!CheckMonMap "Island02,100,100,100" 50  Ô³ºïÕ½Ê¿
 	#ACT
-		MonGenP  "Island02,100,130,60" çŒ¿çŒ´æˆ˜å£« 20 "noitem"
-		MonGenP  "Island02,166,144,10" çŒ¿çŒ´æˆ˜å£« 10 "noitem"
-		MonGenP  "Island02,34,189,10" çŒ¿çŒ´æˆ˜å£« 10 "noitem"
-		ChangeMonLevel "Island02" çŒ¿çŒ´æˆ˜å£« 99
-
+		MonGenP  "Island02,100,130,60" Ô³ºïÕ½Ê¿ 20 "noitem"
+		MonGenP  "Island02,166,144,10" Ô³ºïÕ½Ê¿ 10 "noitem"
+		MonGenP  "Island02,34,189,10" Ô³ºïÕ½Ê¿ 10 "noitem"
+		ChangeMonLevel "Island02" Ô³ºïÕ½Ê¿ 99
+	
 	#IF
 		Equal  N5{AI}  2
 	#ACT
-		ApplyMonMission "Island02,100,100,100,9999"  "çŒ¿çŒ´æˆ˜å°†,é­”ç¥æ€ª1"  ""
-		ApplyMonMission "Island02,100,100,100,9999"  "çŒ¿çŒ´æˆ˜å°†,é­”ç¥æ€ª1"  "Island,100,130"
-
+		ApplyMonMission "Island02,100,100,100,9999"  "Ô³ºïÕ½½«,Ä§Éñ¹Ö1"  ""
+		ApplyMonMission "Island02,100,100,100,9999"  "Ô³ºïÕ½½«,Ä§Éñ¹Ö1"  "Island,100,130"
+	
 	#IF
 		Equal  N5{AI}  3
 	#ACT
-		ApplyMonMission "Island02,100,100,100,9999"  "çŒ¿çŒ´æˆ˜å°†,é­”ç¥æ€ª1"  ""
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å°†,é­”ç¥æ€ª1"  "Island, 55,111"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å°†,é­”ç¥æ€ª1"  "Island, 72, 97"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island,100, 90"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island,119,105"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island,141,128"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island,165,144"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island,134,180"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island,111,188"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island, 93,186"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island, 70,128"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island, 40,193"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island, 48,169"
-		ApplyMonMission "Island02, 95,135,20,8"  "çŒ¿çŒ´æˆ˜å£«,çŒ¿çŒ´æˆ˜å°†"  "Island, 60,126"
-
+		ApplyMonMission "Island02,100,100,100,9999"  "Ô³ºïÕ½½«,Ä§Éñ¹Ö1"  ""
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½½«,Ä§Éñ¹Ö1"  "Island, 55,111"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½½«,Ä§Éñ¹Ö1"  "Island, 72, 97"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island,100, 90"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island,119,105"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island,141,128"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island,165,144"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island,134,180"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island,111,188"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island, 93,186"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island, 70,128"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island, 40,193"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island, 48,169"
+		ApplyMonMission "Island02, 95,135,20,8"  "Ô³ºïÕ½Ê¿,Ô³ºïÕ½½«"  "Island, 60,126"
+	
 	#IF
 		Equal  N5{AI} 8
 	#ACT
 		Mov    N5{AI} 0
-		MonClear "Island02" "çŒ¿çŒ´æˆ˜å£«"
-		MonClear "Island02" "çŒ¿çŒ´æˆ˜å°†"
-		MonClear "Island02" "é­”ç¥æ€ª1"
+		MonClear "Island02" "Ô³ºïÕ½Ê¿"
+		MonClear "Island02" "Ô³ºïÕ½½«"
+		MonClear "Island02" "Ä§Éñ¹Ö1"
 		goto  @MonZenRootin
 		break
-
+	
 	#IF
 	#ACT
 		Inc   N5{AI}  1

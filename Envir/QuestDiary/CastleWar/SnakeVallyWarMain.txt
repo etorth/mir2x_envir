@@ -22,14 +22,14 @@ Equal A1 ""
 #ACT
 break
 #ELSEACT
-LineMsg [Grobal] "'<$OUTPUT(A0)>' è¡Œä¼šå’Œ '<$OUTPUT(A1)>' è¡Œä¼šæŠ¢å¤ºçŸ¿å±±å¤§æˆ˜å¼€å§‹äº†ã€‚"
+LineMsg [Grobal] "'<$OUTPUT(A0)>' ĞĞ»áºÍ '<$OUTPUT(A1)>' ĞĞ»áÇÀ¶á¿óÉ½´óÕ½¿ªÊ¼ÁË¡£"
 UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_GATECONTROL='OpenGate'"
 Delaygoto [Grobal] 2400 @GuildEventSystemTime_Startting 1004
 
 
 [@GuildEventSystemTime_Startting]
 #ACT
-LineMsg [Grobal] "ä¸èƒ½å†å‚åŠ æŠ¢å¤ºçŸ¿å±±å¤§æˆ˜ã€‚"
+LineMsg [Grobal] "²»ÄÜÔÙ²Î¼ÓÇÀ¶á¿óÉ½´óÕ½¡£"
 UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_GATECONTROL='CloseGate'"
 Delaygoto [Grobal] 1200 @GuildEventSystemTime_Actting 1004
 
@@ -93,9 +93,9 @@ inc D1 %D4
 #IF
 Equal D0 %D1
 #ACT
-LineMsg [Grobal] "æŠ¢å¤ºçŸ¿å±±å¤§æˆ˜ç»“æŸæ—¶å·²ç»å°†å„è¡Œä¼šå‰©ä¸‹çš„ä¼šå‘˜æ•°åŠ å…¥äº†åˆ†å€¼é‡Œã€‚"
-LineMsg [Grobal] "'<$OUTPUT(A0)>'çš„è¡Œä¼šå’Œ'<$OUTPUT(A1)>'è¡Œä¼šçš„åˆ†æ•°ä¸€æ ·ã€‚"
-LineMsg [Grobal] "ç»“æœç”±ç®¡ç†å‘˜å‘è¡¨ã€‚"
+LineMsg [Grobal] "ÇÀ¶á¿óÉ½´óÕ½½áÊøÊ±ÒÑ¾­½«¸÷ĞĞ»áÊ£ÏÂµÄ»áÔ±Êı¼ÓÈëÁË·ÖÖµÀï¡£"
+LineMsg [Grobal] "'<$OUTPUT(A0)>'µÄĞĞ»áºÍ'<$OUTPUT(A1)>'ĞĞ»áµÄ·ÖÊıÒ»Ñù¡£"
+LineMsg [Grobal] "½á¹ûÓÉ¹ÜÀíÔ±·¢±í¡£"
 MapTing E001 5 195 207
 
 Delaygoto [Grobal] 300 @GuildEventSystemTime_Clear 1004
@@ -104,9 +104,9 @@ break
 #IF
 Large D0 %D1
 #ACT
-LineMsg [Grobal] "æŠ¢å¤ºçŸ¿å±±å¤§æˆ˜ç»“æŸæ—¶å·²ç»å°†å„è¡Œä¼šå‰©ä¸‹çš„ä¼šå‘˜æ•°åŠ å…¥äº†åˆ†å€¼é‡Œã€‚"
-LineMsg [Grobal] "'<$OUTPUT(A0)>'çš„è¡Œä¼šä»¥'<$OUTPUT(D0)>'åˆ†èƒœåˆ©äº†ã€‚"
-LineMsg [Grobal] "åœ¨æŠ¢å¤ºçŸ¿å±±å¤§æˆ˜ä¸­é˜²å¾¡æ–¹èƒœåˆ©äº†ã€‚"
+LineMsg [Grobal] "ÇÀ¶á¿óÉ½´óÕ½½áÊøÊ±ÒÑ¾­½«¸÷ĞĞ»áÊ£ÏÂµÄ»áÔ±Êı¼ÓÈëÁË·ÖÖµÀï¡£"
+LineMsg [Grobal] "'<$OUTPUT(A0)>'µÄĞĞ»áÒÔ'<$OUTPUT(D0)>'·ÖÊ¤ÀûÁË¡£"
+LineMsg [Grobal] "ÔÚÇÀ¶á¿óÉ½´óÕ½ÖĞ·ÀÓù·½Ê¤ÀûÁË¡£"
 UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_SnakeVallyNAME2='',FLD_WINSnakeVally=''"
 MapTing E001 5 195 207
 Delaygoto [Grobal] 30 @GuildEventSystemTime_Clear 1004
@@ -115,10 +115,10 @@ break
 #IF
 Large D1 %D0
 #ACT
-LineMsg [Grobal] "æŠ¢å¤ºçŸ¿å±±å¤§æˆ˜ç»“æŸæ—¶å·²ç»å°†å„è¡Œä¼šå‰©ä¸‹çš„ä¼šå‘˜æ•°åŠ å…¥äº†åˆ†å€¼é‡Œã€‚"
-LineMsg [Grobal] "'<$OUTPUT(A1)>'çš„è¡Œä¼šä»¥'<$OUTPUT(D1)>'åˆ†èƒœåˆ©äº†ã€‚"
-LineMsg [Grobal] "èƒœåˆ©çš„è¡Œä¼šæŒé—¨äººåˆ°çŸ¿å±±ç®¡ç†å‘˜é‚£é‡Œæ¥æ”¶çŸ¿å±±ã€‚"
-LineMsg [Grobal] "1å°æ—¶ä¹‹å†…ä¸èƒ½å é¢†çŸ¿å±±çš„è¯ï¼Œå°±ä¸èƒ½å é¢†çŸ¿å±±ã€‚"
+LineMsg [Grobal] "ÇÀ¶á¿óÉ½´óÕ½½áÊøÊ±ÒÑ¾­½«¸÷ĞĞ»áÊ£ÏÂµÄ»áÔ±Êı¼ÓÈëÁË·ÖÖµÀï¡£"
+LineMsg [Grobal] "'<$OUTPUT(A1)>'µÄĞĞ»áÒÔ'<$OUTPUT(D1)>'·ÖÊ¤ÀûÁË¡£"
+LineMsg [Grobal] "Ê¤ÀûµÄĞĞ»áÕÆÃÅÈËµ½¿óÉ½¹ÜÀíÔ±ÄÇÀï½ÓÊÕ¿óÉ½¡£"
+LineMsg [Grobal] "1Ğ¡Ê±Ö®ÄÚ²»ÄÜÕ¼Áì¿óÉ½µÄ»°£¬¾Í²»ÄÜÕ¼Áì¿óÉ½¡£"
 FormatSTR "FLD_SnakeVallyNAME2='',FLD_WINSnakeVally='%s'" %A1
 UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" %A9
 MapTing E001 5 195 207

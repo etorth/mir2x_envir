@@ -20,7 +20,7 @@ break
 ;-----------------------------------------------------
 ;-----------------------------------------------------
 [@King_T473]
-;		Ã€ÃÃ€Ã Ã„Ã¹Â½ÂºÃ†Â® 473 Â¹Ã¸
+;		ÀÏÀÏ Äù½ºÆ® 473 ¹ø
 #IF
 check [310] 1
 #ACT
@@ -50,9 +50,9 @@ break
 #IF
 #ACT
 set [308] 1
-give ÃÂ°Â¶Ã±Ã‡Â¯Â³Ã¦Ã†Â¤ 1
+give Ğ°¶ñÇ¯³æÆ¤ 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T473_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T473_Say
 
 ;-----------------------------------------------------
 [@wanggibge_313]
@@ -86,7 +86,7 @@ break
 [@wanggibge_313_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T313_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T313_Say
 
 #ACT
 set [308] 1

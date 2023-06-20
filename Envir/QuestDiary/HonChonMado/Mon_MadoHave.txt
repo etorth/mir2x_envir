@@ -1,8 +1,8 @@
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––
 [@MadoHaveStep_1]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_1_1
 break
@@ -24,7 +24,7 @@ mov D3 %ARG(3)
 #IF
 Equal D1 11
 Equal D2 8
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_5_9_Ok
 break
@@ -32,7 +32,7 @@ break
 #IF
 Equal D1 11
 Equal D2 7
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_5_8_Ok
 break
@@ -40,7 +40,7 @@ break
 #IF
 Equal D1 11
 Equal D2 6
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_5_7_Ok
 break
@@ -48,7 +48,7 @@ break
 #IF
 Equal D1 11
 Equal D2 5
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_5_6_Ok
 break
@@ -56,7 +56,7 @@ break
 #IF
 Equal D1 11
 Equal D2 4
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_4_5_Ok
 break
@@ -64,7 +64,7 @@ break
 #IF
 Equal D1 11
 Equal D2 3
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_4_4_Ok
 break
@@ -72,7 +72,7 @@ break
 #IF
 Equal D1 11
 Equal D2 2
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_3_Ok
 break
@@ -80,7 +80,7 @@ break
 #IF
 Equal D1 11
 Equal D2 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_2_Ok
 break
@@ -88,7 +88,7 @@ break
 #IF
 Equal D1 11
 Equal D2 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_1_Ok
 break
@@ -97,7 +97,7 @@ break
 #IF
 Equal D1 9
 large D2 6
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_4_7_Ok
 break
@@ -105,7 +105,7 @@ break
 #IF
 Equal D1 9
 Equal D2 5
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_4_6_Ok
 break
@@ -113,7 +113,7 @@ break
 #IF
 Equal D1 9
 Equal D2 4
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_4_5_Ok
 break
@@ -121,7 +121,7 @@ break
 #IF
 Equal D1 9
 Equal D2 3
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_4_4_Ok
 break
@@ -129,7 +129,7 @@ break
 #IF
 Equal D1 9
 Equal D2 2
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_3_Ok
 break
@@ -137,7 +137,7 @@ break
 #IF
 Equal D1 9
 Equal D2 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_2_Ok
 break
@@ -145,7 +145,7 @@ break
 #IF
 Equal D1 9
 Equal D2 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_1_Ok
 break
@@ -153,7 +153,7 @@ break
 #IF
 Equal D1 6
 Equal D2 3
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_4_Ok
 break
@@ -161,7 +161,7 @@ break
 #IF
 Equal D1 6
 Equal D2 2
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_3_Ok
 break
@@ -169,7 +169,7 @@ break
 #IF
 Equal D1 6
 Equal D2 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_2_Ok
 break
@@ -178,7 +178,7 @@ break
 #IF
 Equal D1 6
 Equal D2 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_3_1_Ok
 break
@@ -187,7 +187,7 @@ break
 #IF
 Equal D1 5
 Equal D2 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_2_1_Ok
 break
@@ -196,7 +196,7 @@ break
 #IF
 Equal D1 5
 Equal D2 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_2_Ok
 break
@@ -204,7 +204,7 @@ break
 #IF
 Equal D1 3
 Equal D2 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_1_Ok
 break
@@ -225,10 +225,10 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=3"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
 set [208] 0
-give ÈùíÁ©∫Áü≥ 1
+give «‡ø’ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_0
 
 #ELSEACT
 break
@@ -244,10 +244,10 @@ Equal D9 4
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=5"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
-give ÈùíÁ©∫Áü≥ 1
+give «‡ø’ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_1
 
 #ELSEACT
 break
@@ -263,10 +263,10 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=5"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
 set [208] 0
-give Â§ßÂú∞Áü≥ 1
+give ¥Ûµÿ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_2
 
 #ELSEACT
 break
@@ -281,10 +281,10 @@ Equal D9 4
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
-give ÈùíÁ©∫Áü≥ 1
+give «‡ø’ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_3
 
 #ELSEACT
 break
@@ -299,10 +299,10 @@ Equal D9 4
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
-give Â§ßÂú∞Áü≥ 1
+give ¥Ûµÿ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_4
 
 #ELSEACT
 break
@@ -316,10 +316,10 @@ Equal D9 4
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=3"
-give Â§™Èò≥Áü≥ 1
+give Ã´—Ù Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_5
 
 #ELSEACT
 break
@@ -335,10 +335,10 @@ Equal D9 4
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
 set [208] 0
-give ÊúàÂÖâÁü≥ 1
+give ‘¬π‚ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_6
 
 #ELSEACT
 break
@@ -352,10 +352,10 @@ Equal D9 4
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
-give ÊúàÂÖâÁü≥ 1
+give ‘¬π‚ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_7
 
 #ELSEACT
 break
@@ -370,10 +370,10 @@ Equal D9 4
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
-give ÂÆâÊÅØÁü≥ 1
+give ∞≤œ¢ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_8
 
 #ELSEACT
 break
@@ -389,13 +389,13 @@ Equal D9 4
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
 set [208] 0
-give ÂèóËÉéÁü≥ 1
+give  ‹Ã• Ø 1
 map D16063
 DelayGoto [Grobal] 5 @MadoHaveStep_4_Event
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_9
 
 #ELSEACT
 break
@@ -403,7 +403,7 @@ break
 [@MadoHaveStep_4_Event]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_10
 
 [@MadoHaveStep_4_7_Ok]
 #ACT
@@ -428,11 +428,11 @@ Equal D9 4
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
-give ÂèóËÉéÁü≥ 1
+give  ‹Ã• Ø 1
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_11
 
 #ELSEACT
 break
@@ -447,11 +447,11 @@ Equal D9 4
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
 set [208] 0
-give Ê¥ªÁü≥ 1
+give ªÓ Ø 1
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_12
 
 #ELSEACT
 break
@@ -467,13 +467,13 @@ Equal D9 4
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
 set [208] 0
-give ÂøÉÁü≥ 1
+give –ƒ Ø 1
 map D16063
 DelayGoto [Grobal] 5 @MadoHaveStep_5_Event
 break
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_13
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_13
 
 #ELSEACT
 break
@@ -482,7 +482,7 @@ break
 [@MadoHaveStep_5_Event]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_14
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_14
 
 [@MadoHaveStep_5_9_Ok]
 #ACT
@@ -505,7 +505,7 @@ break
 [@MadoHaveStep1_1]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep1_1_1
 break
@@ -527,7 +527,7 @@ mov D3 %ARG(3)
 #IF
 Equal D1 10
 Equal D2 7
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep2_5_Ok
 break
@@ -535,7 +535,7 @@ break
 #IF
 Equal D1 10
 Equal D2 6
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep2_4_Ok
 break
@@ -543,7 +543,7 @@ break
 #IF
 Equal D1 10
 Equal D2 5
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep2_3_Ok
 break
@@ -551,7 +551,7 @@ break
 #IF
 Equal D1 10
 Equal D2 4
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep2_2_Ok
 break
@@ -559,7 +559,7 @@ break
 #IF
 Equal D1 10
 Equal D2 3
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep2_1_Ok
 break
@@ -567,7 +567,7 @@ break
 #IF
 Equal D1 8
 Equal D2 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep1_1_Ok
 break
@@ -601,10 +601,10 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=8"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
 set [208] 0
-give Êú∫ÂÖ≥Èõ∂‰ª∂ 1
+give ª˙πÿ¡„º˛ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_15
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_15
 
 #ELSEACT
 break
@@ -620,10 +620,10 @@ Equal D9 7
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
-give Êú∫ÂÖ≥Èõ∂‰ª∂ 1
+give ª˙πÿ¡„º˛ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_16
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_16
 
 #ELSEACT
 break
@@ -639,10 +639,10 @@ Equal D9 7
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
-give Êú∫ÂÖ≥Èõ∂‰ª∂ 1
+give ª˙πÿ¡„º˛ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_17
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_17
 
 #ELSEACT
 break
@@ -658,10 +658,10 @@ Equal D9 7
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
-give Êú∫ÂÖ≥Èõ∂‰ª∂ 1
+give ª˙πÿ¡„º˛ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_18
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_18
 
 #ELSEACT
 break
@@ -677,10 +677,10 @@ Equal D9 7
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
-give Êú∫ÂÖ≥Èõ∂‰ª∂ 1
+give ª˙πÿ¡„º˛ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_19
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_19
 
 #ELSEACT
 break
@@ -697,10 +697,10 @@ FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
 set [208] 0
-give Êú∫ÂÖ≥Èõ∂‰ª∂ 1
+give ª˙πÿ¡„º˛ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_20
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] @Convert_Mon_MadoHave_20
 
 #ELSEACT
 break
@@ -709,7 +709,7 @@ break
 [@MadoHaveDie_1]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep_1_1
 break
@@ -746,7 +746,7 @@ break
 [@MadoHaveDie1_1]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveDie1_1_1
 break
@@ -844,7 +844,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 [@MadoHaveStep5_1]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep5_2
 break
@@ -866,7 +866,7 @@ mov D3 %ARG(3)
 #IF
 Equal D1 13
 Equal D2 3
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveStep5_3
 goto @MadoHaveEvent5_3
@@ -874,7 +874,7 @@ break
 
 
 [@MadoHaveEvent5_3]
-#CALL [QuestDiary/HonChondo/extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [HonChondo\extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@MadoHaveStep5_3]
 
@@ -972,7 +972,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
 [@MadoHaveDie2_1]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MadoHaveDie2_1_1
 break
@@ -1006,4 +1006,4 @@ linemsg "D1606" %A7
 break
 
 }
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––

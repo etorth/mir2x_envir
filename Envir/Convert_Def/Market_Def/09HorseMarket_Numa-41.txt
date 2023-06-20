@@ -1,50 +1,50 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
 [@NPC_RedPlayer]
 {
-è·Ÿä½ è¿™ç§äººæˆ‘æ— è¯å¯è¯´ã€‚\ \
-<ç»“æŸ/@exit>
+¸úÄãÕâÖÖÈËÎÒÎÞ»°¿ÉËµ¡£\ \
+<½áÊø/@exit>
 }
 
 [@NPC_Main_0]
 {
-æ¬¢è¿Žå…‰ä¸´è¯ºçŽ›é©¬åŽ©ã€‚é©¬æ˜¯é«˜ä»·äº§å“ï¼Œè¯·æ…Žé‡é€‰æ‹©ã€‚\
-<è´­ä¹° é»‘é©¬ï¼ˆ9000ä¸‡é‡‘å¸ï¼Œéœ€è¦ç­‰çº§50ï¼‰/@BuyHorseGraw3> \
-<å–æ‰€æ‹¥æœ‰çš„é©¬ã€‚/@SellHorse> \
-<ç»“æŸ/@exit>
+»¶Ó­¹âÁÙÅµÂêÂí¾Ç¡£ÂíÊÇ¸ß¼Û²úÆ·£¬ÇëÉ÷ÖØÑ¡Ôñ¡£\
+<¹ºÂò ºÚÂí£¨9000Íò½ð±Ò£¬ÐèÒªµÈ¼¶50£©/@BuyHorseGraw3> \
+<ÂôËùÓµÓÐµÄÂí¡£/@SellHorse> \
+<½áÊø/@exit>
 }
 
 [@NPC_BuyHorseGraw]
 {
-æˆ‘ä¸èƒ½æŠŠè¿™ä¹ˆå®è´µçš„é©¬å–ç»™ä½ ã€‚ä½ å†ä¿®ç‚¼ä¸€æ®µæ—¶é—´ç­‰ç»ƒåˆ°50çº§å†æ¥å§ã€‚\ \
-<ç»“æŸ/@exit>
+ÎÒ²»ÄÜ°ÑÕâÃ´±¦¹óµÄÂíÂô¸øÄã¡£ÄãÔÙÐÞÁ¶Ò»¶ÎÊ±¼äµÈÁ·µ½50¼¶ÔÙÀ´°É¡£\ \
+<½áÊø/@exit>
 }
 
 [@NPC_BuyHorseGraw_NoMoney]
 {
-ä½ çš„é’±ä¸å¤Ÿï¼Œå‡†å¤‡å¥½é’±ä»¥åŽå†æ¥å§ã€‚\ \
-<ç»“æŸ/@exit>
+ÄãµÄÇ®²»¹»£¬×¼±¸ºÃÇ®ÒÔºóÔÙÀ´°É¡£\ \
+<½áÊø/@exit>
 }
 
 [@NPC_BuyHorseGraw_Fail]
 {
-ä½ ä¸æ˜¯æœ‰é©¬å˜›ï¼Œä¸ºä»€ä¹ˆè¿˜è¦ä¹°ï¼Ÿ\ \
-<ç»“æŸ/@exit>
+Äã²»ÊÇÓÐÂíÂï£¬ÎªÊ²Ã´»¹ÒªÂò£¿\ \
+<½áÊø/@exit>
 }
 
 [@NPC_BuyHorseGraw_Complete]
 {
-å¥½å¥½éª‘å§ã€‚\ \
-<ç»“æŸ/@exit>
+ºÃºÃÆï°É¡£\ \
+<½áÊø/@exit>
 }
 
 [@NPC_SellHorse]
 {
-æˆ‘æ‰€æ‹¥æœ‰çš„é©¬å·²ç»å–å‡ºåŽ»äº†ã€‚\ \
-<ç»“æŸ/@exit>
+ÎÒËùÓµÓÐµÄÂíÒÑ¾­Âô³öÈ¥ÁË¡£\ \
+<½áÊø/@exit>
 }
 
 [@NPC_SellHorse_Fail]
 {
-ä½ å·²éª‘ç€é©¬çš„æƒ…å†µä¸‹æˆ‘ä¸èƒ½å–ç»™ä½ ã€‚ã€‚ä½ åœ¨ç¡®è®¤ä¸€ä¸‹ä½ çš„é©¬å§ã€‚ã€‚æˆ–è€…æ‚¨æ‰€æºå¸¦çš„é‡‘å¸å¤ªå¤šäº†\ \
-<ç»“æŸ/@exit>
+ÄãÒÑÆï×ÅÂíµÄÇé¿öÏÂÎÒ²»ÄÜÂô¸øÄã¡£¡£ÄãÔÚÈ·ÈÏÒ»ÏÂÄãµÄÂí°É¡£¡£»òÕßÄúËùÐ¯´øµÄ½ð±ÒÌ«¶àÁË\ \
+<½áÊø/@exit>
 }

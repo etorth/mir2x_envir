@@ -14,22 +14,22 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Samak-5.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Samak-5.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Samak-5.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Samak-5.txt] @NPC_Main
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10Material_Samak-5.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\10Material_Samak-5.txt] @NPC_Sell
 
 
 ;;[@Event1115]
-;;#CALL [QuestDiary/Event/02_11_15_Event.txt] @change_event
+;;#CALL [\Event\02_11_15_Event.txt] @change_event
 
 ;;[@Event1105]
-;;#CALL [QuestDiary/Event/02_11_05_Event.txt] @Event_main
+;;#CALL [\Event\02_11_05_Event.txt] @Event_main

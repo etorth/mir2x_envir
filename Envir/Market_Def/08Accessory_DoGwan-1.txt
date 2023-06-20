@@ -17,7 +17,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -28,34 +28,34 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1.txt] @NPC_Main
-
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1.txt] @NPC_Main
+ 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_DoGwan-1.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_DoGwan-1.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-姘存櫠榄旀垝        100        1
-鐝嶇彔鎴掓寚        100        1
-閬撳＋鎵嬮暞        100        1
-榛勮壊姘存櫠椤归摼    100        1
-鐪熷杽椤归摼        100        1
-;;鍑ゅ嚢鏄庣彔        100        1
+水晶魔戒        100        1
+珍珠戒指        100        1
+道士手镯        100        1
+黄色水晶项链    100        1
+真善项链        100        1
+;;凤凰明珠        100        1
 
 
 ;;------------------------------------------------------------------------------

@@ -19,7 +19,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -32,46 +32,46 @@ goto @main_0_0
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_Main
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_Repair_complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_Repair_complete
 
 [Goods]
 ;ItemName      Volume     Hour
 ;; Warrior Ring
-È™∑È´ÖÊàíÊåá        100        1
-;; Warrior Bracelet
-Â∞èÊâãÈïØ          100        1
-;; Warrior Necklace
-ËìùÁø°Áø†È°πÈìæ      100        1
+˜º˜√Ω‰÷∏        100        1
+;; Warrior Bracelet 
+–° ÷ÔÌ          100        1
+;; Warrior Necklace 
+¿∂Ù‰¥‰œÓ¡¥      100        1
 ;; Taoist Ring
-ÁèçÁè†ÊàíÊåá        100        1
-;; Taoist Bracelet
-ÈÅìÂ£´ÊâãÈïØ        100        1
-;; Taoist Necklace
-;;Âá§Âá∞ÊòéÁè†        100        1
+’‰÷ÈΩ‰÷∏        100        1
+;; Taoist Bracelet 
+µ¿ ø ÷ÔÌ        100        1
+;; Taoist Necklace 
+;;∑ÔªÀ√˜÷È        100        1
 ;; Wizard Ring
-ËõáÁúºÊàíÊåá        100        1
-;; Wizard Bracelet
-ÈªëÊ™ÄÊâãÈïØ        100        1
-;; Wizard Necklace
-;;‰∫îËâ≤È°πÈìæ        100        1
+…ﬂ—€Ω‰÷∏        100        1
+;; Wizard Bracelet 
+∫⁄Ã¥ ÷ÔÌ        100        1
+;; Wizard Necklace 
+;;ŒÂ…´œÓ¡¥        100        1
 
 
 ;;------------------------------------------------------------------------------
@@ -110,7 +110,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -133,16 +133,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @117_START
+#CALL [\QT_TODAY\1stClass.txt] @117_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @117_CHECK1
+#CALL [\QT_TODAY\1stClass.txt] @117_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Samak-5_005.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Samak-5_005.txt] @NPC_TQuest_1
 
 ;------------------------
 
@@ -165,10 +165,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @214_START
+#CALL [\QT_TODAY\2ndClass.txt] @214_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @214_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @214_CHECK1
 
 ;------------------------
 
@@ -191,10 +191,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @221_START
+#CALL [\QT_TODAY\2ndClass.txt] @221_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @221_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @221_CHECK1
 
 ;------------------------
 
@@ -217,9 +217,9 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @331_START
+#CALL [\QT_TODAY\3rdClass.txt] @331_START
 
 [@TQuest4_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @331_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @331_CHECK1
 
 ;------------------------

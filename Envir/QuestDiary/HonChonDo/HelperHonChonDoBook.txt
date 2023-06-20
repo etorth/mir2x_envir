@@ -1,4 +1,4 @@
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––
 [@HelperHonChonDoQuest]
 {
 #IF
@@ -18,7 +18,7 @@ Mov D1 %ARG(3)
 Equal A8 ""
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_0
 
 #ACT
 break
@@ -28,7 +28,7 @@ Equal D0 1
 Equal D1 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_1
 
 #ACT
 break
@@ -38,7 +38,7 @@ Equal D0 1
 Equal D1 2
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_2
 
 #ACT
 break
@@ -48,7 +48,7 @@ Equal D0 1
 Equal D1 3
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_3
 
 #ACT
 break
@@ -58,7 +58,7 @@ Equal D0 1
 Equal D1 4
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_4
 
 #ACT
 break
@@ -69,7 +69,7 @@ Equal D0 2
 Equal D1 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_5
 
 #ACT
 break
@@ -79,7 +79,7 @@ Equal D0 3
 Equal D1 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_6
 
 #ACT
 break
@@ -89,7 +89,7 @@ Equal D0 3
 Equal D1 2
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_7
 
 #ACT
 break
@@ -99,7 +99,7 @@ Equal D0 4
 Equal D1 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_8
 
 #ACT
 break
@@ -109,7 +109,7 @@ Equal D0 4
 Equal D1 2
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_9
 
 #ACT
 break
@@ -119,7 +119,7 @@ Equal D0 4
 Equal D1 3
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_10
 
 #ACT
 break
@@ -129,7 +129,7 @@ Equal D0 4
 Equal D1 4
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_11
 
 #ACT
 break
@@ -139,7 +139,7 @@ Equal D0 4
 Equal D1 5
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_12
 
 #ACT
 break
@@ -149,7 +149,7 @@ Equal D0 4
 Equal D1 6
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_13
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_13
 
 #ACT
 break
@@ -159,7 +159,7 @@ Equal D0 4
 Equal D1 7
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_14
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_14
 
 #ACT
 break
@@ -169,7 +169,7 @@ Equal D0 5
 Equal D1 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_15
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_15
 
 #ACT
 break
@@ -179,7 +179,7 @@ Equal D0 5
 Equal D1 2
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_16
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_16
 
 #ACT
 break
@@ -189,7 +189,7 @@ Equal D0 5
 Equal D1 3
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_17
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_17
 
 #ACT
 break
@@ -199,7 +199,7 @@ Equal D0 5
 Equal D1 4
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_18
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_18
 
 #ACT
 break
@@ -209,7 +209,7 @@ Equal D0 5
 Equal D1 5
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_19
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_19
 
 #ACT
 break
@@ -219,7 +219,7 @@ Equal D0 6
 Equal D1 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_20
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_20
 
 #ACT
 break
@@ -229,7 +229,7 @@ Equal D0 6
 Equal D1 2
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_21
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_21
 
 #ACT
 break
@@ -239,7 +239,7 @@ Equal D0 6
 Equal D1 3
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_22
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_22
 
 #ACT
 break
@@ -250,7 +250,7 @@ Equal D0 7
 Equal D1 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_23
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_23
 
 #ACT
 break
@@ -259,9 +259,9 @@ break
 Equal D0 8
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_24
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_24
 
 #ACT
 break
 }
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å[@HelperHonChonDoQuest]{#IFCheck [205] 1#ACTFormatStr "FLD_MADOUSER='%s'" %USERNAMEReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOUSER,FLD_MADOMAIN,FLD_MADOCONTENT" [@HelperHonChonDoQuest_PreCheck][@HelperHonChonDoQuest_PreCheck()]#IF#ACTMov A8 %ARG(1)mov D0 %ARG(2)Mov D1 %ARG(3)#IFEqual A8 ""#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_0#ACTbreak#IFEqual D0 1Equal D1 1#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_1#ACTbreak#IFEqual D0 1Equal D1 2#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_2#ACTbreak#IFEqual D0 1Equal D1 3#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_3#ACTbreak#IFEqual D0 1Equal D1 4#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_4#ACTbreak#IFEqual D0 2Equal D1 1#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_5#ACTbreak#IFEqual D0 3Equal D1 1#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_6#ACTbreak#IFEqual D0 3Equal D1 2#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_7#ACTbreak#IFEqual D0 4Equal D1 1#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_8#ACTbreak#IFEqual D0 4Equal D1 2#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_9#ACTbreak#IFEqual D0 4Equal D1 3#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_10#ACTbreak#IFEqual D0 4Equal D1 4#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_11#ACTbreak#IFEqual D0 4Equal D1 5#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_12#ACTbreak#IFEqual D0 4Equal D1 6#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_13#ACTbreak#IFEqual D0 4Equal D1 7#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_14#ACTbreak#IFEqual D0 5Equal D1 1#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_15#ACTbreak#IFEqual D0 5Equal D1 2#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_16#ACTbreak#IFEqual D0 5Equal D1 3#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_17#ACTbreak#IFEqual D0 5Equal D1 4#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_18#ACTbreak#IFEqual D0 5Equal D1 5#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_19#ACTbreak#IFEqual D0 6Equal D1 1#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_20#ACTbreak#IFEqual D0 6Equal D1 2#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_21#ACTbreak#IFEqual D0 6Equal D1 3#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_22#ACTbreak#IFEqual D0 7Equal D1 1#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_23#ACTbreak#IFEqual D0 8#SAY#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_24#ACTbreak}
+;;≤ª“™…æµÙ¥À––;;≤ª“™…æµÙ¥À––[@HelperHonChonDoQuest]{#IFCheck [205] 1#ACTFormatStr "FLD_MADOUSER='%s'" %USERNAMEReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOUSER,FLD_MADOMAIN,FLD_MADOCONTENT" [@HelperHonChonDoQuest_PreCheck][@HelperHonChonDoQuest_PreCheck()]#IF#ACTMov A8 %ARG(1)mov D0 %ARG(2)Mov D1 %ARG(3)#IFEqual A8 ""#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_0#ACTbreak#IFEqual D0 1Equal D1 1#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_1#ACTbreak#IFEqual D0 1Equal D1 2#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_2#ACTbreak#IFEqual D0 1Equal D1 3#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_3#ACTbreak#IFEqual D0 1Equal D1 4#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_4#ACTbreak#IFEqual D0 2Equal D1 1#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_5#ACTbreak#IFEqual D0 3Equal D1 1#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_6#ACTbreak#IFEqual D0 3Equal D1 2#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_7#ACTbreak#IFEqual D0 4Equal D1 1#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_8#ACTbreak#IFEqual D0 4Equal D1 2#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_9#ACTbreak#IFEqual D0 4Equal D1 3#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_10#ACTbreak#IFEqual D0 4Equal D1 4#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_11#ACTbreak#IFEqual D0 4Equal D1 5#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_12#ACTbreak#IFEqual D0 4Equal D1 6#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_13#ACTbreak#IFEqual D0 4Equal D1 7#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_14#ACTbreak#IFEqual D0 5Equal D1 1#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_15#ACTbreak#IFEqual D0 5Equal D1 2#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_16#ACTbreak#IFEqual D0 5Equal D1 3#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_17#ACTbreak#IFEqual D0 5Equal D1 4#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_18#ACTbreak#IFEqual D0 5Equal D1 5#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_19#ACTbreak#IFEqual D0 6Equal D1 1#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_20#ACTbreak#IFEqual D0 6Equal D1 2#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_21#ACTbreak#IFEqual D0 6Equal D1 3#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_22#ACTbreak#IFEqual D0 7Equal D1 1#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_23#ACTbreak#IFEqual D0 8#SAY#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HelperHonChonDoBook.txt] @Convert_HelperHonChonDoBook_24#ACTbreak}ˇ     

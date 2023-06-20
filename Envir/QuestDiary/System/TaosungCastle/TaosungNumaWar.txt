@@ -1,4 +1,4 @@
-;;不要删掉此行
+;;��Ҫɾ������
 [@TosungCastleWar_Numa]
 {
 #ACT
@@ -22,9 +22,9 @@ Mov A1 %ARG(1)
 !checkmonmap 5 400
 Equal A1 "NUMA"
 #ACT
-ApplyMonEX "5,267,145,5" 木栅栏2 [Monsterside]
-ApplyMonEX "5,201,159,5" 木栅栏4 [Monsterside]
-ApplyMonEX "5,211,96,5" 木栅栏1 [Monsterside]
+ApplyMonEX "5,267,145,5" ľդ��2 [Monsterside]
+ApplyMonEX "5,201,159,5" ľդ��4 [Monsterside]
+ApplyMonEX "5,211,96,5" ľդ��1 [Monsterside]
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg0]
 EventMsg "4,5" %A7 18
 goto @TosungCastleWar_Numa_Defence
@@ -36,9 +36,9 @@ break
 !Equal A1 "NUMA"
 #ACT
 
-ApplyMonEX "5,267,145,5" 木栅栏2 [Humanside]
-ApplyMonEX "5,201,159,5" 木栅栏4 [Humanside]
-ApplyMonEX "5,211,96,5" 木栅栏1 [Humanside]
+ApplyMonEX "5,267,145,5" ľդ��2 [Humanside]
+ApplyMonEX "5,201,159,5" ľդ��4 [Humanside]
+ApplyMonEX "5,211,96,5" ľդ��1 [Humanside]
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg1]
 EventMsg "4,5" %A7 14
 goto @TosungCastleWar_Numa_TosungAttack
@@ -66,93 +66,93 @@ EventMsg "4,5" %A7 18
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-mongenp "5,240,115,100" 诺玛9 30 "noitem"
-mongenp "5,100,260,5" 诺玛9 20 "noitem"
+mongenp "5,240,115,100" ŵ��9 30 "noitem"
+mongenp "5,100,260,5" ŵ��9 20 "noitem"
 AddPath 201, 159
 AddPath 217, 141
 AddPath 217, 128
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,186,138,20" 诺玛9
+ApplyPath "5,186,138,20" ŵ��9
 ClearPath
 
-mongenp "5,100,260,5" 诺玛法老9 20 "noitem"
+mongenp "5,100,260,5" ŵ�귨��9 20 "noitem"
 AddPath 201, 159
 AddPath 217, 141
 AddPath 217, 128
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,100,260,20" 诺玛法老9
+ApplyPath "5,100,260,20" ŵ�귨��9
 ClearPath
 
-mongenp "5,100,260,5" 诺玛将士9 30 "noitem"
+mongenp "5,100,260,5" ŵ�꽫ʿ9 30 "noitem"
 AddPath 201, 159
 AddPath 217, 141
 AddPath 217, 128
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,100,260,20" 诺玛将士9
+ApplyPath "5,100,260,20" ŵ�꽫ʿ9
 ClearPath
 
-mongenp "5,162,48,5" 诺玛9 20 "noitem"
+mongenp "5,162,48,5" ŵ��9 20 "noitem"
 AddPath 206, 91
 AddPath 222, 108
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,162,48,20" 诺玛9
+ApplyPath "5,162,48,20" ŵ��9
 ClearPath
 
-mongenp "5,162,48,5" 诺玛法老9 10 "noitem"
+mongenp "5,162,48,5" ŵ�귨��9 10 "noitem"
 AddPath 206, 91
 AddPath 222, 108
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,162,48,20" 诺玛法老9
+ApplyPath "5,162,48,20" ŵ�귨��9
 ClearPath
 
-mongenp "5,162,48,5" 诺玛将士9 30 "noitem"
+mongenp "5,162,48,5" ŵ�꽫ʿ9 30 "noitem"
 AddPath 206, 91
 AddPath 222, 108
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,162,48,20" 诺玛将士9
+ApplyPath "5,162,48,20" ŵ�꽫ʿ9
 ClearPath
 
-mongenp "5,287,221,5" 诺玛9 20 "noitem"
+mongenp "5,287,221,5" ŵ��9 20 "noitem"
 AddPath 268, 146
 AddPath 256, 134
 AddPath 256, 124
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,287,221,20" 诺玛9
+ApplyPath "5,287,221,20" ŵ��9
 ClearPath
 
-mongenp "5,287,221,5" 诺玛法老9 10 "noitem"
+mongenp "5,287,221,5" ŵ�귨��9 10 "noitem"
 AddPath 268, 146
 AddPath 256, 134
 AddPath 256, 124
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,287,221,20" 诺玛法老9
+ApplyPath "5,287,221,20" ŵ�귨��9
 ClearPath
 
 
-mongenp "5,287,221,5" 诺玛将士9 30 "noitem"
+mongenp "5,287,221,5" ŵ�꽫ʿ9 30 "noitem"
 AddPath 268, 146
 AddPath 256, 134
 AddPath 256, 124
 AddPath 242, 102
 AddPath 249, 102
 AddPath 248, 106
-ApplyPath "5,287,221,20" 诺玛将士9
+ApplyPath "5,287,221,20" ŵ�꽫ʿ9
 ClearPath
 Delaygoto [Grobal] 300 @TosungCastleWar_Numa_Start
 #ELSEACT
@@ -162,49 +162,49 @@ break
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-mongenp "5,261,91,30" 诺玛9 50 "noitem"
-mongenp "5,250,105,50" 诺玛将士9 50 "noitem"
+mongenp "5,261,91,30" ŵ��9 50 "noitem"
+mongenp "5,250,105,50" ŵ�꽫ʿ9 50 "noitem"
 
-mongenp "5,246,105,5" 诺玛法老9 20 "noitem"
+mongenp "5,246,105,5" ŵ�귨��9 20 "noitem"
 AddPath 248, 106
 AddPath 271, 80
 AddPath 248, 106
 AddPath 248, 106
-ApplyPath "5,246,105,20" 诺玛法老9
+ApplyPath "5,246,105,20" ŵ�귨��9
 ClearPath
 
-mongenp "5,229,110,5" 诺玛将士9 10 "noitem"
+mongenp "5,229,110,5" ŵ�꽫ʿ9 10 "noitem"
 AddPath 211, 96
-ApplyPath "5,232,119,10" 诺玛将士9
+ApplyPath "5,232,119,10" ŵ�꽫ʿ9
 ClearPath
 
-mongenp "5,229,110,5" 诺玛法老9 10 "noitem"
+mongenp "5,229,110,5" ŵ�귨��9 10 "noitem"
 AddPath 211, 96
-ApplyPath "5,232,119,10" 诺玛法老9
+ApplyPath "5,232,119,10" ŵ�귨��9
 ClearPath
 
-mongenp "5,217,132,5" 诺玛将士9 10 "noitem"
+mongenp "5,217,132,5" ŵ�꽫ʿ9 10 "noitem"
 AddPath 206, 153
-ApplyPath "5,217,132,10" 诺玛将士9
+ApplyPath "5,217,132,10" ŵ�꽫ʿ9
 ClearPath
-mongenp "5,217,132,5" 诺玛法老9 10 "noitem"
+mongenp "5,217,132,5" ŵ�귨��9 10 "noitem"
 AddPath 206, 153
-ApplyPath "5,217,132,10" 诺玛法老9
+ApplyPath "5,217,132,10" ŵ�귨��9
 ClearPath
 
-mongenp "5,246,112,5" 诺玛将士9 10 "noitem"
+mongenp "5,246,112,5" ŵ�꽫ʿ9 10 "noitem"
 AddPath 262, 141
-ApplyPath "5,246,112,10" 诺玛将士9
+ApplyPath "5,246,112,10" ŵ�꽫ʿ9
 ClearPath
-mongenp "5,246,112,5" 诺玛法老9 10 "noitem"
+mongenp "5,246,112,5" ŵ�귨��9 10 "noitem"
 AddPath 262, 141
-ApplyPath "5,246,112,10" 诺玛法老9
+ApplyPath "5,246,112,10" ŵ�귨��9
 ClearPath
 
-mongenp "5,272,132,3" 诺玛法老9 2 "noitem"
-mongenp "5,197,147,3" 诺玛法老9 2 "noitem"
-mongenp "5,202,98,3" 诺玛法老9 2 "noitem"
-mongenp "5,216,83,3" 诺玛法老9 2 "noitem"
+mongenp "5,272,132,3" ŵ�귨��9 2 "noitem"
+mongenp "5,197,147,3" ŵ�귨��9 2 "noitem"
+mongenp "5,202,98,3" ŵ�귨��9 2 "noitem"
+mongenp "5,216,83,3" ŵ�귨��9 2 "noitem"
 Delaygoto [Grobal] 300 @TosungCastleWar_Numa_Start
 break
 #ELSEACT
@@ -244,12 +244,12 @@ break
 
 [@TosungCastleWar_owner_1]
 #IF
-!checkmonmap "5,248,106,1" 1 诺玛8
-!checkmonmap "5,248,106,1" 1 诺玛9
-!checkmonmap "5,248,106,1" 1 诺玛法老8
-!checkmonmap "5,248,106,1" 1 诺玛法老9
-!checkmonmap "5,248,106,1" 1 诺玛将士8
-!checkmonmap "5,248,106,1" 1 诺玛将士9
+!checkmonmap "5,248,106,1" 1 ŵ��8
+!checkmonmap "5,248,106,1" 1 ŵ��9
+!checkmonmap "5,248,106,1" 1 ŵ�귨��8
+!checkmonmap "5,248,106,1" 1 ŵ�귨��9
+!checkmonmap "5,248,106,1" 1 ŵ�꽫ʿ8
+!checkmonmap "5,248,106,1" 1 ŵ�꽫ʿ9
 #ACT
 Delaygoto [Grobal] 60 @TosungCastleWar_owner
 break
@@ -271,9 +271,9 @@ LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [C
 linemsg "5" %A7
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg5]
 linemsg "5" %A7
-ApplyMonEX "5,267,145,5" 木栅栏2 [Monsterside]
-ApplyMonEX "5,201,159,5" 木栅栏4 [Monsterside]
-ApplyMonEX "5,211,96,5" 木栅栏1 [Monsteranside]
+ApplyMonEX "5,267,145,5" ľդ��2 [Monsterside]
+ApplyMonEX "5,201,159,5" ľդ��4 [Monsterside]
+ApplyMonEX "5,211,96,5" ľդ��1 [Monsteranside]
 Delaygoto [Grobal] 60 @TosungCastleWar_owner
 goto @TosungCastleWar_owner_TAOSUNG
 goto @Tosung_owner_BarriCade
@@ -386,30 +386,30 @@ mov A1 %ARG(1)
 #IF
 Equal A1 "Numa"
 #ACT
-Monclear "5" "木栅栏7"
-MonGenP "5,247,105,0" 木栅栏8 1
-MonGenP "5,248,105,0" 木栅栏8 1
-MonGenP "5,249,105,0" 木栅栏8 1
-MonGenP "5,247,106,0" 木栅栏8 1
-MonGenP "5,249,106,0" 木栅栏8 1
-MonGenP "5,247,107,0" 木栅栏8 1
-MonGenP "5,248,107,0" 木栅栏8 1
-MonGenP "5,249,107,0" 木栅栏8 1
+Monclear "5" "ľդ��7"
+MonGenP "5,247,105,0" ľդ��8 1
+MonGenP "5,248,105,0" ľդ��8 1
+MonGenP "5,249,105,0" ľդ��8 1
+MonGenP "5,247,106,0" ľդ��8 1
+MonGenP "5,249,106,0" ľդ��8 1
+MonGenP "5,247,107,0" ľդ��8 1
+MonGenP "5,248,107,0" ľդ��8 1
+MonGenP "5,249,107,0" ľդ��8 1
 break
 
 #IF
 !Equal A1 "Numa"
 #ACT
-Monclear "5" "木栅栏8"
-MonGenP "5,247,105,0" 木栅栏7 1
-MonGenP "5,248,105,0" 木栅栏7 1
-MonGenP "5,249,105,0" 木栅栏7 1
-MonGenP "5,247,106,0" 木栅栏7 1
-MonGenP "5,249,106,0" 木栅栏7 1
-MonGenP "5,247,107,0" 木栅栏7 1
-MonGenP "5,248,107,0" 木栅栏7 1
-MonGenP "5,249,107,0" 木栅栏7 1
-ApplyMonEX "5,248,106,5" 木栅栏7 [Humanside]
+Monclear "5" "ľդ��8"
+MonGenP "5,247,105,0" ľդ��7 1
+MonGenP "5,248,105,0" ľդ��7 1
+MonGenP "5,249,105,0" ľդ��7 1
+MonGenP "5,247,106,0" ľդ��7 1
+MonGenP "5,249,106,0" ľդ��7 1
+MonGenP "5,247,107,0" ľդ��7 1
+MonGenP "5,248,107,0" ľդ��7 1
+MonGenP "5,249,107,0" ľդ��7 1
+ApplyMonEX "5,248,106,5" ľդ��7 [Humanside]
 break
 
 
@@ -431,26 +431,26 @@ Equal A1 "NUMA"
 #ACT
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg18]
 EventMsg Grobal %A7 129
-MonClear "5" 诺玛8
-MonClear "5" 诺玛9
-MonClear "5" 诺玛将士8
-MonClear "5" 诺玛将士9
-MonClear "5" 诺玛法老8
-MonClear "5" 诺玛法老9
-Monclear "5" "木栅栏8"
+MonClear "5" ŵ��8
+MonClear "5" ŵ��9
+MonClear "5" ŵ�꽫ʿ8
+MonClear "5" ŵ�꽫ʿ9
+MonClear "5" ŵ�귨��8
+MonClear "5" ŵ�귨��9
+Monclear "5" "ľդ��8"
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_1
 
 #ELSEACT
 Monclear
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg19]
 EventMsg Grobal %A7 129
-MonClear "5" 诺玛8
-MonClear "5" 诺玛9
-MonClear "5" 诺玛将士8
-MonClear "5" 诺玛将士9
-MonClear "5" 诺玛法老8
-MonClear "5" 诺玛法老9
-Monclear "5" "木栅栏7"
+MonClear "5" ŵ��8
+MonClear "5" ŵ��9
+MonClear "5" ŵ�꽫ʿ8
+MonClear "5" ŵ�꽫ʿ9
+MonClear "5" ŵ�귨��8
+MonClear "5" ŵ�귨��9
+Monclear "5" "ľդ��7"
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_1
 
 
@@ -516,80 +516,80 @@ EventMsg Grobal %A7 18
 
 [@TosungCastle_VillageAttack]
 #ACT
-mongenp "4,134,71,5" 诺玛法老7 3
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg29]
 EventMsg "4,5" %A7 18
@@ -603,90 +603,90 @@ Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_2
 
 [@TosungCastle_VillageAttack_2]
 #ACT
-MonGenP "4,155,134,5" 单腿诺玛 5
-ApplyMonEx "4,155,134,15" 单腿诺玛 [Humanside] [RunAway]
-mongenp "4,155,134,10" 诺玛7 15
-ApplyMonEx "4,155,134,20" 诺玛7 [Humanside] 诺玛阻力军
+MonGenP "4,155,134,5" ����ŵ�� 5
+ApplyMonEx "4,155,134,15" ����ŵ�� [Humanside] [RunAway]
+mongenp "4,155,134,10" ŵ��7 15
+ApplyMonEx "4,155,134,20" ŵ��7 [Humanside] ŵ��������
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg31]
 EventMsg "4,5" %A7 10821
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_3
 
 [@TosungCastle_VillageAttack_3]
 #ACT
-mongenp "4,134,71,5" 诺玛法老7 3
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg32]
 EventMsg "4,5" %A7 18
@@ -708,80 +708,80 @@ Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_6
 
 [@TosungCastle_VillageAttack_6]
 #ACT
-mongenp "4,134,71,5" 诺玛法老7 3
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg35]
 EventMsg "4,5" %A7 10821
@@ -839,324 +839,324 @@ Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_15
 
 [@TosungCastle_VillageAttack_15]
 #ACT
-mongenp "4,134,71,5" 诺玛法老7 3
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
-mongenp "4,258,141,5" 诺玛突击队长 1
+mongenp "4,258,141,5" ŵ��ͻ���ӳ� 1
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛突击队长
+ApplyPath "4,258,141,10" ŵ��ͻ���ӳ�
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg44]
 EventMsg "4,5" %A7 186
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_0
 
 [@TosungCastle_VillageAttack_16_0]
 #ACT
-mongenp "4,134,71,5" 诺玛法老7 3
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_10
 
 [@TosungCastle_VillageAttack_16_10]
 #ACT
-mongenp "4,134,71,5" 诺玛法老7 3
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_11
 
 [@TosungCastle_VillageAttack_16_11]
 #ACT
-mongenp "4,134,71,5" 诺玛法老7 3
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16
 
@@ -1164,83 +1164,83 @@ Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16
 
 [@TosungCastle_VillageAttack_16]
 #IF
-checkmonmap 5 1 "诺玛突击队长"
+checkmonmap 5 1 "ŵ��ͻ���ӳ�"
 #ACT
-monclear 4 "诺玛突击队长"
-mongenp "4,134,71,5" 诺玛法老7 3
+monclear 4 "ŵ��ͻ���ӳ�"
+mongenp "4,134,71,5" ŵ�귨��7 3
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛法老7
+ApplyPath "4,134,71,10" ŵ�귨��7
 ClearPath
-mongenp "4,134,71,5" 诺玛7 10
+mongenp "4,134,71,5" ŵ��7 10
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛7
+ApplyPath "4,134,71,10" ŵ��7
 ClearPath
-mongenp "4,134,71,5" 诺玛将士8 5
+mongenp "4,134,71,5" ŵ�꽫ʿ8 5
 AddPath 134, 105
 AddPath 154, 115
 AddPath 154, 123
 AddPath 155, 134
-ApplyPath "4,134,71,10" 诺玛将士8
+ApplyPath "4,134,71,10" ŵ�꽫ʿ8
 ClearPath
 
-mongenp "4,104,193,5" 诺玛法老8 3
+mongenp "4,104,193,5" ŵ�귨��8 3
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛法老8
+ApplyPath "4,104,193,10" ŵ�귨��8
 ClearPath
-mongenp "4,104,193,5" 诺玛7 10
+mongenp "4,104,193,5" ŵ��7 10
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛7
+ApplyPath "4,104,193,10" ŵ��7
 ClearPath
-mongenp "4,104,193,5" 诺玛将士7 5
+mongenp "4,104,193,5" ŵ�꽫ʿ7 5
 AddPath 150, 146
 AddPath 155, 134
-ApplyPath "4,104,193,10" 诺玛将士7
+ApplyPath "4,104,193,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,171,215,5" 诺玛法老7 5
+mongenp "4,171,215,5" ŵ�귨��7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛法老7
+ApplyPath "4,171,215,10" ŵ�귨��7
 ClearPath
-mongenp "4,171,215,5" 诺玛8 10
+mongenp "4,171,215,5" ŵ��8 10
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛8
+ApplyPath "4,171,215,10" ŵ��8
 ClearPath
-mongenp "4,171,215,5" 诺玛将士7 5
+mongenp "4,171,215,5" ŵ�꽫ʿ7 5
 AddPath 171, 153
 AddPath 158, 139
 AddPath 155, 134
-ApplyPath "4,171,215,10" 诺玛将士7
+ApplyPath "4,171,215,10" ŵ�꽫ʿ7
 ClearPath
 
-mongenp "4,258,141,5" 诺玛法老7 3
+mongenp "4,258,141,5" ŵ�귨��7 3
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛法老7
+ApplyPath "4,258,141,10" ŵ�귨��7
 ClearPath
-mongenp "4,258,141,5" 诺玛7 10
+mongenp "4,258,141,5" ŵ��7 10
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛7
+ApplyPath "4,258,141,10" ŵ��7
 ClearPath
-mongenp "4,258,141,5" 诺玛将士7 5
+mongenp "4,258,141,5" ŵ�꽫ʿ7 5
 AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
-ApplyPath "4,258,141,10" 诺玛将士7
+ApplyPath "4,258,141,10" ŵ�꽫ʿ7
 ClearPath
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg45]
 EventMsg "4,5" %A7 186
@@ -1364,4 +1364,4 @@ Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgB_3
 LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg62]
 EventMsg Grobal %A7 18
 }
-;;不要删掉此行
+;;��Ҫɾ������

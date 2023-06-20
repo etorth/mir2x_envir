@@ -1,512 +1,512 @@
 ;;200Reward.txt
 [201]
-Reward_Race_1_Type1_1 = é“¶è›‡
+Reward_Race_1_Type1_1 = ÒøÉß
 Reward_Amount_1_Type1_1 = 1
 
-Reward_Race_9_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_9_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_9_Type1_1=3
 
-Reward_Race_9_Type1_2=é‡‘å¸
+Reward_Race_9_Type1_2=½ğ±Ò
 Reward_Amount_9_Type1_2=50000
 
-Reward_Race_90_Type1_1=å¹½çµæˆ˜è¡£ï¼ˆç”·ï¼‰
+Reward_Race_90_Type1_1=ÓÄÁéÕ½ÒÂ£¨ÄĞ£©
 Reward_Amount_90_Type1_1=1
 
-Reward_Race_90_Type2_1=å¹½çµæˆ˜è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_90_Type2_1=ÓÄÁéÕ½ÒÂ£¨Å®£©
 Reward_Amount_90_Type2_1=1
 
-Reward_Race_90_Share=é‡‘å¸
+Reward_Race_90_Share=½ğ±Ò
 Reward_Amount_90_Share=100000
 
 [202]
-Reward_Race_1_Type1_1=è¯ºç›æ—ä¿®ç½—
+Reward_Race_1_Type1_1=ÅµÂê×åĞŞÂŞ
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_9_Type1_1=å¹½çµé¡¹é“¾
+Reward_Race_9_Type1_1=ÓÄÁéÏîÁ´
 Reward_Amount_9_Type1_1=1
 
-Reward_Race_9_Type1_2=é‡‘å¸
+Reward_Race_9_Type1_2=½ğ±Ò
 Reward_Amount_9_Type1_2=200000
 
-Reward_Race_90_Type1_1=é‡‘å¸
+Reward_Race_90_Type1_1=½ğ±Ò
 Reward_Amount_90_Type1_1=50000
 
-Reward_Race_90_Type1_2=é‡‘å¸
+Reward_Race_90_Type1_2=½ğ±Ò
 Reward_Amount_90_Type1_2=50000
 
 [203]
-Reward_Race_10_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_10_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_30_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_30_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_30_Type1_1=1
 
-Reward_Race_30_Type1_2=é‡‘å¸
+Reward_Race_30_Type1_2=½ğ±Ò
 Reward_Amount_30_Type1_2=50000
 
-Reward_Race_60_Type1_1=æˆ˜ç¥ç›”ç”²ï¼ˆç”·ï¼‰
+Reward_Race_60_Type1_1=Õ½Éñ¿ø¼×£¨ÄĞ£©
 Reward_Amount_60_Type1_1=1
 
-Reward_Race_60_Type2_1=é‡‘å¸
+Reward_Race_60_Type2_1=½ğ±Ò
 Reward_Amount_60_Type2_1=50000
 
-Reward_Race_60_Share=é‡‘å¸
+Reward_Race_60_Share=½ğ±Ò
 Reward_Amount_60_Share=25000
 
 [204]
-Reward_Race_10_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_10_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_30_Type1_1=é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_30_Type1_1=Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_30_Type1_1=1
 
-Reward_Race_30_Type1_2=é‡‘å¸
+Reward_Race_30_Type1_2=½ğ±Ò
 Reward_Amount_30_Type1_2=100000
 
-Reward_Race_60_Type1_1=æ³¢çº¹æ‰‹é•¯
+Reward_Race_60_Type1_1=²¨ÎÆÊÖïí
 Reward_Amount_60_Type1_1=1
 
-Reward_Race_60_Type1_2=é‡‘å¸
+Reward_Race_60_Type1_2=½ğ±Ò
 Reward_Amount_60_Type1_2=90000
 
 [205]
-Reward_Race_5_Type1_1=ç¥ˆç¥·å¤´ç›”
+Reward_Race_5_Type1_1=Æíµ»Í·¿ø
 Reward_Amount_5_Type1_=1
 
-Reward_Race_10_Type1_1=è§¦é¾™ç¥çš®
+Reward_Race_10_Type1_1=´¥ÁúÉñÆ¤
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_85_Type1_1=é‡‘å¸
+Reward_Race_85_Type1_1=½ğ±Ò
 Reward_Amount_85_Type1_1=100000
 
 [206]
-Reward_Race_2_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_2_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_2_Type1_=1
 
-Reward_Race_18_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_18_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_18_Type1_=3
 
-Reward_Race_80_Type1_1=é‡‘å¸
+Reward_Race_80_Type1_1=½ğ±Ò
 Reward_Amount_80_Type1_1=150000
 
 [207]
-Reward_Race_5_Type1_1=é­”æ–
+Reward_Race_5_Type1_1=Ä§ÕÈ
 Reward_Amount_5_Type1_=1
 
-Reward_Race_15_Type1_1=é‡‘å¸
+Reward_Race_15_Type1_1=½ğ±Ò
 Reward_Amount_15_Type1_1=140000
 
-Reward_Race_80_Type1_1=æ¶é­”é•¿è¢ï¼ˆç”·ï¼‰
+Reward_Race_80_Type1_1=¶ñÄ§³¤ÅÛ£¨ÄĞ£©
 Reward_Amount_80_Type1_1=1
 
-Reward_Race_80_Type2_1=æ¶é­”é•¿è¢ï¼ˆå¥³ï¼‰
+Reward_Race_80_Type2_1=¶ñÄ§³¤ÅÛ£¨Å®£©
 Reward_Amount_80_Type2_1=1
 
-Reward_Race_80_Share=é‡‘å¸
+Reward_Race_80_Share=½ğ±Ò
 Reward_Amount_80_Share=50000
 
 [208]
-Reward_Race_5_Type1_1=ç‚¼ç‹±
+Reward_Race_5_Type1_1=Á¶Óü
 Reward_Amount_5_Type1_1=1
 
-Reward_Race_15_Type1_1=ç¥ç¦æ²¹
+Reward_Race_15_Type1_1=×£¸£ÓÍ
 Reward_Amount_15_Type1_1=3
 
-Reward_Race_80_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_80_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_80_Type1_1=1
 
-Reward_Race_80_Type1_2=é‡‘å¸
+Reward_Race_80_Type1_2=½ğ±Ò
 Reward_Amount_80_Type1_2=100000
 
 [209]
-Reward_Race_10_Type1_1=é“¶è›‡
+Reward_Race_10_Type1_1=ÒøÉß
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_10_Type2_1=é‡‘å¸
+Reward_Race_10_Type2_1=½ğ±Ò
 Reward_Amount_10_Type2_1=100000
 
-Reward_Race_80_Type1_1=é‡‘å¸
+Reward_Race_80_Type1_1=½ğ±Ò
 Reward_Amount_80_Type1_1=50000
 
 [210]
-Reward_Race_10_Type1_1=å‘½è¿ä¹‹åˆƒ
+Reward_Race_10_Type1_1=ÃüÔËÖ®ÈĞ
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_10_Type2_1=é‡‘å¸
+Reward_Race_10_Type2_1=½ğ±Ò
 Reward_Amount_10_Type2_1=200000
 
-Reward_Race_80_Type1_1=é‡‘å¸
+Reward_Race_80_Type1_1=½ğ±Ò
 Reward_Amount_80_Type1_1=140000
 
 [211]
-Reward_Race_1_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_1_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_9_Type1_1=æ²ƒç›å·è§’
+Reward_Race_9_Type1_1=ÎÖÂêºÅ½Ç
 Reward_Amount_9_Type1_1=1
 
-Reward_Race_90_Type1_1=é‡‘å¸
+Reward_Race_90_Type1_1=½ğ±Ò
 Reward_Amount_90_Type1_1=150000
 
 [212]
-Reward_Race_1_Type1_1=ç¥ç¦æ²¹
+Reward_Race_1_Type1_1=×£¸£ÓÍ
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_39_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_39_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_39_Type1_1=1
-Reward_Race_39_Type1_2=é‡‘å¸
+Reward_Race_39_Type1_2=½ğ±Ò
 Reward_Amount_39_Type1_2=100000
 
-Reward_Race_60_Type1_1=æ–—ç¬ 
+Reward_Race_60_Type1_1=¶·óÒ
 Reward_Amount_60_Type1_1=1
-Reward_Race_60_Type1_2=é‡‘å¸
+Reward_Race_60_Type1_2=½ğ±Ò
 Reward_Amount_60_Type1_2=100000
 
 [213]
-Reward_Race_1_Type1_1=è¯…å’’ä¹‹è¯æ°´
+Reward_Race_1_Type1_1=×çÖäÖ®Ò©Ë®
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_20_Type1_1=ç¥ç¦æ²¹
+Reward_Race_20_Type1_1=×£¸£ÓÍ
 Reward_Amount_20_Type1_1=3
 
-Reward_Race_79_Type1_1=è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_79_Type1_1=Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_79_Type1_1=1
 
-Reward_Race_79_Type1_2=é‡‘å¸
+Reward_Race_79_Type1_2=½ğ±Ò
 Reward_Amount_79_Type1_2=100000
 
 [214]
-Reward_Race_10_Type1_1=æ²ƒç›å·è§’
+Reward_Race_10_Type1_1=ÎÖÂêºÅ½Ç
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_20_Type1_1=æ³¢çº¹æ‰‹é•¯
+Reward_Race_20_Type1_1=²¨ÎÆÊÖïí
 Reward_Amount_20_Type1_1=1
-Reward_Race_20_Type1_2=é‡‘å¸
+Reward_Race_20_Type1_2=½ğ±Ò
 Reward_Amount_20_Type1_2=20000
 
-Reward_Race_70_Type1_1=é‡‘å¸
+Reward_Race_70_Type1_1=½ğ±Ò
 Reward_Amount_70_Type1_1=50000
 
 [215]
-Reward_Race_20_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_20_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_20_Type1_1=1
-Reward_Race_20_Type2_1=è¢çµæ³•è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_20_Type2_1=Ô¬Áé·¨ÒÂ£¨Å®£©
 Reward_Amount_20_Type2_1=1
 
-Reward_Race_40_Type1_1=çƒˆç«å‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_40_Type1_1=ÁÒ»ğ½£·¨£¨ÃØ¼®£©
 Reward_Amount_40_Type1_1=1
-Reward_Race_40_Type1_2=é‡‘å¸
+Reward_Race_40_Type1_2=½ğ±Ò
 Reward_Amount_40_Type1_2=100000
 
-Reward_Race_40_Type2_1=ç™½è™å‰‘
+Reward_Race_40_Type2_1=°×»¢½£
 Reward_Amount_40_Type2_1=1
-Reward_Race_40_Type2_2=é‡‘å¸
+Reward_Race_40_Type2_2=½ğ±Ò
 Reward_Amount_40_Type2_2=100000
 
 [216]
-Reward_Race_1_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_1_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_20_Type1_1=ç¥ç¦æ²¹
+Reward_Race_20_Type1_1=×£¸£ÓÍ
 Reward_Amount_20_Type1_1=3
 
-Reward_Race_79_Type1_1=é‡‘å¸
+Reward_Race_79_Type1_1=½ğ±Ò
 Reward_Amount_79_Type1_1=150000
 
 [217]
-Reward_Race_10_Type1_1=é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_10_Type1_1=ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_10_Type1_1=1
-Reward_Race_10_Type2_1=é¾™é³æˆ˜ç”²ï¼ˆå¥³ï¼‰
+Reward_Race_10_Type2_1=ÁúÁÛÕ½¼×£¨Å®£© 
 Reward_Amount_10_Type2_1=1
 
-Reward_Race_40_Type1_1=å¹½çµæˆ˜è¡£ï¼ˆç”·ï¼‰
+Reward_Race_40_Type1_1=ÓÄÁéÕ½ÒÂ£¨ÄĞ£©
 Reward_Amount_40_Type1_1=1
-Reward_Race_40_Type2_1=å¹½çµæˆ˜è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_40_Type2_1=ÓÄÁéÕ½ÒÂ£¨Å®£©
 Reward_Amount_40_Type2_1=1
-Reward_Race_40_Share=é‡‘å¸
+Reward_Race_40_Share=½ğ±Ò
 Reward_Amount_40_Share=70000
 
-Reward_Race_50_Type1_1=çŒ›è™å¼ºåŠ¿ï¼ˆç§˜ç±ï¼‰
+Reward_Race_50_Type1_1=ÃÍ»¢Ç¿ÊÆ£¨ÃØ¼®£©
 Reward_Amount_50_Type1_1=1
-Reward_Race_50_Type1_2=é‡‘å¸
+Reward_Race_50_Type1_2=½ğ±Ò
 Reward_Amount_50_Type1_2=100000
 
 [218]
-Reward_Race_1_Type1_1=äº•ä¸­æœˆ
+Reward_Race_1_Type1_1=¾®ÖĞÔÂ
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_10_Type1_1=æˆ˜ç¥ç›”ç”²ï¼ˆç”·ï¼‰
+Reward_Race_10_Type1_1=Õ½Éñ¿ø¼×£¨ÄĞ£©
 Reward_Amount_10_Type1_1=1
-Reward_Race_10_Type2_1=æˆ˜ç¥ç›”ç”²ï¼ˆå¥³ï¼‰
+Reward_Race_10_Type2_1=Õ½Éñ¿ø¼×£¨Å®£©
 Reward_Amount_10_Type2_1=1
 
-Reward_Race_90_Type1_1=å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_Type1_1=»ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_90_Type1_1=1
-Reward_Race_90_Type1_2=é‡‘å¸
+Reward_Race_90_Type1_2=½ğ±Ò
 Reward_Amount_90_Type1_2=100000
 
 [219]
-Reward_Race_5_Type1_1=é­”æ–
+Reward_Race_5_Type1_1=Ä§ÕÈ
 Reward_Amount_5_Type1_1=1
 
-Reward_Race_40_Type1_1=æ¶é­”é•¿è¢ï¼ˆç”·ï¼‰
+Reward_Race_40_Type1_1=¶ñÄ§³¤ÅÛ£¨ÄĞ£©
 Reward_Amount_40_Type1_1=1
-Reward_Race_40_Type2_1=æ¶é­”é•¿è¢ï¼ˆå¥³ï¼‰
+Reward_Race_40_Type2_1=¶ñÄ§³¤ÅÛ£¨Å®£©
 Reward_Amount_40_Type2_1=1
-Reward_Race_40_Share=é‡‘å¸
+Reward_Race_40_Share=½ğ±Ò
 Reward_Amount_40_Share=70000
 
-Reward_Race_55_Type1_1=é‡‘å¸
+Reward_Race_55_Type1_1=½ğ±Ò
 Reward_Amount_55_Type1_1=140000
 
 [220]
-Reward_Race_1_Type1_1=æ— ååˆ€
+Reward_Race_1_Type1_1=ÎŞÃûµ¶
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_9_Type1_1=ç¥ç¦æ²¹
+Reward_Race_9_Type1_1=×£¸£ÓÍ
 Reward_Amount_9_Type1_1=1
 
-Reward_Race_90_Type1_1=é—é­‚é¡¹é“¾
+Reward_Race_90_Type1_1=ÒÅ»êÏîÁ´
 Reward_Amount_90_Type1_1=1
 
 [221]
-Reward_Race_1_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_1_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_49_Type1_1=å¹½çµæ‰‹å¥—
+Reward_Race_49_Type1_1=ÓÄÁéÊÖÌ×
 Reward_Amount_49_Type1_1=1
-Reward_Race_49_Type1_2=é‡‘å¸
+Reward_Race_49_Type1_2=½ğ±Ò
 Reward_Amount_49_Type1_2=70000
 
-Reward_Race_50_Type1_1=é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_50_Type1_1=Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_50_Type1_1=1
-Reward_Race_50_Type1_2=é‡‘å¸
+Reward_Race_50_Type1_2=½ğ±Ò
 Reward_Amount_50_Type1_2=100000
 
 [222]
-Reward_Race_10_Type1_1=æ²ƒç›å·è§’
+Reward_Race_10_Type1_1=ÎÖÂêºÅ½Ç
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_40_Type1_1=é‡‘å¸
+Reward_Race_40_Type1_1=½ğ±Ò
 Reward_Amount_40_Type1_1=140000
 
-Reward_Race_50_Type1_1=é­”åŠ›å¼ºæ•ˆç¥æ°´ï¼ˆç‰¹ï¼‰
+Reward_Race_50_Type1_1=Ä§Á¦Ç¿Ğ§ÉñË®£¨ÌØ£©
 Reward_Amount_50_Type1_1=3
 
 [223]
-Reward_Race_1_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_1_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_9_Type1_1=ç¥ç¦æ²¹
+Reward_Race_9_Type1_1=×£¸£ÓÍ
 Reward_Amount_9_Type1_1=1
 
-Reward_Race_90_Type1_1=é‡‘å¸
+Reward_Race_90_Type1_1=½ğ±Ò
 Reward_Amount_90_Type1_1=50000
 
 [224]
-Reward_Race_4_Type1_1=é­”æ–
+Reward_Race_4_Type1_1=Ä§ÕÈ
 Reward_Amount_4_Type1_1=1
 
-Reward_Race_26_Type1_1=é‡‘å¸
+Reward_Race_26_Type1_1=½ğ±Ò
 Reward_Amount_26_Type1_1=140000
 
-Reward_Race_70_Type1_1=å†°å’†å“®ï¼ˆç§˜ç±ï¼‰
+Reward_Race_70_Type1_1=±ùÅØÏø£¨ÃØ¼®£©
 Reward_Amount_70_Type1_1=1
-Reward_Race_70_Type1_2=é‡‘å¸
+Reward_Race_70_Type1_2=½ğ±Ò
 Reward_Amount_70_Type1_2=100000
 
 [225]
-Reward_Race_10_Type1_1=ç¥ç¦æ²¹
+Reward_Race_10_Type1_1=×£¸£ÓÍ
 Reward_Amount_10_Type1_1=2
 
-Reward_Race_20_Type1_1=é­”æ–
+Reward_Race_20_Type1_1=Ä§ÕÈ
 Reward_Amount_20_Type1_1=1
 
-Reward_Race_70_Type1_1=é‡‘å¸
+Reward_Race_70_Type1_1=½ğ±Ò
 Reward_Amount_70_Type1_1=140000
 
 [226]
-Reward_Race_5_Type1_1=è§¦é¾™ç¥çš®
+Reward_Race_5_Type1_1=´¥ÁúÉñÆ¤
 Reward_Amount_5_Type1_1=1
 
-Reward_Race_25_Type1_1=å†°å’†å“®ï¼ˆç§˜ç±ï¼‰
+Reward_Race_25_Type1_1=±ùÅØÏø£¨ÃØ¼®£©
 Reward_Amount_25_Type1_1=1
-Reward_Race_25_Type1_2=é‡‘å¸
+Reward_Race_25_Type1_2=½ğ±Ò
 Reward_Amount_25_Type1_2=100000
 
-Reward_Race_70_Type1_1=ç–¾é£ç¥æ°´ï¼ˆç‰¹ï¼‰
+Reward_Race_70_Type1_1=¼²·çÉñË®£¨ÌØ£©
 Reward_Amount_70_Type1_1=3
 
 [227]
-Reward_Race_10_Type1_1=æ²ƒç›å·è§’
+Reward_Race_10_Type1_1=ÎÖÂêºÅ½Ç
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_20_Type1_1=é‡‘å¸
+Reward_Race_20_Type1_1=½ğ±Ò
 Reward_Amount_20_Type1_1=140000
 
-Reward_Race_70_Type1_1=ä½“åŠ›å¼ºæ•ˆç¥æ°´ï¼ˆç‰¹ï¼‰
+Reward_Race_70_Type1_1=ÌåÁ¦Ç¿Ğ§ÉñË®£¨ÌØ£©
 Reward_Amount_70_Type1_1=3
 
 [228]
-Reward_Race_1_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_1_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_19_Type1_1=èœ˜è››çº¿
+Reward_Race_19_Type1_1=Ö©ÖëÏß
 Reward_Amount_19_Type1_1=20
-Reward_Race_19_Type1_2=é‡‘å¸
+Reward_Race_19_Type1_2=½ğ±Ò
 Reward_Amount_19_Type1_2=200000
 
-Reward_Race_80_Type1_1=é‡‘å¸
+Reward_Race_80_Type1_1=½ğ±Ò
 Reward_Amount_80_Type1_1=100000
 
 [229]
-Reward_Race_1_Type1_1=é“¶è›‡
+Reward_Race_1_Type1_1=ÒøÉß
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_29_Type1_1=ç™½è™å‰‘
+Reward_Race_29_Type1_1=°×»¢½£
 Reward_Amount_29_Type1_1=1
-Reward_Race_29_Type1_2=é‡‘å¸
+Reward_Race_29_Type1_2=½ğ±Ò
 Reward_Amount_29_Type1_2=100000
 
-Reward_Race_70_Type1_1=ç¥ç¦æ²¹
+Reward_Race_70_Type1_1=×£¸£ÓÍ
 Reward_Amount_70_Type1_1=2
-Reward_Race_70_Type1_2=é‡‘å¸
+Reward_Race_70_Type1_2=½ğ±Ò
 Reward_Amount_70_Type1_2=120000
 
 [230]
-Reward_Race_15_Type1_1=ç¥–ç›å¤´åƒ
+Reward_Race_15_Type1_1=×æÂêÍ·Ïñ
 Reward_Amount_15_Type1_1=1
 
-Reward_Race_15_Type2_1=ç¥–ç›å«å£«é›•åƒ
+Reward_Race_15_Type2_1=×æÂêÎÀÊ¿µñÏñ
 Reward_Amount_15_Type2_1=20
 
-Reward_Race_70_Type1_1=é»‘é“
+Reward_Race_70_Type1_1=ºÚÌú
 Reward_Amount_70_Type1_1=10
 
 [231]
-Reward_Race_10_Type1_1=å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_10_Type1_1=Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_10_Type1_1=1
-Reward_Race_10_Type1_2=å¤©æé“è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_10_Type1_2=Ìì¼«µÀÒÂ£¨Å®£©
 Reward_Amount_10_Type1_2=1
 
-Reward_Race_40_Type2_1=æˆ˜ç¥æ²¹
+Reward_Race_40_Type2_1=Õ½ÉñÓÍ
 Reward_Amount_40_Type2_1=3
 
-Reward_Race_50_Type1_1=é‡‘å¸
+Reward_Race_50_Type1_1=½ğ±Ò
 Reward_Amount_50_Type1_1=120000
 
 [232]
-Reward_Race_20_Type1_1=é“¶è›‡
+Reward_Race_20_Type1_1=ÒøÉß
 Reward_Amount_20_Type1_1=1
 
-Reward_Race_40_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_40_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_40_Type1_1=1
-Reward_Race_40_Type1_2=è¢çµæ³•è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_40_Type1_2=Ô¬Áé·¨ÒÂ£¨Å®£©
 Reward_Amount_40_Type1_2=1
 
-Reward_Race_40_Type2_1=é‡‘å¸
+Reward_Race_40_Type2_1=½ğ±Ò
 Reward_Amount_40_Type2_1=140000
 
 [233]
-Reward_Race_2_Type1_1=é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_2_Type1_1=ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_2_Type1_1=1
 
-Reward_Race_48_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_48_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_48_Type1_1=1
-Reward_Race_48_Type1_2=è¢çµæ³•è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_48_Type1_2=Ô¬Áé·¨ÒÂ£¨Å®£© 
 Reward_Amount_48_Type1_2=1
-Reward_Race_48_Share=é‡‘å¸
+Reward_Race_48_Share=½ğ±Ò
 Reward_Amount_48_Share=10000
 
-Reward_Race_50_Type1_1=é‡‘å¸
+Reward_Race_50_Type1_1=½ğ±Ò
 Reward_Amount_50_Type1_1=250000
 
 [234]
-Reward_Race_10_Type1_1=é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_10_Type1_1=ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_10_Type1_1=1
-Reward_Race_10_Type1_2=é¾™é³æˆ˜ç”²ï¼ˆå¥³ï¼‰
+Reward_Race_10_Type1_2=ÁúÁÛÕ½¼×£¨Å®£©
 Reward_Amount_10_Type1_2=1
 
-Reward_Race_30_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_30_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_30_Type1_1=3
-Reward_Race_30_Type1_2=é‡‘å¸
+Reward_Race_30_Type1_2=½ğ±Ò
 Reward_Amount_30_Type1_2=30000
 
-Reward_Race_60_Type1_1=å¹½çµæ‰‹å¥—
+Reward_Race_60_Type1_1=ÓÄÁéÊÖÌ×
 Reward_Amount_60_Type1_1=1
-Reward_Race_60_Type1_2=é‡‘å¸
+Reward_Race_60_Type1_2=½ğ±Ò
 Reward_Amount_60_Type1_2=70000
 
 [235]
-Reward_Race_10_Type1_1=äº•ä¸­æœˆ
+Reward_Race_10_Type1_1=¾®ÖĞÔÂ
 Reward_Amount_10_Type1_1=1
 
-Reward_Race_30_Type1_1=å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_30_Type1_1=Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_30_Type1_1=1
-Reward_Race_30_Type1_2=å¤©æé“è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_30_Type1_2=Ìì¼«µÀÒÂ£¨Å®£©
 Reward_Amount_30_Type1_2=1
-Reward_Race_30_Share=é‡‘å¸
+Reward_Race_30_Share=½ğ±Ò
 Reward_Amount_30_Share=60000
 
-Reward_Race_60_Type1_1=é‡‘å¸
+Reward_Race_60_Type1_1=½ğ±Ò
 Reward_Amount_60_Type1_1=140000
 
 [236]
-Reward_Race_2_Type1_1=é­”æ–
+Reward_Race_2_Type1_1=Ä§ÕÈ
 Reward_Amount_2_Type1_1=1
 
-Reward_Race_18_Type1_1=é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_18_Type1_1=ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_18_Type1_1=1
-Reward_Race_18_Type1_2=é¾™é³æˆ˜ç”²ï¼ˆå¥³ï¼‰
+Reward_Race_18_Type1_2=ÁúÁÛÕ½¼×£¨Å®£©
 Reward_Amount_18_Type1_2=1
 
-Reward_Race_80_Type1_1=é‡‘å¸
+Reward_Race_80_Type1_1=½ğ±Ò
 Reward_Amount_80_Type1_1=140000
 
 [237]
-Reward_Race_2_Type1_1=é“¶è›‡
+Reward_Race_2_Type1_1=ÒøÉß
 Reward_Amount_2_Type1_1=1
 
-Reward_Race_45_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_45_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_45_Type1_1=5
 
-Reward_Race_50_Type1_1=ç¥ç¦æ²¹
+Reward_Race_50_Type1_1=×£¸£ÓÍ
 Reward_Amount_50_Type1_1=1
 
 [238]
-Reward_Race_1_Type1_1=è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_1_Type1_1=Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_9_Type1_1=é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_9_Type1_1=ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_9_Type1_1=1
-Reward_Race_9_Type2_1=é¾™é³æˆ˜ç”²ï¼ˆå¥³ï¼‰
+Reward_Race_9_Type2_1=ÁúÁÛÕ½¼×£¨Å®£©
 Reward_Amount_9_Type2_1=1
 
-Reward_Race_90_Type1_1=å¹½çµé¡¹é“¾
+Reward_Race_90_Type1_1=ÓÄÁéÏîÁ´
 Reward_Amount_90_Type1_1=1
-Reward_Race_90_Type1_2=é‡‘å¸
+Reward_Race_90_Type1_2=½ğ±Ò
 Reward_Amount_90_Type1_2=70000
 
 [239]
-Reward_Race_1_Type1_1=é“¶è›‡
+Reward_Race_1_Type1_1=ÒøÉß
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_9_Type1_1=ç¥ç¦æ²¹
+Reward_Race_9_Type1_1=×£¸£ÓÍ
 Reward_Amount_9_Type1_1=2
 
-Reward_Race_90_Type1_1=é‡‘å¸
+Reward_Race_90_Type1_1=½ğ±Ò
 Reward_Amount_90_Type1_1=100000
 
 [240]
-Reward_Race_1_Type1_1=æ²ƒç›å·è§’
+Reward_Race_1_Type1_1=ÎÖÂêºÅ½Ç
 Reward_Amount_1_Type1_1=1
 
-Reward_Race_9_Type1_1=å¹¸è¿æ–—ç¬ 
+Reward_Race_9_Type1_1=ĞÒÔË¶·óÒ
 Reward_Amount_9_Type1_1=1
-Reward_Race_9_Type1_1=é‡‘å¸
+Reward_Race_9_Type1_1=½ğ±Ò
 Reward_Amount_9_Type1_1=200000
 
-Reward_Race_90_Type1_1=æˆ˜ç¥æ²¹
+Reward_Race_90_Type1_1=Õ½ÉñÓÍ
 Reward_Amount_90_Type1_1=3
 
 

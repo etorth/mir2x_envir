@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@NPCQuest_Check]
 {
 #ACT
@@ -8,7 +8,7 @@ Mov D0 0
 #IF
 check [207] 1
 check [407] 0
-checkitemw 瀵傚够涔嬪垉 1
+checkitemw 寂幻之刃 1
 #ACT
 goto @NumaStone3Quest_start1
 Mov D0 1
@@ -23,9 +23,9 @@ break
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17StoneNpc4-D1504.txt] @Convert_17StoneNpc4-D1504_0
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17StoneNpc4-D1504.txt] @Convert_17StoneNpc4-D1504_0
 
 [@NumaStone3Quest_start1]
-#CALL [QuestDiary/HonChonMado/StoneNpc4.txt] @NumaStone4_Talk
+#CALL [HonChonMado\StoneNpc4.txt] @NumaStone4_Talk
 }
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

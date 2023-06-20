@@ -1,8 +1,8 @@
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––
 [@MonsterNpc1_Talk]
 {
 #IF
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk1
 break
@@ -27,7 +27,7 @@ mov D3 %ARG(3)
 Equal D1 12
 Equal D2 0
 Equal D3 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk2_13
 break
@@ -37,7 +37,7 @@ break
 Equal D1 12
 Equal D2 0
 Equal D3 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk2_12
 break
@@ -46,8 +46,8 @@ break
 Equal D1 11
 Equal D2 10
 Equal D3 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
-!checkmonmap D16063 ÊØÅÁÅ≠‰πãÂç∞Â§ßÂ∏à 1
+Checkitemw º≈ª√÷Æ»– 1
+!checkmonmap D16063 ªŸ√÷Æ”°¥Û ¶ 1
 #ACT
 goto @MonsterNpc1_Talk2_7
 break
@@ -56,8 +56,8 @@ break
 Equal D1 11
 Equal D2 10
 Equal D3 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
-checkmonmap D16063 ÊØÅÁÅ≠‰πãÂç∞Â§ßÂ∏à 1
+Checkitemw º≈ª√÷Æ»– 1
+checkmonmap D16063 ªŸ√÷Æ”°¥Û ¶ 1
 #ACT
 goto @MonsterNpc1_Talk2_6
 break
@@ -66,7 +66,7 @@ break
 Equal D1 11
 Equal D2 9
 Equal D3 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk2_2
 break
@@ -75,7 +75,7 @@ break
 Equal D1 11
 Equal D2 8
 Equal D3 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk2_10
 break
@@ -84,7 +84,7 @@ break
 Equal D1 11
 Equal D2 8
 Equal D3 1
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk2_1
 break
@@ -92,7 +92,7 @@ break
 #IF
 Equal D1 10
 Equal D2 0
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk1_10
 break
@@ -100,7 +100,7 @@ break
 #IF
 Equal D1 9
 Equal D2 8
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk1_3_2
 break
@@ -108,7 +108,7 @@ break
 #IF
 Equal D1 9
 Equal D2 7
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
+Checkitemw º≈ª√÷Æ»– 1
 #ACT
 goto @MonsterNpc1_Talk1_4
 break
@@ -117,8 +117,8 @@ break
 #IF
 Equal D1 9
 Equal D2 6
-Checkitemw ÂØÇÂπª‰πãÂàÉ 1
-Checkitem Â§ßÊóèÈïøËßíÁ¨õ 1
+Checkitemw º≈ª√÷Æ»– 1
+Checkitem ¥Û◊Â≥§Ω«µ— 1
 #ACT
 goto @MonsterNpc1_Talk1_1
 break
@@ -133,7 +133,7 @@ break
 [@MonsterNpc1_Talk0]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_0
 
 [@MonsterNpc1_Talk0_1]
 #ACT
@@ -142,25 +142,25 @@ mapmove 4 456 77
 [@MonsterNpc1_Talk1_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_1
 
 [@MonsterNpc1_Talk1_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_2
 
 [@MonsterNpc1_Talk1_3]
 #IF
-Checkitem Á•ûÁßò‰πãÂç∞ 1
+Checkitem …Ò√ÿ÷Æ”° 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_3
 
 #ACT
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_4
 
 #ELSEACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -169,10 +169,10 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
 
 [@MonsterNpc1_Talk1_3_1]
 #IF
-checkitem Á•ûÁßò‰πãÂç∞ 1
+checkitem …Ò√ÿ÷Æ”° 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_5
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -180,7 +180,7 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=9"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_6
 
 #ELSEACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -191,28 +191,28 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
 
 [@MonsterNpc1_Talk1_4]
 #IF
-checkitem Â§ßÊóèÈïøËßíÁ¨õ 1
+checkitem ¥Û◊Â≥§Ω«µ— 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_7
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_8
 
 [@MonsterNpc1_Talk1_4_1]
 #IF
-checkitem Â§ßÊóèÈïøËßíÁ¨õ 1
+checkitem ¥Û◊Â≥§Ω«µ— 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_9
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=0"
-take Â§ßÊóèÈïøËßíÁ¨õ 1
+take ¥Û◊Â≥§Ω«µ— 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
@@ -220,21 +220,21 @@ break
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_10
 
 [@MonsterNpc1_Talk1_4_1]
 #IF
-checkitem Â§ßÊóèÈïøËßíÁ¨õ 1
+checkitem ¥Û◊Â≥§Ω«µ— 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_11
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=1"
-take Â§ßÊóèÈïøËßíÁ¨õ 1
+take ¥Û◊Â≥§Ω«µ— 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
@@ -242,43 +242,43 @@ break
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_12
 
 [@MonsterNpc1_Talk1_10]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_13
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_13
 
 [@MonsterNpc1_Talk1_3_2]
 #IF
-checkitem Â§ßÊóèÈïøËßíÁ¨õ 1
+checkitem ¥Û◊Â≥§Ω«µ— 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_14
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_14
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_15
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_15
 
 [@MonsterNpc1_Talk1_3_3]
 #IF
-checkitem Â§ßÊóèÈïøËßíÁ¨õ 1
+checkitem ¥Û◊Â≥§Ω«µ— 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_16
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_16
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=0"
-take Â§ßÊóèÈïøËßíÁ¨õ 1
+take ¥Û◊Â≥§Ω«µ— 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_17
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_17
 
 #ELSEACT
 break
@@ -286,23 +286,23 @@ break
 
 [@MonsterNpc1_Talk1_3_4]
 #IF
-checkitem Â§ßÊóèÈïøËßíÁ¨õ 1
+checkitem ¥Û◊Â≥§Ω«µ— 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_18
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_18
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERPATTERN=1"
-take Â§ßÊóèÈïøËßíÁ¨õ 1
+take ¥Û◊Â≥§Ω«µ— 1
 GiveExp %USERNAME 50000
 DelayGoto [Grobal] 5 @MonsterNpc1_4_Event
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_19
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_19
 
 #ELSEACT
 break
@@ -314,34 +314,34 @@ mapmove 4 456 77
 
 [@MonsterNpc1_Talk2_1]
 #IF
-Checkitem ÂøÉÁü≥ 1
+Checkitem –ƒ Ø 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_20
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_20
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=11"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=9"
-take ÂøÉÁü≥ 1
+take –ƒ Ø 1
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_21
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_21
 
 [@MonsterNpc1_Talk2_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_22
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_22
 
 [@MonsterNpc1_Talk2_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_23
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_23
 
 [@MonsterNpc1_Talk2_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_24
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_24
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -353,62 +353,62 @@ break
 [@MonsterNpc1_Talk2_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_25
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_25
 
 [@MonsterNpc1_5_Event]
 #ACT
-Mongenp "D16063,33,44,10" ËØ∫ÁéõÂè∏‰ª§ 5
-ApplyMonEx "D16063,33,44,30" ËØ∫ÁéõÂè∏‰ª§ [Monsterside] "ÊØÅÁÅ≠‰πãÂç∞Â§ßÂ∏à"
+Mongenp "D16063,33,44,10" ≈µ¬ÍÀæ¡Ó 5
+ApplyMonEx "D16063,33,44,30" ≈µ¬ÍÀæ¡Ó [Monsterside] "ªŸ√÷Æ”°¥Û ¶"
 
 [@MonsterNpc1_Talk2_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_26
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_26
 
 [@MonsterNpc1_Talk2_7]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_27
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_27
 
 [@MonsterNpc1_Talk2_8]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_28
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_28
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
-give Â§ßÊóèÈïøËßíÁ¨õ 1
-give ÂøÉÁü≥ 1
+give ¥Û◊Â≥§Ω«µ— 1
+give –ƒ Ø 1
 
 [@MonsterNpc1_Talk2_9]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_29
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_29
 
 [@MonsterNpc1_Talk2_10]
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
-give Â§ßÊóèÈïøËßíÁ¨õ 1
+give ¥Û◊Â≥§Ω«µ— 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_30
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_30
 
 [@MonsterNpc1_Talk2_12]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_31
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_31
 
 [@MonsterNpc1_Talk2_13]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/MonsterNpc1.txt] @Convert_MonsterNpc1_32
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\MonsterNpc1.txt] @Convert_MonsterNpc1_32
 
 [@MonsterNpc1_Talk2_11]
 #ACT
 mapmove 41 149 84
 }
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––

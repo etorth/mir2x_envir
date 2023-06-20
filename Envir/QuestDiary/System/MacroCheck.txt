@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@MacroBlock]
 #IF
 Equal A8 "TRUE"
@@ -95,7 +95,7 @@ goto @MacroBlockMainRootin_Result1
 [@MacroBlockMainRootin_Result1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_0
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_0
 
 [@MacroBlockMainRootin_Result2()]
 #IF
@@ -106,7 +106,7 @@ Equal D3 1
 Equal A1 %A2
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_1
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_1
 
 #ACT
 Mov A8 "TRUE"
@@ -117,7 +117,7 @@ Equal D3 2
 Equal A1 %A3
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_2
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_2
 
 #ACT
 Mov A8 "TRUE"
@@ -128,7 +128,7 @@ Equal D3 3
 Equal A1 %A4
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_3
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_3
 
 #ACT
 Mov A8 "TRUE"
@@ -139,7 +139,7 @@ Equal D3 4
 Equal A1 %A5
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_4
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_4
 
 #ACT
 Mov A8 "TRUE"
@@ -150,7 +150,7 @@ Equal D3 5
 Equal A1 %A6
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_5
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_5
 
 #ACT
 Mov A8 "TRUE"
@@ -161,7 +161,7 @@ Equal D3 6
 Equal A1 %A9
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_6
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_6
 
 #ACT
 Mov A8 "TRUE"
@@ -169,8 +169,8 @@ break
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_7
+#INCLUDE [..\Convert_Def\QuestDiary\System\MacroCheck.txt] @Convert_MacroCheck_7
 
 #ELSEACT
 Map 3
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

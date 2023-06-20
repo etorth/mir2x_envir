@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@Samak_Item_Main]
 {
 #ACT
@@ -13,7 +13,7 @@ break
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Item.txt] @Convert_Item_0
+#INCLUDE [..\Convert_Def\QuestDiary\SamakCastleQuest\Item.txt] @Convert_Item_0
 
 [@Samak_Item_Master]
 #IF
@@ -25,4 +25,4 @@ FormatStr "%s,%s,%s,10" %A0 %A1 %A2
 MakeHealZone %A9 10 50 [GUILD]
 
 }
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

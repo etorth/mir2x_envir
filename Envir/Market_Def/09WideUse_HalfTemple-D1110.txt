@@ -16,20 +16,20 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [../convert_Def/Market_Def/09WideUse_HalfTemple-D1110.txt] @NPC_Main
+	#INCLUDE [..\convert_Def\Market_Def\09WideUse_HalfTemple-D1110.txt] @NPC_Main
 
 [@buy]
 #SAY
-	#INCLUDE [../convert_Def/Market_Def/09WideUse_HalfTemple-D1110.txt] @NPC_Buy
+	#INCLUDE [..\convert_Def\Market_Def\09WideUse_HalfTemple-D1110.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour
-ç«æŠŠ            100        1
-äº®ç«æŠŠ          100        1
-æŠ¤èº«ç¬¦ï¼ˆä¸­ï¼‰    100        1
-é‡‘åˆ›è¯ï¼ˆä¸­ï¼‰    500        1
-é­”æ³•è¯ï¼ˆä¸­ï¼‰    500        1
-é‡‘åˆ›è¯ï¼ˆå¤§ï¼‰    500        1
-é­”æ³•è¯ï¼ˆå¤§ï¼‰    500        1
-é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰    500        1
-é­”æ³•è¯ï¼ˆç‰¹ï¼‰    500        1
+»ğ°Ñ            100        1
+ÁÁ»ğ°Ñ          100        1
+»¤Éí·û£¨ÖĞ£©    100        1
+½ğ´´Ò©£¨ÖĞ£©    500        1
+Ä§·¨Ò©£¨ÖĞ£©    500        1
+½ğ´´Ò©£¨´ó£©    500        1
+Ä§·¨Ò©£¨´ó£©    500        1
+½ğ´´Ò©£¨ÌØ£©    500        1
+Ä§·¨Ò©£¨ÌØ£©    500        1

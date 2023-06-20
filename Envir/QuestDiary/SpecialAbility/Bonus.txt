@@ -4,10 +4,10 @@
 #IF
 CheckBonus
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_1
+	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\Bonus.txt] @Bonus_1
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_2
+	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\Bonus.txt] @Bonus_2
 
 
 [@ChangeType()]
@@ -16,7 +16,7 @@ CheckBonus
 #ACT
 TakeBonus %ARG(1)
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_3
+	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\Bonus.txt] @Bonus_3
 
 #ELSEACT
 break
@@ -25,7 +25,7 @@ break
 #IF
 Equal P0  0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/SpecialAbility/Bonus.txt] @Bonus_4
+	#INCLUDE [..\Convert_Def\QuestDiary\SpecialAbility\Bonus.txt] @Bonus_4
 
 #ACT
 close
@@ -34,43 +34,43 @@ break
 #IF
 Equal P1  20
 #ACT
-SysMsg  "ä½“åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÌåÁ¦ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 close
 
 #IF
 Equal P1  21
 #ACT
-SysMsg  "é­”åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "Ä§Á¦ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 close
 
 #IF
 Equal P1  0
 #ACT
-SysMsg  "é˜²å¾¡åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "·ÀÓùÁ¦ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 close
 
 #IF
 Equal P1  1
 #ACT
-SysMsg  "é­”æ³•é˜²å¾¡åŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "Ä§·¨·ÀÓùÁ¦ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 close
 
 #IF
 Equal P1  2
 #ACT
-SysMsg  "ç ´ååŠ› <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÆÆ»µÁ¦ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 close
 
 #IF
 Equal P1  3
 #ACT
-SysMsg  "è‡ªç„¶ç•Œé­”æ³• <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "×ÔÈ»½çÄ§·¨ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 close
 
 #IF
 Equal P1  4
 #ACT
-SysMsg  "çµé­‚ç•Œé­”æ³• <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "Áé»ê½çÄ§·¨ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 close
 
 #IF
@@ -81,31 +81,31 @@ break
 #IF
 Large  P2  0
 #ACT
-SysMsg  "å…ƒç´  ï¼ˆç«ï¼‰ å±æ€§ <$OUTPUT(P2)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÔªËØ £¨»ğ£© ÊôĞÔ <$OUTPUT(P2)> ÉÏÉıÁË¡£"
 #IF
 Large  P3  0
 #ACT
-SysMsg  "å…ƒç´  ï¼ˆæ°·ï¼‰ å±æ€§ <$OUTPUT(P3)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÔªËØ £¨šê£© ÊôĞÔ <$OUTPUT(P3)> ÉÏÉıÁË¡£"
 #IF
 Large  P4  0
 #ACT
-SysMsg  "å…ƒç´  ï¼ˆé›·ï¼‰ å±æ€§ <$OUTPUT(P4)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÔªËØ £¨À×£© ÊôĞÔ <$OUTPUT(P4)> ÉÏÉıÁË¡£"
 #IF
 Large  P5  0
 #ACT
-SysMsg  "å…ƒç´  ï¼ˆé£ï¼‰ å±æ€§ <$OUTPUT(P5)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÔªËØ £¨·ç£© ÊôĞÔ <$OUTPUT(P5)> ÉÏÉıÁË¡£"
 #IF
 Large  P6  0
 #ACT
-SysMsg  "å…ƒç´  ï¼ˆç¥åœ£ï¼‰ å±æ€§ <$OUTPUT(P6)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÔªËØ £¨ÉñÊ¥£© ÊôĞÔ <$OUTPUT(P6)> ÉÏÉıÁË¡£"
 #IF
 Large  P7  0
 #ACT
-SysMsg  "å…ƒç´  ï¼ˆæš—é»‘ï¼‰ å±æ€§ <$OUTPUT(P7)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÔªËØ £¨°µºÚ£© ÊôĞÔ <$OUTPUT(P7)> ÉÏÉıÁË¡£"
 #IF
 Large  P8  0
 #ACT
-SysMsg  "å…ƒç´  ï¼ˆå¹»å½±ï¼‰ å±æ€§ <$OUTPUT(P8)> ä¸Šå‡äº†ã€‚"
+SysMsg  "ÔªËØ £¨»ÃÓ°£© ÊôĞÔ <$OUTPUT(P8)> ÉÏÉıÁË¡£"
 #IF
 #ACT
 close

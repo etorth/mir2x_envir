@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\15Magic_DoGwan-1.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root_1
 
@@ -11,29 +11,29 @@ goto @main_root_1
 #IF
 checkjob taoist
 #ACT
-BreakTimeRecall
+BreakTimeRecall 
 goto @daebi_main
 #ELSEACT
-BreakTimeRecall
+BreakTimeRecall 
 goto @daebi_other_class
 
 [@daebi_other_class]
 #IF
 checkjob warrior
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Warrior
+	#INCLUDE [..\Convert_Def\Market_Def\15Magic_DoGwan-1.txt] @NPC_Main_Warrior
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Wizard
+	#INCLUDE [..\Convert_Def\Market_Def\15Magic_DoGwan-1.txt] @NPC_Main_Wizard
 
 [@daebi_main]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\15Magic_DoGwan-1.txt] @NPC_Main
 
 [@daebi_mugong_main]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/15Magic_DoGwan-1.txt] @NPC_Main_Mugong
+	#INCLUDE [..\Convert_Def\Market_Def\15Magic_DoGwan-1.txt] @NPC_Main_Mugong
 
 [@holycircle_test_start]
 #IF
@@ -41,7 +41,7 @@ checkjob warrior
 goto @holycircle_begin
 
 [@holycircle_begin]
-#CALL [QuestDiary/MU_taoist/holy.txt] @mugong_holycircle
+#CALL [\MU_taoist\holy.txt] @mugong_holycircle
 
 [@massheal_test_start]
 #IF
@@ -56,13 +56,13 @@ break
 goto @massheal_begin
 
 [@massheal_begin]
-#CALL [QuestDiary/MU_taoist/massheal.txt] @mugong_massheal
+#CALL [\MU_taoist\massheal.txt] @mugong_massheal
 
 [@massheal_complete]
-#CALL [QuestDiary/MU_taoist/massheal.txt] @mugong_massheal_complete
+#CALL [\MU_taoist\massheal.txt] @mugong_massheal_complete
 
 [@holycircle_test_explain_again]
-#CALL [QuestDiary/MU_taoist/holy.txt] @mugong_holycircle_explain
+#CALL [\MU_taoist\holy.txt] @mugong_holycircle_explain
 
 [@massheal_test_explain_again]
-#CALL [QuestDiary/MU_taoist/massheal.txt] @mugong_massheal_explain
+#CALL [\MU_taoist\massheal.txt] @mugong_massheal_explain

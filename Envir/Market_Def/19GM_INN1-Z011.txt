@@ -1,3 +1,3 @@
 ;;19GM_INN1-Z011.txt
 [@main]
-#CALL [QuestDiary/QT_TODAY/GM_SET.txt] @GM_QT_Test
+#CALL [QT_TODAY\GM_SET.txt] @GM_QT_Test

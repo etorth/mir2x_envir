@@ -1,6 +1,0 @@
-;;14Quest_ZombieCave-D404_002.txt
-[@NPC_Main_Else]
-{
-£¨¡£¡£¡£¡£¡££©\
-}
-

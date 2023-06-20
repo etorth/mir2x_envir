@@ -41,10 +41,10 @@ goto @umgbung1_2
 [@umgbung1_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MonQuest/Nm_WoomaGibung.txt] @Nm_WoomaGibung_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\MonQuest\Nm_WoomaGibung.txt] @Nm_WoomaGibung_1
 
 #ACT
-give ÃŽÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
+give ÎÖÂê½ðÅÆ 1
 set [273] 1
 
 ;----------------------------------------------------------

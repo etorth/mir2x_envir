@@ -8,7 +8,7 @@
 #IF
 check [248] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_1
 
 #ACT
 enter_fail
@@ -17,7 +17,7 @@ break
 #IF
 check [245] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_2
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_2
 
 #ACT
 enter_fail
@@ -26,7 +26,7 @@ break
 #IF
 check [244] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_3
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_3
 
 #ACT
 set [243] 0
@@ -51,7 +51,7 @@ break
 #IF
 check [238] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_4
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_4
 
 #ACT
 enter_fail
@@ -60,14 +60,14 @@ break
 #IF
 check [237] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_5
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_5
 
 #ACT
 enter_fail
 set [238] 1
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_6
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_6
 
 #ELSEACT
 enter_fail
@@ -78,7 +78,7 @@ enter_fail
 #IF
 checkhum D422_002 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_7
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_7
 
 #ACT
 enter_fail
@@ -87,11 +87,11 @@ goto @enterh_bgp_1
 
 [@enterh_bgp_1]
 #IF
-checkitem Â»Ã™ÃƒÃ°Â»Â¤Ã‰Ã­Â·Ã» 1
+checkitem »ÙÃð»¤Éí·û 1
 #ACT
 goto @enterh_bgp_2
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_8
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_8
 
 #ELSEACT
 enter_fail
@@ -99,7 +99,7 @@ enter_fail
 [@enterh_bgp_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_9
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_RoomSnakeSujun.txt] @Na_RoomSnakeSujun_9
 
 #ACT
 enter_ok
@@ -107,5 +107,5 @@ monclear D422_002
 param1 D422_002
 param2 13
 param3 20
-mongen ÃŠÃ°Â¼Ã½ 1 1
+mongen Êð¼ý 1 1
 set [243] 1

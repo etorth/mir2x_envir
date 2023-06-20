@@ -15,10 +15,10 @@ check [173] 0
 check [168] 1
 checklevel 11
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_1
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_2
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_2
 
 
 [@HATU_START_1]
@@ -26,7 +26,7 @@ checklevel 11
 check [173] 0
 check [168] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_3
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_3
 
 
 [@HATU_START_2]
@@ -34,7 +34,7 @@ check [168] 1
 check [173] 0
 check [168] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_4
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_4
 
 
 [@HATU_START_3]
@@ -44,7 +44,7 @@ check [168] 1
 #ACT
 set [172] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_5
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_5
 
 
 [@HATU_START_4]
@@ -55,7 +55,7 @@ check [168] 1
 set [172] 0
 set [173] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_6
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_6
 
 
 [@HATU_START_6]
@@ -65,7 +65,7 @@ check [168] 1
 #ACT
 set [172] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_7
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_7
 
 
 [@HATU_START_7]
@@ -75,7 +75,7 @@ check [168] 1
 #ACT
 set [172] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_8
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_8
 
 
 [@HATU_START_8]
@@ -86,7 +86,7 @@ check [168] 1
 set [172] 0
 set [173] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_9
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_9
 
 }
 
@@ -94,7 +94,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_10
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_10
 
 }
 
@@ -102,7 +102,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_11
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_11
 
 }
 
@@ -110,7 +110,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_12
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_12
 
 }
 
@@ -118,7 +118,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_13
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_13
 
 }
 
@@ -126,7 +126,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_14
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_14
 
 }
 
@@ -134,7 +134,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_15
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_15
 
 }
 
@@ -142,7 +142,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_16
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_16
 
 }
 
@@ -150,7 +150,7 @@ set [173] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_17
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_17
 
 }
 
@@ -159,12 +159,12 @@ set [173] 1
 #IF
 check [189] 0
 check [188] 1
-checkitem ¬∞√´¬ø√©¬≤¬ª√ã√Ä√Ö√Ü 1
+checkitem ∞ÎøÈ≤ªÀ¿≈∆ 1
 #ACT
-take ¬∞√´¬ø√©¬≤¬ª√ã√Ä√Ö√Ü 1
+take ∞ÎøÈ≤ªÀ¿≈∆ 1
 goto @GO_UNBAL1_KWAN_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_18
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_18
 
 
 [@GO_UNBAL1_KWAN_1]
@@ -174,7 +174,7 @@ check [188] 1
 #ACT
 set [189] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_19
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_19
 
 }
 
@@ -182,7 +182,7 @@ set [189] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_20
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_20
 
 }
 
@@ -197,7 +197,7 @@ goto @HATU_COMPLETE_0
 check [196] 0
 check [190] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_21
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_21
 
 
 [@HATU_COMPLETE_1]
@@ -205,11 +205,11 @@ check [190] 1
 check [196] 0
 check [190] 1
 #ACT
-give ¬ª√ò¬≥√á¬æ√≠ 6
+give ªÿ≥«æÌ 6
 reset [171] 19
 set [196] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_22
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_22
 
 }
 
@@ -217,7 +217,7 @@ set [196] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_23
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_23
 
 }
 
@@ -229,7 +229,7 @@ check [191] 1
 #ACT
 set [192] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_24
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_24
 
 }
 
@@ -237,7 +237,7 @@ set [192] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_25
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_25
 
 }
 
@@ -247,11 +247,11 @@ set [192] 1
 check [199] 0
 check [197] 0
 check [195] 1
-checkitem ¬≤¬ª√ã√Ä√Ö√Ü 1
+checkitem ≤ªÀ¿≈∆ 1
 #ACT
 goto @OMAYONG_COMPLETE_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_26
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_26
 
 
 [@OMAYONG_COMPLETE_1]
@@ -267,33 +267,33 @@ goto @OMAYONG_COMPLETE_3
 check [199] 0
 check [197] 0
 check [195] 1
-checkitem ¬≤¬ª√ã√Ä√Ö√Ü 1
+checkitem ≤ªÀ¿≈∆ 1
 #ACT
-take ¬≤¬ª√ã√Ä√Ö√Ü 1
-give ¬Ω√∞¬±√í 30000
+take ≤ªÀ¿≈∆ 1
+give Ω±“ 30000
 mov S1 0
 mov S2 0
 reset [191] 4
 set [197] 1
 set [199] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_27
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_27
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_28
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_28
 
 
 [@OMAYONG_COMPLETE_3]
 #IF
 check [197] 0
 check [195] 1
-checkitem ¬≤¬ª√ã√Ä√Ö√Ü 1
+checkitem ≤ªÀ¿≈∆ 1
 #ACT
-take ¬≤¬ª√ã√Ä√Ö√Ü 1
-give ¬Ω√∞¬±√í 30000
+take ≤ªÀ¿≈∆ 1
+give Ω±“ 30000
 set [197] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_29
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_29
 
 }
 
@@ -308,10 +308,10 @@ mov S2 0
 reset [191] 4
 set [199] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_30
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_30
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_31
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_31
 
 }
 
@@ -323,7 +323,7 @@ check [178] 1
 #ACT
 goto @OMAYONG_START_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_32
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_32
 
 
 [@OMAYONG_START_1]
@@ -331,7 +331,7 @@ goto @OMAYONG_START_1
 check [179] 0
 check [178] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_33
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_33
 
 
 [@OMAYONG_START_3]
@@ -341,7 +341,7 @@ check [178] 1
 #ACT
 set [179] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_34
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_34
 
 }
 
@@ -349,7 +349,7 @@ set [179] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_35
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_35
 
 }
 
@@ -367,7 +367,7 @@ set [184] 1
 mov S1 0
 mov S2 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_36
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_36
 
 }
 
@@ -375,7 +375,7 @@ mov S2 0
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_37
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_37
 
 }
 
@@ -385,7 +385,7 @@ mov S2 0
 check [180] 0
 check [179] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_38
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_38
 
 
 [@SEARCH_HAMMER1_1]
@@ -396,7 +396,7 @@ check [179] 1
 mov d8 0
 set [180] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_39
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_39
 
 }
 
@@ -404,7 +404,7 @@ set [180] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_40
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_40
 
 }
 
@@ -422,13 +422,13 @@ goto @GIVE_HAMMER_0
 #IF
 check [183] 0
 check [181] 1
-checkitem √ç√µ√å√∫¬Ω¬≥¬µ√Ñ√å√∫¬¥¬∏ 1
+checkitem ÕıÃ˙Ω≥µƒÃ˙¥∏ 1
 #ACT
-take √ç√µ√å√∫¬Ω¬≥¬µ√Ñ√å√∫¬¥¬∏ 1
+take ÕıÃ˙Ω≥µƒÃ˙¥∏ 1
 goto @GIVE_HAMMER_1
 set [182] 1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_41
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_41
 
 
 [@GIVE_HAMMER_1]
@@ -436,7 +436,7 @@ set [182] 1
 check [183] 0
 check [181] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_42
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_42
 
 
 [@GIVE_HAMMER_2]
@@ -444,11 +444,11 @@ check [181] 1
 check [183] 0
 check [181] 1
 #ACT
-give √á√†√ç¬≠¬∏¬´ 1
+give «‡Õ≠∏´ 1
 set [182] 0
 set [183] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_43
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_43
 
 }
 
@@ -460,7 +460,7 @@ check [174] 1
 #ACT
 goto @JAYOUN_START_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_44
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_44
 
 
 [@JAYOUN_START_1]
@@ -468,7 +468,7 @@ goto @JAYOUN_START_1
 check [175] 0
 check [174] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_45
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_45
 
 
 [@JAYOUN_START_3]
@@ -478,7 +478,7 @@ check [174] 1
 #ACT
 set [175] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_46
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_46
 
 }
 
@@ -486,7 +486,7 @@ set [175] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_47
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_47
 
 }
 
@@ -494,7 +494,7 @@ set [175] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_48
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_48
 
 }
 
@@ -502,7 +502,7 @@ set [175] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_49
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_49
 
 }
 
@@ -510,7 +510,7 @@ set [175] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_50
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_50
 
 }
 
@@ -526,7 +526,7 @@ check [199] 0
 check [198] 0
 check [196] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_51
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_51
 
 
 [@JAYOUN_COMPLETE_1]
@@ -535,8 +535,8 @@ check [199] 0
 check [198] 0
 check [196] 1
 #ACT
-give √Ä√ã√ì√™¬µ¬∂ 1
-give √á¬ø√ê¬ß√å¬´√ë√¥√ã¬Æ 5
+give ¿À”Íµ∂ 1
+give «ø–ßÃ´—ÙÀÆ 5
 goto @JAYOUN_COMPLETE_2
 
 [@JAYOUN_COMPLETE_2]
@@ -559,7 +559,7 @@ reset [191] 4
 set [198] 1
 set [199] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_52
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_52
 
 
 [@JAYOUN_COMPLETE_4]
@@ -569,7 +569,7 @@ check [196] 1
 #ACT
 set [198] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_53
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_53
 
 }
 
@@ -584,10 +584,10 @@ mov S2 0
 reset [191] 4
 set [199] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_54
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_54
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_55
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_55
 
 }
 
@@ -602,7 +602,7 @@ goto @SEARCH_GADEUNG1_UNBAL_0
 check [176] 0
 check [175] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_56
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_56
 
 
 [@SEARCH_GADEUNG1_UNBAL_3]
@@ -610,7 +610,7 @@ check [175] 1
 check [176] 0
 check [175] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_57
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_57
 
 
 [@SEARCH_GADEUNG1_UNBAL_4]
@@ -620,7 +620,7 @@ check [175] 1
 #ACT
 set [176] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_58
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_58
 
 }
 
@@ -628,7 +628,7 @@ set [176] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_59
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_59
 
 }
 
@@ -636,7 +636,7 @@ set [176] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_60
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_60
 
 
 [@HELP_CHOHON1_UNBAL_1]
@@ -646,7 +646,7 @@ check [177] 1
 #ACT
 set [178] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_61
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_61
 
 }
 
@@ -654,7 +654,7 @@ set [178] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_62
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_62
 
 }
 
@@ -662,7 +662,7 @@ set [178] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_63
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_63
 
 }
 
@@ -670,7 +670,7 @@ set [178] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_64
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_64
 
 }
 
@@ -678,7 +678,7 @@ set [178] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_65
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_65
 
 }
 
@@ -688,7 +688,7 @@ set [178] 1
 check [190] 0
 check [189] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_66
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_66
 
 
 [@RETURN_BICHUN1_UNBAL_1]
@@ -697,9 +697,9 @@ check [190] 0
 check [189] 1
 #ACT
 set [177] 0
-set [190] 1
+set [190] 1 
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_67
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_67
 
 }
 
@@ -707,7 +707,7 @@ set [190] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_68
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_68
 
 }
 
@@ -721,7 +721,7 @@ goto @HELP_BULSA2_UNBAL_0
 check [191] 0
 check [196] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_69
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_69
 
 
 [@HELP_BULSA2_UNBAL_1]
@@ -729,7 +729,7 @@ check [196] 1
 check [191] 0
 check [196] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_70
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_70
 
 
 [@HELP_BULSA2_UNBAL_2]
@@ -737,10 +737,10 @@ check [196] 1
 check [191] 0
 check [196] 1
 #ACT
-give ¬∞√´¬ø√©¬≤¬ª√ã√Ä√Ö√Ü 1
+give ∞ÎøÈ≤ªÀ¿≈∆ 1
 set [191] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_71
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_71
 
 }
 
@@ -748,7 +748,7 @@ set [191] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_72
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_72
 
 }
 
@@ -756,7 +756,7 @@ set [191] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_73
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_73
 
 }
 
@@ -766,7 +766,7 @@ set [191] 1
 check [177] 0
 check [176] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_74
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_74
 
 
 [@MEET_GADEUNG_1]
@@ -783,7 +783,7 @@ set [177] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_75
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_75
 
 }
 
@@ -791,6 +791,6 @@ set [177] 1
 {
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/oma.txt] @oma_76
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\oma.txt] @oma_76
 
 }

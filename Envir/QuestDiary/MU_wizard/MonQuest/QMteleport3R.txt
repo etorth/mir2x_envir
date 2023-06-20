@@ -19,4 +19,4 @@ goto @move_next_3to4R
 break
 
 [@move_next_3to4R]
-#CALL [QuestDiary/MU_wizard/teleport.txt] @MapQuest_move_3to4R
+#CALL [\MU_wizard\teleport.txt] @MapQuest_move_3to4R

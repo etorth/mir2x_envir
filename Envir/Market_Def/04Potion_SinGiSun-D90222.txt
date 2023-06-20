@@ -6,19 +6,19 @@
 [@main]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SinGiSun-D90222.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SinGiSun-D90222.txt] @NPC_Main
 
 
 [@Buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SinGiSun-D90222.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SinGiSun-D90222.txt] @NPC_Buy
 
 
 [Goods]
 ;ItemName      Volume     Hour
-é‡‘åˆ›è¯ï¼ˆå¤§ï¼‰    100       1
-é­”æ³•è¯ï¼ˆå¤§ï¼‰    100       1
-é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰    100       1
-é­”æ³•è¯ï¼ˆç‰¹ï¼‰    100       1
-å¼ºæ•ˆå¤ªé˜³æ°´      100       1
-ä¸‡å¹´é›ªéœœ        100       1
+½ğ´´Ò©£¨´ó£©    100       1
+Ä§·¨Ò©£¨´ó£©    100       1
+½ğ´´Ò©£¨ÌØ£©    100       1
+Ä§·¨Ò©£¨ÌØ£©    100       1
+Ç¿Ğ§Ì«ÑôË®      100       1
+ÍòÄêÑ©Ëª        100       1

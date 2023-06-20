@@ -1,10 +1,10 @@
 ;;Nm_SinGiPachun1.txt
-[@main]
-#IF
-#ACT
-Delaygoto [local] 120 @next
-
-[@next]
-#IF
-#ACT
-mapting D504 D503 54 55
+[@main]
+#IF
+#ACT
+Delaygoto [local] 120 @next
+
+[@next]
+#IF
+#ACT
+mapting D504 D503 54 55

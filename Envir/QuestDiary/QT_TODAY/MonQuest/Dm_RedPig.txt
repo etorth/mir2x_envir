@@ -80,7 +80,7 @@ inc s0 1
 set [308] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T499_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T499_Say
 
 
 [@RedPig_T499_Secret_1]
@@ -114,7 +114,7 @@ inc s0 1
 set [309] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T499_Say_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T499_Say_1
 
 ;-----------------------------------------------------
 [@jukdon_T414]
@@ -148,7 +148,7 @@ break
 [@jukdon_T414_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T414_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T414_Say
 
 #ACT
 set [308] 1

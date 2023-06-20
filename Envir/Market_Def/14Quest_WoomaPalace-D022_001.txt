@@ -25,19 +25,19 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_WoomaPalace-D022_001.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_WoomaPalace-D022_001.txt] @NPC_Main
 
 [@NQuest01_1]
 #IF
 checkbaggage
 #ACT
-give ¬µ√ò√ì√º√â√±√ñ√ì 1
+give µÿ”¸…Ò÷” 1
 set [284] 1
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_WoomaPalace-D022_001.txt] @NPC_NQuest_1
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_WoomaPalace-D022_001.txt] @NPC_NQuest_1
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_WoomaPalace-D022_001.txt] @NPC_NQuest_1_Else
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_WoomaPalace-D022_001.txt] @NPC_NQuest_1_Else
 
 [@NQuest01_2]
 #SAY
-  #INCLUDE [Convert_Def/Market_def/14Quest_WoomaPalace-D022_001.txt] @NPC_NQuest_2
+  #INCLUDE [..\Convert_Def\Market_def\14Quest_WoomaPalace-D022_001.txt] @NPC_NQuest_2

@@ -5,28 +5,28 @@
 [@main]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z010.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\19GM_INN-Z010.txt] @NPC_Main
 
 #IF
 IsAdmin
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z010.txt] @NPC_ADmin_Main
+	#INCLUDE [..\Convert_Def\Market_Def\19GM_INN-Z010.txt] @NPC_ADmin_Main
 
 ;----------------------------------------------------------
 
 [@storage]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z010.txt] @NPC_Storage
+	#INCLUDE [..\Convert_Def\Market_Def\19GM_INN-Z010.txt] @NPC_Storage
 
 [@getback]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z010.txt] @NPC_Getback
+	#INCLUDE [..\Convert_Def\Market_Def\19GM_INN-Z010.txt] @NPC_Getback
 
 ;----------------------------------------------------------
 
 [@admin_menu]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z010.txt] @NPC_Admin_Menu
+	#INCLUDE [..\Convert_Def\Market_Def\19GM_INN-Z010.txt] @NPC_Admin_Menu
 
 ;----------------------------------------------------------
 ; Break Event
@@ -42,36 +42,36 @@ Cleardelaygoto
 ;----------------------------------------------------------
 
 [@RushEvent1]
-;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert71
+;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert71
 [@RushEvent6]
-;;#CALL [QuestDiary/Event/MonRush/Rush1.txt] @RushEventDesert76
+;;#CALL [\Event\MonRush\Rush1.txt] @RushEventDesert76
 
 ;----------------------------------------------------------
 ;; Sau VS Umyun
 ;----------------------------------------------------------
 
 [@StoryEvent1]
-;;#CALL [QuestDiary/Event/Story/Story1.txt] @StartEvent
+;;#CALL [\Event\Story\Story1.txt] @StartEvent
 
 ;----------------------------------------------------------
 ;; Umyungwiwang Risk
 ;----------------------------------------------------------
 
 [@StoryEvent2]
-;;#CALL [QuestDiary/Event/Story/Story2.txt] @Wooma
+;;#CALL [\Event\Story\Story2.txt] @Wooma
 
 ;----------------------------------------------------------
 ;; Pachunhwang Rebirth
 ;----------------------------------------------------------
 
 [@pachon01]
-#CALL [QuestDiary/Event/Story/pachon01.txt] @pachon01_1
+#CALL [\Event\Story\pachon01.txt] @pachon01_1
 
 ;----------------------------------------------------------
-;; Î¶¥Î†àÏù¥ Ïù¥Î≤§Ìä∏ ÏãúÏûë
+;; ∏±∑π¿Ã ¿Ã∫•∆Æ Ω√¿€
 ;----------------------------------------------------------
 [@GEvent_start_oneDay]
-#CALL [QuestDiary/Event/Event_Game01/GEvent_Msg01.txt] @GEventgrobal_Msg01
+#CALL [Event\Event_Game01\GEvent_Msg01.txt] @GEventgrobal_Msg01
 
 
 [@GEvent_End_11]
@@ -85,5 +85,5 @@ Cleardelaygoto
 	LoadValue A0 "Convert_Def\Market_def\19GM_INN-Z010_Ev.txt" [LineMSG] [MSG02]
 linemsg "z010,z011,z012" "%A0"
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z010.txt] @NPC_GEvent_End_11
+	#INCLUDE [..\Convert_Def\Market_Def\19GM_INN-Z010.txt] @NPC_GEvent_End_11
 

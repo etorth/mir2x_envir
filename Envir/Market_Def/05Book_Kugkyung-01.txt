@@ -25,7 +25,7 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -37,33 +37,33 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_Main
-
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_Main
+ 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_Sell
 
 [@questionprize]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_QuestionPrize
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_QuestionPrize
 
 [@help_11]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_Help_11
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_Help_11
 
 [@help_12]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_Help_12
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_Help_12
 
 [Goods]
 ;ItemName      Volume     Hour
-Â»Ã¹Â±Â¾Â½Â£ÃŠÃµ     100            1
+»ù±¾½£Êõ     100            1
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -95,7 +95,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -118,10 +118,10 @@ goto @TQuest579_1
 ;--------------
 
 [@TQuest579_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @579_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @579_START
 
 [@TQuest579_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @579_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @579_CHECK1
 
 
 ;------------------------
@@ -149,13 +149,13 @@ break
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @447_CHECK2
+#CALL [\QT_TODAY\4thClass.txt] @447_CHECK2
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/05Book_Kugkyung-01.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\05Book_Kugkyung-01.txt] @NPC_TQuest_1
 
 ;----------------------------------
 
@@ -174,13 +174,13 @@ goto @TQuest2_2
 break
 
 #ELSEACT
-goto @TQuest2_1
+goto @TQuest2_1 
 
 ;--------------
 
 [@TQuest2_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @556_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @556_START
 
 [@TQuest2_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @556_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @556_CHECK1
 ;--------------

@@ -2,42 +2,42 @@
 
 [@Convert_Map_honchonmadoRoom_0]
 {
-(一股不知名的力量挡住了去路.. 既然进不去, 那就再寻找些线索吧..)
+(һ�ɲ�֪����������ס��ȥ·.. ��Ȼ����ȥ, �Ǿ���Ѱ��Щ������..)
 }
 
 [@Convert_Map_honchonmadoRoom_1]
 {
-(有人在那里吗? 只能等那人离开后再进去了..)
+(������������? ֻ�ܵ������뿪���ٽ�ȥ��..)
 }
 
 [@Convert_Map_honchonmadoRoom_2]
 {
-(一股不知名的力量挡住了去路.. 继续寻找线索后再来吧..)
+(һ�ɲ�֪����������ס��ȥ·.. ����Ѱ��������������..)
 }
 
 [@Convert_Map_honchonmadoRoom_3]
 {
-好像可以进去了，进去看看吗? \ \
-<同组队一同进去/@main_Day_ok_2> \
-<自己进去/@main_Day_ok_3> \
+������Խ�ȥ�ˣ���ȥ������? \ \
+<ͬ���һͬ��ȥ/@main_Day_ok_2> \
+<�Լ���ȥ/@main_Day_ok_3> \
 }
 
 [@Convert_Map_honchonmadoRoom_4]
 {
-(进这里好像需要一种证票，去夏柯那里问问吧。)
+(�����������Ҫһ��֤Ʊ��ȥ�Ŀ��������ʰɡ�)
 
 
 }
 
 [@Convert_Map_honchonmadoRoom_5]
 {
-结界打开了，进去看看吗? \ \
+�����ˣ���ȥ������? \ \
 
-<自己进去/@Madoroom_ok_3> \
+<�Լ���ȥ/@Madoroom_ok_3> \
 }
 
 [@Convert_Map_honchonmadoRoom_6]
 {
-(现在有点混乱，下次再挑战吧。)
+(�����е���ң��´�����ս�ɡ�)
 
 }

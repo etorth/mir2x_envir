@@ -7,7 +7,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\09HairDying_Bichon-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -19,16 +19,16 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\09HairDying_Bichon-0.txt] @NPC_Main
 
 ;-------------------------------------------------------------------------------
 
 [@ChangeHairColor]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_changeHairColor
+	#INCLUDE [..\Convert_Def\Market_Def\09HairDying_Bichon-0.txt] @NPC_changeHairColor
 
 [@HairColor()]
-#CALL [QuestDiary/Hair/Dying.txt] @Color
+#CALL [\Hair\Dying.txt] @Color
 
 ;-------------------------------------------------------------------------------
 
@@ -36,12 +36,12 @@ goto @main_0_0
 #IF
 gender  man
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_changeHairShape_Man
+	#INCLUDE [..\Convert_Def\Market_Def\09HairDying_Bichon-0.txt] @NPC_changeHairShape_Man
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_changeHairShape_WoMan
+	#INCLUDE [..\Convert_Def\Market_Def\09HairDying_Bichon-0.txt] @NPC_changeHairShape_WoMan
 
 [@HairShape()]
-#CALL [QuestDiary/Hair/Dying.txt] @Shape
+#CALL [\Hair\Dying.txt] @Shape
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\09HairDying_Bichon-0.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -84,15 +84,15 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @308_START
+#CALL [\QT_TODAY\3rdClass.txt] @308_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @308_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @308_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HairDying_Bichon-0.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\09HairDying_Bichon-0.txt] @NPC_TQuest_1
 
 ;------------------------

@@ -11,7 +11,7 @@ checkjob wizard
 break
 
 #IF
-checkmagic 困魔咒
+checkmagic ��ħ��
 #ACT
 break
 
@@ -38,41 +38,41 @@ break
 #IF
 random 100
 #SAY
-(这是第一困魔石吗？...要一个不缺地找到5种困魔石...)
+(���ǵ�һ��ħʯ��...Ҫһ����ȱ���ҵ�5����ħʯ...)
 #ACT
-give 第一困魔石 1
+give ��һ��ħʯ 1
 break
 
 #IF
 random 50
 #SAY
-(这是第二困魔石吗？...要一个不缺地找到5种困魔石...)
+(���ǵڶ���ħʯ��...Ҫһ����ȱ���ҵ�5����ħʯ...)
 #ACT
-give 第二困魔石 1
+give �ڶ���ħʯ 1
 break
 
 #IF
 random 100
 #SAY
-(这是第三困魔石吗？...要一个不缺地找到5种困魔石...)
+(���ǵ�����ħʯ��...Ҫһ����ȱ���ҵ�5����ħʯ...)
 #ACT
-give 第三困魔石 1
+give ������ħʯ 1
 break
 
 #IF
 random 50
 #SAY
-(这是第四困魔石吗？...要一个不缺地找到5种困魔石...)
+(���ǵ�����ħʯ��...Ҫһ����ȱ���ҵ�5����ħʯ...)
 #ACT
-give 第四困魔石 1
+give ������ħʯ 1
 break
 
 #IF
 random 100
 #SAY
-(这是最后困魔石吗？...要一个不缺地找到5种困魔石...)
+(���������ħʯ��...Ҫһ����ȱ���ҵ�5����ħʯ...)
 #ACT
-give 最后困魔石 1
+give �����ħʯ 1
 break
 
 #IF

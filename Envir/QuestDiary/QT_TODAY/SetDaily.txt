@@ -5,25 +5,25 @@
 equal p0 1
 #ACT
 goto @Check_set_Tquest_G1
-break
+break 
 
 #IF
 equal p0 2
 #ACT
 goto @Check_set_Tquest_G2
-break
+break 
 
 #IF
 equal p0 3
 #ACT
 goto @Check_set_Tquest_G3
-break
+break 
 
 #IF
 equal p0 4
 #ACT
 goto @Check_set_Tquest_G4
-break
+break 
 
 #ELSEACT
 goto @set_Tquest_0_0
@@ -39,43 +39,43 @@ goto @set_Tquest_0_1
 
 
 [@set_Tquest_0_1]
-;
-#IF
+;		
+#IF 
 checklevel 41
 #ACT
 goto @set_Tquest_1_1
 break
 ;
-#IF
+#IF 
 checklevel 31
 #ACT
 goto @set_Tquest_2_1
 break
 ;
-#IF
+#IF 
 checklevel 21
 #ACT
 goto @set_Tquest_3_1
 break
 ;
-#IF
+#IF 
 checklevel 11
 #ACT
 goto @set_Tquest_4_1
 ;break
 ;;
-;#IF
+;#IF 
 ;checklevel 7
 ;#ACT
 ;goto @set_Tquest_5_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @SetDaily_NoQT
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @SetDaily_NoQT
 
 ;-------------------
 
 [@set_Tquest_1_1]
 ;		Level 41 ~ 50
-#IF
+#IF 
 #ACT
 movr d0 100
 inc d0 1
@@ -94,7 +94,7 @@ goto @set_Tquest_1_2
 
 
 [@set_Tquest_1_2]
-#IF
+#IF 
 #ACT
 movr d0 100
 inc d0 1
@@ -173,7 +173,7 @@ goto @set_Tquest_1_1
 
 [@set_Tquest_2_1]
 ;		Level 31 ~ 40
-#IF
+#IF 
 #ACT
 movr d0 100
 inc d0 1
@@ -272,7 +272,7 @@ goto @set_Tquest_2_1
 
 [@set_Tquest_3_1]
 ;		Level 21 ~ 30
-#IF
+#IF 
 #ACT
 movr d0 100
 inc d0 1
@@ -371,7 +371,7 @@ goto @set_Tquest_3_1
 
 [@set_Tquest_4_1]
 ;		Level 11 ~ 20
-#IF
+#IF 
 #ACT
 movr d0 100
 inc d0 1
@@ -448,7 +448,7 @@ goto @set_Tquest_4_5
 
 
 [@set_Tquest_4_5]
-#IF
+#IF 
 #ACT
 movr d0 100
 inc d0 1
@@ -470,7 +470,7 @@ goto @set_Tquest_4_1
 
 ;[@set_Tquest_5_1]
 ;;		Level 7 ~ 10
-;#IF
+;#IF 
 ;#ACT
 ;movr d0 100
 ;inc d0 1
@@ -1819,7 +1819,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_wangdaein_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_wangdaein_Say
 
 [@Help_BiChon_Sobaekhwa]
 #IF
@@ -1832,7 +1832,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_BiChon_Sobaekhwa_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_BiChon_Sobaekhwa_Say
 
 [@Help_Bichun_jaryo]
 #IF
@@ -1845,7 +1845,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_jaryo_Say
 
 ;---------------
 
@@ -1860,7 +1860,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_pujugan1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_pujugan1_Say
 
 ;---------------
 
@@ -1875,7 +1875,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_pujugan2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_pujugan2_Say
 
 ;---------------
 
@@ -1890,7 +1890,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_mugisang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_mugisang_Say
 
 
 ;---------------
@@ -1906,7 +1906,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_daijangan_Say
 
 
 ;---------------
@@ -1922,7 +1922,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_pomoksang_Say
 
 
 ;---------------
@@ -1938,7 +1938,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_sinbalsang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_sinbalsang_Say
 
 
 ;---------------
@@ -1954,7 +1954,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_siyaksang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_siyaksang1_Say
 
 
 ;---------------
@@ -1970,7 +1970,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_siyaksang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_siyaksang2_Say
 
 
 ;---------------
@@ -1986,7 +1986,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_yakjesa_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_yakjesa_Say
 
 ;---------------
 
@@ -2001,7 +2001,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_soujum_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_soujum_Say
 
 
 ;---------------
@@ -2017,7 +2017,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_changgo_Say
 
 
 ;---------------
@@ -2033,7 +2033,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_jabhwasang_Say
 
 
 ;---------------
@@ -2049,7 +2049,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_jangsingu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_jangsingu_Say
 
 
 ;---------------
@@ -2065,7 +2065,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_bokwon_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_bokwon_Say
 
 
 ;---------------
@@ -2081,7 +2081,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_jujeom_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_jujeom_Say
 
 
 
@@ -2098,7 +2098,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_doseo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_doseo_Say
 
 
 ;---------------
@@ -2114,7 +2114,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_bcdokwanju_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_bcdokwanju_Say
 
 
 ;---------------
@@ -2130,7 +2130,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_wonseng_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_wonseng_Say
 
 
 ;---------------
@@ -2146,7 +2146,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bichun_miyongsa_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bichun_miyongsa_Say
 
 
 
@@ -2168,7 +2168,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_jaryo_Say
 
 
 ;---------------
@@ -2184,7 +2184,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_pujugan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_pujugan_Say
 
 
 ;---------------
@@ -2200,7 +2200,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_daijangan_Say
 
 
 ;---------------
@@ -2216,7 +2216,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_pomoksang_Say
 
 
 
@@ -2233,7 +2233,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_siyaksang_Say
 
 
 ;---------------
@@ -2249,7 +2249,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_soujum_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_soujum_Say
 
 ;---------------
 
@@ -2264,7 +2264,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_changgo_Say
 
 
 ;---------------
@@ -2280,7 +2280,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_jabhwasang_Say
 
 
 ;---------------
@@ -2296,7 +2296,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Kukyong_jangsingu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Kukyong_jangsingu_Say
 
 
 ;----------------------------------------------------------------
@@ -2315,7 +2315,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_jaryo_Say
 
 
 
@@ -2332,7 +2332,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_pujugan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_pujugan_Say
 
 
 ;---------------
@@ -2348,7 +2348,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_daijangan_Say
 
 
 ;---------------
@@ -2364,7 +2364,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_pomoksang_Say
 
 
 ;---------------
@@ -2380,7 +2380,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_siyaksang_Say
 
 
 ;---------------
@@ -2396,7 +2396,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_yakjesa_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_yakjesa_Say
 
 
 ;---------------
@@ -2412,7 +2412,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_soujum_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_soujum_Say
 
 
 ;---------------
@@ -2428,7 +2428,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_changgo_Say
 
 
 ;---------------
@@ -2444,7 +2444,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_jabhwasang_Say
 
 ;---------------
 
@@ -2459,7 +2459,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_jangsingu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_jangsingu_Say
 
 
 
@@ -2476,7 +2476,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_namgung_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_namgung_Say
 
 
 ;---------------
@@ -2492,7 +2492,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_hwachun_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_hwachun_Say
 
 
 ;---------------
@@ -2508,7 +2508,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Eunhang_byukryuk_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Eunhang_byukryuk_Say
 
 
 ;---------------
@@ -2529,7 +2529,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_jaryo_Say
 
 
 ;---------------
@@ -2545,7 +2545,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_mugisang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_mugisang1_Say
 
 
 ;---------------
@@ -2561,7 +2561,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_mugisang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_mugisang2_Say
 
 ;---------------
 
@@ -2576,7 +2576,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_pomoksang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_pomoksang1_Say
 
 
 ;---------------
@@ -2592,7 +2592,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_pomoksang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_pomoksang2_Say
 
 
 ;---------------
@@ -2608,7 +2608,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_siyaksang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_siyaksang1_Say
 
 
 ;---------------
@@ -2624,7 +2624,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_siyaksang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_siyaksang2_Say
 
 
 ;---------------
@@ -2640,7 +2640,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_yakjesa1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_yakjesa1_Say
 
 
 ;---------------
@@ -2656,7 +2656,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_yakjesa2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_yakjesa2_Say
 
 
 
@@ -2673,7 +2673,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_soujum1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_soujum1_Say
 
 
 
@@ -2690,7 +2690,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_soujum2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_soujum2_Say
 
 
 ;---------------
@@ -2706,7 +2706,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_changgo_Say
 
 
 ;---------------
@@ -2722,7 +2722,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_jabhwasang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_jabhwasang1_Say
 
 
 ;---------------
@@ -2738,7 +2738,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_jabhwasang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_jabhwasang2_Say
 
 
 ;---------------
@@ -2754,7 +2754,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_jangsingu1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_jangsingu1_Say
 
 
 
@@ -2771,7 +2771,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwan_jangsingu2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwan_jangsingu2_Say
 
 
 
@@ -2790,7 +2790,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwanap_pujugan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwanap_pujugan_Say
 
 
 ;---------------
@@ -2806,7 +2806,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwanap_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwanap_daijangan_Say
 
 
 
@@ -2823,7 +2823,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_dokwanap_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_dokwanap_siyaksang_Say
 
 
 ;----------------------------------------------------------------
@@ -2841,7 +2841,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_OldMiner_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_OldMiner_Say
 
 [@Help_Bamgol_GrandM]
 #IF
@@ -2854,7 +2854,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_GrandM_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_GrandM_Say
 
 [@Help_Bamgol_jaryo]
 #IF
@@ -2867,7 +2867,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_jaryo_Say
 
 
 ;---------------
@@ -2883,7 +2883,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_daijangan_Say
 
 
 
@@ -2900,7 +2900,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_pomoksang_Say
 
 
 ;---------------
@@ -2916,7 +2916,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_siyaksang_Say
 
 
 
@@ -2933,7 +2933,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_changgo_Say
 
 
 
@@ -2950,7 +2950,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_jabhwasang_Say
 
 
 ;--------------------------------
@@ -2966,7 +2966,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_bamgolnoin_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_bamgolnoin_Say
 
 
 
@@ -2983,7 +2983,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_dankyo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_dankyo_Say
 
 
 
@@ -3000,7 +3000,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Bamgol_kwangsanin_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Bamgol_kwangsanin_Say
 
 
 ;----------------------------------------------------------------
@@ -3019,7 +3019,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_jaryo_Say
 
 
 
@@ -3036,7 +3036,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_pujugan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_pujugan_Say
 
 
 ;---------------
@@ -3052,7 +3052,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_mugisang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_mugisang_Say
 
 
 
@@ -3069,7 +3069,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_daijangan_Say
 
 
 ;---------------
@@ -3085,7 +3085,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_tugu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_tugu_Say
 
 
 
@@ -3102,7 +3102,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_pomoksang_Say
 
 
 ;---------------
@@ -3118,7 +3118,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_siyaksang_Say
 
 ;---------------
 
@@ -3133,10 +3133,10 @@ reset [307] 3
 ;set [310] 0
 ;reset [307] 3
 ;#SAY
-;鍙涓�閬嶏紝甯屾湜璁ょ湡鍚ソ銆傘�俓
-;杩欐浜嬫儏鍘绘壘涓�涓嬪湪{FCOLOR/10}娌欏反鍏嬪煄{FCOLOR/12}閲岃嵂閾虹殑{FCOLOR/10}鍩哄痉{FCOLOR/12}鍚с�俓
-;鍩哄痉涔熻鍦ㄦ矙宸村厠鍩巤FCOLOR/10}196 : 255{FCOLOR/12}闄勮繎銆俓 \
-;<缁撴潫/@exit>
+;只说一遍，希望认真听好。。\ 
+;这次事情去找一下在{FCOLOR/10}沙巴克城{FCOLOR/12}里药铺的{FCOLOR/10}基德{FCOLOR/12}吧。\ 
+;基德也许在沙巴克城{FCOLOR/10}196 : 255{FCOLOR/12}附近。\ \
+;<结束/@exit>
 
 ;---------------
 
@@ -3151,7 +3151,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_changgo_Say
 
 
 ;---------------
@@ -3167,7 +3167,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_jabhwasang_Say
 
 
 ;---------------
@@ -3183,7 +3183,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_banji_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_banji_Say
 
 
 ;---------------
@@ -3199,7 +3199,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_paljji_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_paljji_Say
 
 
 ;---------------
@@ -3215,7 +3215,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sabuk_mokguli_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sabuk_mokguli_Say
 
 
 
@@ -3235,7 +3235,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_jaryo1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_jaryo1_Say
 
 
 ;---------------
@@ -3251,7 +3251,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_jaryo2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_jaryo2_Say
 
 
 ;---------------
@@ -3268,7 +3268,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_pujugan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_pujugan_Say
 
 
 
@@ -3285,7 +3285,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_daijangan1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_daijangan1_Say
 
 
 ;---------------
@@ -3301,7 +3301,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_daijangan2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_daijangan2_Say
 
 
 ;---------------
@@ -3317,7 +3317,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_pomoksang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_pomoksang1_Say
 
 
 
@@ -3334,7 +3334,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_pomoksang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_pomoksang2_Say
 
 
 ;---------------
@@ -3350,7 +3350,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_siyaksang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_siyaksang1_Say
 
 
 ;---------------
@@ -3366,7 +3366,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_siyaksang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_siyaksang2_Say
 
 
 
@@ -3383,7 +3383,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_changgo1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_changgo1_Say
 
 
 
@@ -3400,7 +3400,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_changgo2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_changgo2_Say
 
 
 
@@ -3417,7 +3417,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_jabhwasang_Say
 
 
 
@@ -3434,7 +3434,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_jangsingu1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_jangsingu1_Say
 
 ;---------------
 
@@ -3449,7 +3449,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_jangsingu2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_jangsingu2_Say
 
 
 ;-----------------------------------------
@@ -3465,7 +3465,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Oasis_yuadokjonja_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Oasis_yuadokjonja_Say
 
 
 ;---------------
@@ -3486,7 +3486,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_jaryo_Say
 
 
 ;---------------
@@ -3503,7 +3503,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_pujugan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_pujugan_Say
 
 
 ;---------------
@@ -3519,7 +3519,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_daijangan1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_daijangan1_Say
 
 
 ;---------------
@@ -3535,7 +3535,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_daijangan2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_daijangan2_Say
 
 
 ;---------------
@@ -3551,7 +3551,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_pomoksang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_pomoksang1_Say
 
 
 
@@ -3568,7 +3568,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_pomoksang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_pomoksang2_Say
 
 
 
@@ -3585,7 +3585,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_sinbalsang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_sinbalsang_Say
 
 
 ;---------------
@@ -3601,7 +3601,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_siyaksang1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_siyaksang1_Say
 
 
 
@@ -3618,7 +3618,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_siyaksang2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_siyaksang2_Say
 
 ;---------------
 
@@ -3633,7 +3633,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_yakjesa_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_yakjesa_Say
 
 
 ;---------------
@@ -3649,7 +3649,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_changgo1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_changgo1_Say
 
 
 ;---------------
@@ -3665,7 +3665,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_changgo2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_changgo2_Say
 
 
 
@@ -3682,7 +3682,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_jabhwasang_Say
 
 
 ;---------------
@@ -3698,7 +3698,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_jangsingu1_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_jangsingu1_Say
 
 
 ;---------------
@@ -3714,7 +3714,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_jangsingu2_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_jangsingu2_Say
 
 
 ;-----------------------------------------
@@ -3730,7 +3730,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_buyongsunja_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_buyongsunja_Say
 
 
 
@@ -3747,7 +3747,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Samak_sosuoknyu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Samak_sosuoknyu_Say
 
 
 ;---------------
@@ -3768,7 +3768,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_jaryo_Say
 
 
 
@@ -3785,7 +3785,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_daijangan_Say
 
 
 
@@ -3802,7 +3802,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_pomoksang_Say
 
 
 
@@ -3819,7 +3819,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_siyaksang_Say
 
 
 
@@ -3836,7 +3836,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_changgo_Say
 
 
 ;---------------
@@ -3852,7 +3852,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_jabhwasang_Say
 
 
 ;---------------
@@ -3868,7 +3868,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_jangsingu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_jangsingu_Say
 
 
 ;-----------------------------------------
@@ -3884,7 +3884,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_mcdokwanju_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_mcdokwanju_Say
 
 
 ;---------------
@@ -3900,7 +3900,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Mongchon_noiongdanju_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Mongchon_noiongdanju_Say
 
 
 
@@ -3922,7 +3922,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Banya_jaryo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Banya_jaryo_Say
 
 
 
@@ -3939,7 +3939,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Banya_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Banya_daijangan_Say
 
 
 
@@ -3956,7 +3956,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Banya_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Banya_pomoksang_Say
 
 
 
@@ -3973,7 +3973,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Banya_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Banya_siyaksang_Say
 
 
 
@@ -3990,7 +3990,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Banya_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Banya_changgo_Say
 
 
 ;---------------
@@ -4006,7 +4006,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Banya_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Banya_jabhwasang_Say
 
 
 
@@ -4023,7 +4023,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Banya_jangsingu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Banya_jangsingu_Say
 
 
 
@@ -4045,7 +4045,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Juma_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Juma_siyaksang_Say
 
 
 ;----------------------------------------------------------------
@@ -4063,7 +4063,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sukgak_daijangan_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sukgak_daijangan_Say
 
 
 
@@ -4080,7 +4080,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sukgak_pomoksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sukgak_pomoksang_Say
 
 
 
@@ -4097,7 +4097,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sukgak_siyaksang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sukgak_siyaksang_Say
 
 
 
@@ -4114,7 +4114,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Sukgak_jangsingu_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Sukgak_jangsingu_Say
 
 
 
@@ -4133,7 +4133,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_Gemi_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_Gemi_jabhwasang_Say
 
 
 
@@ -4153,7 +4153,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_OmaDG_changgo_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_OmaDG_changgo_Say
 
 
 ;---------------
@@ -4169,7 +4169,7 @@ set [309] 0
 set [310] 0
 reset [307] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/SetDailySay.txt] @Help_OmaDG_jabhwasang_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\SetDailySay.txt] @Help_OmaDG_jabhwasang_Say
 
 
 

@@ -1,33 +1,33 @@
 ;;TotalRepair.txt
 [@RepairCost]
 {
-ä¿®ç†è´¹ç”¨æ˜¯<$OUTPUT(P9)>ã€‚\ \
-è¿™ä¸ªç‰¹ä¿®æ˜¯åªæœ‰å¸¦ç€ç‰©å“çš„æƒ…å†µä¸‹æ‰å¯ä»¥ä¿®ç†ã€‚è¯·ç¡®è®¤ä¸€ä¸‹æ˜¯å¦å¸¦ç€ã€‚\
-<çŽ°åœ¨ä¿®ç†/@SRepairNow>\
-<å‰ä¸€æ­¥/@main>
+ÐÞÀí·ÑÓÃÊÇ<$OUTPUT(P9)>¡£\ \
+Õâ¸öÌØÐÞÊÇÖ»ÓÐ´ø×ÅÎïÆ·µÄÇé¿öÏÂ²Å¿ÉÒÔÐÞÀí¡£ÇëÈ·ÈÏÒ»ÏÂÊÇ·ñ´ø×Å¡£\
+<ÏÖÔÚÐÞÀí/@SRepairNow>\
+<Ç°Ò»²½/@main>
 }
 
 [@No_Money]
 {
-é’±ä¸å¤Ÿå•Šã€‚ã€‚\ \
-<å‰ä¸€æ­¥/@main>
+Ç®²»¹»°¡¡£¡£\ \
+<Ç°Ò»²½/@main>
 }
 
 [@Repair_Fail]
 {
-æ­¤ç‰©å“ä¸èƒ½ä¿®ç†.\ \
-<é€€  å‡º/@exit>
+´ËÎïÆ·²»ÄÜÐÞÀí.\ \
+<ÍË  ³ö/@exit>
 }
 
 [@NeedNot_Repair]
 {
-è¿™ä¸ªç‰©å“ä¸éœ€è¦ä¿®ç†ã€‚\ \
-<å‰ä¸€æ­¥/@main>
+Õâ¸öÎïÆ·²»ÐèÒªÐÞÀí¡£\ \
+<Ç°Ò»²½/@main>
 }
 
 [@Repair_Complete]
 {
-ä¿®ç†çš„å¾ˆå¥½ã€‚\
-ä¿®ç†è´¹ç”¨æ˜¯<$OUTPUT(P9)>ã€‚\ \
-<å‰ä¸€æ­¥/@main>
+ÐÞÀíµÄºÜºÃ¡£\
+ÐÞÀí·ÑÓÃÊÇ<$OUTPUT(P9)>¡£\ \
+<Ç°Ò»²½/@main>
 }

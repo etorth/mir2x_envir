@@ -2,7 +2,7 @@
 
 [@Convert_StoneNpcbox1_0]
 {
-(好像有结界，有种碰它不行的感觉这到底是什么感觉呢?) \ \
+(�����н�磬�����������еĸо��⵽����ʲô�о���?) \ \
 
 
 
@@ -10,25 +10,25 @@
 
 [@Convert_StoneNpcbox1_1]
 {
-(好像有结界，等一会儿再试试吧。) \ \
+(�����н�磬��һ��������԰ɡ�) \ \
 
 }
 
 [@Convert_StoneNpcbox1_2]
 {
-(好像在我头中回荡的这个声音是...) \ \
+(��������ͷ�лص������������...) \ \
 }
 
 [@Convert_StoneNpcbox1_3]
 {
-还是先听祭祀长说什么吧... \ \
-<关  闭/@Exit>
+�����������볤˵ʲô��... \ \
+<��  ��/@Exit>
 
 }
 
 [@Convert_StoneNpcbox1_4]
 {
-这回进入影魅之刃的房间做你要做的吧...\ \
-<回村庄。/@StoneNpcbox1_Talk_5>
+��ؽ���Ӱ��֮�еķ�������Ҫ���İ�...\ \
+<�ش�ׯ��/@StoneNpcbox1_Talk_5>
 
 }

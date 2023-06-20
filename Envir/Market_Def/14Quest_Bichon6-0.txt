@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon6-0.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon6-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -203,15 +203,15 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon6-0.txt] @NPC_Main_0
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon6-0.txt] @NPC_Main_0
 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon6-0.txt] @NPC_Main_1
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon6-0.txt] @NPC_Main_1
 
 [@main_0_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon6-0.txt] @NPC_Main_2
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon6-0.txt] @NPC_Main_2
 
 
 [@NQuest01_3]
@@ -221,61 +221,61 @@ setopen [1] 1
 goto @NQuest01_3_1
 
 [@NQuest01_3_1]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HATU_START
+#CALL [\NQ_BASE\oma.txt] @HATU_START
 
 [@NQuest01_4]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_HATUBANG
+#CALL [\NQ_BASE\oma.txt] @SEARCH_HATUBANG
 
 [@NQuest01_5]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_HATUBANG1_KWAN
+#CALL [\NQ_BASE\oma.txt] @HELP_HATUBANG1_KWAN
 
 [@NQuest01_6]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_HATUBANG2_KWAN
+#CALL [\NQ_BASE\oma.txt] @HELP_HATUBANG2_KWAN
 
 [@NQuest01_7]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_HATUBANG3_KWAN
+#CALL [\NQ_BASE\oma.txt] @HELP_HATUBANG3_KWAN
 
 [@NQuest01_8]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON1_KWAN
+#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON1_KWAN
 
 [@NQuest01_8_1]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON2_KWAN
+#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON2_KWAN
 
 [@NQuest01_9]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON3_KWAN
+#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON3_KWAN
 
 [@NQuest01_10]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_HATUBANG4_KWAN
+#CALL [\NQ_BASE\oma.txt] @HELP_HATUBANG4_KWAN
 
 [@NQuest01_11]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @GO_UNBAL1_KWAN
+#CALL [\NQ_BASE\oma.txt] @GO_UNBAL1_KWAN
 
 [@NQuest01_12]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @GO_UNBAL2_KWAN
+#CALL [\NQ_BASE\oma.txt] @GO_UNBAL2_KWAN
 
 [@NQuest01_13]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HATU_COMPLETE
+#CALL [\NQ_BASE\oma.txt] @HATU_COMPLETE
 
 [@NQuest01_14]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @GO_UNBAL3_KWAN
+#CALL [\NQ_BASE\oma.txt] @GO_UNBAL3_KWAN
 
 [@NQuest01_15]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @GO_OMAYONG1_KWAN
+#CALL [\NQ_BASE\oma.txt] @GO_OMAYONG1_KWAN
 
 [@NQuest01_16]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @GO_OMAYONG2_KWAN
+#CALL [\NQ_BASE\oma.txt] @GO_OMAYONG2_KWAN
 
 [@NQuest01_17]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @OMAYONG_COMPLETE
+#CALL [\NQ_BASE\oma.txt] @OMAYONG_COMPLETE
 
 [@NQuest01_18]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @OMAYONG_COMPLETE1
+#CALL [\NQ_BASE\oma.txt] @OMAYONG_COMPLETE1
 
 [@NQuest01_20]
-#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_KWANRI_1
+#CALL [\NQ_BASE\younghon.txt] @ST_HON_KWANRI_1
 
 [@NQuest01_21]
-#CALL [QuestDiary/NQ_BASE/younghon.txt] @ST_HON_KWANRI_2
+#CALL [\NQ_BASE\younghon.txt] @ST_HON_KWANRI_2
 
 [@NQuest01_25]
 #IF
@@ -284,49 +284,49 @@ setopen [1] 1
 goto @NQuest01_25_1
 
 [@NQuest01_25_1]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_START
+#CALL [\NQ_BASE\tarak.txt] @TARAK_START
 
 [@NQuest01_26]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_HYUNJIN1
+#CALL [\NQ_BASE\tarak.txt] @GO_HYUNJIN1
 
 [@NQuest01_27]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_YOUNGYUL1
+#CALL [\NQ_BASE\tarak.txt] @GO_YOUNGYUL1
 
 [@NQuest01_28]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_YOUNGYUL2
+#CALL [\NQ_BASE\tarak.txt] @GO_YOUNGYUL2
 
 [@NQuest01_29]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_BICHUNPG1
+#CALL [\NQ_BASE\tarak.txt] @GO_BICHUNPG1
 
 [@NQuest01_30]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_BICHUNPG2
+#CALL [\NQ_BASE\tarak.txt] @GO_BICHUNPG2
 
 [@NQuest01_31]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_HYUNJIN2
+#CALL [\NQ_BASE\tarak.txt] @GO_HYUNJIN2
 
 [@NQuest01_32]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_HYUNJIN3
+#CALL [\NQ_BASE\tarak.txt] @GO_HYUNJIN3
 
 [@NQuest01_33]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @BICHUNPG_COMPLETE
+#CALL [\NQ_BASE\tarak.txt] @BICHUNPG_COMPLETE
 
 [@NQuest01_34]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_KWANRI1
+#CALL [\NQ_BASE\tarak.txt] @TARAK_KWANRI1
 
 [@NQuest01_35]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_KWANRI2
+#CALL [\NQ_BASE\tarak.txt] @TARAK_KWANRI2
 
 [@NQuest01_36]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_HYUNJIN4
+#CALL [\NQ_BASE\tarak.txt] @GO_HYUNJIN4
 
 [@NQuest01_37]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @GO_HYUNJIN5
+#CALL [\NQ_BASE\tarak.txt] @GO_HYUNJIN5
 
 [@NQuest01_38]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_KWANRI3
+#CALL [\NQ_BASE\tarak.txt] @TARAK_KWANRI3
 
 [@NQuest01_39]
-#CALL [QuestDiary/NQ_BASE/tarak.txt] @TARAK_COMPLETE
+#CALL [\NQ_BASE\tarak.txt] @TARAK_COMPLETE
 
 [@TQuest]
 #IF
@@ -336,7 +336,7 @@ goto @TQuest600_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon6-0.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon6-0.txt] @NPC_TQuest
 
 [@TQuest600_0]
 #IF
@@ -355,11 +355,11 @@ break
 goto @TQuest600_1
 
 [@TQuest600_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @600_START
+;;#CALL [\QT_TODAY\5thClass.txt] @600_START
 
 [@TQuest600_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @600_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @600_CHECK1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Quest_Bichon6-0.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\14Quest_Bichon6-0.txt] @NPC_TQuest_1

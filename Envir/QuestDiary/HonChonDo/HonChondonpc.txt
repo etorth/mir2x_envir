@@ -1,8 +1,8 @@
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––
 [@HonChondo_Questnpc]
 {
 #IF
-Checkitem ÊØÅÁÅ≠‰πãÂç∞ 1
+Checkitem ªŸ√÷Æ”° 1
 #ACT
 goto @HonChondo_Questnpc_1
 break
@@ -10,7 +10,7 @@ break
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_0
 
 [@HonChondo_Questnpc_1]
 #ACT
@@ -51,7 +51,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_1
 
 #ACT
 break
@@ -81,27 +81,27 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_2
 
 [@HonChondo_Questnpc_1_have_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_3
 
 [@HonChondo_Questnpc_1_have_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_4
 
 [@HonChondo_Questnpc_1_have_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_5
 
 [@HonChondo_Questnpc_1_have_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_6
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -113,55 +113,55 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_7
 
 [@HonChondo_Questnpc_1_nohave_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_8
 
 [@HonChondo_Questnpc_1_nohave_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_9
 
 [@HonChondo_Questnpc_1_nohave_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_10
 
 [@HonChondo_Questnpc_1_nohave_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_11
 
 [@HonChondo_Questnpc_1_nohave_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_12
 
 [@HonChondo_Questnpc_1_nohave_6]
 #IF
-Checkitem ÊØÅÁÅ≠‰πãÂç∞ 1
+Checkitem ªŸ√÷Æ”° 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_13
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_13
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_14
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_14
 
 [@HonChondo_Questnpc_1_nohave_7]
 #IF
-Checkitem ÊØÅÁÅ≠‰πãÂç∞ 1
+Checkitem ªŸ√÷Æ”° 1
 !Checkweaponlevel 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_15
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_15
 
 #ACT
-TAKE ÊØÅÁÅ≠‰πãÂç∞ 1
-Givew 1 ÂØÇÂπª‰πãÂàÉ
+TAKE ªŸ√÷Æ”° 1
+Givew 1 º≈ª√÷Æ»–
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=7"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
@@ -175,17 +175,17 @@ Eventmsg grobal %A7 2000
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_16
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_16
 
 [@HonChondo_Questnpc_1_End]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_17
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_17
 
 [@HonChondo_Questnpc_1_HaveEnd]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_18
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] @Convert_HonChondonpc_18
 
 [@HonChondo_Questnpc_1_HaveEnd1]
 #ACT
@@ -195,4 +195,4 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 mapting D16062 41 148 84
 }
-;;‰∏çË¶ÅÂà†ÊéâÊ≠§Ë°å
+;;≤ª“™…æµÙ¥À––

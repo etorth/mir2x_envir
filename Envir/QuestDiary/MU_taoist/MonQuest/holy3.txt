@@ -10,15 +10,15 @@ break
 #IF
 check [726] 1
 #SAY
-(ç°åœ¨ä¹Ÿæ²¡æœ‰è¿›å»çš„å¿…è¦äº†...)
+(ÏÖÔÚÒ²Ã»ÓĞ½øÈ¥µÄ±ØÒªÁË...)
 #ACT
 enter_fail
 break
 ;
 #IF
-checkmagic å›°é­”å’’
+checkmagic À§Ä§Öä
 #SAY
-(ç°åœ¨ä¹Ÿæ²¡æœ‰è¿›å»çš„å¿…è¦äº†...)
+(ÏÖÔÚÒ²Ã»ÓĞ½øÈ¥µÄ±ØÒªÁË...)
 #ACT
 enter_fail
 break
@@ -29,7 +29,7 @@ check [726] 0
 #ACT
 goto @MapQuest_holycircle_hcheck1_1
 #ELSESAY
-(ç°åœ¨å¥½åƒè¿›ä¸å»äº†...)
+(ÏÖÔÚºÃÏñ½ø²»È¥ÁË...)
 #ELSEACT
 enter_fail
 break
@@ -38,7 +38,7 @@ break
 #IF
 checkhum 1_015 1
 #SAY
-(å¥½åƒæœ‰è°åœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³...)
+(ºÃÏñÓĞË­ÔÚÀïÃæ£¿ÓĞÉùÒô...)
 #ACT
 enter_fail
 #ELSEACT
@@ -48,7 +48,7 @@ goto @MapQuest_holycircle_hcheck1_2
 #IF
 checkhum 1_016 1
 #SAY
-(å¥½åƒæœ‰è°åœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³...)
+(ºÃÏñÓĞË­ÔÚÀïÃæ£¿ÓĞÉùÒô...)
 #ACT
 enter_fail
 #ELSEACT
@@ -58,7 +58,7 @@ goto @MapQuest_holycircle_hcheck1_3
 #IF
 checkhum 1_017 1
 #SAY
-(å¥½åƒæœ‰è°åœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³...)
+(ºÃÏñÓĞË­ÔÚÀïÃæ£¿ÓĞÉùÒô...)
 #ACT
 enter_fail
 #ELSEACT
@@ -68,7 +68,7 @@ goto @MapQuest_holycircle_hcheck1_4
 #IF
 checkhum 1_018 1
 #SAY
-(å¥½åƒæœ‰è°åœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³...)
+(ºÃÏñÓĞË­ÔÚÀïÃæ£¿ÓĞÉùÒô...)
 #ACT
 enter_fail
 #ELSEACT
@@ -78,7 +78,7 @@ goto @MapQuest_holycircle_hcheck1_5
 #IF
 checkhum 1_019 1
 #SAY
-(å¥½åƒæœ‰è°åœ¨é‡Œé¢ï¼Ÿæœ‰å£°éŸ³...)
+(ºÃÏñÓĞË­ÔÚÀïÃæ£¿ÓĞÉùÒô...)
 #ACT
 enter_fail
 #ELSEACT
@@ -87,11 +87,11 @@ goto @MapQuest_holycircle_moveTo1_1
 
 [@MapQuest_holycircle_moveTo1_1]
 #IF
-checkitem ç¬¬ä¸€å›°é­”çŸ³  1
+checkitem µÚÒ»À§Ä§Ê¯  1
 ;;#SAY
-;;(ç°åœ¨è¿›å…¥çš„æ˜¯å›°é­”å’’é—´å—ï¼Ÿ..)\
+;;(ÏÖÔÚ½øÈëµÄÊÇÀ§Ä§Öä¼äÂğ£¿..)\
 #ACT
-take ç¬¬ä¸€å›°é­”çŸ³  1
+take µÚÒ»À§Ä§Ê¯  1
 ;
 Monclear 1_015
 Monclear 1_016
@@ -102,32 +102,32 @@ Monclear 1_019
 Param1 1_015
 Param2 20
 Param3 23
-MonGen å±±æ´è™è 61   5  5
-MonGen æš—é»‘æˆ˜å£«61    2  5
+MonGen É½¶´òùòğ61   5  5
+MonGen °µºÚÕ½Ê¿61    2  5
 ;
 Param1 1_016
 Param2 20
 Param3 23
-MonGen æ²ƒç›æˆ˜å£«61  3  5
-MonGen æ²ƒç›å‹‡å£«61  1  5
+MonGen ÎÖÂêÕ½Ê¿61  3  5
+MonGen ÎÖÂêÓÂÊ¿61  1  5
 ;
 Param1 1_017
 Param2 20
 Param3 23
-MonGen å±±æ´è™è 61  10  5
-MonGen æ²ƒç›æˆ˜å°†61  1  5
+MonGen É½¶´òùòğ61  10  5
+MonGen ÎÖÂêÕ½½«61  1  5
 ;
 Param1 1_018
 Param2 20
 Param3 23
-MonGen æ²ƒç›å‹‡å£«61  3  5
-MonGen ç«ç„°æ²ƒç›61  1  5
+MonGen ÎÖÂêÓÂÊ¿61  3  5
+MonGen »ğÑæÎÖÂê61  1  5
 ;
 Param1 1_019
 Param2 29
 Param3 29
-MonGen æ²ƒç›æˆ˜å°†61  3  5
-MonGen æ²ƒç›æŠ¤å«61  1  5
+MonGen ÎÖÂêÕ½½«61  3  5
+MonGen ÎÖÂê»¤ÎÀ61  1  5
 ;
 set [517] 1
 set [518] 0
@@ -138,4 +138,4 @@ enter_ok
 #ELSEACT
 enter_fail
 #ELSESAY
-(å¦‚æœæƒ³è¿›å…¥ç¬¬ä¸€ä¸ªå›°é­”å’’é—´çš„å…¥å£ï¼Œè¦æ‰¾åˆ°ç¬¬ä¸€å›°é­”çŸ³å“Ÿ...) \
+(Èç¹ûÏë½øÈëµÚÒ»¸öÀ§Ä§Öä¼äµÄÈë¿Ú£¬ÒªÕÒµ½µÚÒ»À§Ä§Ê¯Ó´...) \

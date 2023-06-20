@@ -1,3 +1,0 @@
-;;13Move_Bichon1-0.txt
-[@main]
-#CALL [teleport\BiChonTele.txt] @Bichon_Teleport_South

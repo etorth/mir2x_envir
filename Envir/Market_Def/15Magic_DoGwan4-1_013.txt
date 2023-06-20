@@ -16,4 +16,4 @@ goto @next1
 break
 
 [@next1]
-#CALL [QuestDiary/MU_taoist/soulSkel.txt] @mugong_recallskel_test_skel4
+#CALL [\MU_taoist\soulSkel.txt] @mugong_recallskel_test_skel4

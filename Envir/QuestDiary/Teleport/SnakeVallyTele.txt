@@ -4,14 +4,14 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_1
 
 #ELSEACT
-mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
+mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 break
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
 }
 
 ;-------------------------------------------------------------------------------
@@ -20,33 +20,33 @@ break
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_2
 
 #ELSEACT
-mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
+mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 break
 
 #IF
-!IsOnCastleWar Sabuk                                  ;; Í≥µÏÑ±ÌíÄ Ï§ëÏù¥ ÏïÑÎãêÎïå
+!IsOnCastleWar Sabuk                                  ;; ∞¯º∫«Æ ¡ﬂ¿Ã æ∆¥“∂ß
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_3
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_3
 
 #ACT
 break
 
 #IF
-!IsOnReadyCastleWar Sabuk                             ;; Í≥µÏÑ±Ï§ÄÎπÑÏ§ëÏù¥ ÏïÑÎãêÎñÑ
+!IsOnReadyCastleWar Sabuk                             ;; ∞¯º∫¡ÿ∫Ò¡ﬂ¿Ã æ∆¥“ãö
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_4
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_4
 
 #ACT
 break
 
 #IF
-#SAY                                                  ;; Í∑∏Ïô∏Ïùò Ï°∞Í±¥ÏùºÎñÑÎäî
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SnakeVallyTele.txt] @SnakeVallyTele_5
+#SAY                                                  ;; ±◊ø‹¿« ¡∂∞«¿œãö¥¬
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SnakeVallyTele.txt] @SnakeVallyTele_5
 
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
 }

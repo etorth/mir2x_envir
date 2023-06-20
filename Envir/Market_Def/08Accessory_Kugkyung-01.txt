@@ -27,7 +27,7 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -39,37 +39,37 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_Main
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-å¤é“œæˆ’æŒ‡        100        1
-é»‘è‰²æ°´æ™¶æˆ’æŒ‡    100        1
-éª·é«…æˆ’æŒ‡        100        1
-;;æ­¦å£«æ‰‹é•¯        100        1
-å°æ‰‹é•¯          100        1
-é»‘è‰²æ°´æ™¶é¡¹é“¾    100        1
-é­”é¬¼é¡¹é“¾        100        1
-;;é’»çŸ³é¡¹é“¾        100        1
-è“ç¿¡ç¿ é¡¹é“¾      100        1
+¹ÅÍ­½äÖ¸        100        1
+ºÚÉ«Ë®¾§½äÖ¸    100        1
+÷¼÷Ã½äÖ¸        100        1
+;;ÎäÊ¿ÊÖïí        100        1
+Ğ¡ÊÖïí          100        1
+ºÚÉ«Ë®¾§ÏîÁ´    100        1
+Ä§¹íÏîÁ´        100        1
+;;×êÊ¯ÏîÁ´        100        1
+À¶ôä´äÏîÁ´      100        1
 
 
 ;;------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ goto @TQuest574_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -107,11 +107,11 @@ goto @TQuest574_1
 ;--------------
 
 [@TQuest574_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @574_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @574_START
 
 ;--------------
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Kugkyung-01.txt] @NPC_TQuest_1
 
 ;--------------

@@ -1,8 +1,8 @@
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ
 [@NumaStone4_Talk]
 {
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk1
 break
@@ -26,7 +26,7 @@ mov D3 %ARG(3)
 #IF
 Equal D1 11
 Equal D2 0
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk2_7
 break
@@ -34,7 +34,7 @@ break
 #IF
 Equal D1 10
 Equal D2 10
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk2_5
 break
@@ -42,7 +42,7 @@ break
 #IF
 Equal D1 10
 Equal D2 9
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk2_3
 break
@@ -50,8 +50,8 @@ break
 #IF
 Equal D1 10
 Equal D2 8
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
-Checkitem æœºå…³é›¶ä»¶ 5
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitem »ú¹ØÁã¼ş 5
 #ACT
 goto @NumaStone4_Talk2_1
 break
@@ -60,7 +60,7 @@ break
 #IF
 Equal D1 10
 Equal D2 3
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk1_5
 break
@@ -69,7 +69,7 @@ break
 #IF
 Equal D1 10
 Equal D2 2
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk1_4
 break
@@ -77,7 +77,7 @@ break
 #IF
 Equal D1 10
 Equal D2 1
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk1_1
 break
@@ -85,7 +85,7 @@ break
 #IF
 Equal D1 9
 small D2 7
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 #ACT
 goto @NumaStone4_Talk0_1
 break
@@ -98,35 +98,35 @@ break
 [@NumaStone4_Talk0]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_0
 
 [@NumaStone4_Talk0_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_1
 
 [@NumaStone4_Talk1_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_2
 
 [@NumaStone4_Talk1_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_3
 
 [@NumaStone4_Talk1_3]
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
-Checkitem é’ç©ºçŸ³ 1
-Checkitem å¤§åœ°çŸ³ 1
-Checkitem å¤ªé˜³çŸ³ 1
-Checkitem æœˆå…‰çŸ³ 1
-Checkitem å—èƒçŸ³ 1
-Checkitem å®‰æ¯çŸ³ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitem Çà¿ÕÊ¯ 1
+Checkitem ´óµØÊ¯ 1
+Checkitem Ì«ÑôÊ¯ 1
+Checkitem ÔÂ¹âÊ¯ 1
+Checkitem ÊÜÌ¥Ê¯ 1
+Checkitem °²Ï¢Ê¯ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_4
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -136,12 +136,12 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_5
 
 [@NumaStone4_Talk1_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_6
 
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
@@ -150,73 +150,73 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=3"
 [@NumaStone4_Talk1_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_7
 
 [@NumaStone4_Talk2_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_8
 
 [@NumaStone4_Talk2_2]
 #IF
-checkitem æœºå…³é›¶ä»¶ 5
+checkitem »ú¹ØÁã¼ş 5
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_9
 
 #ACT
-take æœºå…³é›¶ä»¶ 5
+take »ú¹ØÁã¼ş 5
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=9"
 #ELSEACT
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_10
 
 [@NumaStone4_Talk2_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_11
 
 [@NumaStone4_Talk2_4]
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
-Checkitem é’ç©ºçŸ³ 1
-Checkitem å¤§åœ°çŸ³ 1
-Checkitem å¤ªé˜³çŸ³ 1
-Checkitem æœˆå…‰çŸ³ 1
-Checkitem å—èƒçŸ³ 1
-Checkitem å®‰æ¯çŸ³ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
+Checkitem Çà¿ÕÊ¯ 1
+Checkitem ´óµØÊ¯ 1
+Checkitem Ì«ÑôÊ¯ 1
+Checkitem ÔÂ¹âÊ¯ 1
+Checkitem ÊÜÌ¥Ê¯ 1
+Checkitem °²Ï¢Ê¯ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_12
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=10"
-take é’ç©ºçŸ³ 1
-take å¤§åœ°çŸ³ 1
-take å¤ªé˜³çŸ³ 1
-take æœˆå…‰çŸ³ 1
-take å—èƒçŸ³ 1
-take å®‰æ¯çŸ³ 1
+take Çà¿ÕÊ¯ 1
+take ´óµØÊ¯ 1
+take Ì«ÑôÊ¯ 1
+take ÔÂ¹âÊ¯ 1
+take ÊÜÌ¥Ê¯ 1
+take °²Ï¢Ê¯ 1
 #ELSEACT
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_13
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_13
 
 [@NumaStone4_Talk2_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_14
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_14
 
 [@NumaStone4_Talk2_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_15
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_15
 
 #ACT
 set [208] 1
@@ -229,7 +229,7 @@ Linemsg "Grobal" %A7
 [@NumaStone4_Talk2_7]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] @Convert_StoneNpc4_16
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] @Convert_StoneNpc4_16
 
 }
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ

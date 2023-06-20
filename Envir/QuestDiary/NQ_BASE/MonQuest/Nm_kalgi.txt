@@ -48,9 +48,9 @@ inc s2 1
 [@galkwui9]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_kalgi.txt] @Nm_kalgi_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_kalgi.txt] @Nm_kalgi_1
 
 #ACT
-give Ã–Ã±Â¹Ã· 1
+give Öñ¹÷ 1
 set [268] 1
 mov s2 0

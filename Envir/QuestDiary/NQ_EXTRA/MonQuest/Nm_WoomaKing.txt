@@ -27,7 +27,7 @@ goto @umgwang1
 [@umgwang1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MonQuest/Nm_WoomaKing.txt] @Nm_WoomaKing_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\MonQuest\Nm_WoomaKing.txt] @Nm_WoomaKing_1
 
 #ACT
 set [300] 1

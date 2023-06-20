@@ -1,15 +1,15 @@
 ;;holy2.txt
 [@MapQuest_holycircle_complete]
 #IF
-checkmagic Е⌡╟И╜■Е▓▓
+checkmagic ю╖д╖жД
 #SAY
-(И╕√Е┘┬Х╞∙Г²─Г╕╩Е╪─Х©≥Д╦╙Е°╟Ф√╧...)
+(йвохйтвеюК©╙уБ╦Ж╣ь╥╫...)
 #ACT
 break
 #IF
 check [726] 1
 #SAY
-(И╕√Е┘┬Х╞∙Г²─Г╕╩Е╪─Х©≥Д╦╙Е°╟Ф√╧...)
+(йвохйтвеюК©╙уБ╦Ж╣ь╥╫...)
 #ACT
 break
 #IF
@@ -18,7 +18,7 @@ check [522] 1
 goto @MapQuest_holycircle_complete_check1
 break
 #ELSESAY
-(Ф┬▒Ф─▌Д╧┬Д╪ Е°╗Х©≥И┤▄Е▒╒? И ╬И│⌠Ф┬▒Г └И╜┌Х╒╚Д╩─Д╧┬Е▀╬Д╫▐Д╨├? ) \
+(нртУц╢╩АтзуБюОдь? дя╣юнр╣д╩Й╠╩й╡ц╢╧╢в║ак? ) \
 #ELSEACT
 break
 
@@ -26,7 +26,7 @@ break
 #IF
 checkmonmap 1_019  1
 #SAY
-(Х©≥И┤▄Х©≤Ф╡║Ф°┴Е╫╩Е╨∙Е┤─Е▄√...)
+(уБюО╩╧ц╩спЁ╧╣в╬╩╩╞...)
 #ELSEACT
 goto @MapQuest_holycircle_complete_book
 
@@ -36,8 +36,8 @@ check [726] 0
 #ACT
 reset [517] 5
 SET [726] 1
-give Е⌡╟И╜■Е▓▓О╪┬Г╖≤Г╠█О╪┴ 1
-give И╩▒И≥╓И╜■Ф┬▓Ф▄┤  1
-give И┤▒Е╦│ 28000
+give ю╖д╖жДё╗ць╪╝ё╘ 1
+give ╨зЁЩд╖╫Дж╦  1
+give ╫П╠р 28000
 #SAY
-(Г╩┬Д╨▌Ф┴╬Е┬╟Д╨├Е⌡╟И╜■Е▓▓Г╖≤Г╠█...)\
+(жусзур╣╫акю╖д╖жДць╪╝...)\

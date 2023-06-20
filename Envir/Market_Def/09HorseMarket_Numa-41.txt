@@ -3,42 +3,42 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
 [@main_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_Main_0
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_Main_0
 
 [@BuyHorseGraw3]
 #IF
 checklevel 50
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw
 #ELSEACT
 break
 
 #IF
 checkgold 90000000
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw_NoMoney
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw_NoMoney
 #ELSEACT
 break
 
 #IF
 CheckHorse
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw_Fail
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw_Fail
 #ACT
 break
 
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_BuyHorseGraw_Complete
 #ELSEACT
-take 閲戝竵 90000000
-horsecall 榛戦┈
+take 金币 90000000
+horsecall 黑马
 
 
 [@SellHorse]
@@ -47,9 +47,9 @@ checkhorse 1
 !CheckRiding
 !CheckGold 1999749999
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_SellHorse
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_SellHorse
 #ACT
-give 閲戝竵 250000
+give 金币 250000
 KillHorse
 break
 
@@ -58,11 +58,11 @@ checkhorse 2
 !CheckRiding
 !CheckGold 1989999999
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_SellHorse
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_SellHorse
 #ACT
-give 閲戝竵 10000000
+give 金币 10000000
 KillHorse
 break
 
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/09HorseMarket_Numa-41.txt] @NPC_SellHorse_Fail
+	#INCLUDE [..\Convert_Def\Market_Def\09HorseMarket_Numa-41.txt] @NPC_SellHorse_Fail

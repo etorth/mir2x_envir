@@ -9,12 +9,12 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_root_1
 
-[@main_root_1]
+[@main_root_1]	
 #IF
 check [302] 1
 #ACT
@@ -64,7 +64,7 @@ check [183] 1
 #ACT
 goto @main_root_0_1
 break
-;
+;  
 #IF
 check [179] 1
 #ACT
@@ -141,15 +141,15 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Main_0_0
-
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_0_0
+ 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Main_0_1
-
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_0_1
+ 
 [@main_0_2]
 #IF
-checkitem ÃŽÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
+checkitem ÎÖÂê½ðÅÆ 1
 #ACT
 goto @main_0_2_1
 #ELSEACT
@@ -157,15 +157,15 @@ goto @main_0_0
 
 [@main_0_2_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Main_0_2
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_0_2
 
 [@main_0_3]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Main_0_3
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_0_3
 
 [@main_1_1]
 #IF
-checkitem ÃŽÃ–Ã‚ÃªÂ½Ã°Ã…Ã† 1
+checkitem ÎÖÂê½ðÅÆ 1
 #ACT
 goto @main_1_1_1
 #ELSEACT
@@ -173,22 +173,22 @@ goto @main_0_1
 
 [@main_1_1_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Main_1_1_1
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_1_1_1
 
 [@main_1_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Main_1_2
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Main_1_2
 
 [@Special_Repair()]
-#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
+#CALL [\Repair\TotalRepair.txt] @SRepairItem
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
@@ -203,7 +203,7 @@ goto @pre_repair_0
 [@pre_repair_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_Pre_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_Pre_Repair
 
 [@NQuest01]
 #IF
@@ -237,19 +237,19 @@ goto @NQuest02_1
 break
 
 [@NQuest01_1]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_HAMMER1
+#CALL [\NQ_BASE\oma.txt] @SEARCH_HAMMER1
 
 [@NQuest01_2]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_HAMMER2
+#CALL [\NQ_BASE\oma.txt] @SEARCH_HAMMER2
 
 [@NQuest01_3]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @GIVE_HAMMER
+#CALL [\NQ_BASE\oma.txt] @GIVE_HAMMER
 
 [@NQuest02_1]
-#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_KIM1
+#CALL [\NQ_EXTRA\umyun.txt] @UMKING_KIM1
 
 [@NQuest02_2]
-#CALL [QuestDiary/NQ_EXTRA/umyun.txt] @UMKING_KIM2
+#CALL [\NQ_EXTRA\umyun.txt] @UMKING_KIM2
 
 
 [@TQuest]
@@ -278,7 +278,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_TQuest
 
 [@TQuest480_0]
 #IF
@@ -297,10 +297,10 @@ break
 goto @TQuest480_1
 
 [@TQuest480_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @480_START
+#CALL [\QT_TODAY\4thClass.txt] @480_START
 
 [@TQuest480_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @480_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @480_CHECK1
 
 [@TQuest1_0]
 #IF
@@ -319,14 +319,14 @@ break
 goto @TQuest1_1
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @205_START
+#CALL [\QT_TODAY\2ndClass.txt] @205_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @205_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @205_CHECK1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_Wooma-1.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_Wooma-1.txt] @NPC_TQuest_1
 
 [@TQuest2_0]
 #IF
@@ -345,10 +345,10 @@ break
 goto @TQuest2_1
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @220_START
+#CALL [\QT_TODAY\2ndClass.txt] @220_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @220_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @220_CHECK1
 
 [@TQuest3_0]
 #IF
@@ -367,7 +367,7 @@ break
 goto @TQuest3_1
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @404_START
+#CALL [\QT_TODAY\4thClass.txt] @404_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @404_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @404_CHECK1

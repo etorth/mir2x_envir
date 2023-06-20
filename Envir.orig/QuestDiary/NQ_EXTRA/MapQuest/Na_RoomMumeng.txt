@@ -1,8 +1,0 @@
-;;Na_RoomMumeng.txt
-[@WoomaQuest]
-#IF
-check [276] 1
-#ACT
-enter_fail
-#ELSEACT
-enter_ok

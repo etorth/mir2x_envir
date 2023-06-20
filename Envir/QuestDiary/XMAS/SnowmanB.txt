@@ -2,6 +2,6 @@
 [@SnowsayB]
 {
 #SAY
-鍦ｈ癁蹇箰! Merry Christmas! 鎰夸綘杩囦竴涓揩涔愮殑鑺傛棩.....\ \
-<缁撴潫/@exit>
+圣诞快乐! Merry Christmas! 愿你过一个快乐的节日.....\ \
+<结束/@exit>
 }

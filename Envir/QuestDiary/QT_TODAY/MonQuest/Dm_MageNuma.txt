@@ -76,7 +76,7 @@ inc S0 1
 [@numa_T235_6]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T235_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T235_Say
 
 #ACT
 set [308] 1
@@ -114,12 +114,12 @@ break
 
 [@numabubro_T338_1]
 #IF
-checkitem è¯ºç›æ³•è€çç  4
+checkitem ÅµÂê·¨ÀÏÕäÖé 4
 #ACT
-give è¯ºç›æ³•è€çç  1
+give ÅµÂê·¨ÀÏÕäÖé 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T338_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T338_Say
 
 #ELSEACT
 goto @numabubro_T338_2
@@ -129,7 +129,7 @@ goto @numabubro_T338_2
 #IF
 random 3
 #ACT
-give è¯ºç›æ³•è€çç  1
+give ÅµÂê·¨ÀÏÕäÖé 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------

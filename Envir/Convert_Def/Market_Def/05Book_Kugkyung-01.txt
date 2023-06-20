@@ -1,59 +1,59 @@
 ;;05Book_Kugkyung-01.txt
 [@NPC_RedPlayer]
 {
-我不愿意和你这样的人进行交易。\ \
- <结束/@exit>
+�Ҳ�Ը������������˽��н��ס�\ \
+ <����/@exit>
 }
 
 [@NPC_Main]
 {
-欢迎光临\ \
-<购买/@buy>图书\
-<出售/@sell>图书\
-<询问/@questionprize>有关物品的事\
- <对今日的任务进行了解/@TQuest>\
- <结束/@exit>
+��ӭ����\ \
+<����/@buy>ͼ��\
+<����/@sell>ͼ��\
+<ѯ��/@questionprize>�й���Ʒ����\
+ <�Խ��յ���������˽�/@TQuest>\
+ <����/@exit>
 }
 
 [@NPC_Buy]
 {
-请挑选你想要的书。\ \
- <前一步/@main>
+����ѡ����Ҫ���顣\ \
+ <ǰһ��/@main>
 }
 
 [@NPC_Sell]
 {
-请把要出售的图书拿上来。\ \
- <前一步/@main>
+���Ҫ���۵�ͼ����������\ \
+ <ǰһ��/@main>
 }
 
 [@NPC_QuestionPrize]
 {
-你想听哪类书的介绍？\
-战士可以学习<基本剑术/@help_11>和<半月弯刀/@help_12>。\ \
-<前一步/@main>
+������������Ľ��ܣ�\
+սʿ����ѧϰ<��������/@help_11>��<�����䵶/@help_12>��\ \
+<ǰһ��/@main>
 }
 
 [@NPC_Help_11]
 {
-等级为7时可以修炼{FCOLOR/10}基本剑术{FCOLOR/12}的第一阶段， 等级为11时修炼第2阶段，16级时可以完成第3阶段的修炼。\ \
-<前一步/@helpbooks>
+�ȼ�Ϊ7ʱ��������{FCOLOR/10}��������{FCOLOR/12}�ĵ�һ�׶Σ� �ȼ�Ϊ11ʱ������2�׶Σ�16��ʱ������ɵ�3�׶ε�������\ \
+<ǰһ��/@helpbooks>
 }
 
 [@NPC_Help_12]
 {
-等级为14时可以修炼{FCOLOR/10}半月弯刀{FCOLOR/12}的第一阶段， 等级为16时修炼第2阶段，18级时可以完成第3阶段的修炼。\ \
-<前一步/@helpbooks>
+�ȼ�Ϊ14ʱ��������{FCOLOR/10}�����䵶{FCOLOR/12}�ĵ�һ�׶Σ� �ȼ�Ϊ16ʱ������2�׶Σ�18��ʱ������ɵ�3�׶ε�������\ \
+<ǰһ��/@helpbooks>
 }
 
 [@NPC_TQuest]
 {
-今天没事情可拜托你了。\ \
- <结束/@exit>
+����û����ɰ������ˡ�\ \
+ <����/@exit>
 }
 
 [@NPC_TQuest_1]
 {
-今天不再有事情拜托你来做了。\ \
- <结束/@exit>
+���첻������������������ˡ�\ \
+ <����/@exit>
 }

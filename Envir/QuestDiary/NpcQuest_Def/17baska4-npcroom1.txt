@@ -1,18 +1,18 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@NPCQuest_Check]
 {
 #ACT
 Mov D0 0
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska4-npcroom1.txt] @Convert_17baska4-npcroom1_0
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska4-npcroom1.txt] @Convert_17baska4-npcroom1_0
 
 #IF
 check [205] 1
 check [405] 0
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska4-npcroom1.txt] @Convert_17baska4-npcroom1_1
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska4-npcroom1.txt] @Convert_17baska4-npcroom1_1
 
 #ACT
 Mov D0 1
@@ -27,7 +27,7 @@ break
 [@NoQuest_Say]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17baska4-npcroom1.txt] @Convert_17baska4-npcroom1_2
+#INCLUDE [..\Convert_Def\QuestDiary\NpcQuest_Def\17baska4-npcroom1.txt] @Convert_17baska4-npcroom1_2
 
 [@baska4Quest_start1]
 #ACT
@@ -64,10 +64,10 @@ goto @NoQuest_Say
 break
 
 [@baska1Quest_start1_D]
-#CALL [QuestDiary/HonChondo/MadoNpcBaska.txt] @MadoTimeQuestBaska_D
+#CALL [HonChondo\MadoNpcBaska.txt] @MadoTimeQuestBaska_D
 
 
 [@baska1Quest_start1_DD]
-#CALL [QuestDiary/HonChondo/MadoNpcBaska.txt] @MadoTimeQuestsundaynpcD
+#CALL [HonChondo\MadoNpcBaska.txt] @MadoTimeQuestsundaynpcD
 }
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

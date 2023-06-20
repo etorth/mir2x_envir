@@ -10,33 +10,33 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Samak-5_003.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Samak-5_003.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Samak-5_003.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Samak-5_003.txt] @NPC_Main
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Samak-5_003.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Samak-5_003.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Samak-5_003.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Samak-5_003.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour
-é‡‘åˆ›è¯ï¼ˆä¸­ï¼‰  2000       1
-é­”æ³•è¯ï¼ˆä¸­ï¼‰  2000       1
-é‡‘åˆ›è¯ï¼ˆå¤§ï¼‰  2000       1
-é­”æ³•è¯ï¼ˆå¤§ï¼‰  2000       1
-é‡‘åˆ›è¯ï¼ˆç‰¹ï¼‰  2000       1
-é­”æ³•è¯ï¼ˆç‰¹ï¼‰  2000       1
-å¤ªé˜³æ°´        2000       1
-å¼ºæ•ˆå¤ªé˜³æ°´    2000       1
+½ğ´´Ò©£¨ÖĞ£©  2000       1
+Ä§·¨Ò©£¨ÖĞ£©  2000       1
+½ğ´´Ò©£¨´ó£©  2000       1
+Ä§·¨Ò©£¨´ó£©  2000       1
+½ğ´´Ò©£¨ÌØ£©  2000       1
+Ä§·¨Ò©£¨ÌØ£©  2000       1
+Ì«ÑôË®        2000       1
+Ç¿Ğ§Ì«ÑôË®    2000       1
 
 [@TQuest]
 #IF
@@ -58,7 +58,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Samak-5_003.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Samak-5_003.txt] @NPC_TQuest
 
 [@TQuest1_0]
 #IF
@@ -77,14 +77,14 @@ break
 goto @TQuest1_1
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @222_START
+#CALL [\QT_TODAY\2ndClass.txt] @222_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @222_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @222_CHECK1
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Samak-5_003.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Samak-5_003.txt] @NPC_TQuest_1
 
 [@TQuest2_0]
 #IF
@@ -103,10 +103,10 @@ break
 goto @TQuest2_1
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @317_START
+#CALL [\QT_TODAY\3rdClass.txt] @317_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @317_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @317_CHECK1
 
 [@TQuest3_0]
 #IF
@@ -125,7 +125,7 @@ break
 goto @TQuest3_1
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @332_START
+#CALL [\QT_TODAY\3rdClass.txt] @332_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @332_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @332_CHECK1

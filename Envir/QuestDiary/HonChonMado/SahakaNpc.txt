@@ -1,4 +1,4 @@
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ
 [@SahakaNpcNpc_Call]
 {
 #ACT
@@ -13,12 +13,12 @@ mov A9 %ARG(1)
 
 #IF
 Equal A9 ""
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
-checkitem å¤§æ—é•¿è§’ç¬› 1
-checkitem ä¸‡é‡Œç¢§æµ· 1
-checkitem ä¹å®«äº‘é›¾ 1
-checkitem è¡€èŠ±è½ç…§ 1
-checkitem é»‘å¤©æš—äº‘ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
+checkitem ´ó×å³¤½ÇµÑ 1
+checkitem ÍòÀï±Ìº£ 1
+checkitem ¾Å¹¬ÔÆÎí 1
+checkitem Ñª»¨ÂäÕÕ 1
+checkitem ºÚÌì°µÔÆ 1
 #ACT
 FormatStr "'%s',%s,%s," %USERNAME 1 0
 mov A8 %A9
@@ -32,26 +32,26 @@ goto @TalkSahakaNpc
 break
 
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 !Equal A9 ""
 #ACT
 goto @SahakaNpcNpc_Call_ok
 break
 
 #IF
-!Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+!Checkitemw ¼Å»ÃÖ®ÈĞ 1
 !Equal A9 ""
 #ACT
 goto @TalkSahakaNpc
 break
 
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
-!checkitem å¤§æ—é•¿è§’ç¬› 1
-!checkitem ä¸‡é‡Œç¢§æµ· 1
-!checkitem ä¹å®«äº‘é›¾ 1
-!checkitem è¡€èŠ±è½ç…§ 1
-!checkitem é»‘å¤©æš—äº‘ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
+!checkitem ´ó×å³¤½ÇµÑ 1
+!checkitem ÍòÀï±Ìº£ 1
+!checkitem ¾Å¹¬ÔÆÎí 1
+!checkitem Ñª»¨ÂäÕÕ 1
+!checkitem ºÚÌì°µÔÆ 1
 #ACT
 goto @SahakaNpcNpc_CallNormal
 break
@@ -75,14 +75,14 @@ mov D2 %ARG(2)
 mov D3 %ARG(3)
 
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 large D1 2
 #ACT
 goto @TalkSahakaNpc2_7
 break
 
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 Equal D1 2
 Equal D2 2
 #ACT
@@ -90,7 +90,7 @@ goto @TalkSahakaNpc2_6
 break
 
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 Equal D1 2
 Equal D2 1
 #ACT
@@ -99,7 +99,7 @@ break
 
 
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 Equal D1 2
 Equal D2 0
 #ACT
@@ -107,7 +107,7 @@ goto @TalkSahakaNpc2
 break
 
 #IF
-!Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+!Checkitemw ¼Å»ÃÖ®ÈĞ 1
 Equal D1 2
 Equal D2 0
 #ACT
@@ -115,7 +115,7 @@ goto @TalkSahakaNpc
 break
 
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 Equal D1 1
 Equal D2 0
 #ACT
@@ -123,7 +123,7 @@ goto @TalkSahakaNpc
 break
 
 #IF
-!Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+!Checkitemw ¼Å»ÃÖ®ÈĞ 1
 Equal D1 1
 Equal D2 0
 #ACT
@@ -138,30 +138,30 @@ break
 
 [@TalkSahakaNpc]
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_0
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_1
 
 [@SahakaNpcNpc_CallNormal]
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_2
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_3
 
 [@TalkSahakaNpc2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_4
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -172,27 +172,27 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
 [@TalkSahakaNpc2_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_5
 
 [@TalkSahakaNpc2_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_6
 
 [@TalkSahakaNpc2_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_7
 
 [@TalkSahakaNpc2_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_8
 
 [@TalkSahakaNpc2_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_9
 
 #ACT
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -202,18 +202,18 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
 [@TalkSahakaNpc2_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_10
 
 [@TalkSahakaNpc2_7]
 #IF
-Checkitemw å¯‚å¹»ä¹‹åˆƒ 1
+Checkitemw ¼Å»ÃÖ®ÈĞ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_11
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\SahakaNpc.txt] @Convert_SahakaNpc_12
 
 }
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ

@@ -77,11 +77,11 @@ inc s0 1
 [@Mungko_T480_5]
 #IF
 #ACT
-give Ã•Â¶Ã‚Ã­ÂµÂ¶ 1
+give Õ¶Âíµ¶ 1
 set [308] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T480_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T480_Say
 
 ;-----------------------------------------------------
 [@mungko_T545]
@@ -142,10 +142,10 @@ inc S0 1
 [@mungko_T545_5]
 #IF
 #ACT
-give Â¹Ã…ÃŠÂ«ÃƒÃ˜ÃŠÃ© 1
+give ¹ÅÊ«ÃØÊé 1
 set [308] 1
 mov S0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T545_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T545_Say
 
 ;-----------------------------------------------------

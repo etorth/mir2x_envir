@@ -22,15 +22,15 @@ goto @sujun1
 [@sujun1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_Sujun.txt] @Nm_Sujun_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_Sujun.txt] @Nm_Sujun_1
 
 #ACT
 set [245] 1
 set [244] 0
 set [243] 0
-give ä¸æ­»ç‰Œ 1
-give é‡‘å¸ 12000
-take æ¯ç­æŠ¤èº«ç¬¦ 1
+give ²»ËÀÅÆ 1
+give ½ğ±Ò 12000
+take »ÙÃğ»¤Éí·û 1
 ;
 mapmove d422 169 188
 ;

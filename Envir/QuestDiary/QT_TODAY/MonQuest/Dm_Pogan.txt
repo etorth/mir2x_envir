@@ -44,12 +44,12 @@ break
 
 [@pokanspider_T226_1]
 #IF
-checkitem å¹»å½±èœ˜è››çº¿ 29
+checkitem »ÃÓ°Ö©ÖëÏß 29
 #ACT
-give å¹»å½±èœ˜è››çº¿ 1
+give »ÃÓ°Ö©ÖëÏß 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T226_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T226_Say
 
 #ELSEACT
 goto @pokanspider_T226_2
@@ -58,6 +58,6 @@ goto @pokanspider_T226_2
 #IF
 random 3
 #ACT
-give å¹»å½±èœ˜è››çº¿ 1
+give »ÃÓ°Ö©ÖëÏß 1
 ;-----------------------------------------------------
 

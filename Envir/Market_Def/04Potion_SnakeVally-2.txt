@@ -16,8 +16,8 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-;#CALL [QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @BackLog_BG_M2
-#CALL [QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @BackLog_BG_M1
+;#CALL [\NQ_BASE\BackGround\SnakeVally.txt] @BackLog_BG_M2
+#CALL [\NQ_BASE\BackGround\SnakeVally.txt] @BackLog_BG_M1
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ goto @main_Call_BG
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root_1
 
@@ -96,52 +96,52 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_Main_0_0
 
 ;-----------------------------
 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_Main_0_1
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_Main_0_1
 
 ;-----------------------------
 
 [@main_0_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_Main_0_2
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_Main_0_2
 
 ;-----------------------------
 
 [@main_0_3]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_Main_0_3
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_Main_0_3
 
 ;-----------------------------
 
 [@main_0_4]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_Main_0_4
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_Main_0_4
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_buy
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour
-閲戝垱鑽紙灏忥級  2000       1
-榄旀硶鑽紙灏忥級  2000       1
-閲戝垱鑽紙涓級  2000       1
-榄旀硶鑽紙涓級  2000       1
-閲戝垱鑽紙澶э級  2000       1
-榄旀硶鑽紙澶э級  2000       1
-閲戝垱鑽紙鐗癸級  2000       1
-榄旀硶鑽紙鐗癸級  2000       1
+金创药（小）  2000       1
+魔法药（小）  2000       1
+金创药（中）  2000       1
+魔法药（中）  2000       1
+金创药（大）  2000       1
+魔法药（大）  2000       1
+金创药（特）  2000       1
+魔法药（特）  2000       1
 
 
 ;;------------------------------------------------------------------------------
@@ -150,16 +150,16 @@ goto @main_0_0
 ;;------------------------------------------------------------------------------
 
 [@NQuest01_1]
-#CALL [QuestDiary/NQ_BASE/yaksa.txt] @BUY_TOOTH
+#CALL [\NQ_BASE\yaksa.txt] @BUY_TOOTH
 
 [@NQuest01_2]
-#CALL [QuestDiary/NQ_BASE/yaksa.txt] @RETURN_BICHUN_TOOTH
+#CALL [\NQ_BASE\yaksa.txt] @RETURN_BICHUN_TOOTH
 
 [@NQuest02_1]
-#CALL [QuestDiary/NQ_BASE/bamgol.txt] @HELP_POISON
+#CALL [\NQ_BASE\bamgol.txt] @HELP_POISON
 
 [@NQuest02_2]
-#CALL [QuestDiary/NQ_BASE/bamgol.txt] @SEARCH_GALL
+#CALL [\NQ_BASE\bamgol.txt] @SEARCH_GALL
 
 
 ;;------------------------------------------------------------------------------
@@ -187,7 +187,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -210,10 +210,10 @@ goto @TQuest496_1
 ;--------------
 
 [@TQuest496_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @496_START
+#CALL [\QT_TODAY\4thClass.txt] @496_START
 
 [@TQuest496_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @496_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @496_CHECK1
 
 ;------------------------
 
@@ -236,10 +236,10 @@ goto @TQuest466_1
 ;--------------
 
 [@TQuest466_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @466_START
+#CALL [\QT_TODAY\4thClass.txt] @466_START
 
 [@TQuest466_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @466_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @466_CHECK1
 
 ;------------------------
 
@@ -262,15 +262,15 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @408_START
+#CALL [\QT_TODAY\4thClass.txt] @408_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @408_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @408_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_SnakeVally-2.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_SnakeVally-2.txt] @NPC_TQuest_1
 
 ;----------------------

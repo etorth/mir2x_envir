@@ -20,12 +20,12 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Sabuk-3.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Sabuk-3.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 ;;------------------------------------------------------------------------------
-;; Check In Battle -> Npc auto Dialog In Battle
+;; Check In Battle -> Npc auto Dialog In Battle 
 ;;------------------------------------------------------------------------------
 
 [@_Startup]
@@ -38,7 +38,7 @@ Delaygoto [Grobal] 20 @_Startup
 Delaygoto [Grobal] 60 @_Startup
 
 [@CastleWarOn]
-#CALL [QuestDiary/CastleWar/Speak.txt] @CastleWarSpeak
+#CALL [\CastleWar\Speak.txt] @CastleWarSpeak
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -49,68 +49,68 @@ Delaygoto [Grobal] 60 @_Startup
 #IF
 IsOnCastleWar SaBuk
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Sabuk-3.txt] @NPC_Main_0
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Sabuk-3.txt] @NPC_Main_0
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Sabuk-3.txt] @NPC_Main_1
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Sabuk-3.txt] @NPC_Main_1
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Sabuk-3.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Sabuk-3.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Sabuk-3.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Sabuk-3.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Sabuk-3.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Sabuk-3.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Sabuk-3.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Sabuk-3.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
 ;; bracelet
-é“æ‰‹é•¯        100        1
-å°æ‰‹é•¯        100        1
-é“¶æ‰‹é•¯        100        1
-é’¢æ‰‹é•¯        100        1
-å¤§æ‰‹é•¯        100        1
-;;æ­¦å£«æ‰‹é•¯      100        1
-å°æ‰‹é•¯        100        1
-é“å£«æ‰‹é•¯      100        1
-é»‘æª€æ‰‹é•¯      100        1
+ÌúÊÖïí        100        1
+Ğ¡ÊÖïí        100        1
+ÒøÊÖïí        100        1
+¸ÖÊÖïí        100        1
+´óÊÖïí        100        1
+;;ÎäÊ¿ÊÖïí      100        1
+Ğ¡ÊÖïí        100        1
+µÀÊ¿ÊÖïí      100        1
+ºÚÌ´ÊÖïí      100        1
 ;; necklace
-é‡‘é¡¹é“¾        100        1
-ä¼ ç»Ÿé¡¹é“¾      100        1
-ç¯ç¬¼é¡¹é“¾      100        1
-ç™½è‰²è™é½¿é¡¹é“¾  100        1
-é»‘è‰²æ°´æ™¶é¡¹é“¾  100        1
-é­”é¬¼é¡¹é“¾      100        1
-;;é’»çŸ³é¡¹é“¾      100        1
-è“ç¿¡ç¿ é¡¹é“¾    100        1
-é»„è‰²æ°´æ™¶é¡¹é“¾  100        1
-çœŸå–„é¡¹é“¾      100        1
-;;å‡¤å‡°æ˜ç       100        1
-é»‘æª€é¡¹é“¾      100        1
-;;ç™½é‡‘é¡¹é“¾      100        1
-ç¥ç€é¡¹é“¾      100        1
-;;äº”è‰²é¡¹é“¾      100        1
+½ğÏîÁ´        100        1
+´«Í³ÏîÁ´      100        1
+µÆÁıÏîÁ´      100        1
+°×É«»¢³İÏîÁ´  100        1
+ºÚÉ«Ë®¾§ÏîÁ´  100        1
+Ä§¹íÏîÁ´      100        1
+;;×êÊ¯ÏîÁ´      100        1
+À¶ôä´äÏîÁ´    100        1
+»ÆÉ«Ë®¾§ÏîÁ´  100        1
+ÕæÉÆÏîÁ´      100        1
+;;·ï»ËÃ÷Öé      100        1
+ºÚÌ´ÏîÁ´      100        1
+;;°×½ğÏîÁ´      100        1
+çúçêÏîÁ´      100        1
+;;ÎåÉ«ÏîÁ´      100        1
 ;; ring
-æŒ‡ç¯          100        1
-ç‰›è§’æˆ’æŒ‡      100        1
-è“è‰²æ°´æ™¶æˆ’æŒ‡  100        1
-å¤é“œæˆ’æŒ‡      100        1
-é»‘è‰²æ°´æ™¶æˆ’æŒ‡  100        1
-éª·é«…æˆ’æŒ‡      100        1
-æ°´æ™¶é­”æˆ’      100        1
-çç æˆ’æŒ‡      100        1
-å…­ç»æ˜Ÿç¯      100        1
-ç„é“æŒ‡ç¯      100        1
-è›‡çœ¼æˆ’æŒ‡      100        1
+Ö¸»·          100        1
+Å£½Ç½äÖ¸      100        1
+À¶É«Ë®¾§½äÖ¸  100        1
+¹ÅÍ­½äÖ¸      100        1
+ºÚÉ«Ë®¾§½äÖ¸  100        1
+÷¼÷Ã½äÖ¸      100        1
+Ë®¾§Ä§½ä      100        1
+ÕäÖé½äÖ¸      100        1
+Áù¾øĞÇ»·      100        1
+ĞşÌúÖ¸»·      100        1
+ÉßÑÛ½äÖ¸      100        1
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------

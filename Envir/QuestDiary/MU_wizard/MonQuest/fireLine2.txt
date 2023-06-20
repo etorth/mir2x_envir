@@ -26,7 +26,7 @@ set [521] 1
 Monclear 02_005
 goto @MapQuest_fireline_test_exit2
 #SAY
-(å˜¿ï¼Œç»ˆäºé€šè¿‡äº†å­¦ä¹ åœ°ç‹±ç«çš„æµ‹è¯•ã€‚)\
+(ºÙ£¬ÖÕÓÚÍ¨¹ıÁËÑ§Ï°µØÓü»ğµÄ²âÊÔ¡£)\
 
 [@MapQuest_fireline_test_exit2]
 #IF

@@ -3,9 +3,9 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/11RentMonster_Oasis-4.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\11RentMonster_Oasis-4.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 [@main_0_0]
-#CALL [QuestDiary/Taming/RentMob.txt] @Event_taming
+#CALL [\Taming\RentMob.txt] @Event_taming

@@ -18,7 +18,7 @@ goto @main_root
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04PotionMake_Samak-5.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\04PotionMake_Samak-5.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -30,15 +30,15 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04PotionMake_Samak-5.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\04PotionMake_Samak-5.txt] @NPC_Main
 
 ;----------------------------------------------------------
 
 [@Makeitem]
-#CALL [QuestDiary/Make_Item/Menu.txt] @make_item_main
+#CALL [\Make_Item\Menu.txt] @make_item_main
 
 [@HelpMakeitem]
-#CALL [QuestDiary/Make_Item/Menu.txt] @Help_makeitem_main
+#CALL [\Make_Item\Menu.txt] @Help_makeitem_main
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_Bichon11-0.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_Bichon11-0.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_root
 
@@ -29,18 +29,18 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_Bichon11-0.txt] @NPC_Main_0
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_Bichon11-0.txt] @NPC_Main_0
 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_Bichon11-0.txt] @NPC_Main_1
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_Bichon11-0.txt] @NPC_Main_1
 
 
 [@NQuest01_1]
-#CALL [QuestDiary/NQ_BASE/jema.txt] @JEMABOOK_SOBAKHWA_1
+#CALL [\NQ_BASE\jema.txt] @JEMABOOK_SOBAKHWA_1
 
 [@NQuest01_2]
-#CALL [QuestDiary/NQ_BASE/jema.txt] @JEMABOOK_SOBAKHWA_2
+#CALL [\NQ_BASE\jema.txt] @JEMABOOK_SOBAKHWA_2
 
 
 [@TQuest]
@@ -51,7 +51,7 @@ goto @TQuest492_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_Bichon11-0.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_Bichon11-0.txt] @NPC_TQuest
 
 [@TQuest492_0]
 #IF
@@ -70,8 +70,8 @@ break
 goto @TQuest492_1
 
 [@TQuest492_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @492_START
+#CALL [\QT_TODAY\4thClass.txt] @492_START
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_Bichon11-0.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_Bichon11-0.txt] @NPC_TQuest_1

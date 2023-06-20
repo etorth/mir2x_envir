@@ -13,4 +13,4 @@ break
 #ELSEACT
 enter_fail
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_JiSun.txt] @Na_JiSun_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MapQuest\Na_JiSun.txt] @Na_JiSun_1

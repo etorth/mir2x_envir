@@ -7,11 +7,11 @@ SetGMEPoint    10000
 SetGMEPlayTime  30
 SetGMEPauseTime 10
 SetGMELimitUser 100
-SetEventDamage  E602  3        ;3ç¡… å•å›ºç˜¤
+SetEventDamage  E602  3        ;3¹è µ¥¹ÌÁö
 StartNewGME
 #SAY
-æ‰€æœ‰è¡Œä¼šçš„åˆ†æ•°å·³åˆæœŸåŒ–.\
-æ–°å¼€å§‹è¡Œä¼šå¤§æˆ˜.\
+ËùÓĞĞĞ»áµÄ·ÖÊıËÈ³õÆÚ»¯.\
+ĞÂ¿ªÊ¼ĞĞ»á´óÕ½.\
 }
 
 [@continueGuildMatch]
@@ -22,10 +22,10 @@ SetGMEPoint    10000
 SetGMEPlayTime  30
 SetGMEPauseTime 10
 SetGMELimitUser 100
-SetEventDamage  E602  3        ;3ç¡… å•å›ºç˜¤
+SetEventDamage  E602  3        ;3¹è µ¥¹ÌÁö
 ContinueGME
 #SAY
-ç»§ç»­å¼€å§‹è¡Œä¼šå¤§æˆ˜.\
+¼ÌĞø¿ªÊ¼ĞĞ»á´óÕ½.\
 }
 
 [@startNewGuildMatch_TIME]
@@ -36,9 +36,9 @@ SetGMETime      60
 SetGMEPlayTime  60
 SetGMEPauseTime 10
 SetGMELimitUser 100
-SetEventDamage  E602  2.5   ;2.5ç¡… å•å›ºç˜¤
+SetEventDamage  E602  2.5   ;2.5¹è µ¥¹ÌÁö
 StartNewGME
 #SAY
-æ‰€æœ‰è¡Œä¼šçš„åˆ†æ•°å·³åˆæœŸåŒ–.\
-æ–°å¼€å§‹è¡Œä¼šå¤§æˆ˜.\
+ËùÓĞĞĞ»áµÄ·ÖÊıËÈ³õÆÚ»¯.\
+ĞÂ¿ªÊ¼ĞĞ»á´óÕ½.\
 }

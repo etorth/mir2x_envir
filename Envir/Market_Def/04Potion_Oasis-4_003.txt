@@ -14,7 +14,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Oasis-4_003.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Oasis-4_003.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -26,27 +26,27 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Oasis-4_003.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Oasis-4_003.txt] @NPC_Main
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Oasis-4_003.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Oasis-4_003.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Oasis-4_003.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Oasis-4_003.txt] @NPC_Sell
 
 [Goods]
 ;ItemName      Volume     Hour
-ÈáëÂàõËçØÔºà‰∏≠Ôºâ  2000       1
-È≠îÊ≥ïËçØÔºà‰∏≠Ôºâ  2000       1
-ÈáëÂàõËçØÔºàÂ§ßÔºâ  2000       1
-È≠îÊ≥ïËçØÔºàÂ§ßÔºâ  2000       1
-ÈáëÂàõËçØÔºàÁâπÔºâ  2000       1
-È≠îÊ≥ïËçØÔºàÁâπÔºâ  2000       1
-Â§™Èò≥Ê∞¥        2000       1
+Ω¥¥“©£®÷–£©  2000       1
+ƒß∑®“©£®÷–£©  2000       1
+Ω¥¥“©£®¥Û£©  2000       1
+ƒß∑®“©£®¥Û£©  2000       1
+Ω¥¥“©£®Ãÿ£©  2000       1
+ƒß∑®“©£®Ãÿ£©  2000       1
+Ã´—ÙÀÆ        2000       1
 
 
 ;;------------------------------------------------------------------------------
@@ -91,7 +91,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Oasis-4_003.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Oasis-4_003.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -114,16 +114,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @226_START
+#CALL [\QT_TODAY\2ndClass.txt] @226_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @226_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @226_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/04Potion_Oasis-4_003.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\04Potion_Oasis-4_003.txt] @NPC_TQuest_1
 
 ;------------------------
 
@@ -146,10 +146,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @336_START
+#CALL [\QT_TODAY\3rdClass.txt] @336_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @336_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @336_CHECK1
 
 ;------------------------
 
@@ -172,10 +172,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @419_START
+#CALL [\QT_TODAY\4thClass.txt] @419_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @419_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @419_CHECK1
 
 ;------------------------
 
@@ -198,10 +198,10 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @549_START
+;;#CALL [\QT_TODAY\5thClass.txt] @549_START
 
 [@TQuest4_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @549_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @549_CHECK1
 
 ;------------------------
 
@@ -224,9 +224,9 @@ goto @TQuest5_1
 ;--------------
 
 [@TQuest5_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @550_START
+;;#CALL [\QT_TODAY\5thClass.txt] @550_START
 
 [@TQuest5_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @550_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @550_CHECK1
 
 ;------------------------

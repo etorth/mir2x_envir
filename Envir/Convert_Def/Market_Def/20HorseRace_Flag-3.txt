@@ -1,5 +1,5 @@
 ;;20HorseRace_Flag-3.txt
 [@NPC_Main]
 {
-ÐºÐ’Ð¾â”€.
+ÆìÖÄ.
 }

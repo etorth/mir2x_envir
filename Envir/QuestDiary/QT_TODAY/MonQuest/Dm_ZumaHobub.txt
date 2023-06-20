@@ -84,11 +84,11 @@ inc S0 1
 [@jumasinjang_T231_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T231_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T231_Say
 
 #ACT
 set [308] 1
-give ÂºÃ¬Â¶ÄŸÂ±Â¦Ã“Ã± 1
+give ºì¶ğ±¦Óñ 1
 mov S0 0
 ;              ??? ?? ???
 ;-----------------------------------------------------
@@ -125,12 +125,12 @@ break
 
 [@jumahobub_T228_1]
 #IF
-checkitem Ã—Ã¦Ã‚ÃªÃÃ€ÃŠÂ¿ÂµÃ±ÃÃ± 19
+checkitem ×æÂêÎÀÊ¿µñÏñ 19
 #ACT
-give Ã—Ã¦Ã‚ÃªÃÃ€ÃŠÂ¿ÂµÃ±ÃÃ± 1
+give ×æÂêÎÀÊ¿µñÏñ 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T228_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T228_Say
 
 #ELSEACT
 goto @jumahobub_T228_1_1
@@ -139,7 +139,7 @@ goto @jumahobub_T228_1_1
 #IF
 random 3
 #ACT
-give Ã—Ã¦Ã‚ÃªÃÃ€ÃŠÂ¿ÂµÃ±ÃÃ± 1
+give ×æÂêÎÀÊ¿µñÏñ 1
 ;-----------------------------------------------------
 
 
@@ -174,12 +174,12 @@ break
 
 [@jumahobub_T117_1]
 #IF
-checkitem Ã—Ã¦Ã‚ÃªÃÃ€ÃŠÂ¿ÂµÃ±ÃÃ± 299
+checkitem ×æÂêÎÀÊ¿µñÏñ 299
 #ACT
-give Ã—Ã¦Ã‚ÃªÃÃ€ÃŠÂ¿ÂµÃ±ÃÃ± 1
+give ×æÂêÎÀÊ¿µñÏñ 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T117_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T117_Say
 
 #ELSEACT
 goto @jumahobub_T117_1_1
@@ -188,4 +188,4 @@ goto @jumahobub_T117_1_1
 #IF
 random 3
 #ACT
-give Ã—Ã¦Ã‚ÃªÃÃ€ÃŠÂ¿ÂµÃ±ÃÃ± 1
+give ×æÂêÎÀÊ¿µñÏñ 1

@@ -11,10 +11,10 @@ Delaygoto [Grobal] %P0 @Event_Start
 loadValue P1 "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [start]
 #IF
 Equal P1 0
-#ACT
-;;-------------------------Ã€ÃŒÂºÂ¥Ã†Â®Â¸ÃŠÃ€Ã‡ Â¿Â£Ã‡Ã‡Â¾Â¾Â¼Ã»Â±Ã¢Â±Ã¢,Â¸ÃŠÂ¼Ã“Â¼ÂºÂ¼Ã‚Ã†Ãƒ
-SendCmd  "snow, 39, 29, 3"  Â´Â«Ã†Ã¦Â¶Ã“Â·Â¢Â½Â±NPC Hide
-SendCmd  "snow, 22, 29, 3"  Â´Â«Ã‹ÂµÂ¶Ã“Â·Â¢Â½Â±NPC Hide
+#ACT 
+;;-------------------------ÀÌº¥Æ®¸ÊÀÇ ¿£ÇÇ¾¾¼û±â±â,¸Ê¼Ó¼º¼ÂÆÃ
+SendCmd  "snow, 39, 29, 3"  ´«Ææ¶Ó·¢½±NPC Hide
+SendCmd  "snow, 22, 29, 3"  ´«Ëµ¶Ó·¢½±NPC Hide
 ResetMapAttr "snow"
 Monclear snow
 Mapting snow 0 435 377
@@ -28,13 +28,13 @@ DelayGoto [Grobal] 3 @Event_wait
 break
 
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Start
+	#INCLUDE [..\Convert_Def\Market_Def\19SB_GM-z010.txt] @NPC_Event_Start
 
 #ELSEACT
 Break
 
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Fail
+	#INCLUDE [..\Convert_Def\Market_Def\19SB_GM-z010.txt] @NPC_Event_Fail
 
 [@Event_wait]
 #IF
@@ -45,7 +45,7 @@ Delaygoto [Grobal] 3 @Event_Wait1_1
 
 [@Event_Wait1_1]
 #ACT
-;;-------------------------Ã†Ã€ÂºÃÂ¸Â® ÂºÂ¯Â¼Ã¶Ã€Ã‡ ÃƒÃŠÂ±Ã¢ÃˆÂ­ ÂºÃÂºÃ
+;;-------------------------ÆÀºĞ¸® º¯¼öÀÇ ÃÊ±âÈ­ ºÎºĞ
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [mir] 0
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [legend] 0
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [check] 50
@@ -53,7 +53,7 @@ DelayGoto [Grobal] 3 @Event_wait1
 
 [@Event_wait1]
 #ACT
-;;-------------------------Ã€ÃŒÂ±Ã¤Ã†Ã€ ÃƒÂ¼Ã…Â©ÂºÂ¯Â¼Ã¶Â¹Ã— Â½ÂºÃ„ÃšÂ¾Ã® Ã‡ÃƒÂ·Â¡Â±Ã—Ã€Ã‡ ÃƒÃŠÂ±Ã¢ÃˆÂ­
+;;-------------------------ÀÌ±äÆÀ Ã¼Å©º¯¼ö¹× ½ºÄÚ¾î ÇÃ·¡±×ÀÇ ÃÊ±âÈ­
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [wincheck] [Mirwin] 0
 SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [wincheck] [Legendwin] 0
 
@@ -69,7 +69,7 @@ loadValue P1 "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [start]
 #IF
 Equal P1 0
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Fail_1
+	#INCLUDE [..\Convert_Def\Market_Def\19SB_GM-z010.txt] @NPC_Event_Fail_1
 
 #ACT
 break
@@ -78,7 +78,7 @@ break
 Goto @Event_wait3
 
 [@Event_wait3]
-#CALL [QuestDiary/Event/SnowBattle/SnowBattle.txt] @SBMain
+#CALL [\\Event\SnowBattle\SnowBattle.txt] @SBMain
 
 goto @main_Control
 }

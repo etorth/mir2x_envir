@@ -72,7 +72,7 @@ inc S0 1
 [@chungjinge_T208_5]
 #IF
 #SAY
-（抓到30只青铜钳虫。） \
+��ץ��30ֻ��ͭǯ�档�� \
 #ACT
 set [308] 1
 mov S0 0

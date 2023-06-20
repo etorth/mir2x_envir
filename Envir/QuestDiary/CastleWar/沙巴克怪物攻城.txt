@@ -1,98 +1,98 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-[@æ²™åŸæ´»åŠ¨]
+[@É³³Ç»î¶¯]
 #IF
 IsAdmin
-#ACT
-LoadValue N4 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ”»åŸ] [æ”»åŸ]
+#ACT 
+LoadValue N4 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎï¹¥³Ç] [¹¥³Ç]
 goto @shagongx
 
 [@shagongx]
 #IF
 equal N4 1
 #SAY
-è¿™ä¸€æ‰¹çš„æ€ªç‰©æ”»åŸè¿˜æ²¡ç»“æŸï¼è¯·æ¢¢åç”³è¯·ã€‚\
-<ç¦»å¼€/@exit>
+ÕâÒ»ÅúµÄ¹ÖÎï¹¥³Ç»¹Ã»½áÊø£¡ÇëÉÒºóÉêÇë¡£\
+<Àë¿ª/@exit>  
 #ELSESAY
-æ‚¨ç°åœ¨æƒ³åœ¨æ²™å·´å…‹å‘èµ·æ€ªç‰©æ”»åŸå—ï¼Ÿ\
-<è¿›è¡Œæ€ªç‰©æ”»åŸçš„/@shidkais232>\
+ÄúÏÖÔÚÏëÔÚÉ³°Í¿Ë·¢Æğ¹ÖÎï¹¥³ÇÂğ£¿\
+<½øĞĞ¹ÖÎï¹¥³ÇµÄ/@shidkais232>\
 
 
 
 
 [@shidkais232]
 #IF
-IsAdmin
+IsAdmin 
 #ACT
-Delaygoto [local] 4 @è¿›è¡Œæ”»åŸ3
+Delaygoto [local] 4 @½øĞĞ¹¥³Ç3
 #SAY
-ç³»ç»Ÿæ­£åœ¨å¤„ç†ã€‚ã€‚\
+ÏµÍ³ÕıÔÚ´¦Àí¡£¡£\
 
-[@è¿›è¡Œæ”»åŸ3]
+[@½øĞĞ¹¥³Ç3]
 #IF
-IsAdmin
+IsAdmin 
 #SAY
-æ²™å·´å…‹æ€ªç‰©æ”»åŸå¼€å§‹äº†ã€‚ã€‚\
-<ç¦»å¼€/@exit>
-#ACT
-SaveValue "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ”»åŸ] [æ”»åŸ] 1
-lineMsg [Grobal] "(*)æ³¨æ„ï¼šæ²™å·´å…‹æ€ªç‰©æ”»åŸå³å°†å¼€å§‹ï¼Œ10åˆ†é’Ÿåæ€ªç‰©å°†å¯¹æ²™å·´å…‹åŸå‘èµ·æ”»å‡»ï¼ï¼ï¼"
-Eventmsg Grobal "(*)æ³¨æ„ï¼šæ²™å·´å…‹æ€ªç‰©æ”»åŸå³å°†å¼€å§‹ï¼Œ10åˆ†é’Ÿåæ€ªç‰©å°†å¯¹æ²™å·´å…‹åŸå‘èµ·æ”»å‡»ï¼ï¼ï¼" 10004
-Delaygoto [Grobal] 30 @speak11
-break
+É³°Í¿Ë¹ÖÎï¹¥³Ç¿ªÊ¼ÁË¡£¡£\
+<Àë¿ª/@exit>
+#ACT 
+SaveValue "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎï¹¥³Ç] [¹¥³Ç] 1
+lineMsg [Grobal] "(*)×¢Òâ£ºÉ³°Í¿Ë¹ÖÎï¹¥³Ç¼´½«¿ªÊ¼£¬10·ÖÖÓºó¹ÖÎï½«¶ÔÉ³°Í¿Ë³Ç·¢Æğ¹¥»÷£¡£¡£¡" 
+Eventmsg Grobal "(*)×¢Òâ£ºÉ³°Í¿Ë¹ÖÎï¹¥³Ç¼´½«¿ªÊ¼£¬10·ÖÖÓºó¹ÖÎï½«¶ÔÉ³°Í¿Ë³Ç·¢Æğ¹¥»÷£¡£¡£¡" 10004 
+Delaygoto [Grobal] 30 @speak11 
+break 
 
-[@speak11]
-#ACT
-Eventmsg Grobal "å¿—æ„¿åŠ å…¥æ²™å·´å…‹æŠ¤åŸçš„å‹‡å£«ä»¬è¿˜ä¸å¿«èµ¶å›æ¥ï¼Œæ¥æ™šäº†******ï¼ï¼ï¼" 10004
-lineMsg [Grobal] "å¿—æ„¿åŠ å…¥æ²™å·´å…‹æŠ¤åŸçš„å‹‡å£«ä»¬è¿˜ä¸å¿«èµ¶å›æ¥ï¼Œæ¥æ™šäº†******ï¼ï¼ï¼"
-Delaygoto [Grobal] 30 @speak21
+[@speak11] 
+#ACT 
+Eventmsg Grobal "Ö¾Ô¸¼ÓÈëÉ³°Í¿Ë»¤³ÇµÄÓÂÊ¿ÃÇ»¹²»¿ì¸Ï»ØÀ´£¬À´ÍíÁË******£¡£¡£¡" 10004 
+lineMsg [Grobal] "Ö¾Ô¸¼ÓÈëÉ³°Í¿Ë»¤³ÇµÄÓÂÊ¿ÃÇ»¹²»¿ì¸Ï»ØÀ´£¬À´ÍíÁË******£¡£¡£¡"
+Delaygoto [Grobal] 30 @speak21 
 
-[@speak21]
-#ACT
-Eventmsg Grobal "æ®æ¢å­æ¶ˆæ¯ï¼Œè¿™æ¬¡æ€ªç‰©æ€»å…±æ¥äº†ä¸‰æ‰¹ï¼Œä»–ä»¬å°†åˆ†ä¸‰æ¬¡è¿›æ”»ï¼ï¼ï¼" 10004
-lineMsg [Grobal] "æ®æ¢å­æ¶ˆæ¯ï¼Œè¿™æ¬¡æ€ªç‰©æ€»å…±æ¥äº†ä¸‰æ‰¹ï¼Œä»–ä»¬å°†åˆ†ä¸‰æ¬¡è¿›æ”»ï¼ï¼ï¼"
-Delaygoto [Grobal] 120 @speak31
+[@speak21] 
+#ACT 
+Eventmsg Grobal "¾İÌ½×ÓÏûÏ¢£¬Õâ´Î¹ÖÎï×Ü¹²À´ÁËÈıÅú£¬ËûÃÇ½«·ÖÈı´Î½ø¹¥£¡£¡£¡" 10004 
+lineMsg [Grobal] "¾İÌ½×ÓÏûÏ¢£¬Õâ´Î¹ÖÎï×Ü¹²À´ÁËÈıÅú£¬ËûÃÇ½«·ÖÈı´Î½ø¹¥£¡£¡£¡"
+Delaygoto [Grobal] 120 @speak31 
 
-[@speak31]
-#ACT
-Eventmsg Grobal "è¿‡å»3åˆ†é’Ÿäº†ï¼Œå‹‡å£«æ¥äº†å¤šå°‘äº†ï¼ï¼ï¼" 10004
-lineMsg [Grobal] "è¿‡å»3åˆ†é’Ÿäº†ï¼Œå‹‡å£«æ¥äº†å¤šå°‘äº†ï¼ï¼ï¼"
-Delaygoto [Grobal] 120 @speak41
+[@speak31] 
+#ACT 
+Eventmsg Grobal "¹ıÈ¥3·ÖÖÓÁË£¬ÓÂÊ¿À´ÁË¶àÉÙÁË£¡£¡£¡" 10004 
+lineMsg [Grobal] "¹ıÈ¥3·ÖÖÓÁË£¬ÓÂÊ¿À´ÁË¶àÉÙÁË£¡£¡£¡"
+Delaygoto [Grobal] 120 @speak41 
 
-[@speak41]
-#ACT
-Eventmsg Grobal "è¿‡å»5åˆ†é’Ÿäº†ï¼Œå‹‡å£«ä»¬æŠ“ç´§å¸ƒç½®é˜²å¾¡å·¥äº‹å•Šï¼ï¼ï¼" 10004
-lineMsg [Grobal]   "è¿‡å»5åˆ†é’Ÿäº†ï¼Œå‹‡å£«ä»¬æŠ“ç´§å¸ƒç½®é˜²å¾¡å·¥äº‹å•Šï¼ï¼ï¼"
-Delaygoto [Grobal] 180 @speak51
+[@speak41] 
+#ACT 
+Eventmsg Grobal "¹ıÈ¥5·ÖÖÓÁË£¬ÓÂÊ¿ÃÇ×¥½ô²¼ÖÃ·ÀÓù¹¤ÊÂ°¡£¡£¡£¡" 10004 
+lineMsg [Grobal]   "¹ıÈ¥5·ÖÖÓÁË£¬ÓÂÊ¿ÃÇ×¥½ô²¼ÖÃ·ÀÓù¹¤ÊÂ°¡£¡£¡£¡"
+Delaygoto [Grobal] 180 @speak51 
 
-[@speak51]
-#ACT
-Eventmsg Grobal "å†è¿‡2åˆ†é’Ÿäº†ï¼Œæ€ªç‰©å°±åˆ°æ²™å·´å…‹äº†ï¼Œå¤§å®¶å„å°±å„ä½ï¼ï¼ï¼" 10004
-lineMsg [Grobal]   "å†è¿‡2åˆ†é’Ÿäº†ï¼Œæ€ªç‰©å°±åˆ°æ²™å·´å…‹äº†ï¼Œå¤§å®¶å„å°±å„ä½ï¼ï¼ï¼"
-Delaygoto [Grobal] 120 @Next11
+[@speak51] 
+#ACT 
+Eventmsg Grobal "ÔÙ¹ı2·ÖÖÓÁË£¬¹ÖÎï¾Íµ½É³°Í¿ËÁË£¬´ó¼Ò¸÷¾Í¸÷Î»£¡£¡£¡" 10004 
+lineMsg [Grobal]   "ÔÙ¹ı2·ÖÖÓÁË£¬¹ÖÎï¾Íµ½É³°Í¿ËÁË£¬´ó¼Ò¸÷¾Í¸÷Î»£¡£¡£¡"
+Delaygoto [Grobal] 120 @Next11 
 
-[@Next11]
-#ACT
-LoadValue B0 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a1]
-LoadValue B1 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a2]
-LoadValue B2 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a3]
-LoadValue B3 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a4]
-LoadValue B4 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a5]
-LoadValue B5 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a6]
-LoadValue B6 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a7]
-LoadValue B7 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a8]
-LoadValue B8 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©a9]
+[@Next11] 
+#ACT 
+LoadValue B0 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa1]
+LoadValue B1 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa2]
+LoadValue B2 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa3]
+LoadValue B3 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa4]
+LoadValue B4 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa5]
+LoadValue B5 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa6]
+LoadValue B6 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa7]
+LoadValue B7 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa8]
+LoadValue B8 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïa9]
 
-LoadValue P0 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a1]
-LoadValue P1 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a2]
-LoadValue P2 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a3]
-LoadValue P3 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a4]
-LoadValue P4 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a5]
-LoadValue P5 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a6]
-LoadValue P6 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a7]
-LoadValue P7 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a8]
-LoadValue P8 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a9]
+LoadValue P0 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a1]
+LoadValue P1 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a2]
+LoadValue P2 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a3]
+LoadValue P3 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a4]
+LoadValue P4 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a5]
+LoadValue P5 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a6]
+LoadValue P6 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a7]
+LoadValue P7 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a8]
+LoadValue P8 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a9]
 
-LoadValue B9 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [é›†ä¸­åœ°] [åœ°ç‚¹]
+LoadValue B9 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¼¯ÖĞµØ] [µØµã]
 
 
 MongenP "3,230,130,20" %B0 %P0
@@ -114,9 +114,9 @@ MongenP "3,230,130,20" %B8 %P8
 	ApplyMonMission "3,230,130,120" "%B6" "%B9"
 	ApplyMonMission "3,230,130,120" "%B7" "%B9"
 	ApplyMonMission "3,230,130,120" "%B8" "%B9"
-Eventmsg Grobal "ç¬¬ä¸€æ³¢æ”»åŸæ€ªç‰©å‘æ²™å·´å…‹å‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶å°å¿ƒåº”ä»˜ï¼ï¼ï¼" 10004
-lineMsg [Grobal]   "ç¬¬ä¸€æ³¢æ”»åŸæ€ªç‰©å‘æ²™å·´å…‹å‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶å°å¿ƒåº”ä»˜ï¼ï¼ï¼"
-Delaygoto [Grobal] 300 @Next21
+Eventmsg Grobal "µÚÒ»²¨¹¥³Ç¹ÖÎïÏòÉ³°Í¿Ë·¢ÆğÁË¹¥»÷£¬´ó¼ÒĞ¡ĞÄÓ¦¸¶£¡£¡£¡" 10004
+lineMsg [Grobal]   "µÚÒ»²¨¹¥³Ç¹ÖÎïÏòÉ³°Í¿Ë·¢ÆğÁË¹¥»÷£¬´ó¼ÒĞ¡ĞÄÓ¦¸¶£¡£¡£¡"
+Delaygoto [Grobal] 300 @Next21 
 
 [@Next21]
 #ACT
@@ -125,28 +125,28 @@ Delaygoto [Grobal] 10 @Next22221
 ClearItemMap "3, 208, 151, 45"  *
 
 [@Next22221]
-#ACT
-LoadValue B0 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b1]
-LoadValue B1 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b2]
-LoadValue B2 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b3]
-LoadValue B3 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b4]
-LoadValue B4 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b5]
-LoadValue B5 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b6]
-LoadValue B6 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b7]
-LoadValue B7 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b8]
-LoadValue B8 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©b9]
+#ACT 
+LoadValue B0 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb1]
+LoadValue B1 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb2]
+LoadValue B2 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb3]
+LoadValue B3 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb4]
+LoadValue B4 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb5]
+LoadValue B5 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb6]
+LoadValue B6 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb7]
+LoadValue B7 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb8]
+LoadValue B8 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïb9]
 
-LoadValue P0 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a1]
-LoadValue P1 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a2]
-LoadValue P2 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a3]
-LoadValue P3 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a4]
-LoadValue P4 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a5]
-LoadValue P5 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a6]
-LoadValue P6 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a7]
-LoadValue P7 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a8]
-LoadValue P8 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a9]
+LoadValue P0 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a1]
+LoadValue P1 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a2]
+LoadValue P2 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a3]
+LoadValue P3 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a4]
+LoadValue P4 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a5]
+LoadValue P5 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a6]
+LoadValue P6 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a7]
+LoadValue P7 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a8]
+LoadValue P8 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a9]
 
-LoadValue B9 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [é›†ä¸­åœ°] [åœ°ç‚¹]
+LoadValue B9 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¼¯ÖĞµØ] [µØµã]
 
 
 MongenP "3,174,184,20" %B0 %P0
@@ -168,41 +168,41 @@ MongenP "3,174,184,20" %B8 %P8
 	ApplyMonMission "3,174,184,9999" "%B6" "%B9"
 	ApplyMonMission "3,174,184,9999" "%B7" "%B9"
 	ApplyMonMission "3,174,184,9999" "%B8" "%B9"
-Eventmsg Grobal "ç¬¬äºŒæ³¢æ”»åŸæ€ªç‰©å‘æ²™å·´å…‹å‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶é¡¶ä½ï¼ï¼ï¼" 10004
-lineMsg [Grobal]  "ç¬¬äºŒæ³¢æ”»åŸæ€ªç‰©å‘æ²™å·´å…‹å‘èµ·äº†æ”»å‡»ï¼Œå¤§å®¶é¡¶ä½ï¼ï¼ï¼"
-Delaygoto [Grobal] 360 @Next31
+Eventmsg Grobal "µÚ¶ş²¨¹¥³Ç¹ÖÎïÏòÉ³°Í¿Ë·¢ÆğÁË¹¥»÷£¬´ó¼Ò¶¥×¡£¡£¡£¡" 10004
+lineMsg [Grobal]  "µÚ¶ş²¨¹¥³Ç¹ÖÎïÏòÉ³°Í¿Ë·¢ÆğÁË¹¥»÷£¬´ó¼Ò¶¥×¡£¡£¡£¡" 
+Delaygoto [Grobal] 360 @Next31 
 
-[@Next31]
+[@Next31] 
 #ACT
 Monclear 3
 Delaygoto [Grobal] 10 @Next33331
 ClearItemMap "3, 208, 151, 45"  *
 
 [@Next33331]
-#ACT
-SaveValue "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ”»åŸ] [æ”»åŸ] 0
+#ACT 
+SaveValue "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎï¹¥³Ç] [¹¥³Ç] 0
 
-LoadValue B0 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c1]
-LoadValue B1 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c2]
-LoadValue B2 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c3]
-LoadValue B3 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c4]
-LoadValue B4 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c5]
-LoadValue B5 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c6]
-LoadValue B6 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c7]
-LoadValue B7 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c8]
-LoadValue B8 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©åç§°] [æ€ªç‰©c9]
+LoadValue B0 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc1]
+LoadValue B1 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc2]
+LoadValue B2 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc3]
+LoadValue B3 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc4]
+LoadValue B4 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc5]
+LoadValue B5 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc6]
+LoadValue B6 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc7]
+LoadValue B7 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc8]
+LoadValue B8 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÃû³Æ] [¹ÖÎïc9]
 
-LoadValue P0 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a1]
-LoadValue P1 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a2]
-LoadValue P2 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a3]
-LoadValue P3 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a4]
-LoadValue P4 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a5]
-LoadValue P5 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a6]
-LoadValue P6 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a7]
-LoadValue P7 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a8]
-LoadValue P8 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [æ€ªç‰©æ•°é‡] [æ•°é‡a9]
+LoadValue P0 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a1]
+LoadValue P1 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a2]
+LoadValue P2 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a3]
+LoadValue P3 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a4]
+LoadValue P4 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a5]
+LoadValue P5 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a6]
+LoadValue P6 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a7]
+LoadValue P7 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a8]
+LoadValue P8 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¹ÖÎïÊıÁ¿] [ÊıÁ¿a9]
 
-LoadValue B9 "QuestDiary\CastleWar\æ²™å·´å…‹æ€ªç‰©æ”»åŸ.txt" [é›†ä¸­åœ°] [åœ°ç‚¹]
+LoadValue B9 "QuestDiary\CastleWar\É³°Í¿Ë¹ÖÎï¹¥³Ç.txt" [¼¯ÖĞµØ] [µØµã]
 
 
 MongenP "3,239,198,20" %B0 %P0
@@ -224,69 +224,69 @@ MongenP "3,239,198,20" %B8 %P8
 	ApplyMonMission "3,239,198,9999" "%B6" "%B9"
 	ApplyMonMission "3,239,198,9999" "%B7" "%B9"
 	ApplyMonMission "3,239,198,9999" "%B8" "%B9"
-Eventmsg Grobal "æœ€åä¸€æ³¢æ•Œäººå‘æ²™å·´å…‹å‘èµ·äº†æ€»æ”»ï¼ŒåšæŒå•Šã€‚ã€‚ç°åœ¨è¿˜ä¸çŸ¥é“æ€ªç‰©æœ‰æ²¡æœ‰æ´å…µã€‚ã€‚ã€‚ã€‚ã€‚ã€‚" 10004
-lineMsg [Grobal]   "æœ€åä¸€æ³¢æ•Œäººå‘æ²™å·´å…‹å‘èµ·äº†æ€»æ”»ï¼ŒåšæŒå•Šã€‚ã€‚ç°åœ¨è¿˜ä¸çŸ¥é“æ€ªç‰©æœ‰æ²¡æœ‰æ´å…µã€‚ã€‚ã€‚ã€‚ã€‚ã€‚"
+Eventmsg Grobal "×îºóÒ»²¨µĞÈËÏòÉ³°Í¿Ë·¢ÆğÁË×Ü¹¥£¬¼á³Ö°¡¡£¡£ÏÖÔÚ»¹²»ÖªµÀ¹ÖÎïÓĞÃ»ÓĞÔ®±ø¡£¡£¡£¡£¡£¡£" 10004 
+lineMsg [Grobal]   "×îºóÒ»²¨µĞÈËÏòÉ³°Í¿Ë·¢ÆğÁË×Ü¹¥£¬¼á³Ö°¡¡£¡£ÏÖÔÚ»¹²»ÖªµÀ¹ÖÎïÓĞÃ»ÓĞÔ®±ø¡£¡£¡£¡£¡£¡£" 
 }
 
 
-[æ—¥æœŸ]
-;;èŠ‚æ—¥åˆ°äº†è¯·æŠŠ0æ”¹æˆ1
-åœ£è¯=0
+[ÈÕÆÚ]
+;;½ÚÈÕµ½ÁËÇë°Ñ0¸Ä³É1
+Ê¥µ®=0
 
-[æ€ªç‰©æ”»åŸ]
-;;1è¡¨ç¤ºæ­£åœ¨æ”»åŸ
-æ”»åŸ=1
+[¹ÖÎï¹¥³Ç] 
+;;1±íÊ¾ÕıÔÚ¹¥³Ç
+¹¥³Ç=1
 
 ;;-------------------------------
 
-[æ€ªç‰©åç§°]
+[¹ÖÎïÃû³Æ]
 ;;B0-B8
-;;ç¬¬1æ‰¹
-æ€ªç‰©a1=åœ°ç‰¢å¥³ç¥
-æ€ªç‰©a2=æ½˜å¤œå†°é­”
-æ€ªç‰©a3=éª·é«…æˆ˜å£«
-æ€ªç‰©a4=ç›”ç”²èš‚èš
-æ€ªç‰©a5=èš‚èšé“å£«
-æ€ªç‰©a6=éª·é«…æ­¦å°†
-æ€ªç‰©a7=çŸ³åƒç‹®å­
-æ€ªç‰©a8=éª·é«…æ•™ä¸»1
-æ€ªç‰©a9=æ²ƒç›æ•™ä¸»1
+;;µÚ1Åú
+¹ÖÎïa1=µØÀÎÅ®Éñ
+¹ÖÎïa2=ÅËÒ¹±ùÄ§
+¹ÖÎïa3=÷¼÷ÃÕ½Ê¿
+¹ÖÎïa4=¿ø¼×ÂìÒÏ
+¹ÖÎïa5=ÂìÒÏµÀÊ¿
+¹ÖÎïa6=÷¼÷ÃÎä½«
+¹ÖÎïa7=Ê¯ÏñÊ¨×Ó
+¹ÖÎïa8=÷¼÷Ã½ÌÖ÷1
+¹ÖÎïa9=ÎÖÂê½ÌÖ÷1
 
-;;ç¬¬2æ‰¹
-æ€ªç‰©b1=ç™½é‡çŒª
-æ€ªç‰©b2=è¯ºç›çªå‡»é˜Ÿé•¿
-æ€ªç‰©b3=æ½˜å¤œå†°é­”
-æ€ªç‰©b4=çº¢è¡£ä¸»æ•™
-æ€ªç‰©b5=é‚ªæ¶é’³è™«
-æ€ªç‰©b6=ç«ç„°ç‹®å­
-æ€ªç‰©b7=åœ°ç‰¢å¥³ç¥
-æ€ªç‰©b8=ç¥–ç›æ•™ä¸»
-æ€ªç‰©b9=æ½˜å¤œç‰›é­”ç‹
+;;µÚ2Åú
+¹ÖÎïb1=°×Ò°Öí
+¹ÖÎïb2=ÅµÂêÍ»»÷¶Ó³¤
+¹ÖÎïb3=ÅËÒ¹±ùÄ§
+¹ÖÎïb4=ºìÒÂÖ÷½Ì
+¹ÖÎïb5=Ğ°¶ñÇ¯³æ
+¹ÖÎïb6=»ğÑæÊ¨×Ó
+¹ÖÎïb7=µØÀÎÅ®Éñ
+¹ÖÎïb8=×æÂê½ÌÖ÷
+¹ÖÎïb9=ÅËÒ¹Å£Ä§Íõ
 
-;;ç¬¬3æ‰¹
-æ€ªç‰©c1=å…«è„šé¦–é¢†
-æ€ªç‰©c2=ç«ç„°ç‹®å­
-æ€ªç‰©c3=ç™½é‡çŒª
-æ€ªç‰©c4=éœ‡å¤©é¦–å°†
-æ€ªç‰©c5=æ½˜å¤œå³æŠ¤å«
-æ€ªç‰©c6=æ²ƒç›æŠ¤å«
-æ€ªç‰©c7=å¯’å†°å®ˆæŠ¤ç¥
-æ€ªç‰©c8=éœ‡å¤©é­”ç¥
-æ€ªç‰©c9=éœ¸ç‹æ•™ä¸»
+;;µÚ3Åú
+¹ÖÎïc1=°Ë½ÅÊ×Áì
+¹ÖÎïc2=»ğÑæÊ¨×Ó
+¹ÖÎïc3=°×Ò°Öí
+¹ÖÎïc4=ÕğÌìÊ×½«
+¹ÖÎïc5=ÅËÒ¹ÓÒ»¤ÎÀ
+¹ÖÎïc6=ÎÖÂê»¤ÎÀ
+¹ÖÎïc7=º®±ùÊØ»¤Éñ
+¹ÖÎïc8=ÕğÌìÄ§Éñ
+¹ÖÎïc9=°ÔÍõ½ÌÖ÷
 
-[æ€ªç‰©æ•°é‡]
-æ•°é‡a0=20
-æ•°é‡a1=20
-æ•°é‡a2=20
-æ•°é‡a3=40
-æ•°é‡a4=40
-æ•°é‡a5=20
-æ•°é‡a6=20
-æ•°é‡a7=3
-æ•°é‡a8=3
+[¹ÖÎïÊıÁ¿]
+ÊıÁ¿a0=20
+ÊıÁ¿a1=20
+ÊıÁ¿a2=20
+ÊıÁ¿a3=40
+ÊıÁ¿a4=40
+ÊıÁ¿a5=20
+ÊıÁ¿a6=20
+ÊıÁ¿a7=3
+ÊıÁ¿a8=3
 
-[é›†ä¸­åœ°]
+[¼¯ÖĞµØ]
 ;;B9
-åœ°ç‚¹=3,208,151
+µØµã=3,208,151
 
 

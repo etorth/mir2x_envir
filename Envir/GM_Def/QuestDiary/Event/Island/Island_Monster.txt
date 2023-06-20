@@ -1,6 +1,6 @@
 ;;Island_Monster.txt
 [Monster]
-Name1=çŒ¿çŒ´æˆ˜å£«
-Name2=çŒ¿çŒ´æˆ˜å°†
-Name3=é­”ç¥æ€ª1
-Name4=èšå®ç®±4
+Name1=Ô³ºïÕ½Ê¿
+Name2=Ô³ºïÕ½½«
+Name3=Ä§Éñ¹Ö1
+Name4=¾Û±¦Ïä4

@@ -1,3 +1,0 @@
-;;13Move_Oasis-4.txt
-[@main]
-#CALL [\\teleport\OasisTele.txt] @Oasis_Teleport

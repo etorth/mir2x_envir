@@ -1,529 +1,529 @@
 ;;100Reward.txt
 [101]
-Reward_Race_60_1Th_Type1 = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_60_1Th_Type1 = Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_60_1Th_Type1 = 1
-Reward_Race_60_1Th_Type2 = é‡‘å¸
+Reward_Race_60_1Th_Type2 = ½ğ±Ò
 Reward_Amount_60_1Th_Type2 = 150000
 
-Reward_Race_60_2Th_Type1 = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_60_2Th_Type1 = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_60_2Th_Type1 = 1
-Reward_Race_60_2Th_Type2 = é‡‘å¸
+Reward_Race_60_2Th_Type2 = ½ğ±Ò
 Reward_Amount_60_2Th_Type2 = 150000
 
-Reward_Race_60_3Th_Type1 = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_60_3Th_Type1 = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_60_3Th_Type1 = 1
-Reward_Race_60_3Th_Type2 = é‡‘å¸
+Reward_Race_60_3Th_Type2 = ½ğ±Ò
 Reward_Amount_60_3Th_Type2 = 150000
 
-Reward_Race_30_1Th_Type1_Man = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_30_1Th_Type1_Man = Ô¬Áé·¨ÒÂ£¨ÄĞ£© 
 Reward_Amount_30_1Th_Type1_Man = 1
-Reward_Race_30_1Th_Type2_Man = é‡‘å¸
+Reward_Race_30_1Th_Type2_Man = ½ğ±Ò
 Reward_Amount_30_1Th_Type2_Man = 150000
 
-Reward_Race_30_1Th_Type1_Woman = è¢çµæ³•è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_30_1Th_Type1_Woman = Ô¬Áé·¨ÒÂ£¨Å®£©
 Reward_Amount_30_1Th_Type1_Woman = 1
-Reward_Race_30_1Th_Type2_Woman = é‡‘å¸
+Reward_Race_30_1Th_Type2_Woman = ½ğ±Ò
 Reward_Amount_30_1Th_Type2_Woman = 150000
 
-Reward_Race_30_2Th_Type1_Man = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_30_2Th_Type1_Man = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_30_2Th_Type1_Man = 1
-Reward_Race_30_2Th_Type2_Man = é‡‘å¸
+Reward_Race_30_2Th_Type2_Man = ½ğ±Ò
 Reward_Amount_30_2Th_Type2_Man = 150000
 
-Reward_Race_30_2Th_Type1_Woman = å¤©æé“è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_30_2Th_Type1_Woman = Ìì¼«µÀÒÂ£¨Å®£© 
 Reward_Amount_30_2Th_Type1_Woman = 1
-Reward_Race_30_2Th_Type2_Woman = é‡‘å¸
+Reward_Race_30_2Th_Type2_Woman = ½ğ±Ò
 Reward_Amount_30_2Th_Type2_Woman = 150000
 
-Reward_Race_30_3Th_Type1_Man = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_30_3Th_Type1_Man = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_30_3Th_Type1_Man = 1
-Reward_Race_30_3Th_Type2_Man = é‡‘å¸
+Reward_Race_30_3Th_Type2_Man = ½ğ±Ò
 Reward_Amount_30_3Th_Type2_Man = 150000
 
-Reward_Race_30_3Th_Type1_Woman = é¾™é³æˆ˜ç”²ï¼ˆå¥³ï¼‰
+Reward_Race_30_3Th_Type1_Woman = ÁúÁÛÕ½¼×£¨Å®£©
 Reward_Amount_30_3Th_Type1_Woman = 1
-Reward_Race_30_3Th_Type2_Woman = é‡‘å¸
+Reward_Race_30_3Th_Type2_Woman = ½ğ±Ò
 Reward_Amount_30_3Th_Type2_Woman = 150000
 
-Reward_Race_10_1Th = é­”æ–
+Reward_Race_10_1Th = Ä§ÕÈ
 Reward_Amount_10_1Th = 1
 
-Reward_Race_10_2Th = é“¶è›‡
+Reward_Race_10_2Th = ÒøÉß 
 Reward_Amount_10_2Th = 1
 
-Reward_Race_10_3Th = å‘½è¿ä¹‹åˆƒ
+Reward_Race_10_3Th = ÃüÔËÖ®ÈĞ
 Reward_Amount_10_3Th = 1
 
 
 [102]
-Reward_Race_80_1Th = æˆ˜ç¥æ²¹
+Reward_Race_80_1Th = Õ½ÉñÓÍ
 Reward_Amount_80_1Th = 1
 
-Reward_Race_80_2Th = æˆ˜ç¥æ²¹
+Reward_Race_80_2Th = Õ½ÉñÓÍ
 Reward_Amount_80_2Th = 1
 
-Reward_Race_80_3Th = æˆ˜ç¥æ²¹
+Reward_Race_80_3Th = Õ½ÉñÓÍ
 Reward_Amount_80_3Th = 1
 
-Reward_Race_10_1Th = ç¥ç¦æ²¹
+Reward_Race_10_1Th = ×£¸£ÓÍ
 Reward_Amount_10_1Th = 5
 
-Reward_Race_10_2Th = å›ç”Ÿç¥æ°´
+Reward_Race_10_2Th = »ØÉúÉñË®
 Reward_Amount_10_2Th = 2
 
-Reward_Race_10_3Th = è¯…å’’ä¹‹è¯æ°´
+Reward_Race_10_3Th = ×çÖäÖ®Ò©Ë®
 Reward_Amount_10_3Th = 1
 
-Reward_Race_10_1Th_1 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_10_1Th_1 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_10_1Th_1 = 1
 
-Reward_Race_10_2Th_1 = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_10_2Th_1 = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_10_2Th_1 = 1
 
-Reward_Race_10_2Th_1 = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_10_2Th_1 = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_10_2Th_1 = 1
 
 [103]
-Reward_Race_90_1Th_Type1 = é­”æ–
+Reward_Race_90_1Th_Type1 = Ä§ÕÈ
 Reward_Amount_90_1Th_Type1 = 1
-Reward_Race_90_1Th_Type2 = é‡‘å¸
+Reward_Race_90_1Th_Type2 = ½ğ±Ò
 Reward_Amount_90_1Th_Type2 = 100000
 
-Reward_Race_90_2Th_Type1 = é“¶è›‡
+Reward_Race_90_2Th_Type1 = ÒøÉß
 Reward_Amount_90_2Th_Type1 = 1
-Reward_Race_90_2Th_Type2 = é‡‘å¸
+Reward_Race_90_2Th_Type2 = ½ğ±Ò
 Reward_Amount_90_2Th_Type2 = 100000
 
-Reward_Race_90_3Th_Type1 = å‘½è¿ä¹‹åˆƒ
+Reward_Race_90_3Th_Type1 = ÃüÔËÖ®ÈĞ
 Reward_Amount_90_3Th_Type1 = 1
-Reward_Race_90_3Th_Type2 = é‡‘å¸
+Reward_Race_90_3Th_Type2 = ½ğ±Ò
 Reward_Amount_90_3Th_Type2 = 100000
 
-Reward_Race_9_1Th = æ— ååˆ€
+Reward_Race_9_1Th = ÎŞÃûµ¶
 Reward_Amount_9_1Th = 1
 
-Reward_Race_9_2Th = ç‚¼ç‹±
+Reward_Race_9_2Th = Á¶Óü
 Reward_Amount_9_2Th = 1
 
-Reward_Race_9_3Th = è¡€é¥®
+Reward_Race_9_3Th = ÑªÒû
 Reward_Amount_9_3Th = 1
 
-Reward_Race_1_1Th = è¡Œè€…å¸½
+Reward_Race_1_1Th = ĞĞÕßÃ±
 Reward_Amount_1_1Th = 1
 
-Reward_Race_1_2Th = è¡Œè€…å¸½
+Reward_Race_1_2Th = ĞĞÕßÃ±
 Reward_Amount_1_2Th = 1
 
-Reward_Race_1_3Th = è¡Œè€…å¸½
+Reward_Race_1_3Th = ĞĞÕßÃ±
 Reward_Amount_1_3Th = 1
 
 
 [104]
-Reward_Race_80_1Th_Type1 = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_80_1Th_Type1 = Áú¾í·ç£¨ÃØ¼®£© 
 Reward_Amount_80_1Th_Type1 = 1
-Reward_Race_80_1Th_Type2 = é‡‘å¸
+Reward_Race_80_1Th_Type2 = ½ğ±Ò
 Reward_Amount_80_1Th_Type2 = 50000
 
-Reward_Race_80_2Th_Type1 = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_80_2Th_Type1 = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_80_2Th_Type1 = 1
-Reward_Race_80_2Th_Type2 = é‡‘å¸
+Reward_Race_80_2Th_Type2 = ½ğ±Ò
 Reward_Amount_80_2Th_Type2 = 50000
 
-Reward_Race_80_1Th_Type1 = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_80_1Th_Type1 = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_80_1Th_Type1 = 1
-Reward_Race_80_2Th_Type2 = é‡‘å¸
+Reward_Race_80_2Th_Type2 = ½ğ±Ò
 Reward_Amount_80_2Th_Type2 = 50000
 
-Reward_Race_19_1Th_Type1 = é­”æ–
+Reward_Race_19_1Th_Type1 = Ä§ÕÈ
 Reward_Amount_19_1Th_Type1 = 1
-Reward_Race_19_1Th_Type2 = é‡‘å¸
+Reward_Race_19_1Th_Type2 = ½ğ±Ò
 Reward_Amount_19_1Th_Type2 = 100000
 
-Reward_Race_19_2Th_Type1 = é“¶è›‡
+Reward_Race_19_2Th_Type1 = ÒøÉß
 Reward_Amount_19_2Th_Type1 = 1
-Reward_Race_19_2Th_Type2 = é‡‘å¸
+Reward_Race_19_2Th_Type2 = ½ğ±Ò
 Reward_Amount_19_2Th_Type2 = 100000
 
-Reward_Race_19_3Th_Type1 = å‘½è¿ä¹‹åˆƒ
+Reward_Race_19_3Th_Type1 = ÃüÔËÖ®ÈĞ
 Reward_Amount_19_3Th_Type1 = 1
-Reward_Race_19_3Th_Type2 = é‡‘å¸
+Reward_Race_19_3Th_Type2 = ½ğ±Ò
 Reward_Amount_19_3Th_Type2 = 100000
 
-Reward_Race_1 = å¹¸è¿æ–—ç¬ 
+Reward_Race_1 = ĞÒÔË¶·óÒ
 Reward_Amount_1 = 1
 
 [105]
-Reward_Race_80_1Th = ç¥ç¦æ²¹
+Reward_Race_80_1Th = ×£¸£ÓÍ
 Reward_Amount_80_1Th = 5
 
-Reward_Race_80_2Th = ç¥ç¦æ²¹
+Reward_Race_80_2Th = ×£¸£ÓÍ
 Reward_Amount_80_2Th = 5
 
-Reward_Race_80_3Th = ç¥ç¦æ²¹
+Reward_Race_80_3Th = ×£¸£ÓÍ
 Reward_Amount_80_3Th = 5
 
-Reward_Race_19_1Th = è¡€é¥®
+Reward_Race_19_1Th = ÑªÒû
 Reward_Amount_19_1Th = 1
 
-Reward_Race_19_2Th = æ— ååˆ€
+Reward_Race_19_2Th = ÎŞÃûµ¶
 Reward_Amount_19_2Th = 1
 
-Reward_Race_19_3Th = ç‚¼ç‹±
+Reward_Race_19_3Th = Á¶Óü
 Reward_Amount_19_3Th = 1
 
-Reward_Race_1_1Th = éª¨ç‰æƒæ–
+Reward_Race_1_1Th = ¹ÇÓñÈ¨ÕÈ
 Reward_Amount_1_1Th = 1
 
-Reward_Race_1_2Th = éª¨ç‰æƒæ–
+Reward_Race_1_2Th = ¹ÇÓñÈ¨ÕÈ
 Reward_Amount_1_2Th = 1
 
-Reward_Race_1_3Th = éª¨ç‰æƒæ–
+Reward_Race_1_3Th = ¹ÇÓñÈ¨ÕÈ
 Reward_Amount_1_3Th = 1
 
 [106]
-Reward_Race_90 = å¹½çµæ‰‹å¥—
+Reward_Race_90 = ÓÄÁéÊÖÌ×
 Reward_Amount_90 = 1
 
-Reward_Race_9 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_9 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_9 = 1
 
-Reward_Race_1_1 = ç»åœ°é´
+Reward_Race_1_1 = ¾øµØÑ¥
 Reward_Amount_1_1 = 1
 
-Reward_Race_1_2 = ç»åœ°é´
+Reward_Race_1_2 = ¾øµØÑ¥
 Reward_Amount_1_2 = 1
 
-Reward_Race_1_3 = ç»åœ°é´
+Reward_Race_1_3 = ¾øµØÑ¥
 Reward_Amount_1_3 = 1
 
 
 [107]
-Reward_Race_75_1Th = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_75_1Th = Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_75_1Th = 1
 
-Reward_Race_75_2Th = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_75_2Th = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_75_2Th = 1
 
-Reward_Race_75_2Th = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_75_2Th = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_75_2Th = 1
 
-Reward_Race_24_1Th = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_24_1Th = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_24_1Th = 1
 
-Reward_Race_24_2Th = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_24_2Th = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_24_2Th = 1
 
-Reward_Race_24_3Th = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_24_3Th = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_24_3Th = 1
 
-Reward_Race_1_1Th = æ—‹é£æµæ˜Ÿåˆ€
+Reward_Race_1_1Th = Ğı·çÁ÷ĞÇµ¶
 Reward_Amount_1_1Th = 1
 
-Reward_Race_1_2Th = å°é­”å‰‘
+Reward_Race_1_2Th = ·âÄ§½£
 Reward_Amount_1_2Th = 1
 
-Reward_Race_1_3Th = é£é­‚é­”åˆƒ
+Reward_Race_1_3Th = ·É»êÄ§ÈĞ
 Reward_Amount_1_3Th = 1
 
 [108]
-Reward_Race_90_1Th = ç¥ç¦æ²¹
+Reward_Race_90_1Th = ×£¸£ÓÍ
 Reward_Amount_90_1Th = 5
-Reward_Race_90_2Th = å›ç”Ÿç¥æ°´
+Reward_Race_90_2Th = »ØÉúÉñË®
 Reward_Amount_90_2Th = 2
 
-Reward_Race_9_1Th = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_9_1Th = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_9_1Th = 1
 
-Reward_Race_9_2Th = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_9_2Th = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_9_2Th = 1
 
-Reward_Race_9_3Th = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_9_3Th = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_9_3Th = 1
 
-Reward_Race_1 = æœˆå…‰é‹
+Reward_Race_1 = ÔÂ¹âĞ¬
 Reward_Amount_1 = 1
 
 [109]
-Reward_Race_90 = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90 = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_90 = 1
 
-Reward_Race_5 = è¯…å’’ä¹‹è¯æ°´
+Reward_Race_5 = ×çÖäÖ®Ò©Ë®
 Reward_Amount_5 = 1
 
-Reward_Race_5_1 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_5_1 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_5_1 = 1
 
-Reward_Race_5_2 = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_5_2 = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_5_2 = 1
 
-Reward_Race_5_3 = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_5_3 = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_5_3 = 1
 
 [110]
-Reward_Race_49 = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_49 = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_49 = 1
 
-Reward_Race_49_1 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_49_1 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_49_1 = 1
 
-Reward_Race_1 = ä»™äº‘é´
+Reward_Race_1 = ÏÉÔÆÑ¥
 Reward_Amount_1 = 1
 
-Reward_Race_1_2 = ä»™äº‘é´
+Reward_Race_1_2 = ÏÉÔÆÑ¥
 Reward_Amount_1_2 = 1
 
-Reward_Race_1_3 = ä»™äº‘é´
+Reward_Race_1_3 = ÏÉÔÆÑ¥
 Reward_Amount_1_3 = 1
 
 
 [111]
-Reward_Race_80_1Th_Type1 = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_80_1Th_Type1 = Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_80_1Th_Type1 = 1
-Reward_Race_80_1Th_Type2 = é‡‘å¸
+Reward_Race_80_1Th_Type2 = ½ğ±Ò
 Reward_Amount_80_1Th_Type2 = 150000
 
-Reward_Race_80_2Th_Type1 = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_80_2Th_Type1 = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_80_2Th_Type = 1
-Reward_Race_80_2Th_Type2 = é‡‘å¸
+Reward_Race_80_2Th_Type2 = ½ğ±Ò
 Reward_Amount_80_2Th_Type2 = 150000
 
-Reward_Race_80_3Th_Type1 = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_80_3Th_Type1 = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_80_3Th_Type1 = 1
-Reward_Race_80_3Th_Type2 = é‡‘å¸
+Reward_Race_80_3Th_Type2 = ½ğ±Ò
 Reward_Amount_80_3Th_Type2 = 150000
 
-Reward_Race_10 = é­”æ–
+Reward_Race_10 = Ä§ÕÈ
 Reward_Amount_10 = 1
 
-Reward_Race_10_1 = æ— å½±é´
+Reward_Race_10_1 = ÎŞÓ°Ñ¥
 Reward_Amount_10_1 = 1
 
 [112]
-Reward_Race_80_Type1 = å‘½è¿ä¹‹åˆƒ
+Reward_Race_80_Type1 = ÃüÔËÖ®ÈĞ
 Reward_Amount_80_Type1 = 1
-Reward_Race_80_Type2 = é‡‘å¸
+Reward_Race_80_Type2 = ½ğ±Ò
 Reward_Amount_80_Type2 = 150000
 
-Reward_Race_19 = å¤©æŒé´å­
+Reward_Race_19 = ÌìÕÆÑ¥×Ó
 Reward_Amount_19 = 1
 
-Reward_Race_1 = è¯…å’’ä¹‹è¯æ°´
+Reward_Race_1 = ×çÖäÖ®Ò©Ë®
 Reward_Amount_1
 
 [113]
-Reward_Race_90_1Th = åŠ›é‡æˆ’æŒ‡
+Reward_Race_90_1Th = Á¦Á¿½äÖ¸ 
 Reward_Amount_90_1Th = 1
 
-Reward_Race_90_2Th = æ³°å¦æˆ’æŒ‡
+Reward_Race_90_2Th = Ì©Ì¹½äÖ¸ 
 Reward_Amount_90_2Th = 1
 
-Reward_Race_90_3Th = ç´«ç¢§èº
+Reward_Race_90_3Th = ×Ï±ÌÂİ 
 Reward_Amount_90_3Th = 1
 
-Reward_Race_9 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_9 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_9 = 1
 
-Reward_Race_1 = å¹¸è¿é™å¦–é™¤é­”æˆ’æŒ‡
+Reward_Race_1 = ĞÒÔË½µÑı³ıÄ§½äÖ¸
 Reward_Amount_1 = 1
 
 [114]
-Reward_Race_90_1Th_Type1_Man = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_90_1Th_Type1_Man = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_90_1Th_Type1_Man = 1
-Reward_Race_90_1Th_Type2_Man = é‡‘å¸
+Reward_Race_90_1Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_1Th_Type2_Man = 150000
 
-Reward_Race_90_1Th_Type1_WoMan = è¢çµæ³•è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_90_1Th_Type1_WoMan = Ô¬Áé·¨ÒÂ£¨Å®£©
 Reward_Amount_90_1Th_Type1_WoMan = 1
-Reward_Race_90_1Th_Type2_WoMan = é‡‘å¸
+Reward_Race_90_1Th_Type2_WoMan = ½ğ±Ò
 Reward_Amount_90_1Th_Type2_WoMan = 150000
 
-Reward_Race_90_2Th_Type1_Man = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_90_2Th_Type1_Man = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_90_2Th_Type1_Man = 1
-Reward_Race_90_2Th_Type2_Man = é‡‘å¸
+Reward_Race_90_2Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_2Th_Type2_Man = 150000
 
-Reward_Race_90_2Th_Type1_WoMan = å¤©æé“è¡£ï¼ˆå¥³ï¼‰
+Reward_Race_90_2Th_Type1_WoMan = Ìì¼«µÀÒÂ£¨Å®£©
 Reward_Amount_90_2Th_Type1_WoMan = 1
-Reward_Race_90_2Th_Type2_WoMan = é‡‘å¸
+Reward_Race_90_2Th_Type2_WoMan = ½ğ±Ò
 Reward_Amount_90_2Th_Type2_WoMan = 150000
 
-Reward_Race_90_3Th_Type1_Man = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_90_3Th_Type1_Man = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_90_3Th_Type1_Man = 1
-Reward_Race_90_3Th_Type2_Man = é‡‘å¸
+Reward_Race_90_3Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_3Th_Type2_Man = 150000
 
-Reward_Race_90_3Th_Type1_WoMan = é¾™é³æˆ˜ç”²ï¼ˆå¥³ï¼‰
+Reward_Race_90_3Th_Type1_WoMan = ÁúÁÛÕ½¼×£¨Å®£©
 Reward_Amount_90_3Th_Type1_WoMan = 1
-Reward_Race_90_3Th_Type2_WoMan = é‡‘å¸
+Reward_Race_90_3Th_Type2_WoMan = ½ğ±Ò
 Reward_Amount_90_3Th_Type2_WoMan = 150000
 
-Reward_Race_9 = æœˆå…‰é‹
+Reward_Race_9 = ÔÂ¹âĞ¬
 Reward_Amount_9 = 1
 
-Reward_Race_1 = å¹¸è¿æ–—ç¬ 
+Reward_Race_1 = ĞÒÔË¶·óÒ
 Reward_Amount_1 = 1
 
 [115]
-Reward_Race_80_1Th = å‘½è¿ä¹‹åˆƒ
+Reward_Race_80_1Th = ÃüÔËÖ®ÈĞ
 Reward_Amount_80_1Th = 1
 
-Reward_Race_80_2Th = é­”æ–
+Reward_Race_80_2Th = Ä§ÕÈ
 Reward_Amount_80_2Th = 1
 
-Reward_Race_80_3Th = é“¶è›‡
+Reward_Race_80_3Th = ÒøÉß
 Reward_Amount_80_3Th = 1
 
-Reward_Race_15_1Th = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_15_1Th = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_15_1Th = 1
 
-Reward_Race_15_2Th = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_15_2Th = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_15_2Th = 1
 
-Reward_Race_15_3Th = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_15_3Th = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_15_3Th = 1
 
-Reward_Race_5_1Th = è¡Œè€…å¸½
+Reward_Race_5_1Th = ĞĞÕßÃ±
 Reward_Amount_5_1Th = 1
 
-Reward_Race_5_2Th = è¡Œè€…å¸½
+Reward_Race_5_2Th = ĞĞÕßÃ±
 Reward_Amount_5_2Th = 1
 
-Reward_Race_5_3Th = è¡Œè€…å¸½
+Reward_Race_5_3Th = ĞĞÕßÃ±
 Reward_Amount_5_3Th = 1
 
 [116]
-Reward_Race_80_Type1 = å‘½è¿ä¹‹åˆƒ
+Reward_Race_80_Type1 = ÃüÔËÖ®ÈĞ
 Reward_Amount_80_Type1 = 1
-Reward_Race_80_Type2 = é‡‘å¸
+Reward_Race_80_Type2 = ½ğ±Ò
 Reward_Amount_80_Type2 = 150000
 
-Reward_Race_19_1Th = åŠ›é‡æˆ’æŒ‡
+Reward_Race_19_1Th = Á¦Á¿½äÖ¸
 Reward_Amount_19_1Th = 1
 
-Reward_Race_19_2Th = æ³°å¦æˆ’æŒ‡
+Reward_Race_19_2Th = Ì©Ì¹½äÖ¸
 Reward_Amount_19_2Th = 1
 
-Reward_Race_19_3Th = ç´«ç¢§èº
+Reward_Race_19_3Th = ×Ï±ÌÂİ
 Reward_Amount_19_3Th = 1
 
-Reward_Race_1 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_1 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_1 = 1
 
 
 [117]
-Reward_Race_90_1Th_Type1_Man = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_1Th_Type1_Man = Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_90_1Th_Type1_Man = 1
-Reward_Race_90_1Th_Type2_Man = é‡‘å¸
+Reward_Race_90_1Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_1Th_Type2_Man = 150000
 
-Reward_Race_90_1Th_Type1_Woman = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_1Th_Type1_Woman = Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_90_1Th_Type1_Woman = 1
-Reward_Race_90_1Th_Type2_Woman = é‡‘å¸
+Reward_Race_90_1Th_Type2_Woman = ½ğ±Ò
 Reward_Amount_90_1Th_Type2_Woman = 150000
 
-Reward_Race_90_2Th_Type1_Man = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_2Th_Type1_Man = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_90_2Th_Type1_Man = 1
-Reward_Race_90_2Th_Type2_Man = é‡‘å¸
+Reward_Race_90_2Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_2Th_Type2_Man = 150000
 
-Reward_Race_90_2Th_Type1_Woman = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_2Th_Type1_Woman = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_90_2Th_Type1_Woman = 1
-Reward_Race_90_2Th_Type2_Woman = é‡‘å¸
+Reward_Race_90_2Th_Type2_Woman = ½ğ±Ò
 Reward_Amount_90_2Th_Type2_Woman = 150000
 
-Reward_Race_90_3Th_Type1_Man = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_3Th_Type1_Man = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_90_3Th_Type1_Man = 1
-Reward_Race_90_3Th_Type2_Man = é‡‘å¸
+Reward_Race_90_3Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_3Th_Type2_Man = 150000
 
-Reward_Race_90_3Th_Type1_Woman = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_3Th_Type1_Woman = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_90_3Th_Type1_Woman = 1
-Reward_Race_90_3Th_Type2_Woman = é‡‘å¸
+Reward_Race_90_3Th_Type2_Woman = ½ğ±Ò
 Reward_Amount_90_3Th_Type2_Woman = 150000
 
-Reward_Race_5 = é­”æ–
+Reward_Race_5 = Ä§ÕÈ
 Reward_Amount_5 = 1
 
-Reward_Race_5_1 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_5_1 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_5_1 = 1
 
 [118]
-Reward_Race_90_1Th_Type1_Man = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_1Th_Type1_Man = Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_90_1Th_Type1_Man = 1
-Reward_Race_90_1Th_Type2_Man = é‡‘å¸
+Reward_Race_90_1Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_1Th_Type2_Man = 150000
 
-Reward_Race_90_1Th_Type1_WoMan = é¾™å·é£ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_1Th_Type1_WoMan = Áú¾í·ç£¨ÃØ¼®£©
 Reward_Amount_90_1Th_Type1_WoMan = 1
-Reward_Race_90_1Th_Type2_WoMan = é‡‘å¸
+Reward_Race_90_1Th_Type2_WoMan = ½ğ±Ò
 Reward_Amount_90_1Th_Type2_WoMan = 150000
 
-Reward_Race_90_2Th_Type1_Man = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_2Th_Type1_Man = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_90_2Th_Type1_Man = 1
-Reward_Race_90_2Th_Type2_Man = é‡‘å¸
+Reward_Race_90_2Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_2Th_Type2_Man = 150000
 
-Reward_Race_90_2Th_Type1_WoMan = å›ç”Ÿæœ¯ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_2Th_Type1_WoMan = »ØÉúÊõ£¨ÃØ¼®£©
 Reward_Amount_90_2Th_Type1_WoMan
-Reward_Race_90_2Th_Type2_WoMan = é‡‘å¸
+Reward_Race_90_2Th_Type2_WoMan = ½ğ±Ò
 Reward_Amount_90_2Th_Type2_WoMan = 150000
 
-Reward_Race_90_3Th_Type1_Man = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_3Th_Type1_Man = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_90_3Th_Type1_Man = 1
-Reward_Race_90_3Th_Type2_Man = é‡‘å¸
+Reward_Race_90_3Th_Type2_Man = ½ğ±Ò
 Reward_Amount_90_3Th_Type2_Man = 150000
 
-Reward_Race_90_3Th_Type1_WoMan = è²æœˆå‰‘æ³•ï¼ˆç§˜ç±ï¼‰
+Reward_Race_90_3Th_Type1_WoMan = Á«ÔÂ½£·¨£¨ÃØ¼®£©
 Reward_Amount_90_3Th_Type1_WoMan = 1
-Reward_Race_90_3Th_Type2_WoMan = é‡‘å¸
+Reward_Race_90_3Th_Type2_WoMan = ½ğ±Ò
 Reward_Amount_90_3Th_Type2_WoMan = 150000
 
-Reward_Race_9 = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_9 = Ô¬Áé·¨ÒÂ£¨ÄĞ£©
 Reward_Amount_9 = 1
 
-Reward_Race_1 = ç»åœ°é´
+Reward_Race_1 = ¾øµØÑ¥
 Reward_Amount_1 = 1
 
 [119]
-Reward_Race_80_1Th = é­”æ–
+Reward_Race_80_1Th = Ä§ÕÈ
 Reward_Amount_80_1Th = 1
 
-Reward_Race_80_2Th = é“¶è›‡
+Reward_Race_80_2Th = ÒøÉß
 Reward_Amount_80_2Th = 1
 
-Reward_Race_80_3Th = å‘½è¿ä¹‹åˆƒ
+Reward_Race_80_3Th = ÃüÔËÖ®ÈĞ
 Reward_Amount_80_3Th = 1
 
-Reward_Race_19_1Th = ç¥ç¦æ²¹
+Reward_Race_19_1Th = ×£¸£ÓÍ
 Reward_Amount_19_1Th = 5
-Reward_Race_19_1Th_1 = é‡‘å¸
+Reward_Race_19_1Th_1 = ½ğ±Ò
 Reward_Amount_19_1Th_1 = 0
 
-Reward_Race_19_2Th = å›ç”Ÿç¥æ°´
+Reward_Race_19_2Th = »ØÉúÉñË®
 Reward_Amount_19_2Th = 2
-Reward_Race_19_2Th_1 = é‡‘å¸
+Reward_Race_19_2Th_1 = ½ğ±Ò
 Reward_Amount_19_2Th_1 = 0
 
-Reward_Race_19_3Th = è¯…å’’ä¹‹è¯æ°´
+Reward_Race_19_3Th = ×çÖäÖ®Ò©Ë®
 Reward_Amount_19_3Th = 1
-Reward_Race_19_3Th = é‡‘å¸
+Reward_Race_19_3Th = ½ğ±Ò
 Reward_Amount_19_3Th = 0
 
-Reward_Race_1 = è¡€é¥®
+Reward_Race_1 = ÑªÒû
 Reward_Amount_1 = 1
 
 [120]
-Reward_Race_90 = å¤©æŒé´å­
+Reward_Race_90 = ÌìÕÆÑ¥×Ó
 Reward_Amount_90 = 1
 
-Reward_Race_9_1Th = è¢çµæ³•è¡£ï¼ˆç”·ï¼‰
+Reward_Race_9_1Th = Ô¬Áé·¨ÒÂ£¨ÄĞ£© 
 Reward_Amount_9_1Th = 1
 
-Reward_Race_9_2Th = å¤©æé“è¡£ï¼ˆç”·ï¼‰
+Reward_Race_9_2Th = Ìì¼«µÀÒÂ£¨ÄĞ£©
 Reward_Amount_9_2Th = 1
 
-Reward_Race_9_3Th = é¾™é³æˆ˜ç”²ï¼ˆç”·ï¼‰
+Reward_Race_9_3Th = ÁúÁÛÕ½¼×£¨ÄĞ£©
 Reward_Amount_9_3Th = 1
 
-Reward_Race_1 = æœˆå…‰é‹
+Reward_Race_1 = ÔÂ¹âĞ¬
 Reward_Amount_1 = 1

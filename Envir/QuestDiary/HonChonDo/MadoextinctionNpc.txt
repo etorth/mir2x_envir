@@ -1,15 +1,15 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@MadoextinctionCheck]
 {
 #IF
 Checkmonmap D16061 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_0
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_1
 
 [@MadoextinctionDAYOFWEEK]
 #IF
@@ -29,7 +29,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_2
 
 #ACT
 break
@@ -148,7 +148,7 @@ break
 [@MadoQuestsundayextinction_no]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_3
 
 [@MadoQuestsundayextinction_A]
 
@@ -165,10 +165,10 @@ close
 break
 
 [@extinctionEventMsg_A]
-#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @extinctionEventMsg_A_1
+#CALL [HonChonDo\extinctionQuestEvent.txt] @extinctionEventMsg_A_1
 
 [@extinctionEventMonGen_A]
-#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @extinctionEventMonGen_A_1
+#CALL [HonChonDo\extinctionMongen.txt] @extinctionEventMonGen_A_1
 
 
 [@MadosundayextinctionEvent_A]
@@ -185,33 +185,33 @@ close
 break
 
 [@extinctionEventUserface_A]
-#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@extinctionEventMsg2_A]
-#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @extinctionEventMsg2_A_1
+#CALL [HonChonDo\extinctionQuestEvent.txt] @extinctionEventMsg2_A_1
 
 [@extinctionEventMonGen2_A]
-#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @extinctionEventMonGen2_A_1
+#CALL [HonChonDo\extinctionMongen.txt] @extinctionEventMonGen2_A_1
 
 [@MadosundayextinctionEvent_A_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_4
 
 [@MadosundayextinctionEvent_A_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_5
 
 [@MadosundayextinctionEvent_A_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_6
 
 [@MadosundayextinctionEvent_A_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_7
 
 #ACT
 Delaygoto [Grobal] 12 @MadosundayextinctionEvent_A_5
@@ -219,7 +219,7 @@ Delaygoto [Grobal] 12 @MadosundayextinctionEvent_A_5
 [@MadosundayextinctionEvent_A_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_8
 
 #ACT
 mov n9 1
@@ -243,13 +243,13 @@ close
 break
 
 [@extinctionEventUserface_B]
-#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@extinctionEventMsg_B]
-#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @extinctionEventMsg_B_1
+#CALL [HonChonDo\extinctionQuestEvent.txt] @extinctionEventMsg_B_1
 
 [@extinctionEventMonGen_B]
-#CALL [QuestDiary/HonChonDo/extinctionMongen.txt] @extinctionEventMonGen_B_1
+#CALL [HonChonDo\extinctionMongen.txt] @extinctionEventMonGen_B_1
 
 
 [@MadosundayextinctionEvent_B]
@@ -260,22 +260,22 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_9
 
 [@MadosundayextinctionEvent_B_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_10
 
 [@MadosundayextinctionEvent_B_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_11
 
 [@MadosundayextinctionEvent_B_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_12
 
 #ACT
 mapspell [firewall] "D16061,22,33,40,47, +d0, +t10, +r50, +h
@@ -284,7 +284,7 @@ mapspell [firewall] "D16061,22,33,40,47, +d0, +t10, +r50, +h
 [@MadosundayextinctionEvent_B_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_13
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_13
 
 #ACT
 mapspell [firewall] "D16061,20,30,50,50, +d0, +t10, +r150, +h
@@ -292,17 +292,17 @@ mapspell [firewall] "D16061,20,30,50,50, +d0, +t10, +r150, +h
 [@MadosundayextinctionEvent_B_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_14
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_14
 
 [@MadosundayextinctionEvent_B_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_15
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_15
 
 [@MadosundayextinctionEvent_B_7]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_16
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_16
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -314,15 +314,15 @@ goto @extinctionEventUserface_B_8
 break
 
 [@extinctionEventUserface_B_8]
-#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @madojobcheckEvent
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
 
 [@MadosundayextinctionEvent_B_8]
-#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @MadosundayextinctionEvent2_B_8
+#CALL [HonChonDo\extinctionQuestEvent.txt] @MadosundayextinctionEvent2_B_8
 
 [@MadosundayextinctionEvent_B_B]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_17
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_17
 
 [@MadosundayextinctionEvent_End]
 #ACT
@@ -332,7 +332,7 @@ ReadStringSql "TBL_HonChonMadoServer" %A9 "FLD_PASSWORDNAME" [@extinctionEvent_E
 
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_18
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_18
 
 [@extinctionEvent_End_0()]
 #ACT
@@ -340,7 +340,7 @@ Mov A0 %ARG(1)
 
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_19
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_19
 
 [@@extinctionEvent_End]
 #IF
@@ -353,7 +353,7 @@ goto @extinctionEvent_NO_1
 break
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_20
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_20
 
 [@extinctionEvent_NO_1]
 #IF
@@ -376,30 +376,30 @@ break
 [@extinctionEvent_End_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_21
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_21
 
 [@extinctionEvent_End_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_22
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_22
 
 [@extinctionEvent_End_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_23
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_23
 
 [@extinctionEvent_End_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_24
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_24
 
 [@extinctionEvent_End_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_25
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_25
 
 #ACT
-give 姣佺伃涔嬪嵃 1
+give 毁灭之印 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=6"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=3"
@@ -408,7 +408,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@extinctionEvent_End_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_26
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] @Convert_MadoextinctionNpc_26
 
 [@extinctionEvent_End_7]
 #ACT
@@ -417,4 +417,4 @@ mapting D16061 41 148 84
 
 
 }
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行

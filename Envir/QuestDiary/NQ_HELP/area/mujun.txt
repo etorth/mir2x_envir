@@ -32,34 +32,34 @@ goto @MUJUNCS_0
 #IF
 checklevel 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/mujun.txt] @mujun_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\mujun.txt] @mujun_1
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/mujun.txt] @mujun_2
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\mujun.txt] @mujun_2
 
 [@MUJUNCS_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/mujun.txt] @mujun_3
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\mujun.txt] @mujun_3
 
 [@MUJUNCS_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/mujun.txt] @mujun_4
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\mujun.txt] @mujun_4
 
 [@MUJUNCS_3]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/mujun.txt] @mujun_5
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\mujun.txt] @mujun_5
 
 [@MUJUNCS_4]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/mujun.txt] @mujun_6
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\mujun.txt] @mujun_6
 
 [@MUJUNCS_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/mujun.txt] @mujun_7
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\mujun.txt] @mujun_7
 
 }

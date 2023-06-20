@@ -4,14 +4,14 @@
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SamakTele.txt] @SamakTele_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SamakTele.txt] @SamakTele_1
 
 #ELSEACT
-mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
+mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 break
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
 }
 
 ;-------------------------------------------------------------------------------
@@ -21,12 +21,12 @@ break
 #IF
 !CheckPkPoint 2
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Teleport/SamakTele.txt] @SamakTele_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Teleport\SamakTele.txt] @SamakTele_2
 
 #ELSEACT
-mapmove 81 125 274                                    ;; Îπ®Í∞±Ïù¥ Ïù¥Îèô
+mapmove 81 125 274                                    ;; ª°∞ª¿Ã ¿Ãµø
 break
 
 [@TelePortRootin()]
-#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; Ïù¥Îèô Î£®Ìã¥
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; ¿Ãµø ∑Á∆æ
 }

@@ -1,3 +1,0 @@
-;;17X_Mas-0.txt
-[@main]
-#CALL [Event\X_Mas\X_Mas_NPC.txt] @NPC_Main

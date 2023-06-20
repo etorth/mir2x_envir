@@ -9,30 +9,30 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_A
 
 [@main_0_A]
 #IF
-checkitem Ã…Ã‹Ã’Â¹ÃŒÃ¬ÃÃ© 1
+checkitem ÅËÒ¹ÌìÁé 1
 #SAY
-       #INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_Main_0_A
+       #INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_Main_0_A
 #ELSEACT
 goto @main_0_0
 
 [@HNTL_01]
 #SAY
-       #INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @HNTL_01
+       #INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @HNTL_01
 
 [@HNTL_01_fail]
 #SAY
-       #INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @HNTL_01_fail
+       #INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @HNTL_01_fail
 
 [@HNTL_02]
 #SAY
-       #INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @HNTL_02
+       #INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @HNTL_02
 
 [@HNTL_02_0]
 #IF
@@ -52,56 +52,56 @@ goto @HNTL_02_3
 
 [@HNTL_02_1]
 #ACT
-Give Ã…Ã‹Ã’Â¹ÃÂ¶Ã“Ã¼ 1
-TAKE Ã…Ã‹Ã’Â¹ÃŒÃ¬ÃÃ© 1
+Give ÅËÒ¹Á¶Óü 1
+TAKE ÅËÒ¹ÌìÁé 1
 goto @HNTL_03
 
 [@HNTL_02_2]
 #ACT
-Give Ã…Ã‹Ã’Â¹Ã„Â§Ã•Ãˆ 1
-TAKE Ã…Ã‹Ã’Â¹ÃŒÃ¬ÃÃ© 1
+Give ÅËÒ¹Ä§ÕÈ 1
+TAKE ÅËÒ¹ÌìÁé 1
 goto @HNTL_03
 
 [@HNTL_02_3]
 #ACT
-Give Ã…Ã‹Ã’Â¹Ã’Ã¸Ã‰ÃŸ 1
-TAKE Ã…Ã‹Ã’Â¹ÃŒÃ¬ÃÃ© 1
+Give ÅËÒ¹ÒøÉß 1
+TAKE ÅËÒ¹ÌìÁé 1
 goto @HNTL_03
 
 
 [@HNTL_03]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @HNTL_03
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @HNTL_03
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_Main_0_0
 
 [@Special_Repair()]
-#CALL [QuestDiary/Repair/TotalRepair.txt] @SRepairItem
+#CALL [\Repair\TotalRepair.txt] @SRepairItem
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/02Weapon_HalfNight-8.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\02Weapon_HalfNight-8.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-Ã‡Ã ÃÂ­Â¸Â«        100        1
-Â°Ã‹Â»Ã„          100        1
-ÃÃ¨Â·Ã§          100        1
-Ã•Â¶Ã‚Ã­ÂµÂ¶        100        1
-ÄÅÃ‚Å          100        1
-ÂºÂ£Â»Ãª          100        1
-Â°Ã«Ã”Ã‚          100        1
+ÇàÍ­¸«        100        1
+°Ë»Ä          100        1
+Áè·ç          100        1
+Õ¶Âíµ¶        100        1
+ĞŞÂŞ          100        1
+º£»ê          100        1
+°ëÔÂ          100        1

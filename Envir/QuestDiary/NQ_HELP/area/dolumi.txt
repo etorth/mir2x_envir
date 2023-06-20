@@ -37,39 +37,39 @@ goto @SUKMO_0
 #IF
 checklevel 7
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_1
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_2
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_2
 
 [@SUKMO_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_3
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_3
 
 [@SUKMO_2]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_4
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_4
 
 [@SUKMO_3]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_5
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_5
 
 [@SUKMO_4]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_6
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_6
 
 [@SUKMO_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_7
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_7
 
 [@SUKMO_6]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/area/dolumi.txt] @dolumi_8
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_HELP\area\dolumi.txt] @dolumi_8
 
 }

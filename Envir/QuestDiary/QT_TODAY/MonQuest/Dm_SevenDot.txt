@@ -43,7 +43,7 @@ break
 ;-----------------------------------------------------
 ;-----------------------------------------------------
 [@Chiljum_T466]
-;		Ã€ÃÃ€Ã Ã„Ã¹Â½ÂºÃ†Â® 466 Â¹Ã¸
+;		ÀÏÀÏ Äù½ºÆ® 466 ¹ø
 #IF
 check [310] 1
 #ACT
@@ -72,16 +72,16 @@ break
 [@Chiljum_T466_1]
 #IF
 #ACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÂµÂ¨Ã–Â­ 1
+give Æßµã°×Éßµ¨Ö­ 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T466_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T466_Say
 
 
 
 ;-----------------------------------------------------
 [@Chiljum_T468]
-;		Ã€ÃÃ€Ã Ã„Ã¹Â½ÂºÃ†Â® 468 Â¹Ã¸
+;		ÀÏÀÏ Äù½ºÆ® 468 ¹ø
 #IF
 check [310] 1
 #ACT
@@ -110,16 +110,16 @@ break
 [@Chiljum_T468_1]
 #IF
 #ACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Âª 1
+give Æßµã°×ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T468_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T468_Say
 
 
 
 ;-----------------------------------------------------
 [@Chiljum_T496]
-;		Ã€ÃÃ€Ã Ã„Ã¹Â½ÂºÃ†Â® 496 Â¹Ã¸
+;		ÀÏÀÏ Äù½ºÆ® 496 ¹ø
 #IF
 check [310] 1
 #ACT
@@ -148,16 +148,16 @@ break
 [@Chiljum_T496_1]
 #IF
 #ACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 1
+give Æßµã°×ÉßÑÀ³İ 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T496_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T496_Say
 
 
 
 ;-----------------------------------------------------
 [@Chiljum_T463]
-;		Ã€ÃÃ€Ã Ã„Ã¹Â½ÂºÃ†Â® 463 Â¹Ã¸
+;		ÀÏÀÏ Äù½ºÆ® 463 ¹ø
 #IF
 check [310] 1
 #ACT
@@ -188,7 +188,7 @@ break
 #ACT
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T463_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T463_Say
 
 ;-----------------------------------------------------
 [@chiljumbaksa_T233]
@@ -222,41 +222,41 @@ break
 
 [@chiljumbaksa_T233_1]
 #IF
-checkitem Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Âª 4
+checkitem Æßµã°×ÉßÑª 4
 #ACT
 goto @chiljumbaksa_T233_1_1
 
 #ELSEACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Âª 1
+give Æßµã°×ÉßÑª 1
 
 [@chiljumbaksa_T233_1_1]
 #IF
 random 3
 #ACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Âª 1
+give Æßµã°×ÉßÑª 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T233_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T233_Say
 
 ;-----------
 
 [@chiljumbaksa_T233_2]
 #IF
-checkitem Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 1
+checkitem Æßµã°×ÉßÑÀ³İ 1
 #ACT
 goto @chiljumbaksa_T233_2_1
 
 #ELSEACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 1
+give Æßµã°×ÉßÑÀ³İ 1
 
 [@chiljumbaksa_T233_2_1]
 #IF
 random 3
 #ACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 1
+give Æßµã°×ÉßÑÀ³İ 1
 set [309] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T233_Say_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T233_Say_1
 
 ;-----------------------------------------------------
 
@@ -293,12 +293,12 @@ break
 
 [@chiljumbaksa_T116_1]
 #IF
-checkitem Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 49
+checkitem Æßµã°×ÉßÑÀ³İ 49
 #ACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 1
+give Æßµã°×ÉßÑÀ³İ 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T116_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T116_Say
 
 #ELSEACT
 goto @chiljumbaksa_T116_2
@@ -307,6 +307,6 @@ goto @chiljumbaksa_T116_2
 #IF
 random 3
 #ACT
-give Ã†ÃŸÂµÃ£Â°Ã—Ã‰ÃŸÃ‘Ã€Â³Ã 1
+give Æßµã°×ÉßÑÀ³İ 1
 
 ;-----------------------------------------------------

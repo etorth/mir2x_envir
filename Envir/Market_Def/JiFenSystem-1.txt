@@ -1,5 +1,5 @@
-;;éœ¸è€…å½’æ¥ä¿®æ”¹
+;;°ÔÕß¹éÀ´ĞŞ¸Ä
 [@main]
-#CALL [QuestDiary/KingScript/ç§¯åˆ†èœå•.txt] @jfcd
+#CALL [KingScript\»ı·Ö²Ëµ¥.txt] @jfcd
 
 

@@ -3,29 +3,29 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10ChestnutMarket_DoGwan-1.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\10ChestnutMarket_DoGwan-1.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/10ChestnutMarket_DoGwan-1.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\10ChestnutMarket_DoGwan-1.txt] @NPC_Main
 
 [@check1]
-;;#CALL [QuestDiary/Event/Chestnut/Event1.txt] @EventChar
+;;#CALL [\Event\Chestnut\Event1.txt] @EventChar
 
 [@color0]
-;;#CALL [QuestDiary/Event/Chestnut/Event2.txt] @EventColor
+;;#CALL [\Event\Chestnut\Event2.txt] @EventColor
 
 [@gold1_cmd]
-#CALL [QuestDiary/Event/Chestnut/Event3.txt] @gold1
+#CALL [\Event\Chestnut\Event3.txt] @gold1
 
 [@silver1_cmd]
-#CALL [QuestDiary/Event/Chestnut/Event3.txt] @silver1
+#CALL [\Event\Chestnut\Event3.txt] @silver1
 
 [@copper1_cmd]
-#CALL [QuestDiary/Event/Chestnut/Event3.txt] @copper1
+#CALL [\Event\Chestnut\Event3.txt] @copper1
 
 [@brown1_cmd]
-#CALL [QuestDiary/Event/Chestnut/Event3.txt] @brown1
+#CALL [\Event\Chestnut\Event3.txt] @brown1
 

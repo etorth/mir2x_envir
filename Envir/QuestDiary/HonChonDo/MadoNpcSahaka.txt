@@ -1,4 +1,4 @@
-;;¬≤¬ª√í¬™√â¬æ¬µ√¥¬¥√ã√ê√ê
+;;≤ª“™…æµÙ¥À––
 
 
 
@@ -131,7 +131,7 @@ break
 HOUR 22 23
 !Equal D2 2
 !Equal D3 1
-checkitem ¬≤√ò¬±¬¶√è√§ 1
+checkitem ≤ÿ±¶œ‰ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_2
 break
@@ -140,7 +140,7 @@ break
 HOUR 22 23
 Equal D2 2
 Equal D3 1
-checkitem ¬≤√ò¬±¬¶√è√§ 1
+checkitem ≤ÿ±¶œ‰ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_3
 break
@@ -217,7 +217,7 @@ break
 HOUR 1 21
 !Equal D2 2
 !Equal D3 1
-checkitem ¬≤√ò¬±¬¶√è√§ 1
+checkitem ≤ÿ±¶œ‰ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_2
 break
@@ -226,7 +226,7 @@ break
 HOUR 1 21
 Equal D2 2
 Equal D3 1
-checkitem ¬≤√ò¬±¬¶√è√§ 1
+checkitem ≤ÿ±¶œ‰ 1
 #ACT
 goto @MadoTimeQuestSatuesday11_1_3
 break
@@ -249,57 +249,57 @@ break
 [@MadoTimeQuestMainSaNoTime]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_0
 
 [@MadoTimeQuestMainSaNoTime_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_1
 
 [@MadoTimeQuestMainSaNoTime_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_2
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_2
 
 [@MadoTimeQuestMainSaNoTime_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_3
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_3
 
 [@MadoTimeQuestMainSaNoTime_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_4
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_4
 
 [@MadoTimeQuestMainSaNoTime_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_5
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_5
 
 [@MadoTimeQuestSatuesday1_10]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_6
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_6
 
 [@MadoTimeQuestSatuesday1_10_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_7
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_7
 
 [@MadoTimeQuestSatuesday1_10_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_8
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_8
 
 [@MadoTimeQuestSatuesday1_10_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_9
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_9
 
 [@MadoTimeQuestSatuesday1_10_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_10
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_10
 
 #ACT
 set [206] 1
@@ -311,17 +311,17 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestSatuesday1_10_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_11
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_11
 
 [@MadoTimeQuestSatuesday1_10_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_12
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_12
 
 [@MadoTimeQuestSatuesday11_1_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_13
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_13
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -334,7 +334,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestSatuesday11_1_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_14
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_14
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -346,10 +346,10 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestSatuesday11_1_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_15
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_15
 
 #ACT
-take ¬≤√ò¬±¬¶√è√§ 1
+take ≤ÿ±¶œ‰ 1
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=3"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
@@ -357,27 +357,27 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestSatuesday11_1_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_16
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_16
 
 [@MadoTimeQuestSatuesday11_1_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_17
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_17
 
 [@MadoTimeQuestSatuesday11_1_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_18
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_18
 
 [@MadoTimeQuestSatuesday11_1_7]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_19
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_19
 
 [@MadoTimeQuestSatuesday11_1_8]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_20
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_20
 
 #ACT
 set [206] 1
@@ -467,7 +467,7 @@ break
 
 #IF
 HOUR 21 23
-Checkitem √ä¬¨¬π√á√è√Æ√Å¬¥ 1
+Checkitem  ¨π«œÓ¡¥ 1
 #ACT
 goto @MadoTimeQuestthursdaynoDB
 break
@@ -502,7 +502,7 @@ break
 HOUR 21 23
 !Equal D2 1
 !Equal D3 0
-Checkitem √ä¬¨¬π√á√è√Æ√Å¬¥ 1
+Checkitem  ¨π«œÓ¡¥ 1
 #ACT
 goto @MadoTimeQuestthursdaynoDB
 break
@@ -518,7 +518,7 @@ break
 [@MadoTimeQuestwednesday9_930]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_21
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_21
 
 #ACT
 set [206] 1
@@ -529,17 +529,17 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestwednesday9_930_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_22
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_22
 
 [@MadoTimeQuestwednesdayno]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_23
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_23
 
 [@MadoTimeQuestwednesday9_930no]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_24
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_24
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -603,7 +603,7 @@ mov D3 %ARG(2)
 
 #IF
 HOUR 0 20
-Checkitem √ä¬¨¬π√á√è√Æ√Å¬¥ 1
+Checkitem  ¨π«œÓ¡¥ 1
 #ACT
 goto @MadoTimeQuestthursdaynoDB
 break
@@ -655,7 +655,7 @@ HOUR 21 21
 MIN 1 30
 Equal D2 1
 Equal D3 0
-Checkitem √ä¬¨¬π√á√è√Æ√Å¬¥ 1
+Checkitem  ¨π«œÓ¡¥ 1
 #ACT
 goto @MadoTimeQuestSathursday9_930
 break
@@ -665,7 +665,7 @@ HOUR 21 21
 MIN 1 30
 Equal D2 1
 Equal D3 1
-Checkitem √ä¬¨¬π√á√è√Æ√Å¬¥ 1
+Checkitem  ¨π«œÓ¡¥ 1
 #ACT
 goto @MadoTimeQuestthursday9_930_no_1
 break
@@ -722,52 +722,52 @@ break
 
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_25
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_25
 
 [@MadoTimeQuestthursday9_930_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_26
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_26
 
 [@MadoTimeQuestthursday9_930_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_27
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_27
 
 [@MadoTimeQuestthursday9_930_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_28
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_28
 
 [@MadoTimeQuestthursday9_930_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_29
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_29
 
 [@MadoTimeQuestthursday9_930_5]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_30
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_30
 
 [@MadoTimeQuestthursday9_930_6]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_31
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_31
 
 [@MadoTimeQuestthursday9_930_7]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_32
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_32
 
 [@MadoTimeQuestthursday9_930_8]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_33
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_33
 
 [@MadoTimeQuestthursday9_930_no]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_34
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_34
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -777,7 +777,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestthursday9_930_9]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_35
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_35
 
 #ACT
 set [206] 1
@@ -789,7 +789,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestthursday9_930_no_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_36
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_36
 
 #ACT
 set [206] 1
@@ -800,12 +800,12 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestthursdaynoDB]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_37
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_37
 
 [@MadoTimeQuestthursday9_930_10]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_38
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_38
 
 [@MadoQuestSahafriday]
 #ACT
@@ -928,23 +928,23 @@ break
 [@MadoTimeQuestfriday_9]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_39
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_39
 
 [@MadoTimeQuestfriday_9_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_40
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_40
 
 [@MadoTimeQuestfriday_9_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_41
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_41
 
 [@MadoTimeQuestfriday_9_3]
 
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_42
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_42
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -959,12 +959,12 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestfriday_9_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_43
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_43
 
 [@MadoTimeQuestSafriday9_930]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_44
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_44
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -976,17 +976,17 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 [@MadoTimeQuestSafriday9_930_1]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_45
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_45
 
 [@MadoTimeQuestSafriday9_930_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_46
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_46
 
 [@MadoTimeQuestSafriday9_930_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_47
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_47
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -1001,12 +1001,12 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestSafriday9_930_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_48
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_48
 
 [@MadoTimeQuestSafriday9_930no]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_49
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_49
 
 [@MadoQuestSahasaturday]
 #ACT
@@ -1109,7 +1109,7 @@ break
 [@MadoTimeQuestSasunday_11]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_50
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_50
 
 [@MadoTimeQuestSasunday_11_1]
 #ACT
@@ -1138,17 +1138,17 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_51
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_51
 
 [@MadoTimeQuestSasunday_11_2]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_52
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_52
 
 [@MadoTimeQuestSasunday_11_3]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_53
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_53
 
 #ACT
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -1158,7 +1158,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 [@MadoTimeQuestSasunday_11_4]
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_54
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonDo\MadoNpcSahaka.txt] @Convert_MadoNpcSahaka_54
 
 }
-;;¬≤¬ª√í¬™√â¬æ¬µ√¥¬¥√ã√ê√ê
+;;≤ª“™…æµÙ¥À––

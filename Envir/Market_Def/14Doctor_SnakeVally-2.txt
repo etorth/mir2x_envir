@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Doctor_SnakeVally-2.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\14Doctor_SnakeVally-2.txt] @NPC_RedPlayer
 
 #ELSEACT
 goto @main_0_0
@@ -11,53 +11,53 @@ goto @main_0_0
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Doctor_SnakeVally-2.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\14Doctor_SnakeVally-2.txt] @NPC_Main
 
 [@C_NQuest]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Doctor_SnakeVally-2.txt] @NPC_C_NQuest
+	#INCLUDE [..\Convert_Def\Market_Def\14Doctor_SnakeVally-2.txt] @NPC_C_NQuest
 
 [@JIYUK_2]
-#CALL [QuestDiary/NQ_HELP/area/wang.txt] @WANG
+#CALL [\NQ_HELP\area\wang.txt] @WANG
 
 [@JIYUK_3]
-#CALL [QuestDiary/NQ_HELP/area/bichun.txt] @BICHUN
+#CALL [\NQ_HELP\area\bichun.txt] @BICHUN 
 
 [@JIYUK_4]
-#CALL [QuestDiary/NQ_HELP/area/yaksa.txt] @YAKSA
+#CALL [\NQ_HELP\area\yaksa.txt] @YAKSA
 
 [@JIYUK_5]
-#CALL [QuestDiary/NQ_HELP/area/kyunggap.txt] @KYUNGGAP
+#CALL [\NQ_HELP\area\kyunggap.txt] @KYUNGGAP
 
 [@JIYUK_6]
-#CALL [QuestDiary/NQ_HELP/area/oma.txt] @OMA
+#CALL [\NQ_HELP\area\oma.txt] @OMA
 
 [@JIYUK_7]
-#CALL [QuestDiary/NQ_HELP/area/younghon.txt] @STOLEN
+#CALL [\NQ_HELP\area\younghon.txt] @STOLEN
 
 [@JIYUK_8]
-#CALL [QuestDiary/NQ_HELP/area/bamgol.txt] @SNAKE
+#CALL [\NQ_HELP\area\bamgol.txt] @SNAKE
 
 [@JIYUK_9]
-#CALL [QuestDiary/NQ_HELP/area/tarak.txt] @TARAK
+#CALL [\NQ_HELP\area\tarak.txt] @TARAK
 
 [@JIYUK_10]
-#CALL [QuestDiary/NQ_HELP/area/umyun.txt] @UMYUN
+#CALL [\NQ_HELP\area\umyun.txt] @UMYUN
 
 [@JIYUK_11]
-#CALL [QuestDiary/NQ_HELP/area/mujun.txt] @MUJUNCS
+#CALL [\NQ_HELP\area\mujun.txt] @MUJUNCS
 
 [@JIYUK_12]
-#CALL [QuestDiary/NQ_HELP/area/pariche.txt] @PARICHE
+#CALL [\NQ_HELP\area\pariche.txt] @PARICHE
 
 [@JIYUK_13]
-#CALL [QuestDiary/NQ_HELP/area/dolumi.txt] @SUKMO
+#CALL [\NQ_HELP\area\dolumi.txt] @SUKMO
 
 [@C_TQuest]
 #IF
 CheckDailyQuest 799
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Doctor_SnakeVally-2.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\14Doctor_SnakeVally-2.txt] @NPC_TQuest
 #ELSEACT
 goto @C_TQuest_0
 
@@ -67,7 +67,7 @@ StartDailyQuest
 #ACT
 goto @C_TQuest_1
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/14Doctor_SnakeVally-2.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\14Doctor_SnakeVally-2.txt] @NPC_TQuest_1
 
 [@C_TQuest_1]
 #IF
@@ -89,11 +89,11 @@ equal d1 1
 mov d1 0
 RandSetDailyQuest 799 799
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/14Doctor_SnakeVally-2.txt] @NPC_TQuest_2
+	#INCLUDE [..\Convert_Def\Market_Def\14Doctor_SnakeVally-2.txt] @NPC_TQuest_2
 #ELSEACT
 mov d1 0
 goto @C_TQuest_3
 
 
 [@C_TQuest_3]
-#CALL [QuestDiary/QT_TODAY/SetDaily.txt] @set_Tquest
+#CALL [\QT_TODAY\SetDaily.txt] @set_Tquest

@@ -1,157 +1,157 @@
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ
 [@NecklaceMake]
 {
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_0
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_0
 
 [@madomake_Accessory_A]
 #IF
-checkitem è¡€èŠ±è½ç…§ï¼ˆè¡€ï¼‰ 1
-checkitem è¡€èŠ±è½ç…§ï¼ˆèŠ±ï¼‰ 1
-checkitem è¡€èŠ±è½ç…§ï¼ˆè½ï¼‰ 1
-checkitem è¡€èŠ±è½ç…§ï¼ˆç…§ï¼‰ 1
+checkitem Ñª»¨ÂäÕÕ£¨Ñª£© 1
+checkitem Ñª»¨ÂäÕÕ£¨»¨£© 1
+checkitem Ñª»¨ÂäÕÕ£¨Âä£© 1
+checkitem Ñª»¨ÂäÕÕ£¨ÕÕ£© 1
 checkgold 2000000
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_1
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_1
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_2
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_2
 
 [@madomake_Accessory_A_1]
 #IF
-checkitem è¡€èŠ±è½ç…§ï¼ˆè¡€ï¼‰ 1
-checkitem è¡€èŠ±è½ç…§ï¼ˆèŠ±ï¼‰ 1
-checkitem è¡€èŠ±è½ç…§ï¼ˆè½ï¼‰ 1
-checkitem è¡€èŠ±è½ç…§ï¼ˆç…§ï¼‰ 1
+checkitem Ñª»¨ÂäÕÕ£¨Ñª£© 1
+checkitem Ñª»¨ÂäÕÕ£¨»¨£© 1
+checkitem Ñª»¨ÂäÕÕ£¨Âä£© 1
+checkitem Ñª»¨ÂäÕÕ£¨ÕÕ£© 1
 checkgold 2000000
 #ACT
-take è¡€èŠ±è½ç…§ï¼ˆè¡€ï¼‰ 1
-take è¡€èŠ±è½ç…§ï¼ˆèŠ±ï¼‰ 1
-take è¡€èŠ±è½ç…§ï¼ˆè½ï¼‰ 1
-take è¡€èŠ±è½ç…§ï¼ˆç…§ï¼‰ 1
-take é‡‘å¸ 2000000
-give è¡€èŠ±è½ç…§ 1
+take Ñª»¨ÂäÕÕ£¨Ñª£© 1
+take Ñª»¨ÂäÕÕ£¨»¨£© 1
+take Ñª»¨ÂäÕÕ£¨Âä£© 1
+take Ñª»¨ÂäÕÕ£¨ÕÕ£© 1
+take ½ğ±Ò 2000000
+give Ñª»¨ÂäÕÕ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_3
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_3
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_4
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_4
 
 [@madomake_Accessory_B]
 #IF
-checkitem é»‘å¤©æš—äº‘ï¼ˆé»‘ï¼‰ 1
-checkitem é»‘å¤©æš—äº‘ï¼ˆå¤©ï¼‰ 1
-checkitem é»‘å¤©æš—äº‘ï¼ˆæš—ï¼‰ 1
-checkitem é»‘å¤©æš—äº‘ï¼ˆäº‘ï¼‰ 1
+checkitem ºÚÌì°µÔÆ£¨ºÚ£© 1
+checkitem ºÚÌì°µÔÆ£¨Ìì£© 1
+checkitem ºÚÌì°µÔÆ£¨°µ£© 1
+checkitem ºÚÌì°µÔÆ£¨ÔÆ£© 1
 checkgold 2000000
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_5
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_5
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_6
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_6
 
 [@madomake_Accessory_B_1]
 #IF
-checkitem é»‘å¤©æš—äº‘ï¼ˆé»‘ï¼‰ 1
-checkitem é»‘å¤©æš—äº‘ï¼ˆå¤©ï¼‰ 1
-checkitem é»‘å¤©æš—äº‘ï¼ˆæš—ï¼‰ 1
-checkitem é»‘å¤©æš—äº‘ï¼ˆäº‘ï¼‰ 1
+checkitem ºÚÌì°µÔÆ£¨ºÚ£© 1
+checkitem ºÚÌì°µÔÆ£¨Ìì£© 1
+checkitem ºÚÌì°µÔÆ£¨°µ£© 1
+checkitem ºÚÌì°µÔÆ£¨ÔÆ£© 1
 checkgold 2000000
 #ACT
-take é»‘å¤©æš—äº‘ï¼ˆé»‘ï¼‰ 1
-take é»‘å¤©æš—äº‘ï¼ˆå¤©ï¼‰ 1
-take é»‘å¤©æš—äº‘ï¼ˆæš—ï¼‰ 1
-take é»‘å¤©æš—äº‘ï¼ˆäº‘ï¼‰ 1
-take é‡‘å¸ 2000000
-give é»‘å¤©æš—äº‘ 1
+take ºÚÌì°µÔÆ£¨ºÚ£© 1
+take ºÚÌì°µÔÆ£¨Ìì£© 1
+take ºÚÌì°µÔÆ£¨°µ£© 1
+take ºÚÌì°µÔÆ£¨ÔÆ£© 1
+take ½ğ±Ò 2000000
+give ºÚÌì°µÔÆ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_7
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_7
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_8
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_8
 
 [@madomake_Accessory_C]
 #IF
-checkitem ä¹å®«äº‘é›¾ï¼ˆä¹ï¼‰ 1
-checkitem ä¹å®«äº‘é›¾ï¼ˆå®«ï¼‰ 1
-checkitem ä¹å®«äº‘é›¾ï¼ˆäº‘ï¼‰ 1
-checkitem ä¹å®«äº‘é›¾ï¼ˆé›¾ï¼‰ 1
+checkitem ¾Å¹¬ÔÆÎí£¨¾Å£© 1
+checkitem ¾Å¹¬ÔÆÎí£¨¹¬£© 1
+checkitem ¾Å¹¬ÔÆÎí£¨ÔÆ£© 1
+checkitem ¾Å¹¬ÔÆÎí£¨Îí£© 1
 checkgold 2000000
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_9
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_9
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_10
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_10
 
 [@madomake_Accessory_C_1]
 #IF
-checkitem ä¹å®«äº‘é›¾ï¼ˆä¹ï¼‰ 1
-checkitem ä¹å®«äº‘é›¾ï¼ˆå®«ï¼‰ 1
-checkitem ä¹å®«äº‘é›¾ï¼ˆäº‘ï¼‰ 1
-checkitem ä¹å®«äº‘é›¾ï¼ˆé›¾ï¼‰ 1
+checkitem ¾Å¹¬ÔÆÎí£¨¾Å£© 1
+checkitem ¾Å¹¬ÔÆÎí£¨¹¬£© 1
+checkitem ¾Å¹¬ÔÆÎí£¨ÔÆ£© 1
+checkitem ¾Å¹¬ÔÆÎí£¨Îí£© 1
 checkgold 2000000
 #ACT
-take ä¹å®«äº‘é›¾ï¼ˆä¹ï¼‰ 1
-take ä¹å®«äº‘é›¾ï¼ˆå®«ï¼‰ 1
-take ä¹å®«äº‘é›¾ï¼ˆäº‘ï¼‰ 1
-take ä¹å®«äº‘é›¾ï¼ˆé›¾ï¼‰ 1
-take é‡‘å¸ 2000000
-give ä¹å®«äº‘é›¾ 1
+take ¾Å¹¬ÔÆÎí£¨¾Å£© 1
+take ¾Å¹¬ÔÆÎí£¨¹¬£© 1
+take ¾Å¹¬ÔÆÎí£¨ÔÆ£© 1
+take ¾Å¹¬ÔÆÎí£¨Îí£© 1
+take ½ğ±Ò 2000000
+give ¾Å¹¬ÔÆÎí 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_11
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_11
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_12
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_12
 
 [@madomake_Accessory_D]
 #IF
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆä¸‡ï¼‰ 1
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆé‡Œï¼‰ 1
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆç¢§ï¼‰ 1
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆæµ·ï¼‰ 1
+checkitem ÍòÀï±Ìº££¨Íò£© 1
+checkitem ÍòÀï±Ìº££¨Àï£© 1
+checkitem ÍòÀï±Ìº££¨±Ì£© 1
+checkitem ÍòÀï±Ìº££¨º££© 1
 checkgold 2000000
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_13
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_13
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_14
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_14
 
 [@madomake_Accessory_D_1]
 #IF
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆä¸‡ï¼‰ 1
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆé‡Œï¼‰ 1
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆç¢§ï¼‰ 1
-checkitem ä¸‡é‡Œç¢§æµ·ï¼ˆæµ·ï¼‰ 1
+checkitem ÍòÀï±Ìº££¨Íò£© 1
+checkitem ÍòÀï±Ìº££¨Àï£© 1
+checkitem ÍòÀï±Ìº££¨±Ì£© 1
+checkitem ÍòÀï±Ìº££¨º££© 1
 checkgold 2000000
 #ACT
-take ä¸‡é‡Œç¢§æµ·ï¼ˆä¸‡ï¼‰ 1
-take ä¸‡é‡Œç¢§æµ·ï¼ˆé‡Œï¼‰ 1
-take ä¸‡é‡Œç¢§æµ·ï¼ˆç¢§ï¼‰ 1
-take ä¸‡é‡Œç¢§æµ·ï¼ˆæµ·ï¼‰ 1
-take é‡‘å¸ 2000000
-give ä¸‡é‡Œç¢§æµ· 1
+take ÍòÀï±Ìº££¨Íò£© 1
+take ÍòÀï±Ìº££¨Àï£© 1
+take ÍòÀï±Ìº££¨±Ì£© 1
+take ÍòÀï±Ìº££¨º££© 1
+take ½ğ±Ò 2000000
+give ÍòÀï±Ìº£ 1
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_15
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_15
 
 
 #ELSESAY
-#INCLUDE [Convert_Def/QuestDiary/System/NecklaceMake.txt] @Convert_NecklaceMake_16
+#INCLUDE [..\Convert_Def\QuestDiary\System\NecklaceMake.txt] @Convert_NecklaceMake_16
 
 }
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ

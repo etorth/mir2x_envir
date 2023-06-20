@@ -1,25 +1,25 @@
 ;;DoKwanTele.txt
 [@DoKwanTele_1]
 {
-ÂÖ≠Èù¢Á•ûÁü≥ \ \
-<ÁßªÂä®Ëá≥ÊØîÂ•áÂüéÊâÄÈúÄÈáëÈí± : 500 Èí±/@TelePortRootin(Bichon,500,North)> \ \
-<ÁßªÂä®Ëá≥ÊØíËõáÂ±±ÊùëÊâÄÈúÄÈáëÈí± : 1000 Èí±/@TelePortRootin(SnakeVally,1000,South)> \
-<ÁßªÂä®Ëá≥Èì∂ÊùèÂ±±ÊùëÊâÄÈúÄÈáëÈí± : 1000 Èí±/@TelePortRootin(EunHang,1000,Center)> \
-<ÁßªÂä®Ëá≥ËæπÂ¢ÉÊùëÂ∫ÑÊâÄÈúÄÈáëÈí± : 1000 Èí±/@TelePortRootin(KugKyung,1000,North)> \ \
-<ÁßªÂä®Ëá≥ÊΩòÂ§úÂ≤õÊùëÊâÄÈúÄÈáëÈí± : 1500 Èí±/@TelePortRootin(HalfMoon,1500,Center)> \
-<ÁßªÂä®Ëá≥ÁõüÈáçÂúüÂüéÊâÄÈúÄÈáëÈí± : 1500 Èí±/@TelePortRootin(MongChon,1500,East)> \ \
-<ÁßªÂä®Ëá≥Ê≤ôÊº†ÂúüÂüéÊâÄÈúÄÈáëÈí± : 2000 Èí±/@TelePortRootin(Samak,2000,East)> \ \
-<ÁßªÂä®Ëá≥ÁªøÊ¥≤ÊùëÊâÄÈúÄÈáëÈí± : 2500 Èí±/@TelePortRootin(Oasis,2500,Center)> \ \
-;;<Á©ø‰ªò‰ªòÈòë ÊçûÊÇºÂ§∏Èôõ : 3000 Èí±/@TelePortRootin(Numa,3000,Center)> \ \
+¡˘√Ê…Ò Ø \ \
+<“∆∂Ø÷¡±»∆Ê≥«À˘–ËΩ«Æ : 500 «Æ/@TelePortRootin(Bichon,500,North)> \ \
+<“∆∂Ø÷¡∂æ…ﬂ…Ω¥ÂÀ˘–ËΩ«Æ : 1000 «Æ/@TelePortRootin(SnakeVally,1000,South)> \
+<“∆∂Ø÷¡“¯–”…Ω¥ÂÀ˘–ËΩ«Æ : 1000 «Æ/@TelePortRootin(EunHang,1000,Center)> \
+<“∆∂Ø÷¡±ﬂæ≥¥Â◊ØÀ˘–ËΩ«Æ : 1000 «Æ/@TelePortRootin(KugKyung,1000,North)> \ \
+<“∆∂Ø÷¡≈À“πµ∫¥ÂÀ˘–ËΩ«Æ : 1500 «Æ/@TelePortRootin(HalfMoon,1500,Center)> \
+<“∆∂Ø÷¡√À÷ÿÕ¡≥«À˘–ËΩ«Æ : 1500 «Æ/@TelePortRootin(MongChon,1500,East)> \ \
+<“∆∂Ø÷¡…≥ƒÆÕ¡≥«À˘–ËΩ«Æ : 2000 «Æ/@TelePortRootin(Samak,2000,East)> \ \
+<“∆∂Ø÷¡¬Ã÷ﬁ¥ÂÀ˘–ËΩ«Æ : 2500 «Æ/@TelePortRootin(Oasis,2500,Center)> \ \
+;;<¥©∏∂∏∂¿ª ¿Ãµøø‰±› : 3000 «Æ/@TelePortRootin(Numa,3000,Center)> \ \
 }
 
 [@DoKwanTele_2]
 {
-<ÁßªÂä®Ëá≥ÊîªÂüéÊàòÂú∞ÂüüÊâÄÈúÄÈáëÈí± : 500 Èí±/@TelePortRootin(SaBuk,500,Center)> \
+<“∆∂Ø÷¡π•≥«’Ωµÿ”ÚÀ˘–ËΩ«Æ : 500 «Æ/@TelePortRootin(SaBuk,500,Center)> \
 }
 
 [@DoKwanTele_3]
 {
-<ÁßªÂä®Ëá≥ÊîªÂüéÊàòÂú∞ÂüüÊâÄÈúÄÈáëÈí± : 500 Èí±/@TelePortRootin(Sabuk,500,Center)> \
+<“∆∂Ø÷¡π•≥«’Ωµÿ”ÚÀ˘–ËΩ«Æ : 500 «Æ/@TelePortRootin(Sabuk,500,Center)> \
 }
 

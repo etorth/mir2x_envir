@@ -4,33 +4,33 @@
 	#IF
 		IsAdmin
 	#SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_1
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_1
 
 	#IF
 		IsCastleGuild Sabuk
 		IsGuildMaster
 	#SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_2
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_2
 
 
 	#IF
-	   !IsOnCastleWar SaBuk       ;; °ø¼ºÁßÀÌ ¾Æ´Ò¶§
-	   !IsOnReadyCastleWar Sabuk  ;; °ø¼º ÁØºñ ½Ã°£ÀÌ ¾Æ´Ò‹š
-  		IsCastleGuild Sabuk        ;; »çºÏ¼º ÁÖÀÎ ÀÏ °æ¿ì
-		IsGuildMaster              ;; ±æµå Â¯ÀÌ °æ¿ì (±Ý¾× ÀÎÃâ°ú ÀÏÁ¤À» º¼¼ö°¡ ÀÖÀ½)
+	   !IsOnCastleWar SaBuk       ;; �������� �ƴҶ�
+	   !IsOnReadyCastleWar Sabuk  ;; ���� �غ� �ð��� �ƴҋ�
+  		IsCastleGuild Sabuk        ;; ��ϼ� ���� �� ���
+		IsGuildMaster              ;; ��� ¯�� ��� (�ݾ� ����� ������ ������ ����)
 	#SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_3
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_3
 
 
 	#ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_4
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_4
 
 
 ;-------------------------------------------------------------------------------
 
 [@admin_menu]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_5
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_5
 
 
 [@@*Admin_passwd]
@@ -41,11 +41,11 @@ mov  A0 %INPUTSTR
 equal A0  %PASSWD(1)
 
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_6
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_6
 
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_7
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_7
 
 
 ;-------------------------------------------------------------------------------
@@ -55,33 +55,33 @@ ChangeUserName @ChangeUserNameResult
 
 [@ChangeUserNameResult]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_8
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_8
 
 
 [@ChangeUserNameResult~]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_9
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_9
 
 
 ;-------------------------------------------------------------------------------
 [@monkill]
-#CALL [QuestDiary/CastleWar/É³°Í¿Ë¹ÖÎï¹¥³Ç.txt] @É³³Ç»î¶¯
+#CALL [\CastleWar\ɳ�Ϳ˹��﹥��.txt] @ɳ�ǻ
 
 [@gold_rain]
 #ACT
-DropItemMap "3, 209, 164, 40" ½ð±Ò 1000  1000
+DropItemMap "3, 209, 164, 40" ��� 1000  1000 
 
 [@potion_rain]
 #ACT
-DropItemMap "3, 209, 164, 40" Ç¿Ð§Ì«ÑôË® 1  100
+DropItemMap "3, 209, 164, 40" ǿЧ̫��ˮ 1  100
 
 [@gold_clear]
 #ACT
-ClearItemMap "3, 209, 164, 45" ½ð±Ò
+ClearItemMap "3, 209, 164, 45" ���
 
 [@potion_clear]
 #ACT
-ClearItemMap "3, 209, 164, 45" Ç¿Ð§Ì«ÑôË®
+ClearItemMap "3, 209, 164, 45" ǿЧ̫��ˮ
 
 [@allitem_clear]
 #ACT
@@ -99,26 +99,26 @@ ClearItemMap "3, 209, 164, 45"  *
 	[@DrawTax]
 	begin
 	   #IF
-	      small d2 0    ;; À¯Àú°¡ - °ªÀ» ÀÔ·ÂÀ» ÇßÀ»½Ã
+	      small d2 0    ;; ������ - ���� �Է��� ������
       #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_10
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_10
 
       #ACT
          break
 		#IF
-			small d1 0    ;; »çºÏ¼ºÀÇ ¼¼±ÝÀÌ ¾øÀ» °æ¿ì´Â ÀÎÃâÀÌ µÇÁö ¾ÊÀ½
+			small d1 0    ;; ��ϼ��� ������ ���� ���� ������ ���� ����
 		#SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_11
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_11
 
 		#ACT
 			break
 		#IF
 			small d1 %d2
 		#SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_12
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_12
 
 		#ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_13
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_13
 
 		#ELSEACT
 			GetBackCastleGold SABUK %d2
@@ -130,7 +130,7 @@ ClearItemMap "3, 209, 164, 45"  *
 #IF
 IsOnCastleWar SaBuk
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_14
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_14
 
 #ACT
 break
@@ -138,7 +138,7 @@ break
 #IF
 !IsGuildMaster
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_15
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_15
 
 #ACT
 break
@@ -146,15 +146,15 @@ break
 #IF
 IsCastleGuild Sabuk
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_16
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_16
 
 #ACT
 break
 
 #IF
-!checkitem ×æÂêÍ·Ïñ 1
+!checkitem ����ͷ�� 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_17
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_17
 
 #ACT
 break
@@ -163,22 +163,22 @@ break
 CanProposeCastleWar Sabuk
 #ACT
 ProposeCastleWar  Sabuk
-take ×æÂêÍ·Ïñ 1
+take ����ͷ�� 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_18
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_18
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_19
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_19
 
 
 [@requestcastlewar]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_20
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_20
 
 
 [@view_warschedule]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_21
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_21
 
 
 ;-------------------------------------------------------------------------------
@@ -186,35 +186,35 @@ take ×æÂêÍ·Ïñ 1
 [@FlagTest]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_22
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_22
 
 
 #IF
 IsOnCastleWar [sabuk]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_23
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_23
 
 
 #IF
 !IsOnCastleWar [sabuk]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_24
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_24
 
 
 [@DoorState1]
 ;Front Door
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_25
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_25
 
 
 #IF
 CheckCastleDoor [SABUK] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_26
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_26
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_27
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_27
 
 #ELSEACT
 break
@@ -222,26 +222,26 @@ break
 #IF
 CheckCastleDoorOpen [SABUK] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_28
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_28
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_29
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_29
 
 
 [@DoorState2]
 ;Left Door
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_30
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_30
 
 
 #IF
 CheckCastleDoor [SABUK] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_31
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_31
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_32
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_32
 
 #ELSEACT
 break
@@ -249,26 +249,26 @@ break
 #IF
 CheckCastleDoorOpen [SABUK] 3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_33
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_33
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_34
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_34
 
 
 [@DoorState3]
 ;Right
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_35
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_35
 
 
 #IF
 CheckCastleDoor [SABUK] 4
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_36
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_36
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_37
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_37
 
 #ELSEACT
 break
@@ -276,10 +276,10 @@ break
 #IF
 CheckCastleDoorOpen [SABUK] 4
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_38
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_38
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_39
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_39
 
 
 ;-------------------------------------------------------------------------------
@@ -288,18 +288,18 @@ CheckCastleDoorOpen [SABUK] 4
 #IF
 !IsOnCastleWar Sabuk
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_40
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_40
 
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_41
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_41
 
 
 [@Front_make_door_comfirm]
 #IF
 !checkgold 500000
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_42
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_42
 
 #ACT
 break
@@ -307,13 +307,13 @@ break
 #IF
 !CheckCastleDoor [SABUK] 1
 #ACT
-take ½ð±Ò 500000
+take ��� 500000
 MakeCastleDoor  [SABUK]  1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_43
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_43
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_44
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_44
 
 
 ;-------------------------------------------------------------------------------
@@ -322,17 +322,17 @@ MakeCastleDoor  [SABUK]  1
 #IF
 !IsOnCastleWar Sabuk
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_45
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_45
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_46
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_46
 
 
 [@Left_make_door_comfirm]
 #IF
 !checkgold 500000
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_47
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_47
 
 #ACT
 break
@@ -340,13 +340,13 @@ break
 #IF
 !CheckCastleDoor [SABUK] 3
 #ACT
-take ½ð±Ò 500000
+take ��� 500000
 MakeCastleDoor  [SABUK]  3
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_48
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_48
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_49
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_49
 
 
 ;-------------------------------------------------------------------------------
@@ -355,17 +355,17 @@ MakeCastleDoor  [SABUK]  3
 #IF
 !IsOnCastleWar Sabuk
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_50
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_50
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_51
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_51
 
 
 [@Right_make_door_comfirm]
 #IF
 !checkgold 500000
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_52
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_52
 
 #ACT
 break
@@ -373,13 +373,13 @@ break
 #IF
 !CheckCastleDoor [SABUK] 4
 #ACT
-take ½ð±Ò 500000
+take ��� 500000
 MakeCastleDoor  [SABUK]  4
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_53
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_53
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_54
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_54
 
 
 ;-------------------------------------------------------------------------------
@@ -389,12 +389,12 @@ MakeCastleDoor  [SABUK]  4
 CheckCastleDoor [SABUK] 1
 !CheckCastleDoorOpen [SABUK] 1
 #ACT
-SENDCMD  "3, 235, 192, 4" É³°Í¿Ë³ÇÃÅ1 OPEN
+SENDCMD  "3, 235, 192, 4" ɳ�Ϳ˳���1 OPEN
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_55
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_55
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_56
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_56
 
 
 [@Front_close_door]
@@ -402,12 +402,12 @@ SENDCMD  "3, 235, 192, 4" É³°Í¿Ë³ÇÃÅ1 OPEN
 CheckCastleDoor [SABUK] 1
 CheckCastleDoorOpen [SABUK] 1
 #ACT
-SENDCMD  "3, 235, 192, 4" É³°Í¿Ë³ÇÃÅ1 CLOSE
+SENDCMD  "3, 235, 192, 4" ɳ�Ϳ˳���1 CLOSE
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_57
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_57
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_58
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_58
 
 
 ;-------------------------------------------------------------------------------
@@ -417,12 +417,12 @@ SENDCMD  "3, 235, 192, 4" É³°Í¿Ë³ÇÃÅ1 CLOSE
 CheckCastleDoor [SABUK] 3
 !CheckCastleDoorOpen [SABUK] 3
 #ACT
-SENDCMD    "3, 169, 191, 1" É³°Í¿Ë³ÇÃÅ3 OPEN
+SENDCMD    "3, 169, 191, 1" ɳ�Ϳ˳���3 OPEN
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_59
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_59
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_60
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_60
 
 
 [@Left_close_door]
@@ -430,12 +430,12 @@ SENDCMD    "3, 169, 191, 1" É³°Í¿Ë³ÇÃÅ3 OPEN
 CheckCastleDoor [SABUK] 3
 CheckCastleDoorOpen [SABUK] 3
 #ACT
-SENDCMD    "3, 169, 191, 1" É³°Í¿Ë³ÇÃÅ3 CLOSE
+SENDCMD    "3, 169, 191, 1" ɳ�Ϳ˳���3 CLOSE
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_61
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_61
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_62
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_62
 
 
 ;-------------------------------------------------------------------------------
@@ -445,12 +445,12 @@ SENDCMD    "3, 169, 191, 1" É³°Í¿Ë³ÇÃÅ3 CLOSE
 CheckCastleDoor [SABUK] 4
 !CheckCastleDoorOpen [SABUK] 4
 #ACT
-SENDCMD    "3, 233, 127, 1" É³°Í¿Ë³ÇÃÅ4 OPEN
+SENDCMD    "3, 233, 127, 1" ɳ�Ϳ˳���4 OPEN
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_63
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_63
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_64
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_64
 
 
 [@Right_Close_door]
@@ -458,11 +458,11 @@ SENDCMD    "3, 233, 127, 1" É³°Í¿Ë³ÇÃÅ4 OPEN
 CheckCastleDoor [SABUK] 4
 CheckCastleDoorOpen [SABUK] 4
 #ACT
-SENDCMD    "3, 233, 127, 1" É³°Í¿Ë³ÇÃÅ4 CLOSE
+SENDCMD    "3, 233, 127, 1" ɳ�Ϳ˳���4 CLOSE
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_65
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_65
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/CastleWar/Manager.txt] @Manager_66
+	#INCLUDE [..\Convert_Def\QuestDiary\CastleWar\Manager.txt] @Manager_66
 
 }

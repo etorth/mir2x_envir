@@ -3,15 +3,15 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09ChangeMoney_Samak-5_006.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\09ChangeMoney_Samak-5_006.txt] @NPC_Main
 #ELSEACT
 goto @main_0_0
 
 [@main_0_0]
-#CALL [QuestDiary/ChangeMoney/ChangeMoney.txt] @Change
+#CALL [\ChangeMoney\ChangeMoney.txt] @Change
 
 
 [@TQuest]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/09ChangeMoney_Samak-5_006.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\09ChangeMoney_Samak-5_006.txt] @NPC_TQuest

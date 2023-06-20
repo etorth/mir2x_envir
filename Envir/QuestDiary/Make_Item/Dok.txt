@@ -2,48 +2,48 @@
 [@make_Drug_main]
 {
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_1
 
 
 ;------------------------
 
 [@Make_Drug_GDrug]
 #IF
-checkitem é£Ÿäººæ ‘çš„æœå® 3
-checkitem æ¯’èœ˜è››ç‰™é½¿ 2
-checkitem é£Ÿäººæ ‘å¶ 6
+checkitem Ê³ÈËÊ÷µÄ¹ûÊµ 3
+checkitem ¶¾Ö©ÖëÑÀ³İ 2
+checkitem Ê³ÈËÊ÷Ò¶ 6
 #ACT
-take é£Ÿäººæ ‘çš„æœå® 3
-take æ¯’èœ˜è››ç‰™é½¿ 2
-take é£Ÿäººæ ‘å¶ 6
+take Ê³ÈËÊ÷µÄ¹ûÊµ 3
+take ¶¾Ö©ÖëÑÀ³İ 2
+take Ê³ÈËÊ÷Ò¶ 6
 goto @Make_Drug_GDrug_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_2
 
 
 [@Make_Drug_GDrug_3]
 #IF
 #ACT
-give ç°è‰²è¯ç²‰ï¼ˆå°ï¼‰ 1
+give »ÒÉ«Ò©·Û£¨Ğ¡£© 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_3
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_3
 
 
 ;------------------------
 
 [@Make_Drug_GDrugM]
 #IF
-checkitem é£Ÿäººæ ‘çš„æœå® 4
-checkitem æ¯’èœ˜è››ç‰™é½¿ 6
-checkitem é£Ÿäººæ ‘å¶ 6
+checkitem Ê³ÈËÊ÷µÄ¹ûÊµ 4
+checkitem ¶¾Ö©ÖëÑÀ³İ 6
+checkitem Ê³ÈËÊ÷Ò¶ 6
 #ACT
-take é£Ÿäººæ ‘çš„æœå® 4
-take æ¯’èœ˜è››ç‰™é½¿ 6
-take é£Ÿäººæ ‘å¶ 6
+take Ê³ÈËÊ÷µÄ¹ûÊµ 4
+take ¶¾Ö©ÖëÑÀ³İ 6
+take Ê³ÈËÊ÷Ò¶ 6
 mov d0 0
 goto @Make_Drug_GDrugM_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_4
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_4
 
 
 [@Make_Drug_GDrugM_1]
@@ -61,16 +61,16 @@ goto @Make_Drug_GDrugM_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_5
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_5
 
 
 [@Make_Drug_GDrugM_3]
 #IF
 #ACT
-give ç°è‰²è¯ç²‰ï¼ˆä¸­ï¼‰ 1
+give »ÒÉ«Ò©·Û£¨ÖĞ£© 1
 mov d0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_6
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_6
 
 
 
@@ -78,41 +78,41 @@ mov d0 0
 
 [@Make_Drug_YDrug]
 #IF
-checkitem è›†åµ 2
-checkitem èå­çš„å°¾å·´ 2
-checkitem é£Ÿäººæ ‘å¶ 2
+checkitem ÇùÂÑ 2
+checkitem Ğ«×ÓµÄÎ²°Í 2
+checkitem Ê³ÈËÊ÷Ò¶ 2 
 #ACT
-take è›†åµ 2
-take èå­çš„å°¾å·´ 2
-take é£Ÿäººæ ‘å¶ 2
+take ÇùÂÑ 2
+take Ğ«×ÓµÄÎ²°Í 2
+take Ê³ÈËÊ÷Ò¶ 2 
 goto @Make_Drug_YDrug_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_7
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_7
 
 
 [@Make_Drug_YDrug_3]
 #IF
 #ACT
-give é»„è‰²è¯ç²‰ï¼ˆå°ï¼‰ 1
+give »ÆÉ«Ò©·Û£¨Ğ¡£© 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_8
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_8
 
 
 ;------------------------
 
 [@Make_Drug_YDrugM]
 #IF
-checkitem è›†åµ 2
-checkitem èå­çš„å°¾å·´ 5
-checkitem é£Ÿäººæ ‘å¶ 6
+checkitem ÇùÂÑ 2
+checkitem Ğ«×ÓµÄÎ²°Í 5
+checkitem Ê³ÈËÊ÷Ò¶ 6
 #ACT
-take è›†åµ 2
-take èå­çš„å°¾å·´ 5
-take é£Ÿäººæ ‘å¶ 6
+take ÇùÂÑ 2
+take Ğ«×ÓµÄÎ²°Í 5
+take Ê³ÈËÊ÷Ò¶ 6
 mov d0 0
 goto @Make_Drug_YDrugM_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_9
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_9
 
 
 [@Make_Drug_YDrugM_1]
@@ -130,16 +130,16 @@ goto @Make_Drug_YDrugM_3
 #ELSEACT
 mov d0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_10
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_10
 
 
 [@Make_Drug_YDrugM_3]
 #IF
 #ACT
-give é»„è‰²è¯ç²‰ï¼ˆä¸­ï¼‰ 1
+give »ÆÉ«Ò©·Û£¨ÖĞ£© 1
 mov d0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Dok.txt] @Dok_11
+	#INCLUDE [..\Convert_Def\QuestDiary\Make_Item\Dok.txt] @Dok_11
 
 
 ;------------------------

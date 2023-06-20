@@ -1,3 +1,3 @@
 ;;15Magic_DoGwan-1_011.txt
 [@main]
-#CALL [QuestDiary/MU_taoist/hiden.txt] @mugong_hiding_test
+#CALL [\MU_taoist\hiden.txt] @mugong_hiding_test

@@ -1,6 +1,0 @@
-;;AntTele.txt
-[@AntTele_1]
-{
-六面神石 \ \
-<移动至绿洲村所需金钱 : 500 钱/@TelePortRootin(Oasis,500,Center)> \
-}

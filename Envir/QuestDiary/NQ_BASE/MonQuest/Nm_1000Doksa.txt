@@ -21,8 +21,8 @@ goto @baksa1
 
 [@baksa1]
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_1000Doksa.txt] @Nm_1000Doksa_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_BASE\MonQuest\Nm_1000Doksa.txt] @Nm_1000Doksa_1
 
 #ACT
 set [217] 1
-give 千年毒蛇胆汁 1
+give ǧ�궾�ߵ�֭ 1

@@ -20,7 +20,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -32,39 +32,39 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_Main
 
-;----------------------------------------------------------
+;---------------------------------------------------------- 
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
 ;; Wizard Ring
-ÂÖ≠ÁªùÊòüÁéØ        100        1
-ÁéÑÈìÅÊåáÁéØ        100        1
-ËõáÁúºÊàíÊåá        100        1
-;; Wizard Bracelet
-ÈªëÊ™ÄÊâãÈïØ        100        1
-;; Wizard Necklace
-ÈªëÊ™ÄÈ°πÈìæ        100        1
-;;ÁôΩÈáëÈ°πÈìæ        100        1
-Áê•ÁèÄÈ°πÈìæ        100        1
-;;‰∫îËâ≤È°πÈìæ        100        1
+¡˘æ¯–«ª∑        100        1
+–˛Ã˙÷∏ª∑        100        1
+…ﬂ—€Ω‰÷∏        100        1
+;; Wizard Bracelet 
+∫⁄Ã¥ ÷ÔÌ        100        1
+;; Wizard Necklace 
+∫⁄Ã¥œÓ¡¥        100        1
+;;∞◊ΩœÓ¡¥        100        1
+Á˙ÁÍœÓ¡¥        100        1
+;;ŒÂ…´œÓ¡¥        100        1
 
 
 
@@ -116,7 +116,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -139,10 +139,10 @@ goto @TQuest587_1
 ;--------------
 
 [@TQuest587_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @587_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @587_START
 
 [@TQuest587_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @587_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @587_CHECK1
 
 ;------------------------
 
@@ -165,10 +165,10 @@ goto @TQuest583_1
 ;--------------
 
 [@TQuest583_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @583_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @583_START
 
 [@TQuest583_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @583_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @583_CHECK1
 
 
 ;------------------------
@@ -192,16 +192,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @425_START
+#CALL [\QT_TODAY\4thClass.txt] @425_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @425_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @425_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_Eunhang-02.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_Eunhang-02.txt] @NPC_TQuest_1
 
 ;----------------------------------
 
@@ -224,10 +224,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @446_START
+#CALL [\QT_TODAY\4thClass.txt] @446_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @446_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @446_CHECK1
 
 ;--------------------------------
 
@@ -250,10 +250,10 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @505_START
+;;#CALL [\QT_TODAY\5thClass.txt] @505_START
 
 [@TQuest3_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @505_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @505_CHECK1
 
 
 ;----------------------------------
@@ -277,9 +277,9 @@ goto @TQuest4_1
 ;--------------
 
 [@TQuest4_1]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @526_START
+;;#CALL [\QT_TODAY\5thClass.txt] @526_START
 
 [@TQuest4_2]
-;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @526_CHECK1
+;;#CALL [\QT_TODAY\5thClass.txt] @526_CHECK1
 
 ;----------------------------------

@@ -27,9 +27,9 @@ goto @umgwisa1
 [@umgwisa1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/NQ_EXTRA/MonQuest/Nm_WoomaGisa.txt] @Nm_WoomaGisa_1
+	#INCLUDE [..\Convert_Def\QuestDiary\NQ_EXTRA\MonQuest\Nm_WoomaGisa.txt] @Nm_WoomaGisa_1
 
 #ACT
-give √Å√©¬ª√™√É√∑√ñ√© 1
+give ¡ÈªÍ√˜÷È 1
 set [288] 1
 ;----------------------------------------------------------

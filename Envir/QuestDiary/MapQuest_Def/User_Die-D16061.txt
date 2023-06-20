@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 
 [@Main]
 #IF
@@ -10,5 +10,5 @@ break
 break
 
 [@honchondostep_use_0]
-#CALL [QuestDiary/HonChonDo/Mon_extinction.txt] @honchondostep_user
-;;涓嶈鍒犳帀姝よ
+#CALL [HonChonDo\Mon_extinction.txt] @honchondostep_user
+;;不要删掉此行

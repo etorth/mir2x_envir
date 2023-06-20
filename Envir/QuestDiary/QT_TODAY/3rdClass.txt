@@ -10,13 +10,13 @@ goto @301_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_1
 
 
 [@301_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_2
 
 
 [@301_START_2]
@@ -25,7 +25,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_3
 
 }
 
@@ -35,29 +35,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_4
 
 
 [@301_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_5
 
 
 [@301_CHECK1_2]
 #IF
-checkitem ¬∫√ñ√â¬´√Ä√µ√ó√ì 20
+checkitem ∫÷…´¿ı◊” 20
 #ACT
 goto @301_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_6
 
 
 [@301_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬∫√ñ√â¬´√Ä√µ√ó√ì 20
+checkitem ∫÷…´¿ı◊” 20
 #ACT
 movr s0 100
 inc s0 1
@@ -76,13 +76,13 @@ small s0 5
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Race_5]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_5]
-take ¬∫√ñ√â¬´√Ä√µ√ó√ì 20
+take ∫÷…´¿ı◊” 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_7
 
 #ELSEACT
 goto @301_Reward_1
@@ -96,7 +96,7 @@ small s0 20
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_15]
-take ¬∫√ñ√â¬´√Ä√µ√ó√ì 20
+take ∫÷…´¿ı◊” 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -106,17 +106,17 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_80_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Race_80_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [301] [Reward_Amount_80_Type2]
-take ¬∫√ñ√â¬´√Ä√µ√ó√ì 20
+take ∫÷…´¿ı◊” 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_8
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @301_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @301_9
 
 }
 
@@ -131,13 +131,13 @@ goto @302_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_1
 
 
 [@302_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_2
 
 
 [@302_START_2]
@@ -146,7 +146,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_3
 
 }
 
@@ -156,28 +156,28 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_4
 
 
 [@302_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_5
 
 
 [@302_CHECK1_2]
 #IF
-checkitem ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 30
+checkitem ª—ÊŒ÷¬Í∫≈Ω« 30
 #ACT
 goto @302_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_6
 
 
 
 [@302_CHECK1_3]
 #IF
-checkitem ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 30
+checkitem ª—ÊŒ÷¬Í∫≈Ω« 30
 #ACT
 movr s0 100
 inc s0 1
@@ -190,14 +190,14 @@ check [310] 1
 #ACT
 break
 ;
-#IF
+#IF 
 check [310] 0
 check [307] 1
 small s0 5
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_5]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_5]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 30
+take ª—ÊŒ÷¬Í∫≈Ω« 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -205,11 +205,11 @@ mov s0 0
 #ELSEACT
 goto @302_Reward_1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_7
 
 
 [@302_Reward_1]
-#IF
+#IF 
 check [310] 0
 check [307] 1
 small s0 45
@@ -219,7 +219,7 @@ large s0 5
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_40_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Type2]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 30
+take ª—ÊŒ÷¬Í∫≈Ω« 30
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -228,7 +228,7 @@ mov s0 0
 #ELSEACT
 goto @302_Reward_Sex
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_8
 
 
 
@@ -247,7 +247,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Man_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_40_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_Man_Type2]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 30
+take ª—ÊŒ÷¬Í∫≈Ω« 30
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -258,17 +258,17 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_WoMan_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Race_40_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [302] [Reward_Amount_40_WoMan_Type2]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 30
+take ª—ÊŒ÷¬Í∫≈Ω« 30
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_9
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @302_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @302_10
 
 }
 
@@ -282,13 +282,13 @@ goto @303_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_1
 
 
 [@303_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_2
 
 
 [@303_START_2]
@@ -297,7 +297,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_3
 
 }
 
@@ -307,23 +307,23 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_4
 
 
 [@303_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_5
 
 
 [@303_CHECK1_2]
 #IF
-checkitem √Ç√¨√í√è√Ç√ë 100
-checkitem √ç¬≠√â¬´√Ä√µ√ó√ì 5
+checkitem ¬Ï“œ¬— 100
+checkitem Õ≠…´¿ı◊” 5
 #ACT
 goto @303_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_6
 
 
 [@303_CHECK1_3]
@@ -333,8 +333,8 @@ check [310] 1
 break
 ;
 #IF
-checkitem √Ç√¨√í√è√Ç√ë 100
-checkitem √ç¬≠√â¬´√Ä√µ√ó√ì 5
+checkitem ¬Ï“œ¬— 100
+checkitem Õ≠…´¿ı◊” 5
 #ACT
 movr s0 100
 inc s0 1
@@ -346,13 +346,13 @@ Equal s0 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_1]
-take √Ç√¨√í√è√Ç√ë 100
-take √ç¬≠√â¬´√Ä√µ√ó√ì 5
+take ¬Ï“œ¬— 100
+take Õ≠…´¿ı◊” 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_7
 
 #ELSEACT
 goto @303_Reward_1
@@ -366,13 +366,13 @@ small s0 20
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_9]
-take √Ç√¨√í√è√Ç√ë 100
-take √ç¬≠√â¬´√Ä√µ√ó√ì 5
+take ¬Ï“œ¬— 100
+take Õ≠…´¿ı◊” 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_8
 
 #ELSEACT
 goto @303_Reward_Sex
@@ -387,28 +387,28 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_Man_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_90_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_Man_Type2]
-take √Ç√¨√í√è√Ç√ë 100
-take √ç¬≠√â¬´√Ä√µ√ó√ì 5
+take ¬Ï“œ¬— 100
+take Õ≠…´¿ı◊” 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_9
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_90_WoMan_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_WoMan_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Race_90_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [303] [Reward_Amount_90_WoMan_Type2]
-take √Ç√¨√í√è√Ç√ë 100
-take √ç¬≠√â¬´√Ä√µ√ó√ì 5
+take ¬Ï“œ¬— 100
+take Õ≠…´¿ı◊” 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @303_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @303_10
 
 }
 
@@ -423,13 +423,13 @@ goto @304_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_1
 
 
 [@304_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_2
 
 
 [@304_START_2]
@@ -438,7 +438,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_3
 
 }
 
@@ -448,13 +448,13 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_4
 
 
 [@304_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_5
 
 
 [@304_CHECK1_2]
@@ -463,7 +463,7 @@ check [308] 1
 #ACT
 goto @304_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_6
 
 
 [@304_CHECK1_3]
@@ -473,7 +473,7 @@ check [307] 1
 check [308] 1
 #ACT
 movr s0 100
-inc s0 1
+inc s0 1 
 goto @304_Reward
 
 [@304_Reward]
@@ -482,7 +482,7 @@ check [310] 1
 #ACT
 break
 ;
-#IF
+#IF 
 Equal s0 1
 check [310] 0
 check [307] 1
@@ -495,7 +495,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_7
 
 #ELSEACT
 goto @304_Reward_1
@@ -515,7 +515,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [304] [Reward_Race_90]
@@ -525,7 +525,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @304_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @304_9
 
 }
 
@@ -539,13 +539,13 @@ goto @305_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_1
 
 
 [@305_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_2
 
 
 [@305_START_2]
@@ -554,7 +554,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_3
 
 }
 
@@ -564,29 +564,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_4
 
 
 [@305_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_5
 
 
 [@305_CHECK1_2]
 #IF
-checkitem ¬∞√ó¬ª¬¢¬Ω¬£ 2
+checkitem ∞◊ª¢Ω£ 2
 #ACT
 goto @305_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_6
 
 
 [@305_CHECK1_3]
 #IF
 #ACT
 movr s0 100
-inc s0 1
+inc s0 1 
 goto @305_Reward
 
 
@@ -604,13 +604,13 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Amount_1]
-take ¬∞√ó¬ª¬¢¬Ω¬£ 2
+take ∞◊ª¢Ω£ 2
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_7
 
 #ELSEACT
 goto @305_Reward_1
@@ -625,7 +625,7 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Amount_9]
-take ¬∞√ó¬ª¬¢¬Ω¬£ 2
+take ∞◊ª¢Ω£ 2
 give %A0 %D0
 mov s0 0
 reset [307] 2
@@ -633,15 +633,15 @@ set [310] 1
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Race_90]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [305] [Reward_Amount_90]
-take ¬∞√ó¬ª¬¢¬Ω¬£ 2
+take ∞◊ª¢Ω£ 2
 give %A0 %D0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_8
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @305_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @305_9
 
 }
 
@@ -656,13 +656,13 @@ goto @306_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_1
 
 
 [@306_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_2
 
 
 [@306_START_2]
@@ -671,7 +671,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_3
 
 }
 
@@ -681,29 +681,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_4
 
 [@306_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_5
 
 
 [@306_CHECK1_2]
 #IF
-checkitem √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 5
+checkitem ¡ÈªÍ…ÒÀÆ£®÷–£© 5
 #ACT
 goto @306_CHECK1_3
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_6
 
 
 [@306_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 5
+checkitem ¡ÈªÍ…ÒÀÆ£®÷–£© 5
 #ACT
 movr s0 100
 inc s0 1
@@ -722,13 +722,13 @@ small s0 41
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_40]
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 5
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_7
 
 #ELSEACT
 goto @306_Reward_1
@@ -743,13 +743,13 @@ small s0 71
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_30_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_type1]
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 5
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_8
 
 #ELAEACT
 goto @306_Reward_SEX
@@ -770,7 +770,7 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_Man_type2]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_30_Man_Type3]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_Man_type3]
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 5
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
@@ -781,17 +781,17 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_WoMan_type2]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Race_30_WoMan_Type3]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [306] [Reward_Amount_30_WoMan_type3]
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 5
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_9
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @306_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @306_10
 
 }
 
@@ -806,13 +806,13 @@ goto @307_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_1
 
 
 [@307_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_2
 
 
 [@307_START_2]
@@ -821,7 +821,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_3
 
 }
 
@@ -831,29 +831,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_4
 
 
 [@307_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_5
 
 
 [@307_CHECK1_2]
 #IF
-checkitem ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 20
+checkitem ª—ÊŒ÷¬Í∫≈Ω« 20
 #ACT
 goto @307_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_6
 
 
 [@307_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 20
+checkitem ª—ÊŒ÷¬Í∫≈Ω« 20
 #ACT
 movr s0 100
 inc s0 1
@@ -872,13 +872,13 @@ small s0 61
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_60]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_60]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 20
+take ª—ÊŒ÷¬Í∫≈Ω« 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_7
 
 #ELSEACT
 goto @307_Reward_1
@@ -893,13 +893,13 @@ small s0 91
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_30]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_30]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 20
+take ª—ÊŒ÷¬Í∫≈Ω« 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_8
 
 #ELSEACT
 goto @307_Reward_SEX
@@ -915,28 +915,28 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_10_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_Man_type2]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 20
+take ª—ÊŒ÷¬Í∫≈Ω« 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_9
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_10_WoMan_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Race_10_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [307] [Reward_Amount_10_WoMan_type2]
-take ¬ª√∞√ë√¶√é√ñ√Ç√™¬∫√Ö¬Ω√á 20
+take ª—ÊŒ÷¬Í∫≈Ω« 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @307_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @307_10
 
 }
 
@@ -951,13 +951,13 @@ goto @308_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_1
 
 
 [@308_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_2
 
 
 [@308_START_2]
@@ -966,7 +966,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_3
 
 }
 
@@ -976,29 +976,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_4
 
 
 [@308_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_5
 
 
 [@308_CHECK1_2]
 #IF
-checkitem ¬º¬≤¬∑√ß√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 2
+checkitem º≤∑Á…ÒÀÆ£®÷–£© 2
 #ACT
 goto @308_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_6
 
 
 [@308_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬º¬≤¬∑√ß√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 2
+checkitem º≤∑Á…ÒÀÆ£®÷–£© 2
 #ACT
 movr s0 100
 inc s0 1
@@ -1017,13 +1017,13 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_20]
-take ¬º¬≤¬∑√ß√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 2
+take º≤∑Á…ÒÀÆ£®÷–£© 2
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_7
 
 #ELSEACT
 goto @308_Reward_SEX
@@ -1038,28 +1038,28 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Race_80_Man_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_Man_type2]
-take ¬º¬≤¬∑√ß√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 2
+take º≤∑Á…ÒÀÆ£®÷–£© 2
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Race_80_WoMan_type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Race_80_WoMan_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [308] [Reward_Amount_80_WoMan_type2]
-take ¬º¬≤¬∑√ß√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 2
+take º≤∑Á…ÒÀÆ£®÷–£© 2
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @308_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @308_9
 
 }
 
@@ -1074,13 +1074,13 @@ goto @309_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_1
 
 
 [@309_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_2
 
 
 [@309_START_2]
@@ -1089,7 +1089,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_3
 
 }
 
@@ -1099,31 +1099,31 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_4
 
 
 [@309_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_5
 
 
 [@309_CHECK1_2]
 #IF
-checkitem √Ä√ã√ì√™¬µ¬∂ 5
-checkitem √Ü¬§ 10
+checkitem ¿À”Íµ∂ 5
+checkitem ∆§ 10
 #ACT
 goto @309_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_6
 
 
 [@309_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ä√ã√ì√™¬µ¬∂ 5
-checkitem √Ü¬§ 10
+checkitem ¿À”Íµ∂ 5
+checkitem ∆§ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -1142,14 +1142,14 @@ small s0 6
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Race_5_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Amount_5_Type1]
-take √Ä√ã√ì√™¬µ¬∂ 5
-take √Ü¬§ 10
+take ¿À”Íµ∂ 5
+take ∆§ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_7
 
 #ELSEACT
 goto @309_Reward_1
@@ -1164,8 +1164,8 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Race_5_Type2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Amount_5_Type2]
-take √Ä√ã√ì√™¬µ¬∂ 5
-take √Ü¬§ 10
+take ¿À”Íµ∂ 5
+take ∆§ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -1173,17 +1173,17 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Race_90_Type2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [309] [Reward_Amount_90_Type2]
-take √Ä√ã√ì√™¬µ¬∂ 5
-take √Ü¬§ 10
+take ¿À”Íµ∂ 5
+take ∆§ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_8
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @309_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @309_9
 
 }
 
@@ -1198,13 +1198,13 @@ goto @310_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_1
 
 
 [@310_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_2
 
 
 [@310_START_2]
@@ -1213,7 +1213,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_3
 
 }
 
@@ -1223,29 +1223,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_4
 
 
 [@310_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_5
 
 
 [@310_CHECK1_2]
 #IF
-checkitem √Ü¬§ 30
+checkitem ∆§ 30
 #ACT
 goto @310_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_6
 
 
 [@310_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü¬§ 30
+checkitem ∆§ 30
 #ACT
 movr s0 100
 inc s0 1
@@ -1264,13 +1264,13 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Amount_20]
-take √Ü¬§ 30
+take ∆§ 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_7
 
 #ELSEACT
 goto @310_Reward_1
@@ -1286,24 +1286,24 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Race_30]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Amount_30]
-take √Ü¬§ 30
+take ∆§ 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [310] [Reward_Amount_50]
-take √Ü¬§ 30
+take ∆§ 30
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @310_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @310_9
 
 }
 
@@ -1318,13 +1318,13 @@ goto @311_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_1
 
 
 [@311_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_2
 
 
 [@311_START_2]
@@ -1333,7 +1333,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_3
 
 }
 
@@ -1343,29 +1343,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_4
 
 
 [@311_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_5
 
 
 [@311_CHECK1_2]
 #IF
-checkitem √Ü¬§ 10
+checkitem ∆§ 10
 #ACT
 goto @311_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_6
 
 
 [@311_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü¬§ 10
+checkitem ∆§ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -1386,14 +1386,14 @@ small s0 51
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Race_50_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Type2]
-take √Ü¬§ 10
+take ∆§ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_7
 
 #ELSEACT
 goto @311_Reward_sex
@@ -1408,28 +1408,28 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Race_50_Man_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_Man_type2]
-take √Ü¬§ 10
+take ∆§ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Race_50_WoMan_type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Race_50_WoMan_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [311] [Reward_Amount_50_WoMan_type2]
-take √Ü¬§ 10
+take ∆§ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @311_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @311_9
 
 }
 
@@ -1443,13 +1443,13 @@ goto @312_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_1
 
 
 [@312_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_2
 
 
 [@312_START_2]
@@ -1458,7 +1458,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_3
 
 }
 
@@ -1468,29 +1468,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_4
 
 
 [@312_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_5
 
 
 [@312_CHECK1_2]
 #IF
-checkitem √Ü¬§ 90
+checkitem ∆§ 90
 #ACT
 goto @312_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_6
 
 
 [@312_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü¬§ 90
+checkitem ∆§ 90
 #ACT
 movr s0 100
 inc s0 1
@@ -1509,13 +1509,13 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_10]
-take √Ü¬§ 90
+take ∆§ 90
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_7
 
 #ELSEACT
 goto @312_Reward_1
@@ -1531,28 +1531,28 @@ small s0 51
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_40_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Race_40_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_40_Type2]
-take √Ü¬§ 90
+take ∆§ 90
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Race_50_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_50_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Race_50_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [312] [Reward_Amount_50_Type2]
-take √Ü¬§ 90
+take ∆§ 90
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @312_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @312_9
 
 
 }
@@ -1567,13 +1567,13 @@ goto @313_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_1
 
 
 [@313_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_2
 
 
 [@313_START_2]
@@ -1582,7 +1582,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_3
 
 }
 
@@ -1592,13 +1592,13 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_4
 
 
 [@313_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_5
 
 
 [@313_CHECK1_2]
@@ -1607,7 +1607,7 @@ check [308] 1
 #ACT
 goto @313_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_6
 
 
 [@313_CHECK1_3]
@@ -1639,7 +1639,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_7
 
 #ELSEACT
 goto @313_Reward_1
@@ -1660,7 +1660,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [313] [Reward_Race_60_Type1]
@@ -1673,7 +1673,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @313_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @313_9
 
 }
 
@@ -1688,13 +1688,13 @@ goto @314_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_1
 
 
 [@314_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_2
 
 
 [@314_START_2]
@@ -1703,7 +1703,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_3
 
 }
 
@@ -1713,29 +1713,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_4
 
 
 [@314_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_5
 
 
 [@314_CHECK1_2]
 #IF
-checkitem √Ç√¨√í√è√Ç√ë 100
+checkitem ¬Ï“œ¬— 100
 #ACT
 goto @314_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_6
 
 
 [@314_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ç√¨√í√è√Ç√ë 100
+checkitem ¬Ï“œ¬— 100
 #ACT
 movr s0 100
 inc s0 1
@@ -1754,27 +1754,27 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Race_30]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Amount_30]
-take √Ç√¨√í√è√Ç√ë 100
+take ¬Ï“œ¬— 100
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_7
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Race_70_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Amount_70_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Race_70_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [314] [Reward_Amount_70_Type2]
-take √Ç√¨√í√è√Ç√ë 100
+take ¬Ï“œ¬— 100
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @314_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @314_8
 
 
 }
@@ -1790,13 +1790,13 @@ goto @315_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_1
 
 
 [@315_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_2
 
 
 [@315_START_2]
@@ -1805,7 +1805,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_3
 
 }
 
@@ -1815,29 +1815,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_4
 
 
 [@315_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_5
 
 
 [@315_CHECK1_2]
 #IF
-checkitem √Ü¬§ 80
+checkitem ∆§ 80
 #ACT
 goto @315_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_6
 
 
 [@315_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü¬§ 80
+checkitem ∆§ 80
 #ACT
 movr s0 100
 inc s0 1
@@ -1857,13 +1857,13 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_20]
-take √Ü¬§ 80
+take ∆§ 80
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_7
 
 #ELSEACT
 goto @315_Reward_1
@@ -1891,28 +1891,28 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_Man_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man_Type2]
-take √Ü¬§ 80
+take ∆§ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_WoMan_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_WoMan_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan_Type2]
-take √Ü¬§ 80
+take ∆§ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_9
 
 
 [@315_Reward_sex_1]
@@ -1925,28 +1925,28 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man1_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_Man1_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_Man1_Type2]
-take √Ü¬§ 80
+take ∆§ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_10
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_WoMan1_Type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan1_Type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Race_40_WoMan1_Type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [315] [Reward_Amount_40_WoMan1_Type2]
-take √Ü¬§ 80
+take ∆§ 80
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @315_11
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @315_11
 
 }
 
@@ -1961,13 +1961,13 @@ goto @316_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_1
 
 
 [@316_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_2
 
 
 [@316_START_2]
@@ -1976,7 +1976,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_3
 
 }
 
@@ -1986,29 +1986,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_4
 
 
 [@316_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_5
 
 
 [@316_CHECK1_2]
 #IF
-checkitem √Ü¬§ 50
+checkitem ∆§ 50
 #ACT
 goto @316_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_6
 
 
 [@316_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü¬§ 50
+checkitem ∆§ 50
 #ACT
 movr s0 100
 inc s0 1
@@ -2027,13 +2027,13 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Amount_1]
-take √Ü¬§ 50
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_7
 
 #ELSEACT
 goto @316_Reward_1
@@ -2047,24 +2047,24 @@ large s0 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Amount_9]
-take √Ü¬§ 50
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Race_90]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [316] [Reward_Amount_90]
-take √Ü¬§ 50
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @316_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @316_9
 
 }
 
@@ -2079,13 +2079,13 @@ goto @317_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_1
 
 
 [@317_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_2
 
 
 [@317_START_2]
@@ -2094,7 +2094,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_3
 
 }
 
@@ -2104,33 +2104,33 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_4
 
 
 [@317_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_5
 
 
 [@317_CHECK1_2]
 #IF
-checkitem ¬π¬•¬ª√∑√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-checkitem √ó√î√à¬ª√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-checkitem √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
+checkitem π•ª˜…ÒÀÆ£®÷–£© 1
+checkitem ◊‘»ª…ÒÀÆ£®÷–£© 1
+checkitem ¡ÈªÍ…ÒÀÆ£®÷–£© 1
 #ACT
 goto @317_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_6
 
 
 [@317_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬π¬•¬ª√∑√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-checkitem √ó√î√à¬ª√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-checkitem √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
+checkitem π•ª˜…ÒÀÆ£®÷–£© 1
+checkitem ◊‘»ª…ÒÀÆ£®÷–£© 1
+checkitem ¡ÈªÍ…ÒÀÆ£®÷–£© 1
 #ACT
 movr s0 100
 inc s0 1
@@ -2149,15 +2149,15 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_1]
-take ¬π¬•¬ª√∑√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √ó√î√à¬ª√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
+take π•ª˜…ÒÀÆ£®÷–£© 1
+take ◊‘»ª…ÒÀÆ£®÷–£© 1
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 1
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_7
 
 #ELSEACT
 goto @317_Reward_1
@@ -2171,16 +2171,16 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_9]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_9]
-take ¬π¬•¬ª√∑√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √ó√î√à¬ª√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
+take π•ª˜…ÒÀÆ£®÷–£© 1
+take ◊‘»ª…ÒÀÆ£®÷–£© 1
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 1
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_8
 
 #ELSEACT
 goto @317_Reward_sex
@@ -2196,30 +2196,30 @@ gender man
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_Man_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_90_Man_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_Man_type2]
-take ¬π¬•¬ª√∑√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √ó√î√à¬ª√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
+take π•ª˜…ÒÀÆ£®÷–£© 1
+take ◊‘»ª…ÒÀÆ£®÷–£© 1
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 1
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_9
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_90_WoMan_type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_WoMan_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Race_90_WoMan_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [317] [Reward_Amount_90_WoMan_type2]
-take ¬π¬•¬ª√∑√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √ó√î√à¬ª√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
-take √Å√©¬ª√™√â√±√ã¬Æ¬£¬®√ñ√ê¬£¬© 1
+take π•ª˜…ÒÀÆ£®÷–£© 1
+take ◊‘»ª…ÒÀÆ£®÷–£© 1
+take ¡ÈªÍ…ÒÀÆ£®÷–£© 1
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @317_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @317_10
 
 }
 
@@ -2234,12 +2234,12 @@ goto @318_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_1
 
 [@318_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_2
 
 
 [@318_START_2]
@@ -2248,7 +2248,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_3
 
 }
 
@@ -2258,29 +2258,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_4
 
 
 [@318_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_5
 
 
 [@318_CHECK1_2]
 #IF
-checkitem √Ä√ó¬µ√ß¬Ω¬©√ä¬¨¬π√á 10
+checkitem ¿◊µÁΩ© ¨π« 10
 #ACT
 goto @318_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_6
 
 
 [@318_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ä√ó¬µ√ß¬Ω¬©√ä¬¨¬π√á 10
+checkitem ¿◊µÁΩ© ¨π« 10
 #ACT
 movr s0 100
 inc s0 1
@@ -2300,13 +2300,13 @@ small s0 21
 
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Amount_20]
-take √Ä√ó¬µ√ß¬Ω¬©√ä¬¨¬π√á 10
+take ¿◊µÁΩ© ¨π« 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_7
 
 #ELSEACT
 goto @318_Reward_sex
@@ -2323,14 +2323,14 @@ gender man
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Amount_80_Man_type2]
 
 #ACT
-take √Ä√ó¬µ√ß¬Ω¬©√ä¬¨¬π√á 10
+take ¿◊µÁΩ© ¨π« 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Race_80_WoMan_type1]
@@ -2339,14 +2339,14 @@ mov s0 0
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [318] [Reward_Amount_80_WoMan_type2]
 
 #ACT
-take √Ä√ó¬µ√ß¬Ω¬©√ä¬¨¬π√á 10
+take ¿◊µÁΩ© ¨π« 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @318_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @318_9
 
 }
 
@@ -2360,13 +2360,13 @@ goto @319_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_1
 
 
 [@319_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_2
 
 
 [@319_START_2]
@@ -2375,7 +2375,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_3
 
 }
 
@@ -2385,13 +2385,13 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_4
 
 
 [@319_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_5
 
 
 [@319_CHECK1_2]
@@ -2400,7 +2400,7 @@ check [309] 1
 #ACT
 goto @319_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_6
 
 
 [@319_CHECK1_3]
@@ -2432,7 +2432,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_7
 
 #ELSEACT
 goto @319_Reward_1
@@ -2453,7 +2453,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [319] [Reward_Race_50]
@@ -2463,7 +2463,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @319_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @319_9
 
 }
 
@@ -2477,13 +2477,13 @@ goto @320_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_1
 
 
 [@320_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_2
 
 
 [@320_START_2]
@@ -2492,7 +2492,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_3
 
 }
 
@@ -2502,13 +2502,13 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_4
 
 
 [@320_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_5
 
 
 [@320_CHECK1_2]
@@ -2517,7 +2517,7 @@ check [308] 1
 #ACT
 goto @320_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_6
 
 
 [@320_CHECK1_3]
@@ -2549,7 +2549,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_7
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [320] [Reward_Race_85_type1]
@@ -2562,7 +2562,7 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @320_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @320_8
 
 }
 
@@ -2576,12 +2576,12 @@ goto @321_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_1
 
 [@321_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_2
 
 
 [@321_START_2]
@@ -2590,7 +2590,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_3
 
 }
 
@@ -2600,31 +2600,31 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_4
 
 
 [@321_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_5
 
 
 [@321_CHECK1_2]
 #IF
-checkitem ¬∂¬æ√ñ¬©√ñ√´√ë√Ä¬≥√ù 25
-checkitem ¬∫√Ö¬Ω√á 20
+checkitem ∂æ÷©÷Î—¿≥› 25
+checkitem ∫≈Ω« 20
 #ACT
 goto @321_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_6
 
 
 [@321_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬∂¬æ√ñ¬©√ñ√´√ë√Ä¬≥√ù 25
-checkitem ¬∫√Ö¬Ω√á 20
+checkitem ∂æ÷©÷Î—¿≥› 25
+checkitem ∫≈Ω« 20
 #ACT
 movr s0 100
 inc s0 1
@@ -2643,8 +2643,8 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_10]
-take ¬∂¬æ√ñ¬©√ñ√´√ë√Ä¬≥√ù 25
-take ¬∫√Ö¬Ω√á 20
+take ∂æ÷©÷Î—¿≥› 25
+take ∫≈Ω« 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -2664,15 +2664,15 @@ small s0 56
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_1_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Race_45_1_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_1_type2]
-take ¬∂¬æ√ñ¬©√ñ√´√ë√Ä¬≥√ù 25
-take ¬∫√Ö¬Ω√á 20
+take ∂æ÷©÷Î—¿≥› 25
+take ∫≈Ω« 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_7
 
 #ELSEACT
 #ACT
@@ -2680,15 +2680,15 @@ mov s0 0
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_2_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Race_45_2_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [321] [Reward_Amount_45_2_type2]
-take ¬∂¬æ√ñ¬©√ñ√´√ë√Ä¬≥√ù 25
-take ¬∫√Ö¬Ω√á 20
+take ∂æ÷©÷Î—¿≥› 25
+take ∫≈Ω« 20
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @321_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @321_8
 
 }
 
@@ -2702,13 +2702,13 @@ goto @322_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_1
 
 
 [@322_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_2
 
 
 [@322_START_2]
@@ -2717,7 +2717,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_3
 
 }
 
@@ -2727,31 +2727,31 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_4
 
 
 [@322_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_5
 
 
 [@322_CHECK1_2]
 #IF
-checkitem √Ü√ü¬µ√£¬∞√ó√â√ü¬µ¬® 3
-checkitem √á¬ß√Ñ√™¬∂¬æ√â√ü¬µ¬®√ñ¬≠ 12
+checkitem ∆ﬂµ„∞◊…ﬂµ® 3
+checkitem «ßƒÍ∂æ…ﬂµ®÷≠ 12
 #ACT
 goto @322_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_6
 
 
 [@322_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü√ü¬µ√£¬∞√ó√â√ü¬µ¬® 3
-checkitem √á¬ß√Ñ√™¬∂¬æ√â√ü¬µ¬®√ñ¬≠ 12
+checkitem ∆ﬂµ„∞◊…ﬂµ® 3
+checkitem «ßƒÍ∂æ…ﬂµ®÷≠ 12
 #ACT
 movr s0 100
 inc s0 1
@@ -2770,14 +2770,14 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Race_15_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Amount_15_1]
-take √Ü√ü¬µ√£¬∞√ó√â√ü¬µ¬® 3
-take √á¬ß√Ñ√™¬∂¬æ√â√ü¬µ¬®√ñ¬≠ 12
+take ∆ﬂµ„∞◊…ﬂµ® 3
+take «ßƒÍ∂æ…ﬂµ®÷≠ 12
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_7
 
 #ELSEACT
 goto @322_Reward_1
@@ -2792,26 +2792,26 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Race_15_2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Amount_15_2]
-take √Ü√ü¬µ√£¬∞√ó√â√ü¬µ¬® 3
-take √á¬ß√Ñ√™¬∂¬æ√â√ü¬µ¬®√ñ¬≠ 12
+take ∆ﬂµ„∞◊…ﬂµ® 3
+take «ßƒÍ∂æ…ﬂµ®÷≠ 12
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [322] [Reward_Amount_70]
-take √Ü√ü¬µ√£¬∞√ó√â√ü¬µ¬® 3
-take √á¬ß√Ñ√™¬∂¬æ√â√ü¬µ¬®√ñ¬≠ 12
+take ∆ﬂµ„∞◊…ﬂµ® 3
+take «ßƒÍ∂æ…ﬂµ®÷≠ 12
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @322_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @322_9
 
 }
 
@@ -2826,13 +2826,13 @@ goto @323_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_1
 
 
 [@323_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_2
 
 
 [@323_START_2]
@@ -2841,7 +2841,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_3
 
 }
 
@@ -2851,33 +2851,33 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_4
 
 
 [@323_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_5
 
 
 [@323_CHECK1_2]
 #IF
-checkitem ¬∫√Ö¬Ω√á 30
-checkitem √Ü√ü¬µ√£¬∞√ó√â√ü√ë√Ä¬≥√ù 5
-checkitem √á¬ß√Ñ√™¬∂¬æ√â√ü√ë√Ä¬≥√ù 15
+checkitem ∫≈Ω« 30
+checkitem ∆ﬂµ„∞◊…ﬂ—¿≥› 5 
+checkitem «ßƒÍ∂æ…ﬂ—¿≥› 15
 #ACT
 goto @323_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_6
 
 
 [@323_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬∫√Ö¬Ω√á 30
-checkitem √Ü√ü¬µ√£¬∞√ó√â√ü√ë√Ä¬≥√ù 5
-checkitem √á¬ß√Ñ√™¬∂¬æ√â√ü√ë√Ä¬≥√ù 15
+checkitem ∫≈Ω« 30
+checkitem ∆ﬂµ„∞◊…ﬂ—¿≥› 5 
+checkitem «ßƒÍ∂æ…ﬂ—¿≥› 15
 #ACT
 movr s0 100
 inc s0 1
@@ -2896,15 +2896,15 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Amount_10]
-take ¬∫√Ö¬Ω√á 30
-take √Ü√ü¬µ√£¬∞√ó√â√ü√ë√Ä¬≥√ù 5
-take √á¬ß√Ñ√™¬∂¬æ√â√ü√ë√Ä¬≥√ù 15
-give ¬æ¬Æ√ñ√ê√î√Ç 1
+take ∫≈Ω« 30
+take ∆ﬂµ„∞◊…ﬂ—¿≥› 5 
+take «ßƒÍ∂æ…ﬂ—¿≥› 15
+give æÆ÷–‘¬ 1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_7
 
 #ELSEACT
 goto @323_Reward_1
@@ -2924,28 +2924,28 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Amount_20]
-take ¬∫√Ö¬Ω√á 30
-take √Ü√ü¬µ√£¬∞√ó√â√ü√ë√Ä¬≥√ù 5
-take √á¬ß√Ñ√™¬∂¬æ√â√ü√ë√Ä¬≥√ù 15
-give √ó√¶√Ç√™√ç¬∑√è√± 1
+take ∫≈Ω« 30
+take ∆ﬂµ„∞◊…ﬂ—¿≥› 5 
+take «ßƒÍ∂æ…ﬂ—¿≥› 15
+give ◊Ê¬ÍÕ∑œÒ 1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [323] [Reward_Amount_70]
-take ¬∫√Ö¬Ω√á 30
-take √Ü√ü¬µ√£¬∞√ó√â√ü√ë√Ä¬≥√ù 5
-take √á¬ß√Ñ√™¬∂¬æ√â√ü√ë√Ä¬≥√ù 15
-give ¬Ω√∞¬±√í 80000
+take ∫≈Ω« 30
+take ∆ﬂµ„∞◊…ﬂ—¿≥› 5 
+take «ßƒÍ∂æ…ﬂ—¿≥› 15
+give Ω±“ 80000
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @323_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @323_9
 
 
 }
@@ -2961,13 +2961,13 @@ goto @324_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_1
 
 
 [@324_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_2
 
 
 [@324_START_2]
@@ -2976,7 +2976,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_3
 
 }
 
@@ -2986,41 +2986,41 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_4
 
 
 [@324_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_5
 
 
 [@324_CHECK1_2]
 #IF
-checkitem √å√∫¬ø√≥ 10
-checkduraeva √å√∫¬ø√≥ 12
+checkitem Ã˙øÛ 10
+checkduraeva Ã˙øÛ 12
 #ACT
 goto @324_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_6
 
 
 [@324_CHECK1_2_1]
 #IF
-checkitem ¬∫√ö√å√∫ 10
-checkduraeva ¬∫√ö√å√∫ 12
+checkitem ∫⁄Ã˙ 10
+checkduraeva ∫⁄Ã˙ 12
 #ACT
 goto @324_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_7
 
 
 [@324_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬∫√ö√å√∫ 10
-checkduraeva ¬∫√ö√å√∫ 12
+checkitem ∫⁄Ã˙ 10
+checkduraeva ∫⁄Ã˙ 12
 #ACT
 movr s0 100
 inc s0 1
@@ -3039,14 +3039,14 @@ small s0 6
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Race_5]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Amount_5]
-take √å√∫¬ø√≥ 10
-take ¬∫√ö√å√∫ 10
+take Ã˙øÛ 10
+take ∫⁄Ã˙ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_8
 
 #ELSEACT
 goto @324_Reward_1
@@ -3065,26 +3065,26 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Amount_15]
-take √å√∫¬ø√≥ 10
-take ¬∫√ö√å√∫ 10
+take Ã˙øÛ 10
+take ∫⁄Ã˙ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_9
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Race_80]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [324] [Reward_Amount_80]
-take √å√∫¬ø√≥ 10
-take ¬∫√ö√å√∫ 10
+take Ã˙øÛ 10
+take ∫⁄Ã˙ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @324_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @324_10
 
 }
 
@@ -3100,13 +3100,13 @@ goto @325_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_1
 
 
 [@325_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_2
 
 
 [@325_START_2]
@@ -3115,7 +3115,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_3
 
 }
 
@@ -3125,33 +3125,33 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_4
 
 
 [@325_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_5
 
 
 [@325_CHECK1_2]
 #IF
-checkitem ¬Ω√∞¬ø√≥ 5
-checkduraeva ¬Ω√∞¬ø√≥ 12
+checkitem ΩøÛ 5
+checkduraeva ΩøÛ 12
 #ACT
 goto @325_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_6
 
 
 [@325_CHECK1_2_1]
 #IF
-checkitem √í√∏¬ø√≥ 10
-checkduraeva √í√∏¬ø√≥ 12
+checkitem “¯øÛ 10
+checkduraeva “¯øÛ 12
 #ACT
 goto @325_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_7
 
 
 [@325_CHECK1_3]
@@ -3176,14 +3176,14 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_10]
-take ¬Ω√∞¬ø√≥ 5
-take √í√∏¬ø√≥ 10
+take ΩøÛ 5
+take “¯øÛ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_8
 
 #ELSEACT
 goto @325_Reward_1
@@ -3204,15 +3204,15 @@ small s0 61
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_50_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_50_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_50_type2]
-take ¬Ω√∞¬ø√≥ 5
-take √í√∏¬ø√≥ 10
+take ΩøÛ 5
+take “¯øÛ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_9
 
 #ELSEACT
 goto @325_Reward_SEX
@@ -3229,26 +3229,26 @@ gender man
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_40_Man]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_40_Man]
 
-take ¬Ω√∞¬ø√≥ 5
-take √í√∏¬ø√≥ 10
+take ΩøÛ 5
+take “¯øÛ 10
 give %A0 %D0
-reset [307] 2
+reset [307] 2 
 set [310] 1
 mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Race_40_WoMan]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [325] [Reward_Amount_40WoMan]
-take ¬Ω√∞¬ø√≥ 5
-take √í√∏¬ø√≥ 10
+take ΩøÛ 5
+take “¯øÛ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_10
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @325_11
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @325_11
 
 }
 
@@ -3263,13 +3263,13 @@ goto @326_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_1
 
 
 [@326_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_2
 
 
 [@326_START_2]
@@ -3278,7 +3278,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_3
 
 }
 
@@ -3288,31 +3288,31 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_4
 
 
 [@326_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_5
 
 
 [@326_CHECK1_2]
 #IF
-checkitem √Ç√¨√í√è√Ç√ë 100
-checkitem √Ü¬§ 50
+checkitem ¬Ï“œ¬— 100
+checkitem ∆§ 50
 #ACT
 goto @326_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_6
 
 
 [@326_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ç√¨√í√è√Ç√ë 100
-checkitem √Ü¬§ 50
+checkitem ¬Ï“œ¬— 100
+checkitem ∆§ 50
 #ACT
 movr s0 100
 inc s0 1
@@ -3331,14 +3331,14 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_1]
-take √Ç√¨√í√è√Ç√ë 100
-take √Ü¬§ 50
+take ¬Ï“œ¬— 100
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_7
 
 #ELSEACT
 goto @326_Reward_1
@@ -3357,14 +3357,14 @@ small s0 6
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_4]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_4]
-take √Ç√¨√í√è√Ç√ë 100
-take √Ü¬§ 50
+take ¬Ï“œ¬— 100
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_8
 
 #ELSEACT
 goto @326_Reward_sex
@@ -3377,26 +3377,26 @@ gender man
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_95_Man]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_95_Man]
-take √Ç√¨√í√è√Ç√ë 100
-take √Ü¬§ 50
+take ¬Ï“œ¬— 100
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_9
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Race_95_WoMan]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [326] [Reward_Amount_95_WoMan]
-take √Ç√¨√í√è√Ç√ë 100
-take √Ü¬§ 50
+take ¬Ï“œ¬— 100
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @326_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @326_10
 
 }
 
@@ -3411,13 +3411,13 @@ goto @327_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_1
 
 
 [@327_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_2
 
 
 [@327_START_2]
@@ -3426,7 +3426,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_3
 
 }
 
@@ -3436,33 +3436,33 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_4
 
 
 [@327_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_5
 
 
 [@327_CHECK1_2]
 #IF
-checkitem √Ö¬£√à√¢ 20
-checkduraeva √Ö¬£√à√¢ 12
+checkitem ≈£»‚ 20
+checkduraeva ≈£»‚ 12
 #ACT
 goto @327_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_6
 
 
 [@327_CHECK1_2_1]
 #IF
-checkitem ¬º¬¶√à√¢ 10
-checkduraeva ¬º¬¶√à√¢ 5
+checkitem º¶»‚ 10
+checkduraeva º¶»‚ 5
 #ACT
 goto @327_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_7
 
 
 [@327_CHECK1_3]
@@ -3489,15 +3489,15 @@ small s0 31
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_30_1_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Race_30_1_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_30_1_type2]
-take √Ö¬£√à√¢ 20
-take ¬º¬¶√à√¢ 10
+take ≈£»‚ 20
+take º¶»‚ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_8
 
 #ELSEACT
 goto @327_Reward_1
@@ -3515,26 +3515,26 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Race_30_2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_30_2]
-take √Ö¬£√à√¢ 20
-take ¬º¬¶√à√¢ 10
+take ≈£»‚ 20
+take º¶»‚ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_9
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [327] [Reward_Amount_40]
-take √Ö¬£√à√¢ 20
-take ¬º¬¶√à√¢ 10
+take ≈£»‚ 20
+take º¶»‚ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @327_10
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @327_10
 
 }
 
@@ -3549,13 +3549,13 @@ goto @328_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_1
 
 
 [@328_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_2
 
 
 [@328_START_2]
@@ -3564,7 +3564,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_3
 
 }
 
@@ -3574,31 +3574,31 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_4
 
 
 [@328_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_5
 
 
 [@328_CHECK1_2]
 #IF
-checkitem ¬∫√¨√â√ü√ë¬™ 20
-checkitem ¬ª¬¢√â√ü√ë¬™ 20
+checkitem ∫Ï…ﬂ—™ 20
+checkitem ª¢…ﬂ—™ 20
 #ACT
 goto @328_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_6
 
 
 [@328_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬∫√¨√â√ü√ë¬™ 20
-checkitem ¬ª¬¢√â√ü√ë¬™ 20
+checkitem ∫Ï…ﬂ—™ 20
+checkitem ª¢…ﬂ—™ 20
 #ACT
 movr s0 100
 inc s0 1
@@ -3617,26 +3617,26 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Amount_15]
-take ¬∫√¨√â√ü√ë¬™ 20
-take ¬ª¬¢√â√ü√ë¬™ 20
+take ∫Ï…ﬂ—™ 20
+take ª¢…ﬂ—™ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_7
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Race_85]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [328] [Reward_Amount_85]
-take ¬∫√¨√â√ü√ë¬™ 20
-take ¬ª¬¢√â√ü√ë¬™ 20
+take ∫Ï…ﬂ—™ 20
+take ª¢…ﬂ—™ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @328_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @328_8
 
 
 }
@@ -3651,13 +3651,13 @@ goto @329_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_1
 
 
 [@329_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_2
 
 
 [@329_START_2]
@@ -3666,7 +3666,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_3
 
 }
 
@@ -3676,23 +3676,23 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_4
 
 
 [@329_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_5
 
 
 [@329_CHECK1_2]
 #IF
-checkitem √Ü¬§ 30
-checkitem √ñ¬©√ñ√´√è√ü 10
+checkitem ∆§ 30
+checkitem ÷©÷Îœﬂ 10
 #ACT
 goto @329_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_6
 
 
 
@@ -3700,8 +3700,8 @@ goto @329_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü¬§ 30
-checkitem √ñ¬©√ñ√´√è√ü 10
+checkitem ∆§ 30
+checkitem ÷©÷Îœﬂ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -3720,8 +3720,8 @@ small s0 41
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Amount_40]
-take √Ü¬§ 30
-take √ñ¬©√ñ√´√è√ü 10
+take ∆§ 30
+take ÷©÷Îœﬂ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3729,17 +3729,17 @@ mov s0 0
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Race_60]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [329] [Reward_Amount_60]
-take √Ü¬§ 30
-take √ñ¬©√ñ√´√è√ü 10
+take ∆§ 30
+take ÷©÷Îœﬂ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_7
 
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @329_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @329_8
 
 }
 
@@ -3754,13 +3754,13 @@ goto @330_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_1
 
 
 [@330_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_2
 
 
 [@330_START_2]
@@ -3769,7 +3769,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_3
 
 }
 
@@ -3779,29 +3779,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_4
 
 
 [@330_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_5
 
 
 [@330_CHECK1_2]
 #IF
-checkitem √∑¬º√∑√É¬π√á 100
+checkitem ˜º˜√π« 100
 #ACT
 goto @330_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_6
 
 
 [@330_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √∑¬º√∑√É¬π√á 100
+checkitem ˜º˜√π« 100
 #ACT
 movr s0 100
 inc s0 1
@@ -3820,13 +3820,13 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_10]
-take √∑¬º√∑√É¬π√á 100
+take ˜º˜√π« 100
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_7
 
 #ELSEACT
 goto @330_Reward_1
@@ -3846,27 +3846,27 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_40]
-take √∑¬º√∑√É¬π√á 100
+take ˜º˜√π« 100
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Race_50_type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_50_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Race_50_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [330] [Reward_Amount_50_type2]
-take √∑¬º√∑√É¬π√á 100
+take ˜º˜√π« 100
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @330_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @330_9
 
 }
 
@@ -3881,13 +3881,13 @@ goto @331_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_1
 
 
 [@331_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_2
 
 
 [@331_START_2]
@@ -3896,7 +3896,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_3
 
 }
 
@@ -3906,29 +3906,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_4
 
 
 [@331_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_5
 
 
 [@331_CHECK1_2]
 #IF
-checkitem ¬±¬¶√ì√± 10
+checkitem ±¶”Ò 10
 #ACT
 goto @331_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_6
 
 
 [@331_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬±¬¶√ì√± 10
+checkitem ±¶”Ò 10
 #ACT
 movr s0 100
 inc s0 1
@@ -3947,13 +3947,13 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Amount_10]
-take ¬±¬¶√ì√± 10
+take ±¶”Ò 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_7
 
 #ELSEACT
 goto @331_Reward_1
@@ -3973,24 +3973,24 @@ small s0 50
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Amount_40]
-take ¬±¬¶√ì√± 10
+take ±¶”Ò 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [331] [Reward_Amount_50]
-take ¬±¬¶√ì√± 10
+take ±¶”Ò 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @331_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @331_9
 
 }
 
@@ -4005,13 +4005,13 @@ goto @332_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_1
 
 
 [@332_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_2
 
 
 [@332_START_2]
@@ -4020,7 +4020,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_3
 
 }
 
@@ -4030,23 +4030,23 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_4
 
 
 [@332_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_5
 
 
 [@332_CHECK1_2]
 #IF
-checkitem √Ü¬§ 30
-checkitem √ñ¬©√ñ√´√è√ü 10
+checkitem ∆§ 30
+checkitem ÷©÷Îœﬂ 10
 #ACT
 goto @332_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_6
 
 
 
@@ -4054,8 +4054,8 @@ goto @332_CHECK1_3
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ü¬§ 30
-checkitem √ñ¬©√ñ√´√è√ü 10
+checkitem ∆§ 30
+checkitem ÷©÷Îœﬂ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -4074,14 +4074,14 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_1]
-take √Ü¬§ 30
-take √ñ¬©√ñ√´√è√ü 10
+take ∆§ 30
+take ÷©÷Îœﬂ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_7
 
 #ELSEACT
 goto @332_Reward_1
@@ -4102,27 +4102,27 @@ small s0 51
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_49_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Race_49_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_49_type2]
-take √Ü¬§ 30
-take √ñ¬©√ñ√´√è√ü 10
+take ∆§ 30
+take ÷©÷Îœﬂ 10
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [332] [Reward_Amount_50]
-take √Ü¬§ 30
-take √ñ¬©√ñ√´√è√ü 10
+take ∆§ 30
+take ÷©÷Îœﬂ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @332_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @332_9
 
 }
 
@@ -4137,13 +4137,13 @@ goto @333_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @333_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @333_1
 
 
 [@333_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @333_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @333_2
 
 
 [@333_START_2]
@@ -4152,7 +4152,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @333_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @333_3
 
 }
 
@@ -4162,22 +4162,22 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @333_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @333_4
 
 
 [@333_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @333_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @333_5
 
 
 [@333_CHECK1_2]
 #IF
-checkitem √ñ¬©√ñ√´√è√ü 20
+checkitem ÷©÷Îœﬂ 20
 #ACT
 goto @333_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @333_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @333_6
 
 
 [@333_CHECK1_3]
@@ -4189,16 +4189,16 @@ break
 #IF
 check [310] 0
 check [307] 1
-checkitem √ñ¬©√ñ√´√è√ü 20
+checkitem ÷©÷Îœﬂ 20
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [333] [Reward_Race_100]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [333] [Reward_Amount_100]
-take √ñ¬©√ñ√´√è√ü 20
+take ÷©÷Îœﬂ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @333_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @333_7
 
 }
 
@@ -4213,13 +4213,13 @@ goto @334_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_1
 
 
 [@334_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_2
 
 
 [@334_START_2]
@@ -4228,7 +4228,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_3
 
 }
 
@@ -4238,31 +4238,31 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_4
 
 
 [@334_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_5
 
 
 [@334_CHECK1_2]
 #IF
-checkitem √ñ¬©√ñ√´√è√ü 50
-checkitem √∑¬º√∑√É¬π√á 50
+checkitem ÷©÷Îœﬂ 50
+checkitem ˜º˜√π« 50
 #ACT
 goto @334_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_6
 
 
 [@334_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √ñ¬©√ñ√´√è√ü 50
-checkitem √∑¬º√∑√É¬π√á 50
+checkitem ÷©÷Îœﬂ 50
+checkitem ˜º˜√π« 50
 #ACT
 movr s0 100
 inc s0 1
@@ -4282,14 +4282,14 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Amount_10]
-take √ñ¬©√ñ√´√è√ü 50
-take √∑¬º√∑√É¬π√á 50
+take ÷©÷Îœﬂ 50
+take ˜º˜√π« 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_7
 
 #ELSEACT
 goto @334_Reward_1
@@ -4310,26 +4310,26 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Race_40]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Amount_40]
-take √ñ¬©√ñ√´√è√ü 50
-take √∑¬º√∑√É¬π√á 50
+take ÷©÷Îœﬂ 50
+take ˜º˜√π« 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Race_50]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [334] [Reward_Amount_50]
-take √ñ¬©√ñ√´√è√ü 50
-take √∑¬º√∑√É¬π√á 50
+take ÷©÷Îœﬂ 50
+take ˜º˜√π« 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @334_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @334_9
 
 }
 
@@ -4344,13 +4344,13 @@ goto @335_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @335_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @335_1
 
 
 [@335_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @335_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @335_2
 
 
 [@335_START_2]
@@ -4359,7 +4359,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @335_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @335_3
 
 }
 
@@ -4369,23 +4369,23 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @335_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @335_4
 
 
 [@335_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @335_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @335_5
 
 
 [@335_CHECK1_2]
 #IF
-checkitem √∑¬º√∑√É¬π√á 50
-checkitem √Ü¬§ 20
+checkitem ˜º˜√π« 50
+checkitem ∆§ 20
 #ACT
 goto @335_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @335_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @335_6
 
 
 [@335_CHECK1_3]
@@ -4400,13 +4400,13 @@ check [307] 1
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [335] [Reward_Race_100]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [335] [Reward_Amount_100]
-take √∑¬º√∑√É¬π√á 50
-take √Ü¬§ 20
+take ˜º˜√π« 50
+take ∆§ 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @335_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @335_7
 
 }
 
@@ -4421,13 +4421,13 @@ goto @336_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_1
 
 
 [@336_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_2
 
 
 [@336_START_2]
@@ -4436,7 +4436,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_3
 
 }
 
@@ -4446,29 +4446,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_4
 
 
 [@336_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_5
 
 
 [@336_CHECK1_2]
 #IF
-checkitem ¬ª¬®√â¬´√ñ¬©√ñ√´¬∂¬æ√í¬© 10
+checkitem ª®…´÷©÷Î∂æ“© 10
 #ACT
 goto @336_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_6
 
 
 [@336_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem ¬ª¬®√â¬´√ñ¬©√ñ√´¬∂¬æ√í¬© 10
+checkitem ª®…´÷©÷Î∂æ“© 10
 #ACT
 movr s0 100
 inc s0 1
@@ -4487,13 +4487,13 @@ small s0 2
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Race_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Amount_1]
-take ¬ª¬®√â¬´√ñ¬©√ñ√´¬∂¬æ√í¬© 10
+take ª®…´÷©÷Î∂æ“© 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_7
 
 #ELSEACT
 goto @336_Reward_1
@@ -4512,24 +4512,24 @@ small s0 21
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Race_19]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Amount_19]
-take ¬ª¬®√â¬´√ñ¬©√ñ√´¬∂¬æ√í¬© 10
+take ª®…´÷©÷Î∂æ“© 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Race_80]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [336] [Reward_Amount_80]
-take ¬ª¬®√â¬´√ñ¬©√ñ√´¬∂¬æ√í¬© 10
+take ª®…´÷©÷Î∂æ“© 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @336_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @336_9
 
 
 }
@@ -4545,13 +4545,13 @@ goto @337_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_1
 
 
 [@337_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_2
 
 
 [@337_START_2]
@@ -4560,7 +4560,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_3
 
 }
 
@@ -4570,32 +4570,32 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_4
 
 
 [@337_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_5
 
 
 [@337_CHECK1_2]
 #IF
-checkitem √å√∫¬ø√≥ 10
-checkduraeva √å√∫¬ø√≥ 12
+checkitem Ã˙øÛ 10
+checkduraeva Ã˙øÛ 12
 #ACT
 goto @337_CHECK1_2_1
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_6
 
 
 [@337_CHECK1_2_1]
 #IF
-checkitem √Ü¬§ 50
+checkitem ∆§ 50
 #ACT
 goto @337_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_7
 
 
 [@337_CHECK1_3]
@@ -4622,27 +4622,27 @@ small s0 41
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Amount_40_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Race_40_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Amount_40_type2]
-take √å√∫¬ø√≥ 10
-take √Ü¬§ 50
+take Ã˙øÛ 10
+take ∆§ 50
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Race_60]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [337] [Reward_Amount_60]
-take √å√∫¬ø√≥ 10
-take √Ü¬§ 50
+take Ã˙øÛ 10
+take ∆§ 50
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @337_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @337_9
 
 }
 
@@ -4657,13 +4657,13 @@ goto @338_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_1
 
 
 [@338_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_2
 
 
 [@338_START_2]
@@ -4672,7 +4672,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_3
 
 }
 
@@ -4682,29 +4682,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_4
 
 
 [@338_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_5
 
 
 [@338_CHECK1_2]
 #IF
-checkitem √Ö¬µ√Ç√™¬∑¬®√Ä√è√ï√§√ñ√© 5
+checkitem ≈µ¬Í∑®¿œ’‰÷È 5
 #ACT
 goto @338_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_6
 
 
 [@338_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ö¬µ√Ç√™¬∑¬®√Ä√è√ï√§√ñ√© 5
+checkitem ≈µ¬Í∑®¿œ’‰÷È 5
 #ACT
 movr s0 100
 inc s0 1
@@ -4723,13 +4723,13 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Race_15]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_15]
-take √Ö¬µ√Ç√™¬∑¬®√Ä√è√ï√§√ñ√© 5
+take ≈µ¬Í∑®¿œ’‰÷È 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_7
 
 #ELSEACT
 goto @338_Reward_1
@@ -4748,27 +4748,27 @@ small s0 51
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Race_35]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_35]
-take √Ö¬µ√Ç√™¬∑¬®√Ä√è√ï√§√ñ√© 5
+take ≈µ¬Í∑®¿œ’‰÷È 5
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Race_50_type1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_50_type1]
 	loadValue A1 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Race_50_type2]
 	loadValue D1 "GM_Def\QT_Today\300Reward.txt" [338] [Reward_Amount_50_type2]
-take √Ö¬µ√Ç√™¬∑¬®√Ä√è√ï√§√ñ√© 5
+take ≈µ¬Í∑®¿œ’‰÷È 5
 give %A0 %D0
 give %A1 %D1
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @338_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @338_9
 
 
 }
@@ -4783,13 +4783,13 @@ goto @339_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_1
 
 
 [@339_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_2
 
 
 [@339_START_2]
@@ -4798,7 +4798,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_3
 
 }
 
@@ -4808,29 +4808,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_4
 
 
 [@339_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_5
 
 
 [@339_CHECK1_2]
 #IF
-checkitem √â¬≥√Ñ¬Æ√ì√£√Ñ¬ß√ë√Ä¬≥√ù 20
+checkitem …≥ƒÆ”„ƒß—¿≥› 20
 #ACT
 goto @339_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_6
 
 
 [@339_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √â¬≥√Ñ¬Æ√ì√£√Ñ¬ß√ë√Ä¬≥√ù 20
+checkitem …≥ƒÆ”„ƒß—¿≥› 20
 #ACT
 movr s0 100
 inc s0 1
@@ -4849,13 +4849,13 @@ small s0 11
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Race_10]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Amount_10]
-take √â¬≥√Ñ¬Æ√ì√£√Ñ¬ß√ë√Ä¬≥√ù 20
+take …≥ƒÆ”„ƒß—¿≥› 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_7
 
 #ELSEACT
 goto @339_Reward_1
@@ -4875,24 +4875,24 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Race_20]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Amount_20]
-take √â¬≥√Ñ¬Æ√ì√£√Ñ¬ß√ë√Ä¬≥√ù 20
+take …≥ƒÆ”„ƒß—¿≥› 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [339] [Reward_Amount_70]
-take √â¬≥√Ñ¬Æ√ì√£√Ñ¬ß√ë√Ä¬≥√ù 20
+take …≥ƒÆ”„ƒß—¿≥› 20
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @339_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @339_9
 
 }
 
@@ -4906,13 +4906,13 @@ goto @340_START_1
 #IF
 check [307] 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_1
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_1
 
 
 [@340_START_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_2
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_2
 
 
 [@340_START_2]
@@ -4921,7 +4921,7 @@ check [307] 0
 #ACT
 set [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_3
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_3
 
 }
 
@@ -4931,29 +4931,29 @@ set [307] 1
 check [310] 0
 check [307] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_4
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_4
 
 
 [@340_CHECK1_1_1]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_5
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_5
 
 
 [@340_CHECK1_2]
 #IF
-checkitem √Ö¬µ√Ç√™√í¬©√ã¬Æ 10
+checkitem ≈µ¬Í“©ÀÆ 10
 #ACT
 goto @340_CHECK1_3
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_6
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_6
 
 
 [@340_CHECK1_3]
 #IF
 check [310] 0
 check [307] 1
-checkitem √Ö¬µ√Ç√™√í¬©√ã¬Æ 10
+checkitem ≈µ¬Í“©ÀÆ 10
 #ACT
 movr s0 100
 inc s0 1
@@ -4972,13 +4972,13 @@ small s0 16
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Race_15_1]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Amount_15_1]
-take √Ö¬µ√Ç√™√í¬©√ã¬Æ 10
+take ≈µ¬Í“©ÀÆ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_7
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_7
 
 #ELSEACT
 goto @340_Reward_1
@@ -4997,24 +4997,24 @@ small s0 31
 #ACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Race_15_2]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Amount_15_2]
-take √Ö¬µ√Ç√™√í¬©√ã¬Æ 10
+take ≈µ¬Í“©ÀÆ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_8
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_8
 
 #ELSEACT
 	loadValue A0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Race_70]
 	loadValue D0 "GM_Def\QT_Today\300Reward.txt" [340] [Reward_Amount_70]
-take √Ö¬µ√Ç√™√í¬©√ã¬Æ 10
+take ≈µ¬Í“©ÀÆ 10
 give %A0 %D0
 reset [307] 2
 set [310] 1
 mov s0 0
 #ELSESAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/3stClass.txt] @340_9
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\3stClass.txt] @340_9
 
 
 }

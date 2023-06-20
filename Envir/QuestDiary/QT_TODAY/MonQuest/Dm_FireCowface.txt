@@ -53,12 +53,12 @@ break
 
 [@Hwa_T490_1]
 #IF
-checkitem Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 9
+checkitem »ðÑæÎÖÂêºÅ½Ç 9
 #ACT
-give Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
+give »ðÑæÎÖÂêºÅ½Ç 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T490_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T490_Say
 #ELSEACT
 movr s0 3
 goto @Hwa_T490_2
@@ -67,7 +67,7 @@ goto @Hwa_T490_2
 #IF
 equal s0 0
 #ACT
-give Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
+give »ðÑæÎÖÂêºÅ½Ç 1
 
 ;-----------------------------------------------------
 [@hyumyungwi_T307]
@@ -100,12 +100,12 @@ break
 
 [@hyumyungwi_T307_1]
 #IF
-checkitem Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 2
+checkitem »ðÑæÎÖÂêºÅ½Ç 2
 #ACT
-give Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
+give »ðÑæÎÖÂêºÅ½Ç 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T307_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T307_Say
 
 #ELSEACT
 goto @hyumyungwi_T307_2
@@ -114,7 +114,7 @@ goto @hyumyungwi_T307_2
 #IF
 random 3
 #ACT
-give Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
+give »ðÑæÎÖÂêºÅ½Ç 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -148,12 +148,12 @@ break
 
 [@hyumyungwi_T302_1]
 #IF
-checkitem Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 29
+checkitem »ðÑæÎÖÂêºÅ½Ç 29
 #ACT
-give Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
+give »ðÑæÎÖÂêºÅ½Ç 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T302_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T302_Say
 
 #ELSEACT
 goto @hyumyungwi_T302_2
@@ -162,5 +162,5 @@ goto @hyumyungwi_T302_2
 #IF
 random 3
 #ACT
-give Â»ÄŸÃ‘Ã¦ÃŽÃ–Ã‚ÃªÂºÃ…Â½Ã‡ 1
+give »ðÑæÎÖÂêºÅ½Ç 1
 ;-----------------------------------------------------

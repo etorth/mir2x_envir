@@ -14,31 +14,31 @@
 goto @main_Call_BG
 
 [@main_Call_BG]
-#CALL [QuestDiary/NQ_BASE/BackGround/SnakeVally.txt] @BackLog_BG_M1
+#CALL [\NQ_BASE\BackGround\SnakeVally.txt] @BackLog_BG_M1
 
 [@main_root]
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_SnakeVally-2.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_SnakeVally-2.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
 
 [@main_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_SnakeVally-2.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_SnakeVally-2.txt] @NPC_Main
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_SnakeVally-2.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_SnakeVally-2.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_SnakeVally-2.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_SnakeVally-2.txt] @NPC_Sell
 
 [Goods]
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_SnakeVally-2.txt] @NPC_Goods
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_SnakeVally-2.txt] @NPC_Goods
 
 [@TQuest]
 #IF
@@ -54,7 +54,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_SnakeVally-2.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_SnakeVally-2.txt] @NPC_TQuest
 
 [@TQuest464_0]
 #IF
@@ -75,10 +75,10 @@ goto @TQuest464_1
 ;--------------
 
 [@TQuest464_1]
-;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @464_START
+;;#CALL [\QT_TODAY\4thClass.txt] @464_START
 
 [@TQuest464_2]
-;;#CALL [QuestDiary/QT_TODAY/4thClass.txt] @464_CHECK1
+;;#CALL [\QT_TODAY\4thClass.txt] @464_CHECK1
 
 
 [@TQuest1_0]
@@ -100,13 +100,13 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @409_START
+#CALL [\QT_TODAY\4thClass.txt] @409_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @409_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @409_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/07Grocery_SnakeVally-2.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\07Grocery_SnakeVally-2.txt] @NPC_TQuest_1

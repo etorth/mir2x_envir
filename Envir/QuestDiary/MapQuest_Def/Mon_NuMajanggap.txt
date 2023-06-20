@@ -1,11 +1,11 @@
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+;;²»ÒªÉ¾µô´ËĞĞ
 [@main]
 #IF
 Check [209] 1
 Check [210] 1
 Check [409] 0
 #ACT
-Mov A8 "è¯ºç›è£…ç”²å…µ"
+Mov A8 "ÅµÂê×°¼×±ø"
 goto @TodayQuest_TQCase1
 #ELSEACT
 goto @main_Except
@@ -15,5 +15,5 @@ goto @main_Except
 break
 
 [@TodayQuest_TQCase1]
-#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_NuMajanggap
-;;ä¸è¦åˆ æ‰æ­¤è¡Œ
+#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NuMajanggap
+;;²»ÒªÉ¾µô´ËĞĞ

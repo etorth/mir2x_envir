@@ -1,6 +1,0 @@
-;;Na_RoomSinGiKing.txt
-[@NPC_Main]
-{
-（看来这里受魔咒的控制，无法进入......）\\
-<结束/@exit>
-}

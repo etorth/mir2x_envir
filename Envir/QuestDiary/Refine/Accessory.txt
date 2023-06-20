@@ -7,7 +7,7 @@
 #Define   D3{ATOM}    D3
 
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Main
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Main
 
 [@@testRefineAccessory]
 begin
@@ -22,7 +22,7 @@ begin
 
   #IF
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Main_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Main_1
 end
 
 [@retryRefine]
@@ -35,7 +35,7 @@ end
 begin
 
   #IF
-    not CheckItem        Â¸Ã–Ã“Ã±ÃŠÂ¯    1
+    not CheckItem        ¸ÖÓñÊ¯    1
     or not CheckGold     10000
   #ACT
     goto @didnotMatchConditions
@@ -44,19 +44,19 @@ begin
   #IF
   #ACT
     mov     D2{TYPE}    %ARG(1)
-    mov     D3{ATOM}    %ARG(2)
+    mov     D3{ATOM}    %ARG(2) 
     TestRefineAccessories   %A0   %D2   %D3
     mov     D1{PROB}    %P9
 
   #IF
-    Small   D1{PROB}    0
+    Small   D1{PROB}    0 
   #ACT
     goto @didnotMatchConditions
     break
 
   #IF
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Main_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Main_2
 end
 
 [@GetRefineProb]
@@ -64,41 +64,41 @@ begin
   #IF
     Small  D1  30
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Prob
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Prob
   #ACT
     break
 
   #IF
     Small  D1  38
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Prob_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Prob_1
   #ACT
     break
 
   #IF
     Small  D1  45
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Prob_2
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Prob_2
   #ACT
     break
 
   #IF
     Small  D1  55
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Prob_3
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Prob_3
   #ACT
     break
 
   #IF
     Small  D1  65
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Prob_4
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Prob_4
   #ACT
     break
 
   #IF
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Prob_5
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Prob_5
   #ACT
     break
 end
@@ -107,26 +107,26 @@ end
 begin
 
   #IF
-    not CheckItem        Â¸Ã–Ã“Ã±ÃŠÂ¯    1
+    not CheckItem        ¸ÖÓñÊ¯    1
     or not CheckGold     10000
   #ACT
     break
 
   #IF
   #ACT
-    Take      Â¸Ã–Ã“Ã±ÃŠÂ¯    1
-    Take      Â½Ã°Â±Ã’        10000
+    Take      ¸ÖÓñÊ¯    1
+    Take      ½ð±Ò        10000
     RefineAccessories   %A0   %D2   %D3
 
   #IF
     Equal     P9        1
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Result
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Result
 
   #IF
     Equal  P9  0
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Result_1
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Result_1
 end
 
 
@@ -134,15 +134,15 @@ end
 [@didnotMatchConditions]
 begin
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Fail
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Fail
 end
-
+    
 [@askAboutRefineAccessories]
 begin
 
   #SAY
-	#INCLUDE [Convert_Def/QuestDiary/Refine/Accessory.txt] @RefineAccessory_Help
-
+	#INCLUDE [..\Convert_Def\QuestDiary\Refine\Accessory.txt] @RefineAccessory_Help
+    
 end
 
 }

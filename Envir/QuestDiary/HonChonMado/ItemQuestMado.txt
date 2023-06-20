@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@MadoItemQuest]
 {
 #ACT
@@ -8,7 +8,7 @@ SetItemEvent 20 21 @MadoItemQuestMain
 [@MadoItemQuestMain]
 #IF
 check [207] 1
-Checkitemw 瀵傚够涔嬪垉 1
+Checkitemw 寂幻之刃 1
 #ACT
 goto @MadoItemQuestMain_ok
 return false
@@ -19,7 +19,7 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/ItemQuestMado.txt] @Convert_ItemQuestMado_0
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\ItemQuestMado.txt] @Convert_ItemQuestMado_0
 
 #ACT
 return false
@@ -51,15 +51,15 @@ break
 #IF
 
 #SAY
-#INCLUDE [Convert_Def/QuestDiary/HonChonMado/ItemQuestMado.txt] @Convert_ItemQuestMado_1
+#INCLUDE [..\Convert_Def\QuestDiary\HonChonMado\ItemQuestMado.txt] @Convert_ItemQuestMado_1
 
 #ACT
 return false
 break
 
 [@MadoItemQuestMain_ok_Call]
-#CALL [QuestDiary/HonChonMado/QuestMadoEvent.txt] @ItemQuest_Man
+#CALL [HonChonMado\QuestMadoEvent.txt] @ItemQuest_Man
 
 
 }
-;涓嶈鍒犳帀姝よ
+;不要删掉此行

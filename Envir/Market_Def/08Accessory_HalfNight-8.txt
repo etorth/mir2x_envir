@@ -16,7 +16,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -29,37 +29,37 @@ goto @main_0_0
 [@main_0_0]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_Main
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-éª·é«…æˆ’æŒ‡        100        1
-å°æ‰‹é•¯          100        1
-è“ç¿¡ç¿ é¡¹é“¾      100        1
-çç æˆ’æŒ‡        100        1
-é“å£«æ‰‹é•¯        100        1
-;;å‡¤å‡°æ˜ç         100        1
-è›‡çœ¼æˆ’æŒ‡        100        1
-é»‘æª€æ‰‹é•¯        100        1
-;;äº”è‰²é¡¹é“¾        100        1
+÷¼÷Ã½äÖ¸        100        1
+Ğ¡ÊÖïí          100        1
+À¶ôä´äÏîÁ´      100        1
+ÕäÖé½äÖ¸        100        1
+µÀÊ¿ÊÖïí        100        1
+;;·ï»ËÃ÷Öé        100        1
+ÉßÑÛ½äÖ¸        100        1
+ºÚÌ´ÊÖïí        100        1
+;;ÎåÉ«ÏîÁ´        100        1
 
 
 ;;------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ goto @TQuest484_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_TQuest
 
 ;------------------------
 
@@ -104,15 +104,15 @@ goto @TQuest484_1
 ;--------------
 
 [@TQuest484_1]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @484_START
+#CALL [\QT_TODAY\4thClass.txt] @484_START
 
 [@TQuest484_2]
-#CALL [QuestDiary/QT_TODAY/4thClass.txt] @484_CHECK1
+#CALL [\QT_TODAY\4thClass.txt] @484_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/08Accessory_HalfNight-8.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\08Accessory_HalfNight-8.txt] @NPC_TQuest_1
 
 ;--------------

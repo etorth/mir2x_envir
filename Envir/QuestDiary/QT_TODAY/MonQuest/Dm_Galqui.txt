@@ -73,10 +73,10 @@ inc S0 1
 [@galkwii_T534_5]
 #IF
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T534_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T534_Say
 
 #ACT
-give √â√ü¬π√à√Ä√è√à√ã√ä√ñ√Ø√≠ 1
+give …ﬂπ»¿œ»À ÷ÔÌ 1
 set [308] 1
 mov S0 0
 ;

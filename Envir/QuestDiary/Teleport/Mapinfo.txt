@@ -1,587 +1,587 @@
 ;;mapinfo.txt
-[0               æ¯”å¥‡åŽ¿                 0] horse
-[0_003           æ¯”å¥‡åŽ¿                 0] DARK horse
+[0               ±ÈÆæÏØ                 0] horse
+[0_003           ±ÈÆæÏØ                 0] DARK horse
 
-[Z010            æ…ˆå–„å±‹                 0] DAY SAFE
-[Z011            æ…ˆå–„å±‹                 1] DAY SAFE
-[Z012            æ…ˆå–„å±‹                 2] DAY SAFE
-[Z013            æ…ˆå–„å±‹                 2] DAY SAFE
+[Z010            ´ÈÉÆÎÝ                 0] DAY SAFE
+[Z011            ´ÈÉÆÎÝ                 1] DAY SAFE
+[Z012            ´ÈÉÆÎÝ                 2] DAY SAFE
+[Z013            ´ÈÉÆÎÝ                 2] DAY SAFE
 
-[01              è¾¹å¢ƒåŸŽå¸‚               2] horse
-[01_001          å¿—å–„å±‹                 2] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE
-[01_003          è¯•ç»ƒåœº                 2] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(01)
+[01              ±ß¾³³ÇÊÐ               2] horse
+[01_001          Ö¾ÉÆÎÝ                 2] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE
+[01_003          ÊÔÁ·³¡                 2] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(01)
 
-[RUSH1           è¯•ç»ƒå±‹                 0] DAY FOG Fight NORECALL NOPOSITIONMOVE NORECONNECT(01)
+[RUSH1           ÊÔÁ·ÎÝ                 0] DAY FOG Fight NORECALL NOPOSITIONMOVE NORECONNECT(01)
 
-[02              é“¶æå±±è°·               3] horse
-[02_001          è¯•ç»ƒåœº                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_002          è¯•ç»ƒåœº                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_003          è¯•ç»ƒåœº                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_004          è¯•ç»ƒåœº                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_005          è¯•ç»ƒåœº                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_006          è¯•ç»ƒåœº                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_010          è¯•ç»ƒåœº                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_011          è¯•ç»ƒåœº                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_012          è¯•ç»ƒåœº                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_013          è¯•ç»ƒåœº                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
-[02_014          è¯•ç»ƒåœº                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02              ÒøÐÓÉ½¹È               3] horse
+[02_001          ÊÔÁ·³¡                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_002          ÊÔÁ·³¡                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_003          ÊÔÁ·³¡                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_004          ÊÔÁ·³¡                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_005          ÊÔÁ·³¡                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_006          ÊÔÁ·³¡                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_010          ÊÔÁ·³¡                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_011          ÊÔÁ·³¡                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_012          ÊÔÁ·³¡                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_013          ÊÔÁ·³¡                 3] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
+[02_014          ÊÔÁ·³¡                 3] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(02)
 
-[1               é“é¦†                   1] horse
-[1_001           æ­¦å™¨ä»“åº“               1] DAY Fight
-[1_002           æœ¬é¦†                   1] DAY Fight
-[1_003           æ´—è¡£ä½å±…               1] DAY Fight
-[1_004           ä¹¦æˆ¿                   1] DAY Fight
-[1_005           ç‰©å“ç ”ç©¶æ‰€             1] DAY Fight
-[1_006           è¯å‰‚å¸ˆä½å±…             1] DAY Fight
-[1_007           ä»“åº“                   1] DAY Fight
-[1_008           è¯•ç»ƒåœº                 1] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1_002)
-[1_009           æ— åè€äººéšå±…åœ°         1] Day horse NORECALL NOPOSITIONMOVE NORANDOMMOVE
-[1_010           è¯•ç»ƒåœº                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
-[1_011           è¯•ç»ƒåœº                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
-[1_012           è¯•ç»ƒåœº                 1] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
-[1_013           è¯•ç»ƒåœº                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
-[1_014           è¯•ç»ƒåœº                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
-[1_015           å›°é­”å’’ç©ºé—´             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[1_016           å›°é­”å’’ç©ºé—´             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[1_017           å›°é­”å’’ç©ºé—´             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[1_018           å›°é­”å’’ç©ºé—´             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[1_019           å›°é­”å’’ç©ºé—´             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[1_020           èœˆèš£æ´žç©´               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
-[1_021           èœˆèš£æ´žç©´               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
-[1_022           èœˆèš£æ´žç©´               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
-[1_023           èœˆèš£æ´žç©´               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
+[1               µÀ¹Ý                   1] horse
+[1_001           ÎäÆ÷²Ö¿â               1] DAY Fight
+[1_002           ±¾¹Ý                   1] DAY Fight
+[1_003           Ï´ÒÂ×¡¾Ó               1] DAY Fight
+[1_004           Êé·¿                   1] DAY Fight
+[1_005           ÎïÆ·ÑÐ¾¿Ëù             1] DAY Fight
+[1_006           Ò©¼ÁÊ¦×¡¾Ó             1] DAY Fight
+[1_007           ²Ö¿â                   1] DAY Fight
+[1_008           ÊÔÁ·³¡                 1] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1_002)
+[1_009           ÎÞÃûÀÏÈËÒþ¾ÓµØ         1] Day horse NORECALL NOPOSITIONMOVE NORANDOMMOVE
+[1_010           ÊÔÁ·³¡                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
+[1_011           ÊÔÁ·³¡                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
+[1_012           ÊÔÁ·³¡                 1] SAFE NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
+[1_013           ÊÔÁ·³¡                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
+[1_014           ÊÔÁ·³¡                 1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(1)
+[1_015           À§Ä§Öä¿Õ¼ä             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[1_016           À§Ä§Öä¿Õ¼ä             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[1_017           À§Ä§Öä¿Õ¼ä             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[1_018           À§Ä§Öä¿Õ¼ä             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[1_019           À§Ä§Öä¿Õ¼ä             1] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[1_020           òÚò¼¶´Ñ¨               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
+[1_021           òÚò¼¶´Ñ¨               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
+[1_022           òÚò¼¶´Ñ¨               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
+[1_023           òÚò¼¶´Ñ¨               2] SAFE DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D6004)
 
-[12              çŒæœ¨æž—                 1] horse
-[121             çŒæœ¨æž—                 1] horse
-[122             çŒæœ¨æž—                 1] horse
-[123             çŒæœ¨æž—                 1] horse
-[124             çŒæœ¨æž—                 1] horse
-[125             çŒæœ¨æž—                 1] horse
+[12              ¹àÄ¾ÁÖ                 1] horse
+[121             ¹àÄ¾ÁÖ                 1] horse
+[122             ¹àÄ¾ÁÖ                 1] horse
+[123             ¹àÄ¾ÁÖ                 1] horse
+[124             ¹àÄ¾ÁÖ                 1] horse
+[125             ¹àÄ¾ÁÖ                 1] horse
 
-[2               æ¯’è›‡å±±è°·               1] horse
+[2               ¶¾ÉßÉ½¹È               1] horse
 
-[3               æ²™å·´å…‹åŸŽ               1] horse
-[31              ç¥–çŽ›ç¥žæ®¿               1] horse
+[3               É³°Í¿Ë³Ç               1] horse
+[31              ×æÂêÉñµî               1] horse
 
-[4               ç»¿æ´²                   3] horse
-[4_001           æ­¦å™¨åº—                 3] DAY Fight
-[4_002           æ°‘å®¶                   3] DAY Fight
-[4_003           ä¸­è¯å•†                 3] DAY Fight
-[4_004           å¸ƒåŒ¹åº—                 3] DAY Fight
-[4_005           å åœå±‹                 3] DAY Fight
+[4               ÂÌÖÞ                   3] horse
+[4_001           ÎäÆ÷µê                 3] DAY Fight
+[4_002           Ãñ¼Ò                   3] DAY Fight
+[4_003           ÖÐÒ©ÉÌ                 3] DAY Fight
+[4_004           ²¼Æ¥µê                 3] DAY Fight
+[4_005           Õ¼²·ÎÝ                 3] DAY Fight
 
-;; Samak3(Oasis Expansion)
-[41              æ²™æ¼                    3] horse
-[42              æ²™æ¼                    3] horse
-[43              æ²™æ¼                    3] horse
-[44              æ²™æ¼                    3] horse
+;; Samak3(Oasis Expansion)                
+[41              É³Ä®                   3] horse
+[42              É³Ä®                   3] horse
+[43              É³Ä®                   3] horse
+[44              É³Ä®                   3] horse
 
-[5               æ²™æ¼ åœŸåŸŽ               3] horse
-[5_0011          è´µæ—å±‹                 3] DAY Fight
-[5_0012          è´µæ—å±‹                 3] DAY Fight
-[5_0013          è´µæ—å±‹                 3] DAY Fight
-[5_002           æ­¦å™¨å•†                 3] DAY Fight
-[5_003           è¯æˆ¿                   3] DAY Fight
-[5_004           æœé¥°åº—                 3] DAY Fight
-[5_005           é¥°å“åº—                 3] DAY Fight
-[5_006           ä»“åº“                   3] DAY Fight
+[5               É³Ä®ÍÁ³Ç               3] horse
+[5_0011          ¹ó×åÎÝ                 3] DAY Fight
+[5_0012          ¹ó×åÎÝ                 3] DAY Fight
+[5_0013          ¹ó×åÎÝ                 3] DAY Fight
+[5_002           ÎäÆ÷ÉÌ                 3] DAY Fight
+[5_003           Ò©·¿                   3] DAY Fight
+[5_004           ·þÊÎµê                 3] DAY Fight
+[5_005           ÊÎÆ·µê                 3] DAY Fight
+[5_006           ²Ö¿â                   3] DAY Fight
 
-;; Samak2(gemigul ipgu)
-[6               æ²™æ¼                    3] horse
+;; Samak2(gemigul ipgu)               
+[6               É³Ä®                   3] horse
 
-;; Samak1(silkload)
-[71              æ²™æ¼                    2] horse
-[72              æ²™æ¼                    2] horse
-[73              æ²™æ¼                    2] horse
-[74              ç›Ÿé‡åŽ¿                 2] horse
-[75              çŸ³é˜åº™                 2] horse
-[76              æ²™æ¼                    2] horse
-[77              æ²™æ¼                    2] horse
-[78              æ²™æ¼                    2] horse
+;; Samak1(silkload)               
+[71              É³Ä®                   2] horse
+[72              É³Ä®                   2] horse
+[73              É³Ä®                   2] horse
+[74              ÃËÖØÏØ                 2] horse
+[75              Ê¯¸óÃí                 2] horse
+[76              É³Ä®                   2] horse
+[77              É³Ä®                   2] horse
+[78              É³Ä®                   2] horse
 
-[8               æ½˜å¤œå²›                 0] horse
-[81              æµæ”¾å²›                 2] horse FIGHT NORECALL NOSPACEMOVE
+[8               ÅËÒ¹µº                 0] horse
+[81              Á÷·Åµº                 2] horse FIGHT NORECALL NOSPACEMOVE
 
-[9               å¤±ä¹å›­                 0] horse
+[9               Ê§ÀÖÔ°                 0] horse
 
-;; Omadogul DG
-[D001            åŠå…½æ´žç©´1å±‚            0] DARK
-[D001_001        åŠå…½å‹‡å£«æ´ž             0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d001)
-[D002            åŠå…½æ´žç©´2å±‚            0] DARK
-[D002_001        éª·é«…ç²¾çµæ´ž             0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d002)
-[DM001           å¥¸å•†                   0] DARK FIGHT
-[DM002           çŽ‹é™µ                   0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d002)
-[D003            åŠå…½æ´žç©´3å±‚            0] DARK
+;; Omadogul DG                
+[D001            °ëÊÞ¶´Ñ¨1²ã            0] DARK
+[D001_001        °ëÊÞÓÂÊ¿¶´             0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d001)
+[D002            °ëÊÞ¶´Ñ¨2²ã            0] DARK
+[D002_001        ÷¼÷Ã¾«Áé¶´             0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d002)
+[DM001           ¼éÉÌ                   0] DARK FIGHT
+[DM002           ÍõÁê                   0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d002)
+[D003            °ëÊÞ¶´Ñ¨3²ã            0] DARK
 
-;; Omajayungul DG
-[E001            åŠå…½å¤©ç„¶æ´žç©´           0] DARK
-[E002            åŠå…½å¤©ç„¶æ´žç©´           0] DARK
-[E002_001        åŠå…½å¤©ç„¶æ´žç©´           0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(E002)
+;; Omajayungul DG               
+[E001            °ëÊÞÌìÈ»¶´Ñ¨           0] DARK
+[E002            °ëÊÞÌìÈ»¶´Ñ¨           0] DARK
+[E002_001        °ëÊÞÌìÈ»¶´Ñ¨           0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(E002)
 
-;; Yungyultongro DG
-[E401            è¿žæŽ¥é€šè·¯               0] DARK
-[E402            è¿žæŽ¥é€šè·¯               0] DARK
-[E402_001        è¿žæŽ¥é€šè·¯               0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(E402)
-[E403            è¿žæŽ¥é€šè·¯               0] DARK
-[E404            è¿žæŽ¥é€šè·¯               0] DARK
+;; Yungyultongro DG               
+[E401            Á¬½ÓÍ¨Â·               0] DARK
+[E402            Á¬½ÓÍ¨Â·               0] DARK
+[E402_001        Á¬½ÓÍ¨Â·               0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(E402)
+[E403            Á¬½ÓÍ¨Â·               0] DARK
+[E404            Á¬½ÓÍ¨Â·               0] DARK
 
-;; Jayundonggul DG
-[D011            å¤©ç„¶æ´žç©´1å±‚            3] DARK
-[D012            å¤©ç„¶æ´žç©´2å±‚            3] DARK
-[D012_001        å¤©ç„¶æ´žç©´2å±‚            3] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d012)
-[DM011           æ´žç©´å¥¸å•†               3] DARK
+;; Jayundonggul DG                
+[D011            ÌìÈ»¶´Ñ¨1²ã            3] DARK
+[D012            ÌìÈ»¶´Ñ¨2²ã            3] DARK
+[D012_001        ÌìÈ»¶´Ñ¨2²ã            3] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(d012)
+[DM011           ¶´Ñ¨¼éÉÌ               3] DARK
 
-;; Umasinjun DG
-[D021            æ²ƒçŽ›ç¥žæ®¿å…¥å£           1] DARK
-[D022            æ²ƒçŽ›ç¥žæ®¿1å±‚            1] DARK
-[D032            æ²ƒçŽ›ç¥žæ®¿1å±‚            1] DARK
-[D042            æ²ƒçŽ›ç¥žæ®¿1å±‚            1] DARK
-[D052            æ²ƒçŽ›ç¥žæ®¿1å±‚            1] DARK
-[D023            æ²ƒçŽ›ç¥žæ®¿2å±‚            1] DARK
-[D033            æ²ƒçŽ›ç¥žæ®¿2å±‚            1] DARK
-[D043            æ²ƒçŽ›ç¥žæ®¿2å±‚            1] DARK
-[D053            æ²ƒçŽ›ç¥žæ®¿2å±‚            1] DARK
-[D024            æ²ƒçŽ›ç¥žæ®¿               1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[D023_001        æ²ƒçŽ›ç¥žæ®¿å¸ˆå¾’å…³         1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[D023_002        æ²ƒçŽ›ç¥žæ®¿å¸ˆå¾’å…³         1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
-[D022_001        æ²ƒçŽ›ç¥žæ®¿1å±‚            1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D022)
+;; Umasinjun DG               
+[D021            ÎÖÂêÉñµîÈë¿Ú           1] DARK
+[D022            ÎÖÂêÉñµî1²ã            1] DARK
+[D032            ÎÖÂêÉñµî1²ã            1] DARK
+[D042            ÎÖÂêÉñµî1²ã            1] DARK
+[D052            ÎÖÂêÉñµî1²ã            1] DARK
+[D023            ÎÖÂêÉñµî2²ã            1] DARK
+[D033            ÎÖÂêÉñµî2²ã            1] DARK
+[D043            ÎÖÂêÉñµî2²ã            1] DARK
+[D053            ÎÖÂêÉñµî2²ã            1] DARK
+[D024            ÎÖÂêÉñµî               1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[D023_001        ÎÖÂêÉñµîÊ¦Í½¹Ø         1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[D023_002        ÎÖÂêÉñµîÊ¦Í½¹Ø         1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D023)
+[D022_001        ÎÖÂêÉñµî1²ã            1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D022)
 
-;; BichunPegwang DG
-[D400_001        ç¥žåœ£æˆ˜ç”²æœ¯ç©ºé—´         0] SAFE DARK NORECALL NORECONNECT(D401)
-[D401            åºŸçŸ¿çŸ¿å±±å…¥å£           0] DARK MINE
-[D401_001        å°¸çŽ‹æˆ¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D401)
-[D411            åœ°ä¸‹1å±‚ç¬¬ä¸€é—´æˆ¿        0] DARK MINE
-[D413            åœ°ä¸‹1å±‚ç¬¬äºŒé—´æˆ¿        0] DARK MINE
-[D402            åºŸçŸ¿ä¸œéƒ¨æ´žç©´           0] DARK MINE
-[D402_001        å°¸çŽ‹æˆ¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D402)
-[D414            åœ°ä¸‹1å±‚ç¬¬ä¸‰é—´æˆ¿        0] DARK MINE
-[D403            åœ°ä¸‹1å±‚é‡‡çŸ¿æ‰€          0] DARK MINE
-[D403_001        å°¸çŽ‹æˆ¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D403)
-[D412            å¤©æ¡¥2                  0] DARK
-[D404            åœ°ä¸‹2å±‚é‡‡çŸ¿æ‰€          0] DARK
-[D404_001        å°¸çŽ‹æˆ¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D404)
-[D404_002        åºŸçŸ¿çŸ¿å±±åœ°ä¸‹2å±‚        0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D404)
-[D416            å¤©æ¡¥3                  0] DARK
-[D405            çŸ¿çŸ³å‚¨è—æ‰€             0] DARK
-[D405_001        å°¸çŽ‹æˆ¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D405)
-[D415            å¤©æ¡¥1                  0] DARK
-[D406            åºŸçŸ¿å—éƒ¨æ´žç©´           0] DARK
-[D406_001        å°¸çŽ‹æˆ¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D406)
+;; BichunPegwang DG               
+[D400_001        ÉñÊ¥Õ½¼×Êõ¿Õ¼ä         0] SAFE DARK NORECALL NORECONNECT(D401)
+[D401            ·Ï¿ó¿óÉ½Èë¿Ú           0] DARK MINE
+[D401_001        Ê¬Íõ·¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D401)
+[D411            µØÏÂ1²ãµÚÒ»¼ä·¿        0] DARK MINE
+[D413            µØÏÂ1²ãµÚ¶þ¼ä·¿        0] DARK MINE
+[D402            ·Ï¿ó¶«²¿¶´Ñ¨           0] DARK MINE
+[D402_001        Ê¬Íõ·¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D402)
+[D414            µØÏÂ1²ãµÚÈý¼ä·¿        0] DARK MINE
+[D403            µØÏÂ1²ã²É¿óËù          0] DARK MINE
+[D403_001        Ê¬Íõ·¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D403)
+[D412            ÌìÇÅ2                  0] DARK
+[D404            µØÏÂ2²ã²É¿óËù          0] DARK
+[D404_001        Ê¬Íõ·¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D404)
+[D404_002        ·Ï¿ó¿óÉ½µØÏÂ2²ã        0] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D404)
+[D416            ÌìÇÅ3                  0] DARK
+[D405            ¿óÊ¯´¢²ØËù             0] DARK
+[D405_001        Ê¬Íõ·¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D405)
+[D415            ÌìÇÅ1                  0] DARK
+[D406            ·Ï¿óÄÏ²¿¶´Ñ¨           0] DARK
+[D406_001        Ê¬Íõ·¿                 0] DARK NEEDHOLE NORECALL NORECONNECT(D406)
 
-;; BemgolPegwang DG
-;;[D420_001        ç¥žåœ£æˆ˜ç”²æœ¯ç©ºé—´         1] SAFE DARK NORECALL NORECONNECT(D421)
-[D421            çŸ¿å±±1å±‚                1] DARK MINE
-[D421_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D421)
-[D422            çŸ¿å±±2å±‚                1] DARK
-[D422_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D422)
-[D422_002        çŸ¿å±±2å±‚                1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D422)
+;; BemgolPegwang DG               
+;;[D420_001        ÉñÊ¥Õ½¼×Êõ¿Õ¼ä         1] SAFE DARK NORECALL NORECONNECT(D421)
+[D421            ¿óÉ½1²ã                1] DARK MINE
+[D421_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D421)
+[D422            ¿óÉ½2²ã                1] DARK
+[D422_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D422)
+[D422_002        ¿óÉ½2²ã                1] DARK NORECALL NOPOSITIONMOVE NORANDOMMOVE NORECONNECT(D422)
 
-;; BemgolPegwang(north) DG
-[D431            åŒ—éƒ¨çŸ¿å±±å…¥å£           1] DARK MINE
-[D431_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D431)
-[D441            åŒ—éƒ¨åœ°ä¸‹1å±‚ç¬¬ä¸€é—´æˆ¿    1] DARK MINE
-[D443            åŒ—éƒ¨åœ°ä¸‹1å±‚ç¬¬äºŒé—´æˆ¿    1] DARK MINE
-[D432            åŒ—éƒ¨çŸ¿å±±ä¸œé¢æ´žç©´       1] DARK MINE
-[D432_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D432)
-[D444            åŒ—éƒ¨åœ°ä¸‹1å±‚ç¬¬ä¸‰é—´æˆ¿    1] DARK MINE
-[D433            åŒ—éƒ¨åœ°ä¸‹1å±‚é‡‡çŸ¿æ‰€      1] DARK MINE
-[D433_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D433)
-[D442            åŒ—éƒ¨å¤©æ¡¥2              1] DARK
-[D434            åŒ—éƒ¨åœ°ä¸‹2å±‚é‡‡çŸ¿æ‰€      1] DARK
-[D434_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D434)
-[D446            åŒ—éƒ¨å¤©æ¡¥3              1] DARK
-[D435            åŒ—éƒ¨çŸ¿çŸ³å‚¨è—æ‰€         1] DARK
-[D435_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D435)
-[D445            åŒ—éƒ¨å¤©æ¡¥1              1] DARK
-[D436            åŒ—éƒ¨åºŸçŸ¿å—é¢æ´žç©´       1] DARK
-[D436_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D436)
+;; BemgolPegwang(north) DG                
+[D431            ±±²¿¿óÉ½Èë¿Ú           1] DARK MINE
+[D431_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D431)
+[D441            ±±²¿µØÏÂ1²ãµÚÒ»¼ä·¿    1] DARK MINE
+[D443            ±±²¿µØÏÂ1²ãµÚ¶þ¼ä·¿    1] DARK MINE
+[D432            ±±²¿¿óÉ½¶«Ãæ¶´Ñ¨       1] DARK MINE
+[D432_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D432)
+[D444            ±±²¿µØÏÂ1²ãµÚÈý¼ä·¿    1] DARK MINE
+[D433            ±±²¿µØÏÂ1²ã²É¿óËù      1] DARK MINE
+[D433_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D433)
+[D442            ±±²¿ÌìÇÅ2              1] DARK
+[D434            ±±²¿µØÏÂ2²ã²É¿óËù      1] DARK
+[D434_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D434)
+[D446            ±±²¿ÌìÇÅ3              1] DARK
+[D435            ±±²¿¿óÊ¯´¢²ØËù         1] DARK
+[D435_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D435)
+[D445            ±±²¿ÌìÇÅ1              1] DARK
+[D436            ±±²¿·Ï¿óÄÏÃæ¶´Ñ¨       1] DARK
+[D436_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D436)
 
-;; BemgolPegwang(south) DG
-[D451            å—éƒ¨çŸ¿å±±1å±‚            1] DARK MINE
-[D451_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D421)
-[D452            å—éƒ¨çŸ¿å±±2å±‚            1] DARK
-[D452_001        å°¸çŽ‹æˆ¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D422)
+;; BemgolPegwang(south) DG                
+[D451            ÄÏ²¿¿óÉ½1²ã            1] DARK MINE
+[D451_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D421)
+[D452            ÄÏ²¿¿óÉ½2²ã            1] DARK
+[D452_001        Ê¬Íõ·¿                 1] DARK NEEDHOLE NORECALL NORECONNECT(D422)
 
-;; BemgolPegwang Bimilgil DG
-;[E601            åºŸçŸ¿ç§˜å¯†é€šè·¯           1] DARK
-;[E602            åºŸçŸ¿ç§˜å¯†é€šè·¯           1] DARK
-;[E603            åºŸçŸ¿ç§˜å¯†é€šè·¯           1] DARK
-;[E604            åºŸçŸ¿ç§˜å¯†é€šè·¯           1] DARK
-;[E605            åºŸçŸ¿ç§˜å¯†é€šè·¯           1] DARK
+;; BemgolPegwang Bimilgil DG                
+;[E601            ·Ï¿óÃØÃÜÍ¨Â·           1] DARK
+;[E602            ·Ï¿óÃØÃÜÍ¨Â·           1] DARK
+;[E603            ·Ï¿óÃØÃÜÍ¨Â·           1] DARK
+;[E604            ·Ï¿óÃØÃÜÍ¨Â·           1] DARK
+;[E605            ·Ï¿óÃØÃÜÍ¨Â·           1] DARK
 
-;; Jumasinjun DG
-[0157            ç¥–çŽ›ç¥žæ®¿å¤§åŽ…           1]
-[D501            ç¥–çŽ›ç¥žæ®¿1å±‚            1] DARK
-[D511            ç¥–çŽ›ç¥žæ®¿               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D502            ç¥–çŽ›ç¥žæ®¿2å±‚            1] DARK
-[D512            ç¥–çŽ›ç¥žæ®¿               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D503            ç¥–çŽ›ç¥žæ®¿3å±‚            1] DARK
-[D513            ç¥–çŽ›ç¥žæ®¿               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D504            ç¥–çŽ›ç¥žæ®¿4å±‚            1] DARK
-[D514            ç¥–çŽ›ç¥žæ®¿               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D505            ç¥–çŽ›ç¥žæ®¿5å±‚            1] DARK
-[D5061           ç¥–çŽ›é˜                 1] DARK
-[D5062           ç¥–çŽ›é˜                 1] DARK
-[D5063           ç¥–çŽ›é˜                 1] DARK
-[D5064           ç¥–çŽ›é˜                 1] DARK
-[D5065           ç¥–çŽ›é˜                 1] DARK
-[D5066           ç¥–çŽ›é˜                 1] DARK
-[D5067           ç¥–çŽ›é˜                 1] DARK
-[D5068           ç¥–çŽ›é˜                 1] DARK
-[D5069           ç¥–çŽ›é˜                 1] DARK
-[D5071           ç¥–çŽ›ç¥žæ®¿7å±‚å¤§åŽ…        1] DARK
-[D5072           ç¥–çŽ›ç¥žæ®¿7å±‚            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
-[D5073           ç¥–çŽ›ç¥žæ®¿7å±‚            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
-[D5074           ç¥–çŽ›ç¥žæ®¿7å±‚            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
-[D515            ç¥–çŽ›æ•™ä¸»å®«å»·           1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
+;; Jumasinjun DG                
+[0157            ×æÂêÉñµî´óÌü           1] 
+[D501            ×æÂêÉñµî1²ã            1] DARK
+[D511            ×æÂêÉñµî               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D502            ×æÂêÉñµî2²ã            1] DARK
+[D512            ×æÂêÉñµî               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D503            ×æÂêÉñµî3²ã            1] DARK
+[D513            ×æÂêÉñµî               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D504            ×æÂêÉñµî4²ã            1] DARK
+[D514            ×æÂêÉñµî               1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D505            ×æÂêÉñµî5²ã            1] DARK
+[D5061           ×æÂê¸ó                 1] DARK
+[D5062           ×æÂê¸ó                 1] DARK
+[D5063           ×æÂê¸ó                 1] DARK
+[D5064           ×æÂê¸ó                 1] DARK
+[D5065           ×æÂê¸ó                 1] DARK
+[D5066           ×æÂê¸ó                 1] DARK
+[D5067           ×æÂê¸ó                 1] DARK
+[D5068           ×æÂê¸ó                 1] DARK
+[D5069           ×æÂê¸ó                 1] DARK
+[D5071           ×æÂêÉñµî7²ã´óÌü        1] DARK
+[D5072           ×æÂêÉñµî7²ã            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
+[D5073           ×æÂêÉñµî7²ã            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
+[D5074           ×æÂêÉñµî7²ã            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
+[D515            ×æÂê½ÌÖ÷¹¬Í¢           1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D5071)
 
-;; Julmyunggok (mix) DG
-[D60011          ç»å‘½è°·1å±‚å—éƒ¨          2] DARK
-[D60012          ç»å‘½è°·1å±‚è¥¿éƒ¨          2] DARK
-[D60013          ç»å‘½è°·1å±‚åŒ—éƒ¨          2] DARK
-[D60021          ç»å‘½è°·2å±‚è¥¿éƒ¨          2] DARK
-[D60022          ç»å‘½è°·2å±‚åŒ—éƒ¨          2] DARK
-[D6004           ç»å‘½è°·3å±‚              2] DARK
+;; Julmyunggok (mix) DG               
+[D60011          ¾øÃü¹È1²ãÄÏ²¿          2] DARK
+[D60012          ¾øÃü¹È1²ãÎ÷²¿          2] DARK
+[D60013          ¾øÃü¹È1²ã±±²¿          2] DARK
+[D60021          ¾øÃü¹È2²ãÎ÷²¿          2] DARK
+[D60022          ¾øÃü¹È2²ã±±²¿          2] DARK
+[D6004           ¾øÃü¹È3²ã              2] DARK
 
-;; Manyungok (jine) DG
-[D6011           ä¸‡å¹´è°·                 2] DARK
-[D6012           ä¸‡å¹´åŽŸè°·               2] DARK
-[D60131          ä¸‡å¹´è°·ä¸­éƒ¨             2] DARK
-[D60132          ä¸‡å¹´è°·å—éƒ¨             2] DARK
-[D60133          ä¸‡å¹´è°·è¥¿éƒ¨             2] DARK
-[D60134          ä¸‡å¹´è°·åŒ—éƒ¨             2] DARK
-[D60135          ä¸‡å¹´è°·ä¸œéƒ¨             2] DARK
-[D6014           ä¸‡å¹´ç‹¬å­¤å…³             2] DARK
-[D6015           ç”Ÿæ­»å…³                 2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D6014)
+;; Manyungok (jine) DG                
+[D6011           ÍòÄê¹È                 2] DARK
+[D6012           ÍòÄêÔ­¹È               2] DARK
+[D60131          ÍòÄê¹ÈÖÐ²¿             2] DARK
+[D60132          ÍòÄê¹ÈÄÏ²¿             2] DARK
+[D60133          ÍòÄê¹ÈÎ÷²¿             2] DARK
+[D60134          ÍòÄê¹È±±²¿             2] DARK
+[D60135          ÍòÄê¹È¶«²¿             2] DARK
+[D6014           ÍòÄê¶À¹Â¹Ø             2] DARK
+[D6015           ÉúËÀ¹Ø                 2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D6014)
 
-;; Hyubchunggok (jibgebule) DG
-[D6021           è™«å³¡è°·1å±‚              2] DARK
-[D6022           è™«å³¡è°·2å±‚              2] DARK
-[D6023           è™«å³¡è°·3å±‚              2] DARK
-[D6024           è™«å³¡è°·4å±‚              2] DARK
-[D6025           è™«å³¡è°·5å±‚              2] DARK
+;; Hyubchunggok (jibgebule) DG                
+[D6021           ³æÏ¿¹È1²ã              2] DARK
+[D6022           ³æÏ¿¹È2²ã              2] DARK
+[D6023           ³æÏ¿¹È3²ã              2] DARK
+[D6024           ³æÏ¿¹È4²ã              2] DARK
+[D6025           ³æÏ¿¹È5²ã              2] DARK
 
-;; Julmyung (jugantongro) DG
-[D603            çŸ³ç¯å±‹                 2] DARK
-[D604            ç´«æ°´æ™¶æ´ž               2] DARK
-[D605            æš—é˜æ³‰                 2] DARK
-[D606            å¥‡å²©çŸ³å±‹               2] DARK
-[D607            å¥‡å²©é€šè·¯               2] DARK
+;; Julmyung (jugantongro) DG                
+[D603            Ê¯µÆÎÝ                 2] DARK
+[D604            ×ÏË®¾§¶´               2] DARK
+[D605            °µ¸óÈª                 2] DARK
+[D606            ÆæÑÒÊ¯ÎÝ               2] DARK
+[D607            ÆæÑÒÍ¨Â·               2] DARK
 
-;; Sukgakmyo
-[D7101           çŸ³é˜å…¥å£               2] DARK
-[D7102           çŸ³é˜å…¥å£               2] DARK
-[D711            çŸ³é˜1å±‚                2] DARK
-[D712            çŸ³é˜2å±‚                2] DARK
-[D713            çŸ³é˜3å±‚                2] DARK
-[D714            çŸ³é˜4å±‚                2] DARK
-[D715            çŸ³é˜5å±‚                2] DARK
-[D71601          çŸ³é˜é˜µ                 2] DARK
-[D71602          çŸ³é˜é˜µ                 2] DARK
-[D71603          çŸ³é˜é˜µ                 2] DARK
-[D71604          çŸ³é˜é˜µ                 2] DARK
-[D71605          çŸ³é˜é˜µ                 2] DARK
-[D71606          çŸ³é˜é˜µ                 2] DARK
-[D71607          çŸ³é˜é˜µ                 2] DARK
-[D71608          çŸ³é˜é˜µ                 2] DARK
-[D71609          çŸ³é˜é˜µ                 2] DARK
-[D71610          çŸ³é˜é˜µ                 2] DARK
-[D71611          çŸ³é˜é˜µ                 2] DARK
-[D71612          çŸ³é˜é˜µ                 2] DARK
-[D71613          çŸ³é˜é˜µ                 2] DARK
-[D71614          çŸ³é˜é˜µ                 2] DARK
-[D71615          çŸ³é˜é˜µ                 2] DARK
-[D71616          çŸ³é˜é˜µ                 2] DARK
-[D71617          çŸ³é˜é˜µ                 2] DARK
-[D71618          çŸ³é˜é˜µ                 2] DARK
-[D71619          çŸ³é˜é˜µ                 2] DARK
-[D71620          çŸ³é˜é˜µ                 2] DARK
-[D71621          çŸ³é˜é˜µ                 2] DARK
-[D71622          çŸ³é˜é˜µ                 2] DARK
-[D71623          çŸ³é˜é˜µ                 2] DARK
-[D71624          çŸ³é˜é˜µ                 2] DARK
-[D71625          çŸ³é˜é˜µ                 2] DARK
-[D71650          çŸ³é˜é˜µ                 2] DARK
-[D71651          çŸ³é˜é˜µ                 2] DARK
-[D71652          çŸ³é˜é˜µ                 2] DARK
-[D71653          çŸ³é˜é˜µ                 2] DARK
-[D716            çŸ³é˜6å±‚                2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D717            çŸ³é˜7å±‚                2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D71601)
+;; Sukgakmyo                
+[D7101           Ê¯¸óÈë¿Ú               2] DARK
+[D7102           Ê¯¸óÈë¿Ú               2] DARK
+[D711            Ê¯¸ó1²ã                2] DARK
+[D712            Ê¯¸ó2²ã                2] DARK
+[D713            Ê¯¸ó3²ã                2] DARK
+[D714            Ê¯¸ó4²ã                2] DARK
+[D715            Ê¯¸ó5²ã                2] DARK
+[D71601          Ê¯¸óÕó                 2] DARK
+[D71602          Ê¯¸óÕó                 2] DARK
+[D71603          Ê¯¸óÕó                 2] DARK
+[D71604          Ê¯¸óÕó                 2] DARK
+[D71605          Ê¯¸óÕó                 2] DARK
+[D71606          Ê¯¸óÕó                 2] DARK
+[D71607          Ê¯¸óÕó                 2] DARK
+[D71608          Ê¯¸óÕó                 2] DARK
+[D71609          Ê¯¸óÕó                 2] DARK
+[D71610          Ê¯¸óÕó                 2] DARK
+[D71611          Ê¯¸óÕó                 2] DARK
+[D71612          Ê¯¸óÕó                 2] DARK
+[D71613          Ê¯¸óÕó                 2] DARK
+[D71614          Ê¯¸óÕó                 2] DARK
+[D71615          Ê¯¸óÕó                 2] DARK
+[D71616          Ê¯¸óÕó                 2] DARK
+[D71617          Ê¯¸óÕó                 2] DARK
+[D71618          Ê¯¸óÕó                 2] DARK
+[D71619          Ê¯¸óÕó                 2] DARK
+[D71620          Ê¯¸óÕó                 2] DARK
+[D71621          Ê¯¸óÕó                 2] DARK
+[D71622          Ê¯¸óÕó                 2] DARK
+[D71623          Ê¯¸óÕó                 2] DARK
+[D71624          Ê¯¸óÕó                 2] DARK
+[D71625          Ê¯¸óÕó                 2] DARK
+[D71650          Ê¯¸óÕó                 2] DARK
+[D71651          Ê¯¸óÕó                 2] DARK
+[D71652          Ê¯¸óÕó                 2] DARK
+[D71653          Ê¯¸óÕó                 2] DARK
+[D716            Ê¯¸ó6²ã                2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D717            Ê¯¸ó7²ã                2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D71601)
 
-;; Gemigul(south) DG
-[D8001           å—éƒ¨èš‚èšæ´žç©´1å±‚4       3] DARK
-[D8002           å—éƒ¨èš‚èšæ´žç©´1å±‚1       3] DARK
-[D8003           å—éƒ¨èš‚èšæ´žç©´1å±‚2       3] DARK
-[D8004           å—éƒ¨èš‚èšæ´žç©´1å±‚3       3] DARK
-[D801            å—éƒ¨å°è™«æ´ž             3] DARK
-[D802            å—éƒ¨åžƒåœ¾åœº             3] DARK
-[D8021           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8022           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D803            å—éƒ¨ç²®åº“               3] DARK
-[D8031           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8032           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8033           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D804            å—éƒ¨å°˜åœŸæ´ž             3] DARK
-[D8041           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D805            å—éƒ¨èš‚èšæ´žç©´3å±‚1       3] DARK
-[D8051           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D806            å—éƒ¨èš‚èšæ´žç©´3å±‚2       3] DARK
-[D8061           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8062           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D807            å—éƒ¨èš‚èšæ´žç©´3å±‚3       3] DARK
-[D8071           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8072           å—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D808            å—éƒ¨èš‚èšæ´žç©´3å±‚4       3] DARK
+;; Gemigul(south) DG                
+[D8001           ÄÏ²¿ÂìÒÏ¶´Ñ¨1²ã4       3] DARK
+[D8002           ÄÏ²¿ÂìÒÏ¶´Ñ¨1²ã1       3] DARK
+[D8003           ÄÏ²¿ÂìÒÏ¶´Ñ¨1²ã2       3] DARK
+[D8004           ÄÏ²¿ÂìÒÏ¶´Ñ¨1²ã3       3] DARK
+[D801            ÄÏ²¿Ð¡³æ¶´             3] DARK
+[D802            ÄÏ²¿À¬»ø³¡             3] DARK
+[D8021           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8022           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D803            ÄÏ²¿Á¸¿â               3] DARK
+[D8031           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8032           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8033           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D804            ÄÏ²¿³¾ÍÁ¶´             3] DARK
+[D8041           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D805            ÄÏ²¿ÂìÒÏ¶´Ñ¨3²ã1       3] DARK
+[D8051           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D806            ÄÏ²¿ÂìÒÏ¶´Ñ¨3²ã2       3] DARK
+[D8061           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8062           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D807            ÄÏ²¿ÂìÒÏ¶´Ñ¨3²ã3       3] DARK
+[D8071           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8072           ÄÏ²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D808            ÄÏ²¿ÂìÒÏ¶´Ñ¨3²ã4       3] DARK
 
-;; Gemigul(north) DG
-[D8101           åŒ—éƒ¨èš‚èšæ´žç©´1å±‚4       3] DARK
-[D8102           åŒ—éƒ¨èš‚èšæ´žç©´1å±‚1       3] DARK
-[D8103           åŒ—éƒ¨èš‚èšæ´žç©´1å±‚2       3] DARK
-[D8104           åŒ—éƒ¨èš‚èšæ´žç©´1å±‚3       3] DARK
-[D811            åŒ—éƒ¨å°è™«æ´ž             3] DARK
-[D812            åŒ—éƒ¨åžƒåœ¾åœº             3] DARK
-[D8121           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8122           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D813            åŒ—éƒ¨ç²®åº“               3] DARK
-[D8131           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8132           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8133           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D814            åŒ—éƒ¨ä¼šå°˜åœŸæ´ž           3] DARK
-[D8141           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D815            åŒ—éƒ¨èš‚èšæ´žç©´3å±‚1       3] DARK
-[D8151           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D816            åŒ—éƒ¨èš‚èšæ´žç©´3å±‚2       3] DARK
-[D8161           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8162           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D817            åŒ—éƒ¨èš‚èšæ´žç©´3å±‚3       3] DARK
-[D8171           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D8172           åŒ—éƒ¨èš‚èšæ´žç©´           3] DARK
-[D818            åŒ—éƒ¨èš‚èšæ´žç©´3å±‚4       3] DARK
+;; Gemigul(north) DG                
+[D8101           ±±²¿ÂìÒÏ¶´Ñ¨1²ã4       3] DARK
+[D8102           ±±²¿ÂìÒÏ¶´Ñ¨1²ã1       3] DARK
+[D8103           ±±²¿ÂìÒÏ¶´Ñ¨1²ã2       3] DARK
+[D8104           ±±²¿ÂìÒÏ¶´Ñ¨1²ã3       3] DARK
+[D811            ±±²¿Ð¡³æ¶´             3] DARK
+[D812            ±±²¿À¬»ø³¡             3] DARK
+[D8121           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8122           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D813            ±±²¿Á¸¿â               3] DARK
+[D8131           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8132           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8133           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D814            ±±²¿»á³¾ÍÁ¶´           3] DARK
+[D8141           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D815            ±±²¿ÂìÒÏ¶´Ñ¨3²ã1       3] DARK
+[D8151           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D816            ±±²¿ÂìÒÏ¶´Ñ¨3²ã2       3] DARK
+[D8161           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8162           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D817            ±±²¿ÂìÒÏ¶´Ñ¨3²ã3       3] DARK
+[D8171           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8172           ±±²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D818            ±±²¿ÂìÒÏ¶´Ñ¨3²ã4       3] DARK
 
-;; Gemigul(east) DG
-[D8201           ä¸œéƒ¨èš‚èšæ´žç©´1å±‚4       3] DARK
-[D8202           ä¸œéƒ¨èš‚èšæ´žç©´1å±‚1       3] DARK
-[D8203           ä¸œéƒ¨èš‚èšæ´žç©´1å±‚2       3] DARK
-[D8204           ä¸œéƒ¨èš‚èšæ´žç©´1å±‚3       3] DARK
-[D821            ä¸œéƒ¨å°è™«æ´ž             3] DARK
-[D822            ä¸œéƒ¨åžƒåœ¾åœº             3] DARK
-[D8221           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D8222           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D823            ä¸œéƒ¨ç²®åº“               3] DARK
-[D8231           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D8232           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D8233           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D824            ä¸œéƒ¨å°˜åœŸæ´ž             3] DARK
-[D8241           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D825            ä¸œéƒ¨èš‚èšæ´žç©´3å±‚1       3] DARK
-[D8251           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D826            ä¸œéƒ¨èš‚èšæ´žç©´3å±‚2       3] DARK
-[D8261           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D8262           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D827            ä¸œéƒ¨èš‚èšæ´žç©´3å±‚3       3] DARK
-[D8271           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D8272           ä¸œéƒ¨èš‚èšæ´žç©´           3] DARK
-[D828            ä¸œéƒ¨èš‚èšæ´žç©´3å±‚4       3] DARK
+;; Gemigul(east) DG               
+[D8201           ¶«²¿ÂìÒÏ¶´Ñ¨1²ã4       3] DARK
+[D8202           ¶«²¿ÂìÒÏ¶´Ñ¨1²ã1       3] DARK
+[D8203           ¶«²¿ÂìÒÏ¶´Ñ¨1²ã2       3] DARK
+[D8204           ¶«²¿ÂìÒÏ¶´Ñ¨1²ã3       3] DARK
+[D821            ¶«²¿Ð¡³æ¶´             3] DARK
+[D822            ¶«²¿À¬»ø³¡             3] DARK
+[D8221           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8222           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D823            ¶«²¿Á¸¿â               3] DARK
+[D8231           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8232           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8233           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D824            ¶«²¿³¾ÍÁ¶´             3] DARK
+[D8241           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D825            ¶«²¿ÂìÒÏ¶´Ñ¨3²ã1       3] DARK
+[D8251           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D826            ¶«²¿ÂìÒÏ¶´Ñ¨3²ã2       3] DARK
+[D8261           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8262           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D827            ¶«²¿ÂìÒÏ¶´Ñ¨3²ã3       3] DARK
+[D8271           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D8272           ¶«²¿ÂìÒÏ¶´Ñ¨           3] DARK
+[D828            ¶«²¿ÂìÒÏ¶´Ñ¨3²ã4       3] DARK
 
-[D900           ç¥žèˆ°å…¥å£                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D901           ç¥žèˆ°åœ°ä¸‹3å±‚             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D9011          æœ¨å·¥å®¤                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D9012          æœ¨å·¥ä»“åº“                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D9021          ç¥žèˆ°åœ°ä¸‹2å±‚             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D90211         åŒ»åŠ¡å®¤                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D90212         æœºæ¢°å®¤                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D9022          ç¥žèˆ°åœ°ä¸‹2å±‚             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D90221         åŒ»åŠ¡å®¤                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D90222         åŽ¨æˆ¿                    2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D90223         å£«å…µé£Ÿå ‚                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D903           ç¥žèˆ°åœ°ä¸‹1å±‚             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D9031          å‚è°‹å®¤                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D9032          é•¿å®˜é£Ÿå ‚                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D9033          èˆ¹é•¿å®¤                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG
-[D904       		è°ƒæŽ§å®¤                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG NORECONNECT(D9022)
-[D90323         æµ·å›¾å®¤                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG NORECONNECT(D9022)
+[D900           Éñ½¢Èë¿Ú                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D901           Éñ½¢µØÏÂ3²ã             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D9011          Ä¾¹¤ÊÒ                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D9012          Ä¾¹¤²Ö¿â                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D9021          Éñ½¢µØÏÂ2²ã             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D90211         Ò½ÎñÊÒ                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D90212         »úÐµÊÒ                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D9022          Éñ½¢µØÏÂ2²ã             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D90221         Ò½ÎñÊÒ                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D90222         ³ø·¿                    2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D90223         Ê¿±øÊ³ÌÃ                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D903           Éñ½¢µØÏÂ1²ã             2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D9031          ²ÎÄ±ÊÒ                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D9032          ³¤¹ÙÊ³ÌÃ                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D9033          ´¬³¤ÊÒ                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG 
+[D904       		µ÷¿ØÊÒ                2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG NORECONNECT(D9022) 
+[D90323         º£Í¼ÊÒ                  2] day NORECALL NOPOSITIONMOVE NORANDOMMOVE NOSPACEMOVE FOG NORECONNECT(D9022)
 
 
-;; Jukwolgok(1)
-[D1001           èµ¤æœˆå±±è°·1å±‚            1] DARK
-[D1002           èµ¤æœˆå±±è°·2å±‚            1] DARK
-[D10031          èµ¤æœˆå±±è°·3å±‚            1] DARK
-[D10032          èµ¤æœˆå±±è°·3å±‚            1] DARK
-[D1004           èµ¤æœˆå±±è°·4å±‚            1] DARK
-[D10051          èµ¤æœˆå±±è°·5å±‚            1] DARK
-[D10052          èµ¤æœˆå±±è°·5å±‚            1] DARK
+;; Jukwolgok(1)               
+[D1001           ³àÔÂÉ½¹È1²ã            1] DARK
+[D1002           ³àÔÂÉ½¹È2²ã            1] DARK
+[D10031          ³àÔÂÉ½¹È3²ã            1] DARK
+[D10032          ³àÔÂÉ½¹È3²ã            1] DARK
+[D1004           ³àÔÂÉ½¹È4²ã            1] DARK
+[D10051          ³àÔÂÉ½¹È5²ã            1] DARK
+[D10052          ³àÔÂÉ½¹È5²ã            1] DARK
 
-;; Jukwolgok(2)
-[D1011           èµ¤æœˆå±±è°·1å±‚            1] DARK
-[D1012           èµ¤æœˆå±±è°·2å±‚            1] DARK
-[D10131          èµ¤æœˆå±±è°·3å±‚            1] DARK
-[D10132          èµ¤æœˆå±±è°·3å±‚            1] DARK
-[D1014           èµ¤æœˆå±±è°·4å±‚            1] DARK
-[D10151          èµ¤æœˆå±±è°·5å±‚            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D10152          èµ¤æœˆå±±è°·5å±‚            1] DARK
-[D10162          èµ¤æœˆæ¶é­”æ´žç©´           1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D10151)
+;; Jukwolgok(2)               
+[D1011           ³àÔÂÉ½¹È1²ã            1] DARK
+[D1012           ³àÔÂÉ½¹È2²ã            1] DARK
+[D10131          ³àÔÂÉ½¹È3²ã            1] DARK
+[D10132          ³àÔÂÉ½¹È3²ã            1] DARK
+[D1014           ³àÔÂÉ½¹È4²ã            1] DARK
+[D10151          ³àÔÂÉ½¹È5²ã            1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D10152          ³àÔÂÉ½¹È5²ã            1] DARK
+[D10162          ³àÔÂ¶ñÄ§¶´Ñ¨           1] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D10151)
 
-;; Jukwolgok(3)
-[D1021           èµ¤æœˆå±±è°·1å±‚            1] DARK
-[D1022           èµ¤æœˆå±±è°·2å±‚            1] DARK
-[D10231          èµ¤æœˆå±±è°·3å±‚            1] DARK
-[D10232          èµ¤æœˆå±±è°·3å±‚            1] DARK
-[D1024           èµ¤æœˆå±±è°·4å±‚            1] DARK
-[D10251          èµ¤æœˆå±±è°·5å±‚            1] DARK
-[D10252          èµ¤æœˆå±±è°·5å±‚            1] DARK
+;; Jukwolgok(3)               
+[D1021           ³àÔÂÉ½¹È1²ã            1] DARK
+[D1022           ³àÔÂÉ½¹È2²ã            1] DARK
+[D10231          ³àÔÂÉ½¹È3²ã            1] DARK
+[D10232          ³àÔÂÉ½¹È3²ã            1] DARK
+[D1024           ³àÔÂÉ½¹È4²ã            1] DARK
+[D10251          ³àÔÂÉ½¹È5²ã            1] DARK
+[D10252          ³àÔÂÉ½¹È5²ã            1] DARK
 
-;; Banyasinjun DG
-[D1101           æ½˜å¤œç¥žæ®¿1å±‚            0] DARK
-[D1102           æ½˜å¤œç¥žæ®¿2å±‚            0] DARK
-[D11031          æ½˜å¤œç¥žæ®¿3å±‚è¥¿éƒ¨        0] DARK
-[D11032          æ½˜å¤œç¥žæ®¿3å±‚ä¸œéƒ¨        0] DARK
-[D1104           æ½˜å¤œç¥žæ®¿4å±‚            0] DARK
-[D1105           æ½˜å¤œç¥žæ®¿5å±‚            0] DARK
-[D1110           æ½˜å¤œç¥žæ®¿å¤§åŽ…           0] DARK
-[D1111           æ½˜å¤œç¥žæ®¿4å±‚            0] DARK
-[D1112           æ½˜å¤œç¥žæ®¿5å±‚            0] DARK
-[D1113           æ½˜å¤œç¥žæ®¿6å±‚            0] DARK
-[D11141          æ½˜å¤œç¥žæ®¿7å±‚è¥¿éƒ¨        0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
-[D11142          æ½˜å¤œç¥žæ®¿7å±‚ä¸œéƒ¨        0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
-[D1115           æ½˜å¤œç¥žæ®¿8å±‚            0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
-[D1116           æ½˜å¤œç¥žæ®¿               0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
+;; Banyasinjun DG               
+[D1101           ÅËÒ¹Éñµî1²ã            0] DARK
+[D1102           ÅËÒ¹Éñµî2²ã            0] DARK
+[D11031          ÅËÒ¹Éñµî3²ãÎ÷²¿        0] DARK
+[D11032          ÅËÒ¹Éñµî3²ã¶«²¿        0] DARK
+[D1104           ÅËÒ¹Éñµî4²ã            0] DARK
+[D1105           ÅËÒ¹Éñµî5²ã            0] DARK
+[D1110           ÅËÒ¹Éñµî´óÌü           0] DARK
+[D1111           ÅËÒ¹Éñµî4²ã            0] DARK
+[D1112           ÅËÒ¹Éñµî5²ã            0] DARK
+[D1113           ÅËÒ¹Éñµî6²ã            0] DARK
+[D11141          ÅËÒ¹Éñµî7²ãÎ÷²¿        0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
+[D11142          ÅËÒ¹Éñµî7²ã¶«²¿        0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
+[D1115           ÅËÒ¹Éñµî8²ã            0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
+[D1116           ÅËÒ¹Éñµî               0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1110)
 
-;; Banyasukgul
-[D1211           æ½˜å¤œçŸ³çªŸ1å±‚            0] DARK
-[D12121          æ½˜å¤œçŸ³çªŸ2å±‚è¥¿éƒ¨        0] DARK
-[D1213           æ½˜å¤œçŸ³çªŸ3å±‚            0] DARK
-[D1214           æ½˜å¤œçŸ³çªŸ4å±‚            0] DARK
-[D1215           æ½˜å¤œçŸ³çªŸ5å±‚            0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1214)
+;; Banyasukgul                
+[D1211           ÅËÒ¹Ê¯¿ß1²ã            0] DARK
+[D12121          ÅËÒ¹Ê¯¿ß2²ãÎ÷²¿        0] DARK
+[D1213           ÅËÒ¹Ê¯¿ß3²ã            0] DARK
+[D1214           ÅËÒ¹Ê¯¿ß4²ã            0] DARK
+[D1215           ÅËÒ¹Ê¯¿ß5²ã            0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D1214)
 
-;; Sahwaldong(yubesum DG) DG
-[D1201           ç½ªå­½æ´žç©´1å±‚            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
-[D1202           ç½ªå­½æ´žç©´2å±‚            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
-[D12031          ç½ªå­½æ´žç©´3å±‚è¥¿éƒ¨        2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
-[D12032          ç½ªå­½æ´žç©´3å±‚ä¸œéƒ¨        2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
-[D1204           ç½ªå­½æ´žç©´4å±‚            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
-[D1205           ç½ªå­½æ´žç©´5å±‚            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
+;; Sahwaldong(yubesum DG) DG                
+[D1201           ×ïÄõ¶´Ñ¨1²ã            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
+[D1202           ×ïÄõ¶´Ñ¨2²ã            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
+[D12031          ×ïÄõ¶´Ñ¨3²ãÎ÷²¿        2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
+[D12032          ×ïÄõ¶´Ñ¨3²ã¶«²¿        2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
+[D1204           ×ïÄõ¶´Ñ¨4²ã            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
+[D1205           ×ïÄõ¶´Ñ¨5²ã            2] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(81)
 
-;; EunhangPegwang(east) (byurokDG(east))
-[D1301           ä¸œéƒ¨é“¶æåºŸçŸ¿1å±‚        3] DARK MINE
-[D1302           ä¸œéƒ¨é“¶æåºŸçŸ¿2å±‚        3] DARK
-[D1303           ä¸œéƒ¨é“¶æåºŸçŸ¿3å±‚        3] DARK
-[D1304           ä¸œéƒ¨é“¶æåºŸçŸ¿4å±‚        3] DARK
-[D1305           ä¸œéƒ¨é“¶æåºŸçŸ¿5å±‚        3] DARK
+;; EunhangPegwang(east) (byurokDG(east))                
+[D1301           ¶«²¿ÒøÐÓ·Ï¿ó1²ã        3] DARK MINE
+[D1302           ¶«²¿ÒøÐÓ·Ï¿ó2²ã        3] DARK
+[D1303           ¶«²¿ÒøÐÓ·Ï¿ó3²ã        3] DARK
+[D1304           ¶«²¿ÒøÐÓ·Ï¿ó4²ã        3] DARK
+[D1305           ¶«²¿ÒøÐÓ·Ï¿ó5²ã        3] DARK
 
-;; EunhangPegwang(east) (byurokDG(north))
-[D1311           åŒ—éƒ¨é“¶æåºŸçŸ¿1å±‚        3] DARK MINE
-[D1312           åŒ—éƒ¨é“¶æåºŸçŸ¿2å±‚        3] DARK
-[D1313           åŒ—éƒ¨é“¶æåºŸçŸ¿3å±‚        3] DARK
-[D1314           åŒ—éƒ¨é“¶æåºŸçŸ¿4å±‚        3] DARK
-[D1315           åŒ—éƒ¨é“¶æåºŸçŸ¿5å±‚        3] DARK
+;; EunhangPegwang(east) (byurokDG(north))               
+[D1311           ±±²¿ÒøÐÓ·Ï¿ó1²ã        3] DARK MINE
+[D1312           ±±²¿ÒøÐÓ·Ï¿ó2²ã        3] DARK
+[D1313           ±±²¿ÒøÐÓ·Ï¿ó3²ã        3] DARK
+[D1314           ±±²¿ÒøÐÓ·Ï¿ó4²ã        3] DARK
+[D1315           ±±²¿ÒøÐÓ·Ï¿ó5²ã        3] DARK
 
-;; EunhangPegwang(east) (byurokDG(west))
-[D1321           è¥¿éƒ¨é“¶æåºŸçŸ¿1å±‚        3] DARK MINE
-[D1322           è¥¿éƒ¨é“¶æåºŸçŸ¿2å±‚        3] DARK
-[D1323           è¥¿éƒ¨é“¶æåºŸçŸ¿3å±‚        3] DARK
-[D1324           è¥¿éƒ¨é“¶æåºŸçŸ¿4å±‚        3] DARK
-[D1325           è¥¿éƒ¨é“¶æåºŸçŸ¿5å±‚        3] DARK
+;; EunhangPegwang(east) (byurokDG(west))                
+[D1321           Î÷²¿ÒøÐÓ·Ï¿ó1²ã        3] DARK MINE
+[D1322           Î÷²¿ÒøÐÓ·Ï¿ó2²ã        3] DARK
+[D1323           Î÷²¿ÒøÐÓ·Ï¿ó3²ã        3] DARK
+[D1324           Î÷²¿ÒøÐÓ·Ï¿ó4²ã        3] DARK
+[D1325           Î÷²¿ÒøÐÓ·Ï¿ó5²ã        3] DARK
 
-;; Misuk Gwangsan(east) (Kukyug Pegwang(east))
-[D1401           ä¸œéƒ¨çŸ³çŸ¿1å±‚            2] DARK MINE2
-[D1402           ä¸œéƒ¨çŸ³çŸ¿2å±‚            2] DARK
-[D1403           ä¸œéƒ¨çŸ³çŸ¿3å±‚            2] DARK
-[D1404           ä¸œéƒ¨çŸ³çŸ¿4å±‚            2] DARK
-[D1405           ä¸œéƒ¨çŸ³çŸ¿5å±‚            2] DARK
+;; Misuk Gwangsan(east) (Kukyug Pegwang(east))                
+[D1401           ¶«²¿Ê¯¿ó1²ã            2] DARK MINE2
+[D1402           ¶«²¿Ê¯¿ó2²ã            2] DARK
+[D1403           ¶«²¿Ê¯¿ó3²ã            2] DARK
+[D1404           ¶«²¿Ê¯¿ó4²ã            2] DARK
+[D1405           ¶«²¿Ê¯¿ó5²ã            2] DARK
 
-;; Misuk Gwangsan(north) (Kukyug Pegwang(north))
-[D1411           åŒ—éƒ¨çŸ³çŸ¿1å±‚            2] DARK MINE2
-[D1412           åŒ—éƒ¨çŸ³çŸ¿2å±‚            2] DARK
-[D1413           åŒ—éƒ¨çŸ³çŸ¿3å±‚            2] DARK
-[D1414           åŒ—éƒ¨çŸ³çŸ¿4å±‚            2] DARK
-[D1415           åŒ—éƒ¨çŸ³çŸ¿5å±‚            2] DARK
+;; Misuk Gwangsan(north) (Kukyug Pegwang(north))                
+[D1411           ±±²¿Ê¯¿ó1²ã            2] DARK MINE2
+[D1412           ±±²¿Ê¯¿ó2²ã            2] DARK
+[D1413           ±±²¿Ê¯¿ó3²ã            2] DARK
+[D1414           ±±²¿Ê¯¿ó4²ã            2] DARK
+[D1415           ±±²¿Ê¯¿ó5²ã            2] DARK
 
-;; Misuk Gwangsan(west) (Kukyug Pegwang(west))
-[D1421           è¥¿éƒ¨çŸ³çŸ¿1å±‚            2] DARK MINE2
-[D1422           è¥¿éƒ¨çŸ³çŸ¿2å±‚            2] DARK
-[D1423           è¥¿éƒ¨çŸ³çŸ¿3å±‚            2] DARK
-[D1424           è¥¿éƒ¨çŸ³çŸ¿4å±‚            2] DARK
-[D1425           è¥¿éƒ¨çŸ³çŸ¿5å±‚            2] DARK
+;; Misuk Gwangsan(west) (Kukyug Pegwang(west))                
+[D1421           Î÷²¿Ê¯¿ó1²ã            2] DARK MINE2
+[D1422           Î÷²¿Ê¯¿ó2²ã            2] DARK
+[D1423           Î÷²¿Ê¯¿ó3²ã            2] DARK
+[D1424           Î÷²¿Ê¯¿ó4²ã            2] DARK
+[D1425           Î÷²¿Ê¯¿ó5²ã            2] DARK
 
-;; Jinchungung(Silnakwon DG1) DG
-[D1500           çœŸå¤©å®«åœ°ä¸‹1å±‚          0] DARK
-[D15011          çœŸå¤©å®«è¥¿é¦†1å±‚          0] DARK
-[D15012          çœŸå¤©å®«å—é¦†1å±‚          0] DARK
-[D15013          çœŸå¤©å®«ä¸œé¦†1å±‚          0] DARK
-[D15014          çœŸå¤©å®«åŒ—é¦†1å±‚          0] DARK
-[D15021          çœŸå¤©å®«è¥¿é¦†2å±‚          0] DARK
-[D15022          çœŸå¤©å®«å—é¦†2å±‚          0] DARK
-[D15023          çœŸå¤©å®«ä¸œé¦†2å±‚          0] DARK
-[D15024          çœŸå¤©å®«åŒ—é¦†2å±‚          0] DARK
-[D15032          çœŸå¤©å®«å—é¦†3å±‚          0] DARK
-[D15033          çœŸå¤©å®«ä¸œé¦†3å±‚          0] DARK
-[D15034          çœŸå¤©å®«åŒ—é¦†3å±‚          0] DARK
-[D15043          çœŸå¤©å®«åŒ—é¦†4å±‚          0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D15044          çœŸå¤©å®«åŒ—é¦†4å±‚          0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D15054          çœŸå¤©å®«åŒ—é¦†5å±‚          0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
-[D1506           çœŸå¤©å®«                 0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D15054)
+;; Jinchungung(Silnakwon DG1) DG                
+[D1500           ÕæÌì¹¬µØÏÂ1²ã          0] DARK
+[D15011          ÕæÌì¹¬Î÷¹Ý1²ã          0] DARK
+[D15012          ÕæÌì¹¬ÄÏ¹Ý1²ã          0] DARK
+[D15013          ÕæÌì¹¬¶«¹Ý1²ã          0] DARK
+[D15014          ÕæÌì¹¬±±¹Ý1²ã          0] DARK
+[D15021          ÕæÌì¹¬Î÷¹Ý2²ã          0] DARK
+[D15022          ÕæÌì¹¬ÄÏ¹Ý2²ã          0] DARK
+[D15023          ÕæÌì¹¬¶«¹Ý2²ã          0] DARK
+[D15024          ÕæÌì¹¬±±¹Ý2²ã          0] DARK
+[D15032          ÕæÌì¹¬ÄÏ¹Ý3²ã          0] DARK
+[D15033          ÕæÌì¹¬¶«¹Ý3²ã          0] DARK
+[D15034          ÕæÌì¹¬±±¹Ý3²ã          0] DARK
+[D15043          ÕæÌì¹¬±±¹Ý4²ã          0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D15044          ÕæÌì¹¬±±¹Ý4²ã          0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D15054          ÕæÌì¹¬±±¹Ý5²ã          0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL
+[D1506           ÕæÌì¹¬                 0] DARK NORANDOMMOVE NOPOSITIONMOVE NORECALL NORECONNECT(D15054)
 
-;; Hukdogung(Silnakwon DG2) DG
-[D1510           é»‘åº¦å®«1å±‚              0] DARK
-[D15111          é»‘åº¦å®«2å±‚              0] DARK
-[D15112          é»‘åº¦å®«2å±‚              0] DARK
-[D1512           é»‘åº¦å®«3å±‚              0] DARK
-[D1513           é»‘åº¦å®«4å±‚              0] DARK
+;; Hukdogung(Silnakwon DG2) DG                
+[D1510           ºÚ¶È¹¬1²ã              0] DARK
+[D15111          ºÚ¶È¹¬2²ã              0] DARK
+[D15112          ºÚ¶È¹¬2²ã              0] DARK
+[D1512           ºÚ¶È¹¬3²ã              0] DARK
+[D1513           ºÚ¶È¹¬4²ã              0] DARK
 
-;; Mabangjin
-[B011            é­”æˆ¿å¤§åŽ…               1] DAY FIGHT NORECALL
-[B101            é­”æˆ¿1                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B102            é­”æˆ¿2                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B103            é­”æˆ¿3                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B104            é­”æˆ¿4                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B105            é­”æˆ¿5                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B106            é­”æˆ¿6                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B107            é­”æˆ¿7                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B108            é­”æˆ¿8                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B109            é­”æˆ¿9                  1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B110            é­”æˆ¿10                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B111            é­”æˆ¿11                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B112            é­”æˆ¿12                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B113            é­”æˆ¿13                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B114            é­”æˆ¿14                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B115            é­”æˆ¿15                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B116            é­”æˆ¿16                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B117            é­”æˆ¿17                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B118            é­”æˆ¿18                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B119            é­”æˆ¿19                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B120            é­”æˆ¿20                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B121            é­”æˆ¿21                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B122            é­”æˆ¿22                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B123            é­”æˆ¿23                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B124            é­”æˆ¿24                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B125            é­”æˆ¿25                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B126            é­”æˆ¿26                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B127            é­”æˆ¿27                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B128            é­”æˆ¿28                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B129            é­”æˆ¿29                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B130            é­”æˆ¿30                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B131            é­”æˆ¿31                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B132            é­”æˆ¿32                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B133            é­”æˆ¿33                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B134            é­”æˆ¿34                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B135            é­”æˆ¿35                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B136            é­”æˆ¿36                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B137            é­”æˆ¿37                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B138            é­”æˆ¿38                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B139            é­”æˆ¿39                 1] DARK FIGHT NORECALL NORECONNECT(B011)
-[B140            é­”æˆ¿40                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+;; Mabangjin                
+[B011            Ä§·¿´óÌü               1] DAY FIGHT NORECALL
+[B101            Ä§·¿1                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B102            Ä§·¿2                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B103            Ä§·¿3                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B104            Ä§·¿4                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B105            Ä§·¿5                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B106            Ä§·¿6                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B107            Ä§·¿7                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B108            Ä§·¿8                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B109            Ä§·¿9                  1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B110            Ä§·¿10                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B111            Ä§·¿11                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B112            Ä§·¿12                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B113            Ä§·¿13                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B114            Ä§·¿14                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B115            Ä§·¿15                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B116            Ä§·¿16                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B117            Ä§·¿17                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B118            Ä§·¿18                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B119            Ä§·¿19                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B120            Ä§·¿20                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B121            Ä§·¿21                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B122            Ä§·¿22                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B123            Ä§·¿23                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B124            Ä§·¿24                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B125            Ä§·¿25                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B126            Ä§·¿26                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B127            Ä§·¿27                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B128            Ä§·¿28                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B129            Ä§·¿29                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B130            Ä§·¿30                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B131            Ä§·¿31                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B132            Ä§·¿32                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B133            Ä§·¿33                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B134            Ä§·¿34                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B135            Ä§·¿35                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B136            Ä§·¿36                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B137            Ä§·¿37                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B138            Ä§·¿38                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B139            Ä§·¿39                 1] DARK FIGHT NORECALL NORECONNECT(B011)
+[B140            Ä§·¿40                 1] DARK FIGHT NORECALL NORECONNECT(B011)
 
-[B103_001        å¯Œå®¶åº­é™¢               1] DAY NORECALL NORECONNECT(B011)
-[B105_001        é£Ÿäººè‰æž¯æ´ž             1] DARK NORECALL NORECONNECT(B011)
-[B106_001        åå­—æž¶æž¯æ´ž             1] DARK NORECALL NORECONNECT(B011)
-[B109_001        æ¸´æ±‚ç©ºé—´               1] DARK NORECALL NORECONNECT(B011)
-[B115_001        çŸ¿çŸ³ç©ºé—´               1] DARK NORECALL NORECONNECT(B011) MINE
-[B132_001        é‚ªæ¶é’³è™«æ´ž             1] DARK NORECALL NORECONNECT(B011)
-[B139_001        æš—é»‘å°å°               1] DARK NORECALL NORECONNECT(B011)
+[B103_001        ¸»¼ÒÍ¥Ôº               1] DAY NORECALL NORECONNECT(B011)
+[B105_001        Ê³ÈË²Ý¿Ý¶´             1] DARK NORECALL NORECONNECT(B011)
+[B106_001        Ê®×Ö¼Ü¿Ý¶´             1] DARK NORECALL NORECONNECT(B011)
+[B109_001        ¿ÊÇó¿Õ¼ä               1] DARK NORECALL NORECONNECT(B011)
+[B115_001        ¿óÊ¯¿Õ¼ä               1] DARK NORECALL NORECONNECT(B011) MINE
+[B132_001        Ð°¶ñÇ¯³æ¶´             1] DARK NORECALL NORECONNECT(B011)
+[B139_001        °µºÚ·âÓ¡               1] DARK NORECALL NORECONNECT(B011)
 
 ;----------------------------------------------------------------------------
 ;----------------------------------------------------------------------------
-;; maplink çŸ«ç´¯
+;; maplink ½ÃÀÛ                                                              
 ;----------------------------------------------------------------------------
 ;----------------------------------------------------------------------------
 
@@ -603,7 +603,7 @@
 1     388,113 -> 1_006  7,15
 1_006 8,16    -> 1      389,114
 
-1     415,133 -> 1_003  8,11
+1     415,133 -> 1_003  8,11 
 1_003 7,12    -> 1      414,134
 
 1     429,120 -> 1_001  6,17
@@ -647,7 +647,7 @@
 125    323,76      ->     124    205,358
 125    324,77      ->     124    206,359
 125    325,78      ->     124    207,360
-125    326,79      ->     124    208,361
+125    326,79      ->     124    208,361 
 
 124    201,356     ->     125    319,74
 124    202,357     ->     125    320,75
@@ -718,7 +718,7 @@
 12     366,390     ->     121    35,220
 
 ;; Bichun - Kukyug
-0     333,776 -> 01     564,69
+0     333,776 -> 01     564,69 
 0     334,775 -> 01     565,68
 0     335,774 -> 01     566,67
 
@@ -740,7 +740,7 @@
 ;; Bichun - Bamgol
 0     643,15  -> 2      159,369
 0     644,16  -> 2      160,370
-0     645,17  -> 2      161,371
+0     645,17  -> 2      161,371 
 0     646,18  -> 2      162,372
 
 2     158,370 -> 0      643,16
@@ -832,7 +832,7 @@
 0     206,52  -> 1      512,582
 
 1     516,580 -> 0      210,50
-1     515,581 -> 0      209,51
+1     515,581 -> 0      209,51 
 1     514,582 -> 0      208,52
 1     513,583 -> 0      207,53
 
@@ -895,7 +895,7 @@
 73    355,140 ->  72     26,58
 73    354,141 ->  72     25,59
 73    353,142 ->  72     24,60
-73    352,143 ->  72     23,61
+73    352,143 ->  72     23,61 
 73    351,144 ->  72     22,62
 73    350,145 ->  72     21,63
 
@@ -911,7 +911,7 @@
 74    583,292  ->  73     39,108
 74    582,293  ->  73     38,109
 74    581,294  ->  73     37,110
-74    580,295  ->  73     36,111
+74    580,295  ->  73     36,111 
 74    579,296  ->  73     37,111
 74    578,297  ->  73     37,112
 
@@ -963,7 +963,7 @@
 77    355,140  ->  76     39,108
 77    354,141  ->  76     38,109
 77    353,142  ->  76     37,110
-77    352,143  ->  76     36,111
+77    352,143  ->  76     36,111 
 77    351,144  ->  76     37,111
 77    350,145  ->  76     36,112
 
@@ -979,7 +979,7 @@
 78    355,140 ->  77     39,108
 78    354,141 ->  77     38,109
 78    353,142 ->  77     37,110
-78    352,143 ->  77     36,111
+78    352,143 ->  77     36,111 
 78    351,144 ->  77     37,111
 78    350,145 ->  77     36,112
 
@@ -988,7 +988,7 @@
 
 ;; Oasis Vil - Oasis hs
 4      476,57   ->   4_005  11,26
-4_005  10,27    ->   4      475,58
+4_005  10,27    ->   4      475,58  
 
 4      449,73   ->   4_001  13,13
 4_001  14,14    ->   4      450,74
@@ -1101,7 +1101,7 @@
 4      30,234      ->     41    383,348
 
 41     381,345     ->     4     28,231
-41     382,346     ->     4     29,232
+41     382,346     ->     4     29,232         
 41     383,347     ->     4     30,233
 41     384,348     ->     4     31,234
 41     385,349     ->     4     31,234
@@ -1145,7 +1145,7 @@
 44     336,335     ->     43     43,205
 44     337,336     ->     43     44,206
 44     338,337     ->     43     45,207
-44     338,338     ->     43     46,208
+44     338,338     ->     43     46,208 
 
 ;; Oasis - Samak3(Oasis Expansion) 4
 4      73,461      ->     44     375,112
@@ -1156,7 +1156,7 @@
 4      68,466      ->     44     370,117
 
 44     376,112     ->     4      74,461
-44     375,113     ->     4      73,462
+44     375,113     ->     4      73,462 
 44     374,114     ->     4      72,463
 44     373,115     ->     4      71,464
 44     372,116     ->     4      70,465
@@ -1189,7 +1189,7 @@
 4     563,392 ->  5      174,31
 4     562,393 ->  5      174,32
 4     561,394 ->  5      173,33
-
+ 
 
 5     112,384 ->  4      519,637
 5     111,385 ->  4      518,638
@@ -1289,7 +1289,7 @@ D012  77,197  -> D011  127,202
 D012  189,144 -> DM011 5,10
 DM011 6,10    -> D012  189,145
 
-
+ 
 ;; Bichun Pegwang
 ;; Bichun - Bichun Pegwang
 0      764,206 -> D401   25,181
@@ -1414,7 +1414,7 @@ D451   361,19  -> D452  22,  41
 D452   22,42   -> D451  361, 20
 
 
-;; Gulbang Enter Position
+;; Gulbang Enter Position 
 ;; Bichun Pegwang
 D401 80,172   ->  D401_001  15,15
 D401 81,92    ->  D401_001  15,15
@@ -1434,35 +1434,35 @@ D403 88,116   ->  D403_001  15,15
 D403 160,70   ->  D403_001  15,15
 D403 146,152  ->  D403_001  15,15
 
-D404 78,80    ->  D404_001  15,15
-D404 82,69    ->  D404_001  15,15
-D404 150,186  ->  D404_001  15,15
-D404 78,152   ->  D404_001  15,15
-D404 104,99   ->  D404_001  15,15
+D404 78,80    ->  D404_001  15,15 
+D404 82,69    ->  D404_001  15,15 
+D404 150,186  ->  D404_001  15,15 
+D404 78,152   ->  D404_001  15,15 
+D404 104,99   ->  D404_001  15,15 
 
-D405 82,154   ->  D405_001  15,15
-D405 176,61   ->  D405_001  15,15
-D405 80,153   ->  D405_001  15,15
-D405 69,95    ->  D405_001  15,15
-D405 128,100  ->  D405_001  15,15
+D405 82,154   ->  D405_001  15,15 
+D405 176,61   ->  D405_001  15,15 
+D405 80,153   ->  D405_001  15,15 
+D405 69,95    ->  D405_001  15,15 
+D405 128,100  ->  D405_001  15,15 
 
-D406 142,134  ->  D406_001  15,15
-D406 152,17   ->  D406_001  15,15
-D406 122,79   ->  D406_001  15,15
-D406 85,60    ->  D406_001  15,15
-D406 79,72    ->  D406_001  15,15
+D406 142,134  ->  D406_001  15,15 
+D406 152,17   ->  D406_001  15,15 
+D406 122,79   ->  D406_001  15,15 
+D406 85,60    ->  D406_001  15,15 
+D406 79,72    ->  D406_001  15,15 
 
 ;; Bamgol Pegwang(1)
-D421 196,315  ->  D421_001  15,15
-D421 159,102  ->  D421_001  15,15
-D421 80,202   ->  D421_001  15,15
+D421 196,315  ->  D421_001  15,15 
+D421 159,102  ->  D421_001  15,15 
+D421 80,202   ->  D421_001  15,15 
 D421 154,191  ->  D421_001  15,15
-D421 316,240  ->  D421_001  15,15
+D421 316,240  ->  D421_001  15,15 
 
-D422 226,304  ->  D422_001  15,15
-D422 233,59   ->  D422_001  15,15
-D422 273,251  ->  D422_001  15,15
-D422 217,105  ->  D422_001  15,15
+D422 226,304  ->  D422_001  15,15 
+D422 233,59   ->  D422_001  15,15 
+D422 273,251  ->  D422_001  15,15 
+D422 217,105  ->  D422_001  15,15 
 D422 128,101  ->  D422_001  15,15
 
 ;; Bamgol Pegwang(2)
@@ -1484,35 +1484,35 @@ D433 88,116   ->  D433_001  15,15
 D433 160,70   ->  D433_001  15,15
 D433 146,152  ->  D433_001  15,15
 
-D434 78,80    ->  D434_001  15,15
-D434 82,69    ->  D434_001  15,15
-D434 150,186  ->  D434_001  15,15
-D434 78,152   ->  D434_001  15,15
-D434 104,99   ->  D434_001  15,15
+D434 78,80    ->  D434_001  15,15 
+D434 82,69    ->  D434_001  15,15 
+D434 150,186  ->  D434_001  15,15 
+D434 78,152   ->  D434_001  15,15 
+D434 104,99   ->  D434_001  15,15 
 
-D435 82,154   ->  D435_001  15,15
-D435 176,61   ->  D435_001  15,15
-D435 80,153   ->  D435_001  15,15
-D435 69,95    ->  D435_001  15,15
-D435 128,100  ->  D435_001  15,15
+D435 82,154   ->  D435_001  15,15 
+D435 176,61   ->  D435_001  15,15 
+D435 80,153   ->  D435_001  15,15 
+D435 69,95    ->  D435_001  15,15 
+D435 128,100  ->  D435_001  15,15 
 
-D436 142,134  ->  D436_001  15,15
-D436 152,17   ->  D436_001  15,15
-D436 122,79   ->  D436_001  15,15
-D436 85,60    ->  D436_001  15,15
-D436 79,72    ->  D436_001  15,15
+D436 142,134  ->  D436_001  15,15 
+D436 152,17   ->  D436_001  15,15 
+D436 122,79   ->  D436_001  15,15 
+D436 85,60    ->  D436_001  15,15 
+D436 79,72    ->  D436_001  15,15 
 
 ;; Bamgol Pegwang(3)
-D451 196,315  ->  D451_001  15,15
-D451 159,102  ->  D451_001  15,15
-D451 80,202   ->  D451_001  15,15
+D451 196,315  ->  D451_001  15,15 
+D451 159,102  ->  D451_001  15,15 
+D451 80,202   ->  D451_001  15,15 
 D451 154,191  ->  D451_001  15,15
-D451 316,240  ->  D451_001  15,15
+D451 316,240  ->  D451_001  15,15 
 
-D452 226,304  ->  D452_001  15,15
-D452 233,59   ->  D452_001  15,15
-D452 273,251  ->  D452_001  15,15
-D452 217,105  ->  D452_001  15,15
+D452 226,304  ->  D452_001  15,15 
+D452 233,59   ->  D452_001  15,15 
+D452 273,251  ->  D452_001  15,15 
+D452 217,105  ->  D452_001  15,15 
 D452 128,101  ->  D452_001  15,15
 
 
@@ -1749,7 +1749,7 @@ D1014   91,12   ->      D10152  50,190
 D10152  51,191  ->      D1014   92,13
 
 D10151  152,16  ->      D10162  12,24
-;D10162  11,25   ->      D10151  151,17
+;D10162  11,25   ->      D10151  151,17 
 
 
 ;; Jukwolgok(3)
@@ -1865,7 +1865,7 @@ D6012   199,51  ->  D605    22,14
 
 ;; Mongchonhyun(enter 2) - Manyungok
 74       78,227 ->  D6011  159,168
-D6011   160,169 ->  74      78,229
+D6011   160,169 ->  74      78,229 
 
 ;; Manyungok 1F - 2F
 
@@ -1920,22 +1920,22 @@ D6015   9,25   ->  D6014 159,171
 
 ;; Mongchonhyun(enter 3) - Hyubchunggok1chng
 74    132,503 ->  D6021  42,167
-D6021  41,168 ->  74    130,505
+D6021  41,168 ->  74    130,505 
 
 ;; Hyubchunggok1chng - Hyubchunggok2chng
-D6021 170,23  ->  D6022  40,173
+D6021 170,23  ->  D6022  40,173 
 D6022  39,174 ->  D6021 169,24
 
 ;; Hyubchunggok2chng - Hyubchunggok3chng
-D6022 148,31  ->  D6023  80,166
+D6022 148,31  ->  D6023  80,166 
 D6023  81,167 ->  D6022 149,32
 
 ;; Hyubchunggok3chng - Hyubchunggok4chng
-D6023 161,33  ->  D6024  15,191
+D6023 161,33  ->  D6024  15,191 
 D6024  14,192 ->  D6023 160,34
 
 ;; Hyubchunggok4chng - Hyubchunggok5chng
-D6024 247,105  ->  D6025 218,266
+D6024 247,105  ->  D6025 218,266 
 D6025 219,267  ->  D6024 248,106
 
 ;----------------------------------
@@ -1968,108 +1968,108 @@ D71601 25,12   -> D715   84, 80
 D716  25,26   ->    D717 26, 74
 D717  25,75   ->    D716 24, 27
 
-D71601 17,12 -> D71609 36,34
-D71602 17,12 -> D71616 36,34
-D71603 17,12 -> D71622 36,34
-D71604 17,12 -> D71610 36,34
-D71605 17,12 -> D71608 36,34
-D71606 17,12 -> D71613 36,34
-D71607 17,12 -> D71621 36,34
-D71608 17,12 -> D71619 36,34
-D71609 17,12 -> D71624 36,34
-D71610 17,12 -> D71606 36,34
-D71611 17,12 -> D71615 36,34
-D71612 17,12 -> D71607 36,34
-D71613 17,12 -> D71618 36,34
-D71614 17,12 -> D71623 36,34
-D71615 17,12 -> D71601 36,34
-D71616 17,12 -> D71604 36,34
-D71617 17,12 -> D71620 36,34
-D71618 17,12 -> D71605 36,34
-D71619 17,12 -> D71602 36,34
-D71620 17,12 -> D71614 36,34
-D71621 17,12 -> D71625 36,34
-D71622 17,12 -> D71617 36,34
-D71623 17,12 -> D71611 36,34
-D71624 17,12 -> D71603 36,34
-D71625 17,12 -> D71612 36,34
-D71601 37,35 -> D71605 18,13
-D71602 37,35 -> D71603 18,13
-D71603 37,35 -> D71611 18,13
-D71604 37,35 -> D71602 18,13
-D71605 37,35 -> D71625 18,13
-D71606 37,35 -> D71610 18,13
-D71607 37,35 -> D71614 18,13
-D71608 37,35 -> D71622 18,13
-D71609 37,35 -> D71606 18,13
-D71610 37,35 -> D71615 18,13
-D71611 37,35 -> D71613 18,13
-D71612 37,35 -> D71623 18,13
-D71613 37,35 -> D71609 18,13
-D71614 37,35 -> D71601 18,13
-D71615 37,35 -> D71624 18,13
-D71616 37,35 -> D71620 18,13
-D71617 37,35 -> D71617 18,13
-D71618 37,35 -> D71604 18,13
-D71619 37,35 -> D71616 18,13
-D71620 37,35 -> D71607 18,13
-;D71621 37,35 -> D71618 18,13
-D71622 37,35 -> D71621 18,13
-;D71623 37,35 -> D71619 18,13
-D71624 37,35 -> D71608 18,13
-D71625 37,35 -> D71606 18,13
-D71601 13,37 -> D71622 36,17
-D71602 13,37 -> D71607 36,17
-D71603 13,37 -> D71617 36,17
-D71604 13,37 -> D71611 36,17
-D71605 13,37 -> D71614 36,17
-D71606 13,37 -> D71621 36,17
-D71607 13,37 -> D71615 36,17
-D71608 13,37 -> D71619 36,17
-D71609 13,37 -> D71624 36,17
-D71610 13,37 -> D71601 36,17
-D71611 13,37 -> D71609 36,17
-D71612 13,37 -> D71602 36,17
-D71613 13,37 -> D71616 36,17
-D71614 13,37 -> D71618 36,17
-D71615 13,37 -> D71604 36,17
-D71616 13,37 -> D71623 36,17
-D71617 13,37 -> D71603 36,17
-D71618 13,37 -> D71613 36,17
-D71619 13,37 -> D71605 36,17
-D71620 13,37 -> D71606 36,17
-D71621 13,37 -> D71625 36,17
-D71622 13,37 -> D71610 36,17
-D71623 13,37 -> D71608 36,17
-D71624 13,37 -> D71612 36,17
-;D71625 13,37 -> D71611 36,17
-D71601 37,16 -> D71605 14,36
-D71602 37,16 -> D71603 14,36
-D71603 37,16 -> D71611 14,36
-D71604 37,16 -> D71602 14,36
-D71605 37,16 -> D71625 14,36
-;D71606 37,16 -> D71610 14,36
-D71607 37,16 -> D71614 14,36
-D71608 37,16 -> D71622 14,36
-D71609 37,16 -> D71606 14,36
-D71610 37,16 -> D71615 14,36
-D71611 37,16 -> D71613 14,36
-D71612 37,16 -> D71607 14,36
-D71613 37,16 -> D71618 14,36
-D71614 37,16 -> D71616 14,36
-D71615 37,16 -> D71601 14,36
-D71616 37,16 -> D71624 14,36
-;D71617 37,16 -> D71623 14,36
-D71618 37,16 -> D71617 14,36
-D71619 37,16 -> D71604 14,36
-D71620 37,16 -> D71608 14,36
-D71621 37,16 -> D71621 14,36
-D71622 37,16 -> D71619 14,36
-D71623 37,16 -> D71620 14,36
-D71624 37,16 -> D71609 14,36
-D71625 37,16 -> D71618 14,36
+D71601 17,12 -> D71609 36,34   
+D71602 17,12 -> D71616 36,34   
+D71603 17,12 -> D71622 36,34   
+D71604 17,12 -> D71610 36,34   
+D71605 17,12 -> D71608 36,34   
+D71606 17,12 -> D71613 36,34   
+D71607 17,12 -> D71621 36,34   
+D71608 17,12 -> D71619 36,34   
+D71609 17,12 -> D71624 36,34   
+D71610 17,12 -> D71606 36,34   
+D71611 17,12 -> D71615 36,34   
+D71612 17,12 -> D71607 36,34   
+D71613 17,12 -> D71618 36,34   
+D71614 17,12 -> D71623 36,34   
+D71615 17,12 -> D71601 36,34   
+D71616 17,12 -> D71604 36,34   
+D71617 17,12 -> D71620 36,34   
+D71618 17,12 -> D71605 36,34   
+D71619 17,12 -> D71602 36,34   
+D71620 17,12 -> D71614 36,34   
+D71621 17,12 -> D71625 36,34   
+D71622 17,12 -> D71617 36,34   
+D71623 17,12 -> D71611 36,34   
+D71624 17,12 -> D71603 36,34   
+D71625 17,12 -> D71612 36,34   
+D71601 37,35 -> D71605 18,13   
+D71602 37,35 -> D71603 18,13   
+D71603 37,35 -> D71611 18,13   
+D71604 37,35 -> D71602 18,13   
+D71605 37,35 -> D71625 18,13   
+D71606 37,35 -> D71610 18,13   
+D71607 37,35 -> D71614 18,13   
+D71608 37,35 -> D71622 18,13   
+D71609 37,35 -> D71606 18,13   
+D71610 37,35 -> D71615 18,13   
+D71611 37,35 -> D71613 18,13   
+D71612 37,35 -> D71623 18,13   
+D71613 37,35 -> D71609 18,13   
+D71614 37,35 -> D71601 18,13   
+D71615 37,35 -> D71624 18,13   
+D71616 37,35 -> D71620 18,13   
+D71617 37,35 -> D71617 18,13   
+D71618 37,35 -> D71604 18,13   
+D71619 37,35 -> D71616 18,13   
+D71620 37,35 -> D71607 18,13   
+;D71621 37,35 -> D71618 18,13  
+D71622 37,35 -> D71621 18,13   
+;D71623 37,35 -> D71619 18,13  
+D71624 37,35 -> D71608 18,13   
+D71625 37,35 -> D71606 18,13   
+D71601 13,37 -> D71622 36,17   
+D71602 13,37 -> D71607 36,17   
+D71603 13,37 -> D71617 36,17   
+D71604 13,37 -> D71611 36,17   
+D71605 13,37 -> D71614 36,17   
+D71606 13,37 -> D71621 36,17   
+D71607 13,37 -> D71615 36,17   
+D71608 13,37 -> D71619 36,17   
+D71609 13,37 -> D71624 36,17   
+D71610 13,37 -> D71601 36,17   
+D71611 13,37 -> D71609 36,17   
+D71612 13,37 -> D71602 36,17   
+D71613 13,37 -> D71616 36,17   
+D71614 13,37 -> D71618 36,17   
+D71615 13,37 -> D71604 36,17   
+D71616 13,37 -> D71623 36,17   
+D71617 13,37 -> D71603 36,17   
+D71618 13,37 -> D71613 36,17   
+D71619 13,37 -> D71605 36,17   
+D71620 13,37 -> D71606 36,17   
+D71621 13,37 -> D71625 36,17   
+D71622 13,37 -> D71610 36,17   
+D71623 13,37 -> D71608 36,17   
+D71624 13,37 -> D71612 36,17   
+;D71625 13,37 -> D71611 36,17  
+D71601 37,16 -> D71605 14,36   
+D71602 37,16 -> D71603 14,36   
+D71603 37,16 -> D71611 14,36   
+D71604 37,16 -> D71602 14,36   
+D71605 37,16 -> D71625 14,36   
+;D71606 37,16 -> D71610 14,36  
+D71607 37,16 -> D71614 14,36   
+D71608 37,16 -> D71622 14,36   
+D71609 37,16 -> D71606 14,36   
+D71610 37,16 -> D71615 14,36   
+D71611 37,16 -> D71613 14,36   
+D71612 37,16 -> D71607 14,36   
+D71613 37,16 -> D71618 14,36   
+D71614 37,16 -> D71616 14,36   
+D71615 37,16 -> D71601 14,36   
+D71616 37,16 -> D71624 14,36   
+;D71617 37,16 -> D71623 14,36  
+D71618 37,16 -> D71617 14,36   
+D71619 37,16 -> D71604 14,36   
+D71620 37,16 -> D71608 14,36   
+D71621 37,16 -> D71621 14,36   
+D71622 37,16 -> D71619 14,36   
+D71623 37,16 -> D71620 14,36   
+D71624 37,16 -> D71609 14,36   
+D71625 37,16 -> D71618 14,36   
 
-D71625  13,37 ->  D716    36,17
+D71625  13,37 ->  D716    36,17 
 D716      37,16     ->   D71625    14,36
 
 D71606    37,16     ->   D71650    14,36
@@ -2142,7 +2142,7 @@ D804   94,74   ->   D805   5,14
 D805   4,13    ->   D804   93,73
 
 D805   90,69   ->   D806   4,49
-D806   3,48    ->   D805   89,68
+D806   3,48    ->   D805   89,68        
 ;;D808   4,32    ->   D805   89,68
 
 D806 84,14     -> D807 30,88
@@ -2177,7 +2177,7 @@ D807 73,25     ->   D8072 9,26
 D8072 8,27     ->   D807 72,26
 
 ;; QueenAnt Room
-;; D808   92,39   ->
+;; D808   92,39   ->  
 
 
 ;; (north)Gemigul
@@ -2236,7 +2236,7 @@ D814   94,74   ->   D815   5,14
 D815   4,13    ->   D814   93,73
 
 D815   90,69   ->   D816   4,49
-D816   3,48    ->   D815   89,68
+D816   3,48    ->   D815   89,68        
 ;;D818   4,32    ->   D815   89,68
 
 D816 84,14     -> D817 30,88
@@ -2271,7 +2271,7 @@ D817 73,25     ->   D8172 9,26
 D8172 8,27     ->   D817 72,26
 
 ;; QueenAnt Room
-;; D818   92,39   ->
+;; D818   92,39   ->  
 
 
 ;; (east)Gemigul
@@ -2330,7 +2330,7 @@ D824   94,74   ->   D825   5,14
 D825   4,13    ->   D824   93,73
 
 D825   90,69   ->   D826   4,49
-D826   3,48    ->   D825   89,68
+D826   3,48    ->   D825   89,68        
 ;;D828   4,32    ->   D825   89,68
 
 D826 84,14     -> D827 30,88
@@ -2365,7 +2365,7 @@ D827 73,25     ->   D8272 9,26
 D8272 8,27     ->   D827 72,26
 
 ;; QueenAnt Room
-;; D828   92,39   ->
+;; D828   92,39   ->  
 
 ;----------------------------------
 ;----------------------------------
@@ -2390,7 +2390,7 @@ D502  326,  97 -> D514   20,  11
 D514   19,  11 -> D502  325,  96
 
 D502  302,  74 -> D513   29,  21
-D513   29,  22 -> D502  303,  75
+D513   29,  22 -> D502  303,  75  
 
 0157 20,5     -> D501 166, 216
 D501 165,217  -> 0157 19, 16
@@ -2413,248 +2413,248 @@ D5061 7,17    -> D505 122,11
 D5074 77,15   -> D515   14,31
 D515  13,32   -> D5074  76,16
 
-D5061 7,10 -> D5065 91,43
-D5061 14,16 -> D5065 34,11
-;D5061 7,17 -> D5063 89,71
-D5061 14,10 -> D5062 34,76
-D5061 33,10 -> D5062 65,75
-D5061 40,16 -> D5062 8,11
-D5061 33,17 -> D5065 65,71
-D5061 40,10 -> D5064 9,77
-D5061 59,10 -> D5064 39,15
-D5061 66,16 -> D5064 85,12
-D5061 59,17 -> D5062 39,71
-D5061 66,10 -> D5061 84,76
-D5061 84,11 -> D5061 13,43
-D5061 91,17 -> D5061 60,11
-D5061 84,18 -> D5064 14,72
-D5061 91,11 -> D5063 60,76
-D5061 7,38 -> D5065 65,43
-D5061 14,44 -> D5065 8,39
-D5061 7,45 -> D5063 65,11
-D5061 14,38 -> D5062 8,16
-D5061 33,38 -> D5062 39,75
-D5061 40,44 -> D5062 86,39
-D5061 33,45 -> D5065 39,11
-D5061 40,38 -> D5064 85,17
-D5061 59,38 -> D5064 13,15
-D5061 66,44 -> D5064 60,39
-D5061 59,45 -> D5062 13,11
-D5061 66,38 -> D5061 60,16
-D5061 85,38 -> D5061 91,43
-D5061 92,44 -> D5061 34,39
-D5061 85,45 -> D5064 90,12
-D5061 92,38 -> D5063 34,16
-D5061 8,71 -> D5065 39,43
-D5061 15,77 -> D5065 84,71
-D5061 8,78 -> D5063 39,39
-D5061 15,71 -> D5062 86,44
-D5061 33,70 -> D5062 14,76
-D5061 40,76 -> D5062 60,71
-D5061 33,77 -> D5065 13,39
-D5061 40,70 -> D5064 60,44
-D5061 59,70 -> D5064 90,16
-D5061 66,76 -> D5064 34,71
-D5061 59,77 -> D5062 91,39
-D5061 66,70 -> D5061 34,44
-D5061 83,70 -> D5061 65,43
-D5061 90,76 -> D5061 9,72
-D5061 83,77 -> D5064 65,39
-D5061 90,70 -> D5063 8,44
-D5062 7,10 -> D5062 89,75
-D5062 14,16 -> D5062 34,39
-D5062 7,17 -> D5065 90,12
-D5062 14,10 -> D5064 34,16
-D5062 33,10 -> D5064 65,15
-D5062 40,16 -> D5064 8,39
-D5062 33,17 -> D5062 65,11
-D5062 40,10 -> D5061 8,16
-D5062 59,10 -> D5061 39,43
-D5062 66,16 -> D5061 86,39
-D5062 59,17 -> D5064 39,11
-D5062 66,10 -> D5063 85,17
-D5062 84,11 -> D5063 14,76
-D5062 91,17 -> D5063 60,39
-D5062 84,18 -> D5061 13,11
-D5062 91,11 -> D5065 60,16
-D5062 7,38 -> D5062 65,75
-D5062 14,44 -> D5062 9,72
-D5062 7,45 -> D5065 65,39
-D5062 14,38 -> D5064 8,44
-D5062 33,38 -> D5064 39,15
-D5062 40,44 -> D5064 84,71
-D5062 33,45 -> D5062 39,39
-D5062 40,38 -> D5061 86,44
-D5062 59,38 -> D5061 13,43
-D5062 66,44 -> D5061 60,71
-D5062 59,45 -> D5064 13,39
-D5062 66,38 -> D5063 60,44
-D5062 85,38 -> D5063 89,75
-D5062 92,44 -> D5063 34,71
-D5062 85,45 -> D5061 91,39
-D5062 92,38 -> D5065 34,44
-D5062 8,71 -> D5062 39,75
-D5062 15,77 -> D5062 85,12
-D5062 8,78 -> D5065 39,71
-D5062 15,71 -> D5064 84,76
-D5062 33,70 -> D5064 13,15
-D5062 40,76 -> D5064 60,11
-D5062 33,77 -> D5062 14,72
-D5062 40,70 -> D5061 60,76
-D5062 59,70 -> D5061 91,43
-D5062 66,76 -> D5061 34,11
-D5062 59,77 -> D5064 89,71
-D5062 66,70 -> D5063 34,76
-D5062 83,70 -> D5063 65,75
-D5062 90,76 -> D5063 8,11
-D5062 83,77 -> D5061 65,71
-D5062 90,70 -> D5065 9,77
-D5063 7,10 -> D5064 90,16
-D5063 14,16 -> D5064 34,71
-D5063 7,17 -> D5062 91,39
-D5063 14,10 -> D5061 34,44
-D5063 33,10 -> D5061 65,43
-D5063 40,16 -> D5061 9,72
-D5063 33,17 -> D5064 65,39
-D5063 40,10 -> D5063 8,44
-D5063 59,10 -> D5063 39,75
-D5063 66,16 -> D5063 84,71
-D5063 59,17 -> D5061 39,39
-D5063 66,10 -> D5065 86,44
-D5063 84,11 -> D5065 13,15
-D5063 91,17 -> D5065 60,71
-D5063 84,18 -> D5063 13,39
-D5063 91,11 -> D5062 60,44
-D5063 7,38 -> D5064 65,15
-D5063 14,44 -> D5064 8,11
-D5063 7,45 -> D5062 65,71
-D5063 14,38 -> D5061 9,77
-D5063 33,38 -> D5061 39,43
-D5063 40,44 -> D5061 85,12
-D5063 33,45 -> D5064 39,71
-D5063 40,38 -> D5063 84,76
-D5063 59,38 -> D5063 14,76
-D5063 66,44 -> D5063 60,11
-D5063 59,45 -> D5061 14,72
-D5063 66,38 -> D5065 60,76
-D5063 85,38 -> D5065 90,16
-D5063 92,44 -> D5065 34,11
-D5063 85,45 -> D5063 89,71
-D5063 92,38 -> D5062 34,76
-D5063 8,71 -> D5064 39,15
-D5063 15,77 -> D5064 86,39
-D5063 8,78 -> D5062 39,11
-D5063 15,71 -> D5061 85,17
-D5063 33,70 -> D5061 13,43
-D5063 40,76 -> D5061 60,39
-D5063 33,77 -> D5064 13,11
-D5063 40,70 -> D5063 60,16
-D5063 59,70 -> D5063 89,75
-D5063 66,76 -> D5063 34,39
-D5063 59,77 -> D5061 90,12
-D5063 66,70 -> D5065 34,16
-D5063 83,70 -> D5065 65,15
-D5063 90,76 -> D5065 8,39
-D5063 83,77 -> D5063 65,11
-D5063 90,70 -> D5062 8,16
-D5064 7,10 -> D5061 91,43
-D5064 14,16 -> D5061 34,11
-D5064 7,17 -> D5064 89,71
-D5064 14,10 -> D5063 34,76
-D5064 33,10 -> D5063 65,75
-D5064 40,16 -> D5063 8,11
-D5064 33,17 -> D5061 65,71
-D5064 40,10 -> D5065 9,77
-D5064 59,10 -> D5065 39,15
-D5064 66,16 -> D5065 85,12
-D5064 59,17 -> D5063 39,71
-D5064 66,10 -> D5062 84,76
-D5064 84,11 -> D5062 13,43
-D5064 91,17 -> D5062 60,11
-D5064 84,18 -> D5065 14,72
-D5064 91,11 -> D5064 60,76
-D5064 7,38 -> D5061 65,43
-D5064 14,44 -> D5061 8,39
-D5064 7,45 -> D5064 65,11
-D5064 14,38 -> D5063 8,16
-D5064 33,38 -> D5063 39,75
-D5064 40,44 -> D5063 86,39
-D5064 33,45 -> D5061 39,11
-D5064 40,38 -> D5065 85,17
-D5064 59,38 -> D5065 13,15
-D5064 66,44 -> D5065 60,39
-D5064 59,45 -> D5063 13,11
-D5064 66,38 -> D5062 60,16
-D5064 85,38 -> D5062 91,43
-D5064 92,44 -> D5062 34,39
-D5064 85,45 -> D5065 90,12
-D5064 92,38 -> D5064 34,16
-D5064 8,71 -> D5061 39,43
-D5064 15,77 -> D5061 84,71
-D5064 8,78 -> D5064 39,39
-D5064 15,71 -> D5063 86,44
-D5064 33,70 -> D5063 14,76
-D5064 40,76 -> D5063 60,71
-D5064 33,77 -> D5061 13,39
-D5064 40,70 -> D5065 60,44
-D5064 59,70 -> D5065 90,16
-D5064 66,76 -> D5065 34,71
-D5064 59,77 -> D5063 91,39
-D5064 66,70 -> D5062 34,44
-D5064 83,70 -> D5062 65,43
-D5064 90,76 -> D5062 9,72
-D5064 83,77 -> D5065 65,39
-D5064 90,70 -> D5064 8,44
-D5065 7,10 -> D5063 89,75
-D5065 14,16 -> D5063 34,39
-D5065 7,17 -> D5061 90,12
-D5065 14,10 -> D5065 34,16
-D5065 33,10 -> D5065 65,15
-D5065 40,16 -> D5065 8,39
-D5065 33,17 -> D5063 65,11
-D5065 40,10 -> D5062 8,16
-D5065 59,10 -> D5062 39,43
-D5065 66,16 -> D5062 86,39
-D5065 59,17 -> D5065 39,11
-D5065 66,10 -> D5064 85,17
-D5065 84,11 -> D5064 14,76
-D5065 91,17 -> D5064 60,39
-D5065 84,18 -> D5062 13,11
-D5065 91,11 -> D5061 60,16
-D5065 7,38 -> D5063 65,75
-D5065 14,44 -> D5063 9,72
-D5065 7,45 -> D5061 65,39
-D5065 14,38 -> D5065 8,44
-D5065 33,38 -> D5065 39,15
-D5065 40,44 -> D5065 84,71
-D5065 33,45 -> D5063 39,39
-D5065 40,38 -> D5062 86,44
-D5065 59,38 -> D5062 13,43
-D5065 66,44 -> D5062 60,71
-D5065 59,45 -> D5065 13,39
-D5065 66,38 -> D5064 60,44
-D5065 85,38 -> D5064 89,75
-D5065 92,44 -> D5064 34,71
-D5065 85,45 -> D5062 91,39
-D5065 92,38 -> D5061 34,44
-D5065 8,71 -> D5063 39,75
-D5065 15,77 -> D5063 85,12
-D5065 8,78 -> D5061 39,71
-D5065 15,71 -> D5065 84,76
-D5065 33,70 -> D5065 13,15
-D5065 40,76 -> D5065 60,11
-D5065 33,77 -> D5063 14,72
-D5065 40,70 -> D5062 60,76
-D5065 59,70 -> D5062 91,43
-D5065 66,76 -> D5062 34,11
-D5065 59,77 -> D5065 89,71
-D5065 66,70 -> D5064 34,76
-D5065 83,70 -> D5064 65,75
-;D5065 90,76 -> D5064 8,11
-D5065 83,77 -> D5062 65,71
-D5065 90,70 -> D5061 9,77
+D5061 7,10 -> D5065 91,43  
+D5061 14,16 -> D5065 34,11 
+;D5061 7,17 -> D5063 89,71 
+D5061 14,10 -> D5062 34,76 
+D5061 33,10 -> D5062 65,75 
+D5061 40,16 -> D5062 8,11  
+D5061 33,17 -> D5065 65,71 
+D5061 40,10 -> D5064 9,77  
+D5061 59,10 -> D5064 39,15 
+D5061 66,16 -> D5064 85,12 
+D5061 59,17 -> D5062 39,71 
+D5061 66,10 -> D5061 84,76 
+D5061 84,11 -> D5061 13,43 
+D5061 91,17 -> D5061 60,11 
+D5061 84,18 -> D5064 14,72 
+D5061 91,11 -> D5063 60,76 
+D5061 7,38 -> D5065 65,43  
+D5061 14,44 -> D5065 8,39  
+D5061 7,45 -> D5063 65,11  
+D5061 14,38 -> D5062 8,16  
+D5061 33,38 -> D5062 39,75 
+D5061 40,44 -> D5062 86,39 
+D5061 33,45 -> D5065 39,11 
+D5061 40,38 -> D5064 85,17 
+D5061 59,38 -> D5064 13,15 
+D5061 66,44 -> D5064 60,39 
+D5061 59,45 -> D5062 13,11 
+D5061 66,38 -> D5061 60,16 
+D5061 85,38 -> D5061 91,43 
+D5061 92,44 -> D5061 34,39 
+D5061 85,45 -> D5064 90,12 
+D5061 92,38 -> D5063 34,16 
+D5061 8,71 -> D5065 39,43  
+D5061 15,77 -> D5065 84,71 
+D5061 8,78 -> D5063 39,39  
+D5061 15,71 -> D5062 86,44 
+D5061 33,70 -> D5062 14,76 
+D5061 40,76 -> D5062 60,71 
+D5061 33,77 -> D5065 13,39 
+D5061 40,70 -> D5064 60,44 
+D5061 59,70 -> D5064 90,16 
+D5061 66,76 -> D5064 34,71 
+D5061 59,77 -> D5062 91,39 
+D5061 66,70 -> D5061 34,44 
+D5061 83,70 -> D5061 65,43 
+D5061 90,76 -> D5061 9,72  
+D5061 83,77 -> D5064 65,39 
+D5061 90,70 -> D5063 8,44  
+D5062 7,10 -> D5062 89,75  
+D5062 14,16 -> D5062 34,39 
+D5062 7,17 -> D5065 90,12  
+D5062 14,10 -> D5064 34,16 
+D5062 33,10 -> D5064 65,15 
+D5062 40,16 -> D5064 8,39  
+D5062 33,17 -> D5062 65,11 
+D5062 40,10 -> D5061 8,16  
+D5062 59,10 -> D5061 39,43 
+D5062 66,16 -> D5061 86,39 
+D5062 59,17 -> D5064 39,11 
+D5062 66,10 -> D5063 85,17 
+D5062 84,11 -> D5063 14,76 
+D5062 91,17 -> D5063 60,39 
+D5062 84,18 -> D5061 13,11 
+D5062 91,11 -> D5065 60,16 
+D5062 7,38 -> D5062 65,75  
+D5062 14,44 -> D5062 9,72  
+D5062 7,45 -> D5065 65,39  
+D5062 14,38 -> D5064 8,44  
+D5062 33,38 -> D5064 39,15 
+D5062 40,44 -> D5064 84,71 
+D5062 33,45 -> D5062 39,39 
+D5062 40,38 -> D5061 86,44 
+D5062 59,38 -> D5061 13,43 
+D5062 66,44 -> D5061 60,71 
+D5062 59,45 -> D5064 13,39 
+D5062 66,38 -> D5063 60,44 
+D5062 85,38 -> D5063 89,75 
+D5062 92,44 -> D5063 34,71 
+D5062 85,45 -> D5061 91,39 
+D5062 92,38 -> D5065 34,44 
+D5062 8,71 -> D5062 39,75  
+D5062 15,77 -> D5062 85,12 
+D5062 8,78 -> D5065 39,71  
+D5062 15,71 -> D5064 84,76 
+D5062 33,70 -> D5064 13,15 
+D5062 40,76 -> D5064 60,11 
+D5062 33,77 -> D5062 14,72 
+D5062 40,70 -> D5061 60,76 
+D5062 59,70 -> D5061 91,43 
+D5062 66,76 -> D5061 34,11 
+D5062 59,77 -> D5064 89,71 
+D5062 66,70 -> D5063 34,76 
+D5062 83,70 -> D5063 65,75 
+D5062 90,76 -> D5063 8,11  
+D5062 83,77 -> D5061 65,71 
+D5062 90,70 -> D5065 9,77  
+D5063 7,10 -> D5064 90,16  
+D5063 14,16 -> D5064 34,71 
+D5063 7,17 -> D5062 91,39  
+D5063 14,10 -> D5061 34,44 
+D5063 33,10 -> D5061 65,43 
+D5063 40,16 -> D5061 9,72  
+D5063 33,17 -> D5064 65,39 
+D5063 40,10 -> D5063 8,44  
+D5063 59,10 -> D5063 39,75 
+D5063 66,16 -> D5063 84,71 
+D5063 59,17 -> D5061 39,39 
+D5063 66,10 -> D5065 86,44 
+D5063 84,11 -> D5065 13,15 
+D5063 91,17 -> D5065 60,71 
+D5063 84,18 -> D5063 13,39 
+D5063 91,11 -> D5062 60,44 
+D5063 7,38 -> D5064 65,15  
+D5063 14,44 -> D5064 8,11  
+D5063 7,45 -> D5062 65,71  
+D5063 14,38 -> D5061 9,77  
+D5063 33,38 -> D5061 39,43 
+D5063 40,44 -> D5061 85,12 
+D5063 33,45 -> D5064 39,71 
+D5063 40,38 -> D5063 84,76 
+D5063 59,38 -> D5063 14,76 
+D5063 66,44 -> D5063 60,11 
+D5063 59,45 -> D5061 14,72 
+D5063 66,38 -> D5065 60,76 
+D5063 85,38 -> D5065 90,16 
+D5063 92,44 -> D5065 34,11 
+D5063 85,45 -> D5063 89,71 
+D5063 92,38 -> D5062 34,76 
+D5063 8,71 -> D5064 39,15  
+D5063 15,77 -> D5064 86,39 
+D5063 8,78 -> D5062 39,11  
+D5063 15,71 -> D5061 85,17 
+D5063 33,70 -> D5061 13,43 
+D5063 40,76 -> D5061 60,39 
+D5063 33,77 -> D5064 13,11 
+D5063 40,70 -> D5063 60,16 
+D5063 59,70 -> D5063 89,75 
+D5063 66,76 -> D5063 34,39 
+D5063 59,77 -> D5061 90,12 
+D5063 66,70 -> D5065 34,16 
+D5063 83,70 -> D5065 65,15 
+D5063 90,76 -> D5065 8,39  
+D5063 83,77 -> D5063 65,11 
+D5063 90,70 -> D5062 8,16  
+D5064 7,10 -> D5061 91,43  
+D5064 14,16 -> D5061 34,11 
+D5064 7,17 -> D5064 89,71  
+D5064 14,10 -> D5063 34,76 
+D5064 33,10 -> D5063 65,75 
+D5064 40,16 -> D5063 8,11  
+D5064 33,17 -> D5061 65,71 
+D5064 40,10 -> D5065 9,77  
+D5064 59,10 -> D5065 39,15 
+D5064 66,16 -> D5065 85,12 
+D5064 59,17 -> D5063 39,71 
+D5064 66,10 -> D5062 84,76 
+D5064 84,11 -> D5062 13,43 
+D5064 91,17 -> D5062 60,11 
+D5064 84,18 -> D5065 14,72 
+D5064 91,11 -> D5064 60,76 
+D5064 7,38 -> D5061 65,43  
+D5064 14,44 -> D5061 8,39  
+D5064 7,45 -> D5064 65,11  
+D5064 14,38 -> D5063 8,16  
+D5064 33,38 -> D5063 39,75 
+D5064 40,44 -> D5063 86,39 
+D5064 33,45 -> D5061 39,11 
+D5064 40,38 -> D5065 85,17 
+D5064 59,38 -> D5065 13,15 
+D5064 66,44 -> D5065 60,39 
+D5064 59,45 -> D5063 13,11 
+D5064 66,38 -> D5062 60,16 
+D5064 85,38 -> D5062 91,43 
+D5064 92,44 -> D5062 34,39 
+D5064 85,45 -> D5065 90,12 
+D5064 92,38 -> D5064 34,16 
+D5064 8,71 -> D5061 39,43  
+D5064 15,77 -> D5061 84,71 
+D5064 8,78 -> D5064 39,39  
+D5064 15,71 -> D5063 86,44 
+D5064 33,70 -> D5063 14,76 
+D5064 40,76 -> D5063 60,71 
+D5064 33,77 -> D5061 13,39 
+D5064 40,70 -> D5065 60,44 
+D5064 59,70 -> D5065 90,16 
+D5064 66,76 -> D5065 34,71 
+D5064 59,77 -> D5063 91,39 
+D5064 66,70 -> D5062 34,44 
+D5064 83,70 -> D5062 65,43 
+D5064 90,76 -> D5062 9,72  
+D5064 83,77 -> D5065 65,39 
+D5064 90,70 -> D5064 8,44  
+D5065 7,10 -> D5063 89,75  
+D5065 14,16 -> D5063 34,39 
+D5065 7,17 -> D5061 90,12  
+D5065 14,10 -> D5065 34,16 
+D5065 33,10 -> D5065 65,15 
+D5065 40,16 -> D5065 8,39  
+D5065 33,17 -> D5063 65,11 
+D5065 40,10 -> D5062 8,16  
+D5065 59,10 -> D5062 39,43 
+D5065 66,16 -> D5062 86,39 
+D5065 59,17 -> D5065 39,11 
+D5065 66,10 -> D5064 85,17 
+D5065 84,11 -> D5064 14,76 
+D5065 91,17 -> D5064 60,39 
+D5065 84,18 -> D5062 13,11 
+D5065 91,11 -> D5061 60,16 
+D5065 7,38 -> D5063 65,75  
+D5065 14,44 -> D5063 9,72  
+D5065 7,45 -> D5061 65,39  
+D5065 14,38 -> D5065 8,44  
+D5065 33,38 -> D5065 39,15 
+D5065 40,44 -> D5065 84,71 
+D5065 33,45 -> D5063 39,39 
+D5065 40,38 -> D5062 86,44 
+D5065 59,38 -> D5062 13,43 
+D5065 66,44 -> D5062 60,71 
+D5065 59,45 -> D5065 13,39 
+D5065 66,38 -> D5064 60,44 
+D5065 85,38 -> D5064 89,75 
+D5065 92,44 -> D5064 34,71 
+D5065 85,45 -> D5062 91,39 
+D5065 92,38 -> D5061 34,44 
+D5065 8,71 -> D5063 39,75  
+D5065 15,77 -> D5063 85,12 
+D5065 8,78 -> D5061 39,71  
+D5065 15,71 -> D5065 84,76 
+D5065 33,70 -> D5065 13,15 
+D5065 40,76 -> D5065 60,11 
+D5065 33,77 -> D5063 14,72 
+D5065 40,70 -> D5062 60,76 
+D5065 59,70 -> D5062 91,43 
+D5065 66,76 -> D5062 34,11 
+D5065 59,77 -> D5065 89,71 
+D5065 66,70 -> D5064 34,76 
+D5065 83,70 -> D5064 65,75 
+;D5065 90,76 -> D5064 8,11 
+D5065 83,77 -> D5062 65,71 
+D5065 90,70 -> D5061 9,77  
 
-D5065 90,76 ->  D5071  8,10
+D5065 90,76 ->  D5071  8,10 
 D5071 7,9   ->  D5065  89,75
 
 D5071 39,43       -> D5072  7,51
@@ -2751,10 +2751,10 @@ D1201  18,148   ->  81     155,136
 
 D1201  17,23    ->  D1202  179,182
 D1202  179,183  ->  D1201  18,24
-
+                
 D1202  120,87   ->  D12032 18,186
 D12032 17,187   ->  D1202  119,88
-
+                
 D12032 29,35    ->  D1204  24,267
 D1204  23,268   ->  D12032 28,36
 
@@ -2762,8 +2762,8 @@ D1202  16,24    ->  D12031 50,80
 D12031 51,81    ->  D1202  17,25
 
 D12031 91,168   ->  D1204  172,39
-D1204  173,40   ->  D12031 92,169
-
+D1204  173,40   ->  D12031 92,169             
+                
 D1204  265,253  ->  D1205  75,201
 D1205  74,202   ->  D1204  264,254
 
@@ -2780,7 +2780,7 @@ D1205  74,202   ->  D1204  264,254
 D8002   39,175   ->      9       732,676
 D8002   40,176   ->      9       732,676
 
-9       732,674  ->      D8002   40,175
+9       732,674  ->      D8002   40,175       
 9       733,674  ->      D8002   40,175
 
 ;----------------------------------
@@ -2788,19 +2788,19 @@ D8002   40,176   ->      9       732,676
 ;; Hukdogung
 
 ;; Silnakwon - Hukdogung1chng
-9        208,91     ->    D1510   14,45
-9        208,92     ->    D1510   14,45
+9        208,91     ->    D1510   14,45 
+9        208,92     ->    D1510   14,45 
 
-D1510    13,46      ->    9       207,92
+D1510    13,46      ->    9       207,92     
 D1510    14,47      ->    9       207,92
 
-D1510     9,172     ->    D15111   178,34
-D1510    10,173     ->    D15111   178,34
+D1510     9,172     ->    D15111   178,34  
+D1510    10,173     ->    D15111   178,34 
 
 D15111   180,33     ->    D1510    10,171
 D15111   179,33     ->    D1510    10,171
 
-D1510    189,188    ->    D15112   95,59
+D1510    189,188    ->    D15112   95,59   
 D1510    190,181    ->    D15112   95,59
 
 D15112   94,58      ->    D1510    189,186
@@ -2809,8 +2809,8 @@ D15112   95,58      ->    D1510    189,186
 D15111   31,186     ->    D1512    38,23
 D15111   32,187     ->    D1512    38,23
 
-D1512    39,22      ->    D15111   32,185
-D1512    40,22      ->    D15111   32,185
+D1512    39,22      ->    D15111   32,185 
+D1512    40,22      ->    D15111   32,185 
 
 D15112   30,181     ->    D1512    186,19
 D15112   31,182     ->    D1512    186,19
@@ -2843,10 +2843,10 @@ D15033   281,53     ->    D1513    14,123
 ;; Jinchungung
 
 ;; Silnakwon - Jinchungung1chng
-9       388,305     ->    D1500   172,224
-9       388,306     ->    D1500   172,224
+9       388,305     ->    D1500   172,224    
+9       388,306     ->    D1500   172,224     
 
-D1500   171,225     ->     9      387,306
+D1500   171,225     ->     9      387,306 
 D1500   172,226     ->     9      387,306
 
 9       398,308     ->    D1500    195,224
@@ -2855,7 +2855,7 @@ D1500   172,226     ->     9      387,306
 D1500    195,226     ->     9      399,310
 D1500    195,225     ->     9      399,310
 
-D1500    351,382    ->    D15013   40,38
+D1500    351,382    ->    D15013   40,38 
 D1500    352,381    ->    D15013   40,38
 
 D15013   39,37      ->    D1500    351,380
@@ -2880,8 +2880,8 @@ D15014   118,199    ->    D1500    354,42
 D15014   119,200    ->    D1500    354,42
 
 ;; Jinchungung1chng(west) - Jinchungung2chng(west)
-D15011   16,276    ->    D15021    242,21
-D15011   17,277    ->    D15021    242,21
+D15011   16,276    ->    D15021    242,21    
+D15011   17,277    ->    D15021    242,21    
 
 D15021   243,20    ->    D15011    17,275
 D15021   244,20    ->    D15011    17,275
@@ -2915,7 +2915,7 @@ D15013   150,152   ->    D15023    160,152
 D15023   161,153   ->    D15013    150,153
 D15023   160,154   ->    D15013    150,153
 
-D15023   259,275   ->    D15033    30,34
+D15023   259,275   ->    D15033    30,34 
 D15023   258,276   ->    D15033    30,34
 
 D15033   29,33     ->    D15023    258,274
@@ -2940,7 +2940,7 @@ D15014   259,35    ->    D15024    122,132
 
 D15024   121,133   ->    D15014    257,36
 D15024   122,134   ->    D15014    257,36
-
+ 
 D15024   217,285   ->    D15034    267,36
 D15024   218,286   ->    D15034    267,36
 
@@ -2955,7 +2955,7 @@ D15044   246,20    ->    D15054    181,183
 D15054   181,185   ->    D15044    246,21
 D15054   182,184   ->    D15044    246,21
 
-D15054   285,288   ->    D1506     44,63
+D15054   285,288   ->    D1506     44,63 
 D15054   286,288   ->    D1506     44,63
 
 D1506    45,64     ->   D15054    286,289
@@ -2963,76 +2963,76 @@ D1506    45,64     ->   D15054    286,289
 
 ;----------------------------------
 ;----------------------------------
-;; Sinkisun DG
-
-D900   48,59   ->   D901   22,83
-;D901   21,85   ->   D900   47,60
-
-D901   159,93  ->   D9021  160,94
-D9021  159,93  ->   D901   160,94
-
-D901   122,149 ->   D9011  9,18
-D9011  8,19    ->   D901   121 150
-
-D901   140,129 ->   D9012  9,18
-D9012  8,19    ->   D901   139,130
-
-D9021  57,21   ->   D9022  34,69
-D9022  33,68   ->   D9021  58,22
-
-D9021  100,52  ->   D90211 28,24
-D90211 29,25   ->   D9021  100,53
-
-D9021  38,61   ->   D90212 14,18
-D90212 15,19   ->   D9021  39,62
-
-D9022  172,152 ->   D903   187,150
-D903   187,149 ->   D9022  172 153
-
-;D9022  111,146 ->   D90221 28,24
-D90221 29,25   ->   D9022  112,147
-
-D9022  157,95  ->   D90222 22,26
-D90222 23,27   ->   D9022  156 96
-
-D9022  74,26   ->   D90223 14,18
-D90223 15,19   ->   D9022 75,27
-
-D903   53,51   ->   D904   54,25
-D904   54,24   ->   D903   53,52
-
-D903   144,179 ->   D9031  10,22
-D9031  11,23   ->   D903   144,180
-
-D903   73,60   ->   D9032  7,16
-D9032  6,17    ->   D903   72,60
-
-;D903   87,117  ->   D9033  16,18
-D9033  17,19   ->   D903   86,118
-
-D903   47,41   ->   z013    10,10
-
-D9021  52,110   ->   D9011  18,11
-D9021  157,134  ->   D9012  11,12
+;; Sinkisun DG                     
+                                   
+D900   48,59   ->   D901   22,83   
+;D901   21,85   ->   D900   47,60  
+                                   
+D901   159,93  ->   D9021  160,94  
+D9021  159,93  ->   D901   160,94  
+                                   
+D901   122,149 ->   D9011  9,18    
+D9011  8,19    ->   D901   121 150 
+                                   
+D901   140,129 ->   D9012  9,18    
+D9012  8,19    ->   D901   139,130 
+                                   
+D9021  57,21   ->   D9022  34,69   
+D9022  33,68   ->   D9021  58,22   
+                                   
+D9021  100,52  ->   D90211 28,24   
+D90211 29,25   ->   D9021  100,53  
+                                   
+D9021  38,61   ->   D90212 14,18   
+D90212 15,19   ->   D9021  39,62   
+                                   
+D9022  172,152 ->   D903   187,150 
+D903   187,149 ->   D9022  172 153 
+                                   
+;D9022  111,146 ->   D90221 28,24  
+D90221 29,25   ->   D9022  112,147 
+                                   
+D9022  157,95  ->   D90222 22,26   
+D90222 23,27   ->   D9022  156 96  
+                                   
+D9022  74,26   ->   D90223 14,18   
+D90223 15,19   ->   D9022 75,27    
+                                   
+D903   53,51   ->   D904   54,25   
+D904   54,24   ->   D903   53,52   
+                                   
+D903   144,179 ->   D9031  10,22   
+D9031  11,23   ->   D903   144,180 
+                                   
+D903   73,60   ->   D9032  7,16    
+D9032  6,17    ->   D903   72,60   
+                              
+;D903   87,117  ->   D9033  16,18  
+D9033  17,19   ->   D903   86,118  
+                                   
+D903   47,41   ->   z013    10,10  
+                                
+D9021  52,110   ->   D9011  18,11  
+D9021  157,134  ->   D9012  11,12  
 D9021  95,155   ->   D901   107,161
 D9021  126,77   ->   D901   120,140
 D9021  117,173  ->   D901   105,131
 D9021  119,84   ->   D901   149,149
 D9021  116,87   ->   D901   149,149
-D9021  69,126   ->   D901   88,51
-D9021  75,71    ->   D901   88,51
+D9021  69,126   ->   D901   88,51  
+D9021  75,71    ->   D901   88,51  
 D9021  92,114   ->   D901   169,121
-
-D9021   67,21   ->   D90221 12,33
-D9021   30,75   ->   D90221 12,33
-D9021   90,145  ->   D9033  77,83
-D9021   126,77  ->   D9033  77,83
-
-D903   61,92    ->   D90221 12,33
-D903   172,110  ->   D90221 12,33
-D903   181,151  ->   D9033  77,83
-D903   126,185  ->   D9022  19,11
-D903   105,132  ->   D9022  98,151
+                                   
+D9021   67,21   ->   D90221 12,33  
+D9021   30,75   ->   D90221 12,33  
+D9021   90,145  ->   D9033  77,83  
+D9021   126,77  ->   D9033  77,83  
+                                   
+D903   61,92    ->   D90221 12,33  
+D903   172,110  ->   D90221 12,33  
+D903   181,151  ->   D9033  77,83  
+D903   126,185  ->   D9022  19,11  
+D903   105,132  ->   D9022  98,151 
 
 ;----------------------------------
 ;----------------------------------

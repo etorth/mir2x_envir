@@ -3,7 +3,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-E002_001.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_SkeletonCave-E002_001.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0
 
@@ -84,50 +84,50 @@ check [175] 1
 goto @NQuest01_3
 break
 #ELSESAY
-#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-E002_001.txt] @NPC_Main_4
+#INCLUDE [..\Convert_Def\Market_def\14Quest_SkeletonCave-E002_001.txt] @NPC_Main_4
 
 [@main_0_1]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-E002_001.txt] @NPC_Main_1
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_SkeletonCave-E002_001.txt] @NPC_Main_1
 
 [@main_0_2]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-E002_001.txt] @NPC_Main_2
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_SkeletonCave-E002_001.txt] @NPC_Main_2
 
 [@main_0_3]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/14Quest_SkeletonCave-E002_001.txt] @NPC_Main_3
+	#INCLUDE [..\Convert_Def\Market_def\14Quest_SkeletonCave-E002_001.txt] @NPC_Main_3
 
 
 [@NQuest01_3]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_GADEUNG1_UNBAL
+#CALL [\NQ_BASE\oma.txt] @SEARCH_GADEUNG1_UNBAL
 
 [@NQuest01_4]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @SEARCH_GADEUNG2_UNBAL
+#CALL [\NQ_BASE\oma.txt] @SEARCH_GADEUNG2_UNBAL
 
 [@NQuest01_5]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON1_UNBAL
+#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON1_UNBAL
 
 [@NQuest01_6]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON2_UNBAL
+#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON2_UNBAL
 
 [@NQuest01_7]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON3_UNBAL
+#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON3_UNBAL
 
 [@NQuest01_8]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_CHOHON4_UNBAL
+#CALL [\NQ_BASE\oma.txt] @HELP_CHOHON4_UNBAL
 
 [@NQuest01_9]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_BULSA1_UNBAL
+#CALL [\NQ_BASE\oma.txt] @HELP_BULSA1_UNBAL
 
 [@NQuest01_10]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @RETURN_BICHUN1_UNBAL
+#CALL [\NQ_BASE\oma.txt] @RETURN_BICHUN1_UNBAL
 
 [@NQuest01_11]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @RETURN_BICHUN2_UNBAL
+#CALL [\NQ_BASE\oma.txt] @RETURN_BICHUN2_UNBAL
 
 [@NQuest01_12]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_BULSA2_UNBAL
+#CALL [\NQ_BASE\oma.txt] @HELP_BULSA2_UNBAL
 
 [@NQuest01_13]
-#CALL [QuestDiary/NQ_BASE/oma.txt] @HELP_BULSA3_UNBAL
+#CALL [\NQ_BASE\oma.txt] @HELP_BULSA3_UNBAL

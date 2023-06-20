@@ -1,4 +1,4 @@
-;;涓嶈鍒犳帀姝よ
+;;不要删掉此行
 [@main]
 #ACT
 goto @NumaStone4Quest_open
@@ -7,8 +7,8 @@ break
 
 
 [@NumaStone4Quest_open]
-#CALL [QuestDiary/NpcQuest_Def/17StoneNpc4-D1504.txt] @NPCQuest_Check
+#CALL [NpcQuest_Def\17StoneNpc4-D1504.txt] @NPCQuest_Check
 
 [@everythingreward]
-#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
-;;涓嶈鍒犳帀姝よ
+#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

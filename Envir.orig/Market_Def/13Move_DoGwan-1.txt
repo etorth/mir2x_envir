@@ -1,3 +1,0 @@
-;;13Move_DoGwan-1.txt
-[@main]
-#CALL [\\teleport\DoKwanTele.txt] @DoKwan_Teleport

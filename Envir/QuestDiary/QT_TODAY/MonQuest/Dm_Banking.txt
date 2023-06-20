@@ -41,7 +41,7 @@ break
 [@Banking_T120_1]
 #IF
 #SAY
-锛堟姄鍒版綐澶滅墰榄旂帇浜嗐�傦級\
+（抓到潘夜牛魔王了。）\
 
 #ACT
 set [308] 1

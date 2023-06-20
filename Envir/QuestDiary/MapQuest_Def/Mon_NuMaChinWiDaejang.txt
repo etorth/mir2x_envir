@@ -1,4 +1,4 @@
-;;²»ÒªÉ¾µô´ËÐÐ
+;;��Ҫɾ������
 
 [@Main]
 #IF
@@ -6,7 +6,7 @@ Check [209] 1
 Check [210] 1
 Check [409] 0
 #ACT
-Mov A8 "ÅµÂê¸«±ø"
+Mov A8 "ŵ�긫��"
 goto @TodayQuest_TQCase1
 #ELSEACT
 goto @main_Except
@@ -19,7 +19,7 @@ Mov A0 %USERMAP
 Equal A0 "D1601"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -28,7 +28,7 @@ break
 Equal A0 "D1602"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -37,7 +37,7 @@ break
 Equal A0 "D16031"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -46,7 +46,7 @@ break
 Equal A0 "D16032"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -55,7 +55,7 @@ break
 Equal A0 "D16033"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -64,7 +64,7 @@ break
 Equal A0 "D16034"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -73,7 +73,7 @@ break
 Equal A0 "D1604"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -82,7 +82,7 @@ break
 Equal A0 "D1605"
 check [207] 1
 check [208] 1
-checkitemw ¼Å»ÃÖ®ÈÐ 1
+checkitemw �Ż�֮�� 1
 #ACT
 goto @MadoHaveStep0_0
 break
@@ -93,8 +93,8 @@ break
 break
 
 [@TodayQuest_TQCase1]
-#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_NumaDaeJang
+#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NumaDaeJang
 
 [@MadoHaveStep0_0]
-#CALL [QuestDiary/HonChonMaDo/Mon_MadoHave.txt] @MadoHaveStep1_1
-;;²»ÒªÉ¾µô´ËÐÐ
+#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep1_1
+;;��Ҫɾ������

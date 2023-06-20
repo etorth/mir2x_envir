@@ -50,12 +50,12 @@ break
 
 [@hkdon_T206_1]
 #IF
-checkitem ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 99
+checkitem ºÚÒ°ÖíÑÀ³İ 99
 #ACT
-give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
+give ºÚÒ°ÖíÑÀ³İ 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T206_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T206_Say
 
 #ELSEACT
 goto @hkdon_T206_2
@@ -64,7 +64,7 @@ goto @hkdon_T206_2
 #IF
 random 3
 #ACT
-give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
+give ºÚÒ°ÖíÑÀ³İ 1
 ;-----------------------------------------------------
 
 ;-----------------------------------------------------
@@ -98,12 +98,12 @@ break
 
 [@hkdon_T204_1]
 #IF
-checkitem ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 19
+checkitem ºÚÒ°ÖíÑÀ³İ 19
 #ACT
-give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
+give ºÚÒ°ÖíÑÀ³İ 1
 set [308] 1
 #SAY
-	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T204_Say
+	#INCLUDE [..\Convert_Def\QuestDiary\QT_TODAY\MonQuest\MonQuestSay.txt] @T204_Say
 
 #ELSEACT
 goto @hkdon_T204_2
@@ -112,5 +112,5 @@ goto @hkdon_T204_2
 #IF
 random 3
 #ACT
-give ÂºÃšÃ’Â°Ã–Ã­Ã‘Ã€Â³Ã 1
+give ºÚÒ°ÖíÑÀ³İ 1
 ;-----------------------------------------------------

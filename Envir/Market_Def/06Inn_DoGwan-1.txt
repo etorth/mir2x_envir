@@ -17,23 +17,23 @@ goto @main_0_0
 
 [@main_0_0]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/06Inn_DoGwan-1.txt] @NPC_Main
+	#INCLUDE [..\Convert_Def\Market_Def\06Inn_DoGwan-1.txt] @NPC_Main
 
-;----------------------------------------------------------
+;---------------------------------------------------------- 
 
 [@StgPassword]
-#CALL [QuestDiary/PassWord/PassWord.txt] @Manage_PassWord
+#CALL [\PassWord\PassWord.txt] @Manage_PassWord
 
 [@PreGetback]
-#CALL [QuestDiary/PassWord/PassWord.txt] @Input_PassWord
+#CALL [\PassWord\PassWord.txt] @Input_PassWord
 
 [@storage]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/06Inn_DoGwan-1.txt] @NPC_Storage
+	#INCLUDE [..\Convert_Def\Market_Def\06Inn_DoGwan-1.txt] @NPC_Storage
 
 [@getback]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/06Inn_DoGwan-1.txt] @NPC_Getback
+	#INCLUDE [..\Convert_Def\Market_Def\06Inn_DoGwan-1.txt] @NPC_Getback
 
 ;;------------------------------------------------------------------------------
 ;;------------------------------------------------------------------------------
@@ -77,7 +77,7 @@ goto @TQuest1_0
 break
 ;
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/06Inn_DoGwan-1.txt] @NPC_TQuest
+	#INCLUDE [..\Convert_Def\Market_Def\06Inn_DoGwan-1.txt] @NPC_TQuest
 
 ;------------------------
 ;------------------------
@@ -106,7 +106,7 @@ goto @TQuest566_1
 ;--------------
 
 [@TQuest566_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @566_CHECK2
+;;;;#CALL [\QT_TODAY\5thClass.txt] @566_CHECK2
 
 ;------------------------
 
@@ -129,16 +129,16 @@ goto @TQuest1_1
 ;--------------
 
 [@TQuest1_1]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @105_START
+#CALL [\QT_TODAY\1stClass.txt] @105_START
 
 [@TQuest1_2]
-#CALL [QuestDiary/QT_TODAY/1stClass.txt] @105_CHECK1
+#CALL [\QT_TODAY\1stClass.txt] @105_CHECK1
 
 ;--------------
 
 [@TQuest1_6]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/06Inn_DoGwan-1.txt] @NPC_TQuest_1
+	#INCLUDE [..\Convert_Def\Market_Def\06Inn_DoGwan-1.txt] @NPC_TQuest_1
 
 ;---------------------------
 
@@ -161,10 +161,10 @@ goto @TQuest565_1
 ;--------------
 
 [@TQuest565_1]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @565_START
+;;;;#CALL [\QT_TODAY\5thClass.txt] @565_START
 
 [@TQuest565_2]
-;;;;#CALL [QuestDiary/QT_TODAY/5thClass.txt] @565_CHECK1
+;;;;#CALL [\QT_TODAY\5thClass.txt] @565_CHECK1
 
 
 ;------------------------
@@ -188,10 +188,10 @@ goto @TQuest2_1
 ;--------------
 
 [@TQuest2_1]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @204_START
+#CALL [\QT_TODAY\2ndClass.txt] @204_START
 
 [@TQuest2_2]
-#CALL [QuestDiary/QT_TODAY/2ndClass.txt] @204_CHECK1
+#CALL [\QT_TODAY\2ndClass.txt] @204_CHECK1
 
 ;---------------------------
 
@@ -214,9 +214,9 @@ goto @TQuest3_1
 ;--------------
 
 [@TQuest3_1]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @303_START
+#CALL [\QT_TODAY\3rdClass.txt] @303_START
 
 [@TQuest3_2]
-#CALL [QuestDiary/QT_TODAY/3rdClass.txt] @303_CHECK1
+#CALL [\QT_TODAY\3rdClass.txt] @303_CHECK1
 
 ;---------------------------

@@ -1,6 +1,6 @@
 ;;SukGakTele.txt
 [@SukGakTele_1]
 {
-å…­é¢ç¥çŸ³ \ \
-<ç§»åŠ¨è‡³ç›Ÿé‡åœŸåŸæ‰€éœ€é‡‘é’± : 500 é’±/@TelePortRootin(MongChon,500,West)> \
+ÁùÃæÉñÊ¯ \ \
+<ÒÆ¶¯ÖÁÃËÖØÍÁ³ÇËùĞè½ğÇ® : 500 Ç®/@TelePortRootin(MongChon,500,West)> \
 }

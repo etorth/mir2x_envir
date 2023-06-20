@@ -4,13 +4,13 @@
 
 
 [@main]
-#CALL [QuestDiary/CastleWar/ShooterMarket.txt] @MarketShooter
+#CALL [\CastleWar\ShooterMarket.txt] @MarketShooter
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_def/18ShooterMarket_Sabuk-3.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_def\18ShooterMarket_Sabuk-3.txt] @NPC_Buy
 
 [Goods]
 ;ItemName      Volume     Hour
-¼ý            1000        1
-Ê¯Í·            1000        1
+��            1000        1
+ʯͷ            1000        1

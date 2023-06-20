@@ -9,7 +9,7 @@
 #IF
 checkpkpoint 2
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Sabuk-3.txt] @NPC_RedPlayer
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Sabuk-3.txt] @NPC_RedPlayer
 #ELSEACT
 goto @main_0_0
 
@@ -23,43 +23,43 @@ Delaygoto [Grobal] 20 @_Startup
 Delaygoto [Grobal] 60 @_Startup
 
 [@CastleWarOn]
-#CALL [QuestDiary/CastleWar/Speak.txt] @CastleWarSpeak
+#CALL [\CastleWar\Speak.txt] @CastleWarSpeak
 
 [@main_0_0]
 #IF
 IsOnCastleWar SaBuk
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Sabuk-3.txt] @NPC_Main_0_0
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Sabuk-3.txt] @NPC_Main_0_0
 #ELSESAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Sabuk-3.txt] @NPC_Main_0_1
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Sabuk-3.txt] @NPC_Main_0_1
 
 ;----------------------------------------------------------
 
 [@buy]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Sabuk-3.txt] @NPC_Buy
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Sabuk-3.txt] @NPC_Buy
 
 [@sell]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Sabuk-3.txt] @NPC_Sell
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Sabuk-3.txt] @NPC_Sell
 
 [@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Sabuk-3.txt] @NPC_Repair
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Sabuk-3.txt] @NPC_Repair
 
 [~@repair]
 #SAY
-	#INCLUDE [Convert_Def/Market_Def/03Armor_Sabuk-3.txt] @NPC_Repair_Complete
+	#INCLUDE [..\Convert_Def\Market_Def\03Armor_Sabuk-3.txt] @NPC_Repair_Complete
 
 [Goods]
 ;ItemName      Volume     Hour
-å¸ƒè¡£ï¼ˆç”·ï¼‰        50         1
-å¸ƒè¡£ï¼ˆå¥³ï¼‰        50         1
-è½»å‹ç›”ç”²ï¼ˆç”·ï¼‰    50         1
-è½»å‹ç›”ç”²ï¼ˆå¥³ï¼‰    50         1
-é‡ç›”ç”²ï¼ˆç”·ï¼‰      50         1
-é‡ç›”ç”²ï¼ˆå¥³ï¼‰      50         1
-çµé­‚æˆ˜è¡£ï¼ˆç”·ï¼‰    50         1
-çµé­‚æˆ˜è¡£ï¼ˆå¥³ï¼‰    50         1
-é­”æ³•é•¿è¢ï¼ˆç”·ï¼‰    50         1
-é­”æ³•é•¿è¢ï¼ˆå¥³ï¼‰    50         1
+²¼ÒÂ£¨ÄĞ£©        50         1
+²¼ÒÂ£¨Å®£©        50         1
+ÇáĞÍ¿ø¼×£¨ÄĞ£©    50         1
+ÇáĞÍ¿ø¼×£¨Å®£©    50         1
+ÖØ¿ø¼×£¨ÄĞ£©      50         1
+ÖØ¿ø¼×£¨Å®£©      50         1
+Áé»êÕ½ÒÂ£¨ÄĞ£©    50         1
+Áé»êÕ½ÒÂ£¨Å®£©    50         1
+Ä§·¨³¤ÅÛ£¨ÄĞ£©    50         1
+Ä§·¨³¤ÅÛ£¨Å®£©    50         1

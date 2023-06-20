@@ -1,3 +1,0 @@
-;;13Move_Mongchon2-74.txt
-[@main]
-#CALL [teleport\MongChonTele.txt] @Monchon_Teleport_West

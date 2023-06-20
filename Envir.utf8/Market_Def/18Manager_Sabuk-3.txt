@@ -1,3 +1,0 @@
-;;18Manager_Sabuk-3.txt
-[@main]
-#CALL [\CastleWar\Manager.txt] @Castle_Manager

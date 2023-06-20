@@ -1,3 +1,0 @@
-;;Gold.txt
-[InputGold]
-Gold = 500000

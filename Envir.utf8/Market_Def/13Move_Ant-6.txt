@@ -1,3 +1,0 @@
-;;13Move_Ant-6.txt
-[@main]
-#CALL [\\teleport\AntTele.txt] @Ant_Teleport

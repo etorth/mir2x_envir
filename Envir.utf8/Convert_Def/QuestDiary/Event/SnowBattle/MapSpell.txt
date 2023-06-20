@@ -1,5 +1,0 @@
-;;MapSpell.txt
-[LineMSG]
-MSG01=关闭打雪仗活动.
-
-MSG02=启动打雪仗活动

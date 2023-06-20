@@ -1,7 +1,0 @@
-;;18Flag_Bichon-0.txt
-[@main]
-#SAY
-	#INCLUDE [../Convert_Def/Market_Def/18Flag_Bichon-0.txt] @NPC_Main
-
-[@TestUserFlag]
-#CALL [\CastleWar\Flag.txt] @ChangeFlagShape

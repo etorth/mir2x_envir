@@ -1,3 +1,0 @@
-;;24PR-02.txt
-[@main]
-#CALL [PR\PR.txt] @NPC_Main

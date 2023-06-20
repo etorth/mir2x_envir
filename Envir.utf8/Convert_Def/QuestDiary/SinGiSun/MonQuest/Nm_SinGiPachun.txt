@@ -1,5 +1,0 @@
-;;Nm_SinGiPachun.txt
-[@NPC_Main]
-{
-（得到了雕像。。。去找霸王幽灵吧。。）\\
-}

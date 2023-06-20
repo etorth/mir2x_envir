@@ -1,6 +1,0 @@
-;;18ShooterMarket_Sabuk-3.txt
-[@NPC_Buy]
-{
-这里是卖攻城时专用武器的子弹的地方。。\ \
-<前一步/@main>
-}

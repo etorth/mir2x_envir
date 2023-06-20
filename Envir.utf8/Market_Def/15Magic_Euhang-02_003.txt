@@ -1,3 +1,0 @@
-;;15Magic_Euhang-02_003.txt
-[@main]
-#CALL [\MU_wizard\fireStorm.txt] @mugong_firewind_test

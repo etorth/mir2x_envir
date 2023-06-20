@@ -1,5 +1,0 @@
-;;14Quest_ZombieCave-E402_001.txt
-[@NPC_Main_Else]
-{
-（。。。。。）\
-}

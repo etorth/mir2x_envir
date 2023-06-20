@@ -1,7 +1,0 @@
-[Convert]
-Msg0 = 开始
-Msg1 = 星期二
-Msg2 = 星期三
-Msg3 = 星期四
-Msg4 = 星期五
-Msg5 = 星期六

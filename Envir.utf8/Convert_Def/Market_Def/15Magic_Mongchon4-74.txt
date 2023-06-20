@@ -1,6 +1,0 @@
-;;15Magic_Mongchon4-74.txt
-[@NPC_RedPlayer]
-{
-(....................)\ \
-<关闭/@exit>
-}

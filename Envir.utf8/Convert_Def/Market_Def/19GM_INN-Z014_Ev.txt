@@ -1,3 +1,0 @@
-;;19GM_INN-Z014_Ev.txt
-[LIneMSG]
-MSG01=活动终止了。

@@ -1,3 +1,0 @@
-;;;;;;;;;;;;;;;;;;;
-[@main]
-#CALL [Sell\ConsignmentMarket.txt] @UserMT

@@ -1,5 +1,0 @@
-;;Na_JiSun.txt
-[@Na_JiSun_1]
-{
-(门锁着呢)\
-}

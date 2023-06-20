@@ -1,8 +1,0 @@
-;;SnowMan.txt
-[@main]
-#IF
-#ACT
-	LoadValue A0 "GM_Def\Event\SnowBattle\SnowBattle.txt" [Snow] [Name]
-	LoadValue P0 "GM_Def\Event\SnowBattle\SnowBattle.txt" [Snow] [Amount]
-Give %A0 %P0
-

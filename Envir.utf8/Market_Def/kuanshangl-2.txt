@@ -1,3 +1,0 @@
-;;;;;;;;;;;;;;;;;;;
-[@main]
-#CALL [CastleWar\占领矿山.txt] @SnakeVallyWar

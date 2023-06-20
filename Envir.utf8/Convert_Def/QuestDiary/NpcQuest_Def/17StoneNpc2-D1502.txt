@@ -1,8 +1,0 @@
-[Convert]
-
-[@Convert_17StoneNpc2-D1502_0]
-{
-（形状奇特的雕像……）
-
-
-}

@@ -1,4 +1,0 @@
-[Convert]
-Msg0 = Initial Server Variable
-Msg1 = Initial Server Variable
-Msg2 =  <诺玛突击队长> 勇敢的诺玛兄弟们, 去抓人类的头领吧! 听说他们的头领已经有妙计能够找到，我们梦寐以求都想得到的大魔神血杯。所以要尽快抓到他们的头领找到大魔神血杯，让我们的诺玛教主高兴高兴!

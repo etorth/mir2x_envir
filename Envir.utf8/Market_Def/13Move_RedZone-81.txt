@@ -1,3 +1,0 @@
-;;13Move_RedZone-81.txt
-[@main]
-#CALL [teleport\YubaeTele.txt] @RedZone_Teleport

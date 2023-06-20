@@ -1,3 +1,0 @@
-;;13Move_SnakeVally2-2.txt
-[@main]
-#CALL [teleport\SnakeVallyTele.txt] @SnakeVally_Teleport_North

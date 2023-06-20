@@ -24,6 +24,10 @@ do
     mv ${srcpath}.utf8 ${srcpath}
 
     dos2unix -q ${srcpath}
+
     sed -i 's/[[:space:]]\+$//' ${srcpath}
-    sed -i '/#INCLUDE/{s/\\/\//g;s/\.\.\/Convert_Def/Convert_Def/g}' ${srcpath}
+    sed -i 's/\<MU_Total_sell\>/MU_Total_Sell/g' ${srcpath}
+
+    sed -i '/#CALL/{s/\\/\//g;s/#CALL  *\[/#CALL \[QuestDiary\//g;s/\/\//\//g}' ${srcpath}
+    sed -i '/#INCLUDE/{s/\\/\//g;s/\.\.\/Convert_Def/Convert_Def/g;s/\/\//\//g}' ${srcpath}
 done

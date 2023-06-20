@@ -1,5 +1,0 @@
-;;lightRecall1.txt
-[@lightRecall1_1]
-{
-(嘿，终于通过了学习雷电术的测试。。。)\
-}

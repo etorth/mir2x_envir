@@ -1,0 +1,31 @@
+;;VanyaTele.txt
+[@HalfNight_Contry]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/VanyaTele.txt] @VanyaTele_1
+
+#ELSEACT
+mapmove 81 125 274                                    ;; 弧盎捞 捞悼
+break
+
+[@TelePortRootin()]
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; 捞悼 风凭
+}
+
+;-------------------------------------------------------------------------------
+[@HalfNight_Cave]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Teleport/VanyaTele.txt] @VanyaTele_2
+
+#ELSEACT
+mapmove 81 125 274                                    ;; 弧盎捞 捞悼
+break
+
+[@TelePortRootin()]
+#CALL [Teleport\MoveRootin.txt] @TelePortMove         ;; 捞悼 风凭
+}

@@ -1,0 +1,1009 @@
+;;不要删掉此行
+[@MadoHaveStep_1]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_1_1
+break
+#ELSEACT
+break
+
+[@MadoHaveStep_1_1]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MadoHaveStep_1_1_0]
+
+[@MadoHaveStep_1_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 11
+Equal D2 8
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_5_9_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 7
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_5_8_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 6
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_5_7_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 5
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_5_6_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 4
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_4_5_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 3
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_4_4_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 2
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_3_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_2_Ok
+break
+
+#IF
+Equal D1 11
+Equal D2 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_1_Ok
+break
+
+
+#IF
+Equal D1 9
+large D2 6
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_4_7_Ok
+break
+
+#IF
+Equal D1 9
+Equal D2 5
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_4_6_Ok
+break
+
+#IF
+Equal D1 9
+Equal D2 4
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_4_5_Ok
+break
+
+#IF
+Equal D1 9
+Equal D2 3
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_4_4_Ok
+break
+
+#IF
+Equal D1 9
+Equal D2 2
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_3_Ok
+break
+
+#IF
+Equal D1 9
+Equal D2 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_2_Ok
+break
+
+#IF
+Equal D1 9
+Equal D2 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_1_Ok
+break
+
+#IF
+Equal D1 6
+Equal D2 3
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_4_Ok
+break
+
+#IF
+Equal D1 6
+Equal D2 2
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_3_Ok
+break
+
+#IF
+Equal D1 6
+Equal D2 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_2_Ok
+break
+
+
+#IF
+Equal D1 6
+Equal D2 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_3_1_Ok
+break
+
+
+#IF
+Equal D1 5
+Equal D2 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_2_1_Ok
+break
+
+
+#IF
+Equal D1 5
+Equal D2 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_2_Ok
+break
+
+#IF
+Equal D1 3
+Equal D2 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_1_Ok
+break
+
+
+#IF
+#ACT
+break
+
+[@MadoHaveStep_1_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=3"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
+set [208] 0
+give 青空石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_0
+
+#ELSEACT
+break
+
+
+[@MadoHaveStep_2_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=5"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
+give 青空石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_1
+
+#ELSEACT
+break
+
+[@MadoHaveStep_2_1_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=5"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
+set [208] 0
+give 大地石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_2
+
+#ELSEACT
+break
+
+
+[@MadoHaveStep_3_1_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
+give 青空石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_3
+
+#ELSEACT
+break
+
+
+[@MadoHaveStep_3_2_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
+give 大地石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_4
+
+#ELSEACT
+break
+
+[@MadoHaveStep_3_3_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=3"
+give 太阳石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_5
+
+#ELSEACT
+break
+
+
+[@MadoHaveStep_3_4_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
+set [208] 0
+give 月光石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_6
+
+#ELSEACT
+break
+
+[@MadoHaveStep_4_4_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
+give 月光石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_7
+
+#ELSEACT
+break
+
+
+[@MadoHaveStep_4_5_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
+give 安息石 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_8
+
+#ELSEACT
+break
+
+[@MadoHaveStep_4_6_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+!checkhum D16063 1
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
+set [208] 0
+give 受胎石 1
+map D16063
+DelayGoto [Grobal] 5 @MadoHaveStep_4_Event
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_9
+
+#ELSEACT
+break
+
+[@MadoHaveStep_4_Event]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_10
+
+[@MadoHaveStep_4_7_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+map D16063
+DelayGoto [Grobal] 5 @MadoHaveStep_4_Event
+break
+#ELSEACT
+break
+
+
+[@MadoHaveStep_5_6_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
+give 受胎石 1
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_11
+
+#ELSEACT
+break
+
+[@MadoHaveStep_5_7_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
+set [208] 0
+give 活石 1
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_12
+
+#ELSEACT
+break
+
+[@MadoHaveStep_5_8_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+!checkhum D16063 1
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
+set [208] 0
+give 心石 1
+map D16063
+DelayGoto [Grobal] 5 @MadoHaveStep_5_Event
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_13
+
+#ELSEACT
+break
+
+
+[@MadoHaveStep_5_Event]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_14
+
+[@MadoHaveStep_5_9_Ok]
+#ACT
+movr D9 10
+inc D9 1
+#IF
+Equal D9 4
+#ACT
+map D16063
+DelayGoto [Grobal] 5 @MadoHaveStep_5_Event
+break
+#ELSEACT
+break
+}
+
+
+
+
+
+[@MadoHaveStep1_1]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep1_1_1
+break
+#ELSEACT
+break
+
+[@MadoHaveStep1_1_1]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MadoHaveStep1_1_0]
+
+[@MadoHaveStep1_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 10
+Equal D2 7
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep2_5_Ok
+break
+
+#IF
+Equal D1 10
+Equal D2 6
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep2_4_Ok
+break
+
+#IF
+Equal D1 10
+Equal D2 5
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep2_3_Ok
+break
+
+#IF
+Equal D1 10
+Equal D2 4
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep2_2_Ok
+break
+
+#IF
+Equal D1 10
+Equal D2 3
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep2_1_Ok
+break
+
+#IF
+Equal D1 8
+Equal D2 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep1_1_Ok
+break
+
+#IF
+#ACT
+break
+
+[@MadoHaveStep1_1_Ok]
+#ACT
+movr D9 30
+inc D9 1
+
+#IF
+small D9 10
+#ACT
+Mov D9 0
+goto @MadoHaveStep1_2_Ok
+break
+#ELSEACT
+break
+
+[@MadoHaveStep1_2_Ok]
+#ACT
+movr D9 15
+inc D9 1
+#IF
+Equal D9 7
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=8"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
+set [208] 0
+give 机关零件 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_15
+
+#ELSEACT
+break
+
+[@MadoHaveStep2_1_Ok]
+#ACT
+movr D9 30
+inc D9 1
+
+#IF
+Equal D9 7
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
+give 机关零件 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_16
+
+#ELSEACT
+break
+
+[@MadoHaveStep2_2_Ok]
+#ACT
+movr D9 30
+inc D9 1
+
+#IF
+Equal D9 7
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
+give 机关零件 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_17
+
+#ELSEACT
+break
+
+[@MadoHaveStep2_3_Ok]
+#ACT
+movr D9 30
+inc D9 1
+
+#IF
+Equal D9 7
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
+give 机关零件 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_18
+
+#ELSEACT
+break
+
+[@MadoHaveStep2_4_Ok]
+#ACT
+movr D9 30
+inc D9 1
+
+#IF
+Equal D9 7
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
+give 机关零件 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_19
+
+#ELSEACT
+break
+
+[@MadoHaveStep2_5_Ok]
+#ACT
+movr D9 30
+inc D9 1
+
+#IF
+Equal D9 7
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=10"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
+set [208] 0
+give 机关零件 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/Mon_MadoHave.txt] @Convert_Mon_MadoHave_20
+
+#ELSEACT
+break
+}
+
+[@MadoHaveDie_1]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep_1_1
+break
+#ELSEACT
+break
+
+[@MadoHaveDie_1_1]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MadoHaveDie_1_1_0]
+
+[@MadoHaveDie_1_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 11
+Equal D2 10
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=11"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
+monclear D16063
+mapting D16063 41 148 84
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg0]
+linemsg "D16063" %A7
+#ELSEACT
+break
+}
+
+[@MadoHaveDie1_1]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveDie1_1_1
+break
+#ELSEACT
+break
+
+[@MadoHaveDie1_1_1]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MadoHaveDie1_1_1_0]
+
+[@MadoHaveDie1_1_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 12
+large D2 1
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
+monclear D16064
+mapting D16064 41 148 84
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg1]
+linemsg "D16064" %A7
+#ELSEACT
+break
+}
+
+[@MadoHaveStep4_1]
+{
+#ACT
+monclear D16064
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg2]
+Eventmsg "D16064" %A7 2000
+Delaygoto [Grobal] 12 @YungSa_Event_9
+
+[@YungSa_Event_9]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg3]
+Eventmsg "D16064" %A7 2000
+Delaygoto [Grobal] 12 @YungSa_Event_10
+
+[@YungSa_Event_10]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg4]
+Eventmsg "D16064" %A7 2000
+Delaygoto [Grobal] 12 @YungSa_Event_11
+
+[@YungSa_Event_11]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg5]
+Eventmsg "D16064" %A7 2000
+Delaygoto [Grobal] 12 @YungSa_Event_12
+
+[@YungSa_Event_12]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg6]
+Eventmsg "D16064" %A7 2000
+Delaygoto [Grobal] 12 @YungSa_Event_13
+
+[@YungSa_Event_13]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg7]
+Eventmsg "D16064" %A7 2000
+Delaygoto [Grobal] 12 @YungSa_Event_14
+
+[@YungSa_Event_14]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg8]
+Eventmsg "D16064" %A7 2000
+Delaygoto [Grobal] 12 @YungSa_Event_15
+
+[@YungSa_Event_15]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg9]
+Eventmsg "D16064" %A7 2000
+monclear D16064
+Delaygoto [Grobal] 12 @YungSa_Event_16
+
+[@YungSa_Event_16]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg10]
+Eventmsg "D16064" %A7 %D8
+set [208] 0
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
+}
+
+[@MadoHaveStep5_1]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep5_2
+break
+#ELSEACT
+break
+
+[@MadoHaveStep5_2]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MadoHaveStep5_2_0]
+
+[@MadoHaveStep5_2_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 13
+Equal D2 3
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep5_3
+goto @MadoHaveEvent5_3
+break
+
+
+[@MadoHaveEvent5_3]
+#CALL [HonChondo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@MadoHaveStep5_3]
+
+#ACT
+set [208] 0
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=4"
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg11]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_4
+
+[@MadoHaveStep5_4]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg12]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_5
+
+[@MadoHaveStep5_5]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg13]
+Eventmsg grobal %A7 %D8
+Delaygoto [Grobal] 12 @MadoHaveStep5_6
+
+[@MadoHaveStep5_6]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg14]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_7
+
+[@MadoHaveStep5_7]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg15]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_8
+
+[@MadoHaveStep5_8]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg16]
+Eventmsg grobal %A7 %D8
+Delaygoto [Grobal] 12 @MadoHaveStep5_9
+
+[@MadoHaveStep5_9]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg17]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_10
+
+[@MadoHaveStep5_10]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg18]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_10_1
+
+[@MadoHaveStep5_10_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg19]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_11
+
+[@MadoHaveStep5_11]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg20]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_12
+
+[@MadoHaveStep5_12]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg21]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_13
+
+[@MadoHaveStep5_13]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg22]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_14
+
+[@MadoHaveStep5_14]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg23]
+Eventmsg grobal %A7 183
+Delaygoto [Grobal] 12 @MadoHaveStep5_15
+
+[@MadoHaveStep5_15]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg24]
+Eventmsg grobal %A7 183
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=5"
+}
+
+
+[@MadoHaveDie2_1]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveDie2_1_1
+break
+#ELSEACT
+break
+
+[@MadoHaveDie2_1_1]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MadoHaveDie1_1_1_0]
+
+[@MadoHaveDie1_1_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 13
+large D2 2
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
+monclear D1606
+mapting D1606 41 148 84
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\Mon_MadoHave.txt] [Convert] [Msg25]
+linemsg "D1606" %A7
+#ELSEACT
+break
+
+}
+;;不要删掉此行

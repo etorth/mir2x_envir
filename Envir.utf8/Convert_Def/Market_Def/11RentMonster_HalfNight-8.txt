@@ -1,0 +1,6 @@
+;;11RentMonster_HalfNight-8.txt
+[@NPC_RedPlayer]
+{
+跟你这种人我无话可说。\ \
+<结束/@exit>
+}

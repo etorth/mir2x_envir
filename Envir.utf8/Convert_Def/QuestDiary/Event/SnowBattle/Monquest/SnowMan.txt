@@ -1,0 +1,6 @@
+;;SnowMan.txt
+[@main]
+#IF
+#ACT
+give 传耽捞 1
+

@@ -1,0 +1,14 @@
+;;不要删掉此行
+[@main]
+#ACT
+goto @NumaStone2Quest_open
+break
+
+
+
+[@NumaStone2Quest_open]
+#CALL [NpcQuest_Def\17StoneNpc2-D1502.txt] @NPCQuest_Check
+
+[@everythingreward]
+#CALL [System\TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

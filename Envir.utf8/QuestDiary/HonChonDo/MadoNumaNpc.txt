@@ -1,0 +1,633 @@
+;;不要删掉此行
+[@MadoTimeQuestNumaNpc_A]
+{
+#IF
+DAYOFWEEK FRI
+#ACT
+goto @MadoTimeQuestnumanpcfridayA
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_A_no
+break
+
+[@MadoTimeQuestnumanpcfridayA]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoSaHaQuesttuesdayA_0]
+
+[@MadoSaHaQuesttuesdayA_0()]
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 4
+#ACT
+goto @MadoSaHaQuest4tuesdayA_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_A_no
+break
+
+
+[@MadoSaHaQuest4tuesdayA_1]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoSaHaQuest4tuesdayA_0]
+
+[@MadoSaHaQuest4tuesdayA_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D4 %ARG(3)
+
+#IF
+Equal D2 5
+Equal D3 3
+Equal D4 1
+#ACT
+goto @MadoTimeQuestnumanpcfriday_A_6
+break
+
+
+#IF
+Equal D2 5
+Equal D3 2
+Equal D4 1
+#ACT
+goto @MadoTimeQuestnumanpcfriday_A_4
+break
+
+#IF
+Equal D2 5
+Equal D3 1
+Equal D4 1
+Checkitem 尸骨项链 1
+#ACT
+goto @MadoTimeQuestnumanpcfriday_A_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_A_no
+break
+
+
+[@MadoTimeQuestnumanpcfriday_A_1]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_0
+
+[@MadoTimeQuestnumanpcfriday_A_2]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_1
+
+[@MadoTimeQuestnumanpcfriday_A_3]
+#IF
+Checkitem 尸骨项链 1
+#ACT
+take 尸骨项链 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_2
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_3
+
+#ELSEACT
+break
+
+[@MadoTimeQuestnumanpcfriday_A_4]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_4
+
+[@MadoTimeQuestnumanpcfriday_A_5]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_5
+
+[@MadoTimeQuestnumanpcfriday_A_6]
+#IF
+Checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_6
+
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_7
+
+[@MadoTimeQuestnumanpcfriday_A_7]
+#IF
+Checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_8
+
+#ACT
+take 击退护身符 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+Movenpc "D16031,61,355,阿龙怪1" npcroom1 9 7
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_9
+
+[@MadoTimeQuestnumanpcfriday_A_no]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_10
+
+}
+
+[@MadoTimeQuestNumaNpc_B]
+{
+#IF
+DAYOFWEEK FRI
+#ACT
+goto @MadoTimeQuestnumanpcfridayB
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_B_no
+break
+
+[@MadoTimeQuestnumanpcfridayB]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoSaHaQuesttuesdayB_0]
+
+[@MadoSaHaQuesttuesdayB_0()]
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 4
+#ACT
+goto @MadoSaHaQuest4tuesdayB_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_B_no
+break
+
+
+[@MadoSaHaQuest4tuesdayB_1]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoSaHaQuest4tuesdayB_0]
+
+[@MadoSaHaQuest4tuesdayB_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D4 %ARG(3)
+
+#IF
+Equal D2 5
+Equal D3 3
+Equal D4 2
+#ACT
+goto @MadoTimeQuestnumanpcfriday_B_6
+break
+
+
+#IF
+Equal D2 5
+Equal D3 2
+Equal D4 2
+#ACT
+goto @MadoTimeQuestnumanpcfriday_B_4
+break
+
+#IF
+Equal D2 5
+Equal D3 1
+Equal D4 2
+Checkitem 尸骨项链 1
+#ACT
+goto @MadoTimeQuestnumanpcfriday_B_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_B_no
+break
+
+
+[@MadoTimeQuestnumanpcfriday_B_1]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_11
+
+[@MadoTimeQuestnumanpcfriday_B_2]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_12
+
+[@MadoTimeQuestnumanpcfriday_B_3]
+#IF
+Checkitem 尸骨项链 1
+#ACT
+take 尸骨项链 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_13
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_14
+
+#ELSEACT
+break
+
+[@MadoTimeQuestnumanpcfriday_B_4]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_15
+
+[@MadoTimeQuestnumanpcfriday_B_5]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_16
+
+[@MadoTimeQuestnumanpcfriday_B_6]
+#IF
+checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_17
+
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_18
+
+[@MadoTimeQuestnumanpcfriday_B_7]
+#IF
+checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_19
+
+#ACT
+take 击退护身符 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+Movenpc "D16032,374,372,阿龙怪2" npcroom1 9 8
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_20
+
+[@MadoTimeQuestnumanpcfriday_B_no]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_21
+
+}
+
+[@MadoTimeQuestNumaNpc_C]
+{
+#IF
+DAYOFWEEK FRI
+#ACT
+goto @MadoTimeQuestnumanpcfridayC
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_C_no
+break
+
+[@MadoTimeQuestnumanpcfridayC]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoTimeQuestnumanpcfridayC_0]
+
+[@MadoTimeQuestnumanpcfridayC_0()]
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 4
+#ACT
+goto @MadoSaHaQuest4tuesdayC_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_C_no
+break
+
+
+[@MadoSaHaQuest4tuesdayC_1]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoSaHaQuest4tuesdayC_0]
+
+[@MadoSaHaQuest4tuesdayC_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D4 %ARG(3)
+
+
+#IF
+Equal D2 5
+Equal D3 3
+Equal D4 3
+#ACT
+goto @MadoTimeQuestnumanpcfriday_C_6
+break
+
+
+#IF
+Equal D2 5
+Equal D3 2
+Equal D4 3
+#ACT
+goto @MadoTimeQuestnumanpcfriday_C_4
+break
+
+#IF
+Equal D2 5
+Equal D3 1
+Equal D4 3
+Checkitem 尸骨项链 1
+#ACT
+goto @MadoTimeQuestnumanpcfriday_C_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_C_no
+break
+
+
+[@MadoTimeQuestnumanpcfriday_C_1]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_22
+
+[@MadoTimeQuestnumanpcfriday_C_2]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_23
+
+[@MadoTimeQuestnumanpcfriday_C_3]
+#IF
+Checkitem 尸骨项链 1
+#ACT
+take 尸骨项链 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_24
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_25
+
+#ELSEACT
+break
+
+[@MadoTimeQuestnumanpcfriday_C_4]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_26
+
+[@MadoTimeQuestnumanpcfriday_C_5]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_27
+
+[@MadoTimeQuestnumanpcfriday_C_6]
+#IF
+checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_28
+
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_29
+
+[@MadoTimeQuestnumanpcfriday_C_7]
+#IF
+checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_30
+
+#ACT
+take 击退护身符 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+Movenpc "D16033,369,47,阿龙怪3" npcroom1 9 9
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_31
+
+[@MadoTimeQuestnumanpcfriday_C_no]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_32
+
+}
+
+[@MadoTimeQuestNumaNpc_D]
+{
+#IF
+DAYOFWEEK FRI
+#ACT
+goto @MadoTimeQuestnumanpcfridayD
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_D_no
+break
+
+[@MadoTimeQuestnumanpcfridayD]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoTimeQuestnumanpcfridayD_0]
+
+[@MadoSaHaQuesttuesdayD_0()]
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 4
+#ACT
+goto @MadoSaHaQuest4tuesdayD_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_D_no
+break
+
+
+[@MadoSaHaQuest4tuesdayD_1]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoSaHaQuest4tuesdayD_0]
+
+[@MadoSaHaQuest4tuesdayD_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D4 %ARG(3)
+
+
+#IF
+Equal D2 5
+Equal D3 3
+Equal D4 4
+#ACT
+goto @MadoTimeQuestnumanpcfriday_D_6
+break
+
+
+#IF
+Equal D2 5
+Equal D3 2
+Equal D4 4
+#ACT
+goto @MadoTimeQuestnumanpcfriday_D_4
+break
+
+#IF
+Equal D2 5
+Equal D3 1
+Equal D4 4
+Checkitem 尸骨项链 1
+#ACT
+goto @MadoTimeQuestnumanpcfriday_D_1
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestnumanpcfriday_D_no
+break
+
+
+[@MadoTimeQuestnumanpcfriday_D_1]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_33
+
+[@MadoTimeQuestnumanpcfriday_D_2]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_34
+
+[@MadoTimeQuestnumanpcfriday_D_3]
+#IF
+Checkitem 尸骨项链 1
+#ACT
+take 尸骨项链 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=2"
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_35
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_36
+
+#ELSEACT
+break
+
+[@MadoTimeQuestnumanpcfriday_D_4]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_37
+
+[@MadoTimeQuestnumanpcfriday_D_5]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_38
+
+[@MadoTimeQuestnumanpcfriday_D_6]
+#IF
+checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_39
+
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_40
+
+[@MadoTimeQuestnumanpcfriday_D_7]
+#IF
+checkitem 击退护身符 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_41
+
+#ACT
+take 击退护身符 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=6"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+Movenpc "D16034,30,31,阿龙怪4" npcroom1 9 10
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_42
+
+[@MadoTimeQuestnumanpcfriday_D_no]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonDo/MadoNumaNpc.txt] @Convert_MadoNumaNpc_43
+
+}
+;;不要删掉此行

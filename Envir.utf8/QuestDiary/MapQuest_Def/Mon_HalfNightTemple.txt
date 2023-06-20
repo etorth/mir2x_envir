@@ -1,0 +1,16 @@
+;;不要删掉此行
+
+[@Main]
+#IF
+random 120
+#ACT
+Param1 D1111
+Param2 98
+Param3 125
+MonGen 潘夜牛魔王  1 1
+SysMsg  " <$USERNAME> 打败了潘夜神殿护卫，潘夜牛魔王出现在潘夜神殿4层(98:125)"
+#SAY
+（{FCOLOR/14} <$USERNAME> {FCOLOR/12}看来你实力不容小觑啊！能打败我的手下，我要惩罚一下你们擅闯潘夜神殿的人类了！）\
+
+
+;;不要删掉此行

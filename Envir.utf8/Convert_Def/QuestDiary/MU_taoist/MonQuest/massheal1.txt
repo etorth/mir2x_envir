@@ -1,0 +1,5 @@
+;;massheal1.txt
+[@massheal1_1]
+{
+(几乎都处理哟...) \
+}

@@ -1,0 +1,176 @@
+;;不要删掉此行
+[@MacroBlock]
+#IF
+Equal A8 "TRUE"
+#ACT
+enter_ok
+Mov A8 ""
+#ELSEACT
+Movr D0 50
+Inc D0 1
+Mov A8 ""
+FormatStr "FLD_IDX=%s" %D0
+ReadStringSQL "TBL_MacroCheck" %A9 "FLD_QUESTION" @MacroBlockMainRootin_Next
+
+[@MacroBlockMainRootin_Next]
+#ACT
+Mov A0 %ARG(1)
+FormatStr "FLD_IDX=%s" %D0
+ReadValueSQL "TBL_MacroCheck" %A9 "FLD_ANSWER" @MacroBlockMainRootin_Next_Answer
+
+[@MacroBlockMainRootin_Next_Answer()]
+#ACT
+Mov A1 %ARG(1)
+Movr D1 6
+Inc D1 1
+
+Mov D2 1
+Mul D2 D1
+Mov D2 %P9
+Mov P8 7
+Mod D2 P8
+Mov D2 %P9
+FormatStr "FLD_MENU%s," %D2
+Addstr A8 %A9
+
+Mov D2 2
+Mul D2 D1
+Mov D2 %P9
+Mov P8 7
+Mod D2 P8
+Mov D2 %P9
+FormatStr "FLD_MENU%s," %D2
+Addstr A8 %A9
+
+Mov D2 3
+Mul D2 D1
+Mov D2 %P9
+Mov P8 7
+Mod D2 P8
+Mov D2 %P9
+FormatStr "FLD_MENU%s," %D2
+Addstr A8 %A9
+
+Mov D2 4
+Mul D2 D1
+Mov D2 %P9
+Mov P8 7
+Mod D2 P8
+Mov D2 %P9
+FormatStr "FLD_MENU%s," %D2
+Addstr A8 %A9
+
+Mov D2 5
+Mul D2 D1
+Mov D2 %P9
+Mov P8 7
+Mod D2 P8
+Mov D2 %P9
+FormatStr "FLD_MENU%s," %D2
+Addstr A8 %A9
+
+Mov D2 6
+Mul D2 D1
+Mov D2 %P9
+Mov P8 7
+Mod D2 P8
+Mov D2 %P9
+FormatStr "FLD_MENU%s" %D2
+Addstr A8 %A9
+
+FormatStr "FLD_IDX=%s" %D0
+ReadValueSQL "TBL_MacroCheck" %A9 %A8 @MacroBlockMainRootin_Result
+
+
+[@MacroBlockMainRootin_Result()]
+#ACT
+Mov A2 %ARG(1)
+Mov A3 %ARG(2)
+Mov A4 %ARG(3)
+Mov A5 %ARG(4)
+Mov A6 %ARG(5)
+Mov A9 %ARG(6)
+goto @MacroBlockMainRootin_Result1
+
+[@MacroBlockMainRootin_Result1]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_0
+
+[@MacroBlockMainRootin_Result2()]
+#IF
+Mov D3 %ARG(1)
+
+#IF
+Equal D3 1
+Equal A1 %A2
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_1
+
+#ACT
+Mov A8 "TRUE"
+break
+
+#IF
+Equal D3 2
+Equal A1 %A3
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_2
+
+#ACT
+Mov A8 "TRUE"
+break
+
+#IF
+Equal D3 3
+Equal A1 %A4
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_3
+
+#ACT
+Mov A8 "TRUE"
+break
+
+#IF
+Equal D3 4
+Equal A1 %A5
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_4
+
+#ACT
+Mov A8 "TRUE"
+break
+
+#IF
+Equal D3 5
+Equal A1 %A6
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_5
+
+#ACT
+Mov A8 "TRUE"
+break
+
+#IF
+Equal D3 6
+Equal A1 %A9
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_6
+
+#ACT
+Mov A8 "TRUE"
+break
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/System/MacroCheck.txt] @Convert_MacroCheck_7
+
+#ELSEACT
+Map 3
+;;不要删掉此行

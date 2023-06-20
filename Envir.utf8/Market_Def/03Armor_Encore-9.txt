@@ -1,0 +1,47 @@
+;;03Armor_Encore-9.txt
+%100
++10
++11
+;
++15
+
+
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_RedPlayer
+
+#ELSEACT
+goto @main_0_0
+
+
+[@main_0_0]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Main_0_0
+
+[@buy]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Buy
+
+[@sell]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Sell
+
+[@repair]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Repair
+
+[~@repair]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Encore-9.txt] @NPC_Repair_Complete
+
+[Goods]
+;ItemName      Volume     Hour
+道士头盔         50         1
+战神盔甲（男）   50         1
+战神盔甲（女）   50         1
+幽灵战衣（男）   50         1
+幽灵战衣（女）   50         1
+恶魔长袍（男）   50         1
+恶魔长袍（女）   50         1

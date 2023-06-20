@@ -1,0 +1,155 @@
+;;03Armor_Oasis-4_004.txt
+%100
+;armor
++10
++11
+;helmet
++15
+
+
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_RedPlayer
+#ELSEACT
+goto @main_0_0
+
+
+[@main_0_0]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_Main_0_0
+
+[@buy]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_Buy
+
+[@sell]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_Sell
+
+[@repair]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_Repair
+
+[~@repair]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_Repair_Complete
+
+[Goods]
+;ItemName      Volume     Hour
+;;幸运青铜头盔     50         1
+重盔甲（男）     50         1
+重盔甲（女）     50         1
+灵魂战衣（男）   50         1
+灵魂战衣（女）   50         1
+魔法长袍（男）   50         1
+魔法长袍（女）   50         1
+
+
+[@TQuest]
+#IF
+CheckDailyQuest 420
+#ACT
+goto @TQuest3_0
+break
+;
+#IF
+CheckDailyQuest 338
+#ACT
+goto @TQuest2_0
+break
+;
+#IF
+CheckDailyQuest 228
+#ACT
+goto @TQuest1_0
+break
+;
+#ELSESAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_TQuest
+
+;------------------------
+
+[@TQuest1_0]
+#IF
+check [310] 1
+#ACT
+goto @TQuest1_6
+break
+;
+#IF
+check [307] 1
+#ACT
+goto @TQuest1_2
+break
+;
+#ELSEACT
+goto @TQuest1_1
+
+;--------------
+
+[@TQuest1_1]
+#CALL [\QT_TODAY\2ndClass.txt] @228_START
+
+[@TQuest1_2]
+#CALL [\QT_TODAY\2ndClass.txt] @228_CHECK1
+
+;--------------
+
+[@TQuest1_6]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/03Armor_Oasis-4_004.txt] @NPC_TQuest_1
+
+;------------------------
+
+[@TQuest2_0]
+#IF
+check [310] 1
+#ACT
+goto @TQuest1_6
+break
+;
+#IF
+check [307] 1
+#ACT
+goto @TQuest2_2
+break
+;
+#ELSEACT
+goto @TQuest2_1
+
+;--------------
+
+[@TQuest2_1]
+#CALL [\QT_TODAY\3rdClass.txt] @338_START
+
+[@TQuest2_2]
+#CALL [\QT_TODAY\3rdClass.txt] @338_CHECK1
+
+;------------------------
+
+[@TQuest3_0]
+#IF
+check [310] 1
+#ACT
+goto @TQuest1_6
+break
+;
+#IF
+check [307] 1
+#ACT
+goto @TQuest3_2
+break
+;
+#ELSEACT
+goto @TQuest3_1
+
+;--------------
+
+[@TQuest3_1]
+#CALL [\QT_TODAY\4thClass.txt] @420_START
+
+[@TQuest3_2]
+#CALL [\QT_TODAY\4thClass.txt] @420_CHECK1
+;-------------------------------------------------------------------------------

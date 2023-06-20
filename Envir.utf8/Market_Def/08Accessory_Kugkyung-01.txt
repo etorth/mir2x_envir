@@ -1,0 +1,117 @@
+;;08Accessory_Kugkyung-01.txt
+%100
++20
++19
++21
++22
++23
++24
++26
+
+[@main]
+;;------------------------------------------------------------------------------
+;;------------------------------------------------------------------------------
+;; Background Dialog Block
+;;------------------------------------------------------------------------------
+#IF
+#ACT
+goto @main_root
+
+
+;;------------------------------------------------------------------------------
+;;------------------------------------------------------------------------------
+;; Quest Separate Block
+;;------------------------------------------------------------------------------
+
+[@main_root]
+#IF
+checkpkpoint 2
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_RedPlayer
+#ELSEACT
+goto @main_0_0
+
+
+;;------------------------------------------------------------------------------
+;;------------------------------------------------------------------------------
+;; Npc Menu Block
+;;------------------------------------------------------------------------------
+
+[@main_0_0]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Main
+
+;----------------------------------------------------------
+
+[@buy]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Buy
+
+[@sell]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Sell
+
+[@repair]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Repair
+
+[~@repair]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_Repair_Complete
+
+[Goods]
+;ItemName      Volume     Hour
+古铜戒指        100        1
+黑色水晶戒指    100        1
+骷髅戒指        100        1
+;;武士手镯        100        1
+小手镯          100        1
+黑色水晶项链    100        1
+魔鬼项链        100        1
+;;钻石项链        100        1
+蓝翡翠项链      100        1
+
+
+;;------------------------------------------------------------------------------
+;;------------------------------------------------------------------------------
+;; Area Quest Block
+;;------------------------------------------------------------------------------
+
+;;------------------------------------------------------------------------------
+;;------------------------------------------------------------------------------
+;; Daily Quest Block
+;;------------------------------------------------------------------------------
+
+[@TQuest]
+#IF
+CheckDailyQuest 574
+#ACT
+goto @TQuest574_0
+break
+;
+#ELSESAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_TQuest
+
+;------------------------
+
+[@TQuest574_0]
+#IF
+check [310] 1
+#ACT
+goto @TQuest1_6
+break
+;
+#ELSEACT
+goto @TQuest574_1
+
+;--------------
+
+[@TQuest574_1]
+;;;;#CALL [\QT_TODAY\5thClass.txt] @574_START
+
+;--------------
+[@TQuest1_6]
+#SAY
+	#INCLUDE [../Convert_Def/Market_Def/08Accessory_Kugkyung-01.txt] @NPC_TQuest_1
+
+;--------------

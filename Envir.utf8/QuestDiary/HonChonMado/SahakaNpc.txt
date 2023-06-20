@@ -1,0 +1,219 @@
+;;不要删掉此行
+[@SahakaNpcNpc_Call]
+{
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOHAVEUSER" [@SahakaNpcNpc_Call_0]
+
+[@SahakaNpcNpc_Call_0()]
+#IF
+#ACT
+mov A9 %ARG(1)
+
+#IF
+Equal A9 ""
+Checkitemw 寂幻之刃 1
+checkitem 大族长角笛 1
+checkitem 万里碧海 1
+checkitem 九宫云雾 1
+checkitem 血花落照 1
+checkitem 黑天暗云 1
+#ACT
+FormatStr "'%s',%s,%s," %USERNAME 1 0
+mov A8 %A9
+FormatStr "%s" 0
+AddStr A8 %A9
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+WriteValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOHAVEUSER,FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" %A8
+set [207] 1
+set [208] 0
+goto @TalkSahakaNpc
+break
+
+#IF
+Checkitemw 寂幻之刃 1
+!Equal A9 ""
+#ACT
+goto @SahakaNpcNpc_Call_ok
+break
+
+#IF
+!Checkitemw 寂幻之刃 1
+!Equal A9 ""
+#ACT
+goto @TalkSahakaNpc
+break
+
+#IF
+Checkitemw 寂幻之刃 1
+!checkitem 大族长角笛 1
+!checkitem 万里碧海 1
+!checkitem 九宫云雾 1
+!checkitem 血花落照 1
+!checkitem 黑天暗云 1
+#ACT
+goto @SahakaNpcNpc_CallNormal
+break
+
+#IF
+#ACT
+goto @SahakaNpcNpc_CallNormal
+break
+
+
+[@SahakaNpcNpc_Call_ok]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@MadoNpc_Call_0]
+
+[@MadoNpc_Call_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Checkitemw 寂幻之刃 1
+large D1 2
+#ACT
+goto @TalkSahakaNpc2_7
+break
+
+#IF
+Checkitemw 寂幻之刃 1
+Equal D1 2
+Equal D2 2
+#ACT
+goto @TalkSahakaNpc2_6
+break
+
+#IF
+Checkitemw 寂幻之刃 1
+Equal D1 2
+Equal D2 1
+#ACT
+goto @TalkSahakaNpc2_1
+break
+
+
+#IF
+Checkitemw 寂幻之刃 1
+Equal D1 2
+Equal D2 0
+#ACT
+goto @TalkSahakaNpc2
+break
+
+#IF
+!Checkitemw 寂幻之刃 1
+Equal D1 2
+Equal D2 0
+#ACT
+goto @TalkSahakaNpc
+break
+
+#IF
+Checkitemw 寂幻之刃 1
+Equal D1 1
+Equal D2 0
+#ACT
+goto @TalkSahakaNpc
+break
+
+#IF
+!Checkitemw 寂幻之刃 1
+Equal D1 1
+Equal D2 0
+#ACT
+goto @TalkSahakaNpc
+break
+
+
+#IF
+#ACT
+goto @SahakaNpcNpc_CallNormal
+break
+
+[@TalkSahakaNpc]
+#IF
+Checkitemw 寂幻之刃 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_0
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_1
+
+[@SahakaNpcNpc_CallNormal]
+#IF
+Checkitemw 寂幻之刃 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_2
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_3
+
+[@TalkSahakaNpc2]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_4
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=2"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
+
+
+[@TalkSahakaNpc2_1]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_5
+
+[@TalkSahakaNpc2_2]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_6
+
+[@TalkSahakaNpc2_3]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_7
+
+[@TalkSahakaNpc2_4]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_8
+
+[@TalkSahakaNpc2_5]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_9
+
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=2"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
+
+[@TalkSahakaNpc2_6]
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_10
+
+[@TalkSahakaNpc2_7]
+#IF
+Checkitemw 寂幻之刃 1
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_11
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/HonChonMado/SahakaNpc.txt] @Convert_SahakaNpc_12
+
+}
+;;不要删掉此行

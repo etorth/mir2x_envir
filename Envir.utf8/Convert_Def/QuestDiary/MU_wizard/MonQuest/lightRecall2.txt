@@ -1,0 +1,6 @@
+;;lightRecall2.txt
+[@lightRecall2_1]
+{
+哦。。。（这家伙，在瞎说。好像出现了什么失误。。）\
+}
+

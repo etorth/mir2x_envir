@@ -1,0 +1,41 @@
+;;不要删掉此行
+[@main]
+#IF
+Check [209] 1
+Check [210] 1
+Check [409] 0
+#ACT
+Mov A8 "诺玛突击队长"
+goto @TodayQuest_TQCase1
+#ELSEACT
+goto @main_Except
+
+[@main_Except]
+#IF
+#ACT
+Mov A0 %USERMAP
+
+#IF
+Equal A0 "D1903"
+#ACT
+goto @Samak_Mon13
+break
+
+#IF
+Equal A0 "4"
+#ACT
+goto @Taosung_Mon
+break
+
+#ELSEACT
+break
+
+[@Samak_Mon13]
+#CALL [SamakCastleQuest\Monster.txt] @Samak_Mon13_0
+
+[@TodayQuest_TQCase1]
+#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NuMadolguk
+
+[@Taosung_Mon]
+#CALL [System\TaosungCastle\TaosungNumaWar.txt] @TosungCastle_VillageAttack_Numa
+;;不要删掉此行

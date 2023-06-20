@@ -1,0 +1,132 @@
+;;------------------------aragom
+[@GuildEventSystemTimeControl]
+{
+#ACT
+ClearDelaygoto 1004
+TimeCall 21 00 @GuildEventSystemTime
+
+[@GuildEventSystemTime]
+#ACT
+MapTing E001 5 195 207
+ChangeMapAttr "E001" "TEAMFIGHT"
+UpdateValueSQL "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_SnakeVally1POINT=1000,FLD_SnakeVally2POINT=1000,FLD_WINSnakeVally=''"
+ReadValueSQL "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_SnakeVallyNAME1,FLD_SnakeVallyNAME2" @GuildEventSystemTime_TeamCheck
+
+[@GuildEventSystemTime_TeamCheck()]
+#ACT
+Mov A0 %ARG(1)
+Mov A1 %ARG(2)
+
+#IF
+Equal A1 ""
+#ACT
+break
+#ELSEACT
+LineMsg [Grobal] "'<$OUTPUT(A0)>' 行会和 '<$OUTPUT(A1)>' 行会抢夺矿山大战开始了。"
+UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_GATECONTROL='OpenGate'"
+Delaygoto [Grobal] 2400 @GuildEventSystemTime_Startting 1004
+
+
+[@GuildEventSystemTime_Startting]
+#ACT
+LineMsg [Grobal] "不能再参加抢夺矿山大战。"
+UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_GATECONTROL='CloseGate'"
+Delaygoto [Grobal] 1200 @GuildEventSystemTime_Actting 1004
+
+
+[@GuildEventSystemTime_Actting]
+#ACT
+Mov D3 0
+Mov D4 0
+Mov P9 0
+
+#IF
+CheckTeamCount 1 "E602" 0
+#ACT
+Mov D3 %P9
+goto @GuildEventSystemTime_Actting_1
+break
+#ELSEACT
+goto @GuildEventSystemTime_Actting_1
+break
+
+
+[@GuildEventSystemTime_Actting_1]
+#ACT
+Mov P9 0
+
+#IF
+CheckTeamCount 2 "E602" 0
+#ACT
+Mov D4 %P9
+goto @GuildEventSystemTime_Actting_2
+#ELSEACT
+goto @GuildEventSystemTime_Actting_2
+break
+
+[@GuildEventSystemTime_Actting_2]
+#ACT
+ReadValueSQL "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_SnakeVallyNAME1,FLD_SnakeVally1POINT,FLD_SnakeVallyNAME2,FLD_SnakeVally2POINT" @GuildEventSystemTime_Result
+
+[@GuildEventSystemTime_Result()]
+#ACT
+Mov A0 %ARG(1)
+Mov D0 %ARG(2)
+Mov A1 %ARG(3)
+Mov D1 %ARG(4)
+
+
+goto @GuildEventSystemTime_Result_1
+break
+
+[@GuildEventSystemTime_Result_1]
+#IF
+!Equal D3 0
+#ACT
+inc D0 %D3
+
+#IF
+!Equal D4 0
+#ACT
+inc D1 %D4
+
+#IF
+Equal D0 %D1
+#ACT
+LineMsg [Grobal] "抢夺矿山大战结束时已经将各行会剩下的会员数加入了分值里。"
+LineMsg [Grobal] "'<$OUTPUT(A0)>'的行会和'<$OUTPUT(A1)>'行会的分数一样。"
+LineMsg [Grobal] "结果由管理员发表。"
+MapTing E001 5 195 207
+
+Delaygoto [Grobal] 300 @GuildEventSystemTime_Clear 1004
+break
+
+#IF
+Large D0 %D1
+#ACT
+LineMsg [Grobal] "抢夺矿山大战结束时已经将各行会剩下的会员数加入了分值里。"
+LineMsg [Grobal] "'<$OUTPUT(A0)>'的行会以'<$OUTPUT(D0)>'分胜利了。"
+LineMsg [Grobal] "在抢夺矿山大战中防御方胜利了。"
+UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_SnakeVallyNAME2='',FLD_WINSnakeVally=''"
+MapTing E001 5 195 207
+Delaygoto [Grobal] 30 @GuildEventSystemTime_Clear 1004
+break
+
+#IF
+Large D1 %D0
+#ACT
+LineMsg [Grobal] "抢夺矿山大战结束时已经将各行会剩下的会员数加入了分值里。"
+LineMsg [Grobal] "'<$OUTPUT(A1)>'的行会以'<$OUTPUT(D1)>'分胜利了。"
+LineMsg [Grobal] "胜利的行会掌门人到矿山管理员那里接收矿山。"
+LineMsg [Grobal] "1小时之内不能占领矿山的话，就不能占领矿山。"
+FormatSTR "FLD_SnakeVallyNAME2='',FLD_WINSnakeVally='%s'" %A1
+UpdateValueSql "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" %A9
+MapTing E001 5 195 207
+Delaygoto [Grobal] 3600 @GuildEventSystemTime_Clear 1004
+
+break
+
+[@GuildEventSystemTime_Clear]
+#ACT
+UpdateValueSQL "TBL_SnakeVallyWar" "FLD_SnakeVallyWARTITLE='SnakeVally'" "FLD_SnakeVally1POINT=1000,FLD_SnakeVally2POINT=1000,FLD_WINSnakeVally=''"
+}

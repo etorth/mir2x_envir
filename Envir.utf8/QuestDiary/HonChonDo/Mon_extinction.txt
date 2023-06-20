@@ -1,0 +1,860 @@
+;;不要删掉此行
+
+
+[@mainstep0_1]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep0_1_0]
+
+[@honchondostep0_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+set [206] 0
+goto @honchondostep0_1_1
+goto @madojobcheckstep0_1
+Give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+
+#IF
+Equal d1 1
+Equal d2 2
+Equal d3 1
+#ACT
+goto @madojobcheckstep0_1
+goto @honchondostep0_1_1
+
+break
+
+#IF
+#ACT
+break
+
+[@madojobcheckstep0_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep0_1_1]
+
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_1
+}
+
+
+[@mainstep0_2]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep0_2_0]
+
+[@honchondostep0_2_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+set [206] 0
+goto @honchondostep0_2_1
+goto @madojobcheckstep0_2
+Give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+
+#IF
+Equal d1 1
+Equal d2 2
+Equal d3 1
+#ACT
+goto @madojobcheckstep0_1
+goto @honchondostep0_2_1
+break
+
+#IF
+#ACT
+break
+
+[@madojobcheckstep0_2]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep0_2_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_2
+}
+
+
+
+
+[@mainstep0_3]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep0_3_0]
+
+[@honchondostep0_3_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+set [206] 0
+goto @honchondostep0_3_1
+goto @madojobcheckstep0_3
+Give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+
+#IF
+Equal d1 1
+Equal d2 2
+Equal d3 1
+#ACT
+goto @madojobcheckstep0_1
+goto @honchondostep0_3_1
+break
+
+#IF
+#ACT
+break
+
+[@madojobcheckstep0_3]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep0_3_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_3
+}
+
+
+
+[@mainstep0_4]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep0_4_0]
+
+[@honchondostep0_4_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+set [206] 0
+goto @honchondostep0_4_1
+goto @madojobcheckstep0_4
+Give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+
+
+#IF
+Equal d1 1
+Equal d2 2
+Equal d3 1
+#ACT
+goto @madojobcheckstep0_1
+goto @honchondostep0_4_1
+break
+
+#IF
+#ACT
+break
+
+[@madojobcheckstep0_4]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep0_4_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep0_4
+}
+
+
+
+[@mainstep1_1]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep1_1_0]
+
+[@honchondostep1_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+goto @honchondostep1_1_1
+break
+
+#IF
+#ACT
+break
+
+[@honchondostep1_1_1]
+#ACT
+movr D9 5
+inc D9 1
+#IF
+Equal D9 3
+#ACT
+set [206] 0
+give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+#ELSEACT
+break
+}
+
+[@mainstep1_2]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep1_2_0]
+
+[@honchondostep1_2_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+goto @honchondostep1_2_1
+break
+
+#IF
+#ACT
+break
+
+[@honchondostep1_2_1]
+#ACT
+movr D9 5
+inc D9 1
+#IF
+Equal D9 3
+#ACT
+set [206] 0
+give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+#ELSEACT
+break
+}
+
+[@mainstep1_3]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep1_3_0]
+
+[@honchondostep1_3_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+goto @honchondostep1_3_1
+break
+
+#IF
+#ACT
+break
+
+[@honchondostep1_3_1]
+#ACT
+movr D9 5
+inc D9 1
+#IF
+Equal D9 3
+#ACT
+set [206] 0
+give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+#ELSEACT
+break
+}
+
+[@mainstep1_4]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep1_4_0]
+
+[@honchondostep1_4_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal d1 1
+Equal d2 1
+Equal d3 0
+#ACT
+goto @honchondostep1_4_1
+break
+
+#IF
+#ACT
+break
+
+[@honchondostep1_4_1]
+#ACT
+movr D9 5
+inc D9 1
+#IF
+Equal D9 3
+#ACT
+set [206] 0
+give 藏宝箱 1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+#ELSEACT
+break
+}
+
+[@mainstep2_1]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep2_1_0]
+
+[@honchondostep2_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 2
+Equal D2 1
+Equal D3 1
+#ACT
+movr D9 5
+inc D9 1
+goto @honchondostep2_1_1
+break
+
+#ELSEACT
+break
+[@honchondostep2_1_1]
+#IF
+Equal D9 3
+#ACT
+goto @honchondostep2_1_2
+break
+#ELSEACT
+break
+
+[@honchondostep2_1_2]
+#IF
+checkmonmap D1604 1 ???
+#ACT
+break
+#ELSEACT
+mov A1 %USERX
+mov A2 %USERY
+ForMatStr "D1604,%s,%s,5" %A1 %A2
+Mongenp %A9 阿龙怪 1
+
+ForMatStr "D1604,%s,%s,10" %A1 %A2
+ApplyMonEx %A9 阿龙怪 [Monsterside] "???"
+Mongenp %A9 诺玛装甲兵 20
+LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg0]
+Eventmsg "D1604" %A7 2000
+break
+}
+
+
+[@mainstep2_2]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep2_2_0]
+
+[@honchondostep2_2_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 2
+Equal D2 1
+Equal D3 1
+#ACT
+set [206] 0
+give 尸骨项链 1
+goto @honchondostep2_2_1
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=3"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+break
+#ELSEACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg1]
+Eventmsg "D1604" %A7 2000
+break
+
+[@honchondostep2_2_1]
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg2]
+Eventmsg "D1604" %A7 2000
+break
+}
+
+
+[@mainstep3_1]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep3_1_0]
+
+[@honchondostep3_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 3
+Equal D2 2
+Equal D3 0
+#ACT
+goto @honchondostep3_1_1
+goto @madojobcheckstep3_1
+break
+#ELSEACT
+break
+
+[@madojobcheckstep3_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep3_1_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_1
+}
+
+[@mainstep3_2]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep3_2_0]
+
+[@honchondostep3_2_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 3
+Equal D2 2
+Equal D3 0
+#ACT
+goto @honchondostep3_2_1
+goto @madojobcheckstep3_2
+break
+#ELSEACT
+break
+
+[@madojobcheckstep3_2]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep3_2_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_2
+}
+
+[@mainstep3_3]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep3_3_0]
+
+[@honchondostep3_3_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 3
+Equal D2 2
+Equal D3 0
+#ACT
+goto @honchondostep3_3_1
+goto @madojobcheckstep3_3
+break
+#ELSEACT
+break
+
+[@madojobcheckstep3_3]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep3_3_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_3
+}
+
+[@mainstep3_4]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep3_4_0]
+
+[@honchondostep3_4_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 3
+Equal D2 2
+Equal D3 0
+#ACT
+goto @honchondostep3_4_1
+goto @madojobcheckstep3_4
+break
+#ELSEACT
+break
+
+[@madojobcheckstep3_4]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @madojobcheckEvent
+
+[@honchondostep3_4_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainMsgstep3_4
+
+}
+
+[@mainstep4_1]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep4_1_0]
+
+[@honchondostep4_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+#IF
+Equal D1 4
+Equal D2 5
+Equal D3 0
+#ACT
+monclear D16031 阿龙怪
+monclear D16031 诺玛斧兵队
+
+
+Movenpc "npcroom1,9,7,阿龙怪1" D16031 61 355
+set [206] 0
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+
+#ELSEACT
+break
+}
+[@mainstep4_2]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep4_2_0]
+
+[@honchondostep4_2_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+#IF
+Equal D1 4
+Equal D2 5
+Equal D3 0
+#ACT
+monclear D16032 阿龙怪
+monclear D16032 诺玛斧兵队
+
+
+Movenpc "npcroom1,9,8,阿龙怪2" D16032 374 372
+set [206] 0
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+#ELSEACT
+break
+}
+
+[@mainstep4_3]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep4_3_0]
+
+[@honchondostep4_3_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+#IF
+Equal D1 4
+Equal D2 5
+Equal D3 0
+#ACT
+monclear D16033 阿龙怪
+monclear D16033 诺玛斧兵队
+
+
+Movenpc "npcroom1,9,9,阿龙怪3" D16033 369 47
+set [206] 0
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+#ELSEACT
+break
+}
+[@mainstep4_4]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep4_4_0]
+
+[@honchondostep4_4_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+#IF
+Equal D1 4
+Equal D2 5
+Equal D3 0
+#ACT
+monclear D16034 阿龙怪
+monclear D16034 诺玛斧兵队
+
+
+Movenpc "npcroom1,9,10,阿龙怪4" D16034 30 31
+set [206] 0
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+#ELSEACT
+break
+}
+
+[@mainstep5]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep5_0]
+
+[@honchondostep5_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 5
+Equal D2 2
+Equal D3 1
+#ACT
+MonClear D1604 阿龙怪
+MonClear D1604 诺玛斧兵
+goto @honchondostep5_1
+break
+#ELSEACT
+break
+
+[@honchondostep5_1]
+#CALL [HonChonDo\extinctionQuestEvent.txt] @mainstep5_2
+}
+
+
+
+[@mainstep6]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep6_0]
+
+[@honchondostep6_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+#IF
+Equal D1 6
+Equal D2 1
+Equal D3 0
+!Checkmonmap D16061 1 毁灭之印大师
+#ACT
+set [206] 0
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+#ELSEACT
+break
+}
+
+[@mainstep6_1]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep6_1_0]
+
+[@honchondostep6_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+#IF
+Equal D1 6
+Equal D2 2
+Equal D3 0
+!Checkmonmap D16061 1 诺玛斧兵队
+#ACT
+monclear D16061
+set [206] 0
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+break
+#ELSEACT
+break
+}
+
+[@honchondostep_user]
+{
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@honchondostep_user_0]
+
+[@honchondostep_user_0()]
+#IF
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 6
+Equal D2 1
+Equal D3 0
+#ACT
+goto @honchondostep_user_1
+break
+
+#IF
+Equal D1 6
+Equal D2 1
+Equal D3 1
+#ACT
+goto @honchondostep_user_1
+break
+
+#IF
+Equal D1 6
+Equal D2 2
+Equal D3 0
+#ACT
+goto @honchondostep_user_1
+break
+
+#IF
+Equal D1 6
+Equal D2 2
+Equal D3 1
+#ACT
+goto @honchondostep_user_1
+break
+
+#IF
+#ACT
+break
+
+[@honchondostep_user_1]
+#ACT
+monclear D16061
+LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg3]
+Eventmsg "D16061" %A7
+Mapting D16061 41 148 84
+
+}
+;;不要删掉此行

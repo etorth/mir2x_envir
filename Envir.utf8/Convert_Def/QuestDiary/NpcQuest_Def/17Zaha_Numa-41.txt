@@ -1,0 +1,49 @@
+[Convert]
+
+[@Convert_17Zaha_Numa-41_0]
+{
+_灾难即将来临，可人类只顾眼前的利益互相争斗。这该怎么办才好？\ \
+
+}
+
+[@Convert_17Zaha_Numa-41_1]
+{
+<跟紫霞神女进行对话。/@MadoTimeQuestfridayjaha> \
+
+}
+
+[@Convert_17Zaha_Numa-41_2]
+{
+<关于无名书进行对话。/@mainzaha_Talk1>\
+
+}
+
+[@Convert_17Zaha_Numa-41_3]
+{
+<关于今日任务进行对话。/@CALL_Npc_TodayQuest> \
+
+
+
+}
+
+[@Convert_17Zaha_Numa-41_4]
+{
+灾难即将来临，可人类只顾眼前的利益互相争斗。这该怎么办才好？\ \
+<关 闭/@Exit>
+
+
+}
+
+[@Convert_17Zaha_Numa-41_5]
+{
+_灾难即将来临，可人类只顾眼前的利益互相争斗。这该怎么办才好？\\
+<关 闭/@EXIT>
+
+}
+
+[@Convert_17Zaha_Numa-41_6]
+{
+_灾难即将来临，可人类只顾眼前的利益互相争斗。这该怎么办才好？\\
+<关 闭/@EXIT>
+
+}

@@ -1,0 +1,65 @@
+;;Nm_OmaJunsa.txt
+[@main]
+;-----------------------------------------------------
+;-----------------------------------------------------
+#IF
+check [185] 1
+#ACT
+break
+
+#IF
+check [184] 1
+#ACT
+goto @omajunsa1
+
+;--------------------------------------------------------
+
+[@omajunsa1]
+#IF
+large S1 5
+#ACT
+goto @omajunsa9
+#ELSEACT
+goto @omajunsa2
+
+;---------------------------------------------------
+
+[@omajunsa2]
+#IF
+large S1 3
+#ACT
+goto @omajunsa5
+#ELSEACT
+goto @omajunsa3
+
+[@omajunsa3]
+#IF
+large S1 1
+#ACT
+goto @omajunsa4
+#ELSEACT
+mov S1 2
+goto @omajunsa4
+
+[@omajunsa4]
+#IF
+#ACT
+inc S1 1
+
+[@omajunsa5]
+#IF
+random 2
+#ACT
+inc S1 1
+
+;-----------------------------------------------------
+
+[@omajunsa9]
+#IF
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/NQ_BASE/MonQuest/Nm_OmaJunsa.txt] @Nm_OmaJunsa_1
+
+#ACT
+give 角笛 1
+set [185] 1
+mov S1 0

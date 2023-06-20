@@ -1,0 +1,29 @@
+;;;;;;;;;;;;;;;;;;;;;;
+[30]
+Reward_Race_90 = 金币
+Reward_Amount_90 = 200000
+
+Reward_Race_10 = 祝福油
+Reward_Amount_10 = 1
+
+[40]
+Reward_Race_90 = 金币
+Reward_Amount_90 = 500000
+
+Reward_Race_10 = 祝福油
+Reward_Amount_10 = 3
+
+[50]
+Reward_Race_90 = 金币
+Reward_Amount_90 = 2000000
+
+Reward_Race_10 = 封魔石
+Reward_Amount_10 = 2
+
+[60]
+Reward_Race_90 = 金币
+Reward_Amount_90 = 10000000
+
+Reward_Race_10 = 游戏点卷
+Reward_Amount_10 = 1
+

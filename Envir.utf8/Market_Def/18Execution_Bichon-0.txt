@@ -1,0 +1,3 @@
+;;18Execution_Bichon-0.txt
+[@main]
+#CALL [\CastleWar\Execution.txt] @Castle_Execution

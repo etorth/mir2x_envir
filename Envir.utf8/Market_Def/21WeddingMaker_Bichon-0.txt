@@ -1,0 +1,3 @@
+;;21WeddingMaker_Bichon-0.txt
+[@main]
+#CALL [\Marriage\Marriage.txt] @Marrage

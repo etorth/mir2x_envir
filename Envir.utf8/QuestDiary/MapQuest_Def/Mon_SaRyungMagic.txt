@@ -1,0 +1,20 @@
+;;不要删掉此行
+
+[@Main]
+#ACT
+Mov A0 %USERMAP
+
+#IF
+Equal A0 "D1604"
+check [205] 1
+check [206] 1
+#ACT
+goto @mainstep2_1_0
+
+#IF
+#ACT
+break
+
+[@mainstep2_1_0]
+#CALL [HonChonDo\Mon_extinction.txt] @mainstep2_1
+;;不要删掉此行

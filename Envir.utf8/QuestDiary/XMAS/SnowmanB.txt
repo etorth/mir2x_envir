@@ -1,0 +1,7 @@
+;;SnowmanB.txt
+[@SnowsayB]
+{
+#SAY
+圣诞快乐! Merry Christmas! 愿你过一个快乐的节日.....\ \
+<结束/@exit>
+}

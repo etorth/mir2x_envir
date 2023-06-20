@@ -1,0 +1,85 @@
+;;Dm_NangIn.txt
+[@main]
+;		老老 涅胶飘 眉农
+#IF
+CheckDailyQuest 483
+#ACT
+goto @Nang_T483
+break
+;
+#ELSEACT
+break
+
+;-----------------------------------------------------
+;-----------------------------------------------------
+;#### 档包 甘 锅龋 1                 ############
+;#### 扯牢蓖                           ############
+;-----------------------------------------------------
+
+;-----------------------------------------------------
+[@Nang_T483]
+;		老老 涅胶飘 483 锅
+#IF
+check [310] 1
+#ACT
+break
+
+#IF
+check [309] 1
+#ACT
+break
+
+#IF
+check [308] 1
+#ACT
+break
+
+#IF
+check [307] 1
+#ACT
+goto @Nang_T483_1
+break
+
+#ELSEACT
+break
+
+;--------------------------------------
+
+[@Nang_T483_1]
+;--------------- 扯牢蓖 墨款飘 何 ----------------------
+;--------------- 扯牢蓖 20 付府掳 磷阑锭 ----------------
+#IF
+large s0 100
+#ACT
+goto @Nang_T483_5
+#ELSEACT
+goto @Nang_T483_2
+;-----------------
+
+[@Nang_T483_2]
+#IF
+large s0 2
+#ACT
+goto @Nang_T483_3
+#ELSEACT
+mov s0 2
+goto @Nang_T483_3
+
+;-----------------
+
+[@Nang_T483_3]
+#IF
+#ACT
+inc s0 1
+
+;-----------------------------------
+
+[@Nang_T483_5]
+#IF
+#ACT
+set [308] 1
+mov s0 0
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T483_Say
+
+

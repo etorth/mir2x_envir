@@ -1,0 +1,1361 @@
+;;不要删掉此行
+[@Samak_MapD1902_0]
+{
+#IF
+Equal D1 2
+Equal D2 1
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 2
+Equal D2 2
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 2
+Equal D2 3
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 2
+Equal D2 4
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 2
+Equal D2 5
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 2
+Equal D2 6
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 2
+Equal D2 8
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 2
+Equal D2 10
+#ACT
+Enter_Fail
+break
+
+#ELSEACT
+Enter_Ok
+
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapD1902_Read]
+
+[@Samak_MapD1902_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 2
+Equal D2 1
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_0
+
+#IF
+Equal D1 2
+Equal D2 2
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_1
+
+#IF
+Equal D1 2
+Equal D2 3
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_2
+
+#IF
+Equal D1 2
+Equal D2 4
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_3
+
+#IF
+Equal D1 2
+Equal D2 5
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_4
+
+#IF
+Equal D1 2
+Equal D2 6
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_5
+
+#IF
+Equal D1 2
+Equal D2 8
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_6
+
+#IF
+Equal D1 2
+Equal D2 10
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_7
+
+#ELSEACT
+Enter_Ok
+
+}
+
+[@Samak_MapDQ1902_001_0]
+{
+#IF
+IsGuildMaster
+Equal D1 3
+Equal D2 5
+#ACT
+Enter_Ok
+MonClear DQ1902_001
+goto @Samak_MapDQ1902_001_Event
+break
+
+#IF
+!IsGuildMaster
+Equal D1 3
+Equal D2 5
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 3
+Equal D2 6
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 3
+Equal D2 7
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 3
+Equal D2 8
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 3
+Equal D2 9
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 3
+Equal D2 10
+#ACT
+Enter_Ok
+break
+
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapDQ1902_001_Read]
+
+[@Samak_MapDQ1902_001_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 3
+Equal D2 5
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_8
+
+#IF
+Equal D1 3
+Equal D2 6
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_9
+
+#IF
+Equal D1 3
+Equal D2 7
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_10
+
+#IF
+Equal D1 3
+Equal D2 8
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_11
+
+#IF
+Equal D1 3
+Equal D2 9
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_12
+
+#IF
+Equal D1 3
+Equal D2 10
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_13
+
+#ELSEACT
+Enter_Fail
+
+[@Samak_MapDQ1902_001_Event]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg0]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_1
+
+[@Samak_MapDQ1902_001_Event_1]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg1]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_2
+
+[@Samak_MapDQ1902_001_Event_2]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg2]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_3
+
+[@Samak_MapDQ1902_001_Event_3]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg3]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_4
+
+[@Samak_MapDQ1902_001_Event_4]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg4]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_5
+
+[@Samak_MapDQ1902_001_Event_5]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg5]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
+Delaygoto [Grobal] 3600 @Samak_MapDQ1902_001_TimeOut
+Delaygoto [Grobal] 100 @Samak_MapDQ1902_001_Mongen
+break
+
+[@Samak_MapDQ1902_001_Mongen]
+#IF
+CheckHum DQ1902_001 1
+!CheckMonMap DQ1902_001 50
+#ACT
+MongenP "DQ1902_001,40,40,30" 潘夜火魔 10
+MongenP "DQ1902_001,40,40,30" 潘夜冰魔 10
+MongenP "DQ1902_001,40,40,30" 潘夜云魔 10
+MongenP "DQ1902_001,40,40,30" 潘夜风魔 10
+MongenP "DQ1902_001,40,40,30" 潘夜战士 10
+MongenP "DQ1902_001,40,40,30" 潘夜左护卫 10
+MongenP "DQ1902_001,40,40,30" 潘夜右护卫 10
+Delaygoto [Grobal] 420 @Samak_MapDQ1902_001_Mongen
+break
+
+#ELSEACT
+Delaygoto [Grobal] 420 @Samak_MapDQ1902_001_Mongen
+break
+
+[@Samak_MapDQ1902_001_TimeOut]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapDQ1902_001_TimeOut_Read]
+
+[@Samak_MapDQ1902_001_TimeOut_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 3
+Equal D2 5
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg6]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005" %A7
+MapTing D1901 5 252 103
+MapTing D1902 5 252 103
+MapTing DQ1902_001 5 252 103
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='3',FLD_SAMAKSTATUSRDY='12'"
+break
+
+#ELSEACT
+break
+
+}
+
+[@Samak_MapDQ1902_002_0]
+{
+#IF
+Equal D1 5
+Equal D2 5
+IsGuildMaster
+#ACT
+MonClear DQ1902_002
+goto @Samak_MapDQ1902_002_1
+Enter_Ok
+break
+
+#IF
+Equal D1 5
+Equal D2 5
+!IsGuildMaster
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 5
+Equal D2 2
+isGuildMaster
+#ACT
+Enter_Fail
+goto @Samak_MapDQ1902_002_EventSpell
+MapMove DQ1902_006 25 56
+goto @Samak_MapDQ1902_002_Event
+break
+
+
+#IF
+Equal D1 5
+Equal D2 2
+!isGuildMaster
+#ACT
+Enter_Fail
+MapMove DQ1902_006 25 56
+break
+
+#IF
+Equal D1 5
+Equal D2 3
+CheckHum DQ1902_006 1
+#ACT
+Enter_Fail
+MapMove DQ1902_006 25 56
+break
+
+#IF
+Equal D1 5
+Equal D2 3
+!CheckHum DQ1902_006 1
+!IsGuildMaster
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 5
+Equal D2 3
+!CheckHum DQ1902_006 1
+IsGuildMaster
+#ACT
+Enter_Fail
+MonClear DQ1902_006
+MapMove DQ1902_006 25 56
+break
+
+
+#IF
+Equal D1 5
+Equal D2 4
+IsGuildMaster
+#ACT
+Enter_Fail
+MapMove DQ1902_007 25 56
+break
+
+#IF
+Equal D1 5
+Equal D2 4
+!IsGuildMaster
+#ACT
+Enter_Fail
+MapMove DQ1902_007 25 56
+break
+
+#ELSEACT
+Enter_Fail
+
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapDQ1902_002_Read]
+
+[@Samak_MapDQ1902_002_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 5
+Equal D2 5
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_14
+
+#IF
+Equal D1 5
+Equal D2 2
+isGuildMaster
+#ACT
+Enter_Fail
+goto @Samak_MapDQ1902_002_EventSpell
+MapMove DQ1902_006 25 56
+goto @Samak_MapDQ1902_002_Event
+break
+
+#IF
+Equal D1 5
+Equal D2 2
+!isGuildMaster
+#ACT
+Enter_Fail
+MapMove DQ1902_006 25 56
+break
+
+#IF
+Equal D1 5
+Equal D2 3
+CheckHum DQ1902_006 1
+#ACT
+Enter_Fail
+MapMove DQ1902_006 25 56
+break
+
+#IF
+Equal D1 5
+Equal D2 3
+!CheckHum DQ1902_006 1
+!IsGuildMaster
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 5
+Equal D2 3
+!CheckHum DQ1902_006 1
+IsGuildMaster
+#ACT
+Enter_Fail
+MonClear DQ1902_006
+MapMove DQ1902_006 25 56
+break
+
+#IF
+Equal D1 5
+Equal D2 4
+#ACT
+Enter_Fail
+MapMove DQ1902_007 25 56
+break
+
+#ELSEACT
+Enter_Fail
+
+[@Samak_MapDQ1902_002_1]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg7]
+EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
+goto @Samak_MapDQ1902_002_1_Mongen
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_2
+
+[@Samak_MapDQ1902_002_2]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg8]
+EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_3
+
+[@Samak_MapDQ1902_002_3]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg9]
+EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_4
+
+[@Samak_MapDQ1902_002_4]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg10]
+EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
+
+[@Samak_MapDQ1902_002_1_Mongen]
+#IF
+!CheckMonMap DQ1902_002 3 疯狂魔神盗
+checkhum DQ1902_002 1
+#ACT
+MongenP "DQ1902_002,40,40,30" 疯狂魔神盗 10 "Noitem"
+Delaygoto [Grobal] 600 @Samak_MapDQ1902_002_1_Mongen
+
+#ELSEACT
+Delaygoto [Grobal] 600 @Samak_MapDQ1902_002_1_Mongen
+
+[@Samak_MapDQ1902_002_Event]
+#IF
+#ACT
+MonClear DQ1902_006
+MonClear DQ1902_007
+MonClear DQ1902_002
+Mapting D1902 DQ1902_006 30 50
+Mapting D1901 DQ1902_006 30 50
+Mapting D1903 DQ1902_006 30 50
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg11]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_1
+
+[@Samak_MapDQ1902_002_Event_1]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg12]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_2
+
+[@Samak_MapDQ1902_002_Event_2]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg13]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_3
+
+[@Samak_MapDQ1902_002_Event_3]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg14]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_4
+
+[@Samak_MapDQ1902_002_Event_4]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg15]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_5
+
+[@Samak_MapDQ1902_002_Event_5]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg16]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_6
+
+[@Samak_MapDQ1902_002_Event_6]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg17]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_7
+
+[@Samak_MapDQ1902_002_Event_7]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg18]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_8
+
+[@Samak_MapDQ1902_002_Event_8]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg19]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_9
+
+[@Samak_MapDQ1902_002_Event_9]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg20]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_10
+
+[@Samak_MapDQ1902_002_Event_10]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg21]
+EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='5',FLD_SAMAKSTATUSRDY='3'"
+
+[@Samak_MapDQ1902_002_EventSpell]
+#IF
+CheckHum DQ1902_006 1
+#ACT
+MonPWR "DQ1902_006" "盔甲蚂蚁,爆毒蚂蚁" [AC] 20
+MonPWR "DQ1902_006" "盔甲蚂蚁,爆毒蚂蚁" [MAC] 25
+MonPWR "DQ1902_006" "盔甲蚂蚁,爆毒蚂蚁" [DC] 20
+MonPWR "DQ1902_006" "盔甲蚂蚁,爆毒蚂蚁" [MC] 20
+MonPWR "DQ1902_006" "盔甲蚂蚁,爆毒蚂蚁" [HP] 150
+
+MapSpell [FireWall] "DQ1902_002,5,5,80,80, +d100, +t10, +r50, +h
+MapSpell [FireWall] "DQ1902_006,5,5,80,80, +d100, +t10, +r50, +h
+MapSpell [FireWall] "DQ1902_007,5,5,80,80, +d100, +t10, +r50, +h
+Delaygoto [Grobal] 11 @Samak_MapDQ1902_002_EventSpell
+
+#ELSEACT
+Delaygoto [Grobal] 60 @Samak_MapDQ1902_002_EventSpell
+
+}
+
+[@Samak_MapD1903_0]
+{
+#IF
+Equal D1 2
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 3
+#ACT
+Enter_Fail
+break
+
+#IF
+Equal D1 4
+Equal D2 1
+IsGuildMaster
+#ACT
+Mov D1 100
+Enter_Ok
+Delaygoto [Grobal] 5 @Samak_MapD1903_NumasInvasion
+break
+
+#IF
+Equal D1 4
+Equal D2 1
+!IsGuildMaster
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 4
+Equal D2 2
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 4
+Equal D2 4
+IsGuildMaster
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 4
+Equal D2 4
+!IsGuildMaster
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 4
+Equal D2 14
+IsGuildMaster
+#ACT
+Enter_Ok
+goto @Samak_NumasInvasion2
+break
+
+#IF
+Equal D1 4
+Equal D2 14
+!IsGuildMaster
+#ACT
+Enter_Ok
+break
+
+#IF
+Equal D1 4
+#ACT
+Enter_Ok
+break
+
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapD1903_Read]
+
+[@Samak_MapD1903_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 2
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_15
+
+#IF
+Equal D1 3
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_16
+
+#IF
+Equal D1 4
+Equal D2 1
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_17
+
+#IF
+Equal D1 4
+Equal D2 2
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_18
+
+#IF
+Equal D1 4
+Equal D2 4
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_19
+
+#IF
+Equal D1 4
+Equal D2 14
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_20
+
+#ELSEACT
+Enter_Ok
+break
+
+[@Samak_NumasInvasion2]
+#IF
+!CheckMonMap D1903 2 诺玛突击队长
+#ACT
+MonClear D1903
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg22]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Grobal] 7 @Samak_NumasInvasion2_1
+
+#ELSEACT
+break
+
+[@Samak_NumasInvasion2_1]
+#IF
+#ACT
+goto @Samak_MapD1903_NumasInvasion_Mob
+goto @Samak_MapD1903_NumasInvasion_Baricate
+goto @Samak_MapD1903_NumasInvasion_BasicGen
+goto @Samak_MapD1903_NumasInvasion_GenPlus
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg23]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Grobal] 7 @Samak_NumasInvasion2_2
+
+[@Samak_NumasInvasion2_2]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg24]
+EventMSG "D1901,D1902,D1903" %A7
+break
+
+[@Samak_MapD1903_NumasInvasion_GenPlus]
+#IF
+CheckHum D1903 1
+!CheckMonMap D1903 300
+#ACT
+MongenP "D1903,150,150,150" 诺玛骑兵 35 "Noitem"
+MongenP "D1903,150,150,150" 诺玛装甲兵 25 "Noitem"
+MongenP "D1903,150,150,150" 诺玛司令 25 "Noitem"
+MongenP "D1903,150,150,150" 诺玛抛石兵 35 "Noitem"
+MongenP "D1903,150,150,150" 诺玛斧兵 25 "Noitem"
+MongenP "D1903,150,150,150" 诺玛突击队长 3 "Noitem"
+Delaygoto [Grobal] 300 @Samak_MapD1903_0
+
+#ELSEACT
+Delaygoto [Grobal] 300 @Samak_MapD1903_0
+
+[@Samak_MapD1903_NumasInvasion]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapD1903_NumasInvasion_Read]
+
+[@Samak_MapD1903_NumasInvasion_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 4
+Equal D2 1
+#ACT
+MapMove D1903 16 109
+goto @Samak_MapD1903_NumasInvasion_Mob
+goto @Samak_MapD1903_NumasInvasion_Baricate
+goto @Samak_MapD1903_NumasInvasion_BasicGen
+goto @Samak_MapD1903_NumasInvasion_SQL
+goto @Samak_MapD1903_NumasInvasion_EventMSG
+MongenP "D1903,18,110,0" 木栅栏2 1
+MongenP "D1903,16,112,0" 木栅栏2 1
+MonPWR "D1903" "木栅栏2" [AC] 255
+MonPWR "D1903" "木栅栏2" [MAC] 255
+MonPWR "D1903" "木栅栏2" [HP] 50000
+
+MongenP "D1903,29,125,0" 诺玛突击队长 1 "Noitem"
+MongenP "D1903,29,125,0" 诺玛突击队长 1 "Noitem"
+MongenP "D1903,29,125,0" 诺玛突击队长 1 "Noitem"
+
+[@Samak_MapD1903_NumasInvasion_Baricate]
+#IF
+#ACT
+MongenP "D1903,188,211,0" 木栅栏4 1
+MongenP "D1903,190,213,0" 木栅栏4 1
+MongenP "D1903,192,215,0" 木栅栏4 1
+MongenP "D1903,194,217,0" 木栅栏4 1
+
+MongenP "D1903,207,233,0" 木栅栏4 1
+MongenP "D1903,209,235,0" 木栅栏4 1
+MongenP "D1903,211,237,0" 木栅栏4 1
+MongenP "D1903,213,239,0" 木栅栏4 1
+MongenP "D1903,215,241,0" 木栅栏4 1
+MongenP "D1903,217,243,0" 木栅栏4 1
+
+MongenP "D1903,167,190,0" 木栅栏3 1
+MongenP "D1903,169,192,0" 木栅栏3 1
+MongenP "D1903,171,194,0" 木栅栏3 1
+MongenP "D1903,173,196,0" 木栅栏3 1
+
+MongenP "D1903,162,194,0" 木栅栏3 1
+MongenP "D1903,164,196,0" 木栅栏3 1
+MongenP "D1903,166,198,0" 木栅栏3 1
+MongenP "D1903,168,200,0" 木栅栏3 1
+MongenP "D1903,170,202,0" 木栅栏3 1
+
+MongenP "D1903,151,206,0" 木栅栏3 1
+MongenP "D1903,153,208,0" 木栅栏3 1
+MongenP "D1903,155,210,0" 木栅栏3 1
+MongenP "D1903,157,212,0" 木栅栏3 1
+
+MongenP "D1903,132,232,0" 木栅栏3 1
+MongenP "D1903,134,234,0" 木栅栏3 1
+MongenP "D1903,136,236,0" 木栅栏3 1
+MongenP "D1903,138,238,0" 木栅栏3 1
+MongenP "D1903,140,240,0" 木栅栏3 1
+
+MongenP "D1903,249,189,0" 木栅栏1 1
+MongenP "D1903,247,191,0" 木栅栏1 1
+MongenP "D1903,245,193,0" 木栅栏1 1
+MongenP "D1903,243,195,0" 木栅栏1 1
+MongenP "D1903,241,197,0" 木栅栏1 1
+MongenP "D1903,239,199,0" 木栅栏1 1
+
+MongenP "D1903,80,125,0" 木栅栏1 1
+MongenP "D1903,78,127,0" 木栅栏1 1
+MongenP "D1903,76,129,0" 木栅栏1 1
+MongenP "D1903,74,131,0" 木栅栏1 1
+
+MongenP "D1903,60,105,0" 木栅栏1 1
+MongenP "D1903,58,107,0" 木栅栏1 1
+MongenP "D1903,56,109,0" 木栅栏1 1
+MongenP "D1903,54,111,0" 木栅栏1 1
+
+MongenP "D1903,59,65,0" 木栅栏1 1
+MongenP "D1903,57,67,0" 木栅栏1 1
+MongenP "D1903,55,69,0" 木栅栏1 1
+
+MongenP "D1903,132,149,0" 木栅栏3 1
+MongenP "D1903,134,151,0" 木栅栏3 1
+MongenP "D1903,136,153,0" 木栅栏3 1
+MongenP "D1903,138,155,0" 木栅栏3 1
+MongenP "D1903,140,157,0" 木栅栏3 1
+
+MongenP "D1903,176,59,0" 木栅栏1 1
+MongenP "D1903,174,61,0" 木栅栏1 1
+MongenP "D1903,172,63,0" 木栅栏1 1
+MongenP "D1903,170,65,0" 木栅栏1 1
+
+[@Samak_MapD1903_NumasInvasion_Mob]
+#IF
+#ACT
+MongenP "D1903,190,209,0" 诺玛抛石兵 1
+MongenP "D1903,192,211,0" 诺玛抛石兵 1
+MongenP "D1903,194,213,0" 诺玛抛石兵 1
+MongenP "D1903,196,215,0" 诺玛抛石兵 1
+
+MongenP "D1903,209,232,0" 诺玛抛石兵 1
+MongenP "D1903,211,234,0" 诺玛抛石兵 1
+MongenP "D1903,213,236,0" 诺玛抛石兵 1
+MongenP "D1903,215,238,0" 诺玛抛石兵 1
+MongenP "D1903,217,240,0" 诺玛抛石兵 1
+
+MongenP "D1903,165,192,0" 诺玛抛石兵 1
+MongenP "D1903,167,194,0" 诺玛抛石兵 1
+MongenP "D1903,169,196,0" 诺玛抛石兵 1
+MongenP "D1903,171,198,0" 诺玛抛石兵 1
+
+MongenP "D1903,162,196,0" 诺玛抛石兵 1
+MongenP "D1903,164,198,0" 诺玛抛石兵 1
+MongenP "D1903,166,200,0" 诺玛抛石兵 1
+MongenP "D1903,168,202,0" 诺玛抛石兵 1
+
+MongenP "D1903,150,208,0" 诺玛抛石兵 1
+MongenP "D1903,152,210,0" 诺玛抛石兵 1
+MongenP "D1903,154,212,0" 诺玛抛石兵 1
+MongenP "D1903,156,214,0" 诺玛抛石兵 1
+
+MongenP "D1903,130,234,0" 诺玛抛石兵 1
+MongenP "D1903,132,236,0" 诺玛抛石兵 1
+MongenP "D1903,134,238,0" 诺玛抛石兵 1
+MongenP "D1903,136,240,0" 诺玛抛石兵 1
+
+MongenP "D1903,241,199,0" 诺玛抛石兵 1
+MongenP "D1903,243,197,0" 诺玛抛石兵 1
+MongenP "D1903,245,195,0" 诺玛抛石兵 1
+MongenP "D1903,247,193,0" 诺玛抛石兵 1
+MongenP "D1903,249,191,0" 诺玛抛石兵 1
+
+MongenP "D1903,201,154,8" 诺玛抛石兵 6
+
+MongenP "D1903,82,127,0" 诺玛抛石兵 1
+MongenP "D1903,80,129,0" 诺玛抛石兵 1
+MongenP "D1903,78,131,0" 诺玛抛石兵 1
+
+MongenP "D1903,56,113,0" 诺玛抛石兵 1
+MongenP "D1903,58,111,0" 诺玛抛石兵 1
+MongenP "D1903,60,109,0" 诺玛抛石兵 1
+MongenP "D1903,62,107,0" 诺玛抛石兵 1
+
+MongenP "D1903,57,71,0" 诺玛抛石兵 1
+MongenP "D1903,59,69,0" 诺玛抛石兵 1
+MongenP "D1903,61,67,0" 诺玛抛石兵 1
+
+MongenP "D1903,129,150,0" 诺玛抛石兵 1
+MongenP "D1903,131,152,0" 诺玛抛石兵 1
+MongenP "D1903,133,154,0" 诺玛抛石兵 1
+MongenP "D1903,135,156,0" 诺玛抛石兵 1
+MongenP "D1903,137,158,0" 诺玛抛石兵 1
+
+MongenP "D1903,178,61,0" 诺玛抛石兵 1
+MongenP "D1903,176,63,0" 诺玛抛石兵 1
+MongenP "D1903,174,65,0" 诺玛抛石兵 1
+MongenP "D1903,172,67,0" 诺玛抛石兵 1
+
+MongenP "D1903,84,146,15" 诺玛法老 20
+
+[@Samak_MapD1903_NumasInvasion_EventMSG]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg25]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_1
+
+[@Samak_MapD1903_NumasInvasion_EventMSG_1]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg26]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_2
+
+[@Samak_MapD1903_NumasInvasion_EventMSG_2]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg27]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_3
+
+[@Samak_MapD1903_NumasInvasion_EventMSG_3]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg28]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_4
+
+[@Samak_MapD1903_NumasInvasion_EventMSG_4]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg29]
+EventMSG "D1901,D1902,D1903" %A7
+
+[@Samak_MapD1903_NumasInvasion_SQL]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='2'"
+
+[@Samak_MapD1903_NumasInvasion_BasicGen]
+#IF
+CheckHum D1903 1
+!CheckMonMap D1903 200
+#ACT
+MongenP "D1903,180,150,150" 诺玛法老 40
+MongenP "D1903,180,150,150" 诺玛 60
+MongenP "D1903,180,150,150" 诺玛将士 40
+Delaygoto [Grobal] 600 @Samak_MapD1903_NumasInvasion_BasicGen
+
+#ELSEACT
+Delaygoto [Grobal] 600 @Samak_MapD1903_NumasInvasion_BasicGen
+
+}
+
+[@Samak_MapDQ1901_002_0]
+{
+#IF
+Equal D1 2
+Equal D2 8
+#ACT
+Enter_Ok
+Delaygoto [Grobal] 30 @Samak_MapDQ1901_002_EnterCheck
+break
+
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapDQ1901_002_Read]
+
+[@Samak_MapDQ1901_002_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 2
+Equal D2 8
+#ACT
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_21
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_22
+
+#ELSEACT
+Enter_Fail
+
+[@Samak_MapDQ1901_002_EnterCheck]
+#IF
+IsCastleGuild TAOSUNG
+IsGuildMaster
+!CheckMonMap DQ1901_002 1 骷髅教主
+#ACT
+MongenP "DQ1901_002,48,35,0" 骷髅教主 1 "noitem,森罗片"
+MongenP "DQ1901_002,40,40,40" 骨鬼将 3 "noitem"
+MongenP "DQ1901_002,40,40,40" 骷髅武将 10 "noitem"
+MongenP "DQ1901_002,40,40,40" 骷髅弓箭手 10 "noitem"
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg30]
+EventMSG "D1901,DQ1901_002" %A7
+break
+
+#IF
+IsCastleGuild TAOSUNG
+#ACT
+MongenP "DQ1901_002,40,40,40" 骨鬼将 1 "noitem"
+MongenP "DQ1901_002,40,40,40" 骷髅武将 10 "noitem"
+MongenP "DQ1901_002,40,40,40" 骷髅弓箭手 10 "noitem"
+break
+
+#ELSEACT
+Enter_Fail
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_23
+
+}
+
+[@Samak_MapDQ1902_001_0]
+{
+#IF
+IsCastleGuild TAOSUNG
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapDQ1902_001_Read]
+#ELSEACT
+break
+
+[@Samak_MapDQ1902_001_Read()]
+#IF
+#ACT
+Mov D1 %ARG(1)
+Mov D2 %ARG(2)
+
+#IF
+Equal D1 3
+Equal D2 5
+!IsGuildMaster
+#ACT
+MapMove DQ1902_001 24 56
+Delaygoto [Grobal] 20 goto @Samak_MapDQ1902_001_Mongen
+break
+
+#IF
+Equal D1 3
+Equal D2 5
+IsGuildMaster
+#ACT
+goto @Samak_MapDQ1902_001_MasterMsg
+Delaygoto [Grobal] 20 goto @Samak_MapDQ1902_001_Mongen
+MapMove DQ1902_001 24 56
+break
+
+#ELSEACT
+Enter_Fail
+break
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_24
+
+[@Samak_MapDQ1902_001_MasterMsg]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg31]
+EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005" %A7
+break
+
+[@Samak_MapDQ1902_001_Mongen]
+#IF
+!CheckMonMap DQ1902_001 50
+#ACT
+MongenP "DQ1902_001,40,40,40" 潘夜战士 10
+MongenP "DQ1902_001,40,40,40" 潘夜火魔 10
+MongenP "DQ1902_001,40,40,40" 潘夜冰魔 10
+MongenP "DQ1902_001,40,40,40" 潘夜云魔 10
+MongenP "DQ1902_001,40,40,40" 潘夜风魔 10
+MongenP "DQ1902_001,40,40,40" 潘夜左护卫 10
+MongenP "DQ1902_001,40,40,40" 潘夜右护卫 10
+Delaygoto [Grobal] 120 @Samak_MapDQ1902_001_Mongen
+
+}
+
+[@Samak_MapDQ1903_001_0]
+{
+#IF
+Equal A1 "Complete"
+#ACT
+Enter_Fail
+break
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_25
+
+#IF
+Equal A1 "Ready"
+Equal D1 4
+Equal D2 15
+#ACT
+enter_Ok
+goto @Map_DQ1903_001_Event
+break
+
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+ReadValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKCONDITION,FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@Samak_MapDQ1903_001_Read]
+#ELSEACT
+break
+
+[@Samak_MapDQ1903_001_Read()]
+#IF
+#ACT
+Mov A1 %ARG(1)
+Mov D1 %ARG(2)
+Mov D2 %ARG(3)
+
+#IF
+Equal A1 "Ready"
+Equal D1 4
+Equal D2 15
+
+#SAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_26
+
+#ACT
+break
+
+#IF
+Equal D1 4
+Equal D2 14
+#ACT
+MonClear D1903
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg32]
+EventMSG "D1901,D1902,D1903" %A7
+Delaygoto [Grobal] 7 @Samak_MapDQ1903_001_EventMSG
+FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
+UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='15'"
+Enter_Fail
+break
+
+
+#ELSESAY
+#INCLUDE [../Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] @Convert_Map_27
+
+[@Samak_MapDQ1903_001_EventMSG]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg33]
+EventMSG "D1901,D1902,D1903" %A7
+break
+
+[@Map_DQ1903_001_Event]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg34]
+EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
+Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_1
+
+[@Map_DQ1903_001_Event_1]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg35]
+EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
+Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_2
+
+[@Map_DQ1903_001_Event_2]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg36]
+EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
+Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_3
+
+[@Map_DQ1903_001_Event_3]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg37]
+EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
+Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_4
+
+[@Map_DQ1903_001_Event_4]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg38]
+EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
+Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_5
+
+[@Map_DQ1903_001_Event_5]
+#IF
+#ACT
+LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg39]
+EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
+break
+
+}
+
+[@Samak_MapDQ1903_002_0]
+{
+#IF
+isGuildMaster
+#ACT
+Enter_Fail
+#ELSEACT
+Enter_Ok
+
+}
+;;不要删掉此行

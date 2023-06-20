@@ -1,0 +1,100 @@
+;;不要删掉此行
+
+[@Main]
+#IF
+Check [209] 1
+Check [210] 1
+Check [409] 0
+#ACT
+Mov A8 "诺玛斧兵"
+goto @TodayQuest_TQCase1
+#ELSEACT
+goto @main_Except
+
+[@main_Except]
+#ACT
+Mov A0 %USERMAP
+
+#IF
+Equal A0 "D1601"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+#IF
+Equal A0 "D1602"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+#IF
+Equal A0 "D16031"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+#IF
+Equal A0 "D16032"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+#IF
+Equal A0 "D16033"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+#IF
+Equal A0 "D16034"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+#IF
+Equal A0 "D1604"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+#IF
+Equal A0 "D1605"
+check [207] 1
+check [208] 1
+checkitemw 寂幻之刃 1
+#ACT
+goto @MadoHaveStep0_0
+break
+
+
+#IF
+#ACT
+break
+
+[@TodayQuest_TQCase1]
+#CALL [TodayQuest\QT_TotalMonster.txt] @TodayQuest_Monster_NumaDaeJang
+
+[@MadoHaveStep0_0]
+#CALL [HonChonMaDo\Mon_MadoHave.txt] @MadoHaveStep1_1
+;;不要删掉此行

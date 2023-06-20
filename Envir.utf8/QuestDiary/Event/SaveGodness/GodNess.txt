@@ -1,0 +1,75 @@
+;;GodNess.txt
+[@SaveGodness]
+{
+begin
+   #ACT
+      #DEFINE      D0{USERCOUNT}     D0  ;; 蜡历狼 墨款飘甫 历厘 窍绰 何盒
+      #DEFINE      A0{USERNANE}      A0  ;; 蜡历狼 捞抚阑 历厘 窍绰 何盒
+      goto @SaveGodNessMainRootin
+
+   [@SaveGodNessMainRootin]
+   begin
+      #IF
+         IsAdmin ;; 款康磊啊 捞亥飘狼 矫累殿阑 炼累窃
+      #SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/SaveGodness/GodNess.txt] @GodNess_1
+         {FCOLOR/10} 咯脚 捞亥飘 {FCOLOR/12} \ \
+         _<咯脚 捞亥飘甫 矫累 茄促./@GMStartSaveGodNess> \ \
+         _<咯脚 捞亥飘甫 辆丰 茄促./@GMFinishSaveGodNess> \ \
+
+      #IF
+      #SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/SaveGodness/GodNess.txt] @GodNess_2
+         _<咯脚 备窍扁 捞亥飘俊 曼啊茄促./@UserInputSaveGodNess> \
+         _<曼啊窍瘤 臼绰促./@exit>
+   end
+
+;;------------------------------------------------------------------------------------------------------------
+;; GM Control 何盒
+;;------------------------------------------------------------------------------------------------------------
+   [@GMStartSaveGodNess]
+	   begin
+	      #ACT
+	         LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
+
+	      #IF
+	         Equal     P1         0      ;; 捞亥飘啊 柳青吝捞瘤 臼阑版快父 角青凳
+	      #ACT
+	         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State] 1
+	         LineMsg [Grobal] "(!)咯脚 备窍扁 捞亥飘 矫累阑 窍摆嚼聪促."
+	      #SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/SaveGodness/GodNess.txt] @GodNess_3
+	         咯脚 备窍绰 捞亥飘甫 矫累 窍摆嚼聪促. \ \
+	         <摧  扁/@exit> \
+	      #ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/SaveGodness/GodNess.txt] @GodNess_4
+	         捞亥飘甫 矫累 且荐啊 绝嚼聪促. \ \
+	         <摧  扁/@exit> \
+	   end
+   [@GMFinishSaveGodNess]
+	   begin
+	      #ACT
+	         LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
+
+	      #IF
+	         Equal     P1         1      ;; 捞亥飘啊 柳青吝捞瘤 臼阑版快父 角青凳
+	      #ACT
+	         SaveValue "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State] 0
+	         LineMsg [Grobal] "(!)咯脚 备窍扁 捞亥飘 辆丰 窍摆嚼聪促."
+	      #SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/SaveGodness/GodNess.txt] @GodNess_5
+	         咯脚 备窍绰 捞亥飘甫 辆丰 窍摆嚼聪促. \ \
+	         <摧  扁/@exit> \
+	      #ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/SaveGodness/GodNess.txt] @GodNess_6
+	         捞亥飘甫 辆丰 且荐啊 绝嚼聪促. \ \
+	         <摧  扁/@exit> \
+	   end
+
+;;------------------------------------------------------------------------------------------------------------
+;; User Control 何盒
+;;------------------------------------------------------------------------------------------------------------
+   [@UserInputSaveGodNess]
+   #CALL [Event\SaveGodNess\UserSaveGodNess.txt] @UserPlay
+end
+}

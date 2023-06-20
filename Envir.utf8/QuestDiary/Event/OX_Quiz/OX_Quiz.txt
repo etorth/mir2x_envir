@@ -1,0 +1,225 @@
+;;OX_Quiz.txt
+[@OX_Quiz_Main]
+{
+#DEFINE             N1{TIME}            N1      ;; 20檬 矫埃阑 舅妨 林绰 函荐
+#DEFINE             N2{COUNT}           N2      ;; 巩力荐甫 墨款飘 秦林绰 函荐
+#DEFINE             B1{ANSWER}          B1      ;; 翠阑 历厘 窍绰 函荐
+
+#IF
+IsAdmin                                         ;; 款康磊 老 版快父
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Admin_Event_Main
+
+#ELSESAY                                        ;; 荤侩磊啊 努腐 沁阑 版快
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @user_Event_Main
+
+[@OX_Quiz_Initial]
+#ACT
+SendCmd  "oxmapO, 51, 47, 5"  捞亥飘档快固  Show  ;; NPC唱鸥巢
+SendCmd  "oxmapX, 73, 70, 5"  捞亥飘档快固  Show  ;; NPC唱鸥巢
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; 捞亥飘 翠阑 搬沥 且荐 绝澜
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 0           ;; 捞亥飘 矫累澜 舅覆
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 0            ;; 霸捞飘啊 凯赴促.
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 0             ;; 捞亥飘 场阑 檬扁拳
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0
+
+[@kyokyo]
+#ACT
+SendCmd  "oxmapO, 51, 47, 5"  捞亥飘档快固  Show  ;; NPC唱鸥巢
+SendCmd  "oxmapX, 73, 70, 5"  捞亥飘档快固  Show  ;; NPC唱鸥巢
+
+;----------------------------------------------- 捞亥飘 矫累 风凭
+[@OX_Quiz_Start]
+#ACT
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start]
+
+#IF
+Equal              P1                   0       ;; 捞亥飘 矫累捞 酒聪搁
+#ACT
+close
+	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Start_1]
+	LoadValue A1 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Start_2]
+	LoadValue A2 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Start_3]
+LineMsg Grobal  "%A0"
+LineMsg Grobal  "%A1"
+LineMsg Grobal  "%A2"
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 1        ;; 捞亥飘 翠阑 搬沥 且荐 绝澜
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 1           ;; 捞亥飘 矫累澜 舅覆
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 1            ;; 霸捞飘啊 凯赴促.
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 0             ;; 捞亥飘 场阑 檬扁拳
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 1         ;; 贸澜 柳涝矫绰 捞悼捞 阂啊瓷窃
+Mov                N1{TIME}             20      ;; 矫埃 何盒 檬扁拳
+Mov                N2{COUNT}            1       ;; 巩力 墨款飘 檬扁拳
+Delaygoto [Grobal] 300 @OX_Quiz_CloseGate                ;; 5盒 悼救 巩篮 凯绢狄
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Admin_EvStart_Fail
+
+[@OX_Quiz_CloseGate]
+#ACT
+	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [End]
+LineMsg Grobal  "%A0"
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0         ;; 矫埃捞 瘤抄饶 捞悼 啊瓷窃
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; 捞亥飘 翠阑 搬沥 啊瓷
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate] 0            ;; 霸捞飘啊 摧腮促.
+
+;----------------------------------------------- 捞亥飘 沥翠阑 嘎眠绰 风凭
+[@Correct()]
+#ACT
+Mov                 B1{ANSWER}          %ARG(1)                            ;; 翠阑 涝仿窃
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro]
+LoadValue P2 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start]
+
+#IF
+Equal               P1                  0                                  ;; 巩力甫 尘荐 乐绰 鸥烙
+Equal               P2                  1                                  ;; 捞亥飘啊 矫累捞绢具父 啊瓷
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Answer
+
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Answer_Fail
+
+[@Close_Syntex]
+#ACT
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem] 0         ;; 捞悼捞 啊瓷 窍霸 窃
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 1        ;; 巩力甫 歹 给郴霸 窃
+close                                                                      ;; 捞亥飘 芒阑 摧澜
+goto @Answertime
+
+[@AnswerTime]
+#IF
+Equal               N1{TIME}            0         ;; 20檬啊 版苞 登菌阑矫
+#ACT
+	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Event] [Correct]
+EventMsg  "oxmap,oxmapO,oxmapX"  "%A0"
+goto @ReCorrect                                   ;; 沥翠 涝仿 风凭栏肺 捞悼
+SendCmd  "oxmapO, 51, 47, 5"  捞亥飘档快固  Hide  ;; NPC荤扼咙
+SendCmd  "oxmapX, 73, 70, 5"  捞亥飘档快固  Hide  ;; NPC荤扼咙
+#ELSEACT
+	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Event] [Time]
+EventMsg "oxmap,oxmapO,oxmapX"   "%A0"
+Dec         N1{TIME}                    1         ;; 矫埃 平阑 皑家 矫评
+Delaygoto [Grobal]   1   @AnswerTime                       ;; 1檬付促 拌加秦辑 倒覆
+
+[@ReCorrect]
+#IF
+Equal               B1{ANSWER}          "O"
+#ACT
+MapTing   oxmapX    01   439 303                 ;; X 甘俊 乐绰 荤恩 泼辫
+#ELSEACT
+MapTing   oxmapO    01   439 303                 ;; O 甘俊 乐绰 荤恩 泼辫
+
+;----------------------------------------------- 捞亥飘 巩力甫 郴林绰 风凭
+[@OX_Quiz_Problem]
+#ACT
+close
+INC         N2{COUNT}                   1         ;; 巩力荐 墨款飘
+Mov         N1{TIME}                    20        ;; 力茄 矫埃栏肺 檬扁拳 促矫
+	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Event] [Quiz]
+EventMsg "oxmap,oxmapO,oxmapX" "%A0"
+SendCmd  "oxmapO, 51, 47, 5"  捞亥飘档快固  Show  ;; NPC唱鸥巢
+SendCmd  "oxmapX, 73, 70, 5"  捞亥飘档快固  Show  ;; NPC唱鸥巢
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [AdminPro] 0        ;; 巩力狼 翠阑 涝仿 且荐 乐霸 窃
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_OX
+
+
+;----------------------------------------------- 捞亥飘 辆丰 风凭
+[@OX_Quiz_Quit]
+#ACT
+	LoadValue A0 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Ev_End_1]
+	LoadValue A1 "Convert_Def\QuestDiary\Event\OX_Quiz\OX_Quiz_Ev.txt" [Line] [Ev_End_2]
+LineMsg "oxmap,oxmapO,oxmapX" "%A0"
+LineMsg "oxmap,oxmapO,oxmapX" "%A1"
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Start] 0           ;; 捞亥飘 促矫 矫累阑 且荐 乐霸 炼例
+SaveValue "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End] 1             ;; 捞亥飘啊 辆丰 凳
+}
+;-------------------------------------------------------------------------------
+[@OX_Quiz_AnsO]
+{
+#ACT
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; 捞亥飘啊 辆丰 凳
+
+#IF
+Equal          P1                1   ;; 捞亥飘啊 辆丰 登菌绰瘤 犬牢 窍绰 何盒
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Gift
+
+#ACT
+give 绵汗狼扁抚 1                    ;; 惑前 瘤鞭
+give 碍仿拳扁抚 1
+Map   0                              ;; 惑前阑 罐栏搁 泼辫
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_Move
+
+[@OX_Quiz_MoveX]
+#ACT
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem]         ;; 国蘑 矫埃
+
+#IF
+Equal          P1                0   ;; 捞悼 阂啊瓷
+#ACT
+Map            oxmapX                ;; 捞悼 矫糯
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Move_Fail
+
+}
+;-------------------------------------------------------------------------------
+[@OX_Quiz_AnsX]
+{
+#ACT
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [End]             ;; 捞亥飘啊 辆丰 凳
+
+#IF
+Equal          P1                1   ;; 捞亥飘啊 辆丰 登菌绰瘤 眉农 窍绰 何盒
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @User_Gift
+#ACT
+give 绵汗狼扁抚 1                    ;; 惑前 瘤鞭
+give 碍仿拳扁抚 1
+Map   0                              ;; 惑前阑 罐栏搁 泼辫
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Answer_Move_1
+
+
+[@OX_Quiz_MoveO]
+#ACT
+LoadValue P2 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Problem]         ;; 国蘑 矫埃
+
+#IF
+Equal     P2       0                                                        ;; 捞悼 阂啊瓷
+#ACT
+Map       oxmapO                     ;; 捞悼 矫糯
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Move_Fail
+}
+;-------------------------------------------------------------------------------
+[@OX_Quiz_Input]
+{
+#IF
+checkhum "oxmapO"  100
+checkhum "oxmapX"  100
+#SAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @Join_Fail
+
+#ACT
+break
+
+#IF
+#ACT
+LoadValue P1 "Flag_Def\Event\OX_Quiz\Start.txt"  [FLAG] [Gate]
+
+#IF
+Equal      P1      1
+#ACT
+goto @Quiz_Move
+#ELSESAY
+	#INCLUDE [../Convert_Def/QuestDiary/Event/OX_Quiz/OX_Quiz.txt] @OX_Event_Not_Start
+
+[@Quiz_Move]
+#IF
+random 2
+#ACT
+Map    oxmapO
+#ELSEACT
+Map    oxmapX
+}

@@ -1,0 +1,6 @@
+;;18Flag_Bichon-0.txt
+[@NPC_Main]
+{
+<$GUILD> 行会旗帜 \ \
+<结束/@exit>
+}

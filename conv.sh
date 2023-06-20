@@ -25,4 +25,5 @@ do
 
     dos2unix -q ${srcpath}
     sed -i 's/[[:space:]]\+$//' ${srcpath}
+    sed -i '/#INCLUDE/{s#\#/#g}' ${srcpath}
 done

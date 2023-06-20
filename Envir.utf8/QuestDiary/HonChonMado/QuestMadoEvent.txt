@@ -21,7 +21,7 @@ break
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=1"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=2"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg0]
 Eventmsg "D1606" %A7 2000
 Take 万里碧海 1
 
@@ -33,28 +33,28 @@ Take 万里碧海 1
 [@Magda1_Event_2]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg1]
 Eventmsg grobal %A7 %D8
 Delaygoto [Grobal] 12 @Magda1_Event_3
 
 
 [@Magda1_Event_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg2]
 Eventmsg grobal %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_4
 
 
 [@Magda1_Event_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg3]
 Eventmsg grobal %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_5
 
 
 [@Magda1_Event_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg4]
 Eventmsg grobal %A7 %D8
 Delaygoto [Grobal] 12 @Magda1_Event_6
 
@@ -62,7 +62,7 @@ Delaygoto [Grobal] 12 @Magda1_Event_6
 [@Magda1_Event_6]
 #ACT
 set [208] 1
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg5]
 Eventmsg grobal %A7 2000
 Mongenp "D16064,33,44,10" 诺玛司令 5
 ApplyMonEx "D16064,33,44,30" 诺玛司令 [Monsterside] "毁灭之印大师"
@@ -89,67 +89,67 @@ Checkhum D16064 1
 set [208] 0
 ApplyMonEx "D16064,33,44,30" 疯狂诺玛勇士 [humanside]
 ApplyMonEx "D16064,33,44,30" 毁灭之印大师 [humanside]
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg6]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg6]
 Eventmsg "D16064" %A7 %D8
 Delaygoto [Grobal] 12 @Magda1_Event_8
 break
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg7]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg7]
 Eventmsg "D16064" %A7 2000
 break
 
 [@Magda1_Event_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg8]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg8]
 Eventmsg "D16064" %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_9
 
 [@Magda1_Event_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg9]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg9]
 Eventmsg "D16064" %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_10
 
 [@Magda1_Event_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg10]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg10]
 Eventmsg "D16064" %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_11
 
 [@Magda1_Event_11]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg11]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg11]
 Eventmsg "D16064" %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_12
 
 [@Magda1_Event_12]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg12]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg12]
 Eventmsg "D16064" %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_13
 
 [@Magda1_Event_13]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg13]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg13]
 Eventmsg "D16064" %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_14
 
 [@Magda1_Event_14]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg14]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg14]
 Eventmsg "D16064" %A7 2000
 Delaygoto [Grobal] 12 @Magda1_Event_15
 
 [@Magda1_Event_15]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg15]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg15]
 Eventmsg "D16064" %A7 2000
 monclear D16064
 Delaygoto [Grobal] 12 @Magda1_Event_16
 
 [@Magda1_Event_16]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg16]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg16]
 Eventmsg "D16064" %A7 %D8
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
@@ -162,55 +162,55 @@ UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
 [@Npcbox1_Event_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg17]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg17]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_2
 
 [@Npcbox1_Event_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg18]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg18]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_2_1
 
 [@Npcbox1_Event_2_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg19]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg19]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_3
 
 [@Npcbox1_Event_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg20]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg20]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_4
 
 [@Npcbox1_Event_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg21]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg21]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_4_1
 
 [@Npcbox1_Event_4_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg22]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg22]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_5
 
 [@Npcbox1_Event_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg23]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg23]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_6
 
 [@Npcbox1_Event_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg24]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg24]
 Eventmsg "D16064" %A7 14
 Delaygoto [Grobal] 12 @Npcbox1_Event_7
 
 [@Npcbox1_Event_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg25]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg25]
 Eventmsg "D16064" %A7 14
 give 万里碧海 1
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
@@ -220,7 +220,7 @@ Delaygoto [Grobal] 12 @Npcbox1_Event_8
 
 [@Npcbox1_Event_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\QuestMadoEvent.txt] [Convert] [Msg26]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/QuestMadoEvent.txt] [Convert] [Msg26]
 Linemsg "D16064" %A7
 
 

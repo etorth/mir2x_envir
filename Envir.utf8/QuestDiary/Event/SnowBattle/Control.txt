@@ -3,7 +3,7 @@
 {
 #IF
 #ACT
-	LoadValue P0 "GM_Def\Event\SnowBattle\GM.txt" [EventTime] [EventOpenTime]
+	LoadValue P0 "GM_Def/Event/SnowBattle/GM.txt" [EventTime] [EventOpenTime]
 Delaygoto [Grobal] %P0 @Event_Start
 
 [@Event_Start]

@@ -95,10 +95,10 @@ check [307] 1
 checkitem 僵尸骨头 1000
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_60_1Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_60_1Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_60_1Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_60_1Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_60_1Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_60_1Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_60_1Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_60_1Th_Type2]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -115,10 +115,10 @@ check [307] 1
 checkitem 僵尸骨头 1000
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_60_2Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_60_2Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_60_2Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_60_2Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_60_2Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_60_2Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_60_2Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_60_2Th_Type2]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -135,10 +135,10 @@ check [307] 1
 checkitem 僵尸骨头 1000
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_60_3Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_60_3Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_60_3Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_60_3Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_60_3Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_60_3Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_60_3Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_60_3Th_Type2]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -166,10 +166,10 @@ checkitem 僵尸骨头 1000
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_1Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_1Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_1Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_1Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_1Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_1Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_1Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_1Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -180,10 +180,10 @@ break
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/1stClass.txt] @101_10
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_1Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_1Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_1Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_1Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_1Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_1Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_1Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_1Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -202,10 +202,10 @@ checkitem 僵尸骨头 1000
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_2Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_2Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_2Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_2Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_2Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_2Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_2Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_2Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -217,10 +217,10 @@ break
 
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_2Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_2Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_2Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_2Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_2Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_2Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_2Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_2Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -239,10 +239,10 @@ checkitem 僵尸骨头 1000
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_3Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_3Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_3Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_3Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_3Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_3Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_3Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_3Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -254,10 +254,10 @@ break
 
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_3Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_3Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_30_3Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_30_3Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_3Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_3Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_30_3Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_30_3Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 僵尸骨头 1000
@@ -285,8 +285,8 @@ check [307] 1
 checkitem 僵尸骨头 1000
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_10_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_10_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_10_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_10_1Th]
 give %A0 %D1
 take 僵尸骨头 1000
 reset [307] 2
@@ -303,8 +303,8 @@ check [307] 1
 checkitem 僵尸骨头 1000
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_10_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_10_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_10_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_10_2Th]
 give %A0 %D1
 take 僵尸骨头 1000
 reset [307] 2
@@ -321,8 +321,8 @@ check [307] 1
 checkitem 僵尸骨头 1000
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Race_10_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [101] [Reward_Amount_10_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Race_10_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [101] [Reward_Amount_10_3Th]
 give %A0 %D1
 take 僵尸骨头 1000
 reset [307] 2
@@ -435,8 +435,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_80_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_80_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_80_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_80_1Th]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -453,8 +453,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_80_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_80_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_80_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_80_2Th]
 take 蜘蛛线 250
 give %A1 %D2
 reset [307] 2
@@ -471,8 +471,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_80_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_80_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_80_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_80_3Th]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -499,8 +499,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_10_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_10_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_10_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_10_1Th]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -517,8 +517,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_10_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_10_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_10_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_10_2Th]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -535,8 +535,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_10_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_10_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_10_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_10_3Th]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -562,8 +562,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_10_1Th_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_10_1Th_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_10_1Th_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_10_1Th_1]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -580,8 +580,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_10_2Th_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_10_2Th_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_10_2Th_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_10_2Th_1]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -598,8 +598,8 @@ check [307] 1
 checkitem 蜘蛛线 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Race_10_3Th_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [102] [Reward_Amount_10_3Th_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Race_10_3Th_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [102] [Reward_Amount_10_3Th_1]
 take 蜘蛛线 500
 give %A0 %D1
 reset [307] 2
@@ -714,10 +714,10 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_90_1Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_90_1Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_90_1Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_90_1Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_90_1Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_90_1Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_90_1Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_90_1Th_Type2]
 take rjalwnf 500
 take whaqlQu 500
 take roaldkf 500
@@ -743,10 +743,10 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_90_2Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_90_2Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_90_2Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_90_2Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_90_2Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_90_2Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_90_2Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_90_2Th_Type2]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -771,10 +771,10 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_90_3Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_90_3Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_90_3Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_90_3Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_90_3Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_90_3Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_90_3Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_90_3Th_Type2]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -810,8 +810,8 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_9_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_9_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_9_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_9_1Th]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -836,8 +836,8 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_9_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_9_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_9_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_9_2Th]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -862,8 +862,8 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_9_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_9_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_9_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_9_3Th]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -898,8 +898,8 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_1_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_1_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_1_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_1_1Th]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -924,8 +924,8 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_1_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_1_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_1_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_1_2Th]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -950,8 +950,8 @@ checkitem 指甲 500
 checkitem 宝玉 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Race_1_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [103] [Reward_Amount_1_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Race_1_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [103] [Reward_Amount_1_3Th]
 take 蜘蛛线 500
 take 僵尸骨头 500
 take 蚂蚁卵 500
@@ -1075,10 +1075,10 @@ check [310] 0
 check [307] 1
 checkitem 触龙神皮 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_80_1Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_80_1Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_80_1Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_80_1Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_80_1Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_80_1Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_80_1Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_80_1Th_Type2]
 take 触龙神皮 1
 give %A0 %D1
 give %A1 %D2
@@ -1095,10 +1095,10 @@ check [310] 0
 check [307] 1
 checkitem 触龙神皮 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_80_2Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_80_2Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_80_2Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_80_2Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_80_2Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_80_2Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_80_2Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_80_2Th_Type2]
 take 触龙神皮 1
 give %A0 %D1
 give %A1 %D2
@@ -1115,10 +1115,10 @@ check [310] 0
 check [307] 1
 checkitem 触龙神皮 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_80_3Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_80_3Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_80_3Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_80_3Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_80_3Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_80_3Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_80_3Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_80_3Th_Type2]
 take 触龙神皮 1
 give %A0 %D1
 give %A1 %D2
@@ -1145,10 +1145,10 @@ check [310] 0
 check [307] 1
 checkitem 触龙神皮 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_19_1Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_19_1Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_19_1Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_19_1Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_19_1Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_19_1Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_19_1Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_19_1Th_Type2]
 take 触龙神皮 1
 give %A0 %D1
 give %A1 %D2
@@ -1165,10 +1165,10 @@ check [310] 0
 check [307] 1
 checkitem 触龙神皮 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_19_2Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_19_2Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_19_2Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_19_2Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_19_2Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_19_2Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_19_2Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_19_2Th_Type2]
 take 触龙神皮 1
 give %A0 %D1
 give %A1 %D2
@@ -1185,10 +1185,10 @@ check [310] 0
 check [307] 1
 checkitem 触龙神皮 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_19_3Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_19_3Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_19_3Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_19_3Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_19_3Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_19_3Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_19_3Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_19_3Th_Type2]
 take 触龙神皮 1
 give %A0 %D1
 give %A1 %D2
@@ -1211,8 +1211,8 @@ check [310] 0
 check [307] 1
 checkitem 触龙神皮 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [104] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [104] [Reward_Amount_1]
 take 触龙神皮 1
 give %A0 %D1
 reset [307] 2
@@ -1336,8 +1336,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_80_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_80_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_80_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_80_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1353,8 +1353,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_80_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_80_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_80_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_80_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1370,8 +1370,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_80_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_80_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_80_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_80_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1397,8 +1397,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_19_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_19_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_19_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_19_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1414,8 +1414,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_19_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_19_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_19_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_19_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1427,8 +1427,8 @@ break
 #IF
 equal D0 2
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_19_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_19_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_19_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_19_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1454,8 +1454,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_1_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_1_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_1_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_1_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1471,8 +1471,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_1_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_1_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_1_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_1_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1488,8 +1488,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Race_1_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [105] [Reward_Amount_1_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Race_1_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [105] [Reward_Amount_1_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1600,8 +1600,8 @@ checkitem 铜色栗子 20
 checkitem 褐色栗子 20
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Amount_90]
 take 金色栗子 20
 take 银色栗子 20
 take 铜色栗子 20
@@ -1629,8 +1629,8 @@ checkitem 铜色栗子 20
 checkitem 褐色栗子 20
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Race_9]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Amount_9]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Race_9]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Amount_9]
 take 金色栗子 20
 take 银色栗子 20
 take 铜色栗子 20
@@ -1663,8 +1663,8 @@ checkitem 铜色栗子 20
 checkitem 褐色栗子 20
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Race_1_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Amount_1_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Race_1_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Amount_1_1]
 take 金色栗子 20
 take 银色栗子 20
 take 铜色栗子 20
@@ -1687,8 +1687,8 @@ checkitem 铜色栗子 20
 checkitem 褐色栗子 20
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Race_1_2]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Amount_1_2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Race_1_2]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Amount_1_2]
 take 金色栗子 20
 take 银色栗子 20
 take 铜色栗子 20
@@ -1711,8 +1711,8 @@ checkitem 铜色栗子 20
 checkitem 褐色栗子 20
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Race_1_3]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [106] [Reward_Amount_1_3]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Race_1_3]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [106] [Reward_Amount_1_3]
 take 金色栗子 20
 take 银色栗子 20
 take 铜色栗子 20
@@ -1834,8 +1834,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_75_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_75_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_75_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_75_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1851,8 +1851,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_75_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_75_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_75_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_75_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1868,8 +1868,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_75_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_75_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_75_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_75_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1895,8 +1895,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_24_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_24_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_24_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_24_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1912,8 +1912,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_24_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_24_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_24_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_24_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1929,8 +1929,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_24_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_24_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_24_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_24_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1956,8 +1956,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_1_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_1_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_1_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_1_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1973,8 +1973,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_1_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_1_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_1_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_1_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1990,8 +1990,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Race_1_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [107] [Reward_Amount_1_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Race_1_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [107] [Reward_Amount_1_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2105,10 +2105,10 @@ check [308] 1
 check [307] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Race_90_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Amount_90_1Th]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Race_90_2Th]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Amount_90_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Race_90_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Amount_90_1Th]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Race_90_2Th]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Amount_90_2Th]
 give %A0 %D1
 give %A1 %D2
 reset [307] 2
@@ -2135,8 +2135,8 @@ check [308] 1
 check [307] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Race_9_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Amount_9_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Race_9_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Amount_9_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2152,8 +2152,8 @@ check [308] 1
 check [307] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Race_9_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Amount_9_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Race_9_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Amount_9_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2169,8 +2169,8 @@ check [308] 1
 check [307] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Race_9_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Amount_9_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Race_9_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Amount_9_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2192,8 +2192,8 @@ check [308] 1
 check [307] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [108] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [108] [Reward_Amount_1]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2312,8 +2312,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Amount_90]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2334,8 +2334,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Race_5]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Amount_5]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Race_5]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Amount_5]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2361,8 +2361,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Race_5_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Amount_5_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Race_5_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Amount_5_1]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2378,8 +2378,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Race_5_2]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Amount_5_2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Race_5_2]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Amount_5_2]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2395,8 +2395,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Race_5_3]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [109] [Reward_Amount_5_3]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Race_5_3]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [109] [Reward_Amount_5_3]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2511,8 +2511,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Race_49]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Amount_49]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Race_49]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Amount_49]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2533,8 +2533,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Race_49_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Amount_49_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Race_49_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Amount_49_1]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2560,8 +2560,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Amount_1]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2577,8 +2577,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Race_1_2]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Amount_1_2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Race_1_2]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Amount_1_2]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2594,8 +2594,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Race_1_3]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [110] [Reward_Amount_1_3]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Race_1_3]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [110] [Reward_Amount_1_3]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2708,10 +2708,10 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_80_1Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_80_1Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_80_1Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_80_1Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_80_1Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_80_1Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_80_1Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_80_1Th_Type2]
 give %A0 %D1
 give %A1 %D2
 reset [307] 2
@@ -2728,10 +2728,10 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_80_2Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_80_2Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_80_2Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_80_2Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_80_2Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_80_2Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_80_2Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_80_2Th_Type2]
 give %A0 %D1
 give %A1 %D2
 reset [307] 2
@@ -2748,10 +2748,10 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_80_3Th_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_80_3Th_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_80_3Th_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_80_3Th_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_80_3Th_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_80_3Th_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_80_3Th_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_80_3Th_Type2]
 give %A0 %D1
 give %A1 %D2
 reset [307] 2
@@ -2773,8 +2773,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_10]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_10]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_10]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2796,8 +2796,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Race_10_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [111] [Reward_Amount_10_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Race_10_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [111] [Reward_Amount_10_1]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -2914,10 +2914,10 @@ check [307] 1
 checkitem 指甲 1000
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Race_80_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Amount_80_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Race_80_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Amount_80_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Race_80_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Amount_80_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Race_80_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Amount_80_Type2]
 take 指甲 1000
 give %A0 %D1
 give %A1 %D2
@@ -2940,8 +2940,8 @@ check [307] 1
 checkitem 指甲 1000
 
 #ACT
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Race_19]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Amount_19]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Race_19]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Amount_19]
 take 指甲 1000
 give %A1 %D2
 reset [307] 2
@@ -2963,8 +2963,8 @@ check [307] 1
 checkitem 指甲 1000
 
 #ACT
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Race_1]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [112] [Reward_Amount_1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Race_1]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [112] [Reward_Amount_1]
 take 指甲 1000
 give %A1 %D2
 reset [307] 2
@@ -3077,8 +3077,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Race_90_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Amount_90_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Race_90_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Amount_90_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3094,8 +3094,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Race_90_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Amount_90_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Race_90_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Amount_90_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3111,8 +3111,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Race_90_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Amount_90_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Race_90_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Amount_90_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3133,8 +3133,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Race_9]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Amount_9]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Race_9]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Amount_9]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3155,8 +3155,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [113] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [113] [Reward_Amount_1]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3271,10 +3271,10 @@ checkitem 潘夜珠 500
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_1Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_1Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_1Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_1Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_1Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_1Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_1Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_1Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 潘夜珠 500
@@ -3286,10 +3286,10 @@ break
 
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_1Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_1Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_1Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_1Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_1Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_1Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_1Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_1Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 潘夜珠 500
@@ -3308,10 +3308,10 @@ checkitem 潘夜珠 500
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_2Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_2Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_2Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_2Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_2Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_2Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_2Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_2Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 潘夜珠 500
@@ -3322,10 +3322,10 @@ break
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/1stClass.txt] @114_9
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_2Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_2Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_2Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_2Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_2Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_2Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_2Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_2Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 潘夜珠 500
@@ -3344,10 +3344,10 @@ checkitem 潘夜珠 500
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_3Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_3Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_3Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_3Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_3Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_3Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_3Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_3Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 潘夜珠 500
@@ -3358,10 +3358,10 @@ break
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/1stClass.txt] @114_11
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_3Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_3Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_90_3Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_90_3Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_3Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_3Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_90_3Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_90_3Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 潘夜珠 500
@@ -3384,8 +3384,8 @@ check [307] 1
 checkitem 潘夜珠 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_9]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_9]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_9]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_9]
 take 潘夜珠 500
 give %A0 %D1
 reset [307] 2
@@ -3408,8 +3408,8 @@ check [307] 1
 checkitem 潘夜珠 500
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [114] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [114] [Reward_Amount_1]
 take 潘夜珠 500
 give %A0 %D1
 reset [307] 2
@@ -3532,8 +3532,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_80_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_80_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_80_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_80_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3549,8 +3549,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_80_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_80_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_80_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_80_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3566,8 +3566,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_80_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_80_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_80_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_80_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3593,8 +3593,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_15_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_15_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_15_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_15_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3610,8 +3610,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_15_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_15_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_15_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_15_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3627,8 +3627,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_15_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_15_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_15_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_15_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3655,8 +3655,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_5_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_5_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_5_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_5_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3672,8 +3672,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_5_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_5_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_5_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_5_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3689,8 +3689,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Race_5_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [115] [Reward_Amount_5_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Race_5_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [115] [Reward_Amount_5_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -3808,10 +3808,10 @@ check [307] 1
 checkitem 七点白蛇牙齿 50
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Race_80_Type1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Amount_80_Type1]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Race_80_Type2]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Amount_80_Type2]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Race_80_Type1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Amount_80_Type1]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Race_80_Type2]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Amount_80_Type2]
 take 七点白蛇牙齿 50
 give %A0 %D1
 give %A1 %D2
@@ -3839,8 +3839,8 @@ check [307] 1
 checkitem 七点白蛇牙齿 50
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Race_19_1th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Amount_19_1th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Race_19_1th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Amount_19_1th]
 take 七点白蛇牙齿 50
 give %A0 %D1
 reset [307] 2
@@ -3857,8 +3857,8 @@ check [307] 1
 checkitem 七点白蛇牙齿 50
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Race_19_2th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Amount_19_2th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Race_19_2th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Amount_19_2th]
 take 七点白蛇牙齿 50
 give %A0 %D1
 reset [307] 2
@@ -3875,8 +3875,8 @@ check [307] 1
 checkitem 七点白蛇牙齿 50
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Race_19_3th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Amount_19_3th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Race_19_3th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Amount_19_3th]
 take 七点白蛇牙齿 50
 give %A0 %D1
 reset [307] 2
@@ -3893,8 +3893,8 @@ check [310] 1
 break
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [116] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [116] [Reward_Amount_1]
 take 七点白蛇牙齿 50
 give %A0 %D1
 reset [307] 2
@@ -4018,10 +4018,10 @@ check [307] 1
 checkitem 祖玛卫士雕像 300
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_1Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_1Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_1Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_1Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_1Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_1Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_1Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_1Th_Type2_Man]
 take 祖玛卫士雕像 300
 give %A0 %D1
 give %A1 %D2
@@ -4032,10 +4032,10 @@ break
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/1stClass.txt] @117_7
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_1Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_1Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_1Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_1Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_1Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_1Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_1Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_1Th_Type2_Woman]
 take 祖玛卫士雕像 300
 give %A0 %D1
 give %A1 %D2
@@ -4054,10 +4054,10 @@ check [307] 1
 checkitem 祖玛卫士雕像 300
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_2Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_2Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_2Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_2Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_2Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_2Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_2Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_2Th_Type2_Man]
 take 祖玛卫士雕像 300
 give %A0 %D1
 give %A1 %D2
@@ -4068,10 +4068,10 @@ break
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/1stClass.txt] @117_9
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_2Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_2Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_2Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_2Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_2Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_2Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_2Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_2Th_Type2_Woman]
 take 祖玛卫士雕像 300
 give %A0 %D1
 give %A1 %D2
@@ -4091,10 +4091,10 @@ checkitem 祖玛卫士雕像 300
 
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_3Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_3Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_3Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_3Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_3Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_3Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_3Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_3Th_Type2_Man]
 take 祖玛卫士雕像 300
 give %A0 %D1
 give %A1 %D2
@@ -4105,10 +4105,10 @@ break
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/1stClass.txt] @117_11
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_3Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_3Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_90_3Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_90_3Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_3Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_3Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_90_3Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_90_3Th_Type2_Woman]
 take 祖玛卫士雕像 300
 give %A0 %D1
 give %A1 %D2
@@ -4131,8 +4131,8 @@ check [307] 1
 checkitem 祖玛卫士雕像 300
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_5]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_5]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_5]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_5]
 take 祖玛卫士雕像 300
 give %A0 %D1
 reset [307] 2
@@ -4154,8 +4154,8 @@ check [307] 1
 checkitem 祖玛卫士雕像 300
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Race_5_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [117] [Reward_Amount_5_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Race_5_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [117] [Reward_Amount_5_1]
 take 祖玛卫士雕像 300
 give %A0 %D1
 reset [307] 2
@@ -4269,10 +4269,10 @@ checkitem 血巨人心脏 300
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_1Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_1Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_1Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_1Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_1Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_1Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_1Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_1Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 血巨人心脏 300
@@ -4284,10 +4284,10 @@ break
 
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_1Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_1Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_1Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_1Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_1Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_1Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_1Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_1Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 血巨人心脏 300
@@ -4306,10 +4306,10 @@ checkitem 血巨人心脏 300
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_2Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_2Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_2Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_2Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_2Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_2Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_2Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_2Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 血巨人心脏 300
@@ -4321,10 +4321,10 @@ break
 
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_2Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_2Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_2Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_2Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_2Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_2Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_2Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_2Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 血巨人心脏 300
@@ -4343,10 +4343,10 @@ checkitem 血巨人心脏 300
 gender man
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_3Th_Type1_Man]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_3Th_Type1_Man]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_3Th_Type2_Man]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_3Th_Type2_Man]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_3Th_Type1_Man]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_3Th_Type1_Man]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_3Th_Type2_Man]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_3Th_Type2_Man]
 give %A0 %D1
 give %A1 %D2
 take 血巨人心脏 300
@@ -4358,10 +4358,10 @@ break
 
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_3Th_Type1_Woman]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_3Th_Type1_Woman]
-LoadValue A1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_90_3Th_Type2_Woman]
-LoadValue D2 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_90_3Th_Type2_Woman]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_3Th_Type1_Woman]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_3Th_Type1_Woman]
+LoadValue A1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_90_3Th_Type2_Woman]
+LoadValue D2 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_90_3Th_Type2_Woman]
 give %A0 %D1
 give %A1 %D2
 take 血巨人心脏 300
@@ -4384,8 +4384,8 @@ check [307] 1
 checkitem 血巨人心脏 300
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_9]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_9]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_9]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_9]
 take 血巨人心脏 300
 give %A0 %D1
 reset [307] 2
@@ -4408,8 +4408,8 @@ check [307] 1
 checkitem 血巨人心脏 300
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [118] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [118] [Reward_Amount_1]
 take 血巨人心脏 300
 give %A0 %D1
 reset [307] 2
@@ -4530,8 +4530,8 @@ check [310] 0
 check [307] 1
 checkitem 石人心核 300
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Race_80_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Amount_80_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Race_80_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Amount_80_1Th]
 take 石人心核 300
 give %A0 %D1
 reset [307] 2
@@ -4547,8 +4547,8 @@ check [310] 0
 check [307] 1
 checkitem 石人心核 300
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Race_80_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Amount_80_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Race_80_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Amount_80_2Th]
 take 石人心核 300
 give %A0 %D1
 give %A1 %D2
@@ -4565,8 +4565,8 @@ check [310] 0
 check [307] 1
 checkitem 石人心核 300
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Race_80_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Amount_80_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Race_80_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Amount_80_3Th]
 take 石人心核 300
 give %A0 %D1
 give %A1 %D2
@@ -4593,8 +4593,8 @@ check [310] 0
 check [307] 1
 checkitem 石人心核 300
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Race_19_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Amount_19_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Race_19_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Amount_19_1Th]
 take 石人心核 300
 give %A0 %D1
 give %A1 %D2
@@ -4611,8 +4611,8 @@ check [310] 0
 check [307] 1
 checkitem 石人心核 300
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Race_19_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Amount_19_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Race_19_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Amount_19_2Th]
 take 石人心核 300
 give %A0 %D1
 give %A1 %D2
@@ -4629,8 +4629,8 @@ check [310] 0
 check [307] 1
 checkitem 石人心核 300
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Race_19_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Amount_19_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Race_19_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Amount_19_3Th]
 take 石人心核 300
 give %A0 %D1
 give %A1 %D2
@@ -4653,8 +4653,8 @@ check [310] 0
 check [307] 1
 checkitem 石人心核 300
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [119] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [119] [Reward_Amount_1]
 take 石人心核 300
 give %A0 %D1
 reset [307] 2
@@ -4771,8 +4771,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Amount_90]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4799,8 +4799,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Race_9_1Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Amount_9_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Race_9_1Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Amount_9_1Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4816,8 +4816,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Race_9_2Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Amount_9_2Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Race_9_2Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Amount_9_2Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4833,8 +4833,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Race_9_3Th]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Amount_9_3Th]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Race_9_3Th]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Amount_9_3Th]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4856,8 +4856,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Race_1]
-LoadValue D1 "GM_Def\QT_TODAY\100Reward.txt" [120] [Reward_Amount_1]
+LoadValue A0 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Race_1]
+LoadValue D1 "GM_Def/QT_TODAY/100Reward.txt" [120] [Reward_Amount_1]
 give %A0 %D1
 reset [307] 2
 set [310] 1

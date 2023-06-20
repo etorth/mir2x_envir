@@ -282,7 +282,7 @@ checkitem 大族长角笛 1
 
 [@MadoNpc_Call5_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg0]
 linemsg "grobal" %A7
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
@@ -333,7 +333,7 @@ checkitem 大族长角笛 1
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=6"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg1]
 Eventmsg "Grobal" %A7 2000
 take 大族长角笛 1
 #ELSEACT
@@ -371,7 +371,7 @@ checkitem 黑天暗云 1
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=7"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg2]
 Eventmsg "Grobal" %A7 2000
 take 黑天暗云 1
 #ELSEACT
@@ -407,7 +407,7 @@ checkitem 万里碧海 1
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=8"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg3]
 Eventmsg "Grobal" %A7 2000
 take 万里碧海 1
 #ELSEACT
@@ -441,7 +441,7 @@ checkitem 血花落照 1
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=9"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg4]
 Eventmsg "Grobal" %A7 2000
 take 九宫云雾 1
 #ELSEACT
@@ -473,7 +473,7 @@ checkitem 血花落照 1
 #ACT
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=13"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=10"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg5]
 Eventmsg "Grobal" %A7 2000
 take 血花落照 1
 Delaygoto [Grobal] 12 @MadoNpc_Call5_11_1
@@ -497,7 +497,7 @@ Checkitemw 寂幻之刃 1
 
 [@MadoNpc_Call5_11_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg6]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg6]
 Eventmsg "Grobal" %A7 2000
 Delaygoto [Grobal] 12 @MadoNpc_Call5_12
 
@@ -506,7 +506,7 @@ Delaygoto [Grobal] 12 @MadoNpc_Call5_12
 
 [@MadoNpc_Call5_12]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg7]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg7]
 Eventmsg "Grobal" %A7 2000
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=14"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
@@ -517,15 +517,15 @@ Delaygoto [Grobal] 12 @MadoNpc_Call5_13
 
 [@MadoNpc_Call5_13]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg8]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg8]
 Eventmsg "Grobal" %A7 2000
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg9]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg9]
 linemsg "grobal" %A7
 Delaygoto [Grobal] 12 @MadoNpc_Call5_14
 
 [@MadoNpc_Call5_14]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\MadoNpc.txt] [Convert] [Msg10]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/MadoNpc.txt] [Convert] [Msg10]
 Eventmsg "Grobal" %A7 10004
 mapting D1606 4 174 139
 

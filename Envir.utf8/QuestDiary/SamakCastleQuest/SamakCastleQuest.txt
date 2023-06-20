@@ -294,21 +294,21 @@ Delaygoto [Local] 3 @SAMAK_NPC1_1_EventMSG
 [@SAMAK_NPC1_1_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg0]
 EventMSG [DQ1901_001] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_1_EventMSG_1
 
 [@SAMAK_NPC1_1_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg1]
 EventMSG [DQ1901_001] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_1_EventMSG_2
 
 [@SAMAK_NPC1_1_EventMSG_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg2]
 EventMSG [DQ1901_001] %A7
 MongenP "DQ1901_001,30,30,30" 石像狮子 10
 Delaygoto [Grobal] 600 @SAMAK_NPC1_1_TimeOut
@@ -341,7 +341,7 @@ break
 [@SAMAK_NPC1_2_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg3]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_2_EventMSG_1_1
 break
@@ -349,14 +349,14 @@ break
 [@SAMAK_NPC1_2_EventMSG_1_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg4]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_2_EventMSG_1
 
 [@SAMAK_NPC1_2_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg5]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_2_1
 
@@ -410,7 +410,7 @@ break
 #IF
 checkitemw 头子证件 1
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg6]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg6]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG
 
@@ -421,77 +421,77 @@ Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG
 [@SAMAK_NPC1_3_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg7]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg7]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_1
 
 [@SAMAK_NPC1_3_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg8]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg8]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_2
 
 [@SAMAK_NPC1_3_EventMSG_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg9]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg9]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_3
 
 [@SAMAK_NPC1_3_EventMSG_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg10]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg10]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_4
 
 [@SAMAK_NPC1_3_EventMSG_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg11]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg11]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_5
 
 [@SAMAK_NPC1_3_EventMSG_5]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg12]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg12]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_6
 
 [@SAMAK_NPC1_3_EventMSG_6]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg13]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg13]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_7
 
 [@SAMAK_NPC1_3_EventMSG_7]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg14]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg14]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_8
 
 [@SAMAK_NPC1_3_EventMSG_8]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg15]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg15]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_9
 
 [@SAMAK_NPC1_3_EventMSG_9]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg16]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg16]
 EventMSG [D1901] %A7
 Delaygoto [Local] 7 @SAMAK_NPC1_3_EventMSG_10
 
 [@SAMAK_NPC1_3_EventMSG_10]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg17]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg17]
 EventMSG [D1901] %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='2',FLD_SAMAKSTATUSRDY='2'"
@@ -573,7 +573,7 @@ Small D2 6
 #ACT
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='2',FLD_SAMAKSTATUSRDY='7'"
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg18]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg18]
 EventMSG [D1901] %A7
 #ELSEACT
 break
@@ -616,42 +616,42 @@ Delaygoto [Local] 7 @Samak_NPC1_4_EventMSG
 [@Samak_NPC1_4_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg19]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg19]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_4_EventMSG_1
 
 [@Samak_NPC1_4_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg20]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg20]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_4_EventMSG_2
 
 [@Samak_NPC1_4_EventMSG_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg21]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg21]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_4_EventMSG_3
 
 [@Samak_NPC1_4_EventMSG_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg22]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg22]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_4_EventMSG_4
 
 [@Samak_NPC1_4_EventMSG_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg23]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg23]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_4_EventMSG_5
 
 [@Samak_NPC1_4_EventMSG_5]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg24]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg24]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7200 @Samak_NPC1_4_TimeOut
 goto @Samak_NPC1_4_MapSpell
@@ -702,7 +702,7 @@ MapTing DQ1902_005 5 252 103
 MapTing DQ1903_001 5 252 103
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='2',FLD_SAMAKSTATUSRDY='9'"
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg25]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg25]
 EventMSG "D1901,DQ1901_001" %A7
 
 [@SAMAK_NPC1_5]
@@ -744,7 +744,7 @@ IsGuildMaster
 checkitem 森罗片 1
 checkitemw 头子证件 1
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg26]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg26]
 EventMSG [D1901] %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_5_EventMSG
 MonClear DQ1902_003
@@ -760,7 +760,7 @@ break
 [@SAMAK_NPC1_5_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg27]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg27]
 EventMSG "D1901,D1902,D1903" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='3',FLD_SAMAKSTATUSRDY='1'"
@@ -772,35 +772,35 @@ Delaygoto [Grobal] 100 @Samak_NPC1_5_Mongen
 [@SAMAK_NPC1_5_EventMSG_1_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg28]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg28]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_5_EventMSG_1
 
 [@SAMAK_NPC1_5_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg29]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg29]
 EventMSG "DQ1902_003,DQ1902_004,DQ1902_005" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_5_EventMSG_2
 
 [@SAMAK_NPC1_5_EventMSG_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg30]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg30]
 EventMSG "DQ1902_003,DQ1902_004,DQ1902_005" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_5_EventMSG_3
 
 [@SAMAK_NPC1_5_EventMSG_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg31]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg31]
 EventMSG "DQ1902_003,DQ1902_004,DQ1902_005" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_5_EventMSG_4
 
 [@SAMAK_NPC1_5_EventMSG_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg32]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg32]
 EventMSG "DQ1902_003,DQ1902_004,DQ1902_005" %A7
 Delaygoto [Grobal] 7200 @Samak_NPC1_5_TimeOut
 
@@ -823,7 +823,7 @@ Equal D2 4
 break
 
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg33]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg33]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005" %A7
 MapTing D1901 5 252 103
 MapTing D1902 5 252 103
@@ -937,35 +937,35 @@ break
 Checkitem 简易钥匙 3
 checkitemw 头子证件 1
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg34]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg34]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_5_NextMission
 
 [@Samak_NPC1_5_NextMission]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg35]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg35]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_5_NextMission_1
 
 [@Samak_NPC1_5_NextMission_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg36]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg36]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_5_NextMission_2
 
 [@Samak_NPC1_5_NextMission_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg37]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg37]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_5_NextMission_3
 
 [@Samak_NPC1_5_NextMission_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg38]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg38]
 EventMSG "D1901,D1902,D1903" %A7
 take 简易钥匙 3
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -994,7 +994,7 @@ break
 checkitem 森罗片 2
 checkitemw 头子证件 1
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg39]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg39]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 10 @Samak_NPC1_6_EventMSG
 
@@ -1008,14 +1008,14 @@ checkitemw 头子证件 1
 [@Samak_NPC1_6_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg40]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg40]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_6_EventMSG_1
 
 [@Samak_NPC1_6_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg41]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg41]
 EventMSG "D1901,D1902,D1903" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='1'"
@@ -1026,7 +1026,7 @@ IsGuildMaster
 Checkitemw 头子证件 1
 checkitem 森罗片 3
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg42]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg42]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_7_1
 break
@@ -1064,21 +1064,21 @@ break
 [@Samak_NPC1_7_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg43]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg43]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_7_2
 
 [@Samak_NPC1_7_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg44]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg44]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC1_7_3
 
 [@Samak_NPC1_7_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg45]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg45]
 EventMSG "D1901,D1902,D1903" %A7
 take 森罗片 3
 give 森罗石 1
@@ -1109,7 +1109,7 @@ break
 IsGuildMaster
 checkitemw 头子证件 1
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg46]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg46]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1118,98 +1118,98 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='5',FLD_SAMAKSTATUSRD
 [@SAMAK_NPC1_QuestRetry_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg47]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg47]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [grobal] 7 @SAMAK_NPC1_QuestRetry_2
 
 [@SAMAK_NPC1_QuestRetry_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg48]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg48]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [grobal] 7 @SAMAK_NPC1_QuestRetry_3
 
 [@SAMAK_NPC1_QuestRetry_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg49]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg49]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [grobal] 7 @SAMAK_NPC1_QuestRetry_4
 
 [@SAMAK_NPC1_QuestRetry_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg50]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg50]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_5
 
 [@SAMAK_NPC1_QuestRetry_5]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg51]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg51]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_6
 
 [@SAMAK_NPC1_QuestRetry_6]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg52]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg52]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_7
 
 [@SAMAK_NPC1_QuestRetry_7]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg53]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg53]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_8
 
 [@SAMAK_NPC1_QuestRetry_8]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg54]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg54]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_9
 
 [@SAMAK_NPC1_QuestRetry_9]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg55]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg55]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_10
 
 [@SAMAK_NPC1_QuestRetry_10]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg56]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg56]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_11
 
 [@SAMAK_NPC1_QuestRetry_11]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg57]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg57]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_12
 
 [@SAMAK_NPC1_QuestRetry_12]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg58]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg58]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_13
 
 [@SAMAK_NPC1_QuestRetry_13]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg59]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg59]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @SAMAK_NPC1_QuestRetry_14
 
 [@SAMAK_NPC1_QuestRetry_14]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg60]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg60]
 EventMSG "D1901,D1902,D1903" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='5',FLD_SAMAKSTATUSRDY='2'"
@@ -1302,7 +1302,7 @@ break
 [@SAMAK_NPC2_1_Complete]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg61]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg61]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005" %A7
 break
 
@@ -1390,7 +1390,7 @@ break
 #IF
 Equal D2 7
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg62]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg62]
 EventMSG "D1901,D1902,D1903" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='8'"
@@ -1399,7 +1399,7 @@ break
 #IF
 !IsGuildMaster
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg63]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg63]
 EventMSG "D1901,D1902,D1903" %A7
 Inc D2 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1408,7 +1408,7 @@ FormatStr "FLD_SAMAKSTATUSRDY='%s'" %D2
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg64]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg64]
 EventMSG "D1901,D1902,D1903" %A7
 Inc D2 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1421,7 +1421,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 IsGuildMaster
 checkitemw 头子证件 1
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg65]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg65]
 EventMSG "D1901,D1902,D1903,DQ1903_002" %A7
 Delaygoto [Grobal] 7 @Samak_NPC3_Num1_EventMSG
 
@@ -1435,7 +1435,7 @@ break
 #IF
 #ACT
 MonClear DQ1903_002
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg66]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg66]
 EventMSG "D1901,D1902,D1903,DQ1903_002" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='9'"
@@ -1452,7 +1452,7 @@ IsGuildMaster
 Mapting D1901 DQ1903_002 40 40
 Mapting D1902 DQ1903_002 40 40
 Mapting D1903 DQ1903_002 40 40
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg67]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg67]
 EventMSG "PRIVATE" %A7
 Mov D0 0
 Mov D1 0
@@ -1464,14 +1464,14 @@ Delaygoto [Grobal] 7 @Samak_NPC3_3_Helper
 [@Samak_NPC3_3_Helper]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg68]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg68]
 EventMSG "PRIVATE" %A7
 Delaygoto [Grobal] 7 @Samak_NPC3_3_Helper_1
 
 [@Samak_NPC3_3_Helper_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg69]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg69]
 EventMSG "PRIVATE" %A7
 Delaygoto [Grobal] 7 @Samak_NPC3_3_PuzzleSet
 break
@@ -1614,19 +1614,19 @@ Delaygoto [Grobal] 3 @Samak_NPC3_3_PuzzleFail
 [@Samak_NPC3_3_PuzzleFail]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg70]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg70]
 EventMSG "D1901,D1902,D1903,DQ1903_002" %A7
 
 [@Samak_NPC3_3_PuzzleResult_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg71]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg71]
 EventMSG "D1901,D1902,D1903,DQ1903_002" %A7
 Delaygoto [Grobal] 3 @Samak_NPC3_3_PuzzleResult_2
 
 [@Samak_NPC3_3_PuzzleResult_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg72]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg72]
 EventMSG "D1901,D1902,D1903,DQ1903_002" %A7
 Mapting DQ1903_002 5 253 102
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1714,7 +1714,7 @@ break
 #IF
 !IsGuildMaster
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg73]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg73]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NPC4_2_1
 break
@@ -1724,34 +1724,34 @@ MonClear DQ1903_003
 Mapting D1901 DQ1903_003 40 40
 Mapting D1902 DQ1903_003 40 40
 Mapting D1903 DQ1903_003 40 40
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg74]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg74]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 Delaygoto [Grobal] 7 @Samak_NPC4_EventMSG
 
 [@Samak_NPC4_2_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg75]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg75]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 
 [@Samak_NPC4_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg76]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg76]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 Delaygoto [Grobal] 7 @Samak_NPC4_EventMSG_1
 
 [@Samak_NPC4_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg77]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg77]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 Delaygoto [Grobal] 7 @Samak_NPC4_EventMSG_2
 
 [@Samak_NPC4_EventMSG_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg78]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg78]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 Delaygoto [Grobal] 100 @Samak_NPC4_Mongen
 goto @Samak_NPC4_MapSpell
@@ -1785,7 +1785,7 @@ Delaygoto [Grobal] 50 @Samak_NPC4_MapSpell
 [@Samak_NPC4_Miss]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg79]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg79]
 EventMSG "D1901,D1902,D1903" %A7
 break
 
@@ -1793,7 +1793,7 @@ break
 #IF
 Equal D2 7
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg80]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg80]
 EventMSG "D1901,D1902,D1903" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='8'"
@@ -1802,7 +1802,7 @@ break
 #IF
 !IsGuildMaster
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg81]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg81]
 EventMSG "D1901,D1902,D1903" %A7
 Inc D2 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1810,7 +1810,7 @@ Mov A8 %A9
 FormatStr "FLD_SAMAKSTATUSRDY='%s'" %D2
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg82]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg82]
 EventMSG "D1901,D1902,D1903" %A7
 Inc D2 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1920,7 +1920,7 @@ break
 #IF
 IsGuildMaster
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg83]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg83]
 EventMSG "D1901,D1902,D1903" %A7
 break
 
@@ -1934,7 +1934,7 @@ break
 #IF
 Equal D2 7
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg84]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg84]
 EventMSG "D1901,D1902,D1903" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='8'"
@@ -1942,7 +1942,7 @@ break
 
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg85]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg85]
 EventMSG "D1901,D1902,D1903" %A7
 Inc D2 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1950,7 +1950,7 @@ Mov A8 %A9
 FormatStr "FLD_SAMAKSTATUSRDY='%s'" %D2
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg86]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg86]
 EventMSG "D1901,D1902,D1903" %A7
 Inc D2 1
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1969,7 +1969,7 @@ UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A8 %A9
 checkitemw 头子证件 1
 #ACT
 MonClear DQ1903_003
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg87]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg87]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 Mapting D1901 DQ1903_003 40 40
 Mapting D1902 DQ1903_003 40 40
@@ -1979,14 +1979,14 @@ Delaygoto [Grobal] 10 @Samak_NPC5_EventMSG
 [@Samak_NPC5_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg88]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg88]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 Delaygoto [Grobal] 10 @Samak_NPC5_EventMSG_1
 
 [@Samak_NPC5_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg89]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg89]
 EventMSG "D1901,D1902,D1903,DQ1903_003" %A7
 Delaygoto [Grobal] 100 @Samak_NPC5_Mongen
 
@@ -2018,7 +2018,7 @@ Delaygoto [Grobal] 480 @Samak_NPC5_Mongen
 
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg90]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg90]
 EventMSG [Private] %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='4',FLD_SAMAKSTATUSRDY='12'"
@@ -2857,7 +2857,7 @@ break
 #INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] @Convert_SamakCastleQuest_63
 
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg91]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg91]
 EventMSG "D1901,D1902,D1903,DQ1902_007" %A7
 Delaygoto [Grobal] 10 @Samak_NPC7_Puzzle_Mapting
 
@@ -2924,7 +2924,7 @@ break
 checkitemw 头子证件 1
 !CheckMonMap DQ1903_001 1 霸王守卫
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg92]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg92]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Samak_NPC8_EventMSG
 
@@ -2938,14 +2938,14 @@ break
 [@Samak_NPC8_EventMSG]
 #If
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg93]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg93]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Samak_NPC8_EventMSG_1
 
 [@Samak_NPC8_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg94]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg94]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 MongenP "DQ1903_001,40,30,1" 霸王守卫 1 "Noitem,大魔神血杯"
 MonPWR "DQ1903_001" "霸王守卫" [HP] 20000
@@ -2954,14 +2954,14 @@ Delaygoto [Grobal] 7 @Samak_NPC8_EventMSG_2
 [@Samak_NPC8_EventMSG_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg95]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg95]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Samak_NPC8_EventMSG_3
 
 [@Samak_NPC8_EventMSG_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\SamakCastleQuest.txt] [Convert] [Msg96]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/SamakCastleQuest.txt] [Convert] [Msg96]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 goto @Samak_NPC8_Mongen
 

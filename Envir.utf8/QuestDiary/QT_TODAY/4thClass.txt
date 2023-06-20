@@ -61,8 +61,8 @@ checkitem 金矿 2
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @401_Say_7
 
 #ACT        ;; 90欺季飘 犬伏肺 陛傈 2父傈 瘤鞭
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [401] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [401] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [401] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [401] [Reward_Amount_90]
 take 金矿 2
 give %A0 %D1
 reset [307] 2
@@ -78,8 +78,8 @@ checkitem 金矿 2
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @401_Say_7
 
 #ACT         ;; 10欺季飘 犬伏肺 孺硼付馆瘤 瘤鞭
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [401] [Reward_Race_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [401] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [401] [Reward_Race_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [401] [Reward_Amount_10]
 take 金矿 2
 give %A0 %D1
 reset [307] 2
@@ -152,8 +152,8 @@ checkitem  蛆卵 2
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @402_Say_7
 
 #ACT
-LoadValue A0 "GM_DEF\QT_TODAY\400Reward.txt" [402] [Reward_Race_90]
-LoadValue D1 "GM_DEF\QT_TODAY\400Reward.txt" [402] [Reward_Amount_90]
+LoadValue A0 "GM_DEF/QT_TODAY/400Reward.txt" [402] [Reward_Race_90]
+LoadValue D1 "GM_DEF/QT_TODAY/400Reward.txt" [402] [Reward_Amount_90]
 take 毒蜘蛛牙齿 5
 take 蝎子的尾巴 3
 take 蛆卵 2
@@ -173,8 +173,8 @@ checkitem  蛆卵 2
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @402_Say_7
 
 #ACT
-LoadValue A0 "GM_DEF\QT_TODAY\400Reward.txt" [402] [Reward_Race_10]
-LoadValue D1 "GM_DEF\QT_TODAY\400Reward.txt" [402] [Reward_Amount_10]
+LoadValue A0 "GM_DEF/QT_TODAY/400Reward.txt" [402] [Reward_Race_10]
+LoadValue D1 "GM_DEF/QT_TODAY/400Reward.txt" [402] [Reward_Amount_10]
 take 毒蜘蛛牙齿 5
 take 蝎子的尾巴 3
 take 蛆卵 2
@@ -1058,8 +1058,8 @@ checkitem 褐色栗子 5
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @411_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [411] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [411] [REward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [411] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [411] [REward_Amount_90]
 take 褐色栗子 5
 give %A0 %D1
 reset [310] 0
@@ -1075,8 +1075,8 @@ checkitem 褐色栗子 5
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @411_Say_7
 
 #ACT
-LoadValue A1 "GM_Def\QT_TODAY\400Reward.txt" [411] [Reward_Race_10]
-LoadValue D2 "GM_Def\QT_TODAY\400Reward.txt" [411] [Reward_Amount_10]
+LoadValue A1 "GM_Def/QT_TODAY/400Reward.txt" [411] [Reward_Race_10]
+LoadValue D2 "GM_Def/QT_TODAY/400Reward.txt" [411] [Reward_Amount_10]
 take 褐色栗子 5
 give %A1 %D2
 reset [310] 0
@@ -1149,10 +1149,10 @@ checkitem 千年毒蛇血 3
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @412_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [412] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [412] [Reward_Amount_90]
-LoadValue A1 "GM_Def\QT_TODAY\400Reward.txt" [412] [Reward_Race_90]
-LoadValue D2 "GM_Def\QT_TODAY\400Reward.txt" [412] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [412] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [412] [Reward_Amount_90]
+LoadValue A1 "GM_Def/QT_TODAY/400Reward.txt" [412] [Reward_Race_90]
+LoadValue D2 "GM_Def/QT_TODAY/400Reward.txt" [412] [Reward_Amount_90]
 take 千年毒蛇血 3
 give %A0 %D1
 give %A1 %D2
@@ -1169,8 +1169,8 @@ checkitem 千年毒蛇血 3
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @412_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [412] [Reward_Race_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [412] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [412] [Reward_Race_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [412] [Reward_Amount_10]
 take 千年毒蛇血 3
 give %A0 %D1
 reset [307] 2
@@ -1243,8 +1243,8 @@ checkdura 铁矿 17
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @413_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [413] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [413] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [413] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [413] [Reward_Amount_90]
 take 铁矿 1
 give %A0 %D1
 reset [307] 2
@@ -1261,8 +1261,8 @@ checkdura 铁矿 17
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @413_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [413] [Reward_Race_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [413] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [413] [Reward_Race_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [413] [Reward_Amount_10]
 take 铁矿 1
 give %A0 %D1
 reset [307] 2
@@ -1333,8 +1333,8 @@ small D0 90
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @414_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [414] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [414] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [414] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [414] [Reward_Amount_90]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1349,8 +1349,8 @@ large D0 89
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @414_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [414] [Reward_Race_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [414] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [414] [Reward_Race_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [414] [Reward_Amount_10]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -1814,10 +1814,10 @@ checkitem 自然神水（小） 2
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @419_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [419] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [419] [Reward_Amount_90]
-LoadValue A1 "GM_Def\QT_TODAY\400Reward.txt" [419] [Reward_Race_90_1Th]
-LoadValue D2 "GM_Def\QT_TODAY\400Reward.txt" [419] [Reward_Amount_90_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [419] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [419] [Reward_Amount_90]
+LoadValue A1 "GM_Def/QT_TODAY/400Reward.txt" [419] [Reward_Race_90_1Th]
+LoadValue D2 "GM_Def/QT_TODAY/400Reward.txt" [419] [Reward_Amount_90_1Th]
 take 蚂蚁卵 20
 take 自然神水（小） 2
 give %A0 %D1
@@ -4536,10 +4536,10 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [445] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [445] [Reward_Amount_90]
-LoadValue A1 "GM_Def\QT_TODAY\400Reward.txt" [445] [Reward_Race_90_1Th]
-LoadValue D2 "GM_Def\QT_TODAY\400Reward.txt" [445] [Reward_Amount_90_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [445] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [445] [Reward_Amount_90]
+LoadValue A1 "GM_Def/QT_TODAY/400Reward.txt" [445] [Reward_Race_90_1Th]
+LoadValue D2 "GM_Def/QT_TODAY/400Reward.txt" [445] [Reward_Amount_90_1Th]
 give %A0 %D1
 give %A1 %D2
 reset [307] 2
@@ -4553,8 +4553,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [445] [Reward_Race_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [445] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [445] [Reward_Race_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [445] [Reward_Amount_10]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4653,10 +4653,10 @@ checkitem 骷髅骨 20
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @446_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [446] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [446] [Reward_Amount_90]
-LoadValue A1 "GM_Def\QT_TODAY\400Reward.txt" [446] [Reward_Race_90_1Th]
-LoadValue D2 "GM_Def\QT_TODAY\400Reward.txt" [446] [Reward_Amount_90_1Th]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [446] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [446] [Reward_Amount_90]
+LoadValue A1 "GM_Def/QT_TODAY/400Reward.txt" [446] [Reward_Race_90_1Th]
+LoadValue D2 "GM_Def/QT_TODAY/400Reward.txt" [446] [Reward_Amount_90_1Th]
 take 骷髅骨 20
 give %A0 %D1
 give %A1 %D2
@@ -4673,8 +4673,8 @@ checkitem 骷髅骨 20
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @446_Say_7
 
 #ACT
-LoadValue A2 "GM_Def\QT_TODAY\400Reward.txt" [446] [Reward_Race_10]
-LoadValue D3 "GM_Def\QT_TODAY\400Reward.txt" [446] [Reward_Amount_10]
+LoadValue A2 "GM_Def/QT_TODAY/400Reward.txt" [446] [Reward_Race_10]
+LoadValue D3 "GM_Def/QT_TODAY/400Reward.txt" [446] [Reward_Amount_10]
 take 骷髅骨 20
 give %A2 %D3
 reset [307] 2
@@ -4758,8 +4758,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [447] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [447] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [447] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [447] [Reward_Amount_90]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4773,8 +4773,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [447] [Reward_Race_Man_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [447] [Reward_Amount_Man_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [447] [Reward_Race_Man_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [447] [Reward_Amount_Man_10]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4782,8 +4782,8 @@ set [310] 1
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @447_Say_7
 
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [447] [Reward_Race_WoMan_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [447] [Reward_Amount_WoMan_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [447] [Reward_Race_WoMan_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [447] [Reward_Amount_WoMan_10]
 give %A0 %D1
 reset [307] 2
 set [310] 1
@@ -4883,8 +4883,8 @@ checkitem 劳动蚂蚁卵 3
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @448_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [448] [Reward_Race_90]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [448] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [448] [Reward_Race_90]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [448] [Reward_Amount_90]
 take 劳动蚂蚁卵 3
 give %A0 %D1
 reset [307] 2
@@ -4900,8 +4900,8 @@ checkitem 劳动蚂蚁卵 3
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/4thClassSay.txt] @448_Say_7
 
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [448] [Reward_Race_10]
-LoadValue D1 "GM_Def\QT_TODAY\400Reward.txt" [448] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [448] [Reward_Race_10]
+LoadValue D1 "GM_Def/QT_TODAY/400Reward.txt" [448] [Reward_Amount_10]
 take 劳动蚂蚁卵 3
 give %A0 %D1
 reset [307] 2

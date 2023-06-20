@@ -359,7 +359,7 @@ break
 #IF
 large N9 2
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\MadoextinctionNpc.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/MadoextinctionNpc.txt] [Convert] [Msg0]
 SYSMSG %A7
 mapting D16061 41 148 84
 FormatStr "FLD_MADOUSER='%s'" %USERNAME

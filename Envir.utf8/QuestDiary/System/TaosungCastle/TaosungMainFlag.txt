@@ -117,9 +117,9 @@ CAPTURECASTLEFLAG [TAOSUNG]
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Confuse'"
 mov D0 0
 SENDCMD "5, 0, 0, 1000" 『沙漠土城旗幟』 "@_Startup"
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg0]
 linemsg "5" %A7
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg1]
 linemsg "5" %A7
 ApplyMonEX "5,267,145,5" 木栅栏2 [Humanside]
 ApplyMonEX "5,201,159,5" 木栅栏4 [Humanside]
@@ -131,7 +131,7 @@ goto @RecusiveTimeRootin_next_TAOSUNG
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg2]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG1
 
@@ -139,7 +139,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG1
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg3]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG2
 
@@ -147,7 +147,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG2
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg4]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG3
 
@@ -155,7 +155,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG3
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg5]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG4
 
@@ -163,7 +163,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG4
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg6]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg6]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG5
 
@@ -171,7 +171,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG5
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg7]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg7]
 speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG6
 
@@ -179,7 +179,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG6
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg8]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg8]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG7
 
@@ -187,7 +187,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG7
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg9]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg9]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG8
 
@@ -195,7 +195,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG8
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg10]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg10]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG9
 
@@ -203,7 +203,7 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG9
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg11]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg11]
 Speak %A7
 Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG10
 
@@ -211,10 +211,10 @@ Delaygoto [Grobal] 18 @RecusiveTimeRootin_next_TAOSUNG10
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg12]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg12]
 Speak %A7
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Ready'"
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungMainFlag.txt] [Convert] [Msg13]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungMainFlag.txt] [Convert] [Msg13]
 LineMsg "5" %A7
 break
 

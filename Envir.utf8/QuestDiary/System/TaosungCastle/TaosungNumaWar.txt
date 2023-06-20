@@ -25,7 +25,7 @@ Equal A1 "NUMA"
 ApplyMonEX "5,267,145,5" 木栅栏2 [Monsterside]
 ApplyMonEX "5,201,159,5" 木栅栏4 [Monsterside]
 ApplyMonEX "5,211,96,5" 木栅栏1 [Monsterside]
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg0]
 EventMsg "4,5" %A7 18
 goto @TosungCastleWar_Numa_Defence
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_MonZen_A
@@ -39,7 +39,7 @@ break
 ApplyMonEX "5,267,145,5" 木栅栏2 [Humanside]
 ApplyMonEX "5,201,159,5" 木栅栏4 [Humanside]
 ApplyMonEX "5,211,96,5" 木栅栏1 [Humanside]
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg1]
 EventMsg "4,5" %A7 14
 goto @TosungCastleWar_Numa_TosungAttack
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_MonZen_B
@@ -53,12 +53,12 @@ break
 
 [@TosungCastleWar_Numa_MonZen_A]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg2]
 EventMsg "4,5" %A7 129
 
 [@TosungCastleWar_Numa_MonZen_B]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg3]
 EventMsg "4,5" %A7 18
 
 
@@ -267,9 +267,9 @@ ClearCastleOwner [Taosung]
 UpdateValueSql "TBL_TaoSungCastleWar" "FLD_TAOSUNG='TAOSUNG'" "FLD_TAOSUNGOWNER='NUMA'"
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Confuse'"
 mov D0 0
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg4]
 linemsg "5" %A7
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg5]
 linemsg "5" %A7
 ApplyMonEX "5,267,145,5" 木栅栏2 [Monsterside]
 ApplyMonEX "5,201,159,5" 木栅栏4 [Monsterside]
@@ -286,7 +286,7 @@ break
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg6]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg6]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG1
 
@@ -294,7 +294,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG1
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg7]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg7]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG2
 
@@ -302,7 +302,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG2
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg8]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg8]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG3
 
@@ -310,7 +310,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG3
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg9]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg9]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG4
 
@@ -318,7 +318,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG4
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg10]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg10]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG5
 
@@ -326,7 +326,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG5
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg11]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg11]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG6
 
@@ -334,7 +334,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG6
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg12]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg12]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG7
 
@@ -342,7 +342,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG7
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg13]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg13]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG8
 
@@ -350,7 +350,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG8
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg14]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg14]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG9
 
@@ -358,7 +358,7 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG9
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg15]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg15]
 linemsg "5" %A7
 Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG10
 
@@ -366,10 +366,10 @@ Delaygoto [Grobal] 18 @TosungCastleWar_owner_TAOSUNG10
 #IF
 IsOnCastleWar [TAOSUNG]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg16]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg16]
 linemsg "5" %A7
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Ready'"
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg17]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg17]
 LineMsg "5" %A7
 break
 
@@ -429,7 +429,7 @@ Mov A1 %ARG(1)
 #IF
 Equal A1 "NUMA"
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg18]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg18]
 EventMsg Grobal %A7 129
 MonClear "5" 诺玛8
 MonClear "5" 诺玛9
@@ -442,7 +442,7 @@ Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_1
 
 #ELSEACT
 Monclear
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg19]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg19]
 EventMsg Grobal %A7 129
 MonClear "5" 诺玛8
 MonClear "5" 诺玛9
@@ -456,32 +456,32 @@ Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_1
 
 [@TosungCastleWar_Numa_FinishA_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg20]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg20]
 EventMsg Grobal %A7 18
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_2
 
 [@TosungCastleWar_Numa_FinishA_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg21]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg21]
 EventMsg Grobal %A7 129
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_3
 
 [@TosungCastleWar_Numa_FinishA_3]
 #ACT
 ClearCastleGold [TAOSUNG]
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg22]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg22]
 EventMsg Grobal %A7 18
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_4
 
 [@TosungCastleWar_Numa_FinishA_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg23]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg23]
 EventMsg Grobal %A7 14
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishA_5
 
 [@TosungCastleWar_Numa_FinishA_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg24]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg24]
 EventMsg Grobal %A7 18
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack
 
@@ -489,25 +489,25 @@ Delaygoto [Grobal] 300 @TosungCastle_VillageAttack
 
 [@TosungCastleWar_Numa_FinishB_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg25]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg25]
 EventMsg Grobal %A7 14
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_2
 
 [@TosungCastleWar_Numa_FinishB_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg26]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg26]
 EventMsg Grobal %A7 18
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_3
 
 [@TosungCastleWar_Numa_FinishB_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg27]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg27]
 EventMsg Grobal %A7 14
 Delaygoto [Grobal] 12 @TosungCastleWar_Numa_FinishB_4
 
 [@TosungCastleWar_Numa_FinishB_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg28]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg28]
 EventMsg Grobal %A7 18
 
 
@@ -591,13 +591,13 @@ AddPath 166, 130
 AddPath 155, 134
 ApplyPath "4,258,141,10" 诺玛将士7
 ClearPath
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg29]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg29]
 EventMsg "4,5" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_1
 
 [@TosungCastle_VillageAttack_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg30]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg30]
 EventMsg "4,5" %A7 129
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_2
 
@@ -607,7 +607,7 @@ MonGenP "4,155,134,5" 单腿诺玛 5
 ApplyMonEx "4,155,134,15" 单腿诺玛 [Humanside] [RunAway]
 mongenp "4,155,134,10" 诺玛7 15
 ApplyMonEx "4,155,134,20" 诺玛7 [Humanside] 诺玛阻力军
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg31]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg31]
 EventMsg "4,5" %A7 10821
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_3
 
@@ -688,13 +688,13 @@ AddPath 166, 130
 AddPath 155, 134
 ApplyPath "4,258,141,10" 诺玛将士7
 ClearPath
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg32]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg32]
 EventMsg "4,5" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_4
 
 [@TosungCastle_VillageAttack_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg33]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg33]
 EventMsg "4,5" %A7 10821
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_5
 
@@ -702,7 +702,7 @@ Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_5
 
 [@TosungCastle_VillageAttack_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg34]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg34]
 EventMsg "4,5" %A7 10801
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_6
 
@@ -783,13 +783,13 @@ AddPath 166, 130
 AddPath 155, 134
 ApplyPath "4,258,141,10" 诺玛将士7
 ClearPath
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg35]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg35]
 EventMsg "4,5" %A7 10821
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_7
 
 [@TosungCastle_VillageAttack_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg36]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg36]
 EventMsg "4,5" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_8
 
@@ -797,43 +797,43 @@ Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_8
 
 [@TosungCastle_VillageAttack_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg37]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg37]
 EventMsg "4,5" %A7 14
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_9
 
 [@TosungCastle_VillageAttack_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg38]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg38]
 EventMsg "4,5" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_10
 
 [@TosungCastle_VillageAttack_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg39]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg39]
 EventMsg "4,5" %A7 14
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_11
 
 [@TosungCastle_VillageAttack_11]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg40]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg40]
 EventMsg "4,5" %A7
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_12
 
 [@TosungCastle_VillageAttack_12]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg41]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg41]
 EventMsg "4,5" %A7 14
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_13
 
 [@TosungCastle_VillageAttack_13]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg42]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg42]
 EventMsg "4,5" %A7 186
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_14
 
 [@TosungCastle_VillageAttack_14]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg43]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg43]
 EventMsg "4,5" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_15
 
@@ -919,7 +919,7 @@ AddPath 176, 141
 AddPath 166, 130
 AddPath 155, 134
 ApplyPath "4,258,141,10" 诺玛突击队长
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg44]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg44]
 EventMsg "4,5" %A7 186
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_0
 
@@ -1242,7 +1242,7 @@ AddPath 166, 130
 AddPath 155, 134
 ApplyPath "4,258,141,10" 诺玛将士7
 ClearPath
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg45]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg45]
 EventMsg "4,5" %A7 186
 Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_1
 #ELSEACT
@@ -1250,39 +1250,39 @@ Delaygoto [Grobal] 300 @TosungCastle_VillageAttack_16_1
 
 [@TosungCastle_VillageAttack_16_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg46]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg46]
 EventMsg "4,5" %A7 14
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_17
 
 
 [@TosungCastle_VillageAttack_17]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg47]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg47]
 EventMsg "4,5" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_18
 
 [@TosungCastle_VillageAttack_18]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg48]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg48]
 EventMsg "4,5" %A7 14
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_20
 
 [@TosungCastle_VillageAttack_20]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg49]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg49]
 EventMsg "4,5" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_21
 
 [@TosungCastle_VillageAttack_21]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg50]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg50]
 EventMsg "4,5" %A7 14
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_22
 
 [@TosungCastle_VillageAttack_23]
 #ACT
 monclear 4
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg51]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg51]
 EventMsg "4,5" %A7 18
 
 
@@ -1292,25 +1292,25 @@ EventMsg "4,5" %A7 18
 [@TosungCastle_VillageAttack_Numa]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg52]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg52]
 EventMsg "4" %A7 186
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_Numa_1
 
 [@TosungCastle_VillageAttack_Numa_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg53]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg53]
 EventMsg "4" %A7 129
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_Numa_2
 
 [@TosungCastle_VillageAttack_Numa_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg54]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg54]
 EventMsg "4" %A7 18
 Delaygoto [Grobal] 12 @TosungCastle_VillageAttack_Numa_3
 
 [@TosungCastle_VillageAttack_Numa_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg55]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg55]
 EventMsg "4" %A7 14
 
 }
@@ -1328,40 +1328,40 @@ Mov A1 %ARG(1)
 #IF
 !Equal A1 "NUMA"
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg56]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg56]
 EventMsg Grobal %A7 18
 Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgA_1
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg57]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg57]
 EventMsg Grobal %A7 129
 Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgB_1
 
 [@TosungCastleWar_NumaMsgA_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg58]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg58]
 EventMsg Grobal %A7 14
 Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgA_2
 
 [@TosungCastleWar_NumaMsgA_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg59]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg59]
 EventMsg Grobal %A7 129
 Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgA_3
 
 [@TosungCastleWar_NumaMsgA_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg60]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg60]
 EventMsg Grobal %A7 18
 
 [@TosungCastleWar_NumaMsgB_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg61]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg61]
 EventMsg Grobal %A7 18
 Delaygoto [Grobal] 12 @TosungCastleWar_NumaMsgB_3
 
 [@TosungCastleWar_NumaMsgB_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungNumaWar.txt] [Convert] [Msg62]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] [Convert] [Msg62]
 EventMsg Grobal %A7 18
 }
 ;;不要删掉此行

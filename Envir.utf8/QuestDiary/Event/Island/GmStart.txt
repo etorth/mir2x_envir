@@ -11,7 +11,7 @@
 #Define  N9{DropGold} N9                             ;N9   吝埃惑陛
 
 #ACT
-  LoadValue P1 "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold"
+  LoadValue P1 "Flag_Def/Event/Island/Gold.txt" "GOLD" "AddGold"
 
 #IF
   Small P1 1000000   ;; 檬扁 陛咀 100父栏肺
@@ -48,7 +48,7 @@
 	SetEventMap  "Island02"                                ; new cmd 捞亥飘甘栏肺 父惦 (ResetEventMap)
 	ChangeMapAttr  "Island02" "NOCHAT"                     ; 盲泼阑 且荐 绝霸 技泼
 	SendCmd  "Island02, 95, 135, 5"  生存游戏场美眉  Hide
-	LoadValue A0 [Convert_Def\QuestDiary\Event\Island\GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg1]
+	LoadValue A0 [Convert_Def/QuestDiary/Event/Island/GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg1]
 	LineMsg  "Grobal"  %A0
 	goto @GenMonkeys                                       ; 阁胶磐 哩 包府 何盒
 	goto @CheckFinishCondition                             ; 焊拱级 捞亥飘 傈眉 包府 何盒
@@ -77,8 +77,8 @@ begin
 		MonClear "Island02" "猿猴战将"
 		MonClear "Island02" "魔神怪1"
 		MonClear "Island02" "聚宝箱4"
-   	LoadValue A0 [Convert_Def\QuestDiary\Event\Island\GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg2]
-   	LoadValue A1 [Convert_Def\QuestDiary\Event\Island\GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg3]
+   	LoadValue A0 [Convert_Def/QuestDiary/Event/Island/GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg2]
+   	LoadValue A1 [Convert_Def/QuestDiary/Event/Island/GmStart.txt] [Event_Island_GmStart_EventMsg] [Msg3]
 		LineMsg  "Grobal"  %A0
 		LineMsg  "Grobal"  %A1
 		SaveValue "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold" %N8       ;; 吝瘤 捞岿 陛咀阑 历厘

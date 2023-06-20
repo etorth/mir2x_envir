@@ -510,7 +510,7 @@ Reward_Race_90_Type1_1=战神油
 Reward_Amount_90_Type1_1=3
 
 
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Race_10_Type1_1]
-	LoadValue P0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Race_10_Type1_1]
+	LoadValue P0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Amount_10_Type1_1]
 	Give %A0 %P0
 	Mov A0 0

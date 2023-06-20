@@ -30,13 +30,13 @@ Delaygoto [Local] 60 @Samak_CastleMaster_Login
 #IF
 IsAdmin
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Login.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Login.txt] [Convert] [Msg0]
 sysmsg %A7
 
 #IF
 IsAdmin
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Login.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Login.txt] [Convert] [Msg1]
 sysmsg %A7
 
 #IF
@@ -100,7 +100,7 @@ goto @Samak_NumasInvasion_Gen
 [@Samak_NumasInvasion_Gen]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Login.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Login.txt] [Convert] [Msg2]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Local] 240 @Samak_CastleMaster_Login
 Movr D0 5

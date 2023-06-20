@@ -4,73 +4,73 @@
 #ACT
 
 
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg0]
 Eventmsg "D16031" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_A_1
 
 [@mainMsgstep0_A_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg1]
 Eventmsg "D16031" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_A_2
 
 [@mainMsgstep0_A_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg2]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_A_3
 
 [@mainMsgstep0_A_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg3]
 Eventmsg "D16031" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_A_4
 
 [@mainMsgstep0_A_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg4]
 Eventmsg "D16031" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_A_5
 
 [@mainMsgstep0_A_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg5]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_A_6
 
 [@mainMsgstep0_A_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg6]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg6]
 Eventmsg "D16031" %A7 185
 Delaygoto [Grobal] 12 @mainMsgstep0_A_7
 
 [@mainMsgstep0_A_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg7]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg7]
 Eventmsg "D16031" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_A_7_1
 
 [@mainMsgstep0_A_7_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg8]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg8]
 Eventmsg "D16031" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_A_8
 
 [@mainMsgstep0_A_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg9]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg9]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_A_9
 
 [@mainMsgstep0_A_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg10]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg10]
 Eventmsg "D16031" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_A_10
 
 [@mainMsgstep0_A_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg11]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg11]
 Eventmsg "D16031" %A7 183
 
 }
@@ -80,73 +80,73 @@ Eventmsg "D16031" %A7 183
 #ACT
 
 
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg12]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg12]
 Eventmsg "D16032" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_B_1
 
 [@mainMsgstep0_B_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg13]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg13]
 Eventmsg "D16032" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_B_2
 
 [@mainMsgstep0_B_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg14]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg14]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_B_3
 
 [@mainMsgstep0_B_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg15]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg15]
 Eventmsg "D16032" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_B_4
 
 [@mainMsgstep0_B_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg16]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg16]
 Eventmsg "D16032" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_B_5
 
 [@mainMsgstep0_B_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg17]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg17]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_B_6
 
 [@mainMsgstep0_B_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg18]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg18]
 Eventmsg "D16032" %A7 185
 Delaygoto [Grobal] 12 @mainMsgstep0_B_7
 
 [@mainMsgstep0_B_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg19]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg19]
 Eventmsg "D16032" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_B_7_1
 
 [@mainMsgstep0_B_7_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg20]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg20]
 Eventmsg "D16032" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_B_8
 
 [@mainMsgstep0_B_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg21]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg21]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_B_9
 
 [@mainMsgstep0_B_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg22]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg22]
 Eventmsg "D16032" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_B_10
 
 [@mainMsgstep0_B_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg23]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg23]
 Eventmsg "D16032" %A7 183
 }
 
@@ -155,73 +155,73 @@ Eventmsg "D16032" %A7 183
 #ACT
 
 
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg24]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg24]
 Eventmsg "D16033" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_C_1
 
 [@mainMsgstep0_C_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg25]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg25]
 Eventmsg "D16033" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_C_2
 
 [@mainMsgstep0_C_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg26]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg26]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_C_3
 
 [@mainMsgstep0_C_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg27]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg27]
 Eventmsg "D16033" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_C_4
 
 [@mainMsgstep0_C_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg28]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg28]
 Eventmsg "D16033" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_C_5
 
 [@mainMsgstep0_C_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg29]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg29]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_C_6
 
 [@mainMsgstep0_C_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg30]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg30]
 Eventmsg "D16033" %A7 185
 Delaygoto [Grobal] 12 @mainMsgstep0_C_7
 
 [@mainMsgstep0_C_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg31]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg31]
 Eventmsg "D16033" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_C_7_1
 
 [@mainMsgstep0_C_7_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg32]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg32]
 Eventmsg "D16033" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_C_8
 
 [@mainMsgstep0_C_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg33]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg33]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_C_9
 
 [@mainMsgstep0_C_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg34]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg34]
 Eventmsg "D16033" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_C_10
 
 [@mainMsgstep0_C_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg35]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg35]
 Eventmsg "D16033" %A7 183
 
 }
@@ -231,73 +231,73 @@ Eventmsg "D16033" %A7 183
 #ACT
 
 
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg36]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg36]
 Eventmsg "D16034" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_D_1
 
 [@mainMsgstep0_D_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg37]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg37]
 Eventmsg "D16034" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_D_2
 
 [@mainMsgstep0_D_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg38]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg38]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_D_3
 
 [@mainMsgstep0_D_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg39]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg39]
 Eventmsg "D16034" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_D_4
 
 [@mainMsgstep0_D_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg40]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg40]
 Eventmsg "D16034" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_D_5
 
 [@mainMsgstep0_D_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg41]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg41]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_D_6
 
 [@mainMsgstep0_D_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg42]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg42]
 Eventmsg "D16034" %A7 185
 Delaygoto [Grobal] 12 @mainMsgstep0_D_7
 
 [@mainMsgstep0_D_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg43]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg43]
 Eventmsg "D16034" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_D_7_1
 
 [@mainMsgstep0_D_7_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg44]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg44]
 Eventmsg "D16034" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_D_8
 
 [@mainMsgstep0_D_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg45]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg45]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep0_D_9
 
 [@mainMsgstep0_D_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg46]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg46]
 Eventmsg "D16034" %A7 183
 Delaygoto [Grobal] 12 @mainMsgstep0_D_10
 
 [@mainMsgstep0_D_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg47]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg47]
 Eventmsg "D16034" %A7 183
 
 }
@@ -314,25 +314,25 @@ monclear "D16033" ???
 monclear "D16033" 毁灭之印大师
 monclear "D16034" ???
 monclear "D16034" 毁灭之印大师
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg48]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg48]
 Eventmsg "D16031" %A7 2000
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg49]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg49]
 Eventmsg "D16032" %A7 2000
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg50]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg50]
 Eventmsg "D16033" %A7 2000
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg51]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg51]
 Eventmsg "D16034" %A7 2000
 Delaygoto [Grobal] 12 @mainMsgstep0_MonA_1
 
 [@mainMsgstep0_MonA_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg52]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg52]
 Eventmsg "D16031" %A7 183
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg53]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg53]
 Eventmsg "D16032" %A7 183
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg54]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg54]
 Eventmsg "D16033" %A7 183
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg55]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg55]
 Eventmsg "D16034" %A7 183
 
 
@@ -347,121 +347,121 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=3"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg56]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg56]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_1
 
 [@mainMsgstep3_1_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg57]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg57]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_1_2
 
 [@mainMsgstep3_1_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg58]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg58]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_3
 
 [@mainMsgstep3_1_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg59]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg59]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_1_4
 
 [@mainMsgstep3_1_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg60]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg60]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_5
 
 [@mainMsgstep3_1_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg61]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg61]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_6
 
 [@mainMsgstep3_1_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg62]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg62]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_1_7
 
 [@mainMsgstep3_1_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg63]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg63]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_8
 
 [@mainMsgstep3_1_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg64]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg64]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_9
 
 [@mainMsgstep3_1_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg65]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg65]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_1_10
 
 [@mainMsgstep3_1_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg66]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg66]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_11
 
 [@mainMsgstep3_1_11]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg67]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg67]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_11_0
 
 [@mainMsgstep3_1_11_0]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg68]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg68]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_12
 
 [@mainMsgstep3_1_12]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg69]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg69]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_1_13
 
 [@mainMsgstep3_1_13]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg70]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg70]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_14
 
 [@mainMsgstep3_1_14]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg71]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg71]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_15
 
 [@mainMsgstep3_1_15]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg72]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg72]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_16
 
 [@mainMsgstep3_1_16]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg73]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg73]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_1_17
 
 [@mainMsgstep3_1_17]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg74]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg74]
 Eventmsg "D16031" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_1_18
 
 [@mainMsgstep3_1_18]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg75]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg75]
 Eventmsg "D16031" %A7 186
 
 }
@@ -474,109 +474,109 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=3"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg76]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg76]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_1
 
 [@mainMsgstep3_2_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg77]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg77]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_2_2
 
 [@mainMsgstep3_2_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg78]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg78]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_3
 
 [@mainMsgstep3_2_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg79]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg79]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_2_4
 
 [@mainMsgstep3_2_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg80]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg80]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_5
 
 [@mainMsgstep3_2_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg81]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg81]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_6
 
 [@mainMsgstep3_2_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg82]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg82]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_2_7
 
 [@mainMsgstep3_2_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg83]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg83]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_8
 
 [@mainMsgstep3_2_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg84]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg84]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_9
 
 [@mainMsgstep3_2_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg85]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg85]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_2_10
 
 [@mainMsgstep3_2_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg86]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg86]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_11
 
 [@mainMsgstep3_2_11]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg87]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg87]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_12
 
 [@mainMsgstep3_2_12]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg88]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg88]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_2_13
 
 [@mainMsgstep3_2_13]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg89]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg89]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_14
 
 [@mainMsgstep3_2_14]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg90]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg90]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_15
 
 [@mainMsgstep3_2_15]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg91]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg91]
 Eventmsg "D16032" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_2_16
 
 [@mainMsgstep3_2_16]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg92]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg92]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_2_17
 
 [@mainMsgstep3_2_17]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg93]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg93]
 Eventmsg "D16032" %A7 186
 
 }
@@ -589,109 +589,109 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=3"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg94]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg94]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_1
 
 [@mainMsgstep3_3_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg95]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg95]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_3_2
 
 [@mainMsgstep3_3_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg96]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg96]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_3
 
 [@mainMsgstep3_3_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg97]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg97]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_3_4
 
 [@mainMsgstep3_3_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg98]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg98]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_5
 
 [@mainMsgstep3_3_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg99]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg99]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_6
 
 [@mainMsgstep3_3_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg100]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg100]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_3_7
 
 [@mainMsgstep3_3_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg101]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg101]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_8
 
 [@mainMsgstep3_3_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg102]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg102]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_9
 
 [@mainMsgstep3_3_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg103]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg103]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_3_10
 
 [@mainMsgstep3_3_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg104]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg104]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_11
 
 [@mainMsgstep3_3_11]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg105]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg105]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_12
 
 [@mainMsgstep3_3_12]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg106]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg106]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_3_13
 
 [@mainMsgstep3_3_13]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg107]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg107]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_14
 
 [@mainMsgstep3_3_14]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg108]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg108]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_15
 
 [@mainMsgstep3_3_15]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg109]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg109]
 Eventmsg "D16033" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_3_16
 
 [@mainMsgstep3_3_16]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg110]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg110]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_3_17
 
 [@mainMsgstep3_3_17]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg111]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg111]
 Eventmsg "D16033" %A7 186
 }
 
@@ -703,109 +703,109 @@ FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=3"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg112]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg112]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_1
 
 [@mainMsgstep3_4_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg113]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg113]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_4_2
 
 [@mainMsgstep3_4_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg114]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg114]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_3
 
 [@mainMsgstep3_4_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg115]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg115]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_4_4
 
 [@mainMsgstep3_4_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg116]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg116]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_5
 
 [@mainMsgstep3_4_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg117]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg117]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_6
 
 [@mainMsgstep3_4_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg118]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg118]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_4_7
 
 [@mainMsgstep3_4_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg119]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg119]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_8
 
 [@mainMsgstep3_4_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg120]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg120]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_9
 
 [@mainMsgstep3_4_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg121]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg121]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_4_10
 
 [@mainMsgstep3_4_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg122]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg122]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_11
 
 [@mainMsgstep3_4_11]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg123]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg123]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_12
 
 [@mainMsgstep3_4_12]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg124]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg124]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_4_13
 
 [@mainMsgstep3_4_13]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg125]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg125]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_14
 
 [@mainMsgstep3_4_14]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg126]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg126]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_15
 
 [@mainMsgstep3_4_15]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg127]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg127]
 Eventmsg "D16034" %A7 186
 Delaygoto [Grobal] 12 @mainMsgstep3_4_16
 
 [@mainMsgstep3_4_16]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg128]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg128]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @mainMsgstep3_4_17
 
 [@mainMsgstep3_4_17]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg129]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg129]
 Eventmsg "D16034" %A7 186
 
 }
@@ -815,32 +815,32 @@ Eventmsg "D16034" %A7 186
 {
 #ACT
 
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg130]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg130]
 Eventmsg "D16031" %A7 183
 Delaygoto [Grobal] 12 @MadofridayEventA_2
 
 [@MadofridayEventA_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg131]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg131]
 Eventmsg "D16031" %A7 14
 Delaygoto [Grobal] 12 @MadofridayEventA_3
 
 [@MadofridayEventA_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg132]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg132]
 Eventmsg "D16031" %A7 %D8
 Delaygoto [Grobal] 12 @MadofridayEventA_4
 
 [@MadofridayEventA_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg133]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg133]
 Eventmsg "D16031" %A7 14
 Movenpc "D16031,61,354,诺玛大法老1" npcroom1 10 7
 Delaygoto [Grobal] 12 @MadofridayEventA_5
 
 [@MadofridayEventA_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg134]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg134]
 Eventmsg "D16031" %A7 183
 Delaygoto [Grobal] 2400 @MadofridayEventA_6
 
@@ -857,7 +857,7 @@ break
 #ACT
 monclear D16031 阿龙怪
 monclear D16031 诺玛斧兵队
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg135]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg135]
 Eventmsg "D16031" %A7 183
 
 
@@ -867,32 +867,32 @@ Eventmsg "D16031" %A7 183
 {
 #ACT
 
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg136]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg136]
 Eventmsg "D16032" %A7 183
 Delaygoto [Grobal] 12 @MadofridayEventB_2
 
 [@MadofridayEventB_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg137]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg137]
 Eventmsg "D16032" %A7 14
 Delaygoto [Grobal] 12 @MadofridayEventB_3
 
 [@MadofridayEventB_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg138]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg138]
 Eventmsg "D16032" %A7 %D8
 Delaygoto [Grobal] 12 @MadofridayEventB_4
 
 [@MadofridayEventB_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg139]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg139]
 Eventmsg "D16032" %A7 14
 Movenpc "D16032,374,371,诺玛大法老2" npcroom1 10 8
 Delaygoto [Grobal] 12 @MadofridayEventB_5
 
 [@MadofridayEventB_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg140]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg140]
 Eventmsg "D16032" %A7 183
 Delaygoto [Grobal] 2400 @MadofridayEventB_6
 
@@ -909,7 +909,7 @@ break
 #ACT
 monclear D16032 阿龙怪
 monclear D16032 诺玛斧兵队
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg141]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg141]
 Eventmsg "D16032" %A7 183
 
 
@@ -919,32 +919,32 @@ Eventmsg "D16032" %A7 183
 [@MadofridayEventC_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg142]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg142]
 Eventmsg "D16033" %A7 183
 Delaygoto [Grobal] 12 @MadofridayEventC_2
 
 [@MadofridayEventC_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg143]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg143]
 Eventmsg "D16033" %A7 14
 Delaygoto [Grobal] 12 @MadofridayEventC_3
 
 [@MadofridayEventC_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg144]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg144]
 Eventmsg "D16033" %A7 %D8
 Delaygoto [Grobal] 12 @MadofridayEventC_4
 
 [@MadofridayEventC_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg145]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg145]
 Eventmsg "D16033" %A7 14
 Movenpc "D16033,369,46,诺玛大法老3" npcroom1 10 9
 Delaygoto [Grobal] 12 @MadofridayEventC_5
 
 [@MadofridayEventC_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg146]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg146]
 Eventmsg "D16033" %A7 183
 Delaygoto [Grobal] 2400 @MadofridayEventC_6
 
@@ -961,7 +961,7 @@ break
 #ACT
 monclear D16033 阿龙怪
 monclear D16033 诺玛斧兵队
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg147]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg147]
 Eventmsg "D16033" %A7 183
 
 
@@ -972,32 +972,32 @@ Eventmsg "D16033" %A7 183
 [@MadofridayEventD_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg148]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg148]
 Eventmsg "D16034" %A7 183
 Delaygoto [Grobal] 12 @MadofridayEventD_2
 
 [@MadofridayEventD_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg149]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg149]
 Eventmsg "D16034" %A7 14
 Delaygoto [Grobal] 12 @MadofridayEventD_3
 
 [@MadofridayEventD_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg150]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg150]
 Eventmsg "D16034" %A7 %D8
 Delaygoto [Grobal] 12 @MadofridayEventD_4
 
 [@MadofridayEventD_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg151]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg151]
 Eventmsg "D16034" %A7 14
 Movenpc "D16034,30,30,诺玛大法老4" npcroom1 10 10
 Delaygoto [Grobal] 12 @MadofridayEventD_5
 
 [@MadofridayEventD_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg152]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg152]
 Eventmsg "D16034" %A7 183
 Delaygoto [Grobal] 2400 @MadofridayEventD_6
 
@@ -1014,7 +1014,7 @@ break
 #ACT
 monclear D16034 阿龙怪
 monclear D16034 诺玛斧兵队
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg153]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg153]
 Eventmsg "D16034" %A7 183
 
 }
@@ -1023,19 +1023,19 @@ Eventmsg "D16034" %A7 183
 [@MadosundayEventcallnpcA_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg154]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg154]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcA_2
 
 [@MadosundayEventcallnpcA_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg155]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg155]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcA_3
 
 [@MadosundayEventcallnpcA_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg156]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg156]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 1800 @MadosundayEventcallnpcA_4
 
@@ -1055,13 +1055,13 @@ break
 #ACT
 MonClear D1604 阿龙怪
 MonClear D1604 诺玛斧兵
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg157]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg157]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcA_6
 
 [@MadosundayEventcallnpcA_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg158]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg158]
 Eventmsg "D1604" %A7 14
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
@@ -1072,7 +1072,7 @@ Delaygoto [Grobal] 12 @MadosundayEventcallnpcA_7
 
 [@MadosundayEventcallnpcA_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg159]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg159]
 Eventmsg "D1604" %A7 183
 FormatStr "FLD_MADOQUEST='%s'" "HonChon"
 UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
@@ -1082,19 +1082,19 @@ UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
 [@MadosundayEventcallnpcB_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg160]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg160]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcB_2
 
 [@MadosundayEventcallnpcB_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg161]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg161]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcB_3
 
 [@MadosundayEventcallnpcB_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg162]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg162]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 1800 @MadosundayEventcallnpcB_4
 
@@ -1113,13 +1113,13 @@ break
 #ACT
 MonClear D1604 阿龙怪
 MonClear D1604 诺玛斧兵
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg163]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg163]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcB_6
 
 [@MadosundayEventcallnpcB_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg164]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg164]
 Eventmsg "D1604" %A7 14
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
@@ -1130,7 +1130,7 @@ Delaygoto [Grobal] 12 @MadosundayEventcallnpcB_7
 
 [@MadosundayEventcallnpcB_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg165]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg165]
 Eventmsg "D1604" %A7 183
 FormatStr "FLD_MADOQUEST='%s'" "HonChon"
 UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
@@ -1139,19 +1139,19 @@ UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
 [@MadosundayEventcallnpcC_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg166]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg166]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcC_2
 
 [@MadosundayEventcallnpcC_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg167]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg167]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcC_3
 
 [@MadosundayEventcallnpcC_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg168]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg168]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 1800 @MadosundayEventcallnpcC_4
 
@@ -1170,13 +1170,13 @@ break
 #ACT
 MonClear D1604 阿龙怪
 MonClear D1604 诺玛斧兵
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg169]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg169]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcC_6
 
 [@MadosundayEventcallnpcC_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg170]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg170]
 Eventmsg "D1604" %A7 14
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
@@ -1187,7 +1187,7 @@ Delaygoto [Grobal] 12 @MadosundayEventcallnpcC_7
 
 [@MadosundayEventcallnpcC_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg171]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg171]
 Eventmsg "D1604" %A7 183
 FormatStr "FLD_MADOQUEST='%s'" "HonChon"
 UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
@@ -1197,19 +1197,19 @@ UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
 [@MadosundayEventcallnpcD_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg172]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg172]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcD_2
 
 [@MadosundayEventcallnpcD_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg173]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg173]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcD_3
 
 [@MadosundayEventcallnpcD_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg174]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg174]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 1800 @MadosundayEventcallnpcD_4
 
@@ -1228,13 +1228,13 @@ break
 #ACT
 MonClear D1604 阿龙怪
 MonClear D1604 诺玛斧兵
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg175]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg175]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @MadosundayEventcallnpcD_6
 
 [@MadosundayEventcallnpcD_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg176]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg176]
 Eventmsg "D1604" %A7 14
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
@@ -1245,7 +1245,7 @@ Delaygoto [Grobal] 12 @MadosundayEventcallnpcD_7
 
 [@MadosundayEventcallnpcD_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg177]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg177]
 Eventmsg "D1604" %A7 183
 FormatStr "FLD_MADOQUEST='%s'" "HonChon"
 UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
@@ -1254,85 +1254,85 @@ UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
 [@mainstep5_2]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg178]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg178]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @mainstep5_3
 
 [@mainstep5_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg179]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg179]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_4
 
 [@mainstep5_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg180]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg180]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_5
 
 [@mainstep5_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg181]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg181]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @mainstep5_5_1
 
 [@mainstep5_5_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg182]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg182]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @mainstep5_6
 
 [@mainstep5_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg183]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg183]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_6_1
 
 [@mainstep5_6_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg184]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg184]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_7
 
 [@mainstep5_7]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg185]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg185]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_7_1
 
 [@mainstep5_7_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg186]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg186]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_8
 
 [@mainstep5_8]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg187]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg187]
 Eventmsg "D1604" %A7 183
 Delaygoto [Grobal] 12 @mainstep5_9
 
 [@mainstep5_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg188]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg188]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_9_1
 
 [@mainstep5_9_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg189]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg189]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_10
 
 [@mainstep5_10]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg190]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg190]
 Eventmsg "D1604" %A7 14
 Delaygoto [Grobal] 12 @mainstep5_11
 
 [@mainstep5_11]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg191]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg191]
 Eventmsg "D1604" %A7 183
 set [206] 0
 FormatStr "FLD_MADOUSER='%s'" %USERNAME
@@ -1346,19 +1346,19 @@ UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOMAPEVENT=0"
 [@extinctionEventMsg_A_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg192]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg192]
 Eventmsg "D16061" %A7 185
 Delaygoto [Grobal] 12 @extinctionEventMsg_A_2
 
 [@extinctionEventMsg_A_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg193]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg193]
 Eventmsg "D16061" %A7 14
 Delaygoto [Grobal] 12 @extinctionEventMsg_A_3
 
 [@extinctionEventMsg_A_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg194]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg194]
 Eventmsg "D16061" %A7 185
 
 }
@@ -1368,37 +1368,37 @@ Eventmsg "D16061" %A7 185
 {
 
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg195]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg195]
 Eventmsg "D16061" %A7 185
 Delaygoto [Grobal] 12 @extinctionEventMsg_B_2
 
 [@extinctionEventMsg_B_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg196]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg196]
 Eventmsg "D16061" %A7 14
 Delaygoto [Grobal] 12 @extinctionEventMsg_B_3
 
 [@extinctionEventMsg_B_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg197]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg197]
 Eventmsg "D16061" %A7 %D8
 Delaygoto [Grobal] 12 @extinctionEventMsg_B_4
 
 [@extinctionEventMsg_B_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg198]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg198]
 Eventmsg "D16061" %A7 183
 Delaygoto [Grobal] 12 @extinctionEventMsg_B_5
 
 [@extinctionEventMsg_B_5]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg199]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg199]
 Eventmsg "D16061" %A7 185
 Delaygoto [Grobal] 12 @extinctionEventMsg_B_6
 
 [@extinctionEventMsg_B_6]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg200]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg200]
 Eventmsg "D16061" %A7 183
 
 }
@@ -1408,25 +1408,25 @@ Eventmsg "D16061" %A7 183
 [@extinctionEventMsg2_A_1]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg201]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg201]
 Eventmsg "D16061" %A7 183
 Delaygoto [Grobal] 12 @extinctionEventMsg2_A_2
 
 [@extinctionEventMsg2_A_2]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg202]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg202]
 Eventmsg "D16061" %A7 %D8
 Delaygoto [Grobal] 12 @extinctionEventMsg2_A_3
 
 [@extinctionEventMsg2_A_3]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg203]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg203]
 Eventmsg "D16061" %A7 183
 Delaygoto [Grobal] 12 @extinctionEventMsg2_A_4
 
 [@extinctionEventMsg2_A_4]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg204]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg204]
 Eventmsg "D16061" %A7 185
 
 
@@ -1439,13 +1439,13 @@ Eventmsg "D16061" %A7 185
 [@MadosundayextinctionEvent2_B_8]
 {
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg205]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg205]
 Eventmsg "D16061" %A7 %D8
 Delaygoto [Grobal] 12 @MadosundayextinctionEvent2_B_9
 
 [@MadosundayextinctionEvent2_B_9]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\extinctionQuestEvent.txt] [Convert] [Msg206]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/extinctionQuestEvent.txt] [Convert] [Msg206]
 Eventmsg "D16061" %A7 183
 Delaygoto [Grobal] 12 @MadosundayextinctionEvent2_B_10
 

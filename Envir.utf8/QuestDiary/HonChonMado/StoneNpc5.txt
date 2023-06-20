@@ -95,7 +95,7 @@ take 受胎石 1
 take 安息石 1
 take 心石 1
 take 活石 1
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\StoneNpc5.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] [Convert] [Msg0]
 Linemsg "Grobal" %A7
 goto @NumaStone5_Talk1_4
 break

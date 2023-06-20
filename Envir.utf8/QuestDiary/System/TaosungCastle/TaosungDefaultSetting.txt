@@ -7,7 +7,7 @@ ChangeMapAttr "5" "NoFly"
 ChangeMapAttr "5" "NoRFly"
 ChangeMapAttr "5" "NoSpell"
 TingWar TAOSUNG
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungDefaultSetting.txt] [Convert] [Msg0]
 lineMsg [Grobal] %A7
 mongenp "5,267,145,0" 木栅栏2 1
 mongenp "5,201,159,0" 木栅栏4 1
@@ -44,9 +44,9 @@ movenpc "5,226,94,『租赁店』_王铁匠" Z013 9 13
 movenpc "5,240,128,『活动』_孝相" Z013 8 13
 movenpc "5,255,90,『寄售商』_啊福" Z013 8 14
 movenpc "5,243,86,『声望道具店』_啊梅" Z013 8 15
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungDefaultSetting.txt] [Convert] [Msg1]
 lineMsg [Grobal] %A7
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungDefaultSetting.txt] [Convert] [Msg2]
 lineMsg [Grobal] %A7
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Ready'"
 Delaygoto [Grobal] 30 @TosungCastle_Numa
@@ -87,7 +87,7 @@ movenpc "Z013,9,13,『租赁店』_王铁匠" 5 226 94
 movenpc "Z013,8,13,『活动』_孝相" 5 240 128
 movenpc "Z013,8,14,『寄售商』_啊福" 5 255 90
 movenpc "Z013,8,15,『声望道具店』_啊梅" 5 243 86
-LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/System/TaosungCastle/TaosungDefaultSetting.txt] [Convert] [Msg3]
 lineMsg [Grobal] %A7
 UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Complete'"
 Delaygoto [Grobal] 10 @TosungCastle_Numa_Finished

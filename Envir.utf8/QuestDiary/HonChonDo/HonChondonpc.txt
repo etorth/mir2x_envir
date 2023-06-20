@@ -169,7 +169,7 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
 FormatStr "FLD_MADOQUEST='%s'" "HonChon"
 UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOHAVE=1"
 set [205] 0
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] [Convert] [Msg0]
 Eventmsg grobal %A7 2000
 #ELSEACT
 break

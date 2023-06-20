@@ -33,7 +33,7 @@ IsAdmin
 ;----------------------------------------------------------
 [@BreakEvent]
 #ACT
-	LoadValue A0 "Convert_Def\Market_Def\19GM_INN-Z011.txt" [LineMSG] [MSG01]
+	LoadValue A0 "Convert_Def/Market_Def/19GM_INN-Z011.txt" [LineMSG] [MSG01]
 Linemsg Grobal "%A0"
 Cleardelaygoto
 

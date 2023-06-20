@@ -108,7 +108,7 @@ break
 #INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc1.txt] @Convert_StoneNpc1_8
 
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\StoneNpc1.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/StoneNpc1.txt] [Convert] [Msg0]
 Linemsg "Grobal" %A7
 set [208] 1
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME

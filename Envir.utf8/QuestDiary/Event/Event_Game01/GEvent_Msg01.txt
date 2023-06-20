@@ -2,9 +2,9 @@
 [@GEventgrobal_Msg01]
 {
 #ACT
-	  LoadValue P1 "Flag_Def\Event\Event_Game\GEvent_01.txt" [00] [Open]
-	  LoadValue P2 "Flag_Def\Event\Event_Game\GEvent_01.txt" [01] [Open]
-	  LoadValue P3 "Flag_Def\Event\Event_Game\GEvent_01.txt" [0] [Open]
+	  LoadValue P1 "Flag_Def/Event/Event_Game/GEvent_01.txt" [00] [Open]
+	  LoadValue P2 "Flag_Def/Event/Event_Game/GEvent_01.txt" [01] [Open]
+	  LoadValue P3 "Flag_Def/Event/Event_Game/GEvent_01.txt" [0] [Open]
 #IF
 	Equal   P1     1
 	Equal   P2     1
@@ -15,7 +15,7 @@
 
 
 #ELSEACT
-	LoadValue A0 "Convert_Def\QuestDiary\Event\Event_Game01\GEvent_Msg01_MSG.txt" [LineMSG] [MSG01]
+	LoadValue A0 "Convert_Def/QuestDiary/Event/Event_Game01/GEvent_Msg01_MSG.txt" [LineMSG] [MSG01]
 linemsg "%A0"
 break
 #ELSESAY

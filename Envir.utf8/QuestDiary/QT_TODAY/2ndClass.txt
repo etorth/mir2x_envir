@@ -55,8 +55,8 @@ checkitem 蜘蛛线 150
 check [310] 0
 check [307] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 
@@ -77,12 +77,12 @@ checkitem 蜘蛛线 150
 check [310] 0
 check [307] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Race_9_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Amount_9_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Race_9_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Amount_9_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Race_9_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Amount_9_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Race_9_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Amount_9_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 150
@@ -103,12 +103,12 @@ check [307] 1
 gender man
 checkitem 蜘蛛线 150
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Race_90_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Amount_90_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Race_90_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Amount_90_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 150
@@ -117,12 +117,12 @@ set [310] 1
 #SAY
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @201_Say_7
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Race_90_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Amount_90_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Race_90_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Amount_90_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Race_90_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [201] [Reward_Amount_90_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Race_90_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [201] [Reward_Amount_90_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 150
@@ -203,8 +203,8 @@ check [310] 0
 checkitem 褐色栗子 20
 checkitem 蜘蛛线 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 Take 褐色栗子 20
@@ -232,12 +232,12 @@ Small s0 10
 checkitem 褐色栗子 20
 checkitem 蜘蛛线 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Race_9_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Amount_9_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Race_9_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Amount_9_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Race_9_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Amount_9_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Race_9_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Amount_9_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 褐色栗子 20
@@ -249,12 +249,12 @@ mov s0 0
 #ELSEACT
 take 褐色栗子 20
 take 蜘蛛线 50
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Race_90_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [202] [Reward_Amount_90_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Race_90_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [202] [Reward_Amount_90_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 reset [307] 2
@@ -332,8 +332,8 @@ check [310] 0
 small s0 10
 checkitem 蜘蛛线 100
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 100
@@ -360,12 +360,12 @@ checkitem 蜘蛛线 100
 check [307] 1
 check [310] 0
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Race_30_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Amount_30_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Race_30_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Amount_30_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Race_30_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Amount_30_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Race_30_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Amount_30_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 100
@@ -386,12 +386,12 @@ check [310] 0
 checkitem 蜘蛛线 100
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Race_60_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Amount_60_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Race_60_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Amount_60_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Race_60_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Amount_60_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Race_60_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Amount_60_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 100
@@ -400,12 +400,12 @@ reset [307] 2
 set [310] 1
 
 #ESEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Race_60_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Amount_60_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Race_60_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Amount_60_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Race_60_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [203] [Reward_Amount_60_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Race_60_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [203] [Reward_Amount_60_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 100
@@ -480,8 +480,8 @@ check [307] 1
 checkitem 蜘蛛线 17
 checkitem 黑野猪牙齿 20
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 17
@@ -503,12 +503,12 @@ checkitem 蜘蛛线 17
 checkitem 黑野猪牙齿 20
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Race_30_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Amount_30_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Race_30_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Amount_30_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Race_30_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Amount_30_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Race_30_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Amount_30_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 17
@@ -518,12 +518,12 @@ set [310] 1
 #SAY
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @204_Say_7
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Race_60_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Amount_60_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Race_60_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Amount_60_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Race_60_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [204] [Reward_Amount_60_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Race_60_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [204] [Reward_Amount_60_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 17
@@ -595,8 +595,8 @@ check [307] 1
 checkitem 战神油 10
 checkitem 石人心核 100
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Race_5_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Amount_5_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Race_5_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Amount_5_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 战神油 10
@@ -617,12 +617,12 @@ check [310] 0
 checkitem 战神油 10
 checkitem 石人心核 100
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Race_10_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Amount_10_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Race_10_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Amount_10_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 战神油 10
@@ -633,12 +633,12 @@ set [310] 1
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @205_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Race_85_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Amount_85_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Race_85_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Amount_85_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Race_85_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [205] [Reward_Amount_85_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Race_85_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [205] [Reward_Amount_85_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 战神油 10
@@ -725,8 +725,8 @@ checkitem 黑野猪牙齿 100
 checkitem 蚂蚁卵 200
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [206] [Reward_Race_2_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [206] [Reward_Amount_2_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [206] [Reward_Race_2_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [206] [Reward_Amount_2_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 黑野猪牙齿 100
@@ -750,8 +750,8 @@ checkitem 黑野猪牙齿 100
 checkitem 蚂蚁卵 200
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [206] [Reward_Race_18_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [206] [Reward_Amount_18_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [206] [Reward_Race_18_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [206] [Reward_Amount_18_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 黑野猪牙齿 100
@@ -764,8 +764,8 @@ set [310] 1
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @206_Say_6
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [206] [Reward_Race_80_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [206] [Reward_Amount_80_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [206] [Reward_Race_80_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [206] [Reward_Amount_80_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 黑野猪牙齿 100
@@ -842,8 +842,8 @@ check [307] 1
 check [310] 0
 checkitem 波纹手镯 8
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Race_5_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Amount_5_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Race_5_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Amount_5_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 波纹手镯 8
@@ -862,8 +862,8 @@ check [307] 1
 checkitem 波纹手镯 8
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Race_15_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Amount_15_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Race_15_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Amount_15_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 波纹手镯 8
@@ -889,12 +889,12 @@ check [310] 0
 checkitem 波纹手镯 8
 gender man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Race_80_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Amount_80_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Race_80_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Amount_80_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Race_80_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Amount_80_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Race_80_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Amount_80_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 波纹手镯 8
@@ -905,12 +905,12 @@ set [310] 1
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @207_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Race_80_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Amount_80_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Race_80_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Amount_80_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Race_80_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [207] [Reward_Amount_80_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Race_80_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [207] [Reward_Amount_80_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 波纹手镯 8
@@ -988,8 +988,8 @@ check [310] 0
 check [308] 1
 check [307] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Race_5_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Amount_5_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Race_5_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Amount_5_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 reset [307] 2
@@ -1009,8 +1009,8 @@ check [308] 1
 check [307] 1
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Race_15_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Amount_15_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Race_15_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Amount_15_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 ;
@@ -1022,12 +1022,12 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @208_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Race_80_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Amount_80_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Race_80_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Amount_80_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Race_80_Type1_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [208] [Reward_Amount_80_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Race_80_Type1_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [208] [Reward_Amount_80_Type1_2]
 	Give %A0 %D0
 	Mov A0 0
 ;
@@ -1114,8 +1114,8 @@ check [307] 1
 checkitem 指甲 50
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [209] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [209] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [209] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [209] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 50
@@ -1137,8 +1137,8 @@ check [310] 0
 checkitem 指甲 50
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [209] [Reward_Race_10_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [209] [Reward_Amount_10_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [209] [Reward_Race_10_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [209] [Reward_Amount_10_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 50
@@ -1148,8 +1148,8 @@ set [310] 1
 mov s0 0
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [209] [Reward_Race_80_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [209] [Reward_Amount_80_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [209] [Reward_Race_80_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [209] [Reward_Amount_80_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 50
@@ -1241,8 +1241,8 @@ check [310] 0
 checkitem 指甲 100
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [210] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [210] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [210] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [210] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 100
@@ -1263,8 +1263,8 @@ check [310] 0
 checkitem 指甲 100
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [210] [Reward_Race_10_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [210] [Reward_Amount_10_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [210] [Reward_Race_10_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [210] [Reward_Amount_10_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 100
@@ -1276,8 +1276,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @210_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [210] [Reward_Race_80_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [210] [Reward_Amount_80_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [210] [Reward_Race_80_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [210] [Reward_Amount_80_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 100
@@ -1350,8 +1350,8 @@ check [307] 1
 checkitem 白虎剑 3
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [211] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [211] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [211] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [211] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 白虎剑 3
@@ -1371,8 +1371,8 @@ check [307] 1
 checkitem 白虎剑 3
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [211] [Reward_Race_9_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [211] [Reward_Amount_9_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [211] [Reward_Race_9_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [211] [Reward_Amount_9_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 白虎剑 3
@@ -1382,8 +1382,8 @@ set [310] 1
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @211_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [211] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [211] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [211] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [211] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 白虎剑 3
@@ -1469,8 +1469,8 @@ check [310] 0
 checkitem 石人心核 25
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 石人心核 25
@@ -1491,12 +1491,12 @@ check [310] 0
 checkitem 石人心核 25
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Race_39_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Amount_39_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Race_39_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Amount_39_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Race_39_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Amount_39_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Race_39_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Amount_39_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 石人心核 25
@@ -1509,12 +1509,12 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @212_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Race_60_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Amount_60_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Race_60_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Amount_60_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Race_60_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [212] [Reward_Amount_60_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Race_60_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [212] [Reward_Amount_60_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 石人心核 25
@@ -1599,8 +1599,8 @@ check [307] 1
 check [308] 1
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 reset [307] 2
@@ -1621,8 +1621,8 @@ check [308] 1
 Small S0 20
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Race_20_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Amount_20_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Race_20_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Amount_20_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 reset [307] 2
@@ -1632,12 +1632,12 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @213_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Race_79_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Amount_79_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Race_79_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Amount_79_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Race_79_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [213] [Reward_Amount_79_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Race_79_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [213] [Reward_Amount_79_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 reset [307] 2
@@ -1708,8 +1708,8 @@ check [307] 1
 checkitem 天鸣戒指 2
 checkitem 指甲 8
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 天鸣戒指 2
@@ -1730,10 +1730,10 @@ check [310] 1
 checkitem 天鸣戒指 2
 checkitem 指甲 8
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Race_20_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Amount_20_Type1_1]
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Race_20_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Amount_20_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Race_20_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Amount_20_Type1_1]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Race_20_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Amount_20_Type1_2]
 	Give %A0 %D0
 	Give %A1 %D1
 	Mov A0 0
@@ -1745,8 +1745,8 @@ set [310] 1
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @214_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Race_70_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [214] [Reward_Amount_70_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Race_70_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [214] [Reward_Amount_70_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 天鸣戒指 2
@@ -1855,8 +1855,8 @@ checkitem 蜘蛛线 25
 Gender Man
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Race_20_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Amount_20_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Race_20_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Amount_20_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 战神盔甲（男） 1
@@ -1870,8 +1870,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @215_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Race_20_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Amount_20_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Race_20_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Amount_20_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 take 战神盔甲（男） 1
@@ -1894,12 +1894,12 @@ checkitem 恶魔长袍（女） 1
 checkitem 蜘蛛线 25
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Race_40_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Amount_40_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Race_40_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Amount_40_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Race_40_Type1_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Amount_40_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Race_40_Type1_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Amount_40_Type1_2]
 	Give %A0 %D0
 	Mov A0 0
 take 战神盔甲（男） 1
@@ -1913,12 +1913,12 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @215_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Race_40_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Amount_40_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Race_40_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Amount_40_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Race_40_Type2_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [215] [Reward_Amount_40_Type2_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Race_40_Type2_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [215] [Reward_Amount_40_Type2_2]
 	Give %A0 %D0
 	Mov A0 0
 take 战神盔甲（男） 1
@@ -1992,8 +1992,8 @@ check [307] 1
 checkitem 牙齿 50
 checkitem 石人心核 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [216] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [216] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [216] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [216] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 牙齿 50
@@ -2016,8 +2016,8 @@ check [307] 1
 checkitem 牙齿 50
 checkitem 石人心核 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [216] [Reward_Race_20_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [216] [Reward_Amount_20_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [216] [Reward_Race_20_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [216] [Reward_Amount_20_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 牙齿 50
@@ -2030,8 +2030,8 @@ Mov S0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @216_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [216] [Reward_Race_79_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [216] [Reward_Amount_79_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [216] [Reward_Race_79_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [216] [Reward_Amount_79_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 牙齿 50
@@ -2140,8 +2140,8 @@ checkitem 指甲 15
 checkitem 蜘蛛线 20
 gender man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 15
@@ -2150,8 +2150,8 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_10_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_10_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_10_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_10_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 15
@@ -2176,12 +2176,12 @@ checkitem 蜘蛛线 20
 goto @217_Reward_40_Gender
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_50_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_50_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_50_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_50_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_50_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_50_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_50_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_50_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 指甲 15
@@ -2201,12 +2201,12 @@ checkitem 指甲 15
 checkitem 蜘蛛线 20
 Gender Man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_40_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_40_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_40_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_40_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_40_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_40_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_40_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_40_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 指甲 15
@@ -2218,12 +2218,12 @@ set [310] 1
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @217_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_40_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_40_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_40_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_40_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Race_40_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [217] [Reward_Amount_40_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Race_40_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [217] [Reward_Amount_40_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 指甲 15
@@ -2302,8 +2302,8 @@ check [310] 0
 check [307] 1
 checkitem 蜘蛛线 60
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 60
@@ -2328,12 +2328,12 @@ checkitem 蜘蛛线 60
 goto @218_Reward_10_Gender
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Race_90_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Amount_90_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Race_90_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Amount_90_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 60
@@ -2352,8 +2352,8 @@ check [307] 1
 checkitem 蜘蛛线 60
 Gender Man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 60
@@ -2365,8 +2365,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @218_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Race_10_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [218] [Reward_Amount_10_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Race_10_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [218] [Reward_Amount_10_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 60
@@ -2452,8 +2452,8 @@ checkitem 指甲 50
 checkitem 牙齿 50
 checkitem 石人心核 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Race_5_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Amount_5_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Race_5_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Amount_5_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 50
@@ -2480,8 +2480,8 @@ checkitem 石人心核 50
 goto @219_Reward_40_Gender
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Race_55_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Amount_55_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Race_55_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Amount_55_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 50
@@ -2504,12 +2504,12 @@ checkitem 牙齿 50
 checkitem 石人心核 50
 gender man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Race_40_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Amount_40_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Race_40_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Amount_40_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Race_40_Share]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Amount_40_Share]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Race_40_Share]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Amount_40_Share]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 50
@@ -2520,12 +2520,12 @@ set [310] 1
 mov s0 0
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Race_40_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Amount_40_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Race_40_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Amount_40_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Race_40_Share]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [219] [Reward_Amount_40_Share]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Race_40_Share]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [219] [Reward_Amount_40_Share]
 	Give %A0 %D0
 	Mov A0 0
 take 指甲 50
@@ -2619,8 +2619,8 @@ check [310] 0
 check [307] 1
 checkitem 蜘蛛线 60
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [220] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [220] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [220] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [220] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 60
@@ -2635,8 +2635,8 @@ check [310] 0
 check [307] 1
 checkitem 蜘蛛线 60
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [220] [Reward_Race_9_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [220] [Reward_Amount_9_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [220] [Reward_Race_9_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [220] [Reward_Amount_9_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 60
@@ -2651,8 +2651,8 @@ check [310] 0
 check [307] 1
 checkitem 蜘蛛线 60
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [220] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [220] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [220] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [220] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 60
@@ -2730,8 +2730,8 @@ check [310] 0
 check [307] 1
 checkitem 神灵雕像 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 神灵雕像 50
@@ -2751,12 +2751,12 @@ check [310] 0
 check [307] 1
 checkitem 神灵雕像 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Race_49_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Amount_49_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Race_49_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Amount_49_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Race_49_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Amount_49_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Race_49_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Amount_49_Type1_2]
 	Give %A1 %D1
 	Mov A0 0
 take 神灵雕像 50
@@ -2766,12 +2766,12 @@ set [310] 1
 mov s0 0
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Race_50_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Amount_50_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Race_50_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Amount_50_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Race_50_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [221] [Reward_Amount_50_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Race_50_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [221] [Reward_Amount_50_Type1_2]
 	Give %A1 %D1
 	Mov A0 0
 take 神灵雕像 50
@@ -2865,8 +2865,8 @@ check [307] 1
 checkitem 皮 50
 checkitem 指甲 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [222] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [222] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [222] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [222] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 皮 50
@@ -2888,8 +2888,8 @@ check [307] 1
 checkitem 皮 50
 checkitem 指甲 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [222] [Reward_Race_40_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [222] [Reward_Amount_40_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [222] [Reward_Race_40_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [222] [Reward_Amount_40_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 皮 50
@@ -2902,8 +2902,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @222_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [222] [Reward_Race_50_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [222] [Reward_Amount_50_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [222] [Reward_Race_50_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [222] [Reward_Amount_50_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 皮 50
@@ -2991,8 +2991,8 @@ check [307] 1
 checkitem 蜘蛛线 50
 small s0 10
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [223] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [223] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [223] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [223] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 50
@@ -3013,8 +3013,8 @@ check [307] 1
 checkitem 蜘蛛线 50
 small s0 10
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [223] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [223] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [223] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [223] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 50
@@ -3026,8 +3026,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @223_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [223] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [223] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [223] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [223] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 50
@@ -3119,8 +3119,8 @@ check [307] 1
 checkitem 蜘蛛线 40
 checkitem 指甲 60
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Race_4_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Amount_4_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Race_4_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Amount_4_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 40
@@ -3143,8 +3143,8 @@ check [307] 1
 checkitem 蜘蛛线 40
 checkitem 指甲 60
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Race_26_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Amount_26_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Race_26_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Amount_26_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蜘蛛线 40
@@ -3157,12 +3157,12 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @224_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Race_70_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Amount_70_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Race_70_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Amount_70_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Race_70_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [224] [Reward_Amount_70_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Race_70_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [224] [Reward_Amount_70_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 蜘蛛线 40
@@ -3252,8 +3252,8 @@ checkitem 僵尸骨头 200
 checkitem 蜘蛛线 50
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [225] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [225] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [225] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [225] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 僵尸骨头 200
@@ -3275,8 +3275,8 @@ check [307] 1
 checkitem 僵尸骨头 200
 checkitem 蜘蛛线 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [225] [Reward_Race_20_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [225] [Reward_Amount_20_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [225] [Reward_Race_20_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [225] [Reward_Amount_20_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 僵尸骨头 200
@@ -3289,8 +3289,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @225_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [225] [Reward_Race_70_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [225] [Reward_Amount_70_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [225] [Reward_Race_70_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [225] [Reward_Amount_70_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 僵尸骨头 200
@@ -3385,8 +3385,8 @@ check [310] 0
 check [307] 1
 checkitem 幻影蜘蛛线 30
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Race_5_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Amount_5_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Race_5_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Amount_5_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 幻影蜘蛛线 30
@@ -3401,12 +3401,12 @@ check [310] 0
 check [307] 1
 checkitem 幻影蜘蛛线 30
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Race_25_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Amount_25_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Race_25_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Amount_25_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Race_25_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Amount_25_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Race_25_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Amount_25_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 幻影蜘蛛线 30
@@ -3421,8 +3421,8 @@ check [310] 0
 check [307] 1
 checkitem 幻影蜘蛛线 30
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Race_70_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [226] [Reward_Amount_70_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Race_70_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [226] [Reward_Amount_70_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 幻影蜘蛛线 30
@@ -3524,8 +3524,8 @@ checkitem 铁矿 5
 checkitem 黑铁 5
 small s0 10
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [227] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [227] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [227] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [227] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 铁矿 5
@@ -3547,8 +3547,8 @@ check [307] 1
 checkitem 铁矿 5
 checkitem 黑铁 5
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [227] [Reward_Race_20_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [227] [Reward_Amount_20_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [227] [Reward_Race_20_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [227] [Reward_Amount_20_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 铁矿 5
@@ -3563,8 +3563,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @227_Say_9
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [227] [Reward_Race_70_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [227] [Reward_Amount_70_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [227] [Reward_Race_70_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [227] [Reward_Amount_70_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 铁矿 5
@@ -3652,8 +3652,8 @@ check [310] 0
 check [307] 1
 checkitem 祖玛卫士雕像 20
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [228] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [228] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [228] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [228] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 祖玛卫士雕像 20
@@ -3673,8 +3673,8 @@ check [310] 0
 check [307] 1
 checkitem 祖玛卫士雕像 20
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [228] [Reward_Race_19_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [228] [Reward_Amount_19_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [228] [Reward_Race_19_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [228] [Reward_Amount_19_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 祖玛卫士雕像 20
@@ -3687,8 +3687,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @228_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [228] [Reward_Race_80_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [228] [Reward_Amount_80_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [228] [Reward_Race_80_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [228] [Reward_Amount_80_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 #ELSESAY
@@ -3765,8 +3765,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 reset [307] 2
 set [310] 1
@@ -3784,10 +3784,10 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Race_29_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Amount_29_Type1_1]
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Race_29_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Amount_29_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Race_29_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Amount_29_Type1_1]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Race_29_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Amount_29_Type1_2]
 	Give %A0 %D0
 	Give %A1 %D1
 ;
@@ -3798,10 +3798,10 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @229_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Race_70_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Amount_70_Type1_1]
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Race_70_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [229] [Reward_Amount_70_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Race_70_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Amount_70_Type1_1]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Race_70_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [229] [Reward_Amount_70_Type1_2]
 	Give %A0 %D0
 	Give %A1 %D1
 ;
@@ -3891,8 +3891,8 @@ check [310] 0
 check [307] 1
 checkitem 诺玛药水 40
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [230] [Reward_Race_15_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [230] [Reward_Amount_15_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [230] [Reward_Race_15_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [230] [Reward_Amount_15_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 诺玛药水 40
@@ -3907,8 +3907,8 @@ check [310] 0
 check [307] 1
 checkitem 诺玛药水 40
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [230] [Reward_Race_15_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [230] [Reward_Amount_15_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [230] [Reward_Race_15_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [230] [Reward_Amount_15_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 take 诺玛药水 40
@@ -3923,8 +3923,8 @@ check [310] 0
 check [307] 1
 checkitem 诺玛药水 40
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [230] [Reward_Race_70_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [230] [Reward_Amount_70_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [230] [Reward_Race_70_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [230] [Reward_Amount_70_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 诺玛药水 40
@@ -4022,8 +4022,8 @@ check [307] 1
 checkitem 红娥宝玉 1
 gender man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 红娥宝玉 1
@@ -4035,8 +4035,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @231_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Race_10_Type1_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Amount_10_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Race_10_Type1_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Amount_10_Type1_2]
 	Give %A0 %D0
 	Mov A0 0
 take 红娥宝玉 1
@@ -4054,8 +4054,8 @@ check [310] 0
 check [307] 1
 checkitem 红娥宝玉 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Race_40_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Amount_40_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Race_40_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Amount_40_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 红娥宝玉 1
@@ -4072,8 +4072,8 @@ check [310] 0
 check [307] 1
 checkitem 红娥宝玉 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Race_50_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [231] [Reward_Amount_50_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Race_50_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [231] [Reward_Amount_50_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 红娥宝玉 1
@@ -4151,8 +4151,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Race_20_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Amount_20_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Race_20_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Amount_20_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 reset [307] 2
@@ -4172,8 +4172,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Race_40_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Amount_40_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Race_40_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Amount_40_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 ;
@@ -4193,8 +4193,8 @@ check [307] 1
 check [308] 1
 gender Man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Race_40_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Amount_40_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Race_40_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Amount_40_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 ;
@@ -4205,8 +4205,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @232_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Race_40_Type1_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [232] [Reward_Amount_40_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Race_40_Type1_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [232] [Reward_Amount_40_Type1_2]
 	Give %A0 %D0
 	Mov A0 0
 ;
@@ -4295,8 +4295,8 @@ check [307] 1
 checkitem 七点白蛇牙齿 5
 checkitem 七点白蛇血 5
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 七点白蛇牙齿 1
@@ -4317,8 +4317,8 @@ check [307] 1
 checkitem 七点白蛇牙齿 5
 checkitem 七点白蛇血 5
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Race_50_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Amount_50_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Race_50_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Amount_50_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 七点白蛇牙齿 1
@@ -4339,12 +4339,12 @@ checkitem 七点白蛇牙齿 5
 checkitem 七点白蛇血 5
 gender Man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Race_48_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Amount_48_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Race_48_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Amount_48_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Race_48_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Amount_48_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Race_48_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Amount_48_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 七点白蛇牙齿 1
@@ -4359,12 +4359,12 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @233_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Race_48_Type1_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Amount_48_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Race_48_Type1_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Amount_48_Type1_2]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Race_48_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [233] [Reward_Amount_48_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Race_48_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [233] [Reward_Amount_48_Share]
 	Give %A1 %D1
 	Mov A1 0
 take 七点白蛇牙齿 1
@@ -4468,8 +4468,8 @@ checkitem 僵尸骨头 100
 gender man
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 僵尸骨头 100
@@ -4477,8 +4477,8 @@ reset [307] 2
 set [310] 1
 mov s0 0
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Race_10_Type1_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Amount_10_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Race_10_Type1_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Amount_10_Type1_2]
 	Give %A0 %D0
 	Mov A0 0
 take 僵尸骨头 100
@@ -4499,12 +4499,12 @@ check [310] 0
 check [307] 1
 checkitem 僵尸骨头 100
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Race_30_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Amount_30_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Race_30_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Amount_30_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Race_30_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Amount_30_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Race_30_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Amount_30_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 僵尸骨头 100
@@ -4522,12 +4522,12 @@ check [310] 0
 check [307] 1
 checkitem 僵尸骨头 100
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Race_60_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Amount_60_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Race_60_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Amount_60_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Race_60_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [234] [Reward_Amount_60_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Race_60_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [234] [Reward_Amount_60_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 僵尸骨头 100
@@ -4609,8 +4609,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Race_10_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Amount_10_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Race_10_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Amount_10_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 reset [307] 2
@@ -4639,12 +4639,12 @@ check [307] 1
 check [308] 1
 gender man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Race_30_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Amount_30_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Race_30_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Amount_30_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Race_30_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Amount_30_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Race_30_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Amount_30_Share]
 	Give %A1 %D1
 	Mov A1 0
 reset [307] 2
@@ -4654,12 +4654,12 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @235_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Race_30_Type1_2]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Amount_30_Type1_2]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Race_30_Type1_2]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Amount_30_Type1_2]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Race_30_Share]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Amount_30_Share]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Race_30_Share]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Amount_30_Share]
 	Give %A1 %D1
 	Mov A1 0
 reset [307] 2
@@ -4674,8 +4674,8 @@ check [310] 0
 check [307] 1
 check [308] 1
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Race_60_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [235] [Reward_Amount_60_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Race_60_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [235] [Reward_Amount_60_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 reset [307] 2
@@ -4772,8 +4772,8 @@ check [310] 0
 check [307] 1
 checkitem 潘夜之泪 100
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Race_2_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Amount_2_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Race_2_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Amount_2_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 潘夜之泪 100
@@ -4791,8 +4791,8 @@ check [307] 1
 checkitem 潘夜之泪 100
 gender man
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Race_18_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Amount_18_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Race_18_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Amount_18_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 潘夜之泪 100
@@ -4804,8 +4804,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @236_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Race_18_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Amount_18_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Race_18_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Amount_18_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 潘夜之泪 100
@@ -4822,8 +4822,8 @@ check [310] 0
 check [307] 1
 checkitem 潘夜之泪 100
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Race_80_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [236] [Reward_Amount_80_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Race_80_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [236] [Reward_Amount_80_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 潘夜之泪 100
@@ -4910,8 +4910,8 @@ check [310] 0
 check [307] 1
 checkitem 神灵雕像 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [237] [Reward_Race_5_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [237] [Reward_Amount_5_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [237] [Reward_Race_5_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [237] [Reward_Amount_5_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 神灵雕像 50
@@ -4933,8 +4933,8 @@ checkitem 神灵雕像 50
 Large S0 55
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [237] [Reward_Race_45_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [237] [Reward_Amount_45_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [237] [Reward_Race_45_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [237] [Reward_Amount_45_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 神灵雕像 50
@@ -4946,8 +4946,8 @@ mov s0 0
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/2ndClassSAy.txt] @237_Say_7
 
 #ELSEACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [237] [Reward_Race_50_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [237] [Reward_Amount_50_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [237] [Reward_Race_50_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [237] [Reward_Amount_50_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 神灵雕像 50
@@ -5050,8 +5050,8 @@ check [307] 1
 checkitem 皮 50
 checkitem 蜘蛛线 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 皮 50
@@ -5079,8 +5079,8 @@ check [307] 1
 checkitem 皮 50
 checkitem 蜘蛛线 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Race_9_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Amount_9_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Race_9_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Amount_9_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 皮 50
@@ -5099,8 +5099,8 @@ check [307] 1
 checkitem 皮 50
 checkitem 蜘蛛线 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Race_9_Type2_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Amount_9_Type2_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Race_9_Type2_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Amount_9_Type2_1]
 	Give %A0 %D0
 	Mov A0 0
 take 皮 50
@@ -5119,12 +5119,12 @@ check [307] 1
 checkitem 皮 50
 checkitem 蜘蛛线 50
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Race_1_Type1_2]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [238] [Reward_Amount_1_Type1_2]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Race_1_Type1_2]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [238] [Reward_Amount_1_Type1_2]
 	Give %A1 %D1
 	Mov A1 0
 take 皮 50
@@ -5220,8 +5220,8 @@ check [307] 1
 checkitem 宝玉 50
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [239] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [239] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [239] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [239] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 宝玉 50
@@ -5239,8 +5239,8 @@ check [307] 1
 checkitem 宝玉 50
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [239] [Reward_Race_9_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [239] [Reward_Amount_9_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [239] [Reward_Race_9_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [239] [Reward_Amount_9_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 宝玉 50
@@ -5258,8 +5258,8 @@ check [307] 1
 checkitem 宝玉 50
 
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [239] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [239] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [239] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [239] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 宝玉 50
@@ -5353,8 +5353,8 @@ check [310] 0
 check [307] 1
 checkitem 蚂蚁卵 200
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Race_1_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Amount_1_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Race_1_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Amount_1_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蚂蚁卵 200
@@ -5370,12 +5370,12 @@ check [310] 0
 check [307] 1
 checkitem 蚂蚁卵 200
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Race_9_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Amount_9_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Race_9_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Amount_9_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
-	LoadValue A1 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Race_9_Type1_1]
-	LoadValue D1 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Amount_9_Type1_1]
+	LoadValue A1 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Race_9_Type1_1]
+	LoadValue D1 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Amount_9_Type1_1]
 	Give %A1 %D1
 	Mov A1 0
 take 蚂蚁卵 200
@@ -5391,8 +5391,8 @@ check [310] 0
 check [307] 1
 checkitem 蚂蚁卵 200
 #ACT
-	LoadValue A0 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Race_90_Type1_1]
-	LoadValue D0 "GM_Def\QT_TODAY\200Reward.txt" [240] [Reward_Amount_90_Type1_1]
+	LoadValue A0 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Race_90_Type1_1]
+	LoadValue D0 "GM_Def/QT_TODAY/200Reward.txt" [240] [Reward_Amount_90_Type1_1]
 	Give %A0 %D0
 	Mov A0 0
 take 蚂蚁卵 200

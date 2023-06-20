@@ -22,7 +22,7 @@ begin
 	#IF
 	  Equal  N2{TIME}  30       ;; 30盒 饶 曼啊 且荐 绝促绰 皋技瘤啊 甸绢皑
 	#ACT
-     LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg1]
+     LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg1]
 	  LineMsg  "01,Island02"  %A0
 
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;; 60盒捞 瘤抄饶俊 轿快瘤 臼绰 版快 吝居栏肺 泼扁霸窃(10盒 窜困)
@@ -80,9 +80,9 @@ begin
 	  Equal  N1{EVENT}  1           ;; 牢盔荐 眉农 棺 矫埃 眉农 备巩
 	  CheckHum  "Island02 100 125 125"  0
 	#ACT
-      LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg2]
-      LoadValue A1 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg3]
-      LoadValue A2 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg4]
+      LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg2]
+      LoadValue A1 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg3]
+      LoadValue A2 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg4]
 	   LineMsg "Island02"  %A0
 		LineMsg "Island02"  %A1
 		LineMsg "Island02"  %A2
@@ -104,8 +104,8 @@ begin
 		MonClear  "Island02"  "猿猴战士"
 		MonClear  "Island02"  "猿猴战将"
 		MonClear  "Island02"  "魔神怪1"
-      LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg5]
-      LoadValue A1 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg6]
+      LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg5]
+      LoadValue A1 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg6]
 		LineMsg   "Grobal"  %A0
 		LineMsg   "Grobal"  %A1
       break
@@ -117,7 +117,7 @@ begin
   #IF
       Large  N8{GOLD}   5000000
   #ACT
-      LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg7]
+      LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg7]
 		LineMsg "Island02" %A0
 		MonGenP "Island02,100,130,5" 聚宝箱4 1 "noitem,金币,100000"
 		MonGenP "Island02,100,130,5" 聚宝箱4 1 "noitem,金币,100000"
@@ -132,7 +132,7 @@ begin
 	#IF
 		Large  N8{GOLD}   5000000
 	#ACT
-      LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg8]
+      LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg8]
 		LineMsg "Island02" %A0
 		MonGenP "Island02,100,130,5" 聚宝箱4 1 "noitem,金币,300000"
 		MonGenP "Island02,100,130,5" 聚宝箱4 1 "noitem,金币,300000"
@@ -145,9 +145,9 @@ begin
   #ACT
 		Mov  N1{EVENT}  0
 		ChangeMapAttr "Island02" "SAFE"
-		LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg9]
-		LoadValue A1 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg10]
-		LoadValue A2 [Convert_Def\QuestDiary\Event\Island\Condition.txt] [Event_Island_Condition_EventMsg] [Msg11]
+		LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg9]
+		LoadValue A1 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg10]
+		LoadValue A2 [Convert_Def/QuestDiary/Event/Island/Condition.txt] [Event_Island_Condition_EventMsg] [Msg11]
 		LineMsg "Grobal"   %A0
 		LineMsg "Island02" %A1
 		LineMsg "Island02" %A2
@@ -181,9 +181,9 @@ begin
 		MonGenP "Island02,100,130, 8" 聚宝箱4 1 %A9
 		goto @MultIslandReward
 	#ELSEACT
-    	LoadValue A0 [Gm_Def\Event\Island\BlanceSetting.txt] [Island_Reword] [Reword1]
-		LoadValue A1 [Gm_Def\Event\Island\BlanceSetting.txt] [Island_Reword] [Reword2]
-		LoadValue A2 [Gm_Def\Event\Island\BlanceSetting.txt] [Island_Reword] [Reword3]
+    	LoadValue A0 [Gm_Def/Event/Island/BlanceSetting.txt] [Island_Reword] [Reword1]
+		LoadValue A1 [Gm_Def/Event/Island/BlanceSetting.txt] [Island_Reword] [Reword2]
+		LoadValue A2 [Gm_Def/Event/Island/BlanceSetting.txt] [Island_Reword] [Reword3]
 		FormatStr "noitem,金币,%s" %N8
 		MonGenP "Island02,100,130, 8" 聚宝箱4 1 %A9
       FormatStr "noitem,%s,%s," %A0 %A1

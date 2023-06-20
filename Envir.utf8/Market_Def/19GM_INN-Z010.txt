@@ -33,7 +33,7 @@ IsAdmin
 ;----------------------------------------------------------
 [@BreakEvent]
 #ACT
-	LoadValue A0 "Convert_Def\Market_def\19GM_INN-Z010_Ev.txt" [LineMSG] [MSG01]
+	LoadValue A0 "Convert_Def/Market_def/19GM_INN-Z010_Ev.txt" [LineMSG] [MSG01]
 Linemsg Grobal "%A0"
 Cleardelaygoto
 
@@ -82,7 +82,7 @@ Cleardelaygoto
 	SaveValue "Flag_Def\Event\Event_Game\GEvent_01.txt" [01] [Open] 0
 	SaveValue "Flag_Def\Event\Event_Game\GEvent_01.txt" [00] [Open] 0
 Cleardelaygoto
-	LoadValue A0 "Convert_Def\Market_def\19GM_INN-Z010_Ev.txt" [LineMSG] [MSG02]
+	LoadValue A0 "Convert_Def/Market_def/19GM_INN-Z010_Ev.txt" [LineMSG] [MSG02]
 linemsg "z010,z011,z012" "%A0"
 #SAY
 	#INCLUDE [Convert_Def/Market_Def/19GM_INN-Z010.txt] @NPC_GEvent_End_11

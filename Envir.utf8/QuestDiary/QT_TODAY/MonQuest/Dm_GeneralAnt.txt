@@ -52,8 +52,8 @@ check [310] 0
 check [308] 0
 small s0 10
 #ACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [494] [Reward_Race_10]
-LoadValue P0 "GM_Def\QT_TODAY\400Reward.txt" [494] [Reward_Amount_10]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [494] [Reward_Race_10]
+LoadValue P0 "GM_Def/QT_TODAY/400Reward.txt" [494] [Reward_Amount_10]
 give %A0 %P0
 Mov S0 0
 set [308] 1
@@ -61,8 +61,8 @@ set [310] 1
 #SAY
 	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T494_Say
 #ELSEACT
-LoadValue A0 "GM_Def\QT_TODAY\400Reward.txt" [494] [Reward_Race_90]
-LoadValue P0 "GM_Def\QT_TODAY\400Reward.txt" [494] [Reward_Amount_90]
+LoadValue A0 "GM_Def/QT_TODAY/400Reward.txt" [494] [Reward_Race_90]
+LoadValue P0 "GM_Def/QT_TODAY/400Reward.txt" [494] [Reward_Amount_90]
 give %A0 %P0
 Mov S0 0
 set [308] 1

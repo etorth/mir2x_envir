@@ -424,7 +424,7 @@ Mongenp %A9 阿龙怪 1
 ForMatStr "D1604,%s,%s,10" %A1 %A2
 ApplyMonEx %A9 阿龙怪 [Monsterside] "???"
 Mongenp %A9 诺玛装甲兵 20
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/Mon_extinction.txt] [Convert] [Msg0]
 Eventmsg "D1604" %A7 2000
 break
 }
@@ -457,13 +457,13 @@ UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
 UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
 break
 #ELSEACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/Mon_extinction.txt] [Convert] [Msg1]
 Eventmsg "D1604" %A7 2000
 break
 
 [@honchondostep2_2_1]
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/Mon_extinction.txt] [Convert] [Msg2]
 Eventmsg "D1604" %A7 2000
 break
 }
@@ -852,7 +852,7 @@ break
 [@honchondostep_user_1]
 #ACT
 monclear D16061
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\Mon_extinction.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/Mon_extinction.txt] [Convert] [Msg3]
 Eventmsg "D16061" %A7
 Mapting D16061 41 148 84
 

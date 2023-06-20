@@ -282,42 +282,42 @@ Enter_Fail
 [@Samak_MapDQ1902_001_Event]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg0]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_1
 
 [@Samak_MapDQ1902_001_Event_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg1]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_2
 
 [@Samak_MapDQ1902_001_Event_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg2]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_3
 
 [@Samak_MapDQ1902_001_Event_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg3]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_4
 
 [@Samak_MapDQ1902_001_Event_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg4]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_001_Event_5
 
 [@Samak_MapDQ1902_001_Event_5]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg5]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005,DQ1902_001" %A7
 Delaygoto [Grobal] 3600 @Samak_MapDQ1902_001_TimeOut
 Delaygoto [Grobal] 100 @Samak_MapDQ1902_001_Mongen
@@ -358,7 +358,7 @@ Mov D2 %ARG(2)
 Equal D1 3
 Equal D2 5
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg6]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg6]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005" %A7
 MapTing D1901 5 252 103
 MapTing D1902 5 252 103
@@ -545,7 +545,7 @@ Enter_Fail
 [@Samak_MapDQ1902_002_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg7]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg7]
 EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
 goto @Samak_MapDQ1902_002_1_Mongen
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_2
@@ -553,21 +553,21 @@ Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_2
 [@Samak_MapDQ1902_002_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg8]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg8]
 EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_3
 
 [@Samak_MapDQ1902_002_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg9]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg9]
 EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_4
 
 [@Samak_MapDQ1902_002_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg10]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg10]
 EventMSG "D1901,D1902,D1903,DQ1902_002,DQ1902_007" %A7
 
 [@Samak_MapDQ1902_002_1_Mongen]
@@ -590,77 +590,77 @@ MonClear DQ1902_002
 Mapting D1902 DQ1902_006 30 50
 Mapting D1901 DQ1902_006 30 50
 Mapting D1903 DQ1902_006 30 50
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg11]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg11]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_1
 
 [@Samak_MapDQ1902_002_Event_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg12]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg12]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_2
 
 [@Samak_MapDQ1902_002_Event_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg13]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg13]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_3
 
 [@Samak_MapDQ1902_002_Event_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg14]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg14]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_4
 
 [@Samak_MapDQ1902_002_Event_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg15]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg15]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_5
 
 [@Samak_MapDQ1902_002_Event_5]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg16]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg16]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_6
 
 [@Samak_MapDQ1902_002_Event_6]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg17]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg17]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_7
 
 [@Samak_MapDQ1902_002_Event_7]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg18]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg18]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_8
 
 [@Samak_MapDQ1902_002_Event_8]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg19]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg19]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_9
 
 [@Samak_MapDQ1902_002_Event_9]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg20]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg20]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1902_002_Event_10
 
 [@Samak_MapDQ1902_002_Event_10]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg21]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg21]
 EventMSG "D1901,D1902,D1903,DQ1902_006" %A7
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
 UpdateValueSQL "TBL_SAMAKCASTLEQUEST" %A9 "FLD_SAMAKSTATUS='5',FLD_SAMAKSTATUSRDY='3'"
@@ -837,7 +837,7 @@ break
 !CheckMonMap D1903 2 诺玛突击队长
 #ACT
 MonClear D1903
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg22]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg22]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NumasInvasion2_1
 
@@ -851,14 +851,14 @@ goto @Samak_MapD1903_NumasInvasion_Mob
 goto @Samak_MapD1903_NumasInvasion_Baricate
 goto @Samak_MapD1903_NumasInvasion_BasicGen
 goto @Samak_MapD1903_NumasInvasion_GenPlus
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg23]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg23]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_NumasInvasion2_2
 
 [@Samak_NumasInvasion2_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg24]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg24]
 EventMSG "D1901,D1902,D1903" %A7
 break
 
@@ -1050,35 +1050,35 @@ MongenP "D1903,84,146,15" 诺玛法老 20
 [@Samak_MapD1903_NumasInvasion_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg25]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg25]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_1
 
 [@Samak_MapD1903_NumasInvasion_EventMSG_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg26]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg26]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_2
 
 [@Samak_MapD1903_NumasInvasion_EventMSG_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg27]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg27]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_3
 
 [@Samak_MapD1903_NumasInvasion_EventMSG_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg28]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg28]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_MapD1903_NumasInvasion_EventMSG_4
 
 [@Samak_MapD1903_NumasInvasion_EventMSG_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg29]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg29]
 EventMSG "D1901,D1902,D1903" %A7
 
 [@Samak_MapD1903_NumasInvasion_SQL]
@@ -1149,7 +1149,7 @@ MongenP "DQ1901_002,48,35,0" 骷髅教主 1 "noitem,森罗片"
 MongenP "DQ1901_002,40,40,40" 骨鬼将 3 "noitem"
 MongenP "DQ1901_002,40,40,40" 骷髅武将 10 "noitem"
 MongenP "DQ1901_002,40,40,40" 骷髅弓箭手 10 "noitem"
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg30]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg30]
 EventMSG "D1901,DQ1901_002" %A7
 break
 
@@ -1216,7 +1216,7 @@ break
 [@Samak_MapDQ1902_001_MasterMsg]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg31]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg31]
 EventMSG "D1901,D1902,D1903,DQ1902_003,DQ1902_004,DQ1902_005" %A7
 break
 
@@ -1285,7 +1285,7 @@ Equal D1 4
 Equal D2 14
 #ACT
 MonClear D1903
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg32]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg32]
 EventMSG "D1901,D1902,D1903" %A7
 Delaygoto [Grobal] 7 @Samak_MapDQ1903_001_EventMSG
 FormatStr "FLD_SAMAKGUILD='%s'" %GUILDNAME
@@ -1300,49 +1300,49 @@ break
 [@Samak_MapDQ1903_001_EventMSG]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg33]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg33]
 EventMSG "D1901,D1902,D1903" %A7
 break
 
 [@Map_DQ1903_001_Event]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg34]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg34]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_1
 
 [@Map_DQ1903_001_Event_1]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg35]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg35]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_2
 
 [@Map_DQ1903_001_Event_2]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg36]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg36]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_3
 
 [@Map_DQ1903_001_Event_3]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg37]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg37]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_4
 
 [@Map_DQ1903_001_Event_4]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg38]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg38]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 Delaygoto [Grobal] 7 @Map_DQ1903_001_Event_5
 
 [@Map_DQ1903_001_Event_5]
 #IF
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\SamakCastleQuest\Map.txt] [Convert] [Msg39]
+LoadValue A7 [Convert_Def/QuestDiary/SamakCastleQuest/Map.txt] [Convert] [Msg39]
 EventMSG "D1901,D1902,D1903,DQ1903_001" %A7
 break
 

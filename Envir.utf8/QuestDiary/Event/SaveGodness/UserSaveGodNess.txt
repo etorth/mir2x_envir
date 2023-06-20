@@ -18,8 +18,8 @@ begin
    [@CombineSaveGodnessEvent]
    begin
 	   #ACT
-	      LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
-	      LoadValue P2 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [GateState]
+	      LoadValue P1 "Flag_Def/Event/SaveGodNess/Flag.txt" [GodNess] [State]
+	      LoadValue P2 "Flag_Def/Event/SaveGodNess/Flag.txt" [GodNess] [GateState]
 
 	   #IF
 	      Equal     P1             1   ;; 咯脚 备窍扁 捞亥飘 曼啊 脚没 罐绰 扁埃 老 版快

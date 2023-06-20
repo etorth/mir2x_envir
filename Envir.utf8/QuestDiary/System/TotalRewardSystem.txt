@@ -34,15 +34,15 @@ Checkfame
 #ACT
 inc P9 %D6
 SetFame %P9
-LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/System/TotalRewardSystem.txt] [Convert] [Msg0]
 SysMsg %A7
-LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/System/TotalRewardSystem.txt] [Convert] [Msg1]
 SysMsg %A7
 
 #IF
 ISADMIN
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/System/TotalRewardSystem.txt] [Convert] [Msg2]
 sysmsg %A7
 
 #IF
@@ -92,7 +92,7 @@ break
 #IF
 ISADMIN
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/System/TotalRewardSystem.txt] [Convert] [Msg3]
 sysmsg %A7
 
 #IF
@@ -143,7 +143,7 @@ break
 #IF
 ISADMIN
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/System/TotalRewardSystem.txt] [Convert] [Msg4]
 sysmsg %A7
 
 #IF
@@ -191,7 +191,7 @@ break
 #IF
 ISADMIN
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\System\TotalRewardSystem.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/System/TotalRewardSystem.txt] [Convert] [Msg5]
 sysmsg %A7
 
 #IF

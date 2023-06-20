@@ -7,7 +7,7 @@
 ClearDelaygoto 1005
 goto @DAYOFWEEKCHECK
 goto @MainHonChonRootin
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonMainControl.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/HonMainControl.txt] [Convert] [Msg0]
 linemsg "npcroom1" %A7
 break
 
@@ -15,7 +15,7 @@ break
 #IF
 DAYOFWEEK TUE
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonMainControl.txt] [Convert] [Msg1]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/HonMainControl.txt] [Convert] [Msg1]
 linemsg "npcroom1" %A7
 goto @tuesdayHonQuest
 break
@@ -23,7 +23,7 @@ break
 #IF
 DAYOFWEEK WED
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonMainControl.txt] [Convert] [Msg2]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/HonMainControl.txt] [Convert] [Msg2]
 linemsg "npcroom1" %A7
 goto @wednesdayHonQuest
 break
@@ -31,7 +31,7 @@ break
 #IF
 DAYOFWEEK THU
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonMainControl.txt] [Convert] [Msg3]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/HonMainControl.txt] [Convert] [Msg3]
 linemsg "npcroom1" %A7
 goto @thursdayHonQuest
 break
@@ -39,7 +39,7 @@ break
 #IF
 DAYOFWEEK FRI
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonMainControl.txt] [Convert] [Msg4]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/HonMainControl.txt] [Convert] [Msg4]
 linemsg "npcroom1" %A7
 goto @fridayHonQuest
 break
@@ -47,7 +47,7 @@ break
 #IF
 DAYOFWEEK SAT
 #ACT
-LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonMainControl.txt] [Convert] [Msg5]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonDo/HonMainControl.txt] [Convert] [Msg5]
 linemsg "npcroom1" %A7
 goto @saturdayHonQuest
 break

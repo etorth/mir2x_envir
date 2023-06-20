@@ -30,7 +30,7 @@ begin
    [@GMStartSaveGodNess]
 	   begin
 	      #ACT
-	         LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
+	         LoadValue P1 "Flag_Def/Event/SaveGodNess/Flag.txt" [GodNess] [State]
 
 	      #IF
 	         Equal     P1         0      ;; 捞亥飘啊 柳青吝捞瘤 臼阑版快父 角青凳
@@ -49,7 +49,7 @@ begin
    [@GMFinishSaveGodNess]
 	   begin
 	      #ACT
-	         LoadValue P1 "Flag_Def\Event\SaveGodNess\Flag.txt" [GodNess] [State]
+	         LoadValue P1 "Flag_Def/Event/SaveGodNess/Flag.txt" [GodNess] [State]
 
 	      #IF
 	         Equal     P1         1      ;; 捞亥飘啊 柳青吝捞瘤 臼阑版快父 角青凳

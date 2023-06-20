@@ -3,7 +3,7 @@
 #IF
 IsAdmin
 #ACT
-LoadValue N4 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物攻城] [攻城]
+LoadValue N4 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物攻城] [攻城]
 goto @shagongx
 
 [@shagongx]
@@ -72,27 +72,27 @@ Delaygoto [Grobal] 120 @Next11
 
 [@Next11]
 #ACT
-LoadValue B0 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a1]
-LoadValue B1 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a2]
-LoadValue B2 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a3]
-LoadValue B3 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a4]
-LoadValue B4 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a5]
-LoadValue B5 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a6]
-LoadValue B6 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a7]
-LoadValue B7 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a8]
-LoadValue B8 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物a9]
+LoadValue B0 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a1]
+LoadValue B1 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a2]
+LoadValue B2 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a3]
+LoadValue B3 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a4]
+LoadValue B4 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a5]
+LoadValue B5 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a6]
+LoadValue B6 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a7]
+LoadValue B7 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a8]
+LoadValue B8 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物a9]
 
-LoadValue P0 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a1]
-LoadValue P1 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a2]
-LoadValue P2 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a3]
-LoadValue P3 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a4]
-LoadValue P4 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a5]
-LoadValue P5 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a6]
-LoadValue P6 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a7]
-LoadValue P7 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a8]
-LoadValue P8 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a9]
+LoadValue P0 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a1]
+LoadValue P1 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a2]
+LoadValue P2 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a3]
+LoadValue P3 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a4]
+LoadValue P4 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a5]
+LoadValue P5 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a6]
+LoadValue P6 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a7]
+LoadValue P7 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a8]
+LoadValue P8 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a9]
 
-LoadValue B9 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [集中地] [地点]
+LoadValue B9 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [集中地] [地点]
 
 
 MongenP "3,230,130,20" %B0 %P0
@@ -126,27 +126,27 @@ ClearItemMap "3, 208, 151, 45"  *
 
 [@Next22221]
 #ACT
-LoadValue B0 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b1]
-LoadValue B1 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b2]
-LoadValue B2 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b3]
-LoadValue B3 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b4]
-LoadValue B4 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b5]
-LoadValue B5 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b6]
-LoadValue B6 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b7]
-LoadValue B7 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b8]
-LoadValue B8 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物b9]
+LoadValue B0 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b1]
+LoadValue B1 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b2]
+LoadValue B2 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b3]
+LoadValue B3 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b4]
+LoadValue B4 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b5]
+LoadValue B5 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b6]
+LoadValue B6 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b7]
+LoadValue B7 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b8]
+LoadValue B8 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物b9]
 
-LoadValue P0 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a1]
-LoadValue P1 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a2]
-LoadValue P2 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a3]
-LoadValue P3 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a4]
-LoadValue P4 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a5]
-LoadValue P5 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a6]
-LoadValue P6 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a7]
-LoadValue P7 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a8]
-LoadValue P8 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a9]
+LoadValue P0 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a1]
+LoadValue P1 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a2]
+LoadValue P2 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a3]
+LoadValue P3 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a4]
+LoadValue P4 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a5]
+LoadValue P5 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a6]
+LoadValue P6 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a7]
+LoadValue P7 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a8]
+LoadValue P8 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a9]
 
-LoadValue B9 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [集中地] [地点]
+LoadValue B9 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [集中地] [地点]
 
 
 MongenP "3,174,184,20" %B0 %P0
@@ -182,27 +182,27 @@ ClearItemMap "3, 208, 151, 45"  *
 #ACT
 SaveValue "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物攻城] [攻城] 0
 
-LoadValue B0 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c1]
-LoadValue B1 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c2]
-LoadValue B2 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c3]
-LoadValue B3 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c4]
-LoadValue B4 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c5]
-LoadValue B5 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c6]
-LoadValue B6 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c7]
-LoadValue B7 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c8]
-LoadValue B8 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物名称] [怪物c9]
+LoadValue B0 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c1]
+LoadValue B1 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c2]
+LoadValue B2 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c3]
+LoadValue B3 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c4]
+LoadValue B4 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c5]
+LoadValue B5 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c6]
+LoadValue B6 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c7]
+LoadValue B7 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c8]
+LoadValue B8 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物名称] [怪物c9]
 
-LoadValue P0 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a1]
-LoadValue P1 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a2]
-LoadValue P2 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a3]
-LoadValue P3 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a4]
-LoadValue P4 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a5]
-LoadValue P5 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a6]
-LoadValue P6 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a7]
-LoadValue P7 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a8]
-LoadValue P8 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [怪物数量] [数量a9]
+LoadValue P0 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a1]
+LoadValue P1 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a2]
+LoadValue P2 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a3]
+LoadValue P3 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a4]
+LoadValue P4 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a5]
+LoadValue P5 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a6]
+LoadValue P6 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a7]
+LoadValue P7 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a8]
+LoadValue P8 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [怪物数量] [数量a9]
 
-LoadValue B9 "QuestDiary\CastleWar\沙巴克怪物攻城.txt" [集中地] [地点]
+LoadValue B9 "QuestDiary/CastleWar/沙巴克怪物攻城.txt" [集中地] [地点]
 
 
 MongenP "3,239,198,20" %B0 %P0

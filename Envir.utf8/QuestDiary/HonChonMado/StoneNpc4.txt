@@ -223,7 +223,7 @@ set [208] 1
 FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=11"
 UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=0"
-LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\StoneNpc4.txt] [Convert] [Msg0]
+LoadValue A7 [Convert_Def/QuestDiary/HonChonMado/StoneNpc4.txt] [Convert] [Msg0]
 Linemsg "Grobal" %A7
 
 [@NumaStone4_Talk2_7]

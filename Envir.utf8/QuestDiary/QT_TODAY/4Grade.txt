@@ -38,8 +38,8 @@ check [307] 1
 [@401_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [401] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [401] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [401] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [401] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -64,14 +64,14 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [401] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [401] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [401] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [401] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [401] [20_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [401] [20_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [401] [20_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [401] [20_Type1_1_N]
 
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [401] [80_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [401] [80_Type1_1_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [401] [80_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [401] [80_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -135,12 +135,12 @@ check [307] 1
 [@402_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material2_Amount]
-	LoadValue A2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material3_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material3_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material2_Amount]
+	LoadValue A2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material3_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material3_Amount]
 
 #IF
 checkitem %A0 %D0
@@ -167,19 +167,19 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material2_Amount]
-	LoadValue A2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material3_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [402] [Material3_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material2_Amount]
+	LoadValue A2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material3_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [402] [Material3_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [402] [30_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [402] [30_Type1_1_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [402] [70_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [402] [70_Type1_1_N]
-	LoadValue A8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [402] [70_Type1_2]
-	LoadValue D8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [402] [70_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [402] [30_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [402] [30_Type1_1_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [402] [70_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [402] [70_Type1_1_N]
+	LoadValue A8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [402] [70_Type1_2]
+	LoadValue D8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [402] [70_Type1_2_N]
 
 #IF
 checkitem %A0 %D0
@@ -253,8 +253,8 @@ check [307] 1
 [@403_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [403] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [403] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [403] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [403] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -265,11 +265,11 @@ goto @403_CHECK1_3
 [@403_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [403] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [403] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [403] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [403] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [403] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [403] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [403] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [403] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -325,10 +325,10 @@ check [307] 1
 [@404_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -340,13 +340,13 @@ goto @404_CHECK1_3
 [@404_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [404] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [404] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [404] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [404] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [404] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [404] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -400,8 +400,8 @@ check [307] 1
 [@405_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [405] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [405] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [405] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [405] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -412,11 +412,11 @@ goto @405_CHECK1_3
 [@405_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [405] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [405] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [405] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [405] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [405] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [405] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [405] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [405] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -482,10 +482,10 @@ goto @406_CHECK1_3
 [@406_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [406] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [406] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [406] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [406] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [406] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [406] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [406] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [406] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -549,8 +549,8 @@ goto @407_CHECK1_3
 [@407_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [407] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [407] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [407] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [407] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -604,9 +604,9 @@ check [307] 1
 [@408_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -618,9 +618,9 @@ goto @408_CHECK1_2_1
 [@408_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Dura]
 #IF
 checkitem %A1 %D2
 checkduraeva %A1 %D3
@@ -632,17 +632,17 @@ goto @408_CHECK1_3
 [@408_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material1_Dura]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [408] [Material2_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [408] [Material2_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [408] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [408] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [408] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [408] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [408] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [408] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [408] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [408] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -695,9 +695,9 @@ check [307] 1
 [@409_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [409] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [409] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [409] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [409] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [409] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [409] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -708,12 +708,12 @@ goto @409_CHECK1_3
 [@409_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [409] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [409] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [409] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [409] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [409] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [409] [Material1_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [409] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [409] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [409] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [409] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -767,9 +767,9 @@ check [307] 1
 [@410_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [410] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [410] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [410] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [410] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [410] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [410] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -786,14 +786,14 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [410] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [410] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [410] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [410] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [410] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [410] [Material1_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [410] [100_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [410] [100_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [410] [100_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [410] [100_Type1_WoMan_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [410] [100_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [410] [100_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [410] [100_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [410] [100_Type1_WoMan_N]
 
 #IF
 checkitem %A0 %D0
@@ -855,8 +855,8 @@ check [307] 1
 [@411_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [411] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [411] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [411] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [411] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -867,11 +867,11 @@ goto @411_CHECK1_3
 [@411_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [411] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [411] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [411] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [411] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [411] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [411] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [411] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [411] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -925,8 +925,8 @@ check [307] 1
 [@412_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [412] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [412] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [412] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [412] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -936,13 +936,13 @@ goto @412_CHECK1_3
 [@412_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [412] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [412] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [412] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [412] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [412] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [412] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [412] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [412] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [412] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [412] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [412] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [412] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -995,9 +995,9 @@ check [307] 1
 [@413_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [413] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [413] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [413] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [413] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [413] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [413] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkdura %A0 %D1
@@ -1008,12 +1008,12 @@ goto @413_CHECK1_3
 [@413_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [413] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [413] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [413] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [413] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [413] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [413] [Material1_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [413] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [413] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [413] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [413] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1075,8 +1075,8 @@ goto @414_CHECK1_3
 [@414_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [414] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [414] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [414] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [414] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1132,12 +1132,12 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [415] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [415] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [415] [10_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [415] [10_Type1_1_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [415] [90_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [415] [90_Type1_1_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [415] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [415] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [415] [10_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [415] [10_Type1_1_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [415] [90_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [415] [90_Type1_1_N]
 
 #IF
 small s0 10
@@ -1175,8 +1175,8 @@ check [307] 1
 [@415_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [415] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [415] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [415] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [415] [Material1_Amount]
 #IF
 checkgold %D0
 #ACT
@@ -1230,8 +1230,8 @@ check [307] 1
 [@416_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [416] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [416] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [416] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [416] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -1254,16 +1254,16 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [416] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [416] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [10_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [10_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [10_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [10_Type1_2_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [90_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [90_Type1_1_N]
-	LoadValue A8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [90_Type1_2]
-	LoadValue D8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [41] [90_Type1_2_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [416] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [416] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [10_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [10_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [10_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [10_Type1_2_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [90_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [90_Type1_1_N]
+	LoadValue A8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [90_Type1_2]
+	LoadValue D8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [41] [90_Type1_2_N]
 
 #IF
 small s0 10
@@ -1328,8 +1328,8 @@ check [307] 1
 [@417_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [417] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [417] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [417] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [417] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -1354,16 +1354,16 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [417] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [417] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [417] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [417] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [417] [5_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [417] [5_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [417] [5_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [417] [5_Type1_1_N]
 
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [417] [95_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [417] [95_Type1_1_N]
-	LoadValue A8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [417] [95_Type1_2]
-	LoadValue D8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [417] [95_Type1_2_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [417] [95_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [417] [95_Type1_1_N]
+	LoadValue A8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [417] [95_Type1_2]
+	LoadValue D8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [417] [95_Type1_2_N]
 
 #IF
 small s0 5
@@ -1427,8 +1427,8 @@ check [307] 1
 [@418_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [418] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [418] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [418] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [418] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -1455,11 +1455,11 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [418] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [418] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [418] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [418] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [10_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [10_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [10_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [10_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -1482,15 +1482,15 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [418] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [418] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [418] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [418] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [90_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [90_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [90_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [90_Type1_WoMan_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [90_Type1_Share]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [418] [90_Type1_Share_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [90_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [90_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [90_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [90_Type1_WoMan_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [90_Type1_Share]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [418] [90_Type1_Share_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1557,10 +1557,10 @@ check [307] 1
 [@419_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -1572,15 +1572,15 @@ goto @419_CHECK1_3
 [@419_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [419] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [419] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [419] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [419] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [419] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [419] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [419] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [419] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [419] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [419] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1635,10 +1635,10 @@ check [307] 1
 [@420_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -1650,15 +1650,15 @@ goto @420_CHECK1_3
 [@420_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [420] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [420] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [420] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [420] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [420] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [420] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [420] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [420] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [420] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [420] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1712,10 +1712,10 @@ check [307] 1
 [@421_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -1726,13 +1726,13 @@ goto @421_CHECK1_3
 [@421_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [421] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [421] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [421] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [421] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [421] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [421] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1785,10 +1785,10 @@ check [307] 1
 [@422_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -1799,13 +1799,13 @@ goto @422_CHECK1_3
 [@422_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [422] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [422] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [422] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [422] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [422] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [422] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1859,10 +1859,10 @@ check [307] 1
 [@423_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -1873,13 +1873,13 @@ goto @423_CHECK1_3
 [@423_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [423] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [423] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [423] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [423] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [423] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [423] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -1932,9 +1932,9 @@ check [307] 1
 [@424_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -1945,9 +1945,9 @@ goto @424_CHECK1_2_1
 [@424_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material2_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material2_Dura]
 #IF
 checkitem %A1 %D2
 checkduraeva %A1 %D3
@@ -1959,17 +1959,17 @@ goto @424_CHECK1_3
 [@424_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material1_Dura]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [424] [Material2_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [424] [Material2_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [424] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [424] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [424] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [424] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [424] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [424] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [424] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [424] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2025,9 +2025,9 @@ check [307] 1
 [@425_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -2039,9 +2039,9 @@ goto @425_CHECK1_2_1
 [@425_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Dura]
 #IF
 checkitem %A1 %D2
 checkduraeva %A1 %D3
@@ -2053,17 +2053,17 @@ goto @425_CHECK1_3
 [@425_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Dura]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [425] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [425] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [425] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [425] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [425] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [425] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [425] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [425] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2119,10 +2119,10 @@ check [307] 1
 [@426_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -2133,13 +2133,13 @@ goto @426_CHECK1_3
 [@426_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [426] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [426] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [426] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [426] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [426] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [426] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2194,9 +2194,9 @@ check [307] 1
 [@427_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Dura]
 
 #IF
 checkitem %A0 %D0
@@ -2208,9 +2208,9 @@ goto @427_CHECK1_2_1
 [@427_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Dura]
 #IF
 checkitem %A1 %D2
 checkduraeva %A1 %D3
@@ -2222,15 +2222,15 @@ goto @427_CHECK1_3
 [@427_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material1_Dura]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [425] [Material2_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [425] [Material2_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2285,8 +2285,8 @@ check [307] 1
 [@428_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [428] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [428] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [428] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [428] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -2309,17 +2309,17 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [428] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [428] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [428] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [428] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [10_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [10_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [10_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [10_Type1_2_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [90_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [90_Type1_1_N]
-	LoadValue A8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [90_Type1_2]
-	LoadValue D8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [428] [90_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [10_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [10_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [10_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [10_Type1_2_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [90_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [90_Type1_1_N]
+	LoadValue A8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [90_Type1_2]
+	LoadValue D8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [428] [90_Type1_2_N]
 
 #IF
 small s0 10
@@ -2382,10 +2382,10 @@ check [307] 1
 [@429_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -2410,18 +2410,18 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [429] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [429] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [10_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [10_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [10_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [10_Type1_1_N]
 
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [90_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [90_Type1_1_N]
-	LoadValue A8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [90_Type1_2]
-	LoadValue D8 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [42] [90_Type1_2_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [90_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [90_Type1_1_N]
+	LoadValue A8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [90_Type1_2]
+	LoadValue D8 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [42] [90_Type1_2_N]
 
 #IF
 checkitem %A0 %D0
@@ -2487,8 +2487,8 @@ check [307] 1
 [@430_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [430] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [430] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [430] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [430] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -2498,11 +2498,11 @@ goto @430_CHECK1_3
 [@430_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [430] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [430] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [430] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [430] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [430] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [430] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [430] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [430] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2554,10 +2554,10 @@ check [307] 1
 [@431_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -2568,13 +2568,13 @@ goto @431_CHECK1_3
 [@431_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [431] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [431] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [431] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [431] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [431] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [431] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2630,10 +2630,10 @@ check [307] 1
 [@432_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -2644,13 +2644,13 @@ goto @432_CHECK1_3
 [@432_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [432] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [432] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [432] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [432] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [432] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [432] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2703,13 +2703,13 @@ check [307] 1
 [@433_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [433] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [433] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [433] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [433] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [433] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [433] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [433] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [433] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [433] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [433] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [433] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [433] [100_Type1_1_N]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -2772,9 +2772,9 @@ check [307] 1
 [@434_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -2785,9 +2785,9 @@ goto @434_CHECK1_2_1
 [@434_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material2_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material2_Dura]
 #IF
 checkitem %A1 %D2
 checkduraeva %A1 %D3
@@ -2798,18 +2798,18 @@ goto @434_CHECK1_3
 [@434_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material1_Dura]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [434] [Material2_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [434] [Material2_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [434] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [434] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [434] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [434] [100_Type1_1_N]
 
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [434] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [434] [100_Type1_2_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [434] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [434] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2865,9 +2865,9 @@ check [307] 1
 [@435_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -2878,8 +2878,8 @@ goto @435_CHECK1_2_1
 [@435_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material2_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material2_Amount]
 #IF
 checkitem %A1 %D2
 #ACT
@@ -2889,16 +2889,16 @@ goto @435_CHECK1_3
 [@435_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material1_Dura]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [435] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [435] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [435] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [435] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [435] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [435] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [435] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [435] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [435] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [435] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -2955,10 +2955,10 @@ check [307] 1
 [@436_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -2969,13 +2969,13 @@ goto @436_CHECK1_3
 [@436_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [436] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [436] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [43] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [43] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [43] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [43] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3028,9 +3028,9 @@ check [307] 1
 [@437_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -3041,9 +3041,9 @@ goto @437_CHECK1_2_1
 [@437_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material2_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material2_Dura]
 #IF
 checkitem %A1 %D2
 checkduraeva %A1 %D3
@@ -3054,17 +3054,17 @@ goto @437_CHECK1_3
 [@437_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material1_Dura]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material2_Name]
-	LoadValue D2 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material2_Amount]
-	LoadValue D3 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [437] [Material2_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material1_Dura]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material2_Name]
+	LoadValue D2 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material2_Amount]
+	LoadValue D3 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [437] [Material2_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [437] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [437] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [437] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [437] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [437] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [437] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [437] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [437] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3120,10 +3120,10 @@ check [307] 1
 [@438_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -3134,13 +3134,13 @@ goto @438_CHECK1_3
 [@438_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [438] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [438] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [438] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [438] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [438] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [438] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3195,10 +3195,10 @@ check [307] 1
 [@439_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -3210,15 +3210,15 @@ goto @439_CHECK1_3
 [@439_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [439] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [439] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [439] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [439] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [439] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [439] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [439] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [439] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [439] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [439] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3272,10 +3272,10 @@ check [307] 1
 [@440_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 checkitem %A1 %D1
@@ -3286,16 +3286,16 @@ goto @440_CHECK1_3
 [@440_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [440] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [440] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [440] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [440] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [440] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [440] [100_Type1_1_N]
 
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [440] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [440] [100_Type1_2_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [440] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [440] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3349,9 +3349,9 @@ check [307] 1
 [@441_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [441] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [441] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [441] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [441] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [441] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [441] [Material1_Dura]
 #IF
 checkitem %A0 %D0
 checkduraeva %A0 %D1
@@ -3363,12 +3363,12 @@ goto @441_CHECK1_3
 [@441_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [441] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [441] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [441] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [441] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [441] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [441] [Material1_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [441] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [441] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [441] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [441] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3423,8 +3423,8 @@ check [307] 1
 [@442_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [442] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [442] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [442] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [442] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -3435,11 +3435,11 @@ goto @442_CHECK1_3
 [@442_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [442] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [442] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [442] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [442] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [442] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [442] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [442] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [442] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3502,8 +3502,8 @@ goto @443_CHECK1_3
 [@443_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [443] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [443] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [443] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [443] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3555,8 +3555,8 @@ check [307] 1
 [@444_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [444] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [444] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [444] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [444] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -3567,13 +3567,13 @@ goto @444_CHECK1_3
 [@444_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [444] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [444] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [444] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [444] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [444] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [444] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [444] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [444] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [444] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [444] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [444] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [444] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3607,8 +3607,8 @@ check [307] 0
 [@445_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [445] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [445] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [445] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [445] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -3640,10 +3640,10 @@ goto @445_CHECK1_3
 [@445_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [445] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [445] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [445] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [445] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [445] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [445] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [445] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [445] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3670,8 +3670,8 @@ check [307] 1
 [@445_CHECK2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [445] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [445] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [445] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [445] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -3681,8 +3681,8 @@ goto @445_CHECK2_2
 [@445_CHECK2_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [445] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [445] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [445] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [445] [Material1_Amount]
 #IF
 check [310] 0
 check [308] 0
@@ -3734,8 +3734,8 @@ check [307] 1
 [@446_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [446] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [446] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [446] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [446] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -3746,13 +3746,13 @@ goto @446_CHECK1_3
 [@446_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [446] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [446] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [446] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [446] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [446] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [446] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [446] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [446] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [446] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [446] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [446] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [446] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3787,8 +3787,8 @@ check [307] 0
 [@447_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [447] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [447] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [447] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [447] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -3822,8 +3822,8 @@ goto @447_CHECK1_3
 #IF
 #ACT
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [447] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [447] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [447] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [447] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3849,8 +3849,8 @@ check [307] 1
 [@447_CHECK2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [447] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [447] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [447] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [447] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -3908,8 +3908,8 @@ check [307] 1
 [@448_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [448] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [448] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [448] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [448] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -3919,11 +3919,11 @@ goto @448_CHECK1_3
 [@448_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [448] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [448] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [448] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [448] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [448] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [448] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [448] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [448] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -3983,10 +3983,10 @@ goto @449_CHECK1_3
 [@449_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [449] [100_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [449] [100_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [449] [100_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [449] [100_Type1_WoMan_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [449] [100_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [449] [100_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [449] [100_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [449] [100_Type1_WoMan_N]
 
 #IF
 gender man
@@ -4054,8 +4054,8 @@ goto @450_CHECK1_3
 [@450_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [450] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [450] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [450] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [450] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -4128,8 +4128,8 @@ goto @451_CHECK1_4
 [@451_CHECK1_4]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [451] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [451] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [451] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [451] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -4145,10 +4145,10 @@ set [310] 1
 [@451_CHECK1_5]
 #IF
 #ACT
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [451] [100_Type2_1]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [451] [100_Type2_1_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [451] [100_Type2_2]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [451] [100_Type2_2_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [451] [100_Type2_1]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [451] [100_Type2_1_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [451] [100_Type2_2]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [451] [100_Type2_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -4182,8 +4182,8 @@ check [307] 0
 [@452_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -4236,15 +4236,15 @@ break
 ;
 #IF
 #ACT
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material2_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material2_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [452] [10_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [452] [10_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [452] [10_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [452] [10_Type1_2_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [452] [90_Type1_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [452] [90_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [452] [10_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [452] [10_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [452] [10_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [452] [10_Type1_2_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [452] [90_Type1_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [452] [90_Type1_1_N]
 
 #IF
 small s0 10
@@ -4284,8 +4284,8 @@ check [308] 0
 [@452_CHECK2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material1_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -4299,10 +4299,10 @@ goto @452_CHECK2_3
 [@452_CHECK2_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [452] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [452] [Material2_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -4368,8 +4368,8 @@ check [307] 1
 [@453_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [453] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [453] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [453] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [453] [Material1_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -4382,11 +4382,11 @@ goto @453_CHECK1_3
 [@453_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [453] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [453] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [453] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [453] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [453] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [453] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [453] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [453] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -4440,8 +4440,8 @@ check [307] 1
 [@454_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [454] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [454] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [454] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [454] [Material1_Amount]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -4453,14 +4453,14 @@ goto @454_CHECK1_3
 [@454_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [454] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [454] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [454] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [454] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [454] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [454] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [454] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [454] [100_Type1_1_N]
 
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [454] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [454] [100_Type1_2_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [454] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [454] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -4523,9 +4523,9 @@ check [307] 1
 [@455_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [455] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [455] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [455] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [455] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [455] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [455] [Material1_Dura]
 #IF
 check [310] 0
 check [307] 1
@@ -4538,12 +4538,12 @@ goto @455_CHECK1_3
 [@455_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [455] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [455] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [455] [Material1_Dura]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [455] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [455] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [455] [Material1_Dura]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [455] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [455] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [455] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [455] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -4601,8 +4601,8 @@ check [307] 1
 [@456_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_1]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_1]
 #IF
 check [310] 0
 check [307] 1
@@ -4616,11 +4616,11 @@ goto @456_CHECK1_2_1
 [@456_CHECK1_2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_10]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_10]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_10]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_10]
 #IF
 check [310] 0
 check [307] 1
@@ -4637,10 +4637,10 @@ goto @456_CHECK1_2_2
 [@456_CHECK1_2_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_9]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_9]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_9]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_9]
 #IF
 check [310] 0
 check [307] 1
@@ -4656,10 +4656,10 @@ goto @456_CHECK1_2_3
 [@456_CHECK1_2_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_8]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_8]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_8]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_8]
 #IF
 check [310] 0
 check [307] 1
@@ -4676,10 +4676,10 @@ goto @456_CHECK1_2_4
 [@456_CHECK1_2_4]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_7]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_7]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_7]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_7]
 #IF
 check [310] 0
 check [307] 1
@@ -4696,10 +4696,10 @@ goto @456_CHECK1_2_5
 [@456_CHECK1_2_5]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_6]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_6]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_6]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_6]
 #IF
 check [310] 0
 check [307] 1
@@ -4715,10 +4715,10 @@ goto @456_CHECK1_2_6
 [@456_CHECK1_2_6]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_5]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_5]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_5]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_5]
 #IF
 check [310] 0
 check [307] 1
@@ -4734,10 +4734,10 @@ goto @456_CHECK1_2_7
 [@456_CHECK1_2_7]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_4]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_4]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_4]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_4]
 #IF
 check [310] 0
 check [307] 1
@@ -4753,10 +4753,10 @@ goto @456_CHECK1_2_8
 [@456_CHECK1_2_8]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_3]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_3]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_3]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_3]
 #IF
 check [310] 0
 check [307] 1
@@ -4772,10 +4772,10 @@ goto @456_CHECK1_2_9
 [@456_CHECK1_2_9]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_2]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_2]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_2]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_2]
 #IF
 check [310] 0
 check [307] 1
@@ -4791,10 +4791,10 @@ goto @456_CHECK1_2_10
 [@456_CHECK1_2_10]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [456] [Material1_Amount_1]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [456] [100_Type1_1_N_1]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [456] [Material1_Amount_1]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [456] [100_Type1_1_N_1]
 #IF
 check [310] 0
 check [307] 1
@@ -4836,8 +4836,8 @@ check [307] 0
 [@457_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -4871,8 +4871,8 @@ goto @457_CHECK1_3
 [@457_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [457] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [457] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [457] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [457] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -4904,8 +4904,8 @@ check [309] 0
 [@457_CHECK2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -4934,8 +4934,8 @@ set [308] 1
 {
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -4949,10 +4949,10 @@ checkitem %A0 %D0
 [@457_CHECK3_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material1_Amount]
-	LoadValue A1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material2_Name]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [457] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material1_Amount]
+	LoadValue A1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material2_Name]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [457] [Material2_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -4990,8 +4990,8 @@ check [307] 0
 [@458_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [458] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [458] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [458] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [458] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -5023,8 +5023,8 @@ goto @458_CHECK1_3
 [@458_CHECK1_3]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [458] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [458] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [458] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [458] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -5053,8 +5053,8 @@ check [308] 0
 [@458_CHECK2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [458] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [458] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [458] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [458] [Material1_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -5110,8 +5110,8 @@ check [307] 1
 [@459_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [459] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [459] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [459] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [459] [Material1_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -5123,10 +5123,10 @@ goto @459_CHECK1_3
 [@459_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [459] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [459] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [459] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [459] [100_Type1_1_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [459] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [459] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [459] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [459] [100_Type1_1_N]
 #IF
 check [310] 0
 check [307] 1
@@ -5181,8 +5181,8 @@ check [307] 1
 [@460_CHECK1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [460] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [460] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [460] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [460] [Material1_Amount]
 #IF
 check [310] 0
 check [307] 1
@@ -5195,13 +5195,13 @@ goto @460_CHECK1_3
 [@460_CHECK1_3]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [460] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [460] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [460] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [460] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [460] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [460] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [460] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [460] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [460] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [460] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [460] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [460] [100_Type1_2_N]
 #IF
 check [310] 0
 check [307] 1
@@ -5245,11 +5245,11 @@ set [307] 1
 [@461_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [461] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [461] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [461] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [461] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [461] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [461] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [461] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [461] [100_Type1_1_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -5298,11 +5298,11 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [462] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [462] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [462] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [462] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [462] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [462] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [462] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [462] [100_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -5344,8 +5344,8 @@ set [307] 1
 [@463_CHECK1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [463] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [463] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [463] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [463] [100_Type1_1_N]
 #IF
 check [308] 1
 #ACT
@@ -5385,11 +5385,11 @@ set [307] 1
 [@464_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [464] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [464] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [464] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [464] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [464] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [464] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [464] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [464] [100_Type1_1_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -5433,8 +5433,8 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [464] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [464] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [464] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [464] [Material1_Amount]
 
 #IF
 #ACT
@@ -5450,10 +5450,10 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [464] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [464] [Material1_Amount]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [464] [100_Type2_1]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [464] [100_Type2_1_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [464] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [464] [Material1_Amount]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [464] [100_Type2_1]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [464] [100_Type2_1_N]
 
 #IF
 #ACT
@@ -5494,11 +5494,11 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [465] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [465] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [465] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [465] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [465] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [465] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [465] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [465] [100_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -5540,13 +5540,13 @@ set [307] 1
 [@466_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [466] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [466] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [466] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [466] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [466] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [466] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [466] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [466] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [466] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [466] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [466] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [466] [100_Type1_2_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -5598,11 +5598,11 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [467] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [467] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [467] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [467] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [467] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [467] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [467] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [467] [100_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -5647,13 +5647,13 @@ set [307] 1
 [@468_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [468] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [468] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [468] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [468] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [468] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [468] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [468] [100_Type1_1]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [468] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [468] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [468] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [468] [100_Type1_1]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [468] [100_Type1_1_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -5698,8 +5698,8 @@ set [307] 1
 [@469_CHECK1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [469] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [469] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [469] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [469] [100_Type1_1_N]
 #IF
 check [308] 1
 #ACT
@@ -5739,11 +5739,11 @@ set [307] 1
 [@470_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [470] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [470] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [470] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [470] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [470] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [470] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [470] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [470] [100_Type1_1_N]
 #IF
 check [307] 1
 checkitem %A0 %D0
@@ -5785,8 +5785,8 @@ set [307] 1
 [@471_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [471] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [471] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [471] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [471] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -5827,8 +5827,8 @@ check [307] 0
 [@472_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [472] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [472] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [472] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [472] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -5851,11 +5851,11 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [472] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [472] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [472] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [472] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [472] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [472] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [472] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [472] [100_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -5897,13 +5897,13 @@ set [307] 1
 [@473_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [473] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [473] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [473] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [473] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [473] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [473] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [473] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [473] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [473] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [473] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [473] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [473] [100_Type1_2_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -5948,8 +5948,8 @@ set [307] 1
 [@474_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [474] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [474] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [474] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [474] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -5964,13 +5964,13 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [474] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [474] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [474] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [474] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [474] [100_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [474] [100_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [474] [100_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [474] [100_Type1_WoMan_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [474] [100_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [474] [100_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [474] [100_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [474] [100_Type1_WoMan_N]
 
 #IF
 gender man
@@ -6024,8 +6024,8 @@ set [307] 1
 [@475_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [475] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [475] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [475] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [475] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -6038,13 +6038,13 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [475] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [475] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [475] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [475] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [475] [100_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [475] [100_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [475] [100_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [475] [100_Type1_WoMan_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [475] [100_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [475] [100_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [475] [100_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [475] [100_Type1_WoMan_N]
 
 #IF
 gender man
@@ -6097,8 +6097,8 @@ set [307] 1
 [@476_CHECK1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [476] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [476] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [476] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [476] [100_Type1_1_N]
 #IF
 check [308] 1
 #ACT
@@ -6133,8 +6133,8 @@ goto @476_CHECK2_1
 [@476_CHECK2_1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [476] [100_Type2_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [476] [100_Type2_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [476] [100_Type2_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [476] [100_Type2_1_N]
 #IF
 check [307] 1
 check [309] 0
@@ -6173,8 +6173,8 @@ set [307] 1
 [@477_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [477] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [477] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [477] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [477] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -6189,13 +6189,13 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [477] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [477] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [477] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [477] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [477] [100_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [477] [100_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [477] [100_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [477] [100_Type1_WoMan_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [477] [100_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [477] [100_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [477] [100_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [477] [100_Type1_WoMan_N]
 
 #IF
 gender man
@@ -6293,8 +6293,8 @@ set [307] 1
 [@479_CHECK1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [479] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [479] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [479] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [479] [100_Type1_1_N]
 #IF
 check [308] 1
 #ACT
@@ -6335,13 +6335,13 @@ set [307] 1
 [@480_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [480] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [480] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [480] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [480] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [480] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [480] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [480] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [480] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [480] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [480] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [480] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [480] [100_Type1_2_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -6389,13 +6389,13 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [481] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [481] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [481] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [481] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [481] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [481] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [481] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [481] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [481] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [481] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [481] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [481] [100_Type1_2_N]
 
 #IF
 checkitem %A0 %D0
@@ -6438,13 +6438,13 @@ set [307] 1
 [@482_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [482] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [482] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [482] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [482] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [482] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [482] [100_Type1_1_N]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [482] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [482] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [482] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [482] [100_Type1_1_N]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [482] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [482] [100_Type1_2_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -6498,12 +6498,12 @@ goto @483_CHECK1_1
 [@483_CHECK1_1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [483] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [483] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [483] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [483] [100_Type1_2_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [483] [100_Type2_1]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [483] [100_Type2_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [483] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [483] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [483] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [483] [100_Type1_2_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [483] [100_Type2_1]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [483] [100_Type2_1_N]
 #IF
 check [309] 1
 #ACT
@@ -6556,13 +6556,13 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [484] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [484] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [484] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [484] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [484] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [484] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [484] [100_Type1_2]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [484] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [484] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [484] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [484] [100_Type1_2]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [484] [100_Type1_2_N]
 
 #IF
 checkitem %A0 %D0
@@ -6594,8 +6594,8 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [484] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [484] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [484] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [484] [Material1_Amount]
 
 #IF
 #ACT
@@ -6629,13 +6629,13 @@ set [307] 1
 [@485_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [485] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [485] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [485] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [485] [Material1_Amount]
 
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [485] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [485] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [485] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [485] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [485] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [485] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [485] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [485] [100_Type1_2_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -6671,8 +6671,8 @@ check [307] 0
 [@486_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [486] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [486] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [486] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [486] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -6690,10 +6690,10 @@ goto @486_CHECK1_1
 [@486_CHECK1_1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [486] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [486] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [486] [100_Type2_1]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [486] [100_Type2_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [486] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [486] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [486] [100_Type2_1]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [486] [100_Type2_1_N]
 #IF
 check [309] 1
 #ACT
@@ -6732,8 +6732,8 @@ goto @486_CHECK2_1_1
 [@486_CHECK2_1_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [486] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [486] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [486] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [486] [Material1_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -6748,8 +6748,8 @@ set [308] 1
 [@486_CHECK2_1_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [486] [Material2_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [486] [Material2_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [486] [Material2_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [486] [Material2_Amount]
 #IF
 checkitem %A0 %D0
 #ACT
@@ -6794,11 +6794,11 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [487] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [487] [Material1_Amount]
-	LoadValue D1 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [487] [Material1_Dura]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [487] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [487] [100_Type1_1_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [487] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [487] [Material1_Amount]
+	LoadValue D1 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [487] [Material1_Dura]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [487] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [487] [100_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -6839,12 +6839,12 @@ set [307] 1
 [@488_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [488] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [488] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [488] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [488] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [488] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [488] [100_Type1_2_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [488] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [488] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [488] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [488] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [488] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [488] [100_Type1_2_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -6888,10 +6888,10 @@ break
 ;
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [489] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [489] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [489] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [489] [100_Type1_1_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [489] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [489] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [489] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [489] [100_Type1_1_N]
 
 #IF
 checkitem %A0 %D0
@@ -6932,10 +6932,10 @@ set [307] 1
 [@490_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [490] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [490] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [490] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [490] [100_Type1_1_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [490] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [490] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [490] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [490] [100_Type1_1_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -6970,8 +6970,8 @@ check [307] 0
 [@491_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [491] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [491] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [491] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [491] [Material1_Amount]
 #IF
 check [307] 0
 checkgold %D0
@@ -6996,8 +6996,8 @@ check [307] 0
 [@492_START_2]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [492] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [492] [100_Type1_1_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [492] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [492] [100_Type1_1_N]
 #IF
 check [307] 0
 #ACT
@@ -7068,8 +7068,8 @@ set [308] 1
 [@493_CHECK2_2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [493] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [493] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [493] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [493] [Material1_Amount]
 #IF
 check [307] 1
 checkitem %A0 %D0
@@ -7088,10 +7088,10 @@ break
 ;
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [493] [100_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [493] [100_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [493] [100_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [493] [100_Type1_WoMan_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [493] [100_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [493] [100_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [493] [100_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [493] [100_Type1_WoMan_N]
 
 #IF
 check [307] 1
@@ -7157,8 +7157,8 @@ set [307] 1
 [@495_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [495] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [495] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [495] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [495] [Material1_Amount]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -7171,14 +7171,14 @@ goto @495_CHECK1_1
 [@495_CHECK1_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [495] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [495] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [495] [100_Type1_Man]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [495] [100_Type1_Man_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [495] [100_Type1_WoMan]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [495] [100_Type1_WoMan_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [495] [100_Type1_Share]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [495] [100_Type1_Share_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [495] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [495] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [495] [100_Type1_Man]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [495] [100_Type1_Man_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [495] [100_Type1_WoMan]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [495] [100_Type1_WoMan_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [495] [100_Type1_Share]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [495] [100_Type1_Share_N]
 #IF
 gender man
 check [308] 1
@@ -7231,14 +7231,14 @@ set [307] 1
 [@496_CHECK1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [496] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [496] [Material1_Amount]
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [496] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [496] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [496] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [496] [100_Type1_2_N]
-	LoadValue A7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [496] [100_Type1_3]
-	LoadValue D7 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [496] [100_Type1_3_N]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [496] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [496] [Material1_Amount]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [496] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [496] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [496] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [496] [100_Type1_2_N]
+	LoadValue A7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [496] [100_Type1_3]
+	LoadValue D7 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [496] [100_Type1_3_N]
 #IF
 check [308] 1
 checkitem %A0 %D0
@@ -7282,10 +7282,10 @@ set [307] 1
 [@497_CHECK1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [497] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [497] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [497] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [497] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [497] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [497] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [497] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [497] [100_Type1_2_N]
 #IF
 check [308] 1
 #ACT
@@ -7319,8 +7319,8 @@ check [307] 0
 [@498_START_2]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [498] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [498] [Material1_Amount]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [498] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [498] [Material1_Amount]
 #IF
 check [307] 0
 #ACT
@@ -7331,10 +7331,10 @@ set [307] 1
 [@498_CHECK1]
 #IF
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [498] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [498] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [498] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [498] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [498] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [498] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [498] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [498] [100_Type1_2_N]
 #IF
 check [310] 0
 check [308] 1
@@ -7363,8 +7363,8 @@ goto @498_CHECK2_1
 [@498_CHECK2_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [498] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [498] [Material1_Amount_1]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [498] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [498] [Material1_Amount_1]
 #IF
 checkitem %A0 %D0
 check [307] 1
@@ -7387,8 +7387,8 @@ goto @498_CHECK3_1
 [@498_CHECK3_1]
 #IF
 #ACT
-	LoadValue A0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [498] [Material1_Name]
-	LoadValue D0 "GM_Def\QuestDiary\QT_TODAY\4Grade_Material.txt" [498] [Material1_Amount_1]
+	LoadValue A0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [498] [Material1_Name]
+	LoadValue D0 "GM_Def/QuestDiary/QT_TODAY/4Grade_Material.txt" [498] [Material1_Amount_1]
 #IF
 checkitem %A0 %D0
 check [309] 0
@@ -7433,10 +7433,10 @@ goto @499_CHECK1_1
 #IF
 check [309] 1
 #ACT
-	LoadValue A5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [499] [100_Type1_1]
-	LoadValue D5 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [499] [100_Type1_1_N]
-	LoadValue A6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [499] [100_Type1_2]
-	LoadValue D6 "GM_Def\QuestDiary\QT_TODAY\4Grade_Reward.txt" [499] [100_Type1_2_N]
+	LoadValue A5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [499] [100_Type1_1]
+	LoadValue D5 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [499] [100_Type1_1_N]
+	LoadValue A6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [499] [100_Type1_2]
+	LoadValue D6 "GM_Def/QuestDiary/QT_TODAY/4Grade_Reward.txt" [499] [100_Type1_2_N]
 give %A5 %D5
 give %A6 %D6
 set [307] 0

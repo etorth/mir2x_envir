@@ -44,7 +44,7 @@ begin
 [@Start_Island]
 	begin
 		#ACT
-			LoadValue P1 "Flag_Def\Event\Island\Gold.txt" "GOLD" "AddGold"
+			LoadValue P1 "Flag_Def/Event/Island/Gold.txt" "GOLD" "AddGold"
 
 		#IF
 			Small P1 1000000   ;; 檬扁 陛咀 100父栏肺
@@ -85,7 +85,7 @@ begin
 	SetEventDamage Island02  5                             ; 5硅 单固瘤
 	SetEventMap  "Island02"                                ; new cmd 捞亥飘甘栏肺 父惦 (ResetEventMap)
 	SendCmd  "Island02, 95, 135, 5"  生存游戏场美眉  Hide
-	LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Treasure.txt] [Event_Island_Treasure_EventMsg] [Msg1]
+	LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Treasure.txt] [Event_Island_Treasure_EventMsg] [Msg1]
 	LineMsg  "Grobal"  %A0
 	Mapting Island02 01 425 314                            ; 焊拱级 甘俊 乐绰逞 泼扁扁
 	Map     Island02                                       ; 焊拱级 甘救栏肺 甸绢啊霸 窃
@@ -96,7 +96,7 @@ begin
 	begin
 		#IF
 		#ACT
-         LoadValue N7 "GM_Def\Event\Island\Gold.txt" "InputGold" "Gold"   ;; 涝厘丰 技泼 窍绰 何盒
+         LoadValue N7 "GM_Def/Event/Island/Gold.txt" "InputGold" "Gold"   ;; 涝厘丰 技泼 窍绰 何盒
 
 		#IF
 			!Equal N1{EVENT}  1
@@ -117,7 +117,7 @@ begin
 		#ACT
 			Take   金币        %N7
 			Inc    N8{GOLD}  %N7
-			LoadValue A0 [Convert_Def\QuestDiary\Event\Island\Treasure.txt] [Event_Island_Treasure_EventMsg] [Msg2]
+			LoadValue A0 [Convert_Def/QuestDiary/Event/Island/Treasure.txt] [Event_Island_Treasure_EventMsg] [Msg2]
 			LineMsg  "01,Island02" %A0
 			Map   Island02
 		#ELSESAY

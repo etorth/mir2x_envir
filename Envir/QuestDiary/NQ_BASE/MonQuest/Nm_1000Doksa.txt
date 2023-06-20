@@ -25,4 +25,4 @@ goto @baksa1
 
 #ACT
 set [217] 1
-give Ç§Äê¶¾Éßµ¨Ö­ 1
+give 千年毒蛇胆汁 1

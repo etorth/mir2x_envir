@@ -7,6 +7,9 @@ fi
 
 cp -rf Envir Envir.utf8
 
+# looks all files are encoded in GB18030
+# only one file failed at last byte: Envir/QuestDiary/HonChonDo/HelperHonChonDoBook.txt
+
 for f in `find Envir.utf8 -name "*.txt"`
 do
     srcpath=`realpath ${f}`

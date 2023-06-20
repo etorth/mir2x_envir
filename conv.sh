@@ -25,5 +25,5 @@ do
 
     dos2unix -q ${srcpath}
     sed -i 's/[[:space:]]\+$//' ${srcpath}
-    sed -i '/#INCLUDE/{s/\\/\//g}' ${srcpath}
+    sed -i '/#INCLUDE/{s/\\/\//g;s/\.\.\/Convert_Def/Convert_Def/g}' ${srcpath}
 done

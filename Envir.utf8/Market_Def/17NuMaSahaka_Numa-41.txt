@@ -1,0 +1,103 @@
+;;不要删掉此行
+[@main]
+#ACT
+goto @NuMaSahakaNpc
+break
+
+[@_Startup]
+#ACT
+goto @MadoTimeQueststart
+break
+
+
+[@NuMaSahakaNpc]
+#ACT
+Mov D0 0
+
+#SAY
+我是诺玛族正统的大法老。
+人类勇士，你要打听什么？\ \
+<打听影魅之刃的由来。/@madomake_1>\
+<打听组合项链碎片的方法。/@madomake_2>\
+<打听复活影魅之刃的方法。/@madomake_3>\
+
+#IF
+
+
+!checkitemw 寂幻之刃 1
+
+#SAY
+<跟夏柯进行对话。/@MadoTimeQuest> \
+
+#ACT
+Mov D0 1
+
+#IF
+
+
+checkitemw 寂幻之刃 1
+
+#SAY
+<跟夏柯进行对话。/@MadoQuest> \
+
+#ACT
+Mov D0 1
+
+#IF
+!Equal D0 1
+#ACT
+goto @NoQuest_Say
+break
+
+
+[@NoQuest_Say]
+
+#SAY
+没事情的话，就回去吧。\\
+
+[@madomake_1]
+
+#SAY
+被人类称作影魅之刃的魔剑，是很久以前来自北方的勇士带过来的。勇士利用魔剑的强大力量打败了魔族，把我们民族从危机中拯救了出来。\
+但他被魔剑的力量引诱住，走火入了魔，失去了同族爱和正义感，变成了怪物。我们的祖先大法老们竭尽全力打败了他，把他封印在地下深处，然后把项链的4个眼挖出来，各一分为四，藏到了16个方向上。\
+霸群大怪利用强大的魔力吸附住4个眼睛的碎片，变成了自己身体的一部分，使用霸群大怪力量的陀大怪更加变强了。
+不借用影魅之刃的力量永远无法打败陀大怪……\ \
+<关 闭/@Exit>
+
+[@madomake_2]
+
+#SAY
+诺玛教主陀大怪显然知道影魅之刃的威力，利用霸群大怪的力量搜集到了项链的碎片。打败陀大怪的话，或许能得到部分项链碎片。\
+项链碎片共有16片，搜集每条项链的4个碎片，便可得到4条项链万里碧海、九宫云雾、黑天暗云、血花落照。\
+把项链碎片搜集过来交给我。我会利用我们诺玛族代代相传的秘传解除项链里的籀文。那么项链就会恢复到原来的状态。\ \
+<制作项链。/@madomake_Accessory>\
+<关 闭/@Exit>
+
+[@madomake_3]
+
+#SAY
+复活影魅之刃需要6种宝物。\
+即影魅之刃的眼睛-万里碧海、九宫云雾、黑天暗云、血花落照和剑的骨架寂幻之刃及解除封印所需的大族长的角笛。\
+诺玛族大族长们代代相传的角笛，是显示大族长权威的宝物。但属于沃尔阁的那把角笛被陀大怪抢去了，陀大怪利用角笛的权威控制了所有的诺玛，成为了诺玛教主。\
+陀大怪随身携带着那把角笛，想要得到角笛，就得去打败陀大怪。\ \
+<关 闭/@Exit>
+
+[@madomake_Accessory]
+#CALL [QuestDiary/System/NecklaceMake.txt] @NecklaceMake
+
+
+[@MadoTimeQuest]
+#CALL [QuestDiary/HonChondo/MadoNpcSahaka.txt] @MadoTimeQuestMainNpc
+
+
+[@MadoQuest]
+#CALL [QuestDiary/HonChonMado/SahakaNpc.txt] @SahakaNpcNpc_Call
+
+
+
+[@MadoTimeQueststart]
+#CALL [QuestDiary/HonChondo/HonMainControl.txt] @Honchonmadocontrol
+
+[@everythingreward]
+#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

@@ -1,0 +1,198 @@
+;;不要删掉此行
+[@HonChondo_Questnpc]
+{
+#IF
+Checkitem 毁灭之印 1
+#ACT
+goto @HonChondo_Questnpc_1
+break
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_0
+
+[@HonChondo_Questnpc_1]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN,FLD_MADOCONTENT,FLD_MADOQUESTCHECK" [@HonChondo_Questnpc_1_0]
+
+[@HonChondo_Questnpc_1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+#IF
+Equal D1 8
+Equal D2 0
+Equal D3 0
+#ACT
+goto @HonChondo_Questnpc_1_End
+break
+
+#IF
+Equal D1 7
+Equal D2 1
+Equal D3 1
+#ACT
+goto @HonChondo_Questnpc_1_HaveEnd
+break
+
+
+#IF
+Equal D1 6
+Equal D2 3
+Equal D3 0
+#ACT
+goto @HonChondo_Questnpc_1_1
+break
+
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_1
+
+#ACT
+break
+
+
+[@HonChondo_Questnpc_1_1]
+#ACT
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+ReadValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOHAVE" [@HonChondo_Questnpc_1_3]
+
+[@HonChondo_Questnpc_1_3()]
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 1
+#ACT
+goto @HonChondo_Questnpc_1_have
+break
+#ELSEACT
+goto @HonChondo_Questnpc_1_nohave
+break
+
+
+
+[@HonChondo_Questnpc_1_have]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_2
+
+[@HonChondo_Questnpc_1_have_1]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_3
+
+[@HonChondo_Questnpc_1_have_2]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_4
+
+[@HonChondo_Questnpc_1_have_3]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_5
+
+[@HonChondo_Questnpc_1_have_4]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_6
+
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+
+[@HonChondo_Questnpc_1_nohave]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_7
+
+[@HonChondo_Questnpc_1_nohave_1]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_8
+
+[@HonChondo_Questnpc_1_nohave_2]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_9
+
+[@HonChondo_Questnpc_1_nohave_3]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_10
+
+[@HonChondo_Questnpc_1_nohave_4]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_11
+
+[@HonChondo_Questnpc_1_nohave_5]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_12
+
+[@HonChondo_Questnpc_1_nohave_6]
+#IF
+Checkitem 毁灭之印 1
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_13
+
+
+#ELSESAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_14
+
+[@HonChondo_Questnpc_1_nohave_7]
+#IF
+Checkitem 毁灭之印 1
+!Checkweaponlevel 1
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_15
+
+#ACT
+TAKE 毁灭之印 1
+Givew 1 寂幻之刃
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=7"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOHAVE=1"
+set [205] 0
+LoadValue A7 [Convert_Def\QuestDiary\HonChonDo\HonChondonpc.txt] [Convert] [Msg0]
+Eventmsg grobal %A7 2000
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_16
+
+[@HonChondo_Questnpc_1_End]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_17
+
+[@HonChondo_Questnpc_1_HaveEnd]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/HonChondonpc.txt] @Convert_HonChondonpc_18
+
+[@HonChondo_Questnpc_1_HaveEnd1]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=8"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=0"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+mapting D16062 41 148 84
+}
+;;不要删掉此行

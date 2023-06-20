@@ -1,0 +1,360 @@
+;;Bujuk.txt
+[@make_Charm_main]
+{
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_1
+
+
+;------------------------
+
+[@Make_Charm_BCharm]
+#IF
+checkitem 骷髅骨 3
+checkitem 鸡血 3
+#ACT
+take 骷髅骨 3
+take 鸡血 3
+mov d0 0
+goto @Make_Charm_BCharm_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_2
+
+
+[@Make_Charm_BCharm_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_BCharm_2
+
+[@Make_Charm_BCharm_2]
+#IF
+small d0 96
+#ACT
+goto @Make_Charm_BCharm_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_3
+
+
+[@Make_Charm_BCharm_3]
+#IF
+#ACT
+give 护身符（小） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_4
+
+
+;------------------------
+
+[@Make_Charm_HCharm]
+#IF
+checkitem 僵尸骨头 2
+checkitem 鸡血 5
+#ACT
+take 僵尸骨头 2
+take 鸡血 5
+mov d0 0
+goto @Make_Charm_HCharm_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_5
+
+
+[@Make_Charm_HCharm_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_HCharm_2
+
+[@Make_Charm_HCharm_2]
+#IF
+small d0 96
+#ACT
+goto @Make_Charm_HCharm_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_6
+
+
+[@Make_Charm_HCharm_3]
+#IF
+#ACT
+give 神圣护身符（小） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_7
+
+
+;------------------------
+
+[@Make_Charm_FCharm]
+#IF
+checkitem 骷髅骨 4
+checkitem 蝎子的尾巴 1
+checkitem 鸡血 4
+#ACT
+take 骷髅骨 4
+take 蝎子的尾巴 1
+take 鸡血 4
+mov d0 0
+goto @Make_Charm_FCharm_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_8
+
+
+[@Make_Charm_FCharm_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_FCharm_2
+
+[@Make_Charm_FCharm_2]
+#IF
+small d0 96
+#ACT
+goto @Make_Charm_FCharm_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_9
+
+
+[@Make_Charm_FCharm_3]
+#IF
+#ACT
+give 护身符（火） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_10
+
+
+;------------------------
+
+[@Make_Charm_ICharm]
+#IF
+checkitem 毒蛇胆汁 8
+checkitem 鸡血 4
+checkitem 毒蜘蛛牙齿 2
+#ACT
+take 毒蛇胆汁 8
+take 鸡血 4
+take 毒蜘蛛牙齿 2
+mov d0 0 goto @Make_Charm_ICharm_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_11
+
+
+[@Make_Charm_ICharm_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_ICharm_2
+
+[@Make_Charm_ICharm_2]
+#IF
+small d0 96
+#ACT
+goto @Make_Charm_ICharm_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_12
+
+
+[@Make_Charm_ICharm_3]
+#IF
+#ACT
+give 护身符（冰） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_13
+
+
+;------------------------
+
+[@Make_Charm_LCharm]
+#IF
+checkitem 僵尸骨头 2
+checkitem 食人树叶 2
+checkitem 鸡血 4
+#ACT
+take 僵尸骨头 2
+take 食人树叶 2
+take 鸡血 4
+mov d0 0
+goto @Make_Charm_LCharm_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_14
+
+
+[@Make_Charm_LCharm_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_LCharm_2
+
+[@Make_Charm_LCharm_2]
+#IF
+small d0 96
+#ACT
+goto @Make_Charm_LCharm_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_15
+
+
+[@Make_Charm_LCharm_3]
+#IF
+#ACT
+give 护身符（雷） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_16
+
+
+;------------------------
+
+[@Make_Charm_WCharm]
+#IF
+checkitem 骷髅骨 3
+checkitem 食人树的果实 1
+checkitem 鸡血 4
+#ACT
+take 骷髅骨 3
+take 食人树的果实 1
+take 鸡血 4
+mov d0 0
+goto @Make_Charm_WCharm_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_17
+
+
+[@Make_Charm_WCharm_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_WCharm_2
+
+[@Make_Charm_WCharm_2]
+#IF
+small d0 96
+#ACT
+goto @Make_Charm_WCharm_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_18
+
+
+[@Make_Charm_WCharm_3]
+#IF
+#ACT
+give 护身符（风） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_19
+
+
+;------------------------
+
+[@Make_Charm_RCharm]
+#IF
+checkitem 夜明珠 10
+checkitem 神灵雕像 5
+checkitem 潘夜之泪 3
+checkitem 鸡血 2
+#ACT
+take 夜明珠 10
+take 神灵雕像 5
+take 潘夜之泪 3
+take 鸡血 2
+mov d0 0
+goto @Make_Charm_RCharm_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_20
+
+
+[@Make_Charm_RCharm_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_RCharm_2
+
+[@Make_Charm_RCharm_2]
+#IF
+small d0 81
+#ACT
+goto @Make_Charm_RCharm_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_21
+
+
+[@Make_Charm_RCharm_3]
+#IF
+#ACT
+give 灵魂护身符（小） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_22
+
+
+;------------------------
+
+[@Make_Charm_RCharmM]
+#IF
+checkitem 夜明珠 30
+checkitem 神灵雕像 15
+checkitem 潘夜之泪 9
+checkitem 鸡血 6
+#ACT
+take 夜明珠 30
+take 神灵雕像 15
+take 潘夜之泪 9
+take 鸡血 6
+mov d0 0
+goto @Make_Charm_RCharmM_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_23
+
+
+[@Make_Charm_RCharmM_1]
+#IF
+#ACT
+movr d0 100
+inc d0 1
+goto @Make_Charm_RCharmM_2
+
+[@Make_Charm_RCharmM_2]
+#IF
+small d0 61
+#ACT
+goto @Make_Charm_RCharmM_3
+#ELSEACT
+mov d0 0
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_24
+
+
+[@Make_Charm_RCharmM_3]
+#IF
+#ACT
+give 灵魂护身符（中） 1
+mov d0 0
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Make_Item/Bujuk.txt] @Bujuk_25
+
+
+;------------------------
+}

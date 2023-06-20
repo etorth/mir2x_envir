@@ -1,0 +1,4 @@
+;;13Move_Mongchon1-74.txt
+[@main]
+#CALL [QuestDiary/teleport/MongChonTele.txt] @Monchon_Teleport_East
+

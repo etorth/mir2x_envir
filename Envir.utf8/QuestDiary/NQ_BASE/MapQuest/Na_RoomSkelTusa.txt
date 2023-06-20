@@ -1,0 +1,100 @@
+;;Na_RoomSkelTusa.txt
+[@main]
+;-----------------------------------------------------
+;-----------------------------------------------------
+;#### D002_001  7,9 ->  D002   254,282   ############
+;#### D002  255,281 ->  D002_001   8,10  ############
+;-----------------------------------------------------
+#IF
+check [199] 1
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_1
+
+#ACT
+enter_fail
+break
+
+#IF
+check [197] 1
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_2
+
+#ACT
+enter_fail
+break
+
+#IF
+check [195] 1
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_3
+
+#ACT
+enter_fail
+break
+
+#IF
+check [194] 1
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_4
+
+#ACT
+set [193] 0
+set [194] 0
+enter_fail
+break
+
+#IF
+check [193] 1
+#ACT
+set [193] 0
+set [194] 1
+enter_fail
+break
+
+#IF
+check [192] 1
+#ACT
+goto @enterh_hatu
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_5
+
+#ELSEACT
+enter_fail
+
+;-----------------------------------------------------
+
+[@enterh_hatu]
+#IF
+checkhum D002_001 1
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_6
+
+#ACT
+enter_fail
+#ELSEACT
+goto @enterh_hatu_1
+
+[@enterh_hatu_1]
+#IF
+checkitem 半块不死牌 1
+#ACT
+Monclear D002_001
+Param1 D002_001
+Param2 19
+Param3 12
+MonGen 骷髅精灵61 1 1
+Param1 D002_001
+Param2 10
+Param3 14
+MonGen 骷髅战士61 4 2
+set [193] 1
+Param1 D002_001
+Param2 13
+Param3 16
+MonGen 掷斧骷髅61 4 2
+enter_ok
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_BASE/MapQuest/Na_RoomSkelTusa.txt] @Na_RoomSkelTusa_7
+
+#ELSEACT
+enter_fail

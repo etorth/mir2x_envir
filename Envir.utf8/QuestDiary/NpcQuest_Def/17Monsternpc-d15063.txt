@@ -1,0 +1,31 @@
+;;不要删掉此行
+[@NPCQuest_Check]
+{
+#ACT
+Mov D0 0
+
+
+#IF
+check [207] 1
+check [407] 0
+checkitemw 寂幻之刃 1
+#ACT
+goto @MonsternpcQuest_start1
+Mov D0 1
+
+#IF
+!Equal D0 1
+#ACT
+goto @NoQuest_Say
+break
+
+
+[@NoQuest_Say]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Monsternpc-d15063.txt] @Convert_17Monsternpc-d15063_0
+
+[@MonsternpcQuest_start1]
+#CALL [QuestDiary/HonChonMado/MonsterNpc1.txt] @MonsterNpc1_Talk
+}
+;;不要删掉此行

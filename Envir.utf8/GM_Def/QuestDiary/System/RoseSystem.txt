@@ -1,0 +1,5 @@
+;;RoseSystem.txt
+[RoseSystem]
+SetPoint = 11400
+GiveItemName = 玫瑰
+GiveItemmNum = 1

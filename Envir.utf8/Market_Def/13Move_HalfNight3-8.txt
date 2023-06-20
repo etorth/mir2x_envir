@@ -1,0 +1,3 @@
+;;13Move_HalfNight3-8.txt
+[@main]
+#CALL [QuestDiary//teleport/VanyaTele.txt] @HalfNight_Cave

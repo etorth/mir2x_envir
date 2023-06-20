@@ -1,0 +1,8 @@
+;;18MainFlag_Sabuk-3.txt
+[@main]
+#CALL [QuestDiary/CastleWar/Flag.txt] @Defence_MainFlag
+
+[@_Startup]
+#ACT
+PasteFlag SABUK
+

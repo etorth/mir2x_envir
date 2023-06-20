@@ -1,0 +1,25 @@
+;;YubaeTele.txt
+[@RedZone_Teleport]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_1
+
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_2
+
+
+[@Special_Teleport]
+#IF
+checkitem 藏罪据证 1
+#ACT
+take 藏罪据证 1                  ;; 篮诀狼刘钎甫 瘤阂 窍绊 捞悼 窍绰 漂荐 版快
+mapmove 8 288 242
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/YubaeTele.txt] @YubaeTele_3
+
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; 捞悼 风凭
+}

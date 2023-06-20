@@ -1,0 +1,3 @@
+;;13Move_DoGwan-1.txt
+[@main]
+#CALL [QuestDiary//teleport/DoKwanTele.txt] @DoKwan_Teleport

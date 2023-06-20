@@ -1,0 +1,59 @@
+;;BiChonTele.txt
+[@Bichon_Teleport_South]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_1
+
+#ELSEACT
+mapmove 81 125 274
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
+}
+
+[@Bichon_Teleport_East]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_2
+
+#ELSEACT
+mapmove 81 125 274
+break
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
+}
+
+[@Bichon_Teleport_North]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_3
+
+#ELSEACT
+mapmove 81 125 274
+break
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
+}
+
+[@Bichon_Teleport_West]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/BiChonTele.txt] @BiChonTele_4
+
+#ELSEACT
+mapmove 81 125 274
+break
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove
+}

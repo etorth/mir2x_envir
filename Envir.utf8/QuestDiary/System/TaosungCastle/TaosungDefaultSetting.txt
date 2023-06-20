@@ -1,0 +1,98 @@
+;;不要删掉此行
+[@CastleWarReady_TAOSUNG]
+{
+#ACT
+ChangeMapAttr "5" "SAFE"
+ChangeMapAttr "5" "NoFly"
+ChangeMapAttr "5" "NoRFly"
+ChangeMapAttr "5" "NoSpell"
+TingWar TAOSUNG
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg0]
+lineMsg [Grobal] %A7
+mongenp "5,267,145,0" 木栅栏2 1
+mongenp "5,201,159,0" 木栅栏4 1
+mongenp "5,211,96,0" 木栅栏1 1
+Delaygoto [Grobal] 30 @TosungCastle_NumaMsg
+
+[@TosungCastle_NumaMsg]
+#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastleWar_NumaMsg
+}
+
+[@CastleWarStart_TAOSUNG]
+{
+#ACT
+ResetMapAttr "5"
+
+SetAreaAttr "5, 265, 88, 6" "NoFly"
+SetAreaAttr "5, 265, 88, 6" "NoRFly"
+SetAreaAttr "5, 265, 88, 10" "NoLack"
+
+SetAreaAttr "5, 250, 105, 8" "NoLack"
+SetAreaAttr "5, 44, 122, 8" "NoLack"
+SetAreaAttr "5, 320, 306, 8" "NoLack"
+SetAreaAttr "5, 151, 315, 8" "NoLack"
+movenpc "5,262,84,『行政官』_沙漠土城官吏" Z013 10 11
+movenpc "5,202,129,乘龙" Z013 10 12
+movenpc "5,209,115,『棉布店』_布店晓芙　" Z013 10 13
+movenpc "5,242,144,『药店』_龙叔" Z013 10 14
+movenpc "5,237,89,『旅店』_丘叔" Z013 10 15
+movenpc "5,229,153,『杂货店』_英龙" Z013 10 16
+movenpc "5,222,147,『饰品店』_雪儿" Z013 9 16
+movenpc "5,262,107,『铁匠铺』_胜宰" Z013 9 15
+movenpc "5,247,147,『材料商』_凌峰" Z013 9 14
+movenpc "5,226,94,『租赁店』_王铁匠" Z013 9 13
+movenpc "5,240,128,『活动』_孝相" Z013 8 13
+movenpc "5,255,90,『寄售商』_啊福" Z013 8 14
+movenpc "5,243,86,『声望道具店』_啊梅" Z013 8 15
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg1]
+lineMsg [Grobal] %A7
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg2]
+lineMsg [Grobal] %A7
+UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Ready'"
+Delaygoto [Grobal] 30 @TosungCastle_Numa
+
+[@TosungCastle_Numa]
+#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastleWar_Numa
+}
+
+[@CastleWarFinish_TAOSUNG]
+{
+#ACT
+ResetMapAttr "5"
+
+SetAreaAttr "5, 250, 105, 6" "Clear"
+SetAreaAttr "5, 250, 105, 6" "Clear"
+SetAreaAttr "5, 250, 105, 10" "Clear"
+
+SetAreaAttr "5, 250, 105, 8" "Clear"
+SetAreaAttr "5, 44, 122, 8" "Clear"
+SetAreaAttr "5, 320, 306, 8" "Clear"
+SetAreaAttr "5, 151, 315, 8" "Clear"
+MonClear "5" 诺玛8
+MonClear "5" 诺玛9
+MonClear "5" 诺玛将士8
+MonClear "5" 诺玛将士9
+MonClear "5" 诺玛法老8
+MonClear "5" 诺玛法老9
+movenpc "Z013,10,11,『行政官』_沙漠土城官吏" 5 262 84
+movenpc "Z013,10,12,乘龙" 5 202 129
+movenpc "Z013,10,13,『棉布店』_布店晓芙　" 5 209 115
+movenpc "Z013,10,14,『药店』_龙叔" 5 242 144
+movenpc "Z013,10,15,『旅店』_丘叔" 5 237 89
+movenpc "Z013,10,16,『杂货店』_英龙" 5 229 153
+movenpc "Z013,9,16,『饰品店』_雪儿" 5 222 147
+movenpc "Z013,9,15,『铁匠铺』_胜宰" 5 262 107
+movenpc "Z013,9,14,『材料商』_凌峰" 5 247 147
+movenpc "Z013,9,13,『租赁店』_王铁匠" 5 226 94
+movenpc "Z013,8,13,『活动』_孝相" 5 240 128
+movenpc "Z013,8,14,『寄售商』_啊福" 5 255 90
+movenpc "Z013,8,15,『声望道具店』_啊梅" 5 243 86
+LoadValue A7 [Convert_Def\QuestDiary\System\TaosungCastle\TaosungDefaultSetting.txt] [Convert] [Msg3]
+lineMsg [Grobal] %A7
+UpdateValueSql "TBL_CastleFlagDef" "FLD_CASTLENAME='TAOSUNG'" "FLD_FLAGSTATUS='Complete'"
+Delaygoto [Grobal] 10 @TosungCastle_Numa_Finished
+
+[@TosungCastle_Numa_Finished]
+#CALL [QuestDiary/System/TaosungCastle/TaosungNumaWar.txt] @TosungCastleWar_Numa_Finished
+}
+;;不要删掉此行

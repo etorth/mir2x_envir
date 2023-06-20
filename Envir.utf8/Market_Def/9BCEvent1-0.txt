@@ -1,0 +1,3 @@
+;;9BCEvent1-0.txt
+[@main]
+#CALL [QuestDiary/附加功能/系统服务.txt] @xtfw

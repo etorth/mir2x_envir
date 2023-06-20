@@ -1,0 +1,38 @@
+;;GangOk.txt
+[@RefineGangOk]
+{
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Main
+
+[@RefineGangOk_Check]
+#IF
+!checkitem 钢玉矿石 11
+#ACT
+goto @RefineGangOk_Check_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail_1
+
+[@RefineGangOk_Check_1]
+#IF
+checkgold 100000
+#ACT
+goto @RefineGangOk_Check_2
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail_2
+
+[@RefineGangOk_Check_2]
+#IF
+checkitem 钢玉矿石 10
+checkduraeva 钢玉矿石 10
+#ACT
+take 钢玉矿石 10
+take 金币 100000
+give 钢玉石 1
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Complete
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Refine/GangOk.txt] @RefineGangOk_Fail
+
+}
+

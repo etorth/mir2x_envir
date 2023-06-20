@@ -1,0 +1,13 @@
+;;不要删掉此行
+[@main]
+#ACT
+goto @NumaMidBoss1_open
+break
+
+
+[@NumaMidBoss1_open]
+#CALL [QuestDiary/NpcQuest_Def/17NumaMidBoss1-npcroom1.txt] @NPCQuest_Check
+
+[@everythingreward]
+#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

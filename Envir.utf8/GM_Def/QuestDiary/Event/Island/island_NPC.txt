@@ -1,0 +1,3 @@
+;;island_NPC.txt
+[NPC]
+Name=生存游戏场美眉

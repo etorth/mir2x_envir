@@ -1,0 +1,3 @@
+;;15Magic_KugKyung-01_003.txt
+[@main]
+#CALL [QuestDiary/Mu_warrior/wedo.txt] @yedo_test

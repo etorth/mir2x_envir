@@ -1,0 +1,55 @@
+;;Dm_HeroOma.txt
+[@main]
+;		老老 涅胶飘 眉农
+#IF
+CheckDailyQuest 469
+#ACT
+goto @Oma_T469
+break
+;
+
+#ELSEACT
+break
+
+;-----------------------------------------------------
+;-----------------------------------------------------
+;#### 厚玫泅 甘 锅龋 0                    ############
+;#### 坷付侩荤                            ############
+;-----------------------------------------------------
+
+
+
+;-----------------------------------------------------
+[@Oma_T469]
+;		老老 涅胶飘 469 锅
+#IF
+check [310] 1
+#ACT
+break
+;
+#IF
+check [309] 1
+#ACT
+break
+;
+#IF
+check [308] 1
+#ACT
+break
+;
+#IF
+check [307] 1
+#ACT
+goto @Oma_T469_1
+break
+;
+#ELSEACT
+break
+;
+
+[@Oma_T469_1]
+#IF
+#ACT
+set [308] 1
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/QT_TODAY/MonQuest/MonQuestSay.txt] @T469_Say

@@ -1,0 +1,785 @@
+;;skillhelp.txt
+[@MUGONG_DOUMI]
+{
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_1
+
+[@mugong_doumi_start]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_2
+
+[@mu_guide_1]
+#IF
+checkjob warrior
+#ACT
+goto @mu_guide_junsa_0
+#ELSEACT
+goto @mu_guide_2
+[@mu_guide_2]
+#IF
+checkjob wizard
+#ACT
+goto @mu_guide_sulsa_0
+#ELSEACT
+goto @mu_guide_3
+[@mu_guide_3]
+#IF
+checkjob taoist
+#ACT
+goto @mu_guide_dosa_0
+#ELSEACT
+goto @mu_guide_4
+[@mu_guide_4]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_3
+
+[@mu_guide_junsa_0]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_4
+
+[@mu_guide_junsa_1]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_5
+
+[@mu_guide_junsa_2]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_6
+
+[@mu_guide_junsa_3]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_7
+
+;;[@mu_guide_junsa_4]
+;;#IF
+;;#SAY
+;;*{FCOLOR/14} 馆岿八过{FCOLOR/12}篮 \
+;;公加己栏肺 狐弗 加档肺 戎滴弗 八俊辑 积扁绰 面拜颇甫 捞侩秦 林函俊 困摹茄 {FCOLOR/10} 促荐狼 利阑 傍拜{FCOLOR/12}窍绰 绊措 八贱 公傍捞扼匙.
+;;荐访捞 刘啊且 荐废, 颇鲍仿捞 刘啊茄促匙. \ \
+;;*{FCOLOR/14} 硅快绰 规过{FCOLOR/12}篮 \
+;;荐访饭骇牢 {FCOLOR/10}23 {FCOLOR/12}捞惑栏肺, {FCOLOR/10} 炔焊措蛆(惫版付阑,104:203 ){FCOLOR/12}阑 茫酒啊辑 抛胶飘甫 烹秦 硅匡 荐 乐匙.
+;;{FCOLOR/10} 阂啊混{FCOLOR/12}捞扼绰 阂荤狼 鲍拱阑 拱府摹绰 抛胶飘甫 烹苞窍搁, {FCOLOR/10} 馆岿八过(秦籍笼),拜妨陛,阂啊混狼馆瘤{FCOLOR/12}甫 掘阑 荐 乐匙.
+;;茄啊瘤 林狼且 痢篮 阂啊混篮 八捞唱 漠殿狼 拱府利牢 傍拜篮 傈囚 烹窍瘤 臼绊, 坷肺瘤 {FCOLOR/10} 绢八贱狼 八扁{FCOLOR/12}肺父 拱府磨 荐 乐促绰 痢捞瘤. \
+;;肚茄 {FCOLOR/10} 公傍绊荐{FCOLOR/12}俊霸 馆岿八过 公傍辑客 荐荐丰甫 瘤阂茄 饶,馆岿八过(秦籍笼)阑 备窍绰 规过档 乐促匙. \ \
+;;<上一步/@mu_guide_junsa_0>\
+;;<回首页/@mugong_doumi_start>\
+;;<结束/@exit>
+[@mu_guide_junsa_5]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_8
+
+[@mu_guide_junsa_5_1]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_9
+
+[@mu_guide_junsa_6]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_10
+
+[@mu_guide_junsa_7]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_11
+
+[@mu_guide_junsa_8]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_12
+
+[@mu_guide_sulsa_0]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_13
+
+[@mu_guide_sulsa_1]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_14
+
+[@mu_guide_sulsa_2]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_15
+
+[@mu_guide_sulsa_3]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_16
+
+[@mu_guide_sulsa_4]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_17
+
+[@mu_guide_sulsa_5]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_18
+
+[@mu_guide_sulsa_6]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_19
+
+[@mu_guide_sulsa_7]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_20
+
+[@mu_guide_sulsa_8]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_21
+
+[@mu_guide_sulsa_9]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_22
+
+[@mu_guide_sulsa_10]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_23
+
+[@mu_guide_sulsa_11]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_24
+
+[@mu_guide_sulsa_12]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_25
+
+[@mu_guide_sulsa_13]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_26
+
+[@mu_guide_sulsa_14]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_27
+
+[@mu_guide_sulsa_15]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_28
+
+[@mu_guide_sulsa_16]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_29
+
+[@mu_guide_sulsa_17]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_30
+
+[@mu_guide_sulsa_18]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_31
+
+[@mu_guide_sulsa_19]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_32
+
+[@mu_guide_sulsa_20]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_33
+
+[@mu_guide_dosa_0]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_34
+
+[@mu_guide_dosa_1]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_35
+
+[@mu_guide_dosa_2]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_36
+
+[@mu_guide_dosa_3]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_37
+
+[@mu_guide_dosa_4]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_38
+
+[@mu_guide_dosa_5]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_39
+
+[@mu_guide_dosa_6]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_40
+
+[@mu_guide_dosa_7]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_41
+
+[@mu_guide_dosa_8]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_42
+
+[@mu_guide_dosa_9]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_43
+
+[@mu_guide_dosa_10]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_44
+
+[@mu_guide_dosa_11]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_45
+
+[@mu_guide_dosa_12]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_46
+
+[@mu_guide_dosa_13]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_47
+
+[@mu_guide_dosa_14]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_48
+
+[@mu_guide_dosa_15]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_49
+
+[@mu_guide_dosa_16]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_50
+
+[@mu_guide_dosa_17]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_51
+
+[@mu_guide_dosa_18]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_52
+
+[@mu_help_1]
+#IF
+checkjob warrior
+#ACT
+goto @mu_help_junsa_0
+#ELSEACT
+goto @mu_help_2
+[@mu_help_2]
+#IF
+checkjob wizard
+#ACT
+goto @mu_help_sulsa_0
+#ELSEACT
+goto @mu_help_3
+[@mu_help_3]
+#IF
+checkjob taoist
+#ACT
+goto @mu_help_dosa_0
+#ELSEACT
+goto @mu_help_4
+[@mu_help_4]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_53
+
+[@mu_help_junsa_0]
+#IF
+checklevel 7
+#ACT
+goto @mu_help_junsa_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_54
+
+[@mu_help_junsa_1]
+#IF
+checklevel 14
+#ACT
+goto @mu_help_junsa_2
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_55
+
+[@mu_help_junsa_2]
+#IF
+checklevel 19
+#ACT
+goto @mu_help_junsa_3
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_56
+
+[@mu_help_junsa_3]
+#IF
+checklevel 24
+#ACT
+goto @mu_help_junsa_4
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_57
+
+[@mu_help_junsa_4]
+#IF
+checklevel 27
+#ACT
+goto @mu_help_junsa_5
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_58
+
+[@mu_help_junsa_5]
+#IF
+checklevel 32
+#ACT
+goto @mu_help_junsa_6
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_59
+
+[@mu_help_junsa_6]
+#IF
+checklevel 35
+#ACT
+goto @mu_help_junsa_7
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_60
+
+[@mu_help_junsa_7]
+#IF
+checklevel 38
+#ACT
+goto @mu_help_junsa_8
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_61
+
+[@mu_help_junsa_8]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_62
+
+[@mu_help_sulsa_0]
+#IF
+checklevel 7
+#ACT
+goto @mu_help_sulsa_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_63
+
+[@mu_help_sulsa_1]
+#IF
+checklevel 8
+#ACT
+goto @mu_help_sulsa_2
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_64
+
+[@mu_help_sulsa_2]
+#IF
+checklevel 9
+#ACT
+goto @mu_help_sulsa_3
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_65
+
+[@mu_help_sulsa_3]
+#IF
+checklevel 10
+#ACT
+goto @mu_help_sulsa_4
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_66
+
+[@mu_help_sulsa_4]
+#IF
+checklevel 12
+#ACT
+goto @mu_help_sulsa_4_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_67
+
+[@mu_help_sulsa_4_1]
+#IF
+checklevel 13
+#ACT
+goto @mu_help_sulsa_5
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_68
+
+[@mu_help_sulsa_5]
+#IF
+checklevel 14
+#ACT
+goto @mu_help_sulsa_6
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_69
+
+[@mu_help_sulsa_6]
+#IF
+checklevel 15
+#ACT
+goto @mu_help_sulsa_7
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_70
+
+[@mu_help_sulsa_7]
+#IF
+checklevel 16
+#ACT
+goto @mu_help_sulsa_8
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_71
+
+[@mu_help_sulsa_8]
+#IF
+checklevel 17
+#ACT
+goto @mu_help_sulsa_9
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_72
+
+[@mu_help_sulsa_9]
+#IF
+checklevel 18
+#ACT
+goto @mu_help_sulsa_9_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_73
+
+[@mu_help_sulsa_9_1]
+#IF
+checklevel 20
+#ACT
+goto @mu_help_sulsa_10
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_74
+
+[@mu_help_sulsa_10]
+#IF
+checklevel 21
+#ACT
+goto @mu_help_sulsa_11
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_75
+
+[@mu_help_sulsa_11]
+#IF
+checklevel 22
+#ACT
+goto @mu_help_sulsa_12
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_76
+
+[@mu_help_sulsa_12]
+#IF
+checklevel 23
+#ACT
+goto @mu_help_sulsa_12_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_77
+
+[@mu_help_sulsa_12_1]
+#IF
+checklevel 24
+#ACT
+goto @mu_help_sulsa_13
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_78
+
+[@mu_help_sulsa_13]
+#IF
+checklevel 26
+#ACT
+goto @mu_help_sulsa_14
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_79
+
+[@mu_help_sulsa_14]
+#IF
+checklevel 27
+#ACT
+goto @mu_help_sulsa_15
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_80
+
+[@mu_help_sulsa_15]
+#IF
+checklevel 29
+#ACT
+goto @mu_help_sulsa_16
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_81
+
+[@mu_help_sulsa_16]
+#IF
+checklevel 32
+#ACT
+goto @mu_help_sulsa_17
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_82
+
+[@mu_help_sulsa_17]
+#IF
+checklevel 33
+#ACT
+goto @mu_help_sulsa_18
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_83
+
+[@mu_help_sulsa_18]
+#IF
+checklevel 34
+#ACT
+goto @mu_help_sulsa_19
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_84
+
+[@mu_help_sulsa_19]
+#IF
+checklevel 35
+#ACT
+goto @mu_help_sulsa_20
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_85
+
+[@mu_help_sulsa_20]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_86
+
+[@mu_help_dosa_0]
+#IF
+checklevel 7
+#ACT
+goto @mu_help_dosa_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_87
+
+[@mu_help_dosa_1]
+#IF
+checklevel 8
+#ACT
+goto @mu_help_dosa_2
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_88
+
+[@mu_help_dosa_2]
+#IF
+checklevel 12
+#ACT
+goto @mu_help_dosa_3
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_89
+
+[@mu_help_dosa_3]
+#IF
+checklevel 13
+#ACT
+goto @mu_help_dosa_4
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_90
+
+[@mu_help_dosa_4]
+#IF
+checklevel 14
+#ACT
+goto @mu_help_dosa_5
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_91
+
+[@mu_help_dosa_5]
+#IF
+checklevel 17
+#ACT
+goto @mu_help_dosa_6
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_92
+
+[@mu_help_dosa_6]
+#IF
+checklevel 20
+#ACT
+goto @mu_help_dosa_7
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_93
+
+[@mu_help_dosa_7]
+#IF
+checklevel 21
+#ACT
+goto @mu_help_dosa_8
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_94
+
+[@mu_help_dosa_8]
+#IF
+checklevel 23
+#ACT
+goto @mu_help_dosa_9
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_95
+
+[@mu_help_dosa_9]
+#IF
+checklevel 24
+#ACT
+goto @mu_help_dosa_10
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_96
+
+[@mu_help_dosa_10]
+#IF
+checklevel 25
+#ACT
+goto @mu_help_dosa_11
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_97
+
+[@mu_help_dosa_11]
+#IF
+checklevel 27
+#ACT
+goto @mu_help_dosa_12
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_98
+
+[@mu_help_dosa_12]
+#IF
+checklevel 28
+#ACT
+goto @mu_help_dosa_12_1
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_99
+
+[@mu_help_dosa_12_1]
+#IF
+checklevel 29
+#ACT
+goto @mu_help_dosa_13
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_100
+
+[@mu_help_dosa_13]
+#IF
+checklevel 30
+#ACT
+goto @mu_help_dosa_14
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_101
+
+[@mu_help_dosa_14]
+#IF
+checklevel 31
+#ACT
+goto @mu_help_dosa_15
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_102
+
+[@mu_help_dosa_15]
+#IF
+checklevel 33
+#ACT
+goto @mu_help_dosa_16
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_103
+
+[@mu_help_dosa_16]
+#IF
+checklevel 34
+#ACT
+goto @mu_help_dosa_17
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_104
+
+[@mu_help_dosa_17]
+#IF
+checklevel 35
+#ACT
+goto @mu_help_dosa_18
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_105
+
+[@mu_help_dosa_18]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_106
+
+[@mu_nature_1]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_107
+
+[@mu_gosu_1]
+#IF
+checkjob warrior
+#ACT
+goto @mu_gosu_junsa_0
+#ELSEACT
+goto @mu_gosu_2
+[@mu_gosu_2]
+#IF
+checkjob wizard
+#ACT
+goto @mu_gosu_sulsa_0
+#ELSEACT
+goto @mu_gosu_3
+[@mu_gosu_3]
+#IF
+checkjob taoist
+#ACT
+goto @mu_gosu_dosa_0
+#ELSEACT
+goto @mu_gosu_4
+[@mu_gosu_4]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_108
+
+[@mu_gosu_junsa_0]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_109
+
+[@mu_gosu_sulsa_0]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_110
+
+[@mu_gosu_dosa_0]
+#IF
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/NQ_HELP/skill/skillhelp.txt] @skillhelp_111
+
+}

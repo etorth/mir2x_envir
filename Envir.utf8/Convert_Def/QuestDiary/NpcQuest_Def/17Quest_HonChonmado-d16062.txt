@@ -1,0 +1,9 @@
+[Convert]
+
+[@Convert_17Quest_HonChonmado-d16062_0]
+{
+（寂幻之刃……越看越想拥有它……）  \ \
+<回到村子。/@HonChondo_Fail> \
+<关 闭/@exit>
+
+}

@@ -1,0 +1,36 @@
+;;17MobRush_kugkyung-01.txt
+[@main]
+#IF
+IsAdmin
+#SAY
+	#INCLUDE [Convert_Def/Market_Def/17MobRush_kugkyung-01.txt] @Admin_Main
+
+#IF
+#SAY
+	#INCLUDE [Convert_Def/Market_Def/17MobRush_kugkyung-01.txt] @User_Main
+
+[@StartIsland]
+#CALL [QuestDiary/Event/Island/GmStart.txt] @StartGoldenIsland
+
+[@FinishIsland]
+#CALL [QuestDiary/Event/Island/GmStart.txt] @FinishGoldenIsland
+
+[@Ch_Map]
+#IF
+IsAdmin
+#ACT
+ChangeMapAttr "Island01" "FIGHT"
+ClearDelayGoto
+goto @GenMonkeys
+goto @CheckFinishCondition
+close
+
+[@TreasureIsland]
+#CALL [QuestDiary/Event/Island/Treasure.txt] @Monkey
+
+[@PlayTestRoom]
+#SAY
+	#INCLUDE [Convert_Def/Market_Def/17MobRush_kugkyung-01.txt] @TestRoom_Main
+
+[@TestGame]
+#CALL [QuestDiary/Event/TestGame/Test.txt] @RushTest

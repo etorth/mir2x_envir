@@ -1,0 +1,7 @@
+;;flag.txt
+[@ChangeFlag]
+{
+#ACT
+SENDCMD  "3   , 0, 0, 1000"  沙巴克旗帜  "@_Startup"
+SENDCMD  "Z011, 0, 0, 1000"  沙巴克旗帜  "@_Startup"
+}

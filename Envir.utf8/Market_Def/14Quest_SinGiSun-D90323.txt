@@ -1,0 +1,3 @@
+;;14Quest_SinGiSun-D90323.txt
+[@main]
+#Call [\SinGiSun\SinGiSun.txt] @SinQuest_Spritstest_Check1

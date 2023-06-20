@@ -1,0 +1,3 @@
+[Convert]
+Msg0 = <$OUTPUT(A0)>行会的分数是 : <$OUTPUT(D0)>分 , <$OUTPUT(A1)>行会的分数是 : <$OUTPUT(D1)>分
+Msg1 = <$OUTPUT(A0)>行会的分数是 : <$OUTPUT(D0)>分 , <$OUTPUT(A1)>行会的分数是 : <$OUTPUT(D1)>分

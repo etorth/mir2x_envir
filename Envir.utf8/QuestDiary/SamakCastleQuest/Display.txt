@@ -1,0 +1,198 @@
+;;不要删掉此行
+[@Samak_Display_Main]
+{
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_0
+
+[@@InPutGuildName]
+#IF
+#ACT
+Mov A8 %INPUTSTR
+goto @SearchingGuild
+break
+
+[@SearchingGuild]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %A8
+ReadValueSQL "TBL_SamakCastleQuest" %A9 "FLD_SAMAKGUILD,FLD_SAMAKGUILDMASTER,FLD_SAMAKCONDITION,FLD_SAMAKSTATUS,FLD_SAMAKSTATUSRDY" [@SearchingGuild_Read]
+
+[@SearchingGuild_Read()]
+#IF
+#ACT
+Mov A0 %ARG(1)
+Mov A1 %ARG(2)
+Mov A2 %ARG(3)
+Mov D0 %ARG(4)
+Mov D1 %ARG(5)
+
+#IF
+Equal A0 %A8
+#ACT
+goto @Display_SamakCastleQuest
+break
+
+#ELSEACT
+goto @NonQuestGuild
+break
+
+[@NonQuestGuild]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_1
+
+[@ImportNewQuestGuild]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_2
+
+[@@ImportNewQuestGuildName]
+#IF
+#ACT
+Mov A0 %INPUTSTR
+goto @ImportNewQuestGuildMaster
+
+[@ImportNewQuestGuildMaster]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_3
+
+[@@ImportNewQuestGuildMaster_1]
+#IF
+#ACT
+Mov A1 %INPUTSTR
+goto @ImportNewQuestGuild_Check
+
+[@ImportNewQuestGuild_Check]
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %A8
+ReadValueSQL "TBL_SamakCastleQuest" %A9 "FLD_SAMAKGUILD" [@ImportNewQuestGuild_CheckRead]
+
+[@ImportNewQuestGuild_CheckRead()]
+#IF
+#ACT
+Mov A3 %ARG(1)
+
+#IF
+Equal A0 %A3
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_4
+
+#IF
+Equal A3 ""
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_5
+
+[@ImportNewQuestGuild_SQL]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %A0
+Mov A6 %A9
+FormatStr "FLD_SAMAKGUILDMASTER='%s'" %A7
+WriteValueSQL "TBL_SamakCastleQuest" %A6 %A9
+
+[@Display_SamakCastleQuest]
+#IF
+Equal A2 "Complete"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_6
+
+#ACT
+break
+
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_7
+
+[@Amendment_GuildMaster]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_8
+
+[@@Input_Amendment_GuildMaster]
+#IF
+#ACT
+Mov A7 %INPUTSTR
+goto @Amendment_GuildMaster_Result
+
+[@Amendment_GuildMaster_Result]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %A0
+Mov A6 %A9
+FormatStr "FLD_SAMAKGUILDMASTER='%s'" %A7
+UpdateValueSQL "TBL_SamakCastleQuest" %A6 %A9
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_9
+
+[@Amendment_QuestLevel]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_10
+
+[@@Input_Amendment_QuestLevel]
+#IF
+#ACT
+Mov D2 %INPUTSTR
+goto @Amendment_QuestLevel_1
+
+[@Amendment_QuestLevel_1]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_11
+
+[@@Input_Amendment_QuestLevel_1]
+#IF
+#ACT
+Mov D3 %INPUTSTR
+goto @Amendment_QuestLevel_Result
+
+[@Amendment_QuestLevel_Result]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %A0
+Mov A6 %A9
+FormatStr "FLD_SAMAKSTATUS='%s',FLD_SAMAKSTATUSRDY='%s'" %D2 %D3
+UpdateValueSQL "TBL_SamakCastleQuest" %A6 %A9
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_12
+
+[@Amendment_Complete]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_13
+
+[@Amendment_Complete_Confirm]
+#IF
+#ACT
+FormatStr "FLD_SAMAKGUILD='%s'" %A0
+Mov A6 %A9
+FormatStr "FLD_SAMAKCONDITION='%s'" "Complete"
+UpdateValueSQL "TBL_SamakCastleQuest" %A6 %A9
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_14
+
+[@Review_SamakQuest]
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/SamakCastleQuest/Display.txt] @Convert_Display_15
+
+}
+;;不要删掉此行

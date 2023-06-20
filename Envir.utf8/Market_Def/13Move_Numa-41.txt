@@ -1,0 +1,3 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[@main]
+#CALL [QuestDiary/teleport/Numa.txt] @Numa_Teleport

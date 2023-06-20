@@ -1,0 +1,244 @@
+;;moverootin.txt
+[@TelePortMove]
+{
+#DEFINE        A0{DESTINATION}       A0            ;; 格利瘤 涝仿
+#DEFINE        D0{FARE}              D0            ;; 夸陛 何盒
+#DEFINE        A1{POSITION}          A1            ;; 弊 甘狼 困摹 犬牢(器呕狼 肮荐客 老摹)
+
+#ACT
+Mov            A0{DESTINATION}       %ARG(1)       ;; 格利瘤甫 颇扼皋磐肺 涝仿 罐酒 历厘
+Mov            D0{FARE}              %ARG(2)       ;; 夸陛阑 颇扼皋磐肺 涝仿 罐酒 历厘
+Mov            A1{POSITION}          %ARG(3)       ;; 困摹甫 颇扼皋磐肺 涝仿 罐酒 历厘
+
+#IF
+CheckGold      %D0{FARE}                           ;; 夸陛犬牢
+#ACT
+Goto           @MoveRootin                         ;; 捞悼 困摹甫 犬牢窍咯 捞悼
+#ELSESAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_1
+
+
+[@MoveRootin]
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "Bichon"      ;; 厚玫己栏肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "South"       ;; 巢率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 0 498 464                                  ;; 厚玫己栏肺 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "Bichon"      ;; 厚玫己栏肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "North"       ;; 合率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 0 370 335                                  ;; 厚玫己栏肺 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "Bichon"      ;; 厚玫己栏肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "West"        ;; 辑率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 0 379 445                                  ;; 厚玫己栏肺 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "Bichon"      ;; 厚玫己栏肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "East"        ;; 悼率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 0 507 312                                  ;; 厚玫己栏肺 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "KugKyung"    ;; 惫版付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "North"       ;; 合率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 01 456 217                                 ;; 惫版付阑 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "KugKyung"    ;; 惫版付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "West"        ;; 辑率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 01 411 288                                 ;; 惫版付阑 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "KugKyung"    ;; 惫版付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "South"       ;; 巢率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 01 463 357                                 ;; 惫版付阑 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "EunHang"     ;; 篮青付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 02 249 145                                 ;; 篮青付阑 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "DoGwan"      ;; 档包付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 1 416 180                                  ;; 档包付阑 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "SnakeVally"  ;; 轨榜付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "North"       ;; 合率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 2 313 193                                  ;; 轨榜付阑 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "SnakeVally"  ;; 轨榜付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "South"       ;; 巢率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 2 306 245                                  ;; 轨榜付阑 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "SaBuk"       ;; 荤合己栏肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+goto @CasTleWarMove_Sabuk                          ;; 傍己傈 贸府 风凭捞 甸绢啊 乐澜
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "Oasis"       ;; 坷酒矫胶肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "Center"      ;; 吝居器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 4 435 84                                   ;; 坷酒矫胶 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "Numa"        ;; 穿付付阑肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 41 184 137                                 ;; 穿付付阑肺 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "Samak"       ;; 荤阜配己肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "East"        ;; 悼率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 5 204 290                                  ;; 荤阜配己付阑 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "Samak"       ;; 荤阜配己肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "West"        ;; 哭率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 5 112 178                                  ;; 荤阜配己付阑 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "Ant"         ;; 俺固奔肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 6 273 732                                  ;; 俺固奔 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "MongChon"     ;; 根锰栏肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "East"        ;; 悼率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 74 349 330                                 ;; 根锰付阑 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "MongChon"    ;; 根锰肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "West"        ;; 辑率 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 74 271 268                                 ;; 根锰配己 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "SukGak"      ;; 籍阿带傈栏肺 捞悼 窍绰 风凭
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 75 184 91                                  ;; 籍阿带傈 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "HalfMoon"    ;; 馆具档肺 捞悼 窍绰 风凭(器呕1)
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 8 288 242                                  ;; 馆具档付阑 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "HalfCave"    ;; 馆具籍奔肺 捞悼 窍绰 风凭(器呕1)
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 8 448 580                                  ;; 馆具籍奔 捞悼
+break
+
+#IF
+Equal          A0{DESTINATION}       "HalfTemple"  ;; 馆具脚傈栏肺 捞悼 窍绰 风凭(器呕1)
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 8 668 389                                  ;; 馆具脚傈 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "RedZone"     ;; 蜡硅级栏肺 捞悼 窍绰 风凭(器呕1)
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 81 127 266                                 ;; 蜡硅级 捞悼
+break
+;-------------------------------------------------------------------------------
+#IF
+Equal          A0{DESTINATION}       "Numa"     ;; 蜡硅级栏肺 捞悼 窍绰 风凭(器呕1)
+Equal          A1{POSITION}          "Center"      ;; 吝居 器呕
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove 41 182 135                                 ;; 蜡硅级 捞悼
+break
+;-------------------------------------------------------------------------------
+
+[@CasTleWarMove_Sabuk]
+#IF
+IsOnCastleWar Sabuk                                ;; 傍己傈 吝老锭绰 捞悼 阂啊瓷
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_2
+
+#ACT
+break
+
+#IF
+IsOnReadyCastleWar Sabuk                           ;; 傍己 霖厚 矫埃老锭绰 捞悼 阂啊瓷
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/MoveRootin.txt] @MoveRootin_3
+
+#ACT
+break
+
+#IF
+#ACT
+Take           金币                  %D0{FARE}     ;; 夸陛阑 昏皑
+mapmove        3           222         160         ;; 傍己 傈捞 酒匆锭绰 捞悼 啊瓷
+}

@@ -1,0 +1,14 @@
+;;不要删掉此行
+[@main]
+#IF
+#ACT
+goto @HonChondo_open
+break
+
+
+[@HonChondo_open]
+#CALL [QuestDiary/NpcQuest_Def/17Quest_HonChonmado-D16062.txt] @NPCQuest_Check
+
+[@everythingreward]
+#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

@@ -1,0 +1,8 @@
+;;09Bonus_Euhang-02.txt
+[@main]
+#SAY
+	#INCLUDE [Convert_Def/Market_Def/09Bonus_Euhang-02.txt] @NPC_Main
+
+[@LevelUp]
+#CALL [QuestDiary/SpecialAbility/Bonus.txt] @LevelUpBonus
+

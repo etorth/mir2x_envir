@@ -1,0 +1,5 @@
+;;Nm_SujunSiwang.txt
+[@Nm_SujunSiwang_1]
+{
+(是僵尸王...)\
+}

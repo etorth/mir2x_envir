@@ -1,0 +1,3952 @@
+;;不要删掉此行
+
+[@TodayQuest_Monster_Total]
+
+{
+
+#ACT
+
+FormatStr "FLD_USERNAME='%s'" %USERNAME
+
+ReadValueSql "TBL_DairyQuestUser" %A9 "FLD_TQCASE,FLD_Condition1,FLD_Condition1Amount,FLD_Condition2" [@TodayQuest_Monster_Total_Next]
+
+
+
+[@TodayQuest_Monster_Total_Next()]
+
+#ACT
+
+Mov D0 %ARG(1)
+
+Mov A1 %ARG(2)
+
+Mov D1 %ARG(3)
+
+Mov A2 %ARG(4)
+
+FormatStr "FLD_USERNAME='%s'" %USERNAME
+
+ReadValueSql "TBL_DairyQuestUser" %A9 "FLD_Condition2Amount,FLD_Condition3,FLD_Condition3Amount" [@TodayQuest_Monster_Total_Next1]
+
+
+
+[@TodayQuest_Monster_Total_Next1()]
+
+#ACT
+
+Mov D2 %ARG(1)
+
+Mov A3 %ARG(2)
+
+Mov D3 %ARG(3)
+
+
+
+#IF
+
+Equal D0 1
+
+or Equal D0 9
+
+#ACT
+
+FormatStr "FLD_USERNAME='%s'" %USERNAME
+
+ReadValueSql "TBL_DairyQuestUser" %A9 "FLD_STEP1,FLD_STEP2,FLD_STEP3" [@TodayQuest_Monster_Total_Case1]
+
+break
+
+
+
+#IF
+
+Equal D0 2
+
+#ACT
+
+goto @TodayQuest_Monster_Total_Case2
+
+break
+
+
+
+[@TodayQuest_Monster_Total_Case1()]
+
+#ACT
+
+Mov A4 %ARG(1)
+
+Mov A5 %ARG(2)
+
+Mov A6 %ARG(3)
+
+
+
+#IF
+
+Equal A1 %A8
+
+#ACT
+
+goto @TodayQuest_Monster_Total_Case1_Type1
+
+break
+
+
+
+#IF
+
+Equal A2 %A8
+
+#ACT
+
+goto @TodayQuest_Monster_Total_Case1_Type2
+
+break
+
+
+
+#IF
+
+Equal A3 %A8
+
+#ACT
+
+goto @TodayQuest_Monster_Total_Case1_Type3
+
+break
+
+
+
+[@TodayQuest_Monster_Total_Case1_Type1]
+
+#ACT
+
+Mov D4 %D1
+
+
+
+#IF
+
+!Equal D4 0
+
+#ACT
+
+break
+
+#ELSEACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_STEP1='END'"
+
+
+
+#IF
+
+Equal A2 "NULL"
+
+Equal A3 "NULL"
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_0
+
+
+
+#ACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_Step='PreEnd'"
+
+Set [210] 0
+
+break
+
+
+
+#IF
+
+Equal A5 "END"
+
+Equal A6 "END"
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_1
+
+
+
+#ACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_Step='PreEnd'"
+
+Set [210] 0
+
+break
+
+
+
+#IF
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_2
+
+
+
+[@TodayQuest_Monster_Total_Case1_Type2]
+
+#ACT
+
+Mov D4 %D2
+
+
+
+#IF
+
+!Equal D4 0
+
+#ACT
+
+break
+
+#ELSEACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_STEP2='END'"
+
+
+
+#IF
+
+Equal A4 "END"
+
+Equal A3 "NULL"
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_3
+
+
+
+#ACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_Step='PreEnd'"
+
+Set [210] 0
+
+break
+
+
+
+#IF
+
+Equal A4 "END"
+
+Equal A6 "END"
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_4
+
+
+
+#ACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_Step='PreEnd'"
+
+Set [210] 0
+
+break
+
+
+
+#IF
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_5
+
+
+
+[@TodayQuest_Monster_Total_Case1_Type3]
+
+#ACT
+
+Movr D4 %D3
+
+
+
+#IF
+
+!Equal D4 0
+
+#ACT
+
+break
+
+#ELSEACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_STEP3='END'"
+
+
+
+#IF
+
+Equal A4 "END"
+
+Equal A5 "END"
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_6
+
+
+
+#ACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_Step='PreEnd'"
+
+Set [210] 0
+
+break
+
+
+
+#IF
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_7
+
+
+
+[@TodayQuest_Monster_Total_Case2]
+
+#IF
+
+!Equal A1 %A8
+
+#ACT
+
+break
+
+
+
+#IF
+
+Checkitem %A2 %D2
+
+#ACT
+
+FormatSTR "FLD_UserName='%s'" %USERNAME
+
+UpdateValueSQL "TBL_DairyQuestUser" %A9 "FLD_Step='PreEnd'"
+
+Set [210] 0
+
+break
+
+
+
+#SAY
+
+#INCLUDE [Convert_Def/QuestDiary/TodayQuest/QT_TotalMonster.txt] @Convert_QT_TotalMonster_8
+
+
+
+#ELSEACT
+
+Mov D4 %D1
+
+
+
+#IF
+
+Equal D4 0
+
+#ACT
+
+Give %A2 1
+
+break
+
+}
+
+
+
+
+
+
+
+
+
+[@TodayQuest_Monster_Cow]
+
+{
+
+#IF
+
+CheckDailyQuest 578
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 552
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Pig]
+
+{
+
+#IF
+
+CheckDailyQuest 514
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Omayongsa]
+
+{
+
+#IF
+
+CheckDailyQuest 133
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 900
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_GreatGagabchung]
+
+{
+
+#IF
+
+CheckDailyQuest 569
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Yang]
+
+{
+
+#IF
+
+CheckDailyQuest 547
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Togapchung]
+
+{
+
+#IF
+
+CheckDailyQuest 472
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 556
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Bidokju]
+
+{
+
+#IF
+
+CheckDailyQuest 247
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 348
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Palgaksu]
+
+{
+
+#IF
+
+CheckDailyQuest 129
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 396
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Pokangami]
+
+{
+
+#IF
+
+CheckDailyQuest 247
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 226
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Hagapju]
+
+{
+
+#IF
+
+CheckDailyQuest 336
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 349
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 482
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Daebublo]
+
+{
+
+#IF
+
+CheckDailyQuest 129
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 356
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Sao]
+
+{
+
+#IF
+
+CheckDailyQuest 339
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 367
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_hynginsu]
+
+{
+
+#IF
+
+CheckDailyQuest 358
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Guhwansu]
+
+{
+
+#IF
+
+CheckDailyQuest 242
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 265
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 398
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 125
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_GangTusa]
+
+{
+
+#IF
+
+CheckDailyQuest 129
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 388
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Masindo1]
+
+{
+
+#IF
+
+CheckDailyQuest 259
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 261
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 370
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Wanhugun]
+
+{
+
+#IF
+
+CheckDailyQuest 263
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 353
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 375
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 251
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_WanhuJa]
+
+{
+
+#IF
+
+CheckDailyQuest 359
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 262
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_NangIn]
+
+{
+
+#IF
+
+CheckDailyQuest 483
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+
+
+[@TodayQuest_Monster_Busikgi]
+
+{
+
+#IF
+
+CheckDailyQuest 484
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Banyagijol]
+
+{
+
+#IF
+
+CheckDailyQuest 346
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 394
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Banyawosa]
+
+{
+
+#IF
+
+CheckDailyQuest 124
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+
+
+[@TodayQuest_Monster_Banyajasa]
+
+{
+
+#IF
+
+CheckDailyQuest 124
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 347
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Banyapunggi]
+
+{
+
+#IF
+
+CheckDailyQuest 229
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+
+
+[@TodayQuest_Monster_Banyahagi]
+
+{
+
+#IF
+
+CheckDailyQuest 345
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Saqochonwang]
+
+{
+
+#IF
+
+CheckDailyQuest 109
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Haegultosa]
+
+{
+
+#IF
+
+CheckDailyQuest 133
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 559
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_ZumaSinjang]
+
+{
+
+#IF
+
+CheckDailyQuest 241
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 383
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 391
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 260
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 231
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Zumahobub]
+
+{
+
+#IF
+
+CheckDailyQuest 232
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 241
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 376
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 228
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_KunJi]
+
+{
+
+#IF
+
+CheckDailyQuest 252
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 254
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 386
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 361
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_hobubchon]
+
+{
+
+#IF
+
+CheckDailyQuest 117
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 130
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_ZumaKing]
+
+{
+
+#IF
+
+CheckDailyQuest 107
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Dogulgudogi]
+
+{
+
+
+
+
+
+
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Ssangdogi]
+
+{
+
+#IF
+
+CheckDailyQuest 590
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+
+
+[@TodayQuest_Monster_Muruksinjang1]
+
+{
+
+#IF
+
+CheckDailyQuest 248
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 257
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Muruksinjang2]
+
+{
+
+#IF
+
+CheckDailyQuest 702
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Sukhasaja]
+
+{
+
+#IF
+
+CheckDailyQuest 256
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Jinchunsujang]
+
+{
+
+#IF
+
+CheckDailyQuest 117
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 258
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+
+
+
+
+[@TodayQuest_Monster_Jinchonmasin]
+
+{
+
+#IF
+
+CheckDailyQuest 134
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Singibung]
+
+{
+
+#IF
+
+CheckDailyQuest 123
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_NuMajanggap]
+
+{
+
+#IF
+
+CheckDailyQuest 120
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_NuMadolguk]
+
+{
+
+#IF
+
+CheckDailyQuest 111
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_ChiChung]
+
+{
+
+#IF
+
+CheckDailyQuest 442
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+[@TodayQuest_Monster_Honggapchung]
+
+{
+
+#IF
+
+CheckDailyQuest 116
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 700
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 463
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+[@TodayQuest_Monster_Posukaemi]
+
+{
+
+#IF
+
+CheckDailyQuest 488
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Chiyukaemi]
+
+{
+
+#IF
+
+CheckDailyQuest 468
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+[@TodayQuest_Monster_JJangGunkaemi]
+
+{
+
+#IF
+
+CheckDailyQuest 116
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 469
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Skelmujang]
+
+{
+
+#IF
+
+CheckDailyQuest 319
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 393
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Skelbungjol]
+
+{
+
+#IF
+
+CheckDailyQuest 369
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Skelgijang]
+
+{
+
+#IF
+
+CheckDailyQuest 397
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Skelbanwang]
+
+{
+
+#IF
+
+CheckDailyQuest 110
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Saeginabang]
+
+{
+
+#IF
+
+CheckDailyQuest 206
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Angbul]
+
+{
+
+#IF
+
+CheckDailyQuest 208
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Hugch]
+
+{
+
+#IF
+
+CheckDailyQuest 493
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+
+
+[@TodayQuest_Monster_KingZipgae]
+
+{
+
+#IF
+
+CheckDailyQuest 116
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 313
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 384
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 473
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Hulgain]
+
+{
+
+#IF
+
+CheckDailyQuest 118
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 377
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Hulma]
+
+{
+
+#IF
+
+CheckDailyQuest 350
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 352
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 371
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 701
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Singiwang]
+
+{
+
+#IF
+
+CheckDailyQuest 108
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+#IF
+
+CheckDailyQuest 253
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Jukwalma]
+
+{
+
+#IF
+
+CheckDailyQuest 105
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_ChocRyong]
+
+{
+
+#IF
+
+CheckDailyQuest 104
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_UmyounkiWang]
+
+{
+
+#IF
+
+CheckDailyQuest 113
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_NumaSaRyung]
+
+{
+
+#IF
+
+CheckDailyQuest 120
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_NumaDaeJang]
+
+{
+
+#IF
+
+CheckDailyQuest 120
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_HwanMa]
+
+{
+
+#IF
+
+CheckDailyQuest 122
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_KingofPig]
+
+{
+
+#IF
+
+CheckDailyQuest 128
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Guuol]
+
+{
+
+#IF
+
+CheckDailyQuest 133
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 373
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 476
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_PaChun]
+
+{
+
+#IF
+
+CheckDailyQuest 135
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_BlackPig]
+
+{
+
+#IF
+
+CheckDailyQuest 206
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 380
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 494
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Zine]
+
+{
+
+#IF
+
+CheckDailyQuest 208
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 480
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Zipgae]
+
+{
+
+#IF
+
+CheckDailyQuest 208
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 320
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 382
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_SukJangIn]
+
+{
+
+#IF
+
+CheckDailyQuest 212
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 357
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_WhitePig]
+
+{
+
+#IF
+
+CheckDailyQuest 213
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 385
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Numa]
+
+{
+
+#IF
+
+CheckDailyQuest 230
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 235
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Umyounkijang]
+
+{
+
+#IF
+
+CheckDailyQuest 304
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 399
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_NumaBijang]
+
+{
+
+#IF
+
+CheckDailyQuest 340
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 355
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_RedPig]
+
+{
+
+#IF
+
+CheckDailyQuest 381
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 414
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 499
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Julmunibaem]
+
+{
+
+#IF
+
+CheckDailyQuest 406
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 542
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Husuabi]
+
+{
+
+#IF
+
+CheckDailyQuest 407
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 532
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Wolf]
+
+{
+
+#IF
+
+CheckDailyQuest 438
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Omajounsa]
+
+{
+
+#IF
+
+CheckDailyQuest 440
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 593
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Poanchang]
+
+{
+
+#IF
+
+CheckDailyQuest 443
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_FireUmyounki]
+
+{
+
+#IF
+
+CheckDailyQuest 450
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 456
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Umyounki]
+
+{
+
+#IF
+
+CheckDailyQuest 451
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Bungjungkaemi]
+
+{
+
+#IF
+
+CheckDailyQuest 466
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Galgulikaenge]
+
+{
+
+#IF
+
+CheckDailyQuest 479
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 523
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 534
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 555
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 583
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Mongko]
+
+{
+
+#IF
+
+CheckDailyQuest 541
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Oma]
+
+{
+
+#IF
+
+CheckDailyQuest 545
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 564
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 580
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Haegul]
+
+{
+
+#IF
+
+CheckDailyQuest 584
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_BigHaegul]
+
+{
+
+#IF
+
+CheckDailyQuest 599
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Dak]
+
+{
+
+#IF
+
+CheckDailyQuest 497
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Hesagal]
+
+{
+
+#IF
+
+CheckDailyQuest 206
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 245
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Hukgakami]
+
+{
+
+#IF
+
+CheckDailyQuest 247
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_jombi1]
+
+{
+
+#IF
+
+CheckDailyQuest 318
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 390
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 594
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 597
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_NumaTusuk]
+
+{
+
+#IF
+
+CheckDailyQuest 121
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Numabubro]
+
+{
+
+#IF
+
+CheckDailyQuest 338
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 354
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+
+
+
+
+#IF
+
+CheckDailyQuest 131
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+
+
+
+
+
+[@TodayQuest_Monster_Haeguljunsa]
+
+{
+
+#IF
+
+CheckDailyQuest 557
+
+#ACT
+
+goto @CALL_TodayQuest_Monster_Total
+
+#ELSEACT
+
+goto @main_Except
+
+
+
+[@CALL_TodayQuest_Monster_Total]
+
+#CALL [QuestDiary/TodayQuest/QT_TotalMonster.txt] @TodayQuest_Monster_Total
+
+}
+;;不要删掉此行

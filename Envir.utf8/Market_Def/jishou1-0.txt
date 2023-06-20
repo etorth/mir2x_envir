@@ -1,0 +1,3 @@
+;;;;;;;;;;;;;;;;;;;
+[@main]
+#CALL [QuestDiary/Sell/ConsignmentMarket.txt] @UserMT

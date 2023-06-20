@@ -1,0 +1,14 @@
+;;不要删掉此行
+[@main]
+#ACT
+goto @StoneNpcboxQuest_open
+break
+
+
+
+[@StoneNpcboxQuest_open]
+#CALL [QuestDiary/NpcQuest_Def/17StoneNpcbox1-D15064.txt] @NPCQuest_Check
+
+[@everythingreward]
+#CALL [QuestDiary/System/TotalRewardSystem.txt] @TotalRewardSystem
+;;不要删掉此行

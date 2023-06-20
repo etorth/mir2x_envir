@@ -1,0 +1,5 @@
+;;14Quest_SinGiSun-D903.txt
+[@main]
+#CALL [QuestDiary/SinGiSun/SinGiSun.txt] @sinGisun_open
+
+

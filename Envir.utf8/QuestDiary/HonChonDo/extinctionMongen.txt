@@ -1,0 +1,331 @@
+;;不要删掉此行
+[@tuesdayMonGen]
+{
+#IF
+!checkmonmap "D16031" 1 ???
+#ACT
+Mongenp "D16031,33,44,10" 诺玛司令 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16031,33,44,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+Mongenp "D16031,33,44,10" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16031,33,44,30" 阿龙怪 [Monsterside] "???"
+goto @tuesdayMonGen_1
+break
+#ELSEACT
+goto @tuesdayMonGen_1
+break
+
+[@tuesdayMonGen_1]
+#IF
+!checkmonmap "D16032" 1 ???
+#ACT
+Mongenp "D16032,33,44,10" 诺玛司令 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16032,33,44,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+Mongenp "D16032,33,44,10" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16032,33,44,30" 阿龙怪 [Monsterside] "???"
+goto @tuesdayMonGen_2
+break
+#ELSEACT
+goto @tuesdayMonGen_2
+break
+
+[@tuesdayMonGen_2]
+#IF
+!checkmonmap "D16033" 1 ???
+#ACT
+Mongenp "D16033,33,44,10" 诺玛司令 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16033,33,44,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+Mongenp "D16033,33,44,10" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16033,33,44,30" 阿龙怪 [Monsterside] "???"
+goto @tuesdayMonGen_3
+break
+#ELSEACT
+goto @tuesdayMonGen_3
+break
+
+
+[@tuesdayMonGen_3]
+#IF
+!checkmonmap "D16034" 1 ???
+#ACT
+Mongenp "D16034,33,44,10" 诺玛司令 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16034,33,44,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+Mongenp "D16034,33,44,10" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16034,33,44,30" 阿龙怪 [Monsterside] "???"
+Delaygoto [Grobal] 2400 @tuesdayMonCheck_step0
+
+[@tuesdayMonCheck_step0]
+#IF
+!checkmonmap "D16031" 1 ???
+!checkmonmap "D16032" 1 ???
+!checkmonmap "D16033" 1 ???
+!checkmonmap "D16034" 1 ???
+#ACT
+goto @tuesdayMonCheck_step1
+break
+#ELSEACT
+break
+
+[@tuesdayMonCheck_step1]
+#CALL [QuestDiary/HonChonDo/extinctionQuestEvent.txt] @mainMsgstep0_Mon
+}
+
+
+
+
+[@wednesdayMonGen]
+{
+
+
+
+
+
+
+
+
+
+
+#ACT
+ApplyMonEx "D1604,200,200,190" 诺玛司令 [Monsterside] "大司令"
+
+}
+
+[@wednesdayMonClear]
+
+{
+#IF
+Checkmonmap D1604 1 ???
+#ACT
+MonClear D1604 ???
+MonClear D1604 大司令
+
+break
+#ELSEACT
+MonClear D1604 ???
+MonClear D1604 大司令
+break
+}
+
+[@thursdayMonGen]
+{
+
+#IF
+checkmonmap D16031 1 侦查队长
+#ACT
+goto @thursdayMonGen_1
+break
+#ELSEACT
+goto @thursdayMonGen_1
+goto @thursdayMonGen_A
+break
+
+[@thursdayMonGen_1]
+#IF
+checkmonmap D16032 1 侦查队长
+#ACT
+goto @thursdayMonGen_2
+break
+#ELSEACT
+goto @thursdayMonGen_2
+goto @thursdayMonGen_B
+break
+
+[@thursdayMonGen_2]
+#IF
+checkmonmap D16033 1 侦查队长
+#ACT
+goto @thursdayMonGen_3
+break
+#ELSEACT
+goto @thursdayMonGen_3
+goto @thursdayMonGen_C
+break
+
+[@thursdayMonGen_3]
+#IF
+checkmonmap D16034 1 侦查队长
+#ACT
+break
+#ELSEACT
+goto @thursdayMonGen_D
+break
+
+
+[@thursdayMonGen_A]
+#IF
+!checkmonmap D16031 1 侦查队长
+!checkmonmap D16031 10 侦查队
+#ACT
+Mongenp "D16031,33,44,10" 诺玛装甲兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16031,33,44,30" 诺玛装甲兵 [Monsterside] "侦查队"
+Mongenp "D16031,33,44,10" 诺玛突击队长 1 "noitem,金币,1000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16031,33,44,30" 诺玛突击队长 [Monsterside] "侦查队长"
+break
+#ELSEACT
+break
+
+[@thursdayMonGen_B]
+#IF
+!checkmonmap D16032 1 侦查队长
+!checkmonmap D16032 10 侦查队
+#ACT
+Mongenp "D16032,33,44,10" 诺玛装甲兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16032,33,44,30" 诺玛装甲兵 [Monsterside] "侦查队"
+Mongenp "D16032,33,44,10" 诺玛突击队长 1 "noitem,金币,1000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16032,33,44,30" 诺玛突击队长 [Monsterside] "侦查队长"
+break
+#ELSEACT
+break
+
+[@thursdayMonGen_C]
+#IF
+!checkmonmap D16033 1 侦查队长
+!checkmonmap D16033 10 侦查队
+#ACT
+Mongenp "D16033,33,44,10" 诺玛装甲兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16033,33,44,30" 诺玛装甲兵 [Monsterside] "侦查队"
+Mongenp "D16033,33,44,10" 诺玛突击队长 1 "noitem,金币,1000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16033,33,44,30" 诺玛突击队长 [Monsterside] "侦查队长"
+break
+#ELSEACT
+break
+
+[@thursdayMonGen_D]
+#IF
+!checkmonmap D16034 1 侦查队长
+!checkmonmap D16034 10 侦查队
+#ACT
+Mongenp "D16034,33,44,10" 诺玛装甲兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16034,33,44,30" 诺玛装甲兵 [Monsterside] "侦查队"
+Mongenp "D16034,33,44,10" 诺玛突击队长 1 "noitem,金币,1000,金创药（特）,魔法药（特）"
+ApplyMonEx "D16034,33,44,30" 诺玛突击队长 [Monsterside] "侦查队长"
+break
+#ELSEACT
+break
+}
+
+
+[@thursdayMonClear]
+{
+
+#ACT
+MonClear D16031 侦查队长
+MonClear D16031 侦查队
+
+MonClear D16032 侦查队长
+MonClear D16032 侦查队
+
+MonClear D16033 侦查队长
+MonClear D16033 侦查队
+
+MonClear D16034 侦查队长
+MonClear D16034 侦查队
+}
+
+
+
+[@MadofridayMongenA_1]
+{
+#ACT
+Mongenp "D16031,58,361,10" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16031,58,361,30" 诺玛斧兵 [Monsterside] "诺玛斧兵队"
+Mongenp "D16031,58,361,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+}
+
+[@MadofridayMongenB_1]
+{
+#ACT
+Mongenp "D16032,374,371,10" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16032,374,371,30" 诺玛斧兵 [Monsterside] "诺玛斧兵队"
+Mongenp "D16032,374,371,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+
+
+
+}
+
+[@MadofridayMongenC_1]
+{
+#ACT
+Mongenp "D16033,369,46,10" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16033,369,46,30" 诺玛斧兵 [Monsterside] "诺玛斧兵队"
+Mongenp "D16033,369,46,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+
+
+
+}
+
+[@MadofridayMongenD_1]
+{
+#ACT
+Mongenp "D16034,30,30,10" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16034,30,30,30" 诺玛斧兵 [Monsterside] "诺玛斧兵队"
+Mongenp "D16034,30,30,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+
+
+
+}
+
+
+
+[@MadosundayMonGencallnpcA_1]
+{
+#ACT
+Mongenp "D1604,226,201,5" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D1604,226,201,30" 诺玛斧兵 [Monsterside] "诺玛斧兵"
+Mongenp "D1604,226,201,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+}
+
+[@MadosundayMonGencallnpcB_1]
+{
+#ACT
+Mongenp "D1604,389,198,5" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D1604,389,198,30" 诺玛斧兵 [Monsterside] "诺玛斧兵"
+Mongenp "D1604,389,198,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+}
+
+[@MadosundayMonGencallnpcC_1]
+{
+#ACT
+Mongenp "D1604,204,212,5" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D1604,204,212,30" 诺玛斧兵 [Monsterside] "诺玛斧兵"
+Mongenp "D1604,204,212,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+}
+
+[@MadosundayMonGencallnpcD_1]
+{
+#ACT
+Mongenp "D1604,200,386,5" 诺玛斧兵 20 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D1604,200,386,30" 诺玛斧兵 [Monsterside] "诺玛斧兵"
+Mongenp "D1604,200,386,5" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+}
+
+
+
+[@extinctionEventMonGen_A_1]
+{
+#ACT
+Mongenp "D16061,29,37,10" 诺玛司令 35 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16061,29,37,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+
+}
+
+[@extinctionEventMonGen_B_1]
+{
+#ACT
+Mongenp "D16061,29,37,10" 诺玛司令 25 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16061,29,37,30" 诺玛司令 [Monsterside] "毁灭之印大师"
+Mongenp "D16061,29,37,10" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+}
+
+
+[@extinctionEventMonGen2_A_1]
+{
+#ACT
+Mongenp "D16061,29,37,10" 诺玛司令 5 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16061,29,37,30" 诺玛司令 [Monsterside] "祭祀长"
+Mongenp "D16061,29,37,10" 诺玛斧兵 5 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16061,29,37,30" 诺玛斧兵 [Monsterside] "诺玛斧兵队"
+Mongenp "D16061,29,37,10" 诺玛装甲兵 5 "noitem,金创药（特）,魔法药（特）"
+ApplyMonEx "D16061,29,37,30" 诺玛装甲兵 [Monsterside] "诺玛突击队"
+Mongenp "D16061,29,37,10" 阿龙怪 1 "noitem,金币,5000,金创药（特）,魔法药（特）"
+}
+;;不要删掉此行

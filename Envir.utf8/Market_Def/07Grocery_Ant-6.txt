@@ -1,0 +1,18 @@
+;;07Grocery_Ant-6.txt
+%100
++3
+
+
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+	#INCLUDE [Convert_Def/Market_def/07Grocery_Ant-6.txt] @NPC_RedPlayer
+#ELSEACT
+goto @main_0_0
+
+
+[@main_0_0]
+#SAY
+	#INCLUDE [Convert_Def/Market_def/07Grocery_Ant-6.txt] @NPC_Main
+

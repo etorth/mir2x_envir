@@ -1,0 +1,5 @@
+;;霸者归来修改
+[@main]
+#CALL [QuestDiary/KingScript/积分菜单.txt] @jfcd
+
+

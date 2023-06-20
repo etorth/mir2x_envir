@@ -1,0 +1,32 @@
+;;SamakTele.txt
+[@Samak_Teleport_East]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/SamakTele.txt] @SamakTele_1
+
+#ELSEACT
+mapmove 81 125 274                                    ;; 弧盎捞 捞悼
+break
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; 捞悼 风凭
+}
+
+;-------------------------------------------------------------------------------
+
+[@Samak_Teleport_West]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/SamakTele.txt] @SamakTele_2
+
+#ELSEACT
+mapmove 81 125 274                                    ;; 弧盎捞 捞悼
+break
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; 捞悼 风凭
+}

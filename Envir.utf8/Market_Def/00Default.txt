@@ -1,0 +1,53 @@
+;;00Default.txt
+[@main]
+#ACT
+goto @weather_control_sabuk
+goto @Default_Setting_Sabuk
+goto @Defult_SafeZone_Setting
+
+[@Defult_SafeZone_Setting]
+#CALL [QuestDiary/System/SafeZone.txt] @SafeZone
+
+
+;; Sabuk Castle Weather Control
+[@Weather_Control_Sabuk]
+#CALL [QuestDiary/System/Weather.txt] @Weather
+
+;; Sabuk Castle Base Setting
+[@Default_Setting_Sabuk]
+#CALL [QuestDiary/System/DefaultSabuk.txt] @SabukDefult
+
+;; Work at Sabuk Battle 2Hours Ago
+[@_War_Ready_Sabuk]
+#CALL [QuestDiary/System/CastleWar.txt] @CastleWarReady
+
+;; Work at Sabuk Battle Start
+[@_War_Start_Sabuk]
+#CALL [QuestDiary/System/CastleWar.txt] @CastleWarStart
+
+;; Work at Sabuk Battle Finish
+[@_War_Finish_Sabuk]
+#CALL [QuestDiary/System/CastleWar.txt] @CastleWarFinish
+
+;; Work at Flag Data Changed
+[@_CastleOwnerChanged_Sabuk]
+#CALL [QuestDiary/System/Flag.txt] @ChangeFlag
+
+[@_CastleFlagChanged_Sabuk]
+#CALL [QuestDiary/System/Flag.txt] @ChangeFlag
+
+[@_USERLOGINTELL]
+#CALL [QuestDiary/附加功能/上线提示.txt] @上线提示
+
+[@_UserLogin]
+
+
+;;时间触发，间隔时间由控制台里面调整
+[@_TimeEATEVENT]
+#IF
+check [888] 1
+checkgold 10000
+#ACT
+take 金币 10000
+giveexp %USERNAME 100000
+sysmsg "您被扣除了10000金币!"

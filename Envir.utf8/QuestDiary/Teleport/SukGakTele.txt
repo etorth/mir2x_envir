@@ -1,0 +1,14 @@
+;;SukGakTele.txt
+[@SukGak_Teleport]
+{
+#IF
+!CheckPkPoint 2
+#SAY
+	#INCLUDE [Convert_Def/QuestDiary/Teleport/SukGakTele.txt] @SukGakTele_1
+
+#ELSEACT
+mapmove 81 125 274                                    ;; 弧盎捞 捞悼
+
+[@TelePortRootin()]
+#CALL [QuestDiary/Teleport/MoveRootin.txt] @TelePortMove         ;; 捞悼 风凭
+}

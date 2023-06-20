@@ -1,0 +1,126 @@
+;;不要删掉此行
+[@NumaStone5_Talk]
+{
+#IF
+Checkitemw 寂幻之刃 1
+#ACT
+goto @NumaStone5_Talk1
+break
+#ELSEACT
+goto @NumaStone5_Talk0
+break
+
+[@NumaStone5_Talk1]
+#ACT
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT,FLD_MADOUSERCHECK,FLD_MADOUSERPATTERN" [@NumaStone5_Talk1_0]
+
+[@NumaStone5_Talk1_0()]
+#ACT
+mov D1 %ARG(1)
+mov D2 %ARG(2)
+mov D3 %ARG(3)
+
+#IF
+Equal D1 12
+Equal D2 1
+Checkitemw 寂幻之刃 1
+#ACT
+goto @NumaStone5_Talk1_5
+break
+
+#IF
+Equal D1 12
+Equal D2 0
+Checkitemw 寂幻之刃 1
+#ACT
+goto @NumaStone5_Talk1_1
+break
+
+#IF
+Equal D1 11
+small D2 9
+Checkitemw 寂幻之刃 1
+#ACT
+goto @NumaStone5_Talk0_1
+break
+
+#IF
+#ACT
+goto @NumaStone5_Talk0
+break
+
+[@NumaStone5_Talk0]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] @Convert_StoneNpc5_0
+
+[@NumaStone5_Talk0_1]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] @Convert_StoneNpc5_1
+
+[@NumaStone5_Talk1_1]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] @Convert_StoneNpc5_2
+
+[@NumaStone5_Talk1_2]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] @Convert_StoneNpc5_3
+
+[@NumaStone5_Talk1_3]
+#IF
+Checkitemw 寂幻之刃 1
+Checkitem 青空石 1
+Checkitem 大地石 1
+Checkitem 太阳石 1
+Checkitem 月光石 1
+Checkitem 受胎石 1
+Checkitem 安息石 1
+Checkitem 心石 1
+Checkitem 活石 1
+#ACT
+set [208] 1
+FormatStr "FLD_MADOHAVEUSER='%s'" %USERNAME
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCONTENT=12"
+UpdateValueSql "TBL_MadoHaveUserQuest" %A9 "FLD_MADOUSERCHECK=1"
+take 青空石 1
+take 大地石 1
+take 太阳石 1
+take 月光石 1
+take 受胎石 1
+take 安息石 1
+take 心石 1
+take 活石 1
+LoadValue A7 [Convert_Def\QuestDiary\HonChonMado\StoneNpc5.txt] [Convert] [Msg0]
+Linemsg "Grobal" %A7
+goto @NumaStone5_Talk1_4
+break
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] @Convert_StoneNpc5_4
+
+[@NumaStone5_Talk1_5]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] @Convert_StoneNpc5_5
+
+[@NumaStone5_Talk1_4]
+#IF
+!Checkhum D16064 1
+#ACT
+map D16064
+monclear D16064
+#ELSEACT
+break
+
+#ELSESAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonMado/StoneNpc5.txt] @Convert_StoneNpc5_6
+
+}
+;;不要删掉此行

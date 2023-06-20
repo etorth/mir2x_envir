@@ -1,0 +1,3 @@
+;;13Move_Eunhang-02.txt
+[@main]
+#CALL [QuestDiary//teleport/EunHangTele.txt] @EunHang_Teleport

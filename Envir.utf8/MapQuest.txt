@@ -1,0 +1,852 @@
+;;传奇3单机版v1.45
+;; Login
+; mon   Name  * = Any One
+; Item  Name  * = Any One
+; qFile can "not exist"
+;------------------------------------------------------------------------------------------------------------------------
+;map     flag     state     Situation     mon          nItem     qFile                                qPosition               nGroup
+;--------------------------------------------------------------------------------------------------------------------------
+;; Situation  : [[Enter] [Leave] [Die] [GetItem] [MonGen] [MonDie]]
+;-------------------------------------------------------------------------------------------------------------------------
+0150        [0]      0        [Enter]       *              *         [CastleWar\行会密室]           [@main]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Skill Test Quest
+;--------
+;;-------------- Asword(Agumsul) Quest
+;-------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D022     [503]   1         [MonDie]      沃玛战士      *         [MU_warrior\MonQuest\asword]           [@main]
+D032     [503]   1         [MonDie]      沃玛战士      *         [MU_warrior\MonQuest\asword]           [@main]
+D042     [503]   1         [MonDie]      沃玛战士      *         [MU_warrior\MonQuest\asword]           [@main]
+D023     [503]   1         [MonDie]      沃玛战士      *         [MU_warrior\MonQuest\asword]           [@main]
+D033     [503]   1         [MonDie]      沃玛战士      *         [MU_warrior\MonQuest\asword]           [@main]
+D043     [503]   1         [MonDie]      沃玛战士      *         [MU_warrior\MonQuest\asword]           [@main]
+;-------------------------------------------------------------------------------------------------------------------------
+;;-------------- Mutebo Quest
+;------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+41       [510]   1         [MonDie]      诺玛法老      *         [MU_warrior\MonQuest\mute]      [@MapQuest_mutebo_stone]
+42       [510]   1         [MonDie]      诺玛法老      *         [MU_warrior\MonQuest\mute]      [@MapQuest_mutebo_stone]
+43       [510]   1         [MonDie]      诺玛法老      *         [MU_warrior\MonQuest\mute]      [@MapQuest_mutebo_stone]
+44       [510]   1         [MonDie]      诺玛法老      *         [MU_warrior\MonQuest\mute]      [@MapQuest_mutebo_stone]
+4        [510]   1         [MonDie]      诺玛法老      *         [MU_warrior\MonQuest\mute]      [@MapQuest_mutebo_stone]
+6        [510]   1         [MonDie]      诺玛法老      *         [MU_warrior\MonQuest\mute]      [@MapQuest_mutebo_stone]
+;--------------------------------------------------------------------------------------------------------------------------
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Teleport(Agonhangbub) Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+02_010   [504]   1         [MonDie]      沙漠树魔62    *         [MU_wizard\MonQuest\QMteleport1L]     [@main]
+02_010   [504]   1         [MonDie]      沙漠树魔61    *         [MU_wizard\MonQuest\QMteleport1R]     [@main]
+02_011   [504]   1         [MonDie]      沙漠树魔62    *         [MU_wizard\MonQuest\QMteleport2L]     [@main]
+02_011   [504]   1         [MonDie]      沙漠树魔61    *         [MU_wizard\MonQuest\QMteleport2R]     [@main]
+02_012   [504]   1         [MonDie]      沙漠树魔62    *         [MU_wizard\MonQuest\QMteleport3L]     [@main]
+02_012   [504]   1         [MonDie]      沙漠树魔61    *         [MU_wizard\MonQuest\QMteleport3R]     [@main]
+02_013   [504]   1         [MonDie]      沙漠树魔62    *         [MU_wizard\MonQuest\QMteleport4L]     [@main]
+02_013   [504]   1         [MonDie]      沙漠树魔61    *         [MU_wizard\MonQuest\QMteleport4R]     [@main]
+02_014   [504]   1         [MonDie]      沙漠树魔62    *         [MU_wizard\MonQuest\QMteleport5L]     [@main]
+02_014   [504]   1         [MonDie]      沙漠树魔61    *         [MU_wizard\MonQuest\QMteleport5R]     [@main]
+;-------------------------------------------------------------------------------------------------------------------------
+;;-------------- LightRecall(Gangkuk) Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+02_006   [518]   1         [MonDie]      僧侣僵尸61    *         [MU_wizard\MonQuest\lightRecall1]     [@MapQuest_lightstick_mon1]
+02_006   [518]   1         [MonDie]      僵尸461       *         [MU_wizard\MonQuest\lightRecall2]     [@MapQuest_lightstick_mon2]
+02_006   [518]   1         [MonDie]      掷斧骷髅61    *         [MU_wizard\MonQuest\lightRecall2]     [@MapQuest_lightstick_mon2]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- FireLine(Yumsajang) Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+02_005   [520]   1         [MonDie]      火焰沃玛61    *         [MU_wizard\MonQuest\fireLine1]        [@MapQuest_fireline_test]
+02_005   [520]   1         [GetItem]     火焰沃玛62   新火镜     [MU_wizard\MonQuest\fireLine2]        [@MapQuest_fireline_test_exit]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- LightLine(Roinjang) Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D011     [522]   1         [MonDie]      洞蛆          *         [MU_wizard\MonQuest\lightLine1]       [@main]
+D021     [524]   1         [MonDie]      山洞蝙蝠      *         [MU_wizard\MonQuest\lightLine2]       [@main]
+D022     [524]   1         [MonDie]      山洞蝙蝠      *         [MU_wizard\MonQuest\lightLine2]       [@main]
+D032     [524]   1         [MonDie]      山洞蝙蝠      *         [MU_wizard\MonQuest\lightLine2]       [@main]
+D042     [524]   1         [MonDie]      山洞蝙蝠      *         [MU_wizard\MonQuest\lightLine2]       [@main]
+D052     [524]   1         [MonDie]      山洞蝙蝠      *         [MU_wizard\MonQuest\lightLine2]       [@main]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Pokyelpa Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+2        [526]   1         [MonDie]      七点白蛇      *         [MU_wizard\MonQuest\pokyel]           [@main]
+;---------------------------------------------------------------------------------------------------------------------------
+;;-------------- Ilgang gumbub Quest
+;-------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+1_012    [500]   1         [MonDie]      半兽战士61    *         [MU_taoist\MonQuest\ilgang1]          [@MapQuest_ilgang_mon1]
+1_012    [500]   1         [MonDie]      半兽人61      *         [MU_taoist\MonQuest\ilgang2]          [@MapQuest_ilgang_mon2]
+;--------------------------------------------------------------------------------------------------------------------------
+;;-------------- SoulSkel(Bakgolsohwansul) Quest
+;---------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+1_014    [505]   1         [MonDie]      变异骷髅      *         [MU_taoist\MonQuest\soulSkel]         [@mugong_recallskel_test_mainskel_win]
+;----------------------------------------------------------------------------------------------------------------------------
+;;-------------- Hangma jinbub Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+;D405     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;D406     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;D421     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;D422     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;D435     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;D436     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;D451     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;D452     [509]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\hangma]           [@MonQuest_hangma_getitem]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Masshiden(Deeunsinsul) Quest
+;----------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D022     [513]   1         [MonDie]      沃玛战将      *         [MU_taoist\MonQuest\masshiden]        [@mugong_masshiding_test]
+D032     [513]   1         [MonDie]      沃玛战将      *         [MU_taoist\MonQuest\masshiden]        [@mugong_masshiding_test]
+D042     [513]   1         [MonDie]      沃玛战将      *         [MU_taoist\MonQuest\masshiden]        [@mugong_masshiding_test]
+D023     [513]   1         [MonDie]      沃玛战将      *         [MU_taoist\MonQuest\masshiden]        [@mugong_masshiding_test]
+D033     [513]   1         [MonDie]      沃玛战将      *         [MU_taoist\MonQuest\masshiden]        [@mugong_masshiding_test]
+D043     [513]   1         [MonDie]      沃玛战将      *         [MU_taoist\MonQuest\masshiden]        [@mugong_masshiding_test]
+;----------------------------------------------------------------------------------------------------------------------------
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Massheal(Dehwoiboksul) Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+1_023    [524]   1         [MonDie]      沃毒蜈蚣62    *         [MU_taoist\MonQuest\massheal1]        [@MapQuest_massheal_cave_complete]
+1_023    [524]   1         [MonDie]      蜈蚣61        *         [MU_taoist\MonQuest\massheal2]        [@MapQuest_massheal_cave_mon1]
+;; MapQuest
+1_020    [0]     0         [Enter]       *             *         [MU_taoist\MapQuest\massheal]         [@MapQuest_massheal_cave]
+;-----------------------------------------------------------------------------------------------------------------------------------
+
+
+;---------------------------------------------------------------------------------------------------------------------------
+;;-------------- Deaji wonho Quest
+;---------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D401     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸10        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸20        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸30        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D401     [515]   1         [MonDie]      僵尸40        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D402     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸20        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸30        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸40        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D402     [515]   1         [MonDie]      僵尸50        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D403     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸10        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸30        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸40        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僵尸50        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D403     [515]   1         [MonDie]      僧侣僵尸      *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D404     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸10        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸20        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸40        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僵尸50        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D404     [515]   1         [MonDie]      僧侣僵尸      *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D405     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸10        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸20        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸40        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僵尸50        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      僧侣僵尸      *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D405     [515]   1         [MonDie]      雷电僵尸      *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D406     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸10        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸20        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸30        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僵尸50        *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      僧侣僵尸      *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D406     [515]   1         [MonDie]      雷电僵尸      *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D411     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D411     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D411     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D411     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D411     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D412     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D412     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D412     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D412     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D412     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D413     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D413     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D413     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D413     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D413     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D414     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D414     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D414     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D414     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D414     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D415     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D415     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D415     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D415     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D415     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D416     [515]   1         [MonDie]      僵尸1         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D416     [515]   1         [MonDie]      僵尸2         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D416     [515]   1         [MonDie]      僵尸3         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D416     [515]   1         [MonDie]      僵尸4         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+D416     [515]   1         [MonDie]      僵尸5         *         [MU_taoist\MonQuest\deaji1]           [@MapQuest_Upac_Recall1]
+;
+D400_001 [515]   1         [MonDie]      尸王61        *         [MU_taoist\MonQuest\deaji2]           [@MapQuest_Upac_gipokstone]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Holy(Gyulge) Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D022     [522]   1         [MonDie]      火焰沃玛      *         [MU_taoist\MonQuest\holy1]            [@MapQuest_holycircle_drop]
+D032     [522]   1         [MonDie]      火焰沃玛      *         [MU_taoist\MonQuest\holy1]            [@MapQuest_holycircle_drop]
+D042     [522]   1         [MonDie]      火焰沃玛      *         [MU_taoist\MonQuest\holy1]            [@MapQuest_holycircle_drop]
+D023     [522]   1         [MonDie]      火焰沃玛      *         [MU_taoist\MonQuest\holy1]            [@MapQuest_holycircle_drop]
+D033     [522]   1         [MonDie]      火焰沃玛      *         [MU_taoist\MonQuest\holy1]            [@MapQuest_holycircle_drop]
+D043     [522]   1         [MonDie]      火焰沃玛      *         [MU_taoist\MonQuest\holy1]            [@MapQuest_holycircle_drop]
+1_019    [522]   1         [MonDie]      沃玛护卫61    *         [MU_taoist\MonQuest\holy2]            [@MapQuest_holycircle_complete]
+1_019    [522]   1         [MonDie]      沃玛战将61    *         [MU_taoist\MonQuest\holy2]            [@MapQuest_holycircle_complete]
+;; MapQuest
+1_015    [0]     0         [Enter]       *             *         [MU_taoist\MonQuest\holy3]            [@MapQuest_holycircle_moveTo1]
+1_016    [0]     0         [Enter]       *             *         [MU_taoist\MonQuest\holy4]            [@MapQuest_holycircle_moveTo2]
+1_017    [0]     0         [Enter]       *             *         [MU_taoist\MonQuest\holy5]            [@MapQuest_holycircle_moveTo3]
+1_018    [0]     0         [Enter]       *             *         [MU_taoist\MonQuest\holy6]            [@MapQuest_holycircle_moveTo4]
+1_019    [0]     0         [Enter]       *             *         [MU_taoist\MonQuest\holy7]            [@MapQuest_holycircle_moveTo5]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Massheal(Dehwoiboksul) Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+1_023    [524]   1         [MonDie]      沃毒蜈蚣62    *         [MU_taoist\MonQuest\massheal1]        [@MapQuest_massheal_cave_complete]
+1_023    [524]   1         [MonDie]      蜈蚣61        *         [MU_taoist\MonQuest\massheal2]        [@MapQuest_massheal_cave_mon1]
+;; MapQuest
+1_020    [0]     0         [Enter]       *             *         [MU_taoist\MapQuest\massheal]         [@MapQuest_massheal_cave]
+;-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+;; MonQuest
+1        [104]    1         [MonDie]     鸡            *         [NQ_BASE\MonQuest\Nm_Chiken]          [@main]
+;------------------------------------------------------------------------------------------------------------------------
+;;-------------- Pariche Quest
+;-------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+0        [267]    1         [MonDie]     钉耙猫        *         [NQ_BASE\MonQuest\Nm_kalgi]           [@main]
+0        [267]    1         [MonDie]     牛            *         [NQ_BASE\MonQuest\Nm_Cow]             [@main]
+;--------------------------------------------------------------------------------------------------------------------------
+;;-------------- Oma Quest
+;--------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+1        [180]    1         [MonDie]     半兽人        *         [NQ_BASE\MonQUest\Nm_Oma]             [@main]
+0        [184]    1         [MonDie]     半兽战士      *         [NQ_BASE\MonQUest\Nm_OmaJunsa]        [@main]
+D001_001 [185]    1         [MonDie]     半兽勇士61    *         [NQ_BASE\MonQUest\Nm_OmaWarrior]      [@main]
+D002_001 [192]    1         [MonDie]     骷髅精灵61    *         [NQ_BASE\MonQUest\Nm_SkelTusa]        [@main]
+;; MapQuest
+01_001   [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_JiSun]           [@main]
+E002_001 [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_RoomGadung]      [@main]
+D001_001 [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_RoomOmaWarrior]  [@main]
+D002_001 [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_RoomSkelTusa]    [@main]
+D012_001 [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_RoomYonbal]      [@main]
+;---------------------------------------------------------------------------------------------------------------------------
+;;-------------- Bamgol Quest
+;--------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+2        [216]    1         [MonDie]     千年毒蛇      *         [NQ_BASE\MonQuest\Nm_1000Doksa]       [@main]
+;---------------------------------------------------------------------------------------------------------------------------
+;;-------------- Tarakdosa Quest
+;--------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D403     [240]    1         [MonDie]     僧侣僵尸      *         [NQ_BASE\MonQuest\Nm_Bubgi]           [@main]
+D404     [240]    1         [MonDie]     僧侣僵尸      *         [NQ_BASE\MonQuest\Nm_Bubgi]           [@main]
+D405     [240]    1         [MonDie]     僧侣僵尸      *         [NQ_BASE\MonQuest\Nm_Bubgi]           [@main]
+D406     [240]    1         [MonDie]     僧侣僵尸      *         [NQ_BASE\MonQuest\Nm_Bubgi]           [@main]
+D431     [240]    1         [MonDie]     僧侣僵尸      *         [NQ_BASE\MonQuest\Nm_Bubgi]           [@main]
+D432     [240]    1         [MonDie]     僧侣僵尸      *         [NQ_BASE\MonQuest\Nm_Bubgi]           [@main]
+D405     [240]    1         [MonDie]     雷电僵尸      *         [NQ_BASE\MonQuest\Nm_Jusulgi]         [@main]
+D406     [240]    1         [MonDie]     雷电僵尸      *         [NQ_BASE\MonQuest\Nm_Jusulgi]         [@main]
+D431     [240]    1         [MonDie]     雷电僵尸      *         [NQ_BASE\MonQuest\Nm_Jusulgi]         [@main]
+D432     [240]    1         [MonDie]     雷电僵尸      *         [NQ_BASE\MonQuest\Nm_Jusulgi]         [@main]
+E402_001 [227]    1         [MonDie]     僵尸261       *         [NQ_BASE\MonQuest\Nm_SujunZombie]     [@main]
+D404_002 [223]    1         [MonDie]     僵尸王        *         [NQ_BASE\MonQuest\Nm_SujunSiwang]     [@main]
+D422_002 [242]    1         [MonDie]     署箭          *         [NQ_BASE\MonQuest\Nm_Sujun]           [@main]
+;; MapQuest
+D404_002 [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_BichunSujun]     [@main]
+D422_002 [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_RoomSnakeSujun]  [@main]
+;-------------------------------------------------------------------------------------------------------------------------
+;;-------------- Stolen Soul Quest
+;--------------------------------------------------------------------------------------------------------------------------
+;; MapQuest
+DM002    [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_TombKing]        [@main]
+E402_001 [0]      0         [Enter]      *             *         [NQ_BASE\MapQuest\Na_RoomConnSujun]   [@main]
+;-----------------------------------------------------------------------------------------------------------------------
+;;-------------- Umyungwiwang Quest
+;-------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D022     [272]   1         [MonDie]      沃玛勇士60    *         [NQ_EXTRA\MonQuest\Nm_WoomaGibung]    [@main]
+D032     [272]   1         [MonDie]      沃玛勇士60    *         [NQ_EXTRA\MonQuest\Nm_WoomaGibung]    [@main]
+D042     [272]   1         [MonDie]      沃玛勇士60    *         [NQ_EXTRA\MonQuest\Nm_WoomaGibung]    [@main]
+;
+D023     [272]   1         [MonDie]      沃玛勇士60    *         [NQ_EXTRA\MonQuest\Nm_WoomaGibung]    [@main]
+D033     [272]   1         [MonDie]      沃玛勇士60    *         [NQ_EXTRA\MonQuest\Nm_WoomaGibung]    [@main]
+D043     [272]   1         [MonDie]      沃玛勇士60    *         [NQ_EXTRA\MonQuest\Nm_WoomaGibung]    [@main]
+;
+D022     [277]   1         [MonDie]      沃玛战将      *         [NQ_EXTRA\MonQuest\Nm_WoomaGijol1]    [@main]
+D032     [277]   1         [MonDie]      沃玛战将      *         [NQ_EXTRA\MonQuest\Nm_WoomaGijol1]    [@main]
+D042     [277]   1         [MonDie]      沃玛战将      *         [NQ_EXTRA\MonQuest\Nm_WoomaGijol1]    [@main]
+;
+D032     [277]   1         [MonDie]      沃玛战将      *         [NQ_EXTRA\MonQuest\Nm_WoomaGijol1]    [@main]
+D033     [277]   1         [MonDie]      沃玛战将      *         [NQ_EXTRA\MonQuest\Nm_WoomaGijol1]    [@main]
+D043     [277]   1         [MonDie]      沃玛战将      *         [NQ_EXTRA\MonQuest\Nm_WoomaGijol1]    [@main]
+;
+D023     [287]   1         [MonDie]      沃玛护卫      *         [NQ_EXTRA\MonQuest\Nm_WoomaGisa]      [@main]
+D033     [287]   1         [MonDie]      沃玛护卫      *         [NQ_EXTRA\MonQuest\Nm_WoomaGisa]      [@main]
+D043     [287]   1         [MonDie]      沃玛护卫      *         [NQ_EXTRA\MonQuest\Nm_WoomaGisa]      [@main]
+;
+D023_001 [293]   1         [MonDie]      沃玛战将61    *         [NQ_EXTRA\MonQuest\Nm_WoomaGijol2]    [@main]
+D023_001 [293]   1         [MonDie]      火焰沃玛61    *         [NQ_EXTRA\MonQuest\Nm_WoomaFire]      [@main]
+D023_002 [296]   1         [MonDie]      牛老道        *         [NQ_EXTRA\MonQuest\Nm_WoomaUdoin]     [@main]
+;
+D024     [299]   1         [MonDie]      沃玛教主      *         [NQ_EXTRA\MonQuest\Nm_WoomaKing]      [@main]                  Group
+;; MapQuest
+D022     [0]     0         [Enter]       *             *         [NQ_EXTRA\MapQuest\Na_StartWooma]     [@main]
+D032     [0]     0         [Enter]       *             *         [NQ_EXTRA\MapQuest\Na_StartWooma]     [@main]
+D042     [0]     0         [Enter]       *             *         [NQ_EXTRA\MapQuest\Na_StartWooma]     [@main]
+D023_001 [0]     0         [Enter]       *             *         [NQ_EXTRA\MapQuest\Na_RoomSaje]       [@main]
+;1_009    [0]     0         [Enter]       *             *         [NQ_EXTRA\MapQuest\Na_RoomMumeng]     [@WoomaQuest]
+;------------------------------------------------------------------------------------------------------------------------
+;;-------------- SinGiSun Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; MonQuest
+D903     [317]   1         [MonDie]      霸王守卫      *         [SinGiSun\MonQuest\Nm_SinGiHanMa]    [@main]                  Group
+D904     [798]   0         [MonDie]      霸王教主      *         [SinGiSun\MonQuest\Nm_SinGiPachun1]  [@main]                  Group
+;; ItemQuest
+D904     [798]   0         [GetItem]     霸王教主   霸王教主雕像 [SinGiSun\MonQuest\Nm_SinGiPachun]   [@main]                  Group
+; MapQuest
+Z013     [0]     0         [Enter]       *             *         [SinGiSun\MapQuest\Na_ExitSinGiSun]  [@main]
+D90221   [0]     0         [Enter]       *             *         [SinGiSun\MapQuest\Na_RoomSinGiSub]  [@main]
+D90323   [314]   1         [MonDie]      轻甲守卫      *         [SinGiSun\MonQuest\Nm_SinGikyung]    [@main]
+D9033    [0]     0         [Enter]       *             *         [SinGiSun\MapQuest\Na_RoomSinGiMain] [@main]
+D904     [0]     0         [Enter]       *             *         [SinGiSun\MapQuest\Na_RoomSinGiKing] [@main]
+;-------------------------------------------------------------------------------------------------------------
+;;Snow         [0]    0       [MonDie]    雪人        *        [Event\SnowBattle\Monquest\SnowMan]     [@main]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Event System
+;-----------------------------------------------------------------------------------------------------------------------------------
+;; ItemQuest
+;;0        [797]   0         [GetItem]     沃玛教主9   魔幻戒指    [Event\Story\MonQuest\Em_WoomaSad]   [@WoomaKingSad]          Group
+;; MonQuest
+;;5        [797]   0         [MonDie]      大法老        *         [Event\Story\MonQuest\Em_LoveStory]  [@LoveStory2]
+;;0        [790]   1         [MonDie]      霸王守卫      *         [Event\Story\MonQuest\Em_pc01_Die]   [@pachon_Ending_1]
+;;0        [790]   1         [MonDie]      沃玛教主      *         [Event\Story\MonQuest\Em_pc01_Die]   [@pachon_Ending_2]
+;;0        [790]   1         [MonDie]      骷髅教主      *         [Event\Story\MonQuest\Em_pc01_Die]   [@pachon_Ending_3]
+;; MapQuest
+;;5_0011   [0]     0         [Enter]       *             *         [Event\S_Repair\MapQuest\S_Repair]   [@main]
+;-----------------------------------------------------------------------------------------------------------------------------------
+;;-------------- Daily Quest
+;-----------------------------------------------------------------------------------------------------------------------------------
+0        [307]   1         [MonDie]      半兽人        *         [QT_TODAY\MonQuest\Dm_Oma]           [@main]
+0        [307]   1         [MonDie]      半兽战士      *         [QT_TODAY\MonQuest\Dm_WarriorOma]    [@main]
+0        [307]   1         [MonDie]      半兽勇士      *         [QT_TODAY\MonQuest\Dm_HeroOma]       [@main]
+0        [307]   1         [MonDie]      稻草人        *         [QT_TODAY\MonQuest\Dm_Dummy]         [@main]
+0        [307]   1         [MonDie]      森林雪人      *         [QT_TODAY\MonQuest\Dm_Munko]         [@main]
+0        [307]   1         [MonDie]      多钩猫        *         [QT_TODAY\MonQuest\Dm_Galgori]       [@main]
+0        [307]   1         [MonDie]      钉耙猫        *         [QT_TODAY\MonQuest\Dm_Galqui]        [@main]
+;
+01       [307]   1         [MonDie]      稻草人        *         [QT_TODAY\MonQuest\Dm_Dummy]         [@main]
+01       [307]   1         [MonDie]      森林雪人      *         [QT_TODAY\MonQuest\Dm_Munko]         [@main]
+01       [307]   1         [MonDie]      多钩猫        *         [QT_TODAY\MonQuest\Dm_Galgori]       [@main]
+01       [307]   1         [MonDie]      钉耙猫        *         [QT_TODAY\MonQuest\Dm_Galqui]        [@main]
+01       [307]   1         [MonDie]      半兽人        *         [QT_TODAY\MonQuest\Dm_Oma]           [@main]
+;
+02       [307]   1         [MonDie]      稻草人        *         [QT_TODAY\MonQuest\Dm_Dummy]         [@main]
+02       [307]   1         [MonDie]      多钩猫        *         [QT_TODAY\MonQuest\Dm_Galgori]       [@main]
+02       [307]   1         [MonDie]      半兽人        *         [QT_TODAY\MonQuest\Dm_Oma]           [@main]
+02       [307]   1         [MonDie]      多钩猫        *         [QT_TODAY\MonQuest\Dm_Galgori]       [@main]
+02       [307]   1         [MonDie]      钉耙猫        *         [QT_TODAY\MonQuest\Dm_Galqui]        [@main]
+;
+1        [307]   1         [MonDie]      猪            *         [QT_TODAY\MonQuest\Dm_Pig]           [@main]
+1        [307]   1         [MonDie]      半兽人        *         [QT_TODAY\MonQuest\Dm_Oma]           [@main]
+1        [307]   1         [MonDie]      森林雪人      *         [QT_TODAY\MonQuest\Dm_Munko]         [@main]
+1        [307]   1         [MonDie]      稻草人        *         [QT_TODAY\MonQuest\Dm_Dummy]         [@main]
+1        [307]   1         [MonDie]      多钩猫        *         [QT_TODAY\MonQuest\Dm_Galgori]       [@main]
+1        [307]   1         [MonDie]      钉耙猫        *         [QT_TODAY\MonQuest\Dm_Galqui]        [@main]
+;
+2        [307]   1         [MonDie]      多钩猫        *         [QT_TODAY\MonQuest\Dm_Galgori]       [@main]
+2        [307]   1         [MonDie]      虎蛇          *         [QT_TODAY\MonQuest\Dm_SpriteSnake]   [@main]
+2        [307]   1         [MonDie]      红蛇          *         [QT_TODAY\MonQuest\Dm_RedSnake]      [@main]
+2        [307]   1         [MonDie]      千年毒蛇      *         [QT_TODAY\MonQuest\Dm_1000years]     [@main]
+2        [307]   1         [MonDie]      七点白蛇      *         [QT_TODAY\MonQuest\Dm_SevenDot]      [@main]
+2        [307]   1         [MonDie]      钉耙猫        *         [QT_TODAY\MonQuest\Dm_Galgori]       [@main]
+2        [307]   1         [MonDie]      森林雪人      *         [QT_TODAY\MonQuest\Dm_Munko]         [@main]
+2        [307]   1         [MonDie]      半兽人        *         [QT_TODAY\MonQuest\Dm_Oma]           [@main]
+;
+4        [307]   1         [MonDie]      羊            *         [QT_TODAY\MonQuest\Dm_Sheep]         [@main]
+5        [307]   1         [MonDie]      羊            *         [QT_TODAY\MonQuest\Dm_Sheep]         [@main]
+;
+8        [307]   1         [MonDie]      浪子人鬼      *         [QT_TODAY\MonQuest\Dm_NangIn]        [@main]
+8        [307]   1         [MonDie]      腐蚀人鬼      *         [QT_TODAY\MonQuest\Dm_Busik]         [@main]
+;
+74       [307]   1         [MonDie]      盔甲虫        *         [QT_TODAY\MonQuest\Dm_Togap]         [@main]
+;
+12       [307]   1         [MonDie]      花色蜘蛛      *         [QT_TODAY\MonQuest\Dm_Hwagap]        [@main]
+122      [307]   1         [MonDie]      花色蜘蛛      *         [QT_TODAY\MonQuest\Dm_Hwagap]        [@main]
+125      [307]   1         [MonDie]      花色蜘蛛      *         [QT_TODAY\MonQuest\Dm_Hwagap]        [@main]
+;
+12       [307]   1         [MonDie]      幻影蜘蛛      *         [QT_TODAY\MonQuest\Dm_Pogan]         [@main]
+122      [307]   1         [MonDie]      幻影蜘蛛      *         [QT_TODAY\MonQuest\Dm_Pogan]         [@main]
+125      [307]   1         [MonDie]      幻影蜘蛛      *         [QT_TODAY\MonQuest\Dm_Pogan]         [@main]
+;
+;D011     [307]   1         [MonDie]      骷髅战士      *         [QT_TODAY\MonQuest\Dm_BigAxeSkel]    [@main]
+;D012     [307]   1         [MonDie]      骷髅战士      *         [QT_TODAY\MonQuest\Dm_BigAxeSkel]    [@main]
+;
+;D011     [307]   1         [MonDie]      骷髅          *         [QT_TODAY\MonQuest\Dm_Skel]          [@main]
+;D012     [307]   1         [MonDie]      骷髅          *         [QT_TODAY\MonQuest\Dm_Skel]          [@main]
+;
+D011     [307]   1         [MonDie]      骷髅精灵      *         [QT_TODAY\MonQuest\Dm_SkelKing]      [@main]
+D012     [307]   1         [MonDie]      骷髅精灵      *         [QT_TODAY\MonQuest\Dm_SkelKing]      [@main]
+;
+D001     [307]   1         [MonDie]      骷髅精灵      *         [QT_TODAY\MonQuest\Dm_SkelKing]      [@main]
+D002     [307]   1         [MonDie]      骷髅精灵      *         [QT_TODAY\MonQuest\Dm_SkelKing]      [@main]
+D003     [307]   1         [MonDie]      骷髅精灵      *         [QT_TODAY\MonQuest\Dm_SkelKing]      [@main]
+;
+D1001    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1002    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10031   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10032   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1004    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10051   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10052   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1011    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1012    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10131   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10132   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1014    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10151   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10152   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1021    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1022    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10231   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10232   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D1024    [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10251   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+D10252   [307]   1         [MonDie]      血巨人        *         [QT_TODAY\MonQuest\Dm_GiantMonk]     [@main]
+;
+D1001    [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D1002    [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10031   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10032   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D1004    [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10051   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10052   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D1011    [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D1012    [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10131   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10132   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D1014    [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10151   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+D10152   [307]   1         [MonDie]      神鬼王        *         [QT_TODAY\MonQuest\Dm_GiantMonkKing] [@main]
+;
+41       [307]   1         [MonDie]      诺玛法老      *         [QT_TODAY\MonQuest\Dm_MageNuma]      [@main]
+42       [307]   1         [MonDie]      诺玛法老      *         [QT_TODAY\MonQuest\Dm_MageNuma]      [@main]
+43       [307]   1         [MonDie]      诺玛法老      *         [QT_TODAY\MonQuest\Dm_MageNuma]      [@main]
+44       [307]   1         [MonDie]      诺玛法老      *         [QT_TODAY\MonQuest\Dm_MageNuma]      [@main]
+;
+4        [307]   1         [MonDie]      诺玛法老      *         [QT_TODAY\MonQuest\Dm_MageNuma]      [@main]
+;
+6        [307]   1         [MonDie]      诺玛法老      *         [QT_TODAY\MonQuest\Dm_MageNuma]      [@main]
+;
+41       [307]   1         [MonDie]      诺玛将士      *         [QT_TODAY\MonQuest\Dm_GeneralNuma]      [@main]
+42       [307]   1         [MonDie]      诺玛将士      *         [QT_TODAY\MonQuest\Dm_GeneralNuma]      [@main]
+43       [307]   1         [MonDie]      诺玛将士      *         [QT_TODAY\MonQuest\Dm_GeneralNuma]      [@main]
+44       [307]   1         [MonDie]      诺玛将士      *         [QT_TODAY\MonQuest\Dm_GeneralNuma]      [@main]
+;
+4        [307]   1         [MonDie]      诺玛将士      *         [QT_TODAY\MonQuest\Dm_GeneralNuma]      [@main]
+;
+6        [307]   1         [MonDie]      诺玛将士      *         [QT_TODAY\MonQuest\Dm_GeneralNuma]      [@main]
+;
+4        [307]   1         [MonDie]      诺玛0         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+4        [307]   1         [MonDie]      诺玛1         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+4        [307]   1         [MonDie]      诺玛2         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+4        [307]   1         [MonDie]      诺玛3         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+;
+6        [307]   1         [MonDie]      诺玛0         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+6        [307]   1         [MonDie]      诺玛1         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+6        [307]   1         [MonDie]      诺玛2         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+6        [307]   1         [MonDie]      诺玛3         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+;
+41       [307]   1         [MonDie]      诺玛0         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+41       [307]   1         [MonDie]      诺玛1         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+41       [307]   1         [MonDie]      诺玛2         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+41       [307]   1         [MonDie]      诺玛3         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+;
+42       [307]   1         [MonDie]      诺玛0         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+42       [307]   1         [MonDie]      诺玛1         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+42       [307]   1         [MonDie]      诺玛2         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+42       [307]   1         [MonDie]      诺玛3         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+;
+43       [307]   1         [MonDie]      诺玛0         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+43       [307]   1         [MonDie]      诺玛1         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+43       [307]   1         [MonDie]      诺玛2         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+43       [307]   1         [MonDie]      诺玛3         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+;
+44       [307]   1         [MonDie]      诺玛0         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+44       [307]   1         [MonDie]      诺玛1         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+44       [307]   1         [MonDie]      诺玛2         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+44       [307]   1         [MonDie]      诺玛3         *         [QT_TODAY\MonQuest\Dm_Numa]          [@main]
+;
+41       [307]   1         [MonDie]      沙漠鱼魔      *         [QT_TODAY\MonQuest\Dm_SandFish]      [@main]
+42       [307]   1         [MonDie]      沙漠鱼魔      *         [QT_TODAY\MonQuest\Dm_SandFish]      [@main]
+43       [307]   1         [MonDie]      沙漠鱼魔      *         [QT_TODAY\MonQuest\Dm_SandFish]      [@main]
+44       [307]   1         [MonDie]      沙漠鱼魔      *         [QT_TODAY\MonQuest\Dm_SandFish]      [@main]
+;
+4        [307]   1         [MonDie]      沙漠鱼魔      *         [QT_TODAY\MonQuest\Dm_SandFish]      [@main]
+;
+6        [307]   1         [MonDie]      沙漠鱼魔      *         [QT_TODAY\MonQuest\Dm_SandFish]      [@main]
+;
+41       [307]   1         [MonDie]      沙漠石人      *         [QT_TODAY\MonQuest\Dm_SandMan]       [@main]
+42       [307]   1         [MonDie]      沙漠石人      *         [QT_TODAY\MonQuest\Dm_SandMan]       [@main]
+43       [307]   1         [MonDie]      沙漠石人      *         [QT_TODAY\MonQuest\Dm_SandMan]       [@main]
+44       [307]   1         [MonDie]      沙漠石人      *         [QT_TODAY\MonQuest\Dm_SandMan]       [@main]
+;
+4        [307]   1         [MonDie]      沙漠石人      *         [QT_TODAY\MonQuest\Dm_SandMan]       [@main]
+;
+6        [307]   1         [MonDie]      沙漠石人      *         [QT_TODAY\MonQuest\Dm_SandMan]       [@main]
+;
+D711     [307]   1         [MonDie]      红野猪        *         [QT_TODAY\MonQuest\Dm_RedPig]        [@main]
+D712     [307]   1         [MonDie]      红野猪        *         [QT_TODAY\MonQuest\Dm_RedPig]        [@main]
+D713     [307]   1         [MonDie]      红野猪        *         [QT_TODAY\MonQuest\Dm_RedPig]        [@main]
+D714     [307]   1         [MonDie]      红野猪        *         [QT_TODAY\MonQuest\Dm_RedPig]        [@main]
+D715     [307]   1         [MonDie]      红野猪        *         [QT_TODAY\MonQuest\Dm_RedPig]        [@main]
+;
+D711     [307]   1         [MonDie]      黑野猪        *         [QT_TODAY\MonQuest\Dm_BlackPig]      [@main]
+D712     [307]   1         [MonDie]      黑野猪        *         [QT_TODAY\MonQuest\Dm_BlackPig]      [@main]
+D713     [307]   1         [MonDie]      黑野猪        *         [QT_TODAY\MonQuest\Dm_BlackPig]      [@main]
+D714     [307]   1         [MonDie]      黑野猪        *         [QT_TODAY\MonQuest\Dm_BlackPig]      [@main]
+D715     [307]   1         [MonDie]      黑野猪        *         [QT_TODAY\MonQuest\Dm_BlackPig]      [@main]
+;
+D711     [307]   1         [MonDie]      白野猪        *         [QT_TODAY\MonQuest\Dm_WhitePig]      [@main]
+D712     [307]   1         [MonDie]      白野猪        *         [QT_TODAY\MonQuest\Dm_WhitePig]      [@main]
+D713     [307]   1         [MonDie]      白野猪        *         [QT_TODAY\MonQuest\Dm_WhitePig]      [@main]
+D714     [307]   1         [MonDie]      白野猪        *         [QT_TODAY\MonQuest\Dm_WhitePig]      [@main]
+D715     [307]   1         [MonDie]      白野猪        *         [QT_TODAY\MonQuest\Dm_WhitePig]      [@main]
+;
+D401     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+D402     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+D403     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+D404     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+D405     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+D406     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+D431     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+D432     [307]   1         [MonDie]      尸王          *         [QT_TODAY\MonQuest\Dm_Guol]          [@main]
+;
+D405     [307]   1         [MonDie]      雷电僵尸      *         [QT_TODAY\MonQuest\Dm_MageZombie]    [@main]
+D406     [307]   1         [MonDie]      雷电僵尸      *         [QT_TODAY\MonQuest\Dm_MageZombie]    [@main]
+D431     [307]   1         [MonDie]      雷电僵尸      *         [QT_TODAY\MonQuest\Dm_MageZombie]    [@main]
+D432     [307]   1         [MonDie]      雷电僵尸      *         [QT_TODAY\MonQuest\Dm_MageZombie]    [@main]
+;
+;D405     [307]   1         [MonDie]      僧侣僵尸      *         [QT_TODAY\MonQuest\Dm_MonkZombie]    [@main]
+;D406     [307]   1         [MonDie]      僧侣僵尸      *         [QT_TODAY\MonQuest\Dm_MonkZombie]    [@main]
+;D431     [307]   1         [MonDie]      僧侣僵尸      *         [QT_TODAY\MonQuest\Dm_MonkZombie]    [@main]
+;D432     [307]   1         [MonDie]      僧侣僵尸      *         [QT_TODAY\MonQuest\Dm_MonkZombie]    [@main]
+;
+;D401     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D402     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D403     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D404     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D405     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D406     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D411     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D412     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D413     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D414     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D415     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D416     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D431     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D432     [307]   1         [MonDie]      僵尸2         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;;
+;D1411    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1412    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1413    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1414    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1415    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;
+;D401     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D402     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D403     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D404     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D405     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D406     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D411     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D412     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D413     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D414     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D415     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D416     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D431     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D432     [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;
+;D1411    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1412    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1413    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1414    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1415    [307]   1         [MonDie]      僵尸0         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;;
+;D401     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D402     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D403     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D404     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D405     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D406     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D411     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D412     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D413     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D414     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D415     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D416     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D431     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D432     [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;
+;D1411    [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1412    [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1413    [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1414    [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;D1415    [307]   1         [MonDie]      僵尸1         *         [QT_TODAY\MonQuest\Dm_Zombie]        [@main]
+;
+D8001    [307]   1         [MonDie]      盔甲蚂蚁      *         [QT_TODAY\MonQuest\Dm_ArmorAnt]      [@main]
+D8002    [307]   1         [MonDie]      盔甲蚂蚁      *         [QT_TODAY\MonQuest\Dm_ArmorAnt]      [@main]
+D8003    [307]   1         [MonDie]      盔甲蚂蚁      *         [QT_TODAY\MonQuest\Dm_ArmorAnt]      [@main]
+D8004    [307]   1         [MonDie]      盔甲蚂蚁      *         [QT_TODAY\MonQuest\Dm_ArmorAnt]      [@main]
+;
+D8001    [307]   1         [MonDie]      蚂蚁将军      *         [QT_TODAY\MonQuest\Dm_GeneralAnt]    [@main]
+D8002    [307]   1         [MonDie]      蚂蚁将军      *         [QT_TODAY\MonQuest\Dm_GeneralAnt]    [@main]
+D8003    [307]   1         [MonDie]      蚂蚁将军      *         [QT_TODAY\MonQuest\Dm_GeneralAnt]    [@main]
+D8004    [307]   1         [MonDie]      蚂蚁将军      *         [QT_TODAY\MonQuest\Dm_GeneralAnt]    [@main]
+;
+D8001    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8002    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8003    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8004    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8101    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8102    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8103    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8104    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8201    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8202    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8203    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+D8204    [307]   1         [MonDie]      劳动蚂蚁      *         [QT_TODAY\MonQuest\Dm_WorkAnt]    [@main]
+;
+D022     [307]   1         [MonDie]      沃玛战士      *         [QT_TODAY\MonQuest\Dm_Cowface]       [@main]
+D023     [307]   1         [MonDie]      沃玛战士      *         [QT_TODAY\MonQuest\Dm_Cowface]       [@main]
+D032     [307]   1         [MonDie]      沃玛战士      *         [QT_TODAY\MonQuest\Dm_Cowface]       [@main]
+D033     [307]   1         [MonDie]      沃玛战士      *         [QT_TODAY\MonQuest\Dm_Cowface]       [@main]
+D042     [307]   1         [MonDie]      沃玛战士      *         [QT_TODAY\MonQuest\Dm_Cowface]       [@main]
+D043     [307]   1         [MonDie]      沃玛战士      *         [QT_TODAY\MonQuest\Dm_Cowface]       [@main]
+D024     [307]   1         [MonDie]      沃玛战士      *         [QT_TODAY\MonQuest\Dm_Cowface]       [@main]
+;
+D022     [307]   1         [MonDie]      沃玛勇士      *         [QT_TODAY\MonQuest\Dm_CowfaceSoldier]  [@main]
+D032     [307]   1         [MonDie]      沃玛勇士      *         [QT_TODAY\MonQuest\Dm_CowfaceSoldier]  [@main]
+D042     [307]   1         [MonDie]      沃玛勇士      *         [QT_TODAY\MonQuest\Dm_CowfaceSoldier]  [@main]
+D023     [307]   1         [MonDie]      沃玛勇士      *         [QT_TODAY\MonQuest\Dm_CowfaceSoldier]  [@main]
+D033     [307]   1         [MonDie]      沃玛勇士      *         [QT_TODAY\MonQuest\Dm_CowfaceSoldier]  [@main]
+D043     [307]   1         [MonDie]      沃玛勇士      *         [QT_TODAY\MonQuest\Dm_CowfaceSoldier]  [@main]
+D024     [307]   1         [MonDie]      沃玛勇士      *         [QT_TODAY\MonQuest\Dm_CowfaceSoldier]  [@main]
+;
+D022     [307]   1         [MonDie]      火焰沃玛      *         [QT_TODAY\MonQuest\Dm_FireCowface]   [@main]
+d032     [307]   1         [MonDie]      火焰沃玛      *         [QT_TODAY\MonQuest\Dm_FireCowface]   [@main]
+d042     [307]   1         [MonDie]      火焰沃玛      *         [QT_TODAY\MonQuest\Dm_FireCowface]   [@main]
+d023     [307]   1         [MonDie]      火焰沃玛      *         [QT_TODAY\MonQuest\Dm_FireCowface]   [@main]
+d033     [307]   1         [MonDie]      火焰沃玛      *         [QT_TODAY\MonQuest\Dm_FireCowface]   [@main]
+d043     [307]   1         [MonDie]      火焰沃玛      *         [QT_TODAY\MonQuest\Dm_FireCowface]   [@main]
+d024     [307]   1         [MonDie]      火焰沃玛      *         [QT_TODAY\MonQuest\Dm_FireCowface]   [@main]
+;
+d022     [307]   1         [MonDie]      沃玛卫士      *         [QT_TODAY\MonQuest\Dm_GeneralCowface]  [@main]
+d032     [307]   1         [MonDie]      沃玛卫士      *         [QT_TODAY\MonQuest\Dm_GeneralCowface]  [@main]
+d042     [307]   1         [MonDie]      沃玛卫士      *         [QT_TODAY\MonQuest\Dm_GeneralCowface]  [@main]
+d023     [307]   1         [MonDie]      沃玛卫士      *         [QT_TODAY\MonQuest\Dm_GeneralCowface]  [@main]
+d033     [307]   1         [MonDie]      沃玛卫士      *         [QT_TODAY\MonQuest\Dm_GeneralCowface]  [@main]
+d043     [307]   1         [MonDie]      沃玛卫士      *         [QT_TODAY\MonQuest\Dm_GeneralCowface]  [@main]
+;
+d022     [307]   1         [MonDie]      沃玛护卫      *         [QT_TODAY\MonQuest\Dm_SemiCowface]   [@main]
+d032     [307]   1         [MonDie]      沃玛护卫      *         [QT_TODAY\MonQuest\Dm_SemiCowface]   [@main]
+d042     [307]   1         [MonDie]      沃玛护卫      *         [QT_TODAY\MonQuest\Dm_SemiCowface]   [@main]
+d023     [307]   1         [MonDie]      沃玛护卫      *         [QT_TODAY\MonQuest\Dm_SemiCowface]   [@main]
+d033     [307]   1         [MonDie]      沃玛护卫      *         [QT_TODAY\MonQuest\Dm_SemiCowface]   [@main]
+d043     [307]   1         [MonDie]      沃玛护卫      *         [QT_TODAY\MonQuest\Dm_SemiCowface]   [@main]
+;
+D60011   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60012   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60013   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60021   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60022   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D6004    [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+;
+D6011    [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D6012    [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60131   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60132   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60133   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60134   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D60135   [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D6014    [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+D6015    [307]   1         [MonDie]      钳虫          *         [QT_TODAY\MonQuest\Dm_Zipgae]        [@main]
+;
+D6021    [307]   1         [MonDie]      邪恶钳虫      *         [QT_TODAY\MonQuest\Dm_ZipgaeKing]    [@main]
+D6022    [307]   1         [MonDie]      邪恶钳虫      *         [QT_TODAY\MonQuest\Dm_ZipgaeKing]    [@main]
+D6023    [307]   1         [MonDie]      邪恶钳虫      *         [QT_TODAY\MonQuest\Dm_ZipgaeKing]    [@main]
+D6024    [307]   1         [MonDie]      邪恶钳虫      *         [QT_TODAY\MonQuest\Dm_ZipgaeKing]    [@main]
+D6025    [307]   1         [MonDie]      邪恶钳虫      *         [QT_TODAY\MonQuest\Dm_ZipgaeKing]    [@main]
+;
+D6021    [307]   1         [MonDie]      钳虫      *         [QT_TODAY\MonQuest\Dm_BronzeZipgae]    [@main]
+D6022    [307]   1         [MonDie]      钳虫      *         [QT_TODAY\MonQuest\Dm_BronzeZipgae]    [@main]
+D6023    [307]   1         [MonDie]      钳虫      *         [QT_TODAY\MonQuest\Dm_BronzeZipgae]    [@main]
+D6024    [307]   1         [MonDie]      钳虫      *         [QT_TODAY\MonQuest\Dm_BronzeZipgae]    [@main]
+D6025    [307]   1         [MonDie]      钳虫      *         [QT_TODAY\MonQuest\Dm_BronzeZipgae]    [@main]
+;
+D1211    [307]   1         [MonDie]      骷髅武将      *         [QT_TODAY\MonQuest\Dm_ArmorSkel]     [@main]
+D12121   [307]   1         [MonDie]      骷髅武将      *         [QT_TODAY\MonQuest\Dm_ArmorSkel]     [@main]
+D1213    [307]   1         [MonDie]      骷髅武将      *         [QT_TODAY\MonQuest\Dm_ArmorSkel]     [@main]
+D1214    [307]   1         [MonDie]      骷髅武将      *         [QT_TODAY\MonQuest\Dm_ArmorSkel]     [@main]
+D1215    [307]   1         [MonDie]      骷髅武将      *         [QT_TODAY\MonQuest\Dm_ArmorSkel]     [@main]
+;
+d503     [307]   1         [MonDie]      祖玛卫士      *         [QT_TODAY\MonQuest\Dm_ZumaHobub]     [@main]
+d504     [307]   1         [MonDie]      祖玛卫士      *         [QT_TODAY\MonQuest\Dm_ZumaHobub]     [@main]
+d505     [307]   1         [MonDie]      祖玛卫士      *         [QT_TODAY\MonQuest\Dm_ZumaHobub]     [@main]
+d5072    [307]   1         [MonDie]      祖玛卫士      *         [QT_TODAY\MonQuest\Dm_ZumaHobub]     [@main]
+d5073    [307]   1         [MonDie]      祖玛卫士      *         [QT_TODAY\MonQuest\Dm_ZumaHobub]     [@main]
+d5074    [307]   1         [MonDie]      祖玛卫士      *         [QT_TODAY\MonQuest\Dm_ZumaHobub]     [@main]
+;
+d503     [307]   1         [MonDie]      祖玛雕像      *         [QT_TODAY\MonQuest\Dm_ZumaSinjang]   [@main]
+d504     [307]   1         [MonDie]      祖玛雕像      *         [QT_TODAY\MonQuest\Dm_ZumaSinjang]   [@main]
+d505     [307]   1         [MonDie]      祖玛雕像      *         [QT_TODAY\MonQuest\Dm_ZumaSinjang]   [@main]
+d5072    [307]   1         [MonDie]      祖玛雕像      *         [QT_TODAY\MonQuest\Dm_ZumaSinjang]   [@main]
+d5073    [307]   1         [MonDie]      祖玛雕像      *         [QT_TODAY\MonQuest\Dm_ZumaSinjang]   [@main]
+d5074    [307]   1         [MonDie]      祖玛雕像      *         [QT_TODAY\MonQuest\Dm_ZumaSinjang]   [@main]
+;
+D1601    [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+D1602    [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+D16031   [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+D16032   [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+D16033   [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+D16034   [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+D1604    [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+D1605    [307]   1         [MonDie]      诺玛突击队长  *         [QT_TODAY\MonQuest\Dm_NumaDolkyuk]   [@main]                  Group
+;
+D901     [307]   1         [MonDie]      霸王守卫      *         [QT_TODAY\MonQuest\Dm_Hwanma]        [@main]                  Group
+D9021    [307]   1         [MonDie]      霸王守卫      *         [QT_TODAY\MonQuest\Dm_Hwanma]        [@main]                  Group
+D9022    [307]   1         [MonDie]      霸王守卫      *         [QT_TODAY\MonQuest\Dm_Hwanma]        [@main]                  Group
+D903     [307]   1         [MonDie]      霸王守卫      *         [QT_TODAY\MonQuest\Dm_Hwanma]        [@main]                  Group
+;
+D10162   [307]   1         [MonDie]      赤月恶魔      *         [QT_TODAY\MonQuest\Dm_RedMoonKing]   [@main]                  Group
+D515     [307]   1         [MonDie]      祖玛教主      *         [QT_TODAY\MonQuest\Dm_ZumaKing]      [@main]                  Group
+D1116    [307]   1         [MonDie]      潘夜牛魔王    *         [QT_TODAY\MonQuest\Dm_SauKing]       [@main]                  Group
+D6015    [307]   1         [MonDie]      触龙神        *         [QT_TODAY\MonQuest\Dm_ChocryongKing] [@main]                  Group
+D024     [307]   1         [MonDie]      沃玛教主      *         [QT_TODAY\MonQuest\Dm_CowfaceKing]   [@main]                  Group
+;42       [307]   1         [MonDie]      诺玛教主      *         [QT_TODAY\MonQuest\Dm_NumaKing]      [@main]                  Group
+D1215    [307]   1         [MonDie]      骷髅教主      *         [QT_TODAY\MonQuest\Dm_SkelVanKing]   [@main]                  Group
+;43       [307]   1         [MonDie]      诺玛教主      *         [QT_TODAY\MonQuest\Dm_NumaKing]      [@main]                  Group
+D904     [307]   1         [MonDie]      霸王教主      *         [QT_TODAY\MonQuest\Dm_Pachun]        [@main]                  Group
+;;------------------------------------------------------------------------------------------------------------------------------
+;;       HonChonDo Quest
+;;--------------------------------------------------------------------------------------------------------------------------------
+;D1601    [0]    0         [Enter]                      * *      [System\MacroCheck]                    [@MacroBlock]
+D1601     [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D1601     [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D1601     [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D1601     [0]    0         [MonDie]      诺玛抛石兵     *        [MapQuest_Def\Mon_NuMatusuk]           [@Main]
+;D1602    [0]    0         [Enter]                      * *      [System\MacroCheck]                    [@MacroBlock]
+D1602     [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D1602     [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D1602     [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D1602     [0]    0         [MonDie]      诺玛抛石兵     *        [MapQuest_Def\Mon_NuMatusuk]           [@Main]
+;D16031   [0]    0         [Enter]                      * *      [System\MacroCheck]                    [@MacroBlock]
+D16031    [0]    0         [MonDie]      ???            *        [MapQuest_Def\Mon_Hon]                 [@Main]
+D16031    [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D16031    [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D16031    [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D16031    [0]    0         [MonDie]      诺玛抛石兵     *        [MapQuest_Def\Mon_NuMatusuk]           [@Main]
+D16031    [0]    0         [MonDie]      毁灭之印大师   *        [MapQuest_Def\Mon_SoMyul]              [@Main]
+D16031    [0]    0         [MonDie]      阿龙怪         *        [MapQuest_Def\Mon_AhRungGa]            [@Main] Group
+D16031    [0]    0         [MonDie]      侦查队长       *        [MapQuest_Def\Mon_JongChal]            [@Main] Group
+;D16032   [0]    0         [Enter]                      * *      [System\MacroCheck]                    [@MacroBlock]
+D16032    [0]    0         [MonDie]      ???            *        [MapQuest_Def\Mon_Hon]                 [@Main]
+D16032    [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D16032    [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D16032    [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D16032    [0]    0         [MonDie]      诺玛抛石兵     *        [MapQuest_Def\Mon_NuMatusuk]           [@Main]
+D16032    [0]    0         [MonDie]      毁灭之印大师   *        [MapQuest_Def\Mon_SoMyul]              [@Main]
+D16032    [0]    0         [MonDie]      阿龙怪         *        [MapQuest_Def\Mon_AhRungGa]            [@Main] Group
+D16032    [0]    0         [MonDie]      侦查队长       *        [MapQuest_Def\Mon_JongChal]            [@Main] Group
+;D16033   [0]    0         [Enter]                *     *        [System\MacroCheck]                    [@MacroBlock]
+D16033    [0]    0         [MonDie]      ???            *        [MapQuest_Def\Mon_Hon]                 [@Main]
+D16033    [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D16033    [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D16033    [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D16033    [0]    0         [MonDie]      诺玛抛石兵     *        [MapQuest_Def\Mon_NuMatusuk]           [@Main]
+D16033    [0]    0         [MonDie]      毁灭之印大师   *        [MapQuest_Def\Mon_SoMyul]              [@Main]
+D16033    [0]    0         [MonDie]      阿龙怪         *        [MapQuest_Def\Mon_AhRungGa]            [@Main] Group
+D16033    [0]    0         [MonDie]      侦查队长       *        [MapQuest_Def\Mon_JongChal]            [@Main] Group
+;D16034   [0]    0         [Enter]              *       *        [System\MacroCheck]                    [@MacroBlock]
+D16034    [0]    0         [MonDie]      ???            *        [MapQuest_Def\Mon_Hon]                 [@Main]
+D16034    [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D16034    [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D16034    [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D16034    [0]    0         [MonDie]      毁灭之印大师   *        [MapQuest_Def\Mon_SoMyul]              [@Main]
+D16034    [0]    0         [MonDie]      阿龙怪         *        [MapQuest_Def\Mon_AhRungGa]            [@Main] Group
+D16034    [0]    0         [MonDie]      侦查队长       *        [MapQuest_Def\Mon_JongChal]            [@Main] Group
+;D1604    [0]    0         [Enter]              *       *        [System\MacroCheck]                    [@MacroBlock]
+D1604     [0]    0         [MonDie]      ???            *        [MapQuest_Def\Mon_Hon]                 [@Main]
+D1604     [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D1604     [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D1604     [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D1604     [0]    0         [MonDie]      诺玛抛石兵     *        [MapQuest_Def\Mon_NuMatusuk]           [@Main]
+D1604     [0]    0         [MonDie]      大司令         *        [MapQuest_Def\Mon_SaRyungMagic]        [@Main]
+D1604     [0]    0         [MonDie]      阿龙怪         *        [MapQuest_Def\Mon_AhRungGa]            [@Main] Group
+;D1605    [0]    0         [Enter]            *         *        [System\MacroCheck]                    [@MacroBlock]
+D1605     [0]    0         [MonDie]      诺玛突击队长   *        [MapQuest_Def\Mon_NuMadolguk]          [@Main] Group
+D1605     [0]    0         [MonDie]      诺玛司令       *        [MapQuest_Def\Mon_NumaSaRyung]         [@Main]
+D1605     [0]    0         [MonDie]      诺玛装甲兵     *        [MapQuest_Def\Mon_NuMajanggap]         [@Main]
+D1605     [0]    0         [MonDie]      诺玛斧兵       *        [MapQuest_Def\Mon_NuMaChinWiDaejang]   [@Main]
+D1605     [0]    0         [MonDie]      诺玛抛石兵     *        [MapQuest_Def\Mon_NuMatusuk]           [@Main]
+D1606     [0]    0         [MonDie]      疯狂诺玛勇士   *        [MapQuest_Def\Mon_MiNuMaYungSa]        [@Main]
+D1606     [0]    0         [UserDie]              *     *        [MapQuest_Def\User_Die-D1606]          [@Main]
+D16061    [0]    0         [MonDie]      诺玛斧兵队     *        [MapQuest_Def\Mon_NuMaChinWiDae]       [@Main] Group
+D16061    [0]    0         [MonDie]      毁灭之印大师   *        [MapQuest_Def\Mon_SoMyul]              [@Main] Group
+D16061    [0]    0         [UserDie]              *     *        [MapQuest_Def\User_Die-D16061]         [@Main]
+D16063    [0]    0         [UserDie]              *     *        [MapQuest_Def\User_Die-D16063]         [@Main]
+D16064    [0]    0         [MonDie]      疯狂诺玛勇士   *        [MapQuest_Def\Mon_MiNuMaYungSa]        [@Main]
+D16064    [0]    0         [UserDie]              *     *        [MapQuest_Def\User_Die-D16064]         [@Main]
+
+;;;宝湾传奇3单机版v1.45

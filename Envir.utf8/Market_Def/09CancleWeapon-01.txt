@@ -1,0 +1,13 @@
+;;09CancleWeapon-01.txt
+[@main]
+#SAY
+	#INCLUDE [Convert_Def/Market_Def/09CancleWeapon-01.txt] @NPC_Main
+
+[@RefineinitialWeapon]
+#CALL [QuestDiary//Refine/Cancle.txt] @checkRefinePoints
+
+[@PreRefineAcessory]
+#CALL [QuestDiary//Refine/Accessory.txt] @RefineAccessory
+
+[@PreRefineGangOk]
+#CALL [QuestDiary//Refine/GangOk.txt] @RefineGangOk

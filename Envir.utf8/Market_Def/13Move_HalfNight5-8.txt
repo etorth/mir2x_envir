@@ -1,0 +1,3 @@
+;;13Move_HalfNight5-8.txt
+[@main]
+#CALL [QuestDiary//teleport/VanyaTele.txt] @HalfNight_Contry

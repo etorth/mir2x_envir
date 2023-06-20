@@ -1,0 +1,161 @@
+;;不要删掉此行
+[@NPCQuest_Check]
+{
+#ACT
+Mov D0 0
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_0
+
+#IF
+Check [205] 1
+Check [405] 0
+#ACT
+Mov D0 1
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_1
+
+#IF
+Check [207] 1
+Check [407] 0
+Checkitemw 寂幻之刃 1
+#ACT
+Mov D0 1
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_2
+
+#IF
+Check [209] 1
+Check [409] 0
+#ACT
+Mov D0 1
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_3
+
+[@NoQuest_Say]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_4
+
+;[@CALL_Npc_TodayQuest]
+;#CALL [QuestDiary/TodayQuest/QT_NPCSetting.txt] @NPCSetDairyQuest
+
+
+[@MadoTimeQuestfridayjaha]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoTimeQuestjaha_0]
+
+[@MadoTimeQuestjaha_0()]
+#ACT
+mov D1 %ARG(1)
+
+#IF
+DAYOFWEEK FRI
+HOUR 21 23
+Equal D1 5
+#ACT
+goto @MadoTimeQuestfridayjaha2
+break
+
+#IF
+DAYOFWEEK FRI
+HOUR 21 23
+Equal D1 4
+#ACT
+goto @MadoTimeQuestfridayjaha2
+break
+
+#IF
+DAYOFWEEK FRI
+HOUR 0 20
+Equal D1 4
+#ACT
+goto @MadoTimeQuestfridayjaha1
+break
+
+#IF
+#ACT
+break
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_5
+
+[@Zaha_Selection]
+#ACT
+FormatStr "FLD_JOB='%s'" "JOBSTORY"
+ReadValueSql "TBL_JobServerMain" %A9 "FLD_JOBNAME,FLD_JOBCONDITION" [@Zaha_Selection_0]
+
+[@Zaha_Selection_0()]
+#ACT
+mov A1 %ARG(1)
+mov A2 %ARG(2)
+
+#IF
+Equal A1 "Q031"
+Equal A2 "Start"
+#ACT
+Mov D0 1
+Goto @031select
+break
+
+
+#IF
+Equal A1 "Q007"
+Equal A2 "Start"
+#ACT
+Mov D0 1
+Goto @007select
+break
+
+#IF
+Equal A1 "Q1318"
+Equal A2 "Start"
+Mov D0 1
+#ACT
+Goto @1318select
+break
+
+#IF
+Equal A1 "Q1418"
+Equal A2 "Start"
+Mov D0 1
+#ACT
+Goto @1418select
+break
+
+#IF
+#ACT
+break
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/NpcQuest_Def/17Zaha_Numa-41.txt] @Convert_17Zaha_Numa-41_6
+
+;[@031select]
+;#CALL [QuestDiary//Judgement/Story/031/031NPC.txt] @031_NPC
+
+[;@007select]
+;#CALL [QuestDiary//Judgement/Story/007/NPC007.txt] @007_NPC
+
+;[@1318select]
+;#CALL [QuestDiary//Judgement/Story/1318/NPC019.txt] @019_NPC
+
+;[@1418select]
+;#CALL [QuestDiary//Judgement/Story/1418/NPC021.txt] @021_NPC
+
+
+[@MadoTimeQuestfridayjaha1]
+#CALL [QuestDiary/HonChondo/MadoNpcJaha.txt] @MadoQuestjahafriday
+
+
+[@MadoTimeQuestfridayjaha2]
+#CALL [QuestDiary/HonChondo/MadoNpcJaha.txt] @MadoQuestjahafriday2
+
+
+[@mainzaha_Talk1]
+#CALL [QuestDiary/HonChonMado/MadoHaveJaha.txt] @MadoHaveJaha_Talk
+}
+;;不要删掉此行

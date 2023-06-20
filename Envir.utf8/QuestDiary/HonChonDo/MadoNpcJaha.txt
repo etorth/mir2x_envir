@@ -1,0 +1,679 @@
+;;不要删掉此行
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[@MadoQuestjahafriday]
+{
+
+#IF
+DAYOFWEEK THU
+#ACT
+goto @MadoTimeQuestjahafridayTHU
+break
+
+#IF
+DAYOFWEEK FRI
+#ACT
+goto @MadoTimeQuestjahafriday
+break
+
+[@MadoTimeQuestjahafridayTHU]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoTimeQuestjahafridayTHU_0]
+
+[@MadoTimeQuestjahafridayTHU_0()]
+#IF
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 4
+#ACT
+goto @MadoTimeQuestjaha4fridayTHU
+break
+
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday_9_5
+break
+
+[@MadoTimeQuestjahafriday]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoTimeQuestjahafriday_0]
+
+[@MadoTimeQuestjahafriday_0()]
+#IF
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 4
+#ACT
+goto @MadoTimeQuestjaha4friday
+break
+
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday_9_5
+break
+
+[@MadoTimeQuestjaha4fridayTHU]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoTimeQuestjaha4fridayTHU_0]
+
+[@MadoTimeQuestjaha4fridayTHU_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D5 %ARG(3)
+
+#IF
+HOUR 22 23
+Equal D2 1
+Equal D3 0
+#ACT
+goto @MadoTimeQuestjahafriday_9_6
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday_9_5
+break
+
+[@MadoTimeQuestjaha4friday]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoTimeQuestjaha4friday_0]
+
+[@MadoTimeQuestjaha4friday_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D5 %ARG(3)
+
+#IF
+HOUR 0 20
+Equal D2 1
+Equal D3 0
+#ACT
+goto @MadoTimeQuestjahafriday_9
+break
+
+#IF
+HOUR 0 20
+Equal D2 2
+Equal D3 0
+#ACT
+goto @MadoTimeQuestjahafriday_9_4
+break
+
+
+#IF
+HOUR 0 20
+Equal D2 3
+Equal D3 0
+#ACT
+goto @MadoTimeQuestjahafriday1_9
+break
+
+#IF
+HOUR 21 23
+Equal D2 3
+Equal D3 0
+#ACT
+goto @MadoTimeQuestjahafridayno_9
+break
+
+#IF
+HOUR 0 20
+Equal D2 3
+Equal D3 1
+#ACT
+goto @MadoTimeQuestjahafriday1_9_2
+break
+
+#IF
+HOUR 0 20
+Equal D2 4
+Equal D3 0
+Equal D5 1
+#ACT
+goto @MadoTimeQuestjahafriday1_9_2_A
+break
+
+#IF
+HOUR 0 20
+Equal D2 4
+Equal D3 0
+Equal D5 2
+#ACT
+goto @MadoTimeQuestjahafriday1_9_2_B
+break
+
+#IF
+HOUR 0 20
+Equal D2 4
+Equal D3 0
+Equal D5 3
+#ACT
+goto @MadoTimeQuestjahafriday1_9_2_C
+break
+
+#IF
+HOUR 0 20
+Equal D2 4
+Equal D3 0
+Equal D5 4
+#ACT
+goto @MadoTimeQuestjahafriday1_9_2_D
+break
+
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday_9_5
+break
+
+[@MadoTimeQuestjahafriday_9]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_0
+
+[@MadoTimeQuestjahafriday_9_1]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_1
+
+[@MadoTimeQuestjahafriday_9_2]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_2
+
+[@MadoTimeQuestjahafriday_9_3]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_3
+
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=2"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+
+[@MadoTimeQuestjahafriday_9_4]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_4
+
+[@MadoTimeQuestjahafriday_9_5]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_5
+
+[@MadoTimeQuestjahafriday_9_6]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_6
+
+[@MadoTimeQuestjahafriday1_9]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_7
+
+[@MadoTimeQuestjahafridayno_9]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_8
+
+[@MadoTimeQuestjahafriday1_9_1]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_9
+
+[@MadoTimeQuestjahafriday1_9_2]
+#ACT
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+ReadValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET" [@MadoTimeQuestjahafriday1_9_3]
+
+[@MadoTimeQuestjahafriday1_9_3()]
+#ACT
+mov D7 %ARG(1)
+
+
+#IF
+Equal D7 0
+#ACT
+goto @MadoTimeQuestjahafriday1_931
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=1"
+break
+
+#IF
+Equal D7 1
+#ACT
+goto @MadoTimeQuestjahafriday1_932
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=2"
+break
+
+#IF
+Equal D7 2
+#ACT
+goto @MadoTimeQuestjahafriday1_933
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=3"
+break
+
+#IF
+Equal D7 3
+#ACT
+goto @MadoTimeQuestjahafriday1_934
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=4"
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday1_930
+break
+
+[@MadoTimeQuestjahafriday1_930]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_10
+
+[@MadoTimeQuestjahafriday1_931]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=1"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_11
+
+[@MadoTimeQuestjahafriday1_932]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=2"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_12
+
+[@MadoTimeQuestjahafriday1_933]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=3"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_13
+
+[@MadoTimeQuestjahafriday1_934]
+#IF
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=4"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=4"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_14
+
+[@MadoTimeQuestjahafriday1_9_2_A]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_15
+
+[@MadoTimeQuestjahafriday1_9_2_B]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_16
+
+[@MadoTimeQuestjahafriday1_9_2_C]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_17
+
+[@MadoTimeQuestjahafriday1_9_2_D]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_18
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+[@MadoQuestjahafriday2]
+{
+
+#IF
+DAYOFWEEK FRI
+#ACT
+goto @MadoTimeQuestjahafriday2
+break
+
+[@MadoTimeQuestjahafriday2]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN" [@MadoTimeQuestjahafriday2_0]
+
+[@MadoTimeQuestjahafriday2_0()]
+#IF
+#ACT
+mov D1 %ARG(1)
+
+#IF
+Equal D1 4
+#ACT
+goto @MadoTimeQuestjaha4friday2
+break
+
+#IF
+Equal D1 5
+#ACT
+goto @MadoTimeQuestjaha5friday
+break
+
+[@MadoTimeQuestjaha4friday2]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoTimeQuestjaha4friday2_0]
+
+[@MadoTimeQuestjaha4friday2_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D5 %ARG(3)
+
+#IF
+HOUR 21 23
+Equal D2 7
+Equal D3 1
+#ACT
+goto @MadoTimeQuestjahafriday_11
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday_11_5
+
+[@MadoTimeQuestjaha5friday]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT,FLD_MADOQUESTCHECK,FLD_MADOTEMPQUEST" [@MadoTimeQuestjaha5friday_0]
+
+[@MadoTimeQuestjaha5friday_0()]
+#ACT
+mov D2 %ARG(1)
+mov D3 %ARG(2)
+mov D5 %ARG(3)
+
+
+#IF
+HOUR 21 23
+Equal D2 1
+Equal D3 0
+#ACT
+goto @MadoTimeQuestjahafriday_11_4
+break
+
+#IF
+HOUR 21 23
+Equal D2 1
+Equal D3 1
+Equal D5 1
+#ACT
+goto @MadoTimeQuestjahafriday_11_A
+break
+
+#IF
+HOUR 21 23
+Equal D2 1
+Equal D3 1
+Equal D5 2
+#ACT
+goto @MadoTimeQuestjahafriday_11_B
+break
+
+#IF
+HOUR 21 23
+Equal D2 1
+Equal D3 1
+Equal D5 3
+#ACT
+goto @MadoTimeQuestjahafriday_11_C
+break
+
+#IF
+HOUR 21 23
+Equal D2 1
+Equal D3 1
+Equal D5 4
+#ACT
+goto @MadoTimeQuestjahafriday_11_D
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday_11_5
+
+
+[@MadoTimeQuestjahafriday_11]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_19
+
+[@MadoTimeQuestjahafriday_11_1]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_20
+
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=0"
+
+
+
+[@MadoTimeQuestjahafriday_11_2]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_21
+
+[@MadoTimeQuestjahafriday_11_3]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+ReadValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOPATTERN" [@MadoTimeQuestjahafriday_0_11_3]
+
+[@MadoTimeQuestjahafriday_0_11_3()]
+#ACT
+mov D4 %ARG(1)
+#IF
+Small D4 1
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOPATTERN=1"
+
+#IF
+!small D4 1
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOPATTERN=2"
+
+#IF
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_22
+
+[@MadoTimeQuestjahafriday_11_4]
+#ACT
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+ReadValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET" [@MadoTimeQuestjahafriday_11_4]
+
+[@MadoTimeQuestjahafriday_11_4()]
+#ACT
+mov D7 %ARG(1)
+
+
+#IF
+Small D7 5
+#ACT
+goto @MadoTimeQuestjahafriday_11_4_1
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=5"
+break
+
+#IF
+Equal D7 5
+#ACT
+goto @MadoTimeQuestjahafriday_11_4_2
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=6"
+break
+
+#IF
+Equal D7 6
+#ACT
+goto @MadoTimeQuestjahafriday_11_4_3
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=7"
+break
+
+#IF
+Equal D7 7
+#ACT
+goto @MadoTimeQuestjahafriday_11_4_4
+FormatStr "FLD_MADOQUEST='%s'" "HonChon"
+UpdateValueSql "TBL_HonChonMadoSeverFlag" %A9 "FLD_MADOQUESTSET=8"
+break
+
+#IF
+#ACT
+goto @MadoTimeQuestjahafriday_11_4_0
+break
+
+[@MadoTimeQuestjahafriday_11_4_0]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_23
+
+[@MadoTimeQuestjahafriday_11_4_1]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=1"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_24
+
+[@MadoTimeQuestjahafriday_11_4_2]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=2"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_25
+
+[@MadoTimeQuestjahafriday_11_4_3]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=3"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_26
+
+[@MadoTimeQuestjahafriday_11_4_4]
+#ACT
+FormatStr "FLD_MADOUSER='%s'" %USERNAME
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOMAIN=5"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOCONTENT=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOQUESTCHECK=1"
+UpdateValueSql "TBL_HonChonMadoQuest" %A9 "FLD_MADOTEMPQUEST=4"
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_27
+
+[@MadoTimeQuestjahafriday_11_A]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_28
+
+[@MadoTimeQuestjahafriday_11_B]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_29
+
+[@MadoTimeQuestjahafriday_11_C]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_30
+
+[@MadoTimeQuestjahafriday_11_D]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_31
+
+[@MadoTimeQuestjahafriday_11_5]
+
+#SAY
+#INCLUDE [Convert_Def/QuestDiary/HonChonDo/MadoNpcJaha.txt] @Convert_MadoNpcJaha_32
+
+}
+;;不要删掉此行

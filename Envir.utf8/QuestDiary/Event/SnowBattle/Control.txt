@@ -1,0 +1,84 @@
+;;Control.txt
+[@Main_Control]
+{
+#IF
+#ACT
+	LoadValue P0 "GM_Def\Event\SnowBattle\GM.txt" [EventTime] [EventOpenTime]
+Delaygoto [Grobal] %P0 @Event_Start
+
+[@Event_Start]
+#ACT
+loadValue P1 "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [start]
+#IF
+Equal P1 0
+#ACT
+;;-------------------------捞亥飘甘狼 浚乔揪见扁扁,甘加己悸泼
+SendCmd  "snow, 39, 29, 3"  传奇队发奖NPC Hide
+SendCmd  "snow, 22, 29, 3"  传说队发奖NPC Hide
+ResetMapAttr "snow"
+Monclear snow
+Mapting snow 0 435 377
+SetAreaAttr  "snow, 28, 29, 50"  "NoRevival"
+ChangeMapAttr  "snow" "NoSpell"
+ChangeMapAttr  "snow" "NOUNIQUEITEM"
+
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [Finish] 0
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Event_Timer] [Time] 0
+DelayGoto [Grobal] 3 @Event_wait
+break
+
+#SAY
+	#INCLUDE [Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Start
+
+#ELSEACT
+Break
+
+#ELSESAY
+	#INCLUDE [Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Fail
+
+[@Event_wait]
+#IF
+#ACT
+	SaveValue "Flag_Def\Event\SnowBattle\Gold.txt" [Gold] [Gold] 0
+	SaveValue "Flag_Def\Event\SnowBattle\Gold.txt" [Gold] [Reward] 0
+Delaygoto [Grobal] 3 @Event_Wait1_1
+
+[@Event_Wait1_1]
+#ACT
+;;-------------------------评盒府 函荐狼 檬扁拳 何盒
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [mir] 0
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [legend] 0
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [user_count] [check] 50
+DelayGoto [Grobal] 3 @Event_wait1
+
+[@Event_wait1]
+#ACT
+;;-------------------------捞变评 眉农函荐棺 胶内绢 敲贰弊狼 檬扁拳
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [wincheck] [Mirwin] 0
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [wincheck] [Legendwin] 0
+
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Hum_Check] [Mir] 0
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [Hum_Check] [Legend] 0
+DelayGoto [Grobal] 3 @Event_wait2
+
+[@Event_wait2]
+#ACT
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [start] 1
+SaveValue "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [join] 0
+loadValue P1 "Flag_Def\Event\SnowBattle\Flag.txt" [event_main] [start]
+#IF
+Equal P1 0
+#SAY
+	#INCLUDE [Convert_Def/Market_Def/19SB_GM-z010.txt] @NPC_Event_Fail_1
+
+#ACT
+break
+
+#ELSEACT
+Goto @Event_wait3
+
+[@Event_wait3]
+#CALL [QuestDiary//Event/SnowBattle/SnowBattle.txt] @SBMain
+
+goto @main_Control
+}
